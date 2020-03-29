@@ -3,12 +3,7 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/Elkaisar/api/AHeroArmy.php</file>
-            <file>file:/C:/xampp/htdocs/Elkaisar/api/AHeroEquip.php</file>
-            <file>file:/C:/xampp/htdocs/Elkaisar/api/AHero.php</file>
-            <file>file:/C:/xampp/htdocs/Elkaisar/api/ACityHero.php</file>
-            <file>file:/C:/xampp/htdocs/Elkaisar/api/APlayerHero.php</file>
-            <file>file:/C:/xampp/htdocs/Elkaisar/api/AHeroMedal.php</file>
+            <file>file:/C:/xampp/htdocs/Elkaisar/js/json/equipment/ar.json</file>
         </group>
     </open-files>
 </project-private>
