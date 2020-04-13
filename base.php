@@ -1,7 +1,7 @@
 <?php
 
 
-function cryptUserId( $string, $action = 'e' ) {
+function cryptUserId( $string, $action = 'd' ) {
     // you may change these values to your own
     $secret_key = 'my_simple_secret_key';
     $secret_iv  = 'my_simple_secret_iv';
