@@ -1,0 +1,1059 @@
+{
+    "cottage_1": {
+        "ar_title": "Erect Cottages",
+        "header": "Click on a Clearing and then click Erect under Cottages. <img src=\"img/Erect Cottages.jpg\"></img>",
+        "desc": "Cottages shelter citizens. Erect them now so that you may gather more citizens to help you do construction work."
+    },
+    "cottage_2": {
+        "ar_title": "Upgrade Cottages",
+        "header": "In your city, click on Cottages Lv 1, and click \"Upgrade\". If the Upgrade button is grey, that means you still have to meet certain requirements for Upgrade.<img src=\"img/Upgrade Cottages.jpg\"></img>",
+        "desc": "Cottages shelter citizens. Erect and upgrade Cottages to boost Population Capacity, and make Idle Population available to fill the Required Workers job position in resource fields (Farm, Sawmill, Quarry, and Iron Mine). Upgrade your Cottages to level 2 to attract more people to reside in your city."
+    },
+    "cottage_3": {
+        "ar_title": "Upgrade Cottages",
+        "header": "Find Cottages in your city and upgrade them to level 3.",
+        "desc": "Cottages shelter citizens. Erect and upgrade Cottages to boost Population Capacity, and make Idle Population available to fill the Required Workers job position in resource fields (Farm, Sawmill, Quarry, and Iron Mine). Upgrade your Cottages to level 3 to attract more people to reside in your city."
+    },
+    "cottage_4": {
+        "ar_title": "Upgrade Cottages",
+        "header": "Found Cottages in your city and upgrade them to level 4.",
+        "desc": "Cottages shelter citizens. Erect and upgrade Cottages to boost Population Capacity, and make Idle Population available to fill the Required Workers job position in resource fields (Farm, Sawmill, Quarry, and Iron Mine). Upgrade your Cottages to level 4 to attract more people to reside in your city."
+    },
+    "cottage_5": {
+        "ar_title": "Upgrade Cottages",
+        "header": "Find Cottages in your city and upgrade them to level 5.",
+        "desc": "Cottages shelter citizens. Erect and upgrade Cottages to boost Population Capacity, and make Idle Population available to fill the Required Workers job position in resource fields (Farm, Sawmill, Quarry, and Iron Mine). Upgrade your Cottages to level 5 to attract more people to reside in your city."
+    },
+    "cottage_6": {
+        "ar_title": "Upgrade Cottages",
+        "header": "Find Cottages in your city and upgrade them to level 6.",
+        "desc": "Cottages shelter citizens. Erect and upgrade Cottages to boost Population Capacity, and make Idle Population available to fill the Required Workers job position in resource fields (Farm, Sawmill, Quarry, and Iron Mine). Upgrade your Cottages to level 6 to attract more people to reside in your city."
+    },
+    "cottage_7": {
+        "ar_title": "Upgrade Cottages",
+        "header": "Find Cottages in your city and upgrade them to level 7.",
+        "desc": "Cottages shelter citizens. Erect and upgrade Cottages to boost Population Capacity, and make Idle Population available to fill the Required Workers job position in resource fields (Farm, Sawmill, Quarry, and Iron Mine). Upgrade your Cottages to level 7 to attract more people to reside in your city."
+    },
+    "cottage_8": {
+        "ar_title": "Upgrade Cottages",
+        "header": "Found Cottages in your city and upgrade them to level 8.",
+        "desc": "Cottages shelter citizens. Erect and upgrade Cottages to boost Population Capacity, and make Idle Population available to fill the Required Workers job position in resource fields (Farm, Sawmill, Quarry, and Iron Mine). Upgrade your Cottages to level 8 to attract more people to reside in your city."
+    },
+    "cottage_9": {
+        "ar_title": "Upgrade Cottages",
+        "header": "Find Cottages in your city and upgrade them to level 9.",
+        "desc": "Cottages shelter citizens. Erect and upgrade Cottages to boost Population Capacity, and make Idle Population available to fill the Required Workers job position in resource fields (Farm, Sawmill, Quarry, and Iron Mine). Upgrade your Cottages to level 9 to attract more people to reside in your city."
+    },
+    "cottage_10": {
+        "ar_title": "Upgrade Cottages",
+        "header": "Found Cottages in your city and upgrade them to level 10.",
+        "desc": "Cottages shelter citizens. Erect and upgrade Cottages to boost Population Capacity, and make Idle Population available to fill the Required Workers job position in resource fields (Farm, Sawmill, Quarry, and Iron Mine). Upgrade your Cottages to level 10 to attract more people to reside in your city."
+    },
+    "store_1": {
+        "ar_title": "Erect Warehouse",
+        "header": "Click on a Clearing and then click Erect under Warehouse. If the Erect requirement is met, the Erect  button is functional; otherwise, it's shaded in gray.<img src=\"img/Erect Warehouse.jpg\"></img>",
+        "desc": "Your city is blooming and resources are flooding in. Increase your Warehouse Storage Capacity so that it can protect your resources from Maraud."
+    },
+    "store_2": {
+        "ar_title": "Upgrade Warehouse",
+        "header": "In your city, click on a level 1 \"Warehouse\", and then click \"Upgrade\". If the upgrade requirement is met, the Upgrade button is functional; otherwise, it's shaded in gray.<img src=\"img/Upgrade Warehouse.jpg\"></img>",
+        "desc": "Your Warehouse has been erected, but it is not likely to be sufficient. Upgrade your Warehouse so that your resources produced by the resource fields have a place to be stored. Warehouse protects your resources from Maraud."
+    },
+    "store_3": {
+        "ar_title": "Upgrade Warehouse",
+        "header": "In your city, select Warehouse, and upgrade it to level 3.",
+        "desc": "Your Warehouse has been erected, but it is not likely to be sufficient. Upgrade your Warehouse so that your resources produced by the resource fields have a place to be stored. Warehouse protects your resources from Maraud."
+    },
+    "store_4": {
+        "ar_title": "Upgrade Warehouse",
+        "header": "In your city, select Warehouse, and upgrade it to level 4.",
+        "desc": "Your Warehouse has been erected, but it is not likely to be sufficient. Upgrade your Warehouse so that your resources produced by the resource fields have a place to be stored. Warehouse protects your resources from Maraud."
+    },
+    "store_5": {
+        "ar_title": "Upgrade Warehouse",
+        "header": "In your city, select Warehouse, and upgrade it to level 5.",
+        "desc": "Your Warehouse has been erected, but it is not likely to be sufficient. Upgrade your Warehouse so that your resources produced by the resource fields have a place to be stored. Warehouse protects your resources from Maraud."
+    },
+    "store_6": {
+        "ar_title": "Upgrade Warehouse",
+        "header": "In your city, select Warehouse, and upgrade it to level 6.",
+        "desc": "Your Warehouse has been erected, but it is not likely to be sufficient. Upgrade your Warehouse so that your resources produced by the resource fields have a place to be stored. Warehouse protects your resources from Maraud."
+    },
+    "store_7": {
+        "ar_title": "Upgrade Warehouse",
+        "header": "In your city, select Warehouse, and upgrade it to level 7.",
+        "desc": "Your Warehouse has been erected, but it is not likely to be sufficient. Upgrade your Warehouse so that your resources produced by the resource fields have a place to be stored. Warehouse protects your resources from Maraud."
+    },
+    "store_8": {
+        "ar_title": "Upgrade Warehouse",
+        "header": "In your city, select Warehouse, and upgrade it to level 8.",
+        "desc": "Your Warehouse has been erected, but it is not likely to be sufficient. Upgrade your Warehouse so that your resources produced by the resource fields have a place to be stored. Warehouse protects your resources from Maraud."
+    },
+    "store_9": {
+        "ar_title": "Upgrade Warehouse",
+        "header": "In your city, select Warehouse, and upgrade it to level 9.",
+        "desc": "Your Warehouse has been erected, but it is not likely to be sufficient. Upgrade your Warehouse so that your resources produced by the resource fields have a place to be stored. Warehouse protects your resources from Maraud."
+    },
+    "store_10": {
+        "ar_title": "Upgrade Warehouse",
+        "header": "In your city, select Warehouse, and upgrade it to level 10.",
+        "desc": "Your Warehouse has been erected, but it is not likely to be sufficient. Upgrade your Warehouse so that your resources produced by the resource fields have a place to be stored. Warehouse protects your resources from Maraud."
+    },
+    "palace_2": {
+        "ar_title": "Upgrade Rectorate",
+        "header": "Click on \"Rectorate\", and then click \"Upgrade\". If the Upgrade button is grey, that means you still have to meet certain requirements for Upgrade.<img src=\"img/Upgrade Rectorate.jpg\"></img>",
+        "desc": "Your city is flourishing. Bravo! You can get further ahead by upgrading the Rectorate now. You will be allowed to build more and build faster! You can expand your city and get 4 more Clearings on which to erect buildings upon the Rectorate reaching level 4, 8 and 10."
+    },
+    "palace_3": {
+        "ar_title": "Upgrade Rectorate",
+        "header": "Click on \"Rectorate\", and then click \"Upgrade\". If the Upgrade button is grey, that means you still have to meet certain requirements for Upgrade.",
+        "desc": "Your city is flourishing. Bravo! You can get further ahead by upgrading the Rectorate now. You will be allowed to build more and build faster! You can expand your city and get 4 more Clearings on which to erect buildings upon the Rectorate reaching level 4, 8 and 10."
+    },
+    "palace_4": {
+        "ar_title": "Upgrade Rectorate",
+        "header": "Click on \"Rectorate\", and then click \"Upgrade\". If the Upgrade button is grey, that means you still have to meet certain requirements for Upgrade.",
+        "desc": "Your city is flourishing. Nice job! You can advance by upgrading the Rectorate now. You will be allowed to build more and build faster! Your city has the chance to expand every time the Rectorate reaches level 4, 8 and 10!"
+    },
+    "palace_5": {
+        "ar_title": "Upgrade Rectorate",
+        "header": "Click on \"Rectorate\", and then click \"Upgrade\". If the Upgrade button is grey, that means you still have to meet certain requirements for Upgrade.",
+        "desc": "Your city is flourishing. Bravo! You can get further ahead by upgrading the Rectorate now. You will be allowed to build more and build faster! You can expand your city and get 4 more Clearings on which to erect buildings upon the Rectorate reaching level 4, 8 and 10."
+    },
+    "palace_6": {
+        "ar_title": "Upgrade Rectorate",
+        "header": "Click on \"Rectorate\", and then click \"Upgrade\". If the Upgrade button is grey, that means you still have to meet certain requirements for Upgrade.",
+        "desc": "Your city is flourishing. Bravo! You can get further ahead by upgrading the Rectorate now. You will be allowed to build more and build faster! You can expand your city and get 4 more Clearings on which to erect buildings upon the Rectorate reaching level 4, 8 and 10."
+    },
+    "palace_7": {
+        "ar_title": "Upgrade Rectorate",
+        "header": "Click on \"Rectorate\", and then click \"Upgrade\". If the Upgrade button is grey, that means you still have to meet certain requirements for Upgrade.",
+        "desc": "Your city is flourishing. Bravo! You can get further ahead by upgrading the Rectorate now. You will be allowed to build more and build faster! You can expand your city and get 4 more Clearings on which to erect buildings upon the Rectorate reaching level 4, 8 and 10."
+    },
+    "palace_8": {
+        "ar_title": "Upgrade Rectorate",
+        "header": "Click on \"Rectorate\", and then click \"Upgrade\". If the Upgrade button is grey, that means you still have to meet certain requirements for Upgrade.",
+        "desc": "Your city is flourishing. Nice job! You can advance by upgrading the Rectorate now. You will be allowed to build more and build faster! Your city has the chance to expand upon the Rectorate reaching level 4, 8, and 10!"
+    },
+    "palace_9": {
+        "ar_title": "Upgrade Rectorate",
+        "header": "Click on \"Rectorate\", and then click \"Upgrade\". If the Upgrade button is grey, that means you still have to meet certain requirements for Upgrade.",
+        "desc": "Your city is flourishing. Bravo! You can get further ahead by upgrading the Rectorate now. You will be allowed to build more and build faster! You can expand your city and get 4 more Clearings on which to erect buildings upon the Rectorate reaching level 4, 8 and 10."
+    },
+    "palace_10": {
+        "ar_title": "Upgrade Rectorate",
+        "header": "Click on \"Rectorate\", and then click \"Upgrade\". If the Upgrade button is grey, that means you still have to meet certain requirements for Upgrade.",
+        "desc": "Your city is flourishing. Nice job! You can advance by upgrading the Rectorate now. You will be allowed to build more and build faster! Your city has the chance to expand upon the Rectorate reaching level 4, 8, and 10!"
+    },
+    "pop_1": {
+        "ar_title": "Complete Infrastructure",
+        "header": "Erect and upgrade Cottages until Population Capacity reaches 500.",
+        "desc": "Your internal management is improving and you could certainly use more help from more loyal citizens!"
+    },
+    "pop_2": {
+        "ar_title": "Complete Infrastructure",
+        "header": "Erect and upgrade Cottages until Population Capacity reaches 5000.",
+        "desc": "Your internal management skill is amazing and you could certainly use more help from more loyal citizens!"
+    },
+    "pop_3": {
+        "ar_title": "Complete Infrastructure",
+        "header": "Erect and upgrade Cottages until Population Capacity reaches 50000.",
+        "desc": "Your city is thriving. Yet you will need more buildings and resources for people to immigrate to your cities. Once your city's Population Capacity reaches 50000, it will become a metropolis!"
+    },
+    "pop_4": {
+        "ar_title": "Complete Infrastructure",
+        "header": "Erect and upgrade Cottages until Population Capacity reaches 50000.",
+        "desc": "Your city is thriving. Yet you will need more buildings and resources for people to immigrate to your cities. Once your city's Population Capacity reaches 50000, it will become a metropolis!"
+    },
+    "jop_1": {
+        "ar_title": "Erect Cottages",
+        "header": "Click on a Clearing and then click Erect under Cottages. <img src=\"img/Erect Cottages.jpg\"></img>",
+        "desc": "Cottages shelter citizens. Erect them now so that you may gather more citizens to help you do construction work."
+    },
+    "jop_2": {
+        "ar_title": "Employment Management",
+        "header": "In your city, select resource fields (Farm, Sawmill, Quarry and Iron Mine), and creates 50 Jobs for each of them.",
+        "desc": "You have built quite a few infrastructures but some of your citizens are still idling. Clearly you should put more Idle Population to work! Tune up the Target Job Occupancy Rate (TJOR) in \"Production Performance\" of Rectorate. Creating more Jobs in the resource fields (Farm, Sawmill, Quarry, and Iron Mine)."
+    },
+    "farm_2": {
+        "ar_title": "Upgrade Farms",
+        "header": "In your city, select Farms, and upgrade it to level 2. <img src=\"img/Upgrade Farms.jpg\"></img>",
+        "desc": "City is expanding. Everyone needs to eat. Crops is indespensible in every aspect of the city life. The higher level of your Farm, the faster Crops are grown and the more Husbandry Job it can create, one at a time, on each request."
+    },
+    "wood_2": {
+        "ar_title": "Upgrade Sawmill",
+        "header": "In your city, select Sawmill, and upgrade it to level 2. <img src=\"img/Upgrade Sawmill.jpg\"></img>",
+        "desc": "Lumber is an essential part for buildings of all sorts and all the more important for military purposes. The higher the level of Sawmill, the faster Lumber is"
+    },
+    "uni_1": {
+        "ar_title": "Erect University",
+        "header": "Click on a Clearing and then click Erect under University. If the Erect requirement is met, the Erect  button is functional; otherwise, it's shaded in gray.<img src=\"img/Erect University.jpg\"></img>",
+        "desc": "The University develops technologies that speed up constructions. The higher the level of University, the higher level of technologies you can study and the faster they will be finished."
+    },
+    "uni_2": {
+        "ar_title": "Upgrade University",
+        "header": "In your city, click on \"University\", and click \"Upgrade\". If the Upgrade button is grey, that means you still have to meet certain requirements for Upgrade.",
+        "desc": "The University develops technologies that speed up constructions. The higher the level of University, the higher level of technologies you can study and the faster they will be finished."
+    },
+    "uni_3": {
+        "ar_title": "Upgrade University",
+        "header": "In your city, select University, and upgrade it to level 3.",
+        "desc": "The University develops technologies that speed up constructions. The higher the level of University, the higher level of technologies you can study and the faster they will be finished."
+    },
+    "uni_4": {
+        "ar_title": "Upgrade University",
+        "header": "In your city, select University, and upgrade it to level 4.",
+        "desc": "The University develops technologies that speed up constructions. The higher the level of University, the higher level of technologies you can study and the faster they will be finished."
+    },
+    "uni_5": {
+        "ar_title": "Upgrade University",
+        "header": "In your city, select University, and upgrade it to level 5.",
+        "desc": "The University develops technologies that speed up constructions. The higher the level of University, the higher level of technologies you can study and the faster they will be finished."
+    },
+    "uni_6": {
+        "ar_title": "Upgrade University",
+        "header": "In your city, select University, and upgrade it to level 6.",
+        "desc": "The University develops technologies that speed up constructions. The higher the level of University, the higher level of technologies you can study and the faster they will be finished."
+    },
+    "uni_7": {
+        "ar_title": "Upgrade University",
+        "header": "In your city, select University, and upgrade it to level 7.",
+        "desc": "The University develops technologies that speed up constructions. The higher the level of University, the higher level of technologies you can study and the faster they will be finished."
+    },
+    "uni_8": {
+        "ar_title": "Upgrade University",
+        "header": "In your city, select University, and upgrade it to level 8.",
+        "desc": "The University develops technologies that speed up constructions. The higher the level of University, the higher level of technologies you can study and the faster they will be finished."
+    },
+    "uni_9": {
+        "ar_title": "Upgrade University",
+        "header": "In your city, select University, and upgrade it to level 9.",
+        "desc": "The University develops technologies that speed up constructions. The higher the level of University, the higher level of technologies you can study and the faster they will be finished."
+    },
+    "uni_10": {
+        "ar_title": "Upgrade University",
+        "header": "In your city, select University, and upgrade it to level 10.",
+        "desc": "The University develops technologies that speed up constructions. The higher the level of University, the higher level of technologies you can study and the faster they will be finished."
+    },
+    "acad_1": {
+        "ar_title": "Erect Academy",
+        "header": "Click on a Clearing and then click Erect under \"Academy\". If the Erect requirement is met, the Erect  button is functional; otherwise, it's shaded in gray.<img src=\"img/Erect Academy.jpg\"></img>",
+        "desc": "The Academy specializes in developing technologies for military purposes. The higher the level of the Academy, the higher the level of technologies you can study and the faster they will be finished."
+    },
+    "acad_2": {
+        "ar_title": "Upgrade Academy",
+        "header": "In your city, click on Academy level 1, and click \"Upgrade\". If the Upgrade button is grey, that means you still have to meet certain requirements for Upgrade.",
+        "desc": "The Academy specializes in developing technologies for military purposes. The higher the level of the Academy, the higher the level of technologies you can study and the faster they will be finished."
+    },
+    "acad_3": {
+        "ar_title": "Upgrade Academy",
+        "header": "In your city, select Academy, and upgrade it to level 3.",
+        "desc": "The Academy specializes in developing technologies for military purposes. The higher the level of the Academy, the higher the level of technologies you can study and the faster they will be finished."
+    },
+    "acad_4": {
+        "ar_title": "Upgrade Academy",
+        "header": "In your city, select Academy, and upgrade it to level 4.",
+        "desc": "The Academy specializes in developing technologies for military purposes. The higher the level of the Academy, the higher the level of technologies you can study and the faster they will be finished."
+    },
+    "acad_5": {
+        "ar_title": "Upgrade Academy",
+        "header": "In your city, select Academy, and upgrade it to level 5.",
+        "desc": "The Academy specializes in developing technologies for military purposes. The higher the level of the Academy, the higher the level of technologies you can study and the faster they will be finished."
+    },
+    "acad_6": {
+        "ar_title": "Upgrade Academy",
+        "header": "In your city, select Academy, and upgrade it to level 6.",
+        "desc": "The Academy specializes in developing technologies for military purposes. The higher the level of the Academy, the higher the level of technologies you can study and the faster they will be finished."
+    },
+    "acad_7": {
+        "ar_title": "Upgrade Academy",
+        "header": "In your city, select Academy, and upgrade it to level 7.",
+        "desc": "The Academy specializes in developing technologies for military purposes. The higher the level of the Academy, the higher the level of technologies you can study and the faster they will be finished."
+    },
+    "acad_8": {
+        "ar_title": "Upgrade Academy",
+        "header": "In your city, select Academy, and upgrade it to level 8.",
+        "desc": "The Academy specializes in developing technologies for military purposes. The higher the level of the Academy, the higher the level of technologies you can study and the faster they will be finished."
+    },
+    "acad_9": {
+        "ar_title": "Upgrade Academy",
+        "header": "In your city, select Academy, and upgrade it to level 9.",
+        "desc": "The Academy specializes in developing technologies for military purposes. The higher the level of the Academy, the higher the level of technologies you can study and the faster they will be finished."
+    },
+    "acad_10": {
+        "ar_title": "Upgrade Academy",
+        "header": "In your city, select Academy, and upgrade it to level 10.",
+        "desc": "The Academy specializes in developing technologies for military purposes. The higher the level of the Academy, the higher the level of technologies you can study and the faster they will be finished."
+    },
+    "wall_1": {
+        "ar_title": "Erect Wall",
+        "header": "Click on Wall Lv 0, and click on Erect under\"Wall\". If the Erect requirement is met, the Erect  button is functional; otherwise, it's shaded in gray.<img src=\"img/Erect Wall.jpg\"></img>",
+        "desc": "You have pretty much everything except a city Wall. Wall requires large number of Stone so work hard to create more Gemology jobs. You may plant all sorts of fortifications on your Wall to guard your city against invasions."
+    },
+    "wall_2": {
+        "ar_title": "Fortify Wall",
+        "header": "In your city, Click on Wall Lv 1, and click \"Upgrade\". If the Upgrade button is grey, that means you still have to meet certain requirements for Upgrade.",
+        "desc": "Walls offer tremendous military protection through boosting the defenses of troops within the city, offering space to plant fortifications, and simply acting as a barrier to invaders. The higher the level of your Wall, the stronger your defense mechanisms are!"
+    },
+    "wall_3": {
+        "ar_title": "Fortify Wall",
+        "header": "In your city, select Wall, and upgrade it to level 3.",
+        "desc": "Walls offer tremendous military protection through boosting the defenses of troops within the city, offering space to plant fortifications, and simply acting as a barrier to invaders. The higher the level of your Wall, the stronger your defense mechanisms are!"
+    },
+    "wall_4": {
+        "ar_title": "Fortify Wall",
+        "header": "In your city, select Wall, and upgrade it to level 4.",
+        "desc": "Walls offer tremendous military protection through boosting the defenses of troops within the city, offering space to plant fortifications, and simply acting as a barrier to invaders. The higher the level of your Wall, the stronger your defense mechanisms are!"
+    },
+    "wall_5": {
+        "ar_title": "Fortify Wall",
+        "header": "In your city, select Wall, and upgrade it to level 5.",
+        "desc": "Walls offer tremendous military protection through boosting the defenses of troops within the city, offering space to plant fortifications, and simply acting as a barrier to invaders. The higher the level of your Wall, the stronger your defense mechanisms are!"
+    },
+    "wall_6": {
+        "ar_title": "Fortify Wall",
+        "header": "In your city, select Wall, and upgrade it to level 6.",
+        "desc": "Walls offer tremendous military protection through boosting the defenses of troops within the city, offering space to plant fortifications, and simply acting as a barrier to invaders. The higher the level of your Wall, the stronger your defense mechanisms are!"
+    },
+    "wall_7": {
+        "ar_title": "Fortify Wall",
+        "header": "In your city, select Wall, and upgrade it to level 7.",
+        "desc": "Walls offer tremendous military protection through boosting the defenses of troops within the city, offering space to plant fortifications, and simply acting as a barrier to invaders. The higher the level of your Wall, the stronger your defense mechanisms are!"
+    },
+    "wall_8": {
+        "ar_title": "Fortify Wall",
+        "header": "In your city, select Wall, and upgrade it to level 8.",
+        "desc": "Walls offer tremendous military protection through boosting the defenses of troops within the city, offering space to plant fortifications, and simply acting as a barrier to invaders. The higher the level of your Wall, the stronger your defense mechanisms are!"
+    },
+    "wall_9": {
+        "ar_title": "Fortify Wall",
+        "header": "In your city, select Wall, and upgrade it to level 9.",
+        "desc": "Walls offer tremendous military protection through boosting the defenses of troops within the city, offering space to plant fortifications, and simply acting as a barrier to invaders. The higher the level of your Wall, the stronger your defense mechanisms are!"
+    },
+    "wall_10": {
+        "ar_title": "Fortify Wall",
+        "header": "In your city, select Wall, and upgrade it to level 10.",
+        "desc": "Walls offer tremendous military protection through boosting the defenses of troops within the city, offering space to plant fortifications, and simply acting as a barrier to invaders. The higher the level of your Wall, the stronger your defense mechanisms are!"
+    },
+    "theat_1": {
+        "ar_title": "Erect Amphitheatre",
+        "header": "Click on a Clearing and then click Erect under Amphitheatre. If the Erect requirement is met, the Erect  button is functional; otherwise, it's shaded in gray.<img src=\"img/Erect Amphitheatre.jpg\"></img>",
+        "desc": "Talents are rare and you need help from capable heroes. Erect Amphitheatre to attract heroes for recruitment. The higher the level of Amphitheatre, the more heroes of higher level show up for you!"
+    },
+    "theat_2": {
+        "ar_title": "Upgrade Amphitheatre",
+        "header": "In your city, click on Amphitheatre Lv 2, and click \"Upgrade\".",
+        "desc": "Upgrade Your Amphitheatre to increase the odds of finding rare talents. Reward them with handsome gifts to boost their loyalty. The higher the level of Amphitheatre, the more high-level heroes will show up for you!"
+    },
+    "theat_3": {
+        "ar_title": "Upgrade Amphitheatre",
+        "header": "In your city, click on Amphitheatre Lv 3, and click \"Upgrade\".",
+        "desc": "Upgrade Your Amphitheatre to increase the odds of finding rare talents. Reward them with handsome gifts to boost their loyalty. The higher the level of Amphitheatre, the more high-level heroes will show up for you!"
+    },
+    "theat_4": {
+        "ar_title": "Upgrade Amphitheatre",
+        "header": "In your city, click on Amphitheatre Lv 3, and click \"Upgrade\".",
+        "desc": "Upgrade Your Amphitheatre to increase the odds of finding rare talents. Reward them with handsome gifts to boost their loyalty. The higher the level of Amphitheatre, the more high-level heroes will show up for you!"
+    },
+    "theat_5": {
+        "ar_title": "Upgrade Amphitheatre",
+        "header": "In your city, click on Amphitheatre Lv 4, and click \"Upgrade\".",
+        "desc": "Upgrade Your Amphitheatre to increase the odds of finding rare talents. Reward them with handsome gifts to boost their loyalty. The higher the level of Amphitheatre, the more high-level heroes will show up for you!"
+    },
+    "theat_6": {
+        "ar_title": "Upgrade Amphitheatre",
+        "header": "In your city, click on Amphitheatre Lv 5, and click \"Upgrade\".",
+        "desc": "Upgrade Your Amphitheatre to increase the odds of finding rare talents. Reward them with handsome gifts to boost their loyalty. The higher the level of Amphitheatre, the more high-level heroes will show up for you!"
+    },
+    "theat_7": {
+        "ar_title": "Upgrade Amphitheatre",
+        "header": "In your city, click on Amphitheatre Lv 6, and click \"Upgrade\".",
+        "desc": "Upgrade Your Amphitheatre to increase the odds of finding rare talents. Reward them with handsome gifts to boost their loyalty. The higher the level of Amphitheatre, the more high-level heroes will show up for you!"
+    },
+    "theat_8": {
+        "ar_title": "Upgrade Amphitheatre",
+        "header": "In your city, click on Amphitheatre Lv 7, and click \"Upgrade\".",
+        "desc": "Upgrade Your Amphitheatre to increase the odds of finding rare talents. Reward them with handsome gifts to boost their loyalty. The higher the level of Amphitheatre, the more high-level heroes will show up for you!"
+    },
+    "theat_9": {
+        "ar_title": "Upgrade Amphitheatre",
+        "header": "In your city, click on Amphitheatre Lv 8, and click \"Upgrade\".",
+        "desc": "Upgrade Your Amphitheatre to increase the odds of finding rare talents. Reward them with handsome gifts to boost their loyalty. The higher the level of Amphitheatre, the more high-level heroes will show up for you!"
+    },
+    "theat_10": {
+        "ar_title": "Upgrade Amphitheatre",
+        "header": "In your city, click on Amphitheatre Lv 9, and click \"Upgrade\".",
+        "desc": "Upgrade Your Amphitheatre to increase the odds of finding rare talents. Reward them with handsome gifts to boost their loyalty. The higher the level of Amphitheatre, the more high-level heroes will show up for you!"
+    },
+    "worship_1": {
+        "ar_title": "Erect Temple",
+        "header": "Click on a Clearing and then click Erect at Temple. If the Erect requirement is met, the Erect button is functional; otherwise, it's shaded in gray.<img src=\"img/Erect Temple.jpg\"></img>",
+        "desc": "Temple is an icon for Roman religion where you worship god to receive special enhancement and collect resources. Appease Criticism can increase citizens' Allegiance."
+    },
+    "worship_2": {
+        "ar_title": "Upgrade Temple",
+        "header": "In your city, click on \"Temple\", and click \"Upgrade\". If the Upgrade button is grey, that means you still have to meet certain requirements for Upgrade.",
+        "desc": "Temple is an icon for Roman religion where you can pacify your citizens and collect resources from them. Different gods and goddesses add different boosts to your production. The higher the level of your Temple, the greater production boost you can receive."
+    },
+    "worship_3": {
+        "ar_title": "Upgrade Temple",
+        "header": "In your city, select Temple, and upgrade it to level 3.",
+        "desc": "Temple is an icon for Roman religion. Different gods or goddesses add different boosts to your production. The higher the level of your Temple, the greater production boost you can receive."
+    },
+    "worship_4": {
+        "ar_title": "Upgrade Temple",
+        "header": "In your city, select Temple, and upgrade it to level 4.",
+        "desc": "Temple is an icon for Roman religion. Different gods or goddesses add different boosts to your production. The higher the level of your Temple, the greater production boost you can receive."
+    },
+    "worship_5": {
+        "ar_title": "Upgrade Temple",
+        "header": "In your city, select Temple, and upgrade it to level 5.",
+        "desc": "Temple is an icon for Roman religion. Different gods or goddesses add different boosts to your production. The higher the level of your Temple, the greater production boost you can receive."
+    },
+    "worship_6": {
+        "ar_title": "Upgrade Temple",
+        "header": "In your city, select Temple, and upgrade it to level 6.",
+        "desc": "Temple is an icon for Roman religion. Different gods or goddesses add different boosts to your production. The higher the level of your Temple, the greater production boost you can receive."
+    },
+    "worship_7": {
+        "ar_title": "Upgrade Temple",
+        "header": "In your city, select Temple, and upgrade it to level 7.",
+        "desc": "Temple is an icon for Roman religion. Different gods or goddesses add different boosts to your production. The higher the level of your Temple, the greater production boost you can receive."
+    },
+    "worship_8": {
+        "ar_title": "Upgrade Temple",
+        "header": "In your city, select Temple, and upgrade it to level 8.",
+        "desc": "Temple is an icon for Roman religion. Different gods or goddesses add different boosts to your production. The higher the level of your Temple, the greater production boost you can receive."
+    },
+    "worship_9": {
+        "ar_title": "Upgrade Temple",
+        "header": "In your city, select Temple, and upgrade it to level 9.",
+        "desc": "Temple is an icon for Roman religion. Different gods or goddesses add different boosts to your production. The higher the level of your Temple, the greater production boost you can receive."
+    },
+    "worship_10": {
+        "ar_title": "Upgrade Temple",
+        "header": "In your city, select Temple, and upgrade it to level 10.",
+        "desc": "Temple is an icon for Roman religion. Different gods or goddesses add different boosts to your production. The higher the level of your Temple, the greater production boost you can receive."
+    },
+    "barracks_1": {
+        "ar_title": "Erect Barracks",
+        "header": "Click on a Clearing and then click Erect under \"Barracks\". If Erect is grey, that means you still have to meet certain requirements in order to begin construction.<img src=\"img/Erect Barrack.jpg\"></img>",
+        "desc": "Barracks train Hastatus, Sagittarii and Principes. Some types of infantry need to have a Barracks of high level to be trained. You can erect more than one Barracks in your city. Dismissal of infantry is also conducted in Barracks."
+    },
+    "barracks_2": {
+        "ar_title": "Upgrade Barracks",
+        "header": "In your city, click on level 1 \"Barrack\", and click \"Upgrade\". If the upgrade requirement is met, the Upgrade button is functional; otherwise, it's shaded in gray.",
+        "desc": "Barracks train infantry: Hastatus, Sagittarii and Principes. The higher its level, the more advanced level of infantry you can train and the more training queues allowed."
+    },
+    "barracks_3": {
+        "ar_title": "Upgrade Barracks",
+        "desc": "Barracks train infantry: Hastatus, Sagittarii and Principes. The higher its level, the more advanced level of infantry you can train and the more training queues allowed.",
+        "header": "In your city, select Barrack, and upgrade it to level 3."
+    },
+    "barracks_4": {
+        "ar_title": "Upgrade Barracks",
+        "desc": "Barracks train infantry: Hastatus, Sagittarii and Principes. The higher its level, the more advanced level of infantry you can train and the more training queues allowed.",
+        "header": "In your city, select Barrack, and upgrade it to level 4."
+    },
+    "barracks_5": {
+        "ar_title": "Upgrade Barracks",
+        "desc": "Barracks train infantry: Hastatus, Sagittarii and Principes. The higher its level, the more advanced level of infantry you can train and the more training queues allowed.",
+        "header": "In your city, select Barrack, and upgrade it to level 5."
+    },
+    "barracks_6": {
+        "ar_title": "Upgrade Barracks",
+        "desc": "Barracks train infantry: Hastatus, Sagittarii and Principes. The higher its level, the more advanced level of infantry you can train and the more training queues allowed.",
+        "header": "In your city, select Barrack, and upgrade it to level 6."
+    },
+    "barracks_7": {
+        "ar_title": "Upgrade Barracks",
+        "desc": "Barracks train infantry: Hastatus, Sagittarii and Principes. The higher its level, the more advanced level of infantry you can train and the more training queues allowed.",
+        "header": "In your city, select Barrack, and upgrade it to level 7."
+    },
+    "barracks_8": {
+        "ar_title": "Upgrade Barracks",
+        "desc": "Barracks train infantry: Hastatus, Sagittarii and Principes. The higher its level, the more advanced level of infantry you can train and the more training queues allowed.",
+        "header": "In your city, select Barrack, and upgrade it to level 8."
+    },
+    "barracks_9": {
+        "ar_title": "Upgrade Barracks",
+        "header": "In your city, select Barrack, and upgrade it to level 9.",
+        "desc": "Barracks train infantry: Hastatus, Sagittarii and Principes. The higher its level, the more advanced level of infantry you can train and the more training queues allowed."
+    },
+    "barracks_10": {
+        "ar_title": "Upgrade Barracks",
+        "header": "In your city, select Barrack, and upgrade it to level 10.",
+        "desc": "Barracks train infantry: Hastatus, Sagittarii and Principes. The higher its level, the more advanced level of infantry you can train and the more training queues allowed."
+    },
+    "stabl_1": {
+        "ar_title": "Erect Stable",
+        "header": "Click on a Clearing and then click Erect under \"Stable\". If Erect is grey, that means you still have to meet certain requirements in order to begin construction.<img src=\"img/Erect Stable.jpg\"></img>",
+        "desc": "Stable trains horsemen: Speculatore and Equites. The higher its level, the faster they finish training. You can erect more than one Stable in your city. Dismissal of horsemen is also conducted here."
+    },
+    "stabl_2": {
+        "ar_title": "Upgrade Stable",
+        "header": "In your city, click on level 1 \"Stable\", and click \"Upgrade\". If the upgrade requirement is met, the Upgrade button is functional; otherwise, it's shaded in gray.",
+        "desc": "The Stable trains Speculatores and Equites. The higher its level, the faster they finish training and the more training queues allowed."
+    },
+    "stabl_3": {
+        "ar_title": "Upgrade Stable",
+        "header": "In your city, select Stable, and upgrade it to level 3.",
+        "desc": "The Stable trains Speculatores and Equites. The higher its level, the faster they finish training and the more training queues allowed."
+    },
+    "stabl_4": {
+        "ar_title": "Upgrade Stable",
+        "header": "In your city, select Stable, and upgrade it to level 4.",
+        "desc": "The Stable trains Speculatores and Equites. The higher its level, the faster they finish training and the more training queues allowed."
+    },
+    "stabl_5": {
+        "ar_title": "Upgrade Stable",
+        "header": "In your city, select Stable, and upgrade it to level 5.",
+        "desc": "The Stable trains Speculatores and Equites. The higher its level, the faster they finish training and the more training queues allowed."
+    },
+    "stabl_6": {
+        "ar_title": "Upgrade Stable",
+        "header": "In your city, select Stable, and upgrade it to level 6",
+        "desc": "The Stable trains Speculatores and Equites. The higher its level, the faster they finish training and the more training queues allowed."
+    },
+    "stabl_7": {
+        "ar_title": "Upgrade Stable",
+        "header": "In your city, select Stable, and upgrade it to level 7.",
+        "desc": "The Stable trains Speculatores and Equites. The higher its level, the faster they finish training and the more training queues allowed."
+    },
+    "stabl_8": {
+        "ar_title": "Upgrade Stable",
+        "header": "In your city, select Stable, and upgrade it to level 8.",
+        "desc": "The Stable trains Speculatores and Equites. The higher its level, the faster they finish training and the more training queues allowed."
+    },
+    "stabl_9": {
+        "ar_title": "Upgrade Stable",
+        "header": "In your city, select Stable, and upgrade it to level 9.",
+        "desc": "The Stable trains Speculatores and Equites. The higher its level, the faster they finish training and the more training queues allowed."
+    },
+    "stabl_10": {
+        "ar_title": "Upgrade Stable",
+        "header": "In your city, select Stable, and upgrade it to level 10.",
+        "desc": "The Stable trains Speculatores and Equites. The higher its level, the faster they finish training and the more training queues allowed."
+    },
+    "workshop_1": {
+        "ar_title": "Erect Workshop",
+        "header": "Click on a Clearing and then click Erect under \"Workshop\". If Erect is grey, that means you still have to meet certain requirements in order to begin construction.<img src=\"img/Erect Workshop.jpg\"></img>",
+        "desc": "Workshop manufactures siege engines: Ballistae and Onagers. The higher its level, the faster the siege engines are manufactured and more can be processed, one at a time, per request. You can Erect more than one Workshop in a city. Dismissal of siege engines is also conducted here."
+    },
+    "workshop_2": {
+        "ar_title": "Upgrade Workshop",
+        "header": "In your city, click on level 1 \"Workshop\", and click \"Upgrade\". If the upgrade requirement is met, the Upgrade button is functional; otherwise, it's shaded in gray.",
+        "desc": "Workshop is a place to manufacture siege weapons such as Ballistae and Onagers. The higher its level, the faster the weapons are finished and the larger the manufacturing queues may be allowed."
+    },
+    "workshop_3": {
+        "ar_title": "Upgrade Workshop",
+        "desc": "Workshop is a place to manufacture siege weapons such as Ballistae and Onagers. The higher its level, faster the weapons are finished and the larger the manufacturing queues may be allowed.",
+        "header": "In your city, select Workshop, and upgrade it to level 3."
+    },
+    "workshop_4": {
+        "ar_title": "Upgrade Workshop",
+        "desc": "Workshop is a place to manufacture siege weapons such as Ballistae and Onagers. The higher its level, faster the weapons are finished and the larger the manufacturing queues may be allowed.",
+        "header": "In your city, select Workshop, and upgrade it to level 4."
+    },
+    "workshop_5": {
+        "ar_title": "Upgrade Workshop",
+        "header": "In your city, select Workshop, and upgrade it to level 5.",
+        "desc": "Workshop is a place to manufacture siege weapons such as Ballistae and Onagers. The higher its level, faster the weapons are finished and the larger the manufacturing queues may be allowed."
+    },
+    "workshop_6": {
+        "ar_title": "Upgrade Workshop",
+        "header": "In your city, select Workshop, and upgrade it to level 6.",
+        "desc": "Workshop is a place to manufacture siege weapons such as Ballistae and Onagers. The higher its level, faster the weapons are finished and the larger the manufacturing queues may be allowed."
+    },
+    "workshop_7": {
+        "ar_title": "Upgrade Workshop",
+        "header": "In your city, select Workshop, and upgrade it to level 7.",
+        "desc": "Workshop is a place to manufacture siege weapons such as Ballistae and Onagers. The higher its level, faster the weapons are finished and the larger the manufacturing queues may be allowed."
+    },
+    "workshop_8": {
+        "ar_title": "Upgrade Workshop",
+        "header": "In your city, select Workshop, and upgrade it to level 8.",
+        "desc": "Workshop is a place to manufacture siege engines: Ballistae and Onagers. The higher its level, faster the weapons are finished and the larger the manufacturing queues may be allowed."
+    },
+    "workshop_9": {
+        "ar_title": "Upgrade Workshop",
+        "header": "In your city, select Workshop, and upgrade it to level 9.",
+        "desc": "Workshop is a place to manufacture siege weapons such as Ballistae and Onagers. The higher its level, faster the weapons are finished and the larger the manufacturing queues may be allowed."
+    },
+    "workshop_10": {
+        "ar_title": "Upgrade Workshop",
+        "header": "In your city, select Workshop, and upgrade it to level 10.",
+        "desc": "Workshop is a place to manufacture siege engines: Ballistae and Onagers. The higher its level, faster the weapons are finished and the larger the manufacturing queues may be allowed."
+    },
+    "prom_1": {
+        "ar_title": "Aedile",
+        "header": "You can be granted a promotion once the requirement on Sesterces and luxury items is met. Required Sesterces and luxury items will be deducted on accepting the quest rewards.",
+        "desc": "The Curia as well as all walks of life are satisfied with the way you are running your city. Once you have enough Prestige you will be promoted to a higher noble rank. With a rank promotion you must give away Sesterces and luxury items to throw a big banquet of celebration!"
+    },
+    "prom_2": {
+        "ar_title": "Censor",
+        "header": "You can be granted a promotion once the requirement on Sesterces and luxury items is met. Required Sesterces and luxury items will be deducted on accepting the quest rewards.",
+        "desc": "The Curia as well as all walks of life are satisfied with the way you are running your city. Once you have enough Prestige you will be promoted to a higher noble rank. With a rank promotion you must give away Sesterces and luxury items to throw a big banquet of celebration!"
+    },
+    "prom_3": {
+        "ar_title": "Quaestor",
+        "header": "You can be granted a promotion once the requirement on Sesterces and luxury items is met. Required Sesterces and luxury items will be deducted on accepting the quest rewards.",
+        "desc": "The Curia as well as all walks of life are satisfied with the way you are running your city. Once you have enough Prestige you will be promoted to a higher noble rank. With a rank promotion you must give away Sesterces and luxury items to throw a big banquet of celebration!"
+    },
+    "prom_4": {
+        "ar_title": "Tribune",
+        "header": "You can be granted a promotion once the requirement on Sesterces and luxury items is met. Required Sesterces and luxury items will be deducted on accepting the quest rewards.",
+        "desc": "The Curia as well as all walks of life are satisfied with the way you are running your city. Once you have enough Prestige you will be promoted to a higher noble rank. With a rank promotion you must give away Sesterces and luxury items to throw a big banquet of celebration!"
+    },
+    "prom_5": {
+        "ar_title": "Procurator",
+        "header": "You can be granted a promotion once the requirement on Sesterces and luxury items is met. Required Sesterces and luxury items will be deducted on accepting the quest rewards.",
+        "desc": "The Curia as well as all walks of life are satisfied with the way you are running your city. Once you have enough Prestige you will be promoted to a higher noble rank. With a rank promotion you must give away Sesterces and luxury items to throw a big banquet of celebration!"
+    },
+    "prom_6": {
+        "ar_title": "Praetor",
+        "header": "You can be granted a promotion once the requirement on Sesterces and luxury items is met. Required Sesterces and luxury items will be deducted on accepting the quest rewards.",
+        "desc": "The Curia as well as all walks of life are satisfied with the way you are running your city. Once you have enough Prestige you will be promoted to a higher noble rank. With a rank promotion you must give away Sesterces and luxury items to throw a big banquet of celebration!"
+    },
+    "prom_7": {
+        "ar_title": "Legate",
+        "header": "You can be granted a promotion once the requirement on Sesterces and luxury items is met. Required Sesterces and luxury items will be deducted on accepting the quest rewards.",
+        "desc": "The Curia as well as all walks of life are satisfied with the way you are running your city. Once you have enough Prestige you will be promoted to a higher noble rank. With a rank promotion you must give away Sesterces and luxury items to throw a big banquet of celebration!"
+    },
+    "prom_8": {
+        "ar_title": "Dictator",
+        "header": "You can be granted a promotion once the requirement on Sesterces and luxury items is met. Required Sesterces and luxury items will be deducted on accepting the quest rewards.",
+        "desc": "The Curia as well as all walks of life are satisfied with the way you are running your city. Once you have enough Prestige you will be promoted to a higher noble rank. With a rank promotion you must give away Sesterces and luxury items to throw a big banquet of celebration!"
+    },
+    "prom_9": {
+        "ar_title": "5th Legion Chief",
+        "header": "You can be granted a promotion once the requirement on Sesterces and luxury items is met. Required Sesterces and luxury items will be deducted on accepting the quest rewards.",
+        "desc": "The Curia as well as all walks of life are satisfied with the way you are running your city. Once you have enough Prestige you will be promoted to a higher noble rank. With a rank promotion you must give away Sesterces and luxury items to throw a big banquet of celebration!"
+    },
+    "prom_10": {
+        "ar_title": "4th Legion Chief",
+        "header": "You can be granted a promotion once the requirement on Rectorate Lv, Prestige, Sesterces, upgrade items and luxury items is met. Required Sesterces and luxury items will be deducted on accepting the quest rewards.",
+        "desc": "The Curia as well as all walks of life are satisfied with the way you are running your city. Once you have enough Prestige you will be promoted to a higher noble rank. With a rank promotion you must give away Sesterces and luxury items to throw a big banquet of celebration!"
+    },
+    "prom_11": {
+        "ar_title": "3rd Legion Chief",
+        "header": "You can be granted a promotion once the requirement on Rectorate Lv, Prestige, Sesterces, upgrade items and luxury items is met. Required Sesterces and luxury items will be deducted on accepting the quest rewards.",
+        "desc": "The Curia as well as all walks of life are satisfied with the way you are running your city. Once you have enough Prestige you will be promoted to a higher noble rank. With a rank promotion you must give away Sesterces and luxury items to throw a big banquet of celebration!"
+    },
+    "prom_12": {
+        "ar_title": "2nd Legion Chief",
+        "header": "You can be granted a promotion once the requirement on Rectorate Lv, Prestige, Sesterces, upgrade items and luxury items is met. Required Sesterces and luxury items will be deducted on accepting the quest rewards.",
+        "desc": "The Curia as well as all walks of life are satisfied with the way you are running your city. Once you have enough Prestige you will be promoted to a higher noble rank. With a rank promotion you must give away Sesterces and luxury items to throw a big banquet of celebration!"
+    },
+    "prom_13": {
+        "ar_title": "1st Legion Chief",
+        "header": "You can be granted a promotion once the requirement on Rectorate Lv, Prestige, Sesterces, upgrade items and luxury items is met. Required Sesterces and luxury items will be deducted on accepting the quest rewards.",
+        "desc": "The Curia as well as all walks of life are satisfied with the way you are running your city. Once you have enough Prestige you will be promoted to a higher noble rank. With a rank promotion you must give away Sesterces and luxury items to throw a big banquet of celebration!"
+    },
+    "prom_14": {
+        "ar_title": "Major General",
+        "header": "You can be granted a promotion once the requirement on Rectorate Lv, Prestige, Sesterces, upgrade items and luxury items is met. Required Sesterces and luxury items will be deducted on accepting the quest rewards.",
+        "desc": "The Curia as well as all walks of life are satisfied with the way you are running your city. Once you have enough Prestige you will be promoted to a higher noble rank. With a rank promotion you must give away Sesterces and luxury items to throw a big banquet of celebration!"
+    },
+    "prom_15": {
+        "ar_title": "Lieutenant General",
+        "header": "You can be granted a promotion once the requirement on Rectorate Lv, Prestige, Sesterces, upgrade items and luxury items is met. Required Sesterces and luxury items will be deducted on accepting the quest rewards.",
+        "desc": "The Curia as well as all walks of life are satisfied with the way you are running your city. Once you have enough Prestige you will be promoted to a higher noble rank. With a rank promotion you must give away Sesterces and luxury items to throw a big banquet of celebration!"
+    },
+    "prom_16": {
+        "ar_title": "3rd Class General",
+        "header": "You can be granted a promotion once the requirement on Rectorate Lv, Prestige, Sesterces, upgrade items and luxury items is met. Required Sesterces and luxury items will be deducted on accepting the quest rewards.",
+        "desc": "The Curia as well as all walks of life are satisfied with the way you are running your city. Once you have enough Prestige you will be promoted to a higher noble rank. With a rank promotion you must give away Sesterces and luxury items to throw a big banquet of celebration!"
+    },
+    "prom_17": {
+        "ar_title": "2nd Class General",
+        "header": "You can be granted a promotion once the requirement on Rectorate Lv, Prestige, Sesterces, upgrade items and luxury items is met. Required Sesterces and luxury items will be deducted on accepting the quest rewards.",
+        "desc": "The Curia as well as all walks of life are satisfied with the way you are running your city. Once you have enough Prestige you will be promoted to a higher noble rank. With a rank promotion you must give away Sesterces and luxury items to throw a big banquet of celebration!"
+    },
+    "prom_18": {
+        "ar_title": "1st Class General",
+        "header": "You can be granted a promotion once the requirement on Rectorate Lv, Prestige, Sesterces, upgrade items and luxury items is met. Required Sesterces and luxury items will be deducted on accepting the quest rewards.",
+        "desc": "The Curia as well as all walks of life are satisfied with the way you are running your city. Once you have enough Prestige you will be promoted to a higher noble rank. With a rank promotion you must give away Sesterces and luxury items to throw a big banquet of celebration!"
+    },
+    "prom_19": {
+        "ar_title": "Marshal",
+        "header": "You can be granted a promotion once the requirement on Rectorate Lv, Prestige, Sesterces, upgrade items and luxury items is met. Required Sesterces and luxury items will be deducted on accepting the quest rewards.",
+        "desc": "The Curia as well as all walks of life are satisfied with the way you are running your city. Once you have enough Prestige you will be promoted to a higher noble rank. With a rank promotion you must give away Sesterces and luxury items to throw a big banquet of celebration!"
+    },
+    "prom_20": {
+        "ar_title": "9th Senator",
+        "header": "You can be granted a promotion once the requirement on Rectorate Lv, Prestige, Sesterces, upgrade items and luxury items is met. Required Sesterces and luxury items will be deducted on accepting the quest rewards.",
+        "desc": "The Curia as well as all walks of life are satisfied with the way you are running your city. Once you have enough Prestige you will be promoted to a higher noble rank. With a rank promotion you must give away Sesterces and luxury items to throw a big banquet of celebration!"
+    },
+    "prom_21": {
+        "ar_title": "8th Senator",
+        "header": "You can be granted a promotion once the requirement on Rectorate Lv, Prestige, Sesterces, upgrade items and luxury items is met. Required Sesterces and luxury items will be deducted on accepting the quest rewards.",
+        "desc": "The Curia as well as all walks of life are satisfied with the way you are running your city. Once you have enough Prestige you will be promoted to a higher noble rank. With a rank promotion you must give away Sesterces and luxury items to throw a big banquet of celebration!"
+    },
+    "prom_22": {
+        "ar_title": "7th Senator",
+        "header": "You can be granted a promotion once the requirement on Rectorate Lv, Prestige, Sesterces, upgrade items and luxury items is met. Required Sesterces and luxury items will be deducted on accepting the quest rewards.",
+        "desc": "The Curia as well as all walks of life are satisfied with the way you are running your city. Once you have enough Prestige you will be promoted to a higher noble rank. With a rank promotion you must give away Sesterces and luxury items to throw a big banquet of celebration!"
+    },
+    "prom_23": {
+        "ar_title": "6th Senator",
+        "header": "You can be granted a promotion once the requirement on Rectorate Lv, Prestige, Sesterces, upgrade items and luxury items is met. Required Sesterces and luxury items will be deducted on accepting the quest rewards.",
+        "desc": "The Curia as well as all walks of life are satisfied with the way you are running your city. Once you have enough Prestige you will be promoted to a higher noble rank. With a rank promotion you must give away Sesterces and luxury items to throw a big banquet of celebration!"
+    },
+    "prom_24": {
+        "ar_title": "5th Senator",
+        "header": "You can be granted a promotion once the requirement on Rectorate Lv, Prestige, Sesterces, upgrade items and luxury items is met. Required Sesterces and luxury items will be deducted on accepting the quest rewards.",
+        "desc": "The Curia as well as all walks of life are satisfied with the way you are running your city. Once you have enough Prestige you will be promoted to a higher noble rank. With a rank promotion you must give away Sesterces and luxury items to throw a big banquet of celebration!"
+    },
+    "prom_25": {
+        "ar_title": "4th Senator",
+        "header": "You can be granted a promotion once the requirement on Rectorate Lv, Prestige, Sesterces, upgrade items and luxury items is met. Required Sesterces and luxury items will be deducted on accepting the quest rewards.",
+        "desc": "The Curia as well as all walks of life are satisfied with the way you are running your city. Once you have enough Prestige you will be promoted to a higher noble rank. With a rank promotion you must give away Sesterces and luxury items to throw a big banquet of celebration!"
+    },
+    "prom_26": {
+        "ar_title": "3rd Senator",
+        "header": "You can be granted a promotion once the requirement on Rectorate Lv, Prestige, Sesterces, upgrade items and luxury items is met. Required Sesterces and luxury items will be deducted on accepting the quest rewards.",
+        "desc": "The Curia as well as all walks of life are satisfied with the way you are running your city. Once you have enough Prestige you will be promoted to a higher noble rank. With a rank promotion you must give away Sesterces and luxury items to throw a big banquet of celebration!"
+    },
+    "prom_27": {
+        "ar_title": "2nd Senator",
+        "header": "You can be granted a promotion once the requirement on Rectorate Lv, Prestige, Sesterces, upgrade items and luxury items is met. Required Sesterces and luxury items will be deducted on accepting the quest rewards.",
+        "desc": "The Curia as well as all walks of life are satisfied with the way you are running your city. Once you have enough Prestige you will be promoted to a higher noble rank. With a rank promotion you must give away Sesterces and luxury items to throw a big banquet of celebration!"
+    },
+    "prom_28": {
+        "ar_title": "1st Senator",
+        "header": "You can be granted a promotion once the requirement on Rectorate Lv, Prestige, Sesterces, upgrade items and luxury items is met. Required Sesterces and luxury items will be deducted on accepting the quest rewards.",
+        "desc": "The Curia as well as all walks of life are satisfied with the way you are running your city. Once you have enough Prestige you will be promoted to a higher noble rank. With a rank promotion you must give away Sesterces and luxury items to throw a big banquet of celebration!"
+    },
+    "prom_29": {
+        "ar_title": "Caesar",
+        "header": "You can be granted a promotion once the requirement on Rectorate Lv, Prestige, Sesterces, upgrade items and luxury items is met. Required Sesterces and luxury items will be deducted on accepting the quest rewards.",
+        "desc": "The Curia as well as all walks of life are satisfied with the way you are running your city. Once you have enough Prestige you will be promoted to a higher noble rank. With a rank promotion you must give away Sesterces and luxury items to throw a big banquet of celebration!"
+    },
+    "lucky": {
+        "DB_name": "lucky",
+        "ar_title": "Daily Free Zodiac Goat",
+        "header": "Every player gets a free Zodiac Goat upon login daily. Drop by daily to claim your share of the Zodiac Goat fortune!",
+        "desc": "A Zodiac Goat is a necessary item during Zodiac Ceremony. By offering a Zodiac Goat to god, you will be duly rewarded. Good luck and have fun with your Zodiac Ceremony!"
+    },
+    "t_map": {
+        "DB_name": "t_map",
+        "ar_title": "Gather Treasure Map",
+        "header": "Gather a treasure map every day you login.",
+        "desc": "People from around the neighboring regions are coming in and out of the major cities to trade. Merchants travel, and they are the conduits for the oil of all human society, gossip. Gossip carries new information and messages about the rumor of treasure map: where to get it, how to get it, and who's holding it, etc. City lord grasps every opportunity and sends trusted servants to examine the validity of these claims."
+    },
+    "repel_trumpet": {
+        "DB_name": "repel_trumpet",
+        "ar_title": "Take Sample Repression Horn",
+        "header": "When the Roman Republic is under attack by the Fearless Skullbearer and the rebel army, Carthage people launch an armed resistance. You now have a chance to fight for the Roman Republic, gain glory and exploit!",
+        "desc": "You will be rewarded free Sample Repression Horn upon your daily login. Use it or Repression Horn to launch wars towards Carthage Revolt and Carthage Thugs ( Pink dots ) on the world map. By defeating Carthage Revolt, you will be rewarded with some new items."
+    },
+    "copper_medal": {
+        "DB_name": "copper_medal",
+        "ar_title": "Take Copper Medal",
+        "header": "Obtain 5 Copper Medal",
+        "desc": "Consuming Copper Medal get the effect of educating heroes and improve their battle capability."
+    },
+    "exp_map": {
+        "DB_name": "exp_map",
+        "ar_title": "Barter For Vitruvius Plot",
+        "header": "Use 10 Treasure Maps to barter for 1 Vitruvius Plot.",
+        "desc": "Once you gather enough Treasure Maps, you want to get the most out of them. But you may lack the time to actually go examine the sites. The fact is that there's no guarantee any of the maps can bring you wealth and prosperity. Why not get rid of them? From time to time, some merchants are willing to barter with you for 10 Treasure Maps. In return, you'll get 1 Vitruvius Plot."
+    },
+    "army_s_1": {
+        "DB_name": "army_s_1",
+        "ar_title": "Quell rebellion",
+        "header": "Barter 5 Gray Rebel Aglets for a Gray Package.",
+        "desc": "The Senate bestow a Gray Package upon the lord for quelling the rebellion during activity."
+    },
+    "army_s_3": {
+        "DB_name": "army_s_3",
+        "ar_title": "Barter For Mini Pack of Captives",
+        "header": "Barter 20 Gray Rebel Aglets for 3 Mini Packs of Captives.",
+        "desc": "Defeat the rebels in a wilderness of level 1-3. The local peasants send you a Gray Rebel Aglet to express their gratitude. Bring the aglets back to the senators. They will authorize more military forces to be at your disposal."
+    },
+    "army_m_1": {
+        "DB_name": "army_m_1",
+        "ar_title": "Quests II",
+        "header": "Tip: Only each round of player Rank 1 in arena can get King Medal.",
+        "desc": "Only the king of Arena can get reward, after complete quest, you still get 50,000 prestige and 50,000 honor."
+    },
+    "army_m_3": {
+        "DB_name": "army_m_3",
+        "ar_title": "Barter for Black WSC Passes",
+        "header": "Barter 20 Yellow Rebel Aglets for 2 Black WSC Passes.",
+        "desc": "The senate issues Black War Simulation Colosseum (WSC) Passes to the lords who are eligible to participate in the war simulation. You can exchange 20 Yellow Rebel Aglets for 2 Black WSC Passes to ensure your eligibility to participate in the war simulation."
+    },
+    "army_l_1": {
+        "DB_name": "army_l_1",
+        "ar_title": "Quests III",
+        "header": "Tip: Only each round of player Rank 1 in arena can get King Medal.",
+        "desc": "Only the king of Arena can get reward, after complete quest, you still get 100,000 prestige and 100,000 honor."
+    },
+    "army_l_3": {
+        "DB_name": "army_l_3",
+        "ar_title": "Barter For Large Pack of Captives",
+        "header": "Barter 20 Purple Rebel Aglets for 3 Large Packs of Captives.",
+        "desc": "Defeat the rebels in a wilderness of level 8-10. The local peasants send you a Purple Rebel Aglet to express their gratitude. Bring the aglets back to the senators. They will authorize more military forces to be at your disposal."
+    },
+    "m1_x20": {
+        "DB_name": "m1_x20",
+        "ar_title": "Barter for a Black WSC Pass",
+        "header": "Barter 20 Gray Rebel Aglets for 1 Black WSC Pass.",
+        "desc": "The senate issues Black War Simulation Colosseum (WSC) Passes to the lord who's eligible to participate in the war simulation. You can exchange 20 Gray Rebel Aglets for a Black War Pass to ensure your eligibility to participate in the war simulation."
+    },
+    "m2_x20": {
+        "DB_name": "m2_x20",
+        "ar_title": "Barter for Black WSC Passes",
+        "header": "Barter 20 Yellow Rebel Aglets for 2 Black WSC Passes.",
+        "desc": "The senate issues Black War Simulation Colosseum (WSC) Passes to the lords who are eligible to participate in the war simulation. You can exchange 20 Yellow Rebel Aglets for 2 Black WSC Passes to ensure your eligibility to participate in the war simulation."
+    },
+    "m3_x20": {
+        "DB_name": "m3_x20",
+        "ar_title": "Barter for Black WSC Passes",
+        "header": "Barter 20 Purple Rebel Aglets for 5 Black WSC Passes.",
+        "desc": "The senate issues Black War Simulation Colosseum (WSC) Passes to the lords who are eligible to participate in the war simulation. You can exchange 20 Purple Rebel Aglets for 5 Black WSC Passes to ensure your eligibility to participate in the war simulation."
+    },
+    "mr_x10": {
+        "DB_name": "mr_x10",
+        "ar_title": "Barter for Black WSC Passes",
+        "header": "Barter 10 Red WSC Passes for 5 Black WSC Passes.",
+        "desc": "The senate issues Black War Simulation Colosseum (WSC) Passes to the lords who are eligible to participate in the war simulation. You can exchange 10 Red WSC Passes for 5 Black WSC Passes to ensure your eligibility to participate in the war simulation."
+    },
+    "mr_x2": {
+        "DB_name": "mr_x2",
+        "ar_title": "War Simulation Award: Sirloin",
+        "header": "Barter 2 Red WSC Passes for 1 Sirloin.",
+        "desc": "The senate caters for the lord who brings them 2 Red WSC Passes."
+    },
+    "mr_x4": {
+        "DB_name": "mr_x4",
+        "ar_title": "War Simulation Award: Troops",
+        "header": "Barter 4 Red WSC Passes for 1 Large Pack of Captives.",
+        "desc": "The senate bestows troops on the lord for bringing them 4 Red WSC Passes."
+    },
+    "mr_x300": {
+        "DB_name": "mr_x300",
+        "ar_title": "War Simulation Award: Hero",
+        "header": "Barter 300 Red WSC Passes for a hero with 8 POT.",
+        "desc": "The senate assigns a hero to you for bringing them 300 Red WSC Passes."
+    },
+    "mb_x1": {
+        "DB_name": "mb_x1",
+        "ar_title": "Acquire Black WSC Pass",
+        "header": "Acquire Black War Simulation Colosseum (WSC) Pass.",
+        "desc": "The senate are looking for high ranking noble lords to actively participate in the war simulation, resisting the rebels."
+    },
+    "pres_20k": {
+        "DB_name": "pres_20k",
+        "ar_title": "Barter Emblem(s) for Prestige",
+        "header": "When your Noble Rank and the amount of Emblems you own meet requirement, you can barter for Quest reward. Note that the bartered Emblems will be taken off after you accept the reward.",
+        "desc": "The rebel forces are expanding to surrounding areas rapidly and committing  all manners of crimes. To protect Republic, the lord should wipe out these rebel forces. The lords can participate in war against the rebel cities by consuming a Black WSC Pass. By collecting enough Emblems, you can get handsome Quest reward. You will be awarded 20,000 Prestige by completing this Quest."
+    },
+    "pres_80k": {
+        "DB_name": "pres_80k",
+        "ar_title": "Barter Emblem(s) for Prestige",
+        "header": "When your Noble Rank and the amount of Emblems you own meet requirement, you can barter for Quest reward. Note that the bartered Emblems will be taken off after you accept the reward.",
+        "desc": "The rebel forces are expanding to surrounding areas rapidly and committing  all manners of crimes. To protect Republic, the lord should wipe out these rebel forces. The lords can participate in war against the rebel cities by consuming a Black WSC Pass. By collecting enough Emblems, you can get handsome Quest reward. You will be awarded 80,000 Prestige by completing this Quest."
+    },
+    "union_era": {
+        "DB_name": "union_era",
+        "ar_title": "Barter Emblem(s) for Item",
+        "header": "When the amount of Emblems you own meet requirement, you can barter for Quest reward. Note that the bartered Emblems will be taken off after you accept the reward.",
+        "desc": "The rebel forces are expanding to surrounding areas rapidly and committing  all manners of crimes. To protect Republic, the lord should wipe out these rebel forces. The lords can participate in war against the rebel cities by consuming a Black WSC Pass. By collecting enough Emblems, you can get handsome Quest reward. You will be awarded 1 Union League Covenant by completing this Quest."
+    },
+    "free_help": {
+        "DB_name": "freedom_help",
+        "ar_title": "Barter Emblem(s) for Item",
+        "header": "When the amount of Emblems you own meet requirement, you can barter for Quest reward. Note that the bartered Emblems will be taken off after you accept the reward.",
+        "desc": "The rebel forces are expanding to surrounding areas rapidly and committing  all manners of crimes. To protect Republic, the lord should wipe out these rebel forces. The lords can participate in war against the rebel cities by consuming a Black WSC Pass. By collecting enough Emblems, you can get handsome Quest reward. You will be awarded 1 Divine Liberty by completing this Quest."
+    },
+    "motiv_60": {
+        "DB_name": "motiv_60",
+        "ar_title": "Reparation",
+        "header": "Click on \"University\" and study \"Reparation\".",
+        "desc": "Timely and immediate repair work for your fortifications keeps them alive and functional. Reparation can boost your fortifications' revival rate, so that more of them may revive after their destruction."
+    },
+    "helper_chng": {
+        "DB_name": "help_house_chng",
+        "ar_title": "Reparation",
+        "header": "Click on \"University\" and study \"Reparation\".",
+        "desc": "Timely and immediate repair work for your fortifications keeps them alive and functional. Reparation can boost your fortifications' revival rate, so that more of them may revive after their destruction."
+    },
+    "pres_5k": {
+        "DB_name": "pres_5k",
+        "ar_title": "Trade for 5,000 Prestige.",
+        "header": "Trade 2 Red WSC Passes with 1 Macedon Emblem for 5,000 Prestige",
+        "desc": "Rewards for the bravest and brightest."
+    },
+    "pres_50k": {
+        "DB_name": "pres_50k",
+        "ar_title": "Prestige Emblems for 50,000 Prestige",
+        "header": "Trade 2 Prestige Emblems for 50,000 Prestige.",
+        "desc": "Rewards for the bravest and brightest."
+    },
+    "pres_100k": {
+        "DB_name": "pres_100k",
+        "ar_title": "Prestige Emblems for 100,000 Prestige",
+        "header": "Trade 4 Prestige Emblems for 100,000 Prestige.",
+        "desc": "Rewards for the bravest and brightest."
+    },
+    "pres_400k": {
+        "DB_name": "pres_400k",
+        "ar_title": "Prestige Emblems for 400,000 Prestige",
+        "header": "Trade 16 Prestige Emblems for 400,000 Prestige.",
+        "desc": "Rewards for the bravest and brightest."
+    },
+    "pres_500k": {
+        "DB_name": "pres_500k",
+        "ar_title": "Prestige Emblems for 400,000 Prestige",
+        "header": "Trade 16 Prestige Emblems for 400,000 Prestige.",
+        "desc": "Rewards for the bravest and brightest."
+    },
+    "loy_boot": {
+        "DB_name": "loy_boot",
+        "ar_title": "Barter Emblem(s) for Loyal Shoes",
+        "header": "Loyal Shoes: HP +4, Offense +1,Defense +1.",
+        "desc": "To prevent the expansion of the Rebel, the Senate bestow Loyal Equipment as reward in battle achievement. By collecting enough Emblems, you can get handsome Quest reward. You will be awarded a Loyal Shield by completing this Quest."
+    },
+    "loy_shield": {
+        "DB_name": "loy_shield",
+        "ar_title": "Barter Emblem(s) for Loyal Shield",
+        "header": "Loyal Shield: HP +18, Defense +2.",
+        "desc": "To prevent the expansion of the Rebel, the Senate bestow Loyal Equipment as reward in battle achievement. By collecting enough Emblems, you can get handsome Quest reward. You will be awarded a Loyal Shield by completing this Quest."
+    },
+    "loy_helmet": {
+        "DB_name": "loy_helmet",
+        "ar_title": "Barter Emblem(s) for Loyal Helmet",
+        "header": "Loyal Helmet: HP +13,Damage +1, Defense +1.",
+        "desc": "To prevent the expansion of the Rebel, the Senate bestow Loyal Equipment as reward in battle achievement. By collecting enough Emblems, you can get handsome Quest reward. You will be awarded a Loyal Shield by completing this Quest."
+    },
+    "loy_armor": {
+        "DB_name": "loy_armor",
+        "ar_title": "Barter Emblem(s) for Loyal Armour",
+        "header": "Loyal Armour: HP+10, Damage +1, Defense +1.",
+        "desc": "To prevent the expansion of the Rebel, the Senate bestow Loyal Equipment as reward in battle achievement. By collecting enough Emblems, you can get handsome Quest reward. You will be awarded a Loyal Shield by completing this Quest."
+    },
+    "loy_sword": {
+        "DB_name": "loy_sword",
+        "ar_title": "Barter Emblem(s) for Loyal Sword",
+        "header": "Loyal Sword: Damage +3, Offense +4, Technique: Rain of Arrows.",
+        "desc": "To prevent the expansion of the Rebel, the Senate bestow Loyal Equipment as reward in battle achievement. By collecting enough Emblems, you can get handsome Quest reward. You will be awarded a Loyal Sword by completing this Quest."
+    },
+    "lion_boot": {
+        "DB_name": "lion_boot",
+        "ar_title": "Barter Emblem(s) and Dye for Lion Boots",
+        "header": "Lion Boots: Damage +4, Offense +4, Defense +4.",
+        "desc": "A pair of boots is bestowed by Lion for your bringing his lost emblem back through thick and thin."
+    },
+    "lion_shield": {
+        "DB_name": "lion_shield",
+        "ar_title": "Barter Emblem(s) and Spices for Lion Shield",
+        "header": "Lion Shield: HP +48, Offense +16.",
+        "desc": "A shield is bestowed by Lion for your bringing his lost emblem back through thick and thin."
+    },
+    "lion_helmet": {
+        "DB_name": "lion_helmet",
+        "ar_title": "Barter Emblem(s) and Wine for Lion Helmet",
+        "header": "Lion Helmet: HP +48, Damage +4, Offense +8.",
+        "desc": "A helmet is bestowed by Lion for you bringing his lost emblem back through thick and thin."
+    },
+    "lion_armor": {
+        "DB_name": "lion_armor",
+        "ar_title": "Barter Emblem(s) and Wool for Lion Armor",
+        "header": "Lion Armor: HP+32, Defense +12, Technique: Testudo.",
+        "desc": "A piece of armor is bestowed by Lion for your bringing his lost emblem back through thick and thin."
+    },
+    "lion_sword": {
+        "DB_name": "lion_sword",
+        "ar_title": "Barter Emblem(s) and Silk for Lion Sword",
+        "header": "Lion Sword: Damage +16, Offense +32.",
+        "desc": "A sword is bestowed by Lion for your bringing his lost emblem back through thick and thin."
+    },
+    "fearless_boot": {
+        "ar_title": "Barter Emblem(s) and Furs for Fearlessness Boots",
+        "header": "Fearlessness Boots: Damage +8, Offense +8, Defense +8.",
+        "desc": "Fighting hard to crush the rebellion, you will be rewarded a piece of Fearlessness Armor for protecting Roman empire."
+    },
+    "fearless_shield": {
+        "DB_name": "lion_shield",
+        "ar_title": "Barter Emblem(s) and Furs for Fearlessness Shield",
+        "header": "Fearlessness Shield: HP +90, Defense +30.",
+        "desc": "Fighting hard to crush the rebellion, you will be rewarded a piece of Fearlessness Armor for protecting Roman empire."
+    },
+    "fearless_helmet": {
+        "DB_name": "lion_helmet",
+        "ar_title": "Barter Emblem(s) and Incense for Fearlessness Helmet",
+        "header": "Fearlessness Helmet: HP +60, Damage +5, Offense +10.",
+        "desc": "Fighting hard to crush the rebellion, you will be rewarded a piece of Fearlessness Armor for protecting Roman empire."
+    },
+    "fearless_armor": {
+        "DB_name": "lion_armor",
+        "ar_title": "Barter Emblem(s) and Ivory for Fearlessness Armor",
+        "header": "Fearlessness Armor: HP +60, Defense +20, Technique: Testudo.",
+        "desc": "Fighting hard to crush the rebellion, you will be rewarded a piece of Fearlessness Armor for protecting Roman empire."
+    },
+    "fearless_sword": {
+        "DB_name": "lion_sword",
+        "ar_title": "Barter Emblem(s) and Diamond for Fearlessness Sword",
+        "header": "Fearlessness Sword: Damage +30, Offense +60.",
+        "desc": "Fighting hard to crush the rebellion, you will be rewarded a Fearlessness Sword for protecting Roman Empire."
+    },
+    "mili_boot": {
+        "ar_title": "Bater for Hardcore Boots",
+        "header": "Hardcore Boots: Offense +18, Damage +10.",
+        "desc": "Forged by Vulcan, let hero own more powerful strength to fight the Rebel. Only the powerful lords can get."
+    },
+    "mili_shield": {
+        "DB_name": "lion_shield",
+        "ar_title": "Bater for Hardcore Shield",
+        "header": "Hardcore Shield: HP +25, Defense +40.",
+        "desc": "Forged by Vulcan, let hero own more powerful strength to fight the Rebel. Only the powerful lords can get."
+    },
+    "mili_helmet": {
+        "DB_name": "lion_helmet",
+        "ar_title": "Bater for Hardcore Helmet",
+        "header": "Hardcore Helmet: Defense +24, Offense +26.",
+        "desc": "Forged by Vulcan, let hero own more powerful strength to fight the Rebel. Only the powerful lords can get."
+    },
+    "mili_armor": {
+        "DB_name": "lion_armor",
+        "ar_title": "Bater for Hardcore Armor",
+        "header": "Hardcore Armor: HP +125, Defense +10.",
+        "desc": "Forged by Vulcan, let hero own more powerful strength to fight the Rebel. Only the powerful lords can get."
+    },
+    "mili_sword": {
+        "DB_name": "lion_sword",
+        "ar_title": "Bater for Hardcore Sword",
+        "header": "Hardcore Sword: Damage +50.",
+        "desc": "Forged by Vulcan, let hero own more powerful strength to fight the Rebel. Only the powerful lords can get."
+    },
+    "bright_boot": {
+        "ar_title": "Bater for Bright Boots",
+        "header": "Bright Boots: Offense +20, Damaga+15.",
+        "desc": "Senate bestow, the reward of defeat the evil legion, only the powerful lords can get them."
+    },
+    "bright_shield": {
+        "DB_name": "lion_shield",
+        "ar_title": "Bater for Bright Shield",
+        "header": "Bright Shield: HP+95, Defense+40.",
+        "desc": "Senate bestow, the reward of defeat the evil legion, only the powerful lords can get them."
+    },
+    "bright_helmet": {
+        "DB_name": "lion_helmet",
+        "ar_title": "Bater for Bright Helmet",
+        "header": "Bright Helmet: HP+80, Offense +20, Technique: Rain of Arrows.",
+        "desc": "Senate bestow, the reward of defeat the evil legion, only the powerful lords can get them."
+    },
+    "bright_armor": {
+        "DB_name": "lion_armor",
+        "ar_title": "Bater for Bright Armor",
+        "header": "Bright Armor: HP +80, Defense +30, Technique: Testudo.",
+        "desc": "Senate bestow, the reward of defeat the evil legion, only the powerful lords can get them."
+    },
+    "bright_sword": {
+        "DB_name": "lion_sword",
+        "ar_title": "Bater for Bright Pike",
+        "header": "Bright Pike: Offense +65, Damage +35.",
+        "desc": "Senate bestow, the reward of defeat the evil legion, only the powerful lords can get them."
+    }
+}

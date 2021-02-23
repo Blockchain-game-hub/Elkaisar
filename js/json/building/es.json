@@ -1,0 +1,135 @@
+{
+    "0": {
+        "name": "Cabaña",
+        "func": "{1} Nivel {0} tiene {2} Capacidad de Población.",
+        "functionDesc": "Protege a tus ciudadanos y así más gente querrá vivir en tu ciudad. Esto también incrementa tu Capacidad de Población.",
+        "desc": "La Población desempeña un gran papel en el desarrollo de una ciudad",
+        "id": "building.house"
+    },
+    "1": {
+        "name": "Cabaña",
+        "func": "{1} Nivel {0} tiene {2} Capacidad de Población.",
+        "functionDesc": "Protege a tus ciudadanos y así más gente querrá vivir en tu ciudad. Esto también incrementa tu Capacidad de Población.",
+        "desc": "La Población desempeña un gran papel en el desarrollo de una ciudad",
+        "id": "building.house"
+    },
+    "2": {
+        "name": "Depósito",
+        "func": "{1} Nivel {0} puede almacenar hasta {2} recursos.",
+        "functionDesc": "Un Depósito es un lugar para almacenar recursos (Cosecha, Madera, Piedra, Acero). Mientras más alto el nivel de Depósito, más recursos podrán ser almacenados y protegidos de los Pillajes de otros jugadores a tu ciudad. Protección contra Pillaje del 30% CAC de Cosecha, Madera, Piedra y Acero. Puedes construir múltiples Depósitos en tu ciudad.",
+        "desc": "Un Depósito es sinónimo de bienestar y seguridad para los ciudadanos. Son consideradas las bases del desarrollo integral de una ciudad.",
+        "id": "building.warehouse"
+    },
+    "3": {
+        "name": "Barracas",
+        "func": "{1} Nivel {0} reduce tiempo de entrenamiento en {2}%. Procesos y listas de espera de hasta {3} pedidos de entrenamiento.",
+        "functionDesc": "En las Barracas se entrenan Hastatus, Sagitarios y Príncipes. Mientras más alto sea el nivel más rápido sera el entrenamiento.",
+        "desc": "Las Barracas se cuentan entre las construcciones más importantes de una ciudad. Antes de las reformas de Mario, las tropas que se entrenaban aquí eran ciudadanos-guerreros: hombres que tenían un fuerte compromiso con la defensa de la ciudad. Después de las Reformas de Mario, en 107 A.C., (conjunto de reformas militares iniciadas por Cayo Mario, un estadista y general de la República Romana), los soldados se convirtieron en profesionales de alta exigencia. Todas las barracas para las legiones son construidas según un eficiente plan normalizado: no importa a qué parte del mundo sea enviado un Legionario para custodiar la Paz Romana, él siempre sabrá ubicarse y siempre estará presente en su puesto cuando le toque el turno.",
+        "id": "building.barrack"
+    },
+    "4": {
+        "name": "Establo",
+        "func": "{1} Nivel {0} reduce tiempo de entrenamiento de jinetes en {2}%. Procesos y listas de espera de hasta {3} pedidos de entrenamiento.",
+        "functionDesc": "En los establos se entrenan jinetes: Rastreadores y Equites. Mientras más alto sea el nivel, más rápido concluirán su entrenamiento.",
+        "desc": "Los Establos son los cuarteles de los jinetes y no sólo el lugar donde guardan sus caballos. Cuando las Reformas de Mario entraron en efecto, la caballería romana se convirtió en una fuerza mucho más \"profesional\". Los establos incluyen patios donde se enseñan técnicas superiores para jinetes y a los caballos se los entrena para perder el miedo al ruido de batalla (algo que no es natural para ellos).",
+        "id": "building.stable"
+    },
+    "5": {
+        "name": "Taller",
+        "func": "{1} Nivel {0} reduce el tiempo de creación de máquinas de asedio en {2}%. Procesos y listas de espera de hasta {3} pedidos de producción.",
+        "functionDesc": "Fabrica mecanismos de asedio: Catapultas y Ballistas",
+        "desc": "Los Talleres fueron muy importantes para las artes de guerra romanas. Ya que permitían que armas de excelente calidad fuesen forjadas en poco tiempo, de tal modo una columna podía ser enviada a cumplir una misión sin demora y perfectamente armada.",
+        "id": "building.workshop"
+    },
+    "6": {
+        "name": "Anfiteatro",
+        "func": "{1} Nivel {0} la Lista de Héroes Reclutables se reactualiza cada {3} minutos. El héroe de más alto nivel de la lista se mantiene allí hasta que otro toma su lugar. La lista contiene un total de {2} héroes reclutables de nivel 1-{4}.",
+        "functionDesc": "La lista de héroes reclutables se actualiza periódicamente. Mantiene a los héroes reclutados y capturados. Mientras más alto su nivel, más alto nivel tendrán los héroes que respondan al reclutamiento.",
+        "desc": "Anfiteatro permite que juegos de pequeña escala sean representados para entretenimiento y diversión de los romanos de pura cepa. Los juegos son parte de aquello que hace que un romano sea verdaderamente \"romano\". Así todos se sienten parte de la comunidad y olvidan sus problemas por varios días cuando hay juegos a los que asistir. Todos se sienten muy felices de que los juegos sean gratis y que haya un hombre rico, deseoso de hacerse querer, corriendo con los gastos. La Arena también aumenta la felicidad de los romanos al hacerlos sentirse gente superior: porque si hasta los esclavos pueden morir con honor, mostrando valentía, un romano no será menos a la hora de enfrentarse la muerte.",
+        "id": "building.amphitheatre"
+    },
+    "7": {
+        "name": "Puesto de Avanzada",
+        "func": "{1} Nivel {0} puede canalizar hasta {2} recursos (Cosecha, Madera, Piedra y Acero) por hora, por cada Línea de Abastecimiento.",
+        "functionDesc": "Los Puestos de Avanzada pueden crear Líneas de Abastecimiento para distribuir recursos entre tus ciudades. Mientras más alto sea el nivel del Puesto de Avanzada de Salida mayor será la cantidad de recursos que cada línea de abastecimiento podrá distribuir.",
+        "desc": "Los Puestos de Avanzada sirven como puntos de intercambio cultural e información militar. También como núcleo de logística para una red de lugares.",
+        "id": "building.dak"
+    },
+    "8": {
+        "name": "Universidad",
+        "func": "{1} Nivel {0} reduce el tiempo de estudio de tecnología en {2}%. Este nivel de Universidad te permite estudiar tecnología hasta subir al nivel {3}.",
+        "functionDesc": "Estudia producción de recursos y tecnología de construcción. Mientras más alto sea su nivel, más rápido se completarán los estudios y más tecnologías avanzadas podrán estudiarse. Una Universidad estudia una tecnología cada vez. Las Tecnologías se comparten entre las ciudades que poseas, pero la Universidad local debe tener el nivel requerido de tecnología compartida para que ésta sea efectiva.",
+        "desc": "La Universidad es un instituto de educación donde los líderes adquieren las habilidades básicas de gobierno antes de que asuman las pesadas responsabilidades del liderazgo. Las enseñanzas van desde la filosofía pura hasta las habilidades pragmáticas del arte de la guerra y de la administración de la deuda pública. Una Ciudad con una Universidad tendrá más opciones de ser bien administrada debido a la cantidad de personas bien educadas que tendrá a disposición.",
+        "id": "building.academy"
+    },
+    "9": {
+        "name": "Academia",
+        "func": "{1} Nivel {0} reduce el tiempo de estudio de tecnología en {2}%. Este nivel de Academia te permite estudiar tecnología hasta subir al nivel {0}.",
+        "functionDesc": "Estudia todo tipo de tecnología militar. Mientras más alto sea su nivel, más rápido se completarán los estudios, y más tecnologías avanzadas podrán estudiarse. Una Academia estudia una tecnología cada vez. Las Tecnologías se comparten entre las ciudades que poseas, pero la Academia local debe tener el nivel requerido de tecnología compartida para que ésta sea efectiva.",
+        "desc": "La Academia es un instituto de educación dedicado al diseño de estrategias militares para el ejército romano. Se estudia estrategia macro, operacional y, en pequeña escala, tácticas de combate en el campo de guerra. La estrategia, como un todo, es el vínculo entre la política y los medios físicos para obtener los objetivos políticos.",
+        "id": "building.militaryInstitute"
+    },
+    "10": {
+        "name": "Templo",
+        "func": "Acelera {0}%.",
+        "functionDesc": "Símbolo religioso de la piedad romana. También se los llama santuarios. La gente se congrega para orar, hacer ofrendas y obtener recursos, así como recibir la bendición de las deidades.",
+        "desc": "<b>Santuario de Júpiter: </b><br/>Este fantástico templo está dedicado a Júpiter, el Dios Supremo de Roma. Él es el protector especial de Roma, señor del cielo y mensajero de la luz. El dios se comunica con los mortales por medio de \"Augurios\". Sus sacerdotes se especializan en la lectura de esas señales en el vuelo y las entrañas de los pájaros, sacrificios y demás. Reduce tiempo de construcción en la ciudad.<br/><b>Santuario de Juno: </b><br/>Este fantástico templo está dedicado a Juno, la Reina del Cielo, esposa y hermana de Júpiter. Ella es la protectora de las mujeres y los matrimonios. Tiene, también, funciones de diosa de la guerra. La Ciudad adquiere mayor Capacidad de Población.<br/><b>Culto de Minerva: </b><br/>Minerva era la diosa reina de la poesía, la medicina, la sabiduría, el comercio, los textiles, las artesanías y la música. En su iconografía suele aparecer con un búho, su mascota sagrada, y, por esta conexión, un símbolo de sabiduría. El Culto de Minerva reduce tiempo de entrenamiento y manufacturas.",
+        "id": "building.temple"
+    },
+    "11": {
+        "name": "Plaza",
+        "func": "{1} Nivel {0} despacha un máximo de {2} tropas simultáneamente.",
+        "functionDesc": "Lanzar expedición. Ver tropas de Guarnición. Ajustar Protocolo de Compromiso. Recupera unidades perdidas y encontradas en la Enfermería. Mientras más alto sea el nivel, más héroes podrás despachar simultáneamente.",
+        "desc": "Donde las tropas son convocadas en tiempo de guerra",
+        "id": "building.trainningFeild"
+    },
+    "12": {
+        "name": "Rectorado",
+        "func": "{1} Nivel {0} reduce tiempo de construcción en {2}%, y tú puedes ser dueño de hasta {3} zonas salvajes. La capacidad de almacenamiento de Sestercios es {4}. {5}% de la capacidad total está protegido contra Pillaje.",
+        "functionDesc": "Ajustar Tasa de Impuesto y producción de recursos. Administrar ciudades y zonas salvajes. Mientras más alto el nivel, más rápida la construcción, más zonas salvajes podrás Invadir, mayor capacidad de almacenamiento de Sestercios, y mayor capacidad de protección contra Pillaje. Expansiones después de llegar a niveles 4, 8 y 10 hará que adquieras más Terrenos en la ciudad, para construir más edificios.",
+        "desc": "Un Rectorado es un símbolo clásico de autoridad romana. La dimensión y el lujo de los edificios buscan impresionar a todos los que visitan una ciudad. Los burócratas que viven aquí recolectan impuestos, administran mejoras a la ciudad y se encargan con eficiencia de los diversos asuntos del Imperio. El Rectorado permite los desarrollos avanzados, de modo que los proyectos más fastuosos puedan llevarse a cabo. Todos los aspectos de la vida en la ciudad -religiosos, militares y económicos-  pueden ser mejorados.",
+        "id": "building.townHall"
+    },
+    "13": {
+        "name": "Muro",
+        "func": "{1} Nivel {0} tiene {2} Espacios para fortificación, HP {3}.",
+        "functionDesc": "Protege la ciudad. Construye fortificaciones: Barbacana, Trampas y Rockfall (caída de piedras ). Mientras más alto el nivel, mejor será su capacidad de protección y mayor espacio habrá para construir fortificaciones.",
+        "desc": "Muy sólido y acordonado con Barbacanas, Trampas y Rockfall (caída de piedras ), para una mayor fortificación. Muy efectivos cuando se trata de combatir contra tropas organizadas. Un Muro robusto incluso puede simbolizar el éxito. Sin embargo, los Muros cuestan mucho y se tarda demasiado en construirlos. Por lo general, sólo en las ciudades prestigiosas o muy ricas vale la pena tanto derroche. Son monumentos al Cónsul que los hizo construir.",
+        "id": "building.wall"
+    },
+    "14": {
+        "name": "Mercado",
+        "func": "{1} Nivel {0} opera {2} transportistas y puede conducir hasta {3} transacciones simultáneas.",
+        "functionDesc": "El Mercado te permite comerciar y transportar recursos. En Subasta de Recursos podrás Comprar recursos con Sestercios o Vender todos los recursos que te sobren. En Transporte de Recursos, podrás enviar recursos a cualquiera de tus ciudades, o a un determinado par de coordenadas. Mientras más alto sea tu nivel de Mercado, más grande será el volumen de comercio y el tráfico de Transporte de Recursos permitido.",
+        "desc": "Facilita el transporte y el comercio. Está en auge cuando las oportunidades de negocios florecen. Si no puede comprarse ni venderse entre los comerciantes del mercado, seguramente no merece la pena preocuparse mucho por ello, sea lo que fuere. Éste es el gran centro de negocios de una ciudad: el lugar donde se acumulan bienes llegados de todo el mundo conocido. Cualquier cosa -la lealtad de un hombre sus secretos o su muerte- puede comprarse, si el precio es el correcto. Una actividad tan intensa debe, por supuesto, estar sujeta a impuestos.",
+        "id": "building.market"
+    },
+    "15": {
+        "name": "Aserradero",
+        "func": "{1} Nivel {0} puede crear, uno cada vez, hasta {2} Trabajos Forestales por cada pedido de Crear Trabajos y reduce el tiempo de creación de trabajos en {3} segundo(s).",
+        "functionDesc": "Produce Madera para la construcción, estudios de tecnología, expediciones, entrenamiento y creación de tropas. (Levantar Barbicanas, entrenar Sagitarios y fabricar Ballistas consume casi toda la Madera). Crear más Trabajos Forestales estimula la producción de Madera. Mientras más alto sea el nivel, con más rapidez serán creados los trabajos (y en mayor cantidad). Cada trabajo es creado a pedido, uno por vez.",
+        "desc": "Había muchos bosques en Roma. Cuando se tiene suficientes Aserraderos ya no hay que preocuparse por el dinero. En tiempos en que la preservación de bosques no estaba de moda, los bosques aledaños eran arrasados para construir casas, muebles, carros y armas.",
+        "id": "building.sawmill"
+    },
+    "16": {
+        "name": "Granja",
+        "func": "{1} Nivel {0} puede crear, uno cada vez, hasta {2} Trabajo(s) Agrícolas en cada uno de los pedidos de creación de trabajo y reduce el tiempo de creación de Trabajos en {3} segundo(s).",
+        "functionDesc": "Produce Cosechas para la construcción, estudios de tecnología, expediciones, entrenamiento y creación de tropas. (El Consumo de Cosechas por cada tropa consume casi todas las Cosechas.) Crear más Trabajos Agrícolas estimula la producción de Cosechas. Mientras más alto sea el nivel, con más rapidez serán creados los Trabajos (y en mayor cantidad). Cada Trabajo es creado a pedido, uno por vez.",
+        "desc": "La rotación de cultivos y el manejo básico del suelo son prácticas de ecología sostenible desarrolladas en las granjas. Al cambiar cada año el suelo que se cultiva, se permite que la tierra regenere o sea usada como pasto. Así, el buen estado del suelo es permanente. Como resultado de estas prácticas, mejora el Rédito de Cosechas y hay superávit de producción. Además de que se estimula el crecimiento de población. El trabajo de esclavos es un factor a favor, debido a que los campesinos tienden a producir sólo lo necesario para cubrir sus necesidades.",
+        "id": "building.farm"
+    },
+    "17": {
+        "name": "Mina de Acero",
+        "func": "{1} Nivel {0} puede crear, uno por vez, hasta {2} Trabajos de Extracción por cada uno de los pedidos de Crear Trabajos y reducir el tiempo de creación de trabajos en {3} segundo(s).",
+        "functionDesc": "Produce Acero para la construcción, estudios de tecnología, expediciones, entrenamiento y creación de tropas. (El entrenamiento de tropas consume casi todo el Acero.) Crear más Trabajos de Extracción estimula la producción de Acero. Mientras más alto sea el nivel, con más rapidez serán creados los trabajos (y en mayor cantidad). Cada trabajo es creado a petición, uno por vez.",
+        "desc": "Las Minas son esenciales para explotar la riqueza natural de una provincia, aunque el peligroso trabajo subterráneo le cuesta la vida a numerosos esclavos. La mayoría de las minas no son muy profundas, ya que son excavadas a mano. Además, el criterio es seguir las vetas más ricas al pie de las colinas, antes que la exploración sistemática de canteras (extracción vertical).",
+        "id": "building.ironMine"
+    },
+    "18": {
+        "name": "Cantera",
+        "func": "{1} Nivel {0} puede crear, uno por vez, hasta {2} Trabajos Gemológicos por cada uno de los pedidos de Crear Trabajos y reducir el tiempo de creación de trabajos en {3} segundo(s).",
+        "functionDesc": "Produce Piedra para la construcción, estudios de tecnología, expediciones, entrenamiento y creación de tropas. (Las Mejoras de Templo y Muro, y la creación de Rockfall y Catapultas consumen casi toda la Piedra.) Crear más Trabajos Gemológicos estimula la producción de Piedra. Mientras más alto sea el nivel, con más rapidez serán creados los trabajos (y en mayor cantidad). Cada trabajo es creado a pedido, uno cada vez.",
+        "desc": "La Cantera fue la \"fábrica\" donde trabajadores y canteros acudían a recolectar piedra para los Depósitos y para convertirlas en ladrillos, previo martillado. Dado que los explosivos aún no se conocían, el trabajo era arduo y peligroso. En las Canteras se origina la gloria y la magnificencia de todos los edificios de la ciudad.",
+        "id": "building.quarry"
+    }
+}

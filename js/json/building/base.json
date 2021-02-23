@@ -1,0 +1,358 @@
+{
+    "stable": {
+        "functionDesc": {
+            "data": "Stable trains horsemen: Speculatores and Equites. The higher its level, the faster they complete the training.",
+            "id": "building.stable.functionDesc"
+        },
+        "func": {
+            "data": "{1} Lv {0} shortens horsemen training time by {2}%. Processes and wait lists up to {3} batches of training requests.",
+            "id": "building.stable.func"
+        },
+        "desc": {
+            "data": "Stable is the headquarters of horsemen, not simply their horses' accommodation. After Marius' reforms take effect, the Roman cavalry become a much more 'professional' force. The stables include training yards where superior horsemanship can be taught, and the horses schooled to face the noise and terror of battle (something that does not come naturally to them).",
+            "id": "building.stable.desc"
+        },
+        "name": {
+            "data": "Stable",
+            "id": "building.stable.name"
+        }
+    },
+    "barrack": {
+        "name": {
+            "data": "Barracks",
+            "id": "building.barrack.name"
+        },
+        "funcForLevelOne": {
+            "data": "{0} Lv 1 has no impact on troop training time and can process only one training request.",
+            "id": "building.barrack.funcForLevelOne"
+        },
+        "functionDesc": {
+            "data": "Barracks train Hastatus, Sagittarius and Principes. The higher its level, the faster the training completes.",
+            "id": "building.barrack.functionDesc"
+        },
+        "func": {
+            "data": "{1} Lv {0} shortens infantry training time by {2}%. Processes and wait lists up to {3} batches of training requests.",
+            "id": "building.barrack.func"
+        },
+        "desc": {
+            "data": "Barrack is one of the most important infrastructure in the city. Before the reforms of Marius, the troops trained here are citizen-warriors: men who have a real stake in defending the community. After the Marian reforms of 107 BC (military reforms initiated by Gaius Marius, a statesman and general of the Roman republic), the soldiers are hardened professionals. All barracks for the Roman Legions are built to an efficient standardized ground plan: no matter where in the world a Legionary is sent to enforce Roman peace, he will always know his way around, and where he is expected to be at all times.",
+            "id": "building.barrack.desc"
+        }
+    },
+    "house": {
+        "functionDesc": {
+            "data": "Shelters your citizens and attracts more people to live in your city. It also increases your Population Capacity.",
+            "id": "building.house.functionDesc"
+        },
+        "func": {
+            "data": "{1} Lv {0} has {2} Population Capacity.",
+            "id": "building.house.func"
+        },
+        "desc": {
+            "data": "Population plays a huge part in city development, and cottages are on the priority list of every skillful player.",
+            "id": "building.house.desc"
+        },
+        "name": {
+            "data": "Cottage",
+            "id": "building.house.name"
+        }
+    },
+    "sawmill": {
+        "func": {
+            "data": "{1} Lv {0} can create, one at a time, up to {2} Forestry jobs on each Create Jobs request, and shorten a job's creation time by {3} second(s).",
+            "id": "building.sawmill.func"
+        },
+        "desc": {
+            "data": "Forest were plenty in Rome. With enough Sawmill one doesn't need to worry about income any more. When forest preservation was not a concern, surrounding woods were harvested to build houses and carts.",
+            "id": "building.sawmill.desc"
+        },
+        "name": {
+            "data": "Sawmill",
+            "id": "building.sawmill.name"
+        },
+        "funcSpecial": {
+            "data": "{1} Lv {0} can create, one at a time, up to {2} Forestry jobs on each Create Jobs request.",
+            "id": "building.sawmill.funcSpecial"
+        },
+        "functionDesc": {
+            "data": "Produces Lumber for construction, technology study, troops training & manufacturing, and expedition. (Planting Barbican, training Sagittarii, and manufacturing Ballistae consumes the most Lumber.) More Forestry job means faster Lumber production. Lumber is used in studying technologies and manufacturing weapons. The higher its level, the faster the jobs are created and the more jobs it can create, one at a time, per request.",
+            "id": "building.sawmill.functionDesc"
+        }
+    },
+    "dismantle": {
+        "desc": {
+            "data": "There are two types of demolishment: Implosion and Deconstruction. Implosion consumes a Gunpowder Barrel. Every Deconstruction occupies a Builder.",
+            "id": "building.dismantle.desc"
+        }
+    },
+    
+    "militaryInstitute": {
+        "func": {
+            "data": "{1} Lv {0} shortens the time for studying technology by {2}%. This level of Academy allows you to study technology up to level {0}.",
+            "id": "building.militaryInstitute.func"
+        },
+        "desc": {
+            "data": "Academy is an educational institute for the strategy of the Roman military, which encompasses its grand strategy, operational strategy and, on a small scale, its battlefield tactics. Strategy as a whole is the connection between political policy and the use of force to achieve it.",
+            "id": "building.militaryInstitute.desc"
+        },
+        "functionDesc": {
+            "data": "Studies all sorts of military technology. The higher its level, the faster a study is completed, and the more advanced technologies can be studied. One Academy can only study one technology at a time. Technologies are shared among your own cities but the local Academy must reach the required level of a shared technology for the technology to become effective.",
+            "id": "building.militaryInstitute.functionDesc"
+        },
+        "name": {
+            "data": "Academy",
+            "id": "building.militaryInstitute.name"
+        }
+    },
+    "dak": {
+        "functionDesc": {
+            "data": "Outposts can create Supply Line(s) to channel resources among your own cities. The higher the level of a departure Outpost, the larger amount of resources each individual resource supply line can channel.",
+            "id": "building.dak.functionDesc"
+        },
+        "func": {
+            "data": "{1} Lv {0} can channel as much as {2} resources (Crops, Lumber, Stone and Iron) out on each Supply Line per hour.",
+            "id": "building.dak.func"
+        },
+        "desc": {
+            "data": "Outpost serves as a point of exchange of cultural and military information.  It also serves as a logistics hub for a network of places.",
+            "id": "building.dak.desc"
+        },
+        "name": {
+            "data": "Outpost",
+            "id": "building.dak.name"
+        },
+        "fullLine": {
+            "data": "You need more cities to build up Supply Line.",
+            "id": "building.dak.fullLine"
+        }
+    },
+    "wall": {
+        "name": {
+            "data": "Wall",
+            "id": "building.wall.name"
+        },
+        "functionDesc": {
+            "data": "Shields city. Plant fortifications: Barbican, Traps, and Rockfall. The higher its level, the better its shielding ability, and the more Space for planting fortifications.",
+            "id": "building.wall.functionDesc"
+        },
+        "func": {
+            "data": "{1} Lv {0} has {2} fortification Space, HP {3}.",
+            "id": "building.wall.func"
+        },
+        "desc": {
+            "data": "Very solid and planted with Barbican, Traps, and Rockfall as fortifications. Very effective even when dealing with organized troops. A strong Wall can even serve as a monument of achievement! Wall is, however, expensive and time consuming to construct. Usually only prestigious or rich cities are worth protecting. They are monuments to the Consul who build them!",
+            "id": "building.wall.desc"
+        }
+    },
+    "trainningFeild": {
+        "desc": {
+            "data": "Where troops can be mustered during war time.",
+            "id": "building.trainningFeild.desc"
+        },
+        "name": {
+            "data": "Plaza",
+            "id": "building.trainningFeild.name"
+        },
+        "functionDesc": {
+            "data": "Launch expedition. View Garrison Troops. Adjust Engagement Protocol. Recover lost and found troop's units in Infirmary. The higher its level, the more heroes you may dispatch simultaneously!",
+            "id": "building.trainningFeild.functionDesc"
+        },
+        "func": {
+            "data": "{1} Lv {0} dispatches up to {2} troops simultaneously.",
+            "id": "building.trainningFeild.func"
+        }
+    },
+    "temple": {
+        "func": {
+            "data": "You can choose a deity to worship at each Temple. Different deities have different impacts on different areas.",
+            "id": "building.temple.func.noGod"
+        },
+        "functionDesc": {
+            "data": "Religious symbol of Roman piety. They are also called shrines. People come here to pray and sacrifice for resources, as well as receive blessings from the deities.",
+            "id": "building.temple.functionDesc"
+        },
+        "desc": {
+            "data": "<b>Juno Worship: </b><br/>The Queen of Heaven, and the wife and sister to Jupiter. She is the special protector of marriage and women. She's also regarded as a war goddess. Religion makes people feel happy and content. City gets higher Population Capacity.",
+            "id": "building.temple.desc.juneauGod"
+        },
+        "name": {
+            "data": "Temple",
+            "id": "building.temple.name"
+        }
+    },
+    "quarry": {
+        "func": {
+            "data": "{1} Lv {0} can create, one at a time, up to {2} Gemology jobs on each Create Jobs request, and shorten a job's creation time by {3} second(s).",
+            "id": "building.quarry.func"
+        },
+        "desc": {
+            "data": "Quarry was the \"factory\" for the workers and masons to pound stones out of the rock depository and hammer them into bricks. Explosives were not invented yet, and that made their work dangerous and tough. It's the origin of all the glory and magnificent buildings in the city.",
+            "id": "building.quarry.desc"
+        },
+        "functionDesc": {
+            "data": "Produces Stone for construction, technology study, troops training & manufacturing, and expedition. (Upgrading the Temple and Wall, and manufacturing Rockfall and Onagers consumes the most Stone.) Creating more Gemology jobs boosts Stone production. The higher its level, the faster the jobs are created and the more jobs it can create, one at a time, per request.",
+            "id": "building.quarry.functionDesc"
+        },
+        "name": {
+            "data": "Quarry",
+            "id": "building.quarry.name"
+        },
+        "funcSpecial": {
+            "data": "{1} Lv {0} can create, one at a time, up to {2} Gemology jobs on each Create Jobs request.",
+            "id": "building.quarry.funcSpecial"
+        }
+    },
+    "market": {
+        "func": {
+            "data": "{1} Lv {0} operates {2} transporters, and may conduct up to {3} simultaneous transactions.",
+            "id": "building.market.func"
+        },
+        "functionDesc": {
+            "data": "The Market allows you to trade and transport resources. Under Resources Auction you may either Buy resources with Sesterces or Sell any excess resources you may have. Under Transport Resources, you may send resources to one of your own cities or a particular set of coordinates. The higher the level of the Market, the larger the volume of trade and Transport Resources that is allowed.",
+            "id": "building.market.functionDesc"
+        },
+        "desc": {
+            "data": "Facilitates transportation and commerce. Thrives when business opportunities blossom. If it can't be bought or sold somewhere among the traders in the Market, then \"it\" probably isn't worth bothering about, whatever it might be. This is the great center of all business in a city, a place where goods from across the known world can be found. Anything - even a man's loyalty, his secrets or his demise - can be bought when the price is right. Such extensive trading activity can, of course, be taxed.",
+            "id": "building.market.desc"
+        },
+        "name": {
+            "data": "Market",
+            "id": "building.market.name"
+        }
+    },
+    "academy": {
+        "functionDesc": {
+            "data": "Studies resource production and construction technologies. The higher its level, the faster a study is completed, and the more advanced technologies can be studied. One University can study one technology at a time. Technologies are shared among your own cities but the local University must reach the required level of a shared technology for the technology to become effective.",
+            "id": "building.academy.functionDesc"
+        },
+        "func": {
+            "data": "{1} Lv {0} shortens the time for studying technology by {2}%. This level of University allows you to study technology up to level {3}.",
+            "id": "building.academy.func"
+        },
+        "desc": {
+            "data": "University is an educational institute where leaders can acquire the basic skills of government before they assume the weighty responsibilities of command. Teaching ranges from the purely philosophical to the practical skills of waging war and producing good governance. City with an University will tend to be well run because of the pool of educated men that is produced.",
+            "id": "building.academy.desc"
+        },
+        "name": {
+            "data": "University",
+            "id": "building.academy.name"
+        }
+    },
+    "townHall": {
+        "functionDesc": {
+            "data": "Adjust Tax Rate and resources production. Manage cities and wildernesses. The higher its level, the faster the construction, the more wildernesses you may Seize, the more Sesterces storage capacity it has, and the more Sesterces it can protect from Maraud. Expansion upon reaching level 4, 8 and 10 can get you more Clearings in the city for erecting new buildings.",
+            "id": "building.townHall.functionDesc"
+        },
+        "func": {
+            "data": "{1} Lv {0} shortens construction time by {2}%, and you may own up to {3} wildernesses. Sesterces storage capacity is {4} and {5}% of the capacity is protected from Maraud.",
+            "id": "building.townHall.func"
+        },
+        "desc": {
+            "data": "A Rectorate is unmissable as a symbol of Roman authority. The building's size and luxury are intended to impress everyone in a city. The bureaucrats based here collect taxes, manage improvements to the city and efficiently carry out all the business of empire. Rectorate allows advanced development, as the most costly building projects can be undertaken. All aspects of life within the city can be improved: religious, military and economic.",
+            "id": "building.townHall.desc"
+        },
+        "name": {
+            "data": "Rectorate",
+            "id": "building.townHall.name"
+        }
+    },
+    "ironMine": {
+        "func": {
+            "data": "{1} Lv {0} can create, one at a time, up to {2} Extractive jobs on each Create Jobs request, and shorten a job's creation time by {3} second(s).",
+            "id": "building.ironMine.func"
+        },
+        "functionDesc": {
+            "data": "Produces Iron for construction, technology study, troops training & manufacturing, and expedition. (Troop's unit training and manufacturing consumes the most Iron.) Creating more Extractive jobs boosts Iron production. The higher its level, the faster the jobs are created and the more jobs it can create, one at a time, per request.",
+            "id": "building.ironMine.functionDesc"
+        },
+        "desc": {
+            "data": "Mines are needed to exploit the natural wealth of a province, although the dangerous underground work costs the lives of many slaves. Most mines are not very deep, as they are dug by back-breaking labour and follow the richest seams of ore into hillsides (drift mining), rather than having vertical mine shafts.",
+            "id": "building.ironMine.desc"
+        },
+        "name": {
+            "data": "Iron Mine",
+            "id": "building.ironMine.name"
+        },
+        "funcSpecial": {
+            "data": "{1} Lv {0} can create, one at a time, up to {2} Extractive jobs on each Create Jobs request.",
+            "id": "building.ironMine.funcSpecial"
+        }
+    },
+    "amphitheatre": {
+        "functionDesc": {
+            "data": "Recruitable hero list refreshes periodically. Retains recruited and captured heroes. The higher its level, the higher the level of recruitable heroes show up for your consideration.",
+            "id": "building.amphitheatre.functionDesc"
+        },
+        "func": {
+            "data": "{1} Lv {0} Recruitable Hero List refreshes every {3} minutes. The hero on the top goes off the list as a new hero appears on the bottom. The list contains a total of {2} recruitable heroes of level 1-{4}.",
+            "id": "building.amphitheatre.func"
+        },
+        "desc": {
+            "data": "Amphitheatre allows small-scale games to be staged for the entertainment and satisfaction of all true Romans. The games are part of what makes Romans properly 'Roman', and everyone feels part of the community and forgets their problems on days when there are games to go to! Everyone feels even happier knowing that the games are free and that a wealthy man, keen to increase his popularity, is paying. The Arena also bolsters Romans' happiness to know that they are a superior people: when even the condemned and slaves die with courage, can a true Roman do any less in the face of death?",
+            "id": "building.amphitheatre.desc"
+        },
+        "name": {
+            "data": "Amphitheatre",
+            "id": "building.amphitheatre.name"
+        }
+    },
+    "farm": {
+        "func": {
+            "data": "{1} Lv {0} can create, one at a time, up to {2} Husbandry jobs on each Create Jobs request, and shorten a job's creation time by {3} second(s).",
+            "id": "building.farm.func"
+        },
+        "functionDesc": {
+            "data": "Produces Crops for construction, technology study, troops training & manufacturing, and expedition. (Crops Intake by troop's units consumes the most Crops.) Creating more Husbandry jobs boosts Crops production. The higher its level, the faster the jobs are created and the more jobs it can create, one at a time, per request.",
+            "id": "building.farm.functionDesc"
+        },
+        "desc": {
+            "data": "Crop rotation and basic land management sustain the ecology of farm land. By changing field use every year and allowing land to lie fallow or be used as pasture, the goodness of the land is slowly restored. Crop yields and surpluses improve as a result, and the increased output adds to population growth. Slave labour also helps, as peasant farmers generally keep more produce for themselves.",
+            "id": "building.farm.desc"
+        },
+        "funcSpecial": {
+            "data": "{1} Lv {0} can create, one at a time, up to {2} Husbandry jobs on each Create Jobs request.",
+            "id": "building.farm.funcSpecial"
+        },
+        "name": {
+            "data": "Farm",
+            "id": "building.farm.name"
+        }
+    },
+    "workshop": {
+        "func": {
+            "data": "{1} Lv {0} shortens siege engines' manufacturing time by {2}%. Processes and wait lists up to {3} batches of manufacturing requests.",
+            "id": "building.workshop.func"
+        },
+        "functionDesc": {
+            "data": "Manufactures siege engines: Onagers and Ballistae.",
+            "id": "building.workshop.functionDesc"
+        },
+        "desc": {
+            "data": "The workshop was extremely important in Roman war, when well-made weapons must be forged in a short time so that an armed force can be dispatched on short notice.",
+            "id": "building.workshop.desc"
+        },
+        "name": {
+            "data": "Workshop",
+            "id": "building.workshop.name"
+        }
+    },
+ 
+    "warehouse": {
+        "func": {
+            "data": "{1} Lv {0} can hold up to {2} resources.",
+            "id": "building.warehouse.func"
+        },
+        "functionDesc": {
+            "data": "Warehouse is a place to store resources (Crops, Lumber, Stone and Iron). The higher the level of the Warehouse the more resources can be stored and protected from other players Marauding your city. Protects 30% CSC of Crops, Lumber, Stone and Iron from Maraud. You can erect multiple Warehouses in a city.",
+            "id": "building.warehouse.functionDesc"
+        },
+        "desc": {
+            "data": "Warehouse provides comfort and security for citizens and is seen as a yardstick against which a city's overall development is measured.",
+            "id": "building.warehouse.desc"
+        },
+        "name": {
+            "data": "Warehouse",
+            "id": "building.warehouse.name"
+        }
+    }
+}

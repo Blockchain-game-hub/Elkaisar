@@ -1,0 +1,135 @@
+{
+    "0": {
+        "name": "Chalé",
+        "func": "{1} Nv {0} tem {2} Capacidade de População.",
+        "functionDesc": "Abriga seus moradores e atrai mais pessoas para viverem em sua cidade. Também pode aumentar a sua Capacidade de Poupulação.",
+        "desc": "População é uma grande parte do desenvolvimento de uma cidade e Chalés são a prioridade de qualquer jogador tático.",
+        "id": "building.house"
+    },
+    "1": {
+        "name": "Chalé",
+        "func": "{1} Nv {0} tem {2} Capacidade de População.",
+        "functionDesc": "Abriga seus moradores e atrai mais pessoas para viverem em sua cidade. Também pode aumentar a sua Capacidade de Poupulação.",
+        "desc": "População é uma grande parte do desenvolvimento de uma cidade e Chalés são a prioridade de qualquer jogador tático.",
+        "id": "building.house"
+    },
+    "2": {
+        "name": "Armazém",
+        "func": "{1} Nv {0} pode guardar até {2} recursos.",
+        "functionDesc": "O Armazém é aonde se guardam recursos (Plantações, Madeira, Pedra e Ferro). Quanto maior o nível do Armazém mais coisas poderão ser guardadas e protegidas de outros jogadores Saqueando sua cidade. Protege 30% CSC das Plantações, Madeira, Pedra e Ferro de Saques. Você pode erguer diversos Armazéns em uma cidade.",
+        "desc": "Armazéns dão conforto e segurança para os moradores pois é visto como referência no desenvolvimento global de uma cidade.",
+        "id": "building.warehouse"
+    },
+    "3": {
+        "name": "Quartel",
+        "func": "{1} Nv {0} diminui treinamento de infantaria em {2}%. Processo e listas de espera em até {3} lotes de requerimentos de treinamentos.",
+        "functionDesc": "Quarteis treinam Hastatus, Sagittarius e Principes. Quanto maior seu nível, mais rápido estarão completos os treinamnentos.",
+        "desc": "O Quartel é uma das mais importantes infraestruturas de uma cidade. Antes das reformas de Marius, tropas treinadas aqui são cidadãos-guerreiros que tem uma verdadeira missão em defender a comunidade. Após as reformas de Marius em 107 a.C (reformas militares iniciadas por Gaius Marius um político e general da república Romana), os soldados são profissionais treinados. Todos quartéis para as Legiões Romanas são construídos para um propóstio: não importa aonde um Legionário for enviado para reforçar a paz Romana, ele sempre saberá aonde ir e aonde ele deve estar a todo o tempo.",
+        "id": "building.barrack"
+    },
+    "4": {
+        "name": "Estábulo",
+        "func": "{1} Nv {0} diminui treinamento de cavaleiros em {2}%. Processo e listas de espera até {3} lotes de requerimentos de treinamentos.",
+        "functionDesc": "Estábulos treinam cavaleiros: Especulatores e Equites. Quanto maior seu nível mais rápido eles completam o treinamento.",
+        "desc": "O Estábulo é a central de todos os cavaleiros, não somente pela acomodação de seus cavalos. Após a reforma de Marius, a cavalaria romana se tornou muito mais 'profissional'. Os estábulos incluem terras para um melhor treinamento de cavalaria e aonde os cavalos são treinados a enfrentar o barulho e o terror da batalha (algo que não é natural deles).",
+        "id": "building.stable"
+    },
+    "5": {
+        "name": "Oficina",
+        "func": "{1} Nv {0} diminui o tempo de construção de máquinas de batalha em {2}%. Processo e listas de espera até {3} lotes de requerimentos de manufatura.",
+        "functionDesc": "Manufatura de máquinas de guerra: Onagers e Ballistae.",
+        "desc": "Oficinas eram extremamente importantes nas guerras Romanas quando bem feitas. Devem ser forjadas em pouco tempo para serem despachadas em cima da hora.",
+        "id": "building.workshop"
+    },
+    "6": {
+        "name": "Amphiteatro",
+        "func": "{1} Nv {0} Lista de Heróis Recrutáveis se renova a cada {3} minutos. O herói que estiver por cima sai da lista quando um novo herói aparece embaixo. Existe um total de {2} heróis recrutáveis de nível 1-{4} nesta lista.",
+        "functionDesc": "A lista de heróis recrutáveis renova periodicamente. Retem heróis capturados e recrutados. Quanto maior seu nível, maior o nível de heróis recrutáveis que aparecerão para sua consideração.",
+        "desc": "O Amphiteatro permite que jogos de pequena escala sejam oferecidos para a diversão e entretenimento de todos os verdadeiros Romanos. Os jogos são parte do que faz os Romanos verdadeiramente Romanos, e todos se sentem uma parte da comunidade e esquecem seus problemas do dia quando estão assistindo aos jogos! Todos já se sentem felizes ao saber que os jogos são grátis e que um homem rico que quer aumentar sua popularidade está pagando. A Arena também mostra aos Romanos quão superiores eles são em relação a outros povos: quando até mesmo escravos condenados morrem com coragem, poderia um verdadeiro Romano fazer menos em frente a morte?",
+        "id": "building.amphitheatre"
+    },
+    "7": {
+        "name": "Posto Avanç.",
+        "func": "{1} Nv {0} pode carregar o mesmo tanto que {2} recursos (Plantações, Madeira, Pedra e Ferro) em cada Linha de Suprimento por hora.",
+        "functionDesc": "Recursos passam pelas Linhas de Suprimento em Postos Avançados pela sua cidade. Quanto maior o nível dos Postos Avançados, mais larga a quantidade de recursos que cada linha de suprimentos individuais poderá canalizar.",
+        "desc": "Postos Avançados servem como um ponto de troca de informações culturais e militares. Elas também servem como um centro de logística para conexão de diversos locais.",
+        "id": "building.dak"
+    },
+    "8": {
+        "name": "Universidade",
+        "func": "{1} Nv {0} diminui o tempo de estudo de uma tecnologia em {2}%. Este nível de Universidade lhe permite estudar uma tecnologia até o nível {3}.",
+        "functionDesc": "Estudos aumentam a produção e construção de tecnologias. Quanto maior o nível, mais rápido um estudo será completado, e mais avançadas são as tecnologias que poderão ser estudadas. Uma Universidade pode estudar uma tecnologia por vez. Tecnologias são divididas entre todas suas cidades mas a Universidade local deve alcançar o nível requerido e uma tecnologia dividida para se tornar efetiva.",
+        "desc": "Universidades são institutos educacionais aonde líderes podem adquirir habilidades básicas de governo antes de assumirem suas responsabilidades no comando. A Universidade ensina desde pura filosofia até mesmo as habilidades da guerra e batalha e como produzir um bom governo. Cidades com Universidades geralmente são bem gerenciadas pelos homens bem educados que a governam.",
+        "id": "building.academy"
+    },
+    "9": {
+        "name": "Academia",
+        "func": "{1} Nv {0} diminui o tempo de estudo em {2}%. Este nível de academia lhe permite estudar tecnologias até o nível {0}.",
+        "functionDesc": "Estuda todos os tipos de tecnologia militar. Quanto maior seu nível, mais rápido um estudo será completado, e mais tecnologias avançadas poderão ser estudadas. Uma Academia só pode estudar uma tecnologia por vez. Tecnologias são divididas entre suas cidades mas a Academia local deve alcançar o nível requerido de uma tecnologia dividida para que ela tenha eficiência.",
+        "desc": "A Academia é um instituto educacional para a estratégia militar Romana, é a origem de toda sua estratégia, operacional em pequena escala ou táticas de campo de batalha. Estratégia como um todo é a conexão entre política e o uso de força para alcançá-la.",
+        "id": "building.militaryInstitute"
+    },
+    "10": {
+        "name": "Templo",
+        "func": "Acelera em {0}%.",
+        "functionDesc": "Símbolo da piedade Romana. São também chamados de santuários. Pessoas vem aqui para rezar e realizar sacrifícios por recursos, tanto quanto receber bençãos de divindades.",
+        "desc": "<b>Santuário de Júpiter: <b><br/>Este incrível templo é dedicado a Júpiter, o Deus Supremo de Roma. Ele é o protetor de Roma, o senhor dos céus e é ele quem traz a luz. Augúrios são a forma que Júpitor se comunica com o mundo mortal, ele e seus servos são habilidosos em ler os sinais no voo das aves, sacrificios e assim em diante. Diminui o tempo de construção da cidade. <br/>Templo de Juno: </b><br/>Este incrível templo é dedicado a Juno, A Raínha dos Céus é a mulher e irmã de Júpiter. Ela é a protetora dos casamentos e das mulheres. Ela também possui o aspecto de Deusa da Guerra. A cidade terá uma maior capacidade de população. <br/><b> Adorar Miverva: <b><br/>Minerva foi a deusa virgem da poesia, medicina, conhecimento, comércio, construção, mágica e a inventora da música. Ela é representada por uma coruja, seu animal sagrado, e através desta conexão, um símbolo de conhecimento. Adorar Minerva diminui o treinamento e a manufatura das unidades de tropa.",
+        "id": "building.temple"
+    },
+    "11": {
+        "name": "Plaza",
+        "func": "{1} Nv {0} despacha até {2} tropas simultaneamente.",
+        "functionDesc": "Envie expedições. Veja Tropas de Defesa. Ajuste Protocolo de Compromisso, Recupere tropas perdidas e encontradas na Enfermaria. Quanto mais alto seu nível, mais heróis você poderá expedir simultaneamente!",
+        "desc": "Onde tropas podem ser juntadas durante tempos de guerra.",
+        "id": "building.trainningFeild"
+    },
+    "12": {
+        "name": "Reitoria",
+        "func": "{1} Nv {0} diminui o tempo de construção em {2}%, você pode dominar até {3} áreas desconhecidas. Capacidade de Sestércios é {4} e {5}% da capacidade é protegida contra roubos.",
+        "functionDesc": "Ajusta Taxa de Impostos e recursos de produção. Gerencia cidades e áreas desconhecidas. Quanto maior o nível, mais rápida é a construção, mais áreas desconhecidas você poderá Explorar, mais Sestércios poderão ser guardados e mais Sestércios você poderá proteger de Saques. Expansão ao alcançar o nível 4, 8 e 10 podem te dar mais Limpezas de Área para eguer novas construções.",
+        "desc": "Uma Reitoria é um símbolo de toda a autoridade Romana. O tamanho e o luxo da construção devem impressionar a todos na cidade. Os burocratas que aqui ficam coletam as taxas, e gerenciam melhorias na cidade para sustentar todos os negócios do império. Reitoria permite um maior desenvolvimento pois projetos de construção caros podem ser adquiridos. Todos os aspectos de vida na cidade podem ser aprimorados: religiosos, militares e economicos.",
+        "id": "building.townHall"
+    },
+    "13": {
+        "name": "Muro",
+        "func": "{1} Nv {0} possui {2} Espaço de fortificação, HP {3}.",
+        "functionDesc": "Protege a cidade. Fortificações: Barbacã, Armadilhas e Queda de Pedras. Quanto maior o nível, melhor é a defesa e mais espaço para estabelecer fortificações.",
+        "desc": "Altamente sólidas e estabelecidas com Barbacãs, Armadilhas, Quedas de Pedras como fortificações. Muito efetivo mesmo quando lidando contra tropas organizadas. Um Muro forte pode servir como um monumento de uma realização! Porém, muros são caros e consomem muito tempo para serem construídos. Normalmente apenas cidades ricas e prestigiosas possuem muros para protegê-las. Elas são monumentos de honra ao Cônsul que as construiu.",
+        "id": "building.wall"
+    },
+    "14": {
+        "name": "Mercado",
+        "func": "{1} Nv {0} opera {2} transportadores, e pode conduzir até {3} transações simultâneas.",
+        "functionDesc": "O Mercado permite que você troque e transporte recursos. No Leilão de Recursos você poderá Comprar recursos com Sestécios ou Vender qualquer excesso de recursos que você tiver. Em Transporte de Recursos, você poderá enviar recursos de uma cidade sua para uma outra coordenada. Quanto maior o nível do Mercado, maior  volume de troca e Transporte de Recursos será permitido.",
+        "desc": "Facilita o transporte e comércio. Prospera quando oportunidade de negócios aparece. Se não pode ser vendido ou comprado entre os comerciantes no Mercado, então \"isso\" não deve ter importância. Este é um grande centro de todos os negócios  duma cidade, um lugar aonde os bens de todo o mundo podem ser encontrados. Qualquer coisa - até a lealdade de um homem, seus segredos até seu falecimento. Tal atividade extensiva de comércio pode ser obviamente, taxada como um imposto.",
+        "id": "building.market"
+    },
+    "15": {
+        "name": "Serraria",
+        "func": "{1} Nv {0} pode criar, uma por vez, até {2} empregos Florestais em cada pedido de Criar Empregos, e diminui a criação de empregos em {3} segundo(s).",
+        "functionDesc": "Produz Madeira para a construção, estudo de tecnologia, treinamento de tropas & manufatura e expedições. (Plantar Barbacã, treinar Sagitarios e manufatura de Ballistae cansome muita Madeira.) Mais empregos Florestais aumentam a produção de Madeira. A Madeira é usada no estudo de tecnologia e manufatura de armas. Quanto maior seu nível, mais rápido esses empregos são criados e mais empregos poderão ser criados, um de cada vez, a cada pedido.",
+        "desc": "Haviam muitas Florestas em Roma. Com Serrarias suficientes não é necessário se preocupar mais com lucros. Quando a produção da floresta não era um problema, florestas que cercavam a cidade eram derrubadas para construção de casas e veículos.",
+        "id": "building.sawmill"
+    },
+    "16": {
+        "name": "Fazenda",
+        "func": "{1} Nv {0} pode criar, uma de cada vez, até {2} Empregos de camponês em cada pedido de Criar Empregos, e diminuir a ciração de empregos em {3} segundo(s).",
+        "functionDesc": "Produz  para construção, estudos de tecnologia, treinamento de tropas & manufatura e expedição. (Chegada de Plantações que a tropa consome e maior parte das Plantações.) Cria mais trabalhos de campo aumentando a produção de Plantações. Quanto maior o seu nível, mais rápido os empregos são criados e mais empregos poderão ser criados, um de cada vez, por pedido.",
+        "desc": "Rotação de culturas (plantações) e manejo das terras é o básico para manter a ecologia das terras agrícolas. Com a mudança de uso de terras agricolas a cada ano, permite que a terra repousa e seja usada como fonecedora de pastos. Assim a terra recupera a capacidade produtiva. As colheitas excedentes e melhorias fazem aumentar a fartura e a populaçao também. O trabalho escravo também ajuda nas produções e acumulação de riquezas.",
+        "id": "building.farm"
+    },
+    "17": {
+        "name": "Mina de Ferro",
+        "func": "{1} Nv {0} pode criar, de cada vez, até {2} Empregos Extrativistas a cada pedido de Criar Empregos, e diminuir a criação de empregos em {3} segundo(s).",
+        "functionDesc": "Produz Ferro para a construção, estudo de tecnologia, treinamento de tropas, manufatura e expedições. (Unidades de tropas treinando e manufatura gastam maior quantidade de Ferro.) Criando mais Empregos Extrativistas aumenta a produção de Ferro. Quanto maior o seu nível, mais rápido os trabalhos serão criados e mais empregos poderão ser criados, um de cada vez, a cada pedido.",
+        "desc": "Minas são necessárias para explorar as riquezas naturais de uma província, mesmo sob os perigosos subterrâneos custando várias vidas de escravos. A maioria das minas não são muito profundas, como as que são cavadas nas encostas e não na vertical.",
+        "id": "building.ironMine"
+    },
+    "18": {
+        "name": "Pedreira",
+        "func": "{1} Nv {0} pode criar, uma por vez, até {2} empregos de Gemologia em cada pedido de Criar Empregos, e diminui a criação de empregos em {3} segundo(s).",
+        "functionDesc": "Produz Pedras para construção, estudo de tecnologia, treinamento de tropas & manufatura e expedição. (Aprimorando o Templo e Muros e manufatura de Queda de Pedras e Onagers consome muita Pedra). Criar mais empregos de Gemologia aumenta a produção de Pedra. Quanto maior o nível, mais rápido os empregos são criados, um de cada vez, a cada pedido.",
+        "desc": "Pedreiras eram as \"fábricas\" dos trabalhadores e pedreiros que moldavam pedras em tijolos. Explosivos não tinham sido inventados ainda, fazendo seus empregos muito perigosos e difíceis. É a origem de toda a glória das estruturas da cidade.",
+        "id": "building.quarry"
+    }
+}

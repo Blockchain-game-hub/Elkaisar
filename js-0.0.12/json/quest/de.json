@@ -1,0 +1,1059 @@
+{
+    "cottage_1": {
+        "ar_title": "Wohnhäuser bauen",
+        "header": "Klicke mit der linken Maustaste auf eine freie Fläche in der Stadt.Wähle nun im aufgeklappten Fenster das Wohnhaus und betätige den Button \"Bauen\".<img src=\"img/Erect Cottages.jpg\"></img>",
+        "desc": "Die Wohnhäuser bieten den Lebensraum für Ihre Stadtbewohner. Du bist bestrebt, so viele Menschen wie möglich aufzunehmen. Das Hauptziel der neuen Stadt ist es, die Bevölkerungszahl schnell zu erhöhen. Baue ein Wohnhaus und begrüße die ersten Bewohner."
+    },
+    "cottage_2": {
+        "ar_title": "Privathaus updaten",
+        "header": "Klicke auf dein Wohnhaus ersten Ranges, im neuen Fenster den Button \"Versetzung\". Kann dieser angewählt werden, so erfüllst du bereits alle Vorraussetzungen zur Rangerhöhung, wenn nicht, so ist der Button grau.<img src=\"img/Upgrade Cottages.jpg\"></img>",
+        "desc": "Die  Wohnhäuser bieten der Bevölkerung Lebensraum. Nur freier Wohnraum zieht neue Bewohner in deine Stadt, welche du dringend als Arbeiter benötigst. Die Versetzung deines Wohnhauses auf Rang 2 erhöht deine Bevölkerungsobergrenze."
+    },
+    "cottage_3": {
+        "ar_title": "Privathaus updaten",
+        "header": "Wähle ein Wohnhaus in deiner Stadt und versetze es auf Rang 3!",
+        "desc": "Die Wohnhäuser bieten der Bevölkerung Lebensraum. Nur freier Wohnraum zieht neue Bewohner in deine Stadt, welche du dringend als Arbeiter benötigst. Die Versetzung deines Wohnhauses auf Rang 3 erhöht deine Bevölkerungsobergrenze."
+    },
+    "cottage_4": {
+        "ar_title": "Privathaus updaten",
+        "header": "Wähle ein Wohnhaus in deiner Stadt und versetze es auf Rang 4!",
+        "desc": "Die Wohnhäuser bieten der Bevölkerung Lebensraum. Nur freier Wohnraum zieht neue Bewohner in deine Stadt, welche du dringend als Arbeiter benötigst. Die Versetzung deines Wohnhauses auf Rang 4 erhöht deine Bevölkerungsobergrenze."
+    },
+    "cottage_5": {
+        "ar_title": "Privathaus updaten",
+        "header": "Wähle ein Wohnhaus in deiner Stadt und versetze es auf Rang 5!",
+        "desc": "Die Wohnhäuser bieten der Bevölkerung Lebensraum. Nur freier Wohnraum zieht neue Bewohner in deine Stadt, welche du dringend als Arbeiter benötigst. Die Versetzung deines Wohnhauses auf Rang 5 erhöht deine Bevölkerungsobergrenze."
+    },
+    "cottage_6": {
+        "ar_title": "Privathaus updaten",
+        "header": "Wähle ein Wohnhaus in deiner Stadt und versetze es auf Rang 6!",
+        "desc": "Die Wohnhäuser bieten der Bevölkerung Lebensraum. Nur freier Wohnraum zieht neue Bewohner in deine Stadt, welche du dringend als Arbeiter benötigst. Die Versetzung deines Wohnhauses auf Rang 6 erhöht deine Bevölkerungsobergrenze."
+    },
+    "cottage_7": {
+        "ar_title": "Privathaus updaten",
+        "header": "Wähle ein Wohnhaus in deiner Stadt und versetze es auf Rang 7!",
+        "desc": "Die Wohnhäuser bieten der Bevölkerung Lebensraum. Nur freier Wohnraum zieht neue Bewohner in deine Stadt, welche du dringend als Arbeiter benötigst. Die Versetzung deines Wohnhauses auf Rang 7 erhöht deine Bevölkerungsobergrenze."
+    },
+    "cottage_8": {
+        "ar_title": "Privathaus updaten",
+        "header": "Wähle ein Wohnhaus in deiner Stadt und versetze es auf Rang 8!",
+        "desc": "Die Wohnhäuser bieten der Bevölkerung Lebensraum. Nur freier Wohnraum zieht neue Bewohner in deine Stadt, welche du dringend als Arbeiter benötigst. Die Versetzung deines Wohnhauses auf Rang 8 erhöht deine Bevölkerungsobergrenze."
+    },
+    "cottage_9": {
+        "ar_title": "Privathaus updaten",
+        "header": "Wähle ein Wohnhaus in deiner Stadt und versetze es auf Rang 9!",
+        "desc": "Die Wohnhäuser bieten der Bevölkerung Lebensraum. Nur freier Wohnraum zieht neue Bewohner in deine Stadt, welche du dringend als Arbeiter benötigst. Die Versetzung deines Wohnhauses auf Rang 9 erhöht deine Bevölkerungsobergrenze."
+    },
+    "cottage_10": {
+        "ar_title": "Privathaus updaten",
+        "header": "Wähle ein Wohnhaus in deiner Stadt und versetze es auf Rang 10!",
+        "desc": "Die Wohnhäuser bieten der Bevölkerung Lebensraum. Nur freier Wohnraum zieht neue Bewohner in deine Stadt, welche du dringend als Arbeiter benötigst. Die Versetzung deines Wohnhauses auf Rang 10 erhöht deine Bevölkerungsobergrenze."
+    },
+    "store_1": {
+        "ar_title": "Der Bau eines Lagers",
+        "header": "Klicke mit der linken Maustaste auf eine freie Fläche in der Stadt. Wähle nun im aufgeklappten Fenster das Lager und betätige den Button \"Bauen\". (Kann der Button gewählt werden, erfüllst du die Voraussetzungen für den Bau, wenn nicht, bleibt der Button grau). <img src=\"img/Erect Warehouse.jpg\"></img>",
+        "desc": "Deine Stadt gedeiht. Du brauchst neuen Lagerraum, um den Bestand deiner Ressourcen weiter ausbauen zu können. Durch den Bau eines Lagers können die Bestände nicht durch den Feind geplündert werden."
+    },
+    "store_2": {
+        "ar_title": "das Lager updaten",
+        "header": "Klicke auf dein Lager, danach auf den Button \"Versetzung\". (Kann er gewählt werden, verfügst du über die erforderlichen Vorraussetzungen zur Versetzung, wenn nicht, so bleibt der Button grau).<img src=\"img/Upgrade Warehouse.jpg\"></img>",
+        "desc": "Dein Lager verfügt nicht über genügend freien Platz, um noch alle Ressourcen zu verwahren. Erhöhe daher den Rang deines Lagers. Waren, welche sich wegen zu geringer Kapazität nicht im Lager befinden, gehen dir verloren oder werden von feindlichen Plünderungen betroffen sein."
+    },
+    "store_3": {
+        "ar_title": "das Lager updaten",
+        "header": "Wähle ein Lager in der Stadt, und versetze es auf Rang 3!",
+        "desc": "Dein Lager verfügt nicht über genügend freien Platz, um noch alle Ressourcen zu verwahren. Erhöhe daher den Rang deines Lagers. Waren, welche sich wegen zu geringer Kapazität nicht im Lager befinden, gehen dir verloren oder werden von feindlichen Plünderungen betroffen sein."
+    },
+    "store_4": {
+        "ar_title": "das Lager updaten",
+        "header": "Wähle ein Lager in der Stadt, und versetze es auf Rang 4!",
+        "desc": "Dein Lager verfügt nicht über genügend freien Platz, um noch alle Ressourcen zu verwahren. Erhöhe daher den Rang deines Lagers. Waren, welche sich wegen zu geringer Kapazität nicht im Lager befinden, gehen dir verloren oder werden von feindlichen Plünderungen betroffen sein."
+    },
+    "store_5": {
+        "ar_title": "das Lager updaten",
+        "header": "Wähle ein Lager in der Stadt, und versetze es auf Rang 5!",
+        "desc": "Dein Lager verfügt nicht über genügend freien Platz, um noch alle Ressourcen zu verwahren. Erhöhe daher den Rang deines Lagers. Waren, welche sich wegen zu geringer Kapazität nicht im Lager befinden, gehen dir verloren oder werden von feindlichen Plünderungen betroffen sein."
+    },
+    "store_6": {
+        "ar_title": "das Lager updaten",
+        "header": "Wähle ein Lager in der Stadt, und versetze es auf Rang 6!",
+        "desc": "Dein Lager verfügt nicht über genügend freien Platz, um noch alle Ressourcen zu verwahren. Erhöhe daher den Rang deines Lagers. Waren, welche sich wegen zu geringer Kapazität nicht im Lager befinden, gehen dir verloren oder werden von feindlichen Plünderungen betroffen sein."
+    },
+    "store_7": {
+        "ar_title": "das Lager updaten",
+        "header": "Wähle ein Lager in der Stadt, und versetze es auf Rang 7!",
+        "desc": "Dein Lager verfügt nicht über genügend freien Platz, um noch alle Ressourcen zu verwahren. Erhöhe daher den Rang deines Lagers. Waren, welche sich wegen zu geringer Kapazität nicht im Lager befinden, gehen dir verloren oder werden von feindlichen Plünderungen betroffen sein."
+    },
+    "store_8": {
+        "ar_title": "das Lager updaten",
+        "header": "Wähle ein Lager in der Stadt, und versetze es auf Rang 8!",
+        "desc": "Dein Lager verfügt nicht über genügend freien Platz, um noch alle Ressourcen zu verwahren. Erhöhe daher den Rang deines Lagers. Waren, welche sich wegen zu geringer Kapazität nicht im Lager befinden, gehen dir verloren oder werden von feindlichen Plünderungen betroffen sein."
+    },
+    "store_9": {
+        "ar_title": "das Lager updaten",
+        "header": "Wähle ein Lager in der Stadt, und versetze es auf Rang 9!",
+        "desc": "Dein Lager verfügt nicht über genügend freien Platz, um noch alle Ressourcen zu verwahren. Erhöhe daher den Rang deines Lagers. Waren, welche sich wegen zu geringer Kapazität nicht im Lager befinden, gehen dir verloren oder werden von feindlichen Plünderungen betroffen sein."
+    },
+    "store_10": {
+        "ar_title": "das Lager updaten",
+        "header": "Wähle ein Lager in der Stadt, und versetze es auf Rang 10!",
+        "desc": "Dein Lager verfügt nicht über genügend freien Platz, um noch alle Ressourcen zu verwahren. Erhöhe daher den Rang deines Lagers. Waren, welche sich wegen zu geringer Kapazität nicht im Lager befinden, gehen dir verloren oder werden von feindlichen Plünderungen betroffen sein."
+    },
+    "palace_2": {
+        "ar_title": "den Amtssitz updaten",
+        "header": "Klicke auf deine Amtssitz, danach auf den Button \"Versetzung\". (Kann er gewählt werden, verfügst du über die erforderlichen Vorraussetzungen zur Versetzung, wenn nicht, so bleibt der Button grau) <img src=\"img/Upgrade Rectorate.jpg\"></img>",
+        "desc": "Deiner Stadt geht es sehr gut. Erhöhst du den Rang deiner Regierung, wirst du den Gegner sicher bald übertrumpfen. Deine Gebäude werden schneller gebaut, können in höhere Ränge befördert werden. Bei der Erhöhung des Ranges deiner Amtssitz auf 4, 8 und 10 erhälst du die Berechtigung, deine Stadt zu erweitern."
+    },
+    "palace_3": {
+        "ar_title": "den Amtssitz updaten",
+        "header": "Klicke auf deine Amtssitz, danach auf den Button \"Versetzung\". (Kann er gewählt werden, verfügst du über die erforderlichen Vorraussetzungen zur Versetzung, wenn nicht, so bleibt der Button grau)",
+        "desc": "Deiner Stadt geht es sehr gut. Erhöhst du den Rang deiner Regierung, wirst du den Gegner sicher bald übertrumpfen. Deine Gebäude werden schneller gebaut, können in höhere Ränge befördert werden. Bei der Erhöhung des Amtssitz deiner  auf 4, 8 und 10 erhälst du die Berechtigung, deine Stadt zu erweitern."
+    },
+    "palace_4": {
+        "ar_title": "den Amtssitz updaten",
+        "header": "Klicke auf deine Amtssitz, danach auf den Button \"Versetzung\". (Kann er gewählt werden, verfügst du über die erforderlichen Vorraussetzungen zur Versetzung, wenn nicht, so bleibt der Button grau)",
+        "desc": "Deiner Stadt geht es sehr gut. Erhöhst du den Rang deiner Regierung, wirst du den Gegner sicher bald übertrumpfen. Deine Gebäude werden schneller gebaut, können in höhere Ränge befördert werden. Bei der Erhöhung des Ranges deiner Amtssitz auf 4, 8 und 10 erhälst du die Berechtigung, deine Stadt zu erweitern."
+    },
+    "palace_5": {
+        "ar_title": "den Amtssitz updaten",
+        "header": "Klicke auf deineAmtssitz, danach auf den Button \"Versetzung\". (Kann er gewählt werden, verfügst du über die erforderlichen Vorraussetzungen zur Versetzung, wenn nicht, so bleibt der Button grau)",
+        "desc": "Deiner Stadt geht es sehr gut. Erhöhst du den Rang deiner Regierung, wirst du den Gegner sicher bald übertrumpfen. Deine Gebäude werden schneller gebaut, können in höhere Ränge befördert werden. Bei der Erhöhung des Ranges deiner Amtssitz auf 4, 8 und 10 erhälst du die Berechtigung, deine Stadt zu erweitern."
+    },
+    "palace_6": {
+        "ar_title": "den Amtssitz updaten",
+        "header": "Klicke auf deine Amtssitz, danach auf den Button \"Versetzung\". (Kann er gewählt werden, verfügst du über die erforderlichen Vorraussetzungen zur Versetzung, wenn nicht, so bleibt der Button grau)",
+        "desc": "Deiner Stadt geht es sehr gut. Erhöhst du den Rang deiner Regierung, wirst du den Gegner sicher bald übertrumpfen. Deine Gebäude werden schneller gebaut, können in höhere Ränge befördert werden. Bei der Erhöhung des Ranges deiner Amtssitz auf 4, 8 und 10 erhälst du die Berechtigung, deine Stadt zu erweitern."
+    },
+    "palace_7": {
+        "ar_title": "den Amtssitz updaten",
+        "header": "Klicke auf deineAmtssitz, danach auf den Button \"Versetzung\". (Kann er gewählt werden, verfügst du über die erforderlichen Vorraussetzungen zur Versetzung, wenn nicht, so bleibt der Button grau)",
+        "desc": "Deiner Stadt geht es sehr gut. Erhöhst du den Rang deiner Regierung, wirst du den Gegner sicher bald übertrumpfen. Deine Gebäude werden schneller gebaut, können in höhere Ränge befördert werden. Bei der Erhöhung des Ranges deiner Amtssitz auf 4, 8 und 10 erhälst du die Berechtigung, deine Stadt zu erweitern."
+    },
+    "palace_8": {
+        "ar_title": "den Amtssitz updaten",
+        "header": "Klicke auf deine Amtssitz, danach auf den Button \"Versetzung\". (Kann er gewählt werden, verfügst du über die erforderlichen Vorraussetzungen zur Versetzung, wenn nicht, so bleibt der Button grau)",
+        "desc": "Deiner Stadt geht es sehr gut. Erhöhst du den Rang deiner Regierung, wirst du den Gegner sicher bald übertrumpfen. Deine Gebäude werden schneller gebaut, können in höhere Ränge befördert werden. Bei der Erhöhung des Ranges deiner Amtssitz auf 4, 8 und 10 erhälst du die Berechtigung, deine Stadt zu erweitern."
+    },
+    "palace_9": {
+        "ar_title": "den Amtssitz updaten",
+        "header": "Klicke auf deine Amtssitz, danach auf den Button \"Versetzung\". (Kann er gewählt werden, verfügst du über die erforderlichen Vorraussetzungen zur Versetzung, wenn nicht, so bleibt der Button grau)",
+        "desc": "Deiner Stadt geht es sehr gut. Erhöhst du den Rang deiner Regierung, wirst du den Gegner sicher bald übertrumpfen. Deine Gebäude werden schneller gebaut, können in höhere Ränge befördert werden. Bei der Erhöhung des Ranges deiner Amtssitz auf 4, 8 und 10 erhälst du die Berechtigung, deine Stadt zu erweitern."
+    },
+    "palace_10": {
+        "ar_title": "den Amtssitz updaten",
+        "header": "Klicke auf deine Amtssitz, danach auf den Button \"Versetzung\". (Kann er gewählt werden, verfügst du über die erforderlichen Vorraussetzungen zur Versetzung, wenn nicht, so bleibt der Button grau)",
+        "desc": "Deiner Stadt geht es sehr gut. Erhöhst du den Rang deiner Regierung, wirst du den Gegner sicher bald übertrumpfen. Deine Gebäude werden schneller gebaut, können in höhere Ränge befördert werden. Bei der Erhöhung des Ranges deiner Amtssitz auf 4, 8 und 10 erhälst du die Berechtigung, deine Stadt zu erweitern."
+    },
+    "pop_1": {
+        "ar_title": "Investbau verbessern",
+        "header": "Baue ein Wohnhaus, erhöhe den Rang, und erreiche die Bevölkerungshöchstgrenze von 500 Personen.",
+        "desc": "Zur Weiterentwicklung der Stadt benötigst du mehr Einwohner. Mehr Bevölkerung bedeudet mehr freie Arbeitskräfte und mehr Steuereinnahmen. Baue mehr Wohnhäuser und hebe damit die Bevölkerungshöchstgrenze auf 500 Personen an. Dein Wohlstand wird sich vermehren."
+    },
+    "pop_2": {
+        "ar_title": "Investbau verbessern",
+        "header": "Baue ein Wohnhaus, und erhöhe dessen Rang. Lasse die Bevölkerungshöchstgrenze auf 5000 Personen steigen.",
+        "desc": "Deine Innenpolitik ist hervorragend. Trotzdem mangelt es dir an einer größeren Bevölkerung. Viel mehr Menschen müssten für dich arbeiten, denn dies ist die Grundlage zu deinem Erfolg. Baue mehr Wohnhäuser und bald wirst du eine große Stadt haben."
+    },
+    "pop_3": {
+        "ar_title": "Investbau verbessern",
+        "header": "Baue ein Wohnhaus, und erhöhe dessen Rang. Lasse die Bevölkerungshöchstgrenze auf 50.000 Personen steigen.",
+        "desc": "Deine Stadt ist wohlhabend. Du verfügst über große Ressourcen. Die Produktion ist in vollem Gange und der Handel blüht. Menschen wandern in deine Stadt ein. Wenn die Bevölkerungsgrenze 50.000 Personen erreicht, wird deine Stadt berühmt sein."
+    },
+    "pop_4": {
+        "ar_title": "Investbau verbessern",
+        "header": "Baue ein Wohnhaus, und erhöhe dessen Rang. Lasse die Bevölkerungshöchstgrenze auf 50.000 Personen steigen.",
+        "desc": "Deine Stadt ist wohlhabend. Du verfügst über große Ressourcen. Die Produktion ist in vollem Gange und der Handel blüht. Menschen wandern in deine Stadt ein. Wenn die Bevölkerungsgrenze 50.000 Personen erreicht, wird deine Stadt berühmt sein."
+    },
+    "jop_1": {
+        "ar_title": "Wohnhäuser bauen",
+        "header": "Klicke mit der linken Maustaste auf eine freie Fläche in der Stadt.Wähle nun im aufgeklappten Fenster das Wohnhaus und betätige den Button \"Bauen\".<img src=\"img/Erect Cottages.jpg\"></img>",
+        "desc": "Die Wohnhäuser bieten den Lebensraum für Ihre Stadtbewohner. Du bist bestrebt, so viele Menschen wie möglich aufzunehmen. Das Hauptziel der neuen Stadt ist es, die Bevölkerungszahl schnell zu erhöhen. Baue ein Wohnhaus und begrüße die ersten Bewohner."
+    },
+    "jop_2": {
+        "ar_title": "Arbeiter ausbilden",
+        "header": "Wähle eine Betriebsstätte in deiner Stadt und bilde 50 Arbeiter in jedem Bereich aus.",
+        "desc": "Die Infrastruktur deiner Stadt hat sich gut entwickelt. Jedoch gibt es noch müßige Bevölkerung, und auch deine Ressourcen könnten eine Steigerung vertragen. Bilde daher in deinen Betriebsstätten mehr Arbeiter aus."
+    },
+    "farm_2": {
+        "ar_title": "Die Farm updaten",
+        "header": "Wähle die Farm in der Stadt, und vesetze sie auf Rang 2.<img src=\"img/Upgrade Farms.jpg\"></img>",
+        "desc": "Immer mehr Menschen siedeln sich in deiner Stadt an. Erweitere deine Ressourcen, vor allem Lebensmittel, denn die Entwicklung deiner Stadt, der Bau von Gebäuden, Forschung und Wissenschaft, die Aufrechterhaltung der Ordnung, sowie die Expeditionen deiner Truppen machen dies unbedingt erforderlich. Ohne Nahrungsmittel droht dir ein Militäraufstand! Erhöhe den Rang deiner Farm. Gleichzeitig wird sich deine Ausbildungskapazität erhöhen."
+    },
+    "wood_2": {
+        "ar_title": "Sägemühle updaten",
+        "header": "Wähle das Sägewerk in der Stadt aus, und versetze es auf Rang 2.<img src=\"img/Upgrade Sawmill.jpg\"></img>",
+        "desc": "Der Aufbau deiner Stadt ist abhängig von den Holzvorräten. Der Verbrauch ist hoch, selbst die Waffenproduktion ist auf Holz angewiesen. Bilde daher möglichst viele Holzfäller aus, um den Bedarf an Holz decken zu können. Erhöhe den Rang des Sägewerkes. Gleichzeitig wird sich deine Ausbildungskapazität erhöhen."
+    },
+    "uni_1": {
+        "ar_title": "Universität bauen",
+        "header": "Klicke mit der linken Maustaste auf eine freie Fläche in der Stadt. Wähle nun im aufgeklappten Fenster die Universität und betätigen den Button \"Bauen\". (Kann der Button gewählt werden, erfüllst du die Voraussetzungen für den Bau, wenn nicht, bleibt der Button grau).<img src=\"img/Erect University.jpg\"></img>",
+        "desc": "An der Universität forscht man an neuen Wegen der Produktionstechnik. Je höher der Rang der Universität, desto mehr wird geforscht und um so weniger Zeit wird dafür benötigt."
+    },
+    "uni_2": {
+        "ar_title": "Universität updaten",
+        "header": "Wähle deine Universität und danach den Button \"Versetzung\". (Kann der Button gewählt werden, erfüllst du die Voraussetzungen für die Versetzung, wenn nicht, bleibt der Button grau).",
+        "desc": "An der Universität forscht man an neuen Wegen der Produktionstechnik. Je höher der Rang der Universität, desto mehr wird geforscht und um so weniger Zeit wird dafür benötigt."
+    },
+    "uni_3": {
+        "ar_title": "Universität updaten",
+        "header": "Wähle deine Universität aus und versetze diese auf den 3. Rang!",
+        "desc": "An der Universität forscht man an neuen Wegen der Produktionstechnik. Je höher der Rang der Universität, desto mehr wird geforscht und um so weniger Zeit wird dafür benötigt."
+    },
+    "uni_4": {
+        "ar_title": "Universität updaten",
+        "header": "Wähle deine Universität aus und versetze diese auf den 4. Rang!",
+        "desc": "An der Universität forscht man an neuen Wegen der Produktionstechnik. Je höher der Rang der Universität, desto mehr wird geforscht und um so weniger Zeit wird dafür benötigt."
+    },
+    "uni_5": {
+        "ar_title": "Universität updaten",
+        "header": "Wähle deine Universität aus und versetze diese auf den 5. Rang!",
+        "desc": "An der Universität forscht man an neuen Wegen der Produktionstechnik. Je höher der Rang der Universität, desto mehr wird geforscht und um so weniger Zeit wird dafür benötigt."
+    },
+    "uni_6": {
+        "ar_title": "Universität updaten",
+        "header": "Wähle deine Universität aus und versetze diese auf den 6. Rang!",
+        "desc": "An der Universität forscht man an neuen Wegen der Produktionstechnik. Je höher der Rang der Universität, desto mehr wird geforscht und um so weniger Zeit wird dafür benötigt."
+    },
+    "uni_7": {
+        "ar_title": "Universität updaten",
+        "header": "Wähle deine Universität aus und versetze diese auf den 7. Rang!",
+        "desc": "An der Universität forscht man an neuen Wegen der Produktionstechnik. Je höher der Rang der Universität, desto mehr wird geforscht und um so weniger Zeit wird dafür benötigt."
+    },
+    "uni_8": {
+        "ar_title": "Universität updaten",
+        "header": "Wähle deine Universität aus und versetze diese auf den 8. Rang!",
+        "desc": "An der Universität forscht man an neuen Wegen der Produktionstechnik. Je höher der Rang der Universität, desto mehr wird geforscht und um so weniger Zeit wird dafür benötigt."
+    },
+    "uni_9": {
+        "ar_title": "Universität updaten",
+        "header": "Wähle deine Universität aus und versetze diese auf den 9. Rang!",
+        "desc": "An der Universität forscht man an neuen Wegen der Produktionstechnik. Je höher der Rang der Universität, desto mehr wird geforscht und um so weniger Zeit wird dafür benötigt."
+    },
+    "uni_10": {
+        "ar_title": "Universität updaten",
+        "header": "Wähle deine Universität aus und versetze diese auf den 10. Rang!",
+        "desc": "An der Universität forscht man an neuen Wegen der Produktionstechnik. Je höher der Rang der Universität, desto mehr wird geforscht und um so weniger Zeit wird dafür benötigt."
+    },
+    "acad_1": {
+        "ar_title": "Ein Institut bauen",
+        "header": "Klicke mit der linken Maustaste auf eine freie Fläche in der Stadt. Wähle nun im aufgeklappten Fenster das Institut und betätige den Button \"Bauen\". (Kann der Button gewählt werden, erfüllst du die Voraussetzungen für den Bau, wenn nicht, bleibt der Button grau).<img src=\"img/Erect Academy.jpg\"></img>",
+        "desc": "Im Institut forscht man an neuen militärischen Technologien, eine unverzichtbare Hilfe bei der Verwaltung der Streitkräfte, der Aufklärung, dem Kampf und der Logistik deiner Truppen. Je höher der Rang deines Institutes ist, desto höher wird das Niveau der Forschungen sein, sowie das Forschungstempo."
+    },
+    "acad_2": {
+        "ar_title": "Forschungs-Inst. updaten",
+        "header": "Wähle dein Institut und danach den Button \"Versetzung\". (Kann der Button gewählt werden, erfüllst du die Voraussetzungen für die Versetzung, wenn nicht, bleibt der Button grau).",
+        "desc": "Im Institut forscht man an neuen militärischen Technologien, eine unverzichtbare Hilfe bei der Verwaltung der Streitkräfte, der Aufklärung, dem Kampf und der Logistik deiner Truppen. Je höher der Rang deines Institutes ist, desto höher wird das Niveau der Forschungen sein, sowie das Forschungstempo."
+    },
+    "acad_3": {
+        "ar_title": "Forschungs-Inst. updaten",
+        "header": "Wähle dein Institut aus und versetze dieses auf den 3. Rang!",
+        "desc": "Im Institut forscht man an neuen militärischen Technologien, eine unverzichtbare Hilfe bei der Verwaltung der Streitkräfte, der Aufklärung, dem Kampf und der Logistik deiner Truppen. Je höher der Rang deines Institutes ist, desto höher wird das Niveau der Forschungen sein, sowie das Forschungstempo."
+    },
+    "acad_4": {
+        "ar_title": "Forschungs-Inst. updaten",
+        "header": "Wähle dein Institut aus und versetze dieses auf den 4. Rang!",
+        "desc": "Im Institut forscht man an neuen militärischen Technologien, eine unverzichtbare Hilfe bei der Verwaltung der Streitkräfte, der Aufklärung, dem Kampf und der Logistik deiner Truppen. Je höher der Rang deines Institutes ist, desto höher wird das Niveau der Forschungen sein, sowie das Forschungstempo."
+    },
+    "acad_5": {
+        "ar_title": "Forschungs-Inst. updaten",
+        "header": "Wähle dein Institut aus und versetze dieses auf den 5. Rang!",
+        "desc": "Im Institut forscht man an neuen militärischen Technologien, eine unverzichtbare Hilfe bei der Verwaltung der Streitkräfte, der Aufklärung, dem Kampf und der Logistik deiner Truppen. Je höher der Rang deines Institutes ist, desto höher wird das Niveau der Forschungen sein, sowie das Forschungstempo."
+    },
+    "acad_6": {
+        "ar_title": "Forschungs-Inst. updaten",
+        "header": "Wähle dein Institut aus und versetze dieses auf den 6. Rang!",
+        "desc": "Im Institut forscht man an neuen militärischen Technologien, eine unverzichtbare Hilfe bei der Verwaltung der Streitkräfte, der Aufklärung, dem Kampf und der Logistik deiner Truppen. Je höher der Rang deines Institutes ist, desto höher wird das Niveau der Forschungen sein, sowie das Forschungstempo."
+    },
+    "acad_7": {
+        "ar_title": "Forschungs-Inst. updaten",
+        "header": "Wähle dein Institut aus und versetze dieses auf den 7. Rang!",
+        "desc": "Im Institut forscht man an neuen militärischen Technologien, eine unverzichtbare Hilfe bei der Verwaltung der Streitkräfte, der Aufklärung, dem Kampf und der Logistik deiner Truppen. Je höher der Rang deines Institutes ist, desto höher wird das Niveau der Forschungen sein, sowie das Forschungstempo."
+    },
+    "acad_8": {
+        "ar_title": "Forschungs-Inst. updaten",
+        "header": "Wähle dein Institut aus und versetze dieses auf den 8. Rang!",
+        "desc": "Im Institut forscht man an neuen militärischen Technologien, eine unverzichtbare Hilfe bei der Verwaltung der Streitkräfte, der Aufklärung, dem Kampf und der Logistik deiner Truppen. Je höher der Rang deines Institutes ist, desto höher wird das Niveau der Forschungen sein, sowie das Forschungstempo."
+    },
+    "acad_9": {
+        "ar_title": "Forschungs-Inst. updaten",
+        "header": "Wähle dein Institut aus und versetze dieses auf den 9. Rang!",
+        "desc": "Im Institut forscht man an neuen militärischen Technologien, eine unverzichtbare Hilfe bei der Verwaltung der Streitkräfte, der Aufklärung, dem Kampf und der Logistik deiner Truppen. Je höher der Rang deines Institutes ist, desto höher wird das Niveau der Forschungen sein, sowie das Forschungstempo."
+    },
+    "acad_10": {
+        "ar_title": "Forschungs-Inst. updaten",
+        "header": "Wähle dein Institut aus und versetze dieses auf den 4. Rang!",
+        "desc": "Im Institut forscht man an neuen militärischen Technologien, eine unverzichtbare Hilfe bei der Verwaltung der Streitkräfte, der Aufklärung, dem Kampf und der Logistik deiner Truppen. Je höher der Rang deines Institutes ist, desto höher wird das Niveau der Forschungen sein, sowie das Forschungstempo."
+    },
+    "wall_1": {
+        "ar_title": "Eine Stadtmauer bauen",
+        "header": "Klicke mit der linken Maustaste auf eine freie Fläche in der Stadt. Wähle nun im aufgeklappten Fenster den Platz und betätige den Button \"Bauen\". (Kann der Button gewählt werden, erfüllst du die Voraussetzungen für den Bau, wenn nicht, bleibt der Button grau). <img src=\"img/Erect Wall.jpg\"></img>",
+        "desc": "Deine Infrastruktur ist hervorragend. Ein kleines Detail fehlt dir jedoch. Baue bitte eine Mauer um deine blühende Stadt. Der Bau wird dich eine Menge Steine kosten, darum ist es wichtig, genügend Steinmetze ausgebildet zu haben, sonst könnte dir das Material ausgehen. Mit dem Steigen des Niveaus deiner Mauer bist du in der Lage, Abwehrmechanismen anzubringen."
+    },
+    "wall_2": {
+        "ar_title": "Bewehre die Stadtmauer.",
+        "header": "Wähle deine Stadtmauer und danach den Button \"Versetzung\". (Kann der Button gewählt werden, erfüllst du die Voraussetzungen für die Versetzung, wenn nicht, bleibt der Button grau).",
+        "desc": "Die Stadtmauer bietet deiner Stadt Schutz und stärkt die Defensivkräfte. Bestücke deine Stadtmauer mit Abwehrmechanismen und lasse deine Feinde hohe Verluste zahlen. Je höher das Niveau der Stadtmauer ist, desto stärker ist deine Defensivkraft."
+    },
+    "wall_3": {
+        "ar_title": "Bewehre die Stadtmauer.",
+        "header": "Wähle deine Stadtmauer aus und versetze diese auf den 3. Rang!",
+        "desc": "Die Stadtmauer bietet deiner Stadt Schutz und stärkt die Defensivkräfte. Bestücke deine Stadtmauer mit Abwehrmechanismen und lasse deine Feinde hohe Verluste zahlen. Je höher das Niveau der Stadtmauer ist, desto stärker ist deine Defensivkraft."
+    },
+    "wall_4": {
+        "ar_title": "Bewehre die Stadtmauer.",
+        "header": "Wähle deine Stadtmauer aus und versetze diese auf den 4. Rang!",
+        "desc": "Die Stadtmauer bietet deiner Stadt Schutz und stärkt die Defensivkräfte. Bestücke deine Stadtmauer mit Abwehrmechanismen und lasse deine Feinde hohe Verluste zahlen. Je höher das Niveau der Stadtmauer ist, desto stärker ist deine Defensivkraft."
+    },
+    "wall_5": {
+        "ar_title": "Bewehre die Stadtmauer.",
+        "header": "Wähle deine Stadtmauer aus und versetze diese auf den 5. Rang!",
+        "desc": "Die Stadtmauer bietet deiner Stadt Schutz und stärkt die Defensivkräfte. Bestücke deine Stadtmauer mit Abwehrmechanismen und lasse deine Feinde hohe Verluste zahlen. Je höher das Niveau der Stadtmauer ist, desto stärker ist deine Defensivkraft."
+    },
+    "wall_6": {
+        "ar_title": "Bewehre die Stadtmauer.",
+        "header": "Wähle deine Stadtmauer aus und versetze diese auf den 6. Rang!",
+        "desc": "Die Stadtmauer bietet deiner Stadt Schutz und stärkt die Defensivkräfte. Bestücke deine Stadtmauer mit Abwehrmechanismen und lasse deine Feinde hohe Verluste zahlen. Je höher das Niveau der Stadtmauer ist, desto stärker ist deine Defensivkraft."
+    },
+    "wall_7": {
+        "ar_title": "Bewehre die Stadtmauer.",
+        "header": "Wähle deine Stadtmauer aus und versetze diese auf den 7. Rang!",
+        "desc": "Die Stadtmauer bietet deiner Stadt Schutz und stärkt die Defensivkräfte. Bestücke deine Stadtmauer mit Abwehrmechanismen und lasse deine Feinde hohe Verluste zahlen. Je höher das Niveau der Stadtmauer ist, desto stärker ist deine Defensivkraft."
+    },
+    "wall_8": {
+        "ar_title": "Bewehre die Stadtmauer.",
+        "header": "Wähle deine Stadtmauer aus und versetze diese auf den 8. Rang!",
+        "desc": "Die Stadtmauer bietet deiner Stadt Schutz und stärkt die Defensivkräfte. Bestücke deine Stadtmauer mit Abwehrmechanismen und lasse Ihre Feinde hohe Verluste zahlen. Je höher das Niveau der Stadtmauer ist, desto stärker ist deiner Defensivkraft."
+    },
+    "wall_9": {
+        "ar_title": "Bewehre die Stadtmauer.",
+        "header": "Wähle deine Stadtmauer aus und versetze diese auf den 9. Rang!",
+        "desc": "Die Stadtmauer bietet deiner Stadt Schutz und stärkt die Defensivkräfte. Bestücke deine Stadtmauer mit Abwehrmechanismen und lasse deine Feinde hohe Verluste zahlen. Je höher das Niveau der Stadtmauer ist, desto stärker ist deine Defensivkraft."
+    },
+    "wall_10": {
+        "ar_title": "Bewehre die Stadtmauer.",
+        "header": "Wähle deine Stadtmauer aus und versetze diese auf den 10. Rang!",
+        "desc": "Die Stadtmauer bietet deiner Stadt Schutz und stärkt die Defensivkräfte. Bestücke deine Stadtmauer mit Abwehrmechanismen und lasse Ihre Feinde hohe Verluste zahlen. Je höher das Niveau der Stadtmauer ist, desto stärker ist deiner Defensivkraft."
+    },
+    "theat_1": {
+        "ar_title": "Ein Kolosseum bauen",
+        "header": "Klicke mit der linken Maustaste auf eine freie Fläche in der Stadt. Wähle nun im aufgeklappten Fenster das Kolosseum und betätige den Button \"Bauen\". (Kann der Button gewählt werden, erfüllst du die Voraussetzungen für den Bau, wenn nicht, bleibt der Button grau)<img src=\"img/Erect Amphitheatre.jpg\"></img>",
+        "desc": "In Zeiten des Krieges bedarf es kompetenter Menschen zur Verteidigung deiner Städte und zur Erweiterung deines Herrschaftsgebietes. Der Bau eines Kolosseums wird Helden anziehen. Je höher der Rang des Kolosseums, desto mehr Helden werden von ihm angezogen. Im Kolosseum kannst du das Training deiner Helden veranlassen."
+    },
+    "theat_2": {
+        "ar_title": "Arena updaten",
+        "header": "Wähle ein Kolosseum in deiner Stadt mit Rang 2 und klicke auf den Button \"Versetzung\".",
+        "desc": "Es ist schwer, begabte Menschen anzuwerben. Erhöht sich der Rang deines Kolosseums, werden mehr der begehrten Leute den Weg zu dir finden. Bezahle deine Helden gut, dann werden diese in allen Situationen fest an deiner Seite stehen."
+    },
+    "theat_3": {
+        "ar_title": "Arena updaten",
+        "header": "Wähle ein Kolosseum in deiner Stadt mit Rang 3 und klicke auf den Button \"Versetzung\".",
+        "desc": "Es ist schwer, begabte Menschen anzuwerben. Erhöht sich der Rang deines Kolosseums, werden mehr der begehrten Leute den Weg zu dir finden. Bezahle deine Helden gut, dann werden diese in allen Situationen fest an deiner Seite stehen."
+    },
+    "theat_4": {
+        "ar_title": "Arena updaten",
+        "header": "Wähle ein Kolosseum in deiner Stadt mit Rang 3 und klicke auf den Button \"Versetzung\".",
+        "desc": "Es ist schwer, begabte Menschen anzuwerben. Erhöht sich der Rang deines Kolosseums, werden mehr der begehrten Leute den Weg zu dir finden. Bezahle deine Helden gut, dann werden diese in allen Situationen fest an deiner Seite stehen."
+    },
+    "theat_5": {
+        "ar_title": "Arena updaten",
+        "header": "Wähle ein Kolosseum in deiner Stadt mit Rang 4 und klicke auf den Button \"Versetzung\".",
+        "desc": "Es ist schwer, begabte Menschen anzuwerben. Erhöht sich der Rang deines Kolosseums, werden mehr der begehrten Leute den Weg zu dir finden. Bezahle deine Helden gut, dann werden diese in allen Situationen fest an deiner Seite stehen."
+    },
+    "theat_6": {
+        "ar_title": "Arena updaten",
+        "header": "Wähle ein Kolosseum in deiner Stadt mit Rang 5 und klicke auf den Button \"Versetzung\".",
+        "desc": "Es ist schwer, begabte Menschen anzuwerben. Erhöht sich der Rang deines Kolosseums, werden mehr der begehrten Leute den Weg zu dir finden. Bezahle deine Helden gut, dann werden diese in allen Situationen fest an deiner Seite stehen."
+    },
+    "theat_7": {
+        "ar_title": "Arena updaten",
+        "header": "Wähle ein Kolosseum in deiner Stadt mit Rang 6 und klicke auf den Button \"Versetzung\".",
+        "desc": "Es ist schwer, begabte Menschen anzuwerben. Erhöht sich der Rang deines Kolosseums, werden mehr der begehrten Leute den Weg zu dir finden. Bezahle deine Helden gut, dann werden diese in allen Situationen fest an deiner Seite stehen."
+    },
+    "theat_8": {
+        "ar_title": "Arena updaten",
+        "header": "Wähle ein Kolosseum in deiner Stadt mit Rang 7 und klicke auf den Button \"Versetzung\".",
+        "desc": "Es ist schwer, begabte Menschen anzuwerben. Erhöht sich der Rang deines Kolosseums, werden mehr der begehrten Leute den Weg zu dir finden. Bezahle deine Helden gut, dann werden diese in allen Situationen fest an deiner Seite stehen."
+    },
+    "theat_9": {
+        "ar_title": "Arena updaten",
+        "header": "Wähle ein Kolosseum in deiner Stadt mit Rang 8 und klicke auf den Button \"Versetzung\".",
+        "desc": "Es ist schwer, begabte Menschen anzuwerben. Erhöht sich der Rang deines Kolosseums, werden mehr der begehrten Leute den Weg zu dir finden. Bezahle deine Helden gut, dann werden diese in allen Situationen fest an deiner Seite stehen."
+    },
+    "theat_10": {
+        "ar_title": "Arena updaten",
+        "header": "Wähle ein Kolosseum in deiner Stadt mit Rang 9 und klicke auf den Button \"Versetzung\".",
+        "desc": "Es ist schwer, begabte Menschen anzuwerben. Erhöht sich der Rang deines Kolosseums, werden mehr der begehrten Leute den Weg zu dir finden. Bezahle deine Helden gut, dann werden diese in allen Situationen fest an deiner Seite stehen."
+    },
+    "worship_1": {
+        "ar_title": "Den Tempel bauen",
+        "header": "Klicke mit der linken Maustaste auf eine freie Fläche in der Stadt. Wähle nun im aufgeklappten Fenster den Tempel und betätige den Button \"Bauen\". (Kann der Button gewählt werden, erfüllst du die Voraussetzungen für den Bau, wenn nicht, bleibt der Button grau).<img src=\"img/Erect Temple.jpg\"></img>",
+        "desc": "Der Tempel ist ein symbolisches Gebäude der römischen Religion. Dort suchen die Einwohner Trost. Sie huldigen in deinem Tempel nur einem Gott. Nach Opfern und Gebeten wird dein Gott bereit sein, die öffentliche Meinung zu verbessern, oder knappe Ressourcen durch Abgaben der Bevölkerung wieder aufzufüllen."
+    },
+    "worship_2": {
+        "ar_title": "den Tempel updaten",
+        "header": "Klicke auf deinen Tempel, danach auf den Button \"Versetzung\". (Kann er gewählt werden, verfügst du über die erforderlichen Vorraussetzungen zur Versetzung, wenn nicht, so bleibt der Button grau).",
+        "desc": "Der Tempel ist das Zeichen der römischen Religion. Hier suchen die Einwohner Trost, aber auch Ressourcen werden von ihnen einbehalten. Je höher der Rang des Tempels, desto mehr Geschenke kann dir dein Gott geben."
+    },
+    "worship_3": {
+        "ar_title": "den Tempel updaten",
+        "header": "Klicke auf den Tempel und versetze ihn auf den 3.Rang.",
+        "desc": "Der Tempel ist das Zeichen der römischen Religion. Je höher der Rang des Tempels, desto mehr Geschenke kann dir dein Gott geben."
+    },
+    "worship_4": {
+        "ar_title": "den Tempel updaten",
+        "header": "Klicke auf den Tempel und versetze ihn auf den 4.Rang.",
+        "desc": "Der Tempel ist das Zeichen der römischen Religion. Je höher der Rang des Tempels, desto mehr Geschenke kann dir dein Gott geben."
+    },
+    "worship_5": {
+        "ar_title": "den Tempel updaten",
+        "header": "Klicke auf den Tempel und versetze ihn auf den 5.Rang.",
+        "desc": "Der Tempel ist das Zeichen der römischen Religion. Je höher der Rang des Tempels, desto mehr Geschenke kann dir dein Gott geben."
+    },
+    "worship_6": {
+        "ar_title": "den Tempel updaten",
+        "header": "Klicke auf den Tempel und versetze ihn auf den 6.Rang.",
+        "desc": "Der Tempel ist das Zeichen der römischen Religion. Je höher der Rang des Tempels, desto mehr Geschenke kann dir dein Gott geben."
+    },
+    "worship_7": {
+        "ar_title": "den Tempel updaten",
+        "header": "Klicke auf den Tempel und versetze ihn auf den 7.Rang.",
+        "desc": "Der Tempel ist das Zeichen der römischen Religion. Je höher der Rang des Tempels, desto mehr Geschenke kann dir dein Gott geben."
+    },
+    "worship_8": {
+        "ar_title": "den Tempel updaten",
+        "header": "Klicke auf den Tempel und versetze ihn auf den 8.Rang.",
+        "desc": "Der Tempel ist das Zeichen der römischen Religion. Je höher der Rang des Tempels, desto mehr Geschenke kann dir dein Gott geben."
+    },
+    "worship_9": {
+        "ar_title": "den Tempel updaten",
+        "header": "Klicke auf den Tempel und versetze ihn auf den 9.Rang.",
+        "desc": "Der Tempel ist das Zeichen der römischen Religion. Je höher der Rang des Tempels, desto mehr Geschenke kann dir dein Gott geben."
+    },
+    "worship_10": {
+        "ar_title": "den Tempel updaten",
+        "header": "Klicke auf den Tempel und versetze ihn auf den 10.Rang.",
+        "desc": "Der Tempel ist das Zeichen der römischen Religion. Je höher der Rang des Tempels, desto mehr Geschenke kann dir dein Gott geben."
+    },
+    "barracks_1": {
+        "ar_title": "Baue Kasernen.",
+        "header": "Klicke mit der linken Maustaste auf eine freie Fläche in der Stadt. Wähle nun im aufgeklappten Fenster die Kaserne und betätige den Button \"Bauen\". (Kann der Button gewählt werden, erfüllst du die Voraussetzungen für den Bau, wenn nicht, bleibt der Button grau). <img src=\"img/Erect Barrack.jpg\"></img>",
+        "desc": "Die Kaserne ist der Ort, wo die Infanteristen, die Bogenschützen und die Heeresgruppen ausgebildet werden. Steigere das Niveau der Kaserne, dann kannst du diese schneller ausbilden. Einige Gattungen können nur dann ausgebildet werden, wenn die entsprechenden Kasernen ein bestimmtes Niveau erreichen. In der Stadt können viele Kasernen gebaut werden, welche gleichzeitig auch Soldaten ausbilden. Du kannst hier die Soldaten demobilisieren, so dass sie normale Einwohner werden."
+    },
+    "barracks_2": {
+        "ar_title": "die Kaserne updaten",
+        "header": "Wähle deine Kaserne und danach den Button \"Versetzung\". (Kann der Button gewählt werden, erfüllst du die Voraussetzungen für die Versetzung, wenn nicht, bleibt der Button grau)..",
+        "desc": "Die Kaserne ist der Ort, wo die Infanteristen, die Bogenschützen und die Heeresgruppen ausgebildet werden. Steigere das Niveau der Kaserne, dann kannst du diese schneller ausbilden."
+    },
+    "barracks_3": {
+        "ar_title": "die Kaserne updaten",
+        "desc": "Die Kaserne ist der Ort, wo die Infanteristen, die Bogenschützen und die Heeresgruppen ausgebildet werden. Steigere das Niveau der Kaserne, dann kannst du diese schneller ausbilden.",
+        "header": "Wähle deine Kaserne aus und versetze diese auf den 3. Rang!"
+    },
+    "barracks_4": {
+        "ar_title": "die Kaserne updaten",
+        "desc": "Die Kaserne ist der Ort, wo die Infanteristen, die Bogenschützen und die Heeresgruppen ausgebildet werden. Steigere das Niveau der Kaserne, dann kannst du diese schneller ausbilden.",
+        "header": "Wähle deine Kaserne aus und versetze diese auf den 4. Rang!"
+    },
+    "barracks_5": {
+        "ar_title": "die Kaserne updaten",
+        "desc": "Die Kaserne ist der Ort, wo die Infanteristen, die Bogenschützen und die Heeresgruppen ausgebildet werden. Steigere das Niveau der Kaserne, dann kannst du diese schneller ausbilden.",
+        "header": "Wähle deine Kaserne aus und versetze diese auf den 5. Rang!"
+    },
+    "barracks_6": {
+        "ar_title": "die Kaserne updaten",
+        "desc": "Die Kaserne ist der Ort, wo die Infanteristen, die Bogenschützen und die Heeresgruppen ausgebildet werden. Steigere das Niveau der Kaserne, dann kannst du diese schneller ausbilden.",
+        "header": "Wähle deine Kaserne aus und versetze diese auf den 6. Rang!"
+    },
+    "barracks_7": {
+        "ar_title": "die Kaserne updaten",
+        "desc": "Die Kaserne ist der Ort, wo die Infanteristen, die Bogenschützen und die Heeresgruppen ausgebildet werden. Steigere das Niveau der Kaserne, dann kannst du diese schneller ausbilden.",
+        "header": "Wähle deine Kaserne aus und versetze diese auf den 7. Rang!"
+    },
+    "barracks_8": {
+        "ar_title": "die Kaserne updaten",
+        "desc": "Die Kaserne ist der Ort, wo die Infanteristen, die Bogenschützen und die Heeresgruppen ausgebildet werden. Steigere das Niveau der Kaserne, dann kannst du diese schneller ausbilden.",
+        "header": "Wähle deine Kasernen aus und versetze diese auf den 8. Rang!"
+    },
+    "barracks_9": {
+        "ar_title": "die Kaserne updaten",
+        "header": "Wähle deine Kaserne aus und versetze diese auf den 9. Rang!",
+        "desc": "Die Kaserne ist der Ort, wo die Infanteristen, die Bogenschützen und die Heeresgruppen ausgebildet werden. Steigere das Niveau der Kaserne, dann kannst du diese schneller ausbilden."
+    },
+    "barracks_10": {
+        "ar_title": "die Kaserne updaten",
+        "header": "Wähle die Kasernen in deiner Stadt und erhöhe deren Rang auf 10.",
+        "desc": "Die Kaserne ist der Ort, wo die Infanteristen, die Bogenschützen und die Heeresgruppen ausgebildet werden. Steigere das Niveau der Kaserne, dann kannst du diese schneller ausbilden."
+    },
+    "stabl_1": {
+        "ar_title": "Baue einen Pferdestall.",
+        "header": "Klicke mit der linken Maustaste auf eine freie Fläche in der Stadt. Wähle nun im aufgeklappten Fenster den Pferdestall und betätige den Button \"Bauen\". (Kann der Button gewählt werden, erfüllst du die Voraussetzungen für den Bau, wenn nicht, bleibt der Button grau).  <img src=\"img/Erect Stable.jpg\"></img>",
+        "desc": "Der Pferdestall ist der Ort, wo sowohl Kundschafter als auch Kavalleristen ausgebildet werden.  Je höher das Niveaus der Ställe ist, desto schneller kann das Training erfolgen. Es ist allerdings nur möglich auszubilden, wenn der Rang des Stalles und die erforderlichen Forschungen am Institut dies zulassen. Baue mehrere Ställe, dann wirst du in der Lage sein, in kürzerer Zeit eine größere Zahl von Soldaten auszubilden. Diese können wieder demobilisiert und zu normalen Einwohnern versetzt werden."
+    },
+    "stabl_2": {
+        "ar_title": "Stallung  updaten",
+        "header": "Wähle deine Pferdeställe und danach den Button \"Versetzung\". (Kann der Button gewählt werden, erfüllst du die Voraussetzungen für die Versetzung, wenn nicht, bleibt der Button grau)",
+        "desc": "Der Pferdestall ist der Ort, wo sowohl Kundschafter als auch Kavalleristen ausgebildet werden.  Je höher das Niveaus der Ställe ist, desto schneller kann das Training erfolgen."
+    },
+    "stabl_3": {
+        "ar_title": "Stallung  updaten",
+        "header": "Wähle die Pferdeställe in deiner Stadt und erhöhe deren Rang auf 3.",
+        "desc": "Der Pferdestall ist der Ort, wo sowohl Kundschafter als auch Kavalleristen ausgebildet werden.  Je höher das Niveaus der Ställe ist, desto schneller kann das Training erfolgen."
+    },
+    "stabl_4": {
+        "ar_title": "Stallung  updaten",
+        "header": "Wähle die Pferdeställe in deiner Stadt und erhöhe deren Rang auf 4.",
+        "desc": "Der Pferdestall ist der Ort, wo sowohl Kundschafter als auch Kavalleristen ausgebildet werden. Je höher das Niveaus der Ställe ist, desto schneller kann das Training erfolgen."
+    },
+    "stabl_5": {
+        "ar_title": "Stallung  updaten",
+        "header": "Wähle die Pferdeställe in deiner Stadt und erhöhe deren Rang auf 5.",
+        "desc": "Der Pferdestall ist der Ort, wo sowohl Kundschafter als auch Kavalleristen ausgebildet werden.  Je höher das Niveaus der Ställe ist, desto schneller kann das Training erfolgen."
+    },
+    "stabl_6": {
+        "ar_title": "Stallung  updaten",
+        "header": "Wähle die Pferdeställe in deiner Stadt und erhöhe deren Rang auf 6.",
+        "desc": "Der Pferdestall ist der Ort, wo sowohl Kundschafter als auch Kavalleristen ausgebildet werden.  Je höher das Niveaus der Ställe ist, desto schneller kann das Training erfolgen."
+    },
+    "stabl_7": {
+        "ar_title": "Stallung  updaten",
+        "header": "Wähle die Pferdeställe in deiner Stadt und erhöhe deren Rang auf 7.",
+        "desc": "Der Pferdestall ist der Ort, wo sowohl Kundschafter als auch Kavalleristen ausgebildet werden.  Je höher das Niveaus der Ställe ist, desto schneller kann das Training erfolgen."
+    },
+    "stabl_8": {
+        "ar_title": "Stallung  updaten",
+        "header": "Wähle die Pferdeställe in deiner Stadt und erhöhe deren Rang auf 8.",
+        "desc": "Der Pferdestall ist der Ort, wo sowohl Kundschafter als auch Kavalleristen trainiert werden.  Je höher das Niveaus der Ställe ist, desto schneller kann das Training erfolgen."
+    },
+    "stabl_9": {
+        "ar_title": "Stallung  updaten",
+        "header": "Wähle die Pferdeställe in deiner Stadt und erhöhe deren Rang auf 9.",
+        "desc": "Der Pferdestall ist der Ort, wo sowohl Kundschafter als auch Kavalleristen ausgebildet werden.  Je höher das Niveaus der Ställe ist, desto schneller kann das Training erfolgen."
+    },
+    "stabl_10": {
+        "ar_title": "Stallung  updaten",
+        "header": "Wähle die Pferdeställe in deiner Stadt und erhöhe deren Rang auf 10.",
+        "desc": "Der Pferdestall ist der Ort, wo sowohl Kundschafter als auch Kavalleristen ausgebildet werden. Je höher das Niveaus der Ställe ist, desto schneller kann das Training erfolgen."
+    },
+    "workshop_1": {
+        "ar_title": "Baue Werkstätten.",
+        "header": "Klicke mit der linken Maustaste auf eine freie Fläche in der Stadt. Wähle nun im aufgeklappten Fenster die Werkstatt und betätige den Button \"Bauen\". (Kann der Button gewählt werden, erfüllst du die Voraussetzungen für den Bau, wenn nicht, bleibt der Button grau). <img src=\"img/Erect Workshop.jpg\"></img>",
+        "desc": "Die Werkstatt ist der Ort, wo die Kriegsgeräte Ballisten und Katapulte für die Armee gebaut werden. Steigere das Niveau der Werkstätten, dann kannst du diese Geräte schneller herstellen. Eine Produktion ist nur möglich, wenn du die erforderliche Erzeugungstechnik erforscht hast. Baue in deiner Stadt mehrere Werkstätten, so können diese gleichzeitig dein Kriegsgerät herstellen. Es ist jedoch auch möglich, deine Arbeiter zu demobilisieren, so dass diese normale Einwohner werden."
+    },
+    "workshop_2": {
+        "ar_title": "Werkstatt updaten",
+        "header": "Wähle deine Werkstatt und danach den Button \"Versetzung\".(Kann der Button gewählt werden, erfüllst du die Voraussetzungen für die Versetzung, wenn nicht, bleibt der Button grau).",
+        "desc": "Die Werkstatt ist der Ort, wo die Kriegsgeräte Ballisten und Katapulte für die Armee gebaut werden. Steigere das Niveau der Werkstätten, dann kannst du diese Geräte schneller herstellen."
+    },
+    "workshop_3": {
+        "ar_title": "Werkstatt updaten",
+        "desc": "Die Werkstatt ist der Ort, wo die Kriegsgeräte Ballisten und Katapulte für die Armee gebaut werden. Steigere das Niveau der Werkstätten, dann kannst du diese Geräte schneller herstellen.",
+        "header": "Wähle die Werkstätten in deiner Stadt und erhöhe deren Rang auf 3."
+    },
+    "workshop_4": {
+        "ar_title": "Werkstatt updaten",
+        "desc": "Die Werkstatt ist der Ort, wo die Kriegsgeräte Ballisten und Katapulte für die Armee gebaut werden. Steigere das Niveau der Werkstätten, dann kannst du diese Geräte schneller herstellen.",
+        "header": "Wähle die Werkstätten in deiner Stadt und erhöhe deren Rang auf 4."
+    },
+    "workshop_5": {
+        "ar_title": "Werkstatt updaten",
+        "header": "Wähle die Werkstätten in deiner Stadt und erhöhe deren Rang auf 5.",
+        "desc": "Die Werkstatt ist der Ort, wo die Kriegsgeräte Ballisten und Katapulte für die Armee gebaut werden. Steigere das Niveau der Werkstätten, dann kannst du diese Geräte schneller herstellen."
+    },
+    "workshop_6": {
+        "ar_title": "Werkstatt updaten",
+        "header": "Wähle die Werkstätten in deiner Stadt und erhöhe deren Rang auf 6.",
+        "desc": "Die Werkstatt ist der Ort, wo die Kriegsgeräte Ballisten und Katapulte für die Armee gebaut werden. Steigere das Niveau der Werkstätten, dann kannst du diese Geräte schneller herstellen."
+    },
+    "workshop_7": {
+        "ar_title": "Werkstatt updaten",
+        "header": "Wähle die Werkstätten in deiner Stadt und erhöhe deren Rang auf 7.",
+        "desc": "Die Werkstatt ist der Ort, wo die Kriegsgeräte Ballisten und Katapulte für die Armee gebaut werden. Steigere das Niveau der Werkstätten, dann kannst du diese Geräte schneller herstellen."
+    },
+    "workshop_8": {
+        "ar_title": "Werkstatt updaten",
+        "header": "Wähle die Werkstätten in deiner Stadt und erhöhe deren Rang auf 8.",
+        "desc": "Die Werkstatt ist der Ort, wo die Kriegsgeräte Ballisten und Katapulte für die Armee gebaut werden. Steigere das Niveau der Werkstätten, dann kannst du diese Geräte schneller herstellen."
+    },
+    "workshop_9": {
+        "ar_title": "Werkstatt updaten",
+        "header": "Wähle die Werkstätten in deiner Stadt und erhöhe deren Rang auf 9.",
+        "desc": "Die Werkstatt ist der Ort, wo die Kriegsgeräte Ballisten und Katapulte für die Armee gebaut werden. Steigere das Niveau der Werkstätten, dann kannst du diese Geräte schneller herstellen."
+    },
+    "workshop_10": {
+        "ar_title": "Werkstatt updaten",
+        "header": "Wähle die Werkstätten in deiner Stadt und erhöhe deren Rang auf 10.",
+        "desc": "Die Werkstatt ist der Ort, wo die Kriegsgeräte Ballisten und Katapulte für die Armee gebaut werden. Steigere das Niveau der Werkstätten, dann kannst du diese Geräte schneller herstellen."
+    },
+    "prom_1": {
+        "ar_title": "Der Errichtungsbeamte",
+        "header": "Wenn dein Ansehen, dein Kupfermünzenvorrat und deine Luxusartikel den Anforderungen entsprechen, wirst du befördert. Entlohnen musst du diese Ehre durch Abgabe von Kupfermünzen und Luxusartikeln.",
+        "desc": "Unter deiner Herrschaft verbessert sich das bürgerliche Leben. Deine Regierung genießt Vertrauen. Da du über hohes Ansehen verfügst, wirst du vom Senat befördert. Dein neues Amt erfordert es, dass du über genügend Kupfermünzen und diverse Luxusgüter verfügst."
+    },
+    "prom_2": {
+        "ar_title": "Der Überwachungsbeamte",
+        "header": "Wenn dein Ansehen, dein Kupfermünzenvorrat und deine Luxusartikel den Anforderungen entsprechen, wirst du befördert. Entlohnen musst du diese Ehre durch Abgabe von Kupfermünzen und Luxusartikeln.",
+        "desc": "Unter deiner Herrschaft verbessert sich das bürgerliche Leben. Deine Regierung genießt Vertrauen. Da du über hohes Ansehen verfügst, wirst du vom Senat befördert. Dein neues Amt erfordert es, dass du über genügend Kupfermünzen und diverse Luxusgüter verfügst."
+    },
+    "prom_3": {
+        "ar_title": "Der Finanzbeamte",
+        "header": "Wenn dein Ansehen, dein Kupfermünzenvorrat und deine Luxusartikel den Anforderungen entsprechen, wirst du befördert. Entlohnen musst du diese Ehre durch Abgabe von Kupfermünzen und Luxusartikeln.",
+        "desc": "Unter deiner Herrschaft verbessert sich das bürgerliche Leben. Deine Regierung genießt Vertrauen. Da du über hohes Ansehen verfügst, wirst du vom Senat befördert. Dein neues Amt erfordert es, dass du über genügend Kupfermünzen und diverse Luxusgüter verfügst."
+    },
+    "prom_4": {
+        "ar_title": "Der Volksschutzbeamte",
+        "header": "Wenn dein Ansehen, dein Kupfermünzenvorrat und deine Luxusartikel den Anforderungen entsprechen, wirst du befördert. Entlohnen musst du diese Ehre durch Abgabe von Kupfermünzen und Luxusartikeln.",
+        "desc": "Unter deiner Herrschaft verbessert sich das bürgerliche Leben. Deine Regierung genießt Vertrauen. Da du über hohes Ansehen verfügst, wirst du vom Senat befördert. Dein neues Amt erfordert es, dass du über genügend Kupfermünzen und diverse Luxusgüter verfügst."
+    },
+    "prom_5": {
+        "ar_title": "Der Inspizient",
+        "header": "Wenn dein Ansehen, dein Kupfermünzenvorrat und deine Luxusartikel den Anforderungen entsprechen, wirst du befördert. Entlohnen musst du diese Ehre durch Abgabe von Kupfermünzen und Luxusartikeln.",
+        "desc": "Unter deiner Herrschaft verbessert sich das bürgerliche Leben. Deine Regierung genießt Vertrauen. Da du über hohes Ansehen verfügst, wirst du vom Senat befördert. Dein neues Amt erfordert es, dass du über genügend Kupfermünzen und diverse Luxusgüter verfügst."
+    },
+    "prom_6": {
+        "ar_title": "Der Großrichter",
+        "header": "Wenn dein Ansehen, dein Kupfermünzenvorrat und deine Luxusartikel den Anforderungen entsprechen, wirst du befördert. Entlohnen musst du diese Ehre durch Abgabe von Kupfermünzen und Luxusartikeln.",
+        "desc": "Unter deiner Herrschaft verbessert sich das bürgerliche Leben. Deine Regierung genießt Vertrauen. Da du über hohes Ansehen verfügst, wirst du vom Senat befördert. Dein neues Amt erfordert es, dass du über genügend Kupfermünzen und diverse Luxusgüter verfügst."
+    },
+    "prom_7": {
+        "ar_title": "Der Generalgouverneur",
+        "header": "Wenn dein Ansehen, dein Kupfermünzenvorrat und deine Luxusartikel den Anforderungen entsprechen, wirst du befördert. Entlohnen musst du diese Ehre durch Abgabe von Kupfermünzen und Luxusartikeln.",
+        "desc": "Unter deiner Herrschaft verbessert sich das bürgerliche Leben. Deine Regierung genießt Vertrauen. Da du über hohes Ansehen verfügst, wirst du vom Senat befördert. Dein neues Amt erfordert es, dass du über genügend Kupfermünzen und diverse Luxusgüter verfügst."
+    },
+    "prom_8": {
+        "ar_title": "Der Diktator",
+        "header": "Wenn dein Ansehen, dein Kupfermünzenvorrat und deine Luxusartikel den Anforderungen entsprechen, wirst du befördert. Entlohnen musst du diese Ehre durch Abgabe von Kupfermünzen und Luxusartikeln.",
+        "desc": "Unter deiner Herrschaft verbessert sich das bürgerliche Leben. Deine Regierung genießt Vertrauen. Da du über hohes Ansehen verfügst, wirst du vom Senat befördert. Dein neues Amt erfordert es, dass du über genügend Kupfermünzen und diverse Luxusgüter verfügst.."
+    },
+    "prom_9": {
+        "ar_title": "5.Regimentskommandant",
+        "header": "Wenn dein Ansehen, dein Kupfermünzenvorrat und deine Luxusartikel den Anforderungen entsprechen, wirst du befördert. Entlohnen musst du diese Ehre durch Abgabe von Kupfermünzen und Luxusartikeln.",
+        "desc": "Unter deiner Herrschaft verbessert sich das bürgerliche Leben. Deine Regierung genießt Vertrauen. Da du über hohes Ansehen verfügst, wirst du vom Senat befördert. Dein neues Amt erfordert es, dass du über genügend Kupfermünzen und diverse Luxusgüter verfügst."
+    },
+    "prom_10": {
+        "ar_title": "4.Regimentskommandant",
+        "header": "Du kannst in ein höheres Amt befördert werden, wenn die Residenzklasse, das Prestige, die Kupfermünzen, die Aufrückensrequisiten und Luxusartikel den Anforderungen genügen. Die Kupfermünzen und Luxusartikel  werden beim Holen der Auftragsprämierungen zusammen abgezogen.",
+        "desc": "Unter deiner Herrschaft leben die Stadtbewohner besser haben mehr Zuversicht,die Autorität des Senates wird in gewissem Umfang gewahrt. wenn dein Prestige den Anforderungen erfüllt,wird Dich zum wichtigen Amt ernennen. Genau so musst du gewisse Kupfermünzen und die im Krieg erhaltenen Luxusartikel zur Einladung für Bekannte und Freunde ausgeben."
+    },
+    "prom_11": {
+        "ar_title": "3.Regimentskommandant",
+        "header": "Du kannst in ein höheres Amt befördert werden, wenn die Residenzklasse, das Prestige, die Kupfermünzen, die Aufrückensrequisiten und Luxusartikel den Anforderungen genügen. Die Kupfermünzen und Luxusartikel  werden beim Holen der Auftragsprämierungen zusammen abgezogen.",
+        "desc": "Unter deiner Herrschaft leben die Stadtbewohner besser haben mehr Zuversicht,die Autorität des Senates wird in gewissem Umfang gewahrt. wenn dein Prestige den Anforderungen erfüllt,wird Dich zum wichtigen Amt ernennen. Genau so musst du gewisse Kupfermünzen und die im Krieg erhaltenen Luxusartikel zur Einladung für Bekannte und Freunde ausgeben."
+    },
+    "prom_12": {
+        "ar_title": "2.Regimentskommandant",
+        "header": "Du kannst in ein höheres Amt befördert werden, wenn die Residenzklasse, das Prestige, die Kupfermünzen, die Aufrückensrequisiten und Luxusartikel den Anforderungen genügen. Die Kupfermünzen und Luxusartikel  werden beim Holen der Auftragsprämierungen zusammen abgezogen.",
+        "desc": "Unter deiner Herrschaft leben die Stadtbewohner besser haben mehr Zuversicht,die Autorität des Senates wird in gewissem Umfang gewahrt. wenn dein Prestige den Anforderungen erfüllt,wird Dich zum wichtigen Amt ernennen. Genau so musst du gewisse Kupfermünzen und die im Krieg erhaltenen Luxusartikel zur Einladung für Bekannte und Freunde ausgeben."
+    },
+    "prom_13": {
+        "ar_title": "1.Regimentskommandant",
+        "header": "Du kannst in ein höheres Amt befördert werden, wenn die Residenzklasse, das Prestige, die Kupfermünzen, die Aufrückensrequisiten und Luxusartikel den Anforderungen genügen. Die Kupfermünzen und Luxusartikel  werden beim Holen der Auftragsprämierungen zusammen abgezogen.",
+        "desc": "Unter deiner Herrschaft leben die Stadtbewohner besser haben mehr Zuversicht,die Autorität des Senates wird in gewissem Umfang gewahrt. wenn dein Prestige den Anforderungen erfüllt,wird Dich zum wichtigen Amt ernennen. Genau so musst du gewisse Kupfermünzen und die im Krieg erhaltenen Luxusartikel zur Einladung für Bekannte und Freunde ausgeben."
+    },
+    "prom_14": {
+        "ar_title": "Generalmajor",
+        "header": "Du kannst in ein höheres Amt befördert werden, wenn die Residenzklasse, das Prestige, die Kupfermünzen, die Aufrückensrequisiten und Luxusartikel den Anforderungen genügen. Die Kupfermünzen und Luxusartikel  werden beim Holen der Auftragsprämierungen zusammen abgezogen.",
+        "desc": "Unter deiner Herrschaft leben die Stadtbewohner besser haben mehr Zuversicht,die Autorität des Senates wird in gewissem Umfang gewahrt. wenn dein Prestige den Anforderungen erfüllt,wird Dich zum wichtigen Amt ernennen. Genau so musst du gewisse Kupfermünzen und die im Krieg erhaltenen Luxusartikel zur Einladung für Bekannte und Freunde ausgeben."
+    },
+    "prom_15": {
+        "ar_title": "Generalleutnant",
+        "header": "Du kannst in ein höheres Amt befördert werden, wenn die Residenzklasse, das Prestige, die Kupfermünzen, die Aufrückensrequisiten und Luxusartikel den Anforderungen genügen. Die Kupfermünzen und Luxusartikel  werden beim Holen der Auftragsprämierungen zusammen abgezogen.",
+        "desc": "Unter deiner Herrschaft leben die Stadtbewohner besser haben mehr Zuversicht,die Autorität des Senates wird in gewissem Umfang gewahrt. wenn dein Prestige den Anforderungen erfüllt,wird Dich zum wichtigen Amt ernennen. Genau so musst du gewisse Kupfermünzen und die im Krieg erhaltenen Luxusartikel zur Einladung für Bekannte und Freunde ausgeben."
+    },
+    "prom_16": {
+        "ar_title": "Ein-Stern-General",
+        "header": "Du kannst in ein höheres Amt befördert werden, wenn die Residenzklasse, das Prestige, die Kupfermünzen, die Aufrückensrequisiten und Luxusartikel den Anforderungen genügen. Die Kupfermünzen und Luxusartikel  werden beim Holen der Auftragsprämierungen zusammen abgezogen.",
+        "desc": "Unter deiner Herrschaft leben die Stadtbewohner besser haben mehr Zuversicht,die Autorität des Senates wird in gewissem Umfang gewahrt. wenn dein Prestige den Anforderungen erfüllt,wird Dich zum wichtigen Amt ernennen. Genau so musst du gewisse Kupfermünzen und die im Krieg erhaltenen Luxusartikel zur Einladung für Bekannte und Freunde ausgeben."
+    },
+    "prom_17": {
+        "ar_title": "Zwei-Sterne-General",
+        "header": "Du kannst in ein höheres Amt befördert werden, wenn die Residenzklasse, das Prestige, die Kupfermünzen, die Aufrückensrequisiten und Luxusartikel den Anforderungen genügen. Die Kupfermünzen und Luxusartikel  werden beim Holen der Auftragsprämierungen zusammen abgezogen.",
+        "desc": "Unter deiner Herrschaft leben die Stadtbewohner besser haben mehr Zuversicht,die Autorität des Senates wird in gewissem Umfang gewahrt. wenn dein Prestige den Anforderungen erfüllt,wird Dich zum wichtigen Amt ernennen. Genau so musst du gewisse Kupfermünzen und die im Krieg erhaltenen Luxusartikel zur Einladung für Bekannte und Freunde ausgeben."
+    },
+    "prom_18": {
+        "ar_title": "Drei-Sterne-General",
+        "header": "Du kannst in ein höheres Amt befördert werden, wenn die Residenzklasse, das Prestige, die Kupfermünzen, die Aufrückensrequisiten und Luxusartikel den Anforderungen genügen. Die Kupfermünzen und Luxusartikel  werden beim Holen der Auftragsprämierungen zusammen abgezogen.",
+        "desc": "Unter deiner Herrschaft leben die Stadtbewohner besser haben mehr Zuversicht,die Autorität des Senates wird in gewissem Umfang gewahrt. wenn dein Prestige den Anforderungen erfüllt,wird Dich zum wichtigen Amt ernennen. Genau so musst du gewisse Kupfermünzen und die im Krieg erhaltenen Luxusartikel zur Einladung für Bekannte und Freunde ausgeben."
+    },
+    "prom_19": {
+        "ar_title": "Marschall",
+        "header": "Du kannst in ein höheres Amt befördert werden, wenn die Residenzklasse, das Prestige, die Kupfermünzen, die Aufrückensrequisiten und Luxusartikel den Anforderungen genügen. Die Kupfermünzen und Luxusartikel  werden beim Holen der Auftragsprämierungen zusammen abgezogen.",
+        "desc": "Unter deiner Herrschaft leben die Stadtbewohner besser haben mehr Zuversicht,die Autorität des Senates wird in gewissem Umfang gewahrt. wenn dein Prestige den Anforderungen erfüllt,wird Dich zum wichtigen Amt ernennen. Genau so musst du gewisse Kupfermünzen und die im Krieg erhaltenen Luxusartikel zur Einladung für Bekannte und Freunde ausgeben."
+    },
+    "prom_20": {
+        "ar_title": "Der neunte Veteran",
+        "header": "Du kannst in ein höheres Amt befördert werden, wenn die Residenzklasse, das Prestige, die Kupfermünzen, die Aufrückensrequisiten und Luxusartikel den Anforderungen genügen. Die Kupfermünzen und Luxusartikel  werden beim Holen der Auftragsprämierungen zusammen abgezogen.",
+        "desc": "Unter deiner Herrschaft leben die Stadtbewohner besser haben mehr Zuversicht,die Autorität des Senates wird in gewissem Umfang gewahrt. wenn dein Prestige den Anforderungen erfüllt,wird Dich zum wichtigen Amt ernennen. Genau so musst du gewisse Kupfermünzen und die im Krieg erhaltenen Luxusartikel zur Einladung für Bekannte und Freunde ausgeben."
+    },
+    "prom_21": {
+        "ar_title": "Der achte Veteran",
+        "header": "Du kannst in ein höheres Amt befördert werden, wenn die Residenzklasse, das Prestige, die Kupfermünzen, die Aufrückensrequisiten und Luxusartikel den Anforderungen genügen. Die Kupfermünzen und Luxusartikel  werden beim Holen der Auftragsprämierungen zusammen abgezogen.",
+        "desc": "Unter deiner Herrschaft leben die Stadtbewohner besser haben mehr Zuversicht,die Autorität des Senates wird in gewissem Umfang gewahrt. wenn dein Prestige den Anforderungen erfüllt,wird Dich zum wichtigen Amt ernennen. Genau so musst du gewisse Kupfermünzen und die im Krieg erhaltenen Luxusartikel zur Einladung für Bekannte und Freunde ausgeben."
+    },
+    "prom_22": {
+        "ar_title": "Der siebte Veteran",
+        "header": "Du kannst in ein höheres Amt befördert werden, wenn die Residenzklasse, das Prestige, die Kupfermünzen, die Aufrückensrequisiten und Luxusartikel den Anforderungen genügen. Die Kupfermünzen und Luxusartikel  werden beim Holen der Auftragsprämierungen zusammen abgezogen.",
+        "desc": "Unter deiner Herrschaft leben die Stadtbewohner besser haben mehr Zuversicht,die Autorität des Senates wird in gewissem Umfang gewahrt. wenn dein Prestige den Anforderungen erfüllt,wird Dich zum wichtigen Amt ernennen. Genau so musst du gewisse Kupfermünzen und die im Krieg erhaltenen Luxusartikel zur Einladung für Bekannte und Freunde ausgeben."
+    },
+    "prom_23": {
+        "ar_title": "Der sechste Veteran",
+        "header": "Du kannst in ein höheres Amt befördert werden, wenn die Residenzklasse, das Prestige, die Kupfermünzen, die Aufrückensrequisiten und Luxusartikel den Anforderungen genügen. Die Kupfermünzen und Luxusartikel  werden beim Holen der Auftragsprämierungen zusammen abgezogen.",
+        "desc": "Unter deiner Herrschaft leben die Stadtbewohner besser haben mehr Zuversicht,die Autorität des Senates wird in gewissem Umfang gewahrt. wenn dein Prestige den Anforderungen erfüllt,wird Dich zum wichtigen Amt ernennen. Genau so musst du gewisse Kupfermünzen und die im Krieg erhaltenen Luxusartikel zur Einladung für Bekannte und Freunde ausgeben."
+    },
+    "prom_24": {
+        "ar_title": "Der fünfte Veteran",
+        "header": "Du kannst in ein höheres Amt befördert werden, wenn die Residenzklasse, das Prestige, die Kupfermünzen, die Aufrückensrequisiten und Luxusartikel den Anforderungen genügen. Die Kupfermünzen und Luxusartikel  werden beim Holen der Auftragsprämierungen zusammen abgezogen.",
+        "desc": "Unter deiner Herrschaft leben die Stadtbewohner besser haben mehr Zuversicht,die Autorität des Senates wird in gewissem Umfang gewahrt. wenn dein Prestige den Anforderungen erfüllt,wird Dich zum wichtigen Amt ernennen. Genau so musst du gewisse Kupfermünzen und die im Krieg erhaltenen Luxusartikel zur Einladung für Bekannte und Freunde ausgeben."
+    },
+    "prom_25": {
+        "ar_title": "Der vierte Veteran",
+        "header": "Du kannst in ein höheres Amt befördert werden, wenn die Residenzklasse, das Prestige, die Kupfermünzen, die Aufrückensrequisiten und Luxusartikel den Anforderungen genügen. Die Kupfermünzen und Luxusartikel  werden beim Holen der Auftragsprämierungen zusammen abgezogen.",
+        "desc": "Unter deiner Herrschaft leben die Stadtbewohner besser haben mehr Zuversicht,die Autorität des Senates wird in gewissem Umfang gewahrt. wenn dein Prestige den Anforderungen erfüllt,wird Dich zum wichtigen Amt ernennen. Genau so musst du gewisse Kupfermünzen und die im Krieg erhaltenen Luxusartikel zur Einladung für Bekannte und Freunde ausgeben."
+    },
+    "prom_26": {
+        "ar_title": "Der dritte Veteran",
+        "header": "Du kannst in ein höheres Amt befördert werden, wenn die Residenzklasse, das Prestige, die Kupfermünzen, die Aufrückensrequisiten und Luxusartikel den Anforderungen genügen. Die Kupfermünzen und Luxusartikel  werden beim Holen der Auftragsprämierungen zusammen abgezogen.",
+        "desc": "Unter deiner Herrschaft leben die Stadtbewohner besser haben mehr Zuversicht,die Autorität des Senates wird in gewissem Umfang gewahrt. wenn dein Prestige den Anforderungen erfüllt,wird Dich zum wichtigen Amt ernennen. Genau so musst du gewisse Kupfermünzen und die im Krieg erhaltenen Luxusartikel zur Einladung für Bekannte und Freunde ausgeben."
+    },
+    "prom_27": {
+        "ar_title": "Der zweite Veteran",
+        "header": "Du kannst in ein höheres Amt befördert werden, wenn die Residenzklasse, das Prestige, die Kupfermünzen, die Aufrückensrequisiten und Luxusartikel den Anforderungen genügen. Die Kupfermünzen und Luxusartikel  werden beim Holen der Auftragsprämierungen zusammen abgezogen.",
+        "desc": "Unter deiner Herrschaft leben die Stadtbewohner besser haben mehr Zuversicht,die Autorität des Senates wird in gewissem Umfang gewahrt. wenn dein Prestige den Anforderungen erfüllt,wird Dich zum wichtigen Amt ernennen. Genau so musst du gewisse Kupfermünzen und die im Krieg erhaltenen Luxusartikel zur Einladung für Bekannte und Freunde ausgeben."
+    },
+    "prom_28": {
+        "ar_title": "Der erste Veteran",
+        "header": "Du kannst in ein höheres Amt befördert werden, wenn die Residenzklasse, das Prestige, die Kupfermünzen, die Aufrückensrequisiten und Luxusartikel den Anforderungen genügen. Die Kupfermünzen und Luxusartikel  werden beim Holen der Auftragsprämierungen zusammen abgezogen.",
+        "desc": "Unter deiner Herrschaft leben die Stadtbewohner besser haben mehr Zuversicht,die Autorität des Senates wird in gewissem Umfang gewahrt. wenn dein Prestige den Anforderungen erfüllt,wird Dich zum wichtigen Amt ernennen. Genau so musst du gewisse Kupfermünzen und die im Krieg erhaltenen Luxusartikel zur Einladung für Bekannte und Freunde ausgeben."
+    },
+    "prom_29": {
+        "ar_title": "Cäsar",
+        "header": "Du kannst in ein höheres Amt befördert werden, wenn die Residenzklasse, das Prestige, die Kupfermünzen, die Aufrückensrequisiten und Luxusartikel den Anforderungen genügen. Die Kupfermünzen und Luxusartikel  werden beim Holen der Auftragsprämierungen zusammen abgezogen.",
+        "desc": "Unter deiner Herrschaft leben die Stadtbewohner besser haben mehr Zuversicht,die Autorität des Senates wird in gewissem Umfang gewahrt. wenn dein Prestige den Anforderungen erfüllt,wird Dich zum wichtigen Amt ernennen. Genau so musst du gewisse Kupfermünzen und die im Krieg erhaltenen Luxusartikel zur Einladung für Bekannte und Freunde ausgeben."
+    },
+    "lucky": {
+        "DB_name": "lucky",
+        "ar_title": "Opfergabe erhalten",
+        "header": "Hole die kostenlose Opfergabe ab.",
+        "desc": "Die Opfergaben sind notwendig, um vom gewählten Hauptgott Geschenke zu erhalten. Der Spieler erhält eine Opfergabe umsonst. Viel Glück."
+    },
+    "t_map": {
+        "DB_name": "t_map",
+        "ar_title": "Die Schatzkarte sammeln",
+        "header": "Sammele Schatzkarten aus deinem Volk ein.",
+        "desc": "Deine Bevölkerung wächst. Es sind Gerüchte im Umlauf, dass geheimnisvolle Schatzkarten existieren. Nutze jede Möglichkeit, diese Schatzkarten zu sammeln. Wenn du genügend gefunden hast, wirst du die echte Schatzmappe erhalten."
+    },
+    "repel_trumpet": {
+        "DB_name": "repel_trumpet",
+        "ar_title": "Nehme kleines Repression Horn",
+        "header": "Als die römische Republik angegriffen wird durch die Fearless Skullbearer und der Rebellenarmee, starten Karthagos Menschen einen bewaffneten Widerstand. Sie haben nun eine Chance, für die römische Republik zu kämpfen, gewinnen Sie  Ruhm !",
+        "desc": "Sie werden eine kostenlos Probe kleiner Repression Hörner bei Ihrer täglichen login belohnt erhalten. Nutze die kleinen Repression Hörner, um Kriege zu straten bei  Karthago Rebellen und Karthago Pöbel (Pinke Punkte) auf der Weltkarte. Durch das Besiegen der Karthago Rebellen, werden Sie mit einigen neuen Gegenständen belohnt"
+    },
+    "copper_medal": {
+        "DB_name": "copper_medal",
+        "ar_title": "Nehmen Sie  Kupfer-Medaille",
+        "header": "Erhalten 10 Kupfer-Medaillen",
+        "desc": "Der Konsum von Kupfer-Medaille bekommen die Auswirkungen der Erziehung Helden und verbessern ihren Kampf-Fähigkeit."
+    },
+    "exp_map": {
+        "DB_name": "exp_map",
+        "ar_title": "den Bauplan tauschen",
+        "header": "Tausche zehn Schatzkarten gegen einen Bauplan.",
+        "desc": "Wenn du eine bestimmte Anzahl von Schatzkarten gesammelt hast, jedoch nicht über genügend Arbeitskräfte verfügst, den Schatz auszugraben, tausche diese gegen einen Bauplan."
+    },
+    "army_s_1": {
+        "DB_name": "army_s_1",
+        "ar_title": "Niederschlagung des Putsches am Mondfest",
+        "header": "Wenn du x5 graue Schilder gesammelt hast, kannst du ein Mondfestgeschenk (grau) im Tausch erhalten.",
+        "desc": "Der Senat hat dir ein Mondfestgeschenk (grau) als Dankbarkeit gegeben, weil du kurz vor dem Mondfest dem Senat deinen Beistand während der Niederschlagung des Aufruhrs geleistet, so daß das Volk ein fröhliches Mondfest verbringen kann."
+    },
+    "army_s_3": {
+        "DB_name": "army_s_3",
+        "ar_title": "Kapitulationsgruppe",
+        "header": "Tausche 20 graue Rebellen Schilde gegen 3 kleine Truppen von Kapitulanten.",
+        "desc": "Wenn es dir gelingt, die Rebellentruppen in der Wildnis Stufe 1-3 zu besiegen, erhälst du von den Einheimischen ein graues Rebellen Schild als Andenken. Dieses symbolisiert deinen Sieg, und du kannst neue Truppen hinzufügen."
+    },
+    "army_m_1": {
+        "DB_name": "army_m_1",
+        "ar_title": null,
+        "header": "Tip: Only each round of player Rank 1 in arena can get King Medal.",
+        "desc": "Only the king of Arena can get reward, after complete quest, you still get 50,000 prestige and 50,000 honor."
+    },
+    "army_m_3": {
+        "DB_name": "army_m_3",
+        "ar_title": "Der Black WSC Ausweis",
+        "header": "Tausche 20 gelbe Rebellen Schilder gegen zwei schwarze Teilnahmetypenschilde.",
+        "desc": "Wenn du dem Senat 20 gelbe Rebellen Schilder gibst, bekommst du zwei schwarze Teilnahmetypenschilde dafür. Diese erlauben es dir, an Manövern teilzunehmen."
+    },
+    "army_l_1": {
+        "DB_name": "army_l_1",
+        "ar_title": null,
+        "header": "Tip: Only each round of player Rank 1 in arena can get King Medal.",
+        "desc": "Only the king of Arena can get reward, after complete quest, you still get 100,000 prestige and 100,000 honor."
+    },
+    "army_l_3": {
+        "DB_name": "army_l_3",
+        "ar_title": "Kapitulationstruppe",
+        "header": "Tausche 20 violette Rebellen Schilde gegen 3 große Truppen von Kapitulanten.",
+        "desc": "Wenn es dir gelingt, die Rebellentruppen in der Wildnis Stufe 8-10 zu besiegen, erhälst du von den Einheimischen ein violettes Rebellen Schild als Andenken. Dieses symbolisiert deinen Sieg, und du kannst neue Truppen hinzufügen."
+    },
+    "m1_x20": {
+        "DB_name": "m1_x20",
+        "ar_title": "Der Black WSC Ausweis",
+        "header": "Tausche 20 graue Rebellen Schilder gegen ein schwarzes Teilnahmetypenschild.",
+        "desc": "Wenn du dem Senat 20 graue Rebellen Schilde gibst, bekommst du ein schwarzes Teilnahmetypenschild dafür. Dieses erlaubt es dir, an einem Manöver teilzunehmen."
+    },
+    "m2_x20": {
+        "DB_name": "m2_x20",
+        "ar_title": "Der Black WSC Ausweis",
+        "header": "Tausche 20 gelbe Rebellen Schilder gegen zwei schwarze Teilnahmetypenschilde.",
+        "desc": "Wenn du dem Senat 20 gelbe Rebellen Schilder gibst, bekommst du zwei schwarze Teilnahmetypenschilde dafür. Diese erlauben es dir, an Manövern teilzunehmen."
+    },
+    "m3_x20": {
+        "DB_name": "m3_x20",
+        "ar_title": "Der Black WSC Ausweis",
+        "header": "Tausche 20 violette Rebellen Schilder gegen fünf schwarze Teilnahmetypenschilde.",
+        "desc": "Wenn du dem Senat 20 violette Rebellen Schilder gibst, bekommst du fünf schwarze Teilnahmetypenschilde dafür. Diese erlauben es dir, an Manövern teilzunehmen."
+    },
+    "mr_x10": {
+        "DB_name": "mr_x10",
+        "ar_title": "Der Black WSC Ausweis",
+        "header": "Tausche 10 rote Generalstypenschilder gegen 5 schwarze Teilnahmetypenschilde.",
+        "desc": "Gib dem Senat 10 rote Generalstypenschilder. Du bekommst dafür 5 Teilnahmetypenschilde. Diese erlauben die Teilnahme an Manövern."
+    },
+    "mr_x2": {
+        "DB_name": "mr_x2",
+        "ar_title": "Kriegsspielspreis: Fl.",
+        "header": "Tausche 2 rote Generalstypenschilder gegen eine Mahlzeit Fleisch.",
+        "desc": "Gib dem Senat 2 rote Generalstypenschilder und du bekommst ein ausgezeichnetes Essen als Belobigung."
+    },
+    "mr_x4": {
+        "DB_name": "mr_x4",
+        "ar_title": "Kriegsspielspreis: Armee",
+        "header": "Tausche 4 rote Generalstypenschilder gegen eine Truppe.",
+        "desc": "Gib dem Senat 4 rote Generalstypenschilder und du bekommst eine Truppe als Belobigung."
+    },
+    "mr_x300": {
+        "DB_name": "mr_x300",
+        "ar_title": "Kriegsspielspreis: Held",
+        "header": "Tausche 300 rote Generalstypenschilder gegen 8 Helden mit potenziellem Wert.",
+        "desc": "Gib dem Senat 300 rote Generalstypenschilder und du bekommst Helden als Belobigung."
+    },
+    "mb_x1": {
+        "DB_name": "mb_x1",
+        "ar_title": "Der Black WSC Ausweis",
+        "header": "Schwarze Teilnahmetypenschilder erhalten",
+        "desc": "Der Senat hofft, dass auch Beamte mit hohem Ansehen Ihren Beitrag zum Krieg gegen die Rebellen leisten werden."
+    },
+    "pres_20k": {
+        "DB_name": "pres_20k",
+        "ar_title": "Abzeichen für Prestige",
+        "header": "Wird die Anzahl der Beamtentitel und Abzeichen die Forderungen erfüllt, können die Auftragsprämierungen umgetauscht werden.  Die Abzeichen werden beim Holen der Auftragsprämierungen zusammen abgezogen.",
+        "desc": "Die Rebellentruppen führen schnelle Expansion im Umgebungsgebiet aus und treiben Unzucht und Vergewaltigung, Entführung und Plünderung, sie werden vor nichts zurückschrecken. Zwecks des Friedens der Republik sollen die verdorbenen Rebellentruppen ausgerottet werden! Nach der Ablieferung der schwarzen Demonstrationsschilder darf sich jeder Häuptling am Strafexpeditionskrieg teilnehmen. Sobald du ausreichende Mazedonien-Abzeichen erhalten hast, kannst du reichhaltige Prämierungen bekommen. Hast du diesen Auftrag erfüllt, kannst du 20000 Prestigen erhalten."
+    },
+    "pres_80k": {
+        "DB_name": "pres_80k",
+        "ar_title": "Abzeichen für Prestige",
+        "header": "Wird die Anzahl der Beamtentitel und Abzeichen die Forderungen erfüllt, können die Auftragsprämierungen umgetauscht werden.  Die Abzeichen werden beim Holen der Auftragsprämierungen zusammen abgezogen.",
+        "desc": "Die Rebellentruppen führen schnelle Expansion im Umgebungsgebiet aus und treiben Unzucht und Vergewaltigung, Entführung und Plünderung, sie werden vor nichts zurückschrecken. Zwecks des Friedens der Republik sollen die verdorbenen Rebellentruppen ausgerottet werden! Nach der Ablieferung der schwarzen Demonstrationsschilder darf sich jeder Häupling am Strafexpeditionskrieg teilnehmen. Sobald du ausreichende Abzeichen erhalten hast, kannst du reichhaltige Prämierungen bekommen. Hast du diesen Auftrag erfüllt, kannst du 80000 Prestigen erhalten."
+    },
+    "union_era": {
+        "DB_name": "union_era",
+        "ar_title": "Wappen zu Tools tauschen",
+        "header": "Wird die Anzahl der Abzeichen die Forderungen erfüllt, können die Auftragsprämierungen umgetauscht werden.  Die Abzeichen werden beim Holen der Auftragsprämierungen zusammen abgezogen.",
+        "desc": "Die Rebellentruppen führen schnelle Expansion im Umgebungsgebiet aus und treiben Unzucht und Vergewaltigung, Entführung und Plünderung, sie werden vor nichts zurückschrecken. Zwecks des Friedens der Republik sollen die verdorbenen Rebellentruppen ausgerottet werden! Nach der Ablieferung der schwarzen Demonstrationsschilder darf sich jeder Häupling am Strafexpeditionskrieg teilnehmen. Sobald du ausreichende Abzeichen erhalten hast, kannst du reichhaltige Prämierungen bekommen. Hast du diesen Auftrag erfüllt, kannst du den heiligen Allianzvertrag 1 erhalten."
+    },
+    "free_help": {
+        "DB_name": "freedom_help",
+        "ar_title": "Wappen zu Tools tauschen",
+        "header": "Wird die Anzahl der Abzeichen die Forderungen erfüllt, können die Auftragsprämierungen umgetauscht werden.  Die Abzeichen werden beim Holen der Auftragsprämierungen zusammen abgezogen.",
+        "desc": "Die Rebellentruppen führen schnelle Expansion im Umgebungsgebiet aus und treiben Unzucht und Vergewaltigung, Entführung und Plünderung, sie werden vor nichts zurückschrecken. Zwecks des Friedens der Republik sollen die verdorbenen Rebellentruppen ausgerottet werden! Nach der Ablieferung der schwarzen Demonstrationsschilder darf sich jeder Häupling am Strafexpeditionskrieg teilnehmen. Sobald du ausreichende Abzeichen erhalten hast, kannst du reichhaltige Prämierungen bekommen. Hast du diesen Auftrag erfüllt, kannst du das eigenständigen Heiligedikt1 erhalten."
+    },
+    "motiv_60": {
+        "DB_name": "motiv_60",
+        "ar_title": "Reparaturtechnik",
+        "header": "Wähle deine Universität, danach \"Reparaturfähigkeit\", und bestätige mit dem Button \"Forschung\".",
+        "desc": "Deine Stadtmauer wird im Falle eines Verteidigungskrieges ohne Unterbrechung angegriffen. Nur rechtzeitiges Reparieren kann die Verluste der Stadt in Grenzen halten. Neue Reparaturtechniken erhöhen die Reparaturprozente."
+    },
+    "helper_chng": {
+        "DB_name": "help_house_chng",
+        "ar_title": "Reparaturtechnik",
+        "header": "Wähle deine Universität, danach \"Reparaturfähigkeit\", und bestätige mit dem Button \"Forschung\".",
+        "desc": "Deine Stadtmauer wird im Falle eines Verteidigungskrieges ohne Unterbrechung angegriffen. Nur rechtzeitiges Reparieren kann die Verluste der Stadt in Grenzen halten. Neue Reparaturtechniken erhöhen die Reparaturprozente."
+    },
+    "pres_5k": {
+        "DB_name": "pres_5k",
+        "ar_title": "Gegen 5000 Prestige eintauschen",
+        "header": "Sammeln 2x Rote Generalschilder und 1x Mazedonisches Wappen, damit man sie gegen 5000 Prestige eintauschen kann.",
+        "desc": "Der Senat möchte die Krieger mit Prestigewappen auszeichnen, die aktiv am Training teilgenommen haben und gegen mazedonische Rebellentruppen gekämpt haben."
+    },
+    "pres_50k": {
+        "DB_name": "pres_50k",
+        "ar_title": "Das Prestigewappen gegen 100000 Prestige eintauschen",
+        "header": "Sammeln 4x Prestigewappen und 1x Blaupausen des Archimedes, damit man sie gegen 100000 Prestige eintauschen kann.",
+        "desc": "Der Senat möchte die Krieger mit Prestigewappen auszeichnen, die aktiv am Training teilgenommen haben und gegen mazedonische Rebellentruppen gekämpt haben."
+    },
+    "pres_100k": {
+        "DB_name": "pres_100k",
+        "ar_title": "Das Prestigewappen gegen 300000 Prestige eintauschen",
+        "header": "Sammeln 10x Prestigewappen und 2x Blaupausen des Archimedes, damit man sie gegen 300000 Prestige eintauschen kann.",
+        "desc": "Der Senat möchte die Krieger mit Prestigewappen auszeichnen, die aktiv am Training teilgenommen haben und gegen mazedonische Rebellentruppen gekämpt haben."
+    },
+    "pres_400k": {
+        "DB_name": "pres_400k",
+        "ar_title": "Das Prestigewappen gegen 500000 Prestige eintauschen",
+        "header": "Sammeln 15x Prestigewappen und 2x Blaupausen des Archimedes, damit man sie gegen 500000 Prestige eintauschen kann.",
+        "desc": "Der Senat möchte die Krieger mit Prestigewappen auszeichnen, die aktiv am Training teilgenommen haben und gegen mazedonische Rebellentruppen gekämpt haben."
+    },
+    "pres_500k": {
+        "DB_name": "pres_500k",
+        "ar_title": "Das Prestigewappen gegen 500000 Prestige eintauschen",
+        "header": "Sammeln 15x Prestigewappen und 2x Blaupausen des Archimedes, damit man sie gegen 500000 Prestige eintauschen kann.",
+        "desc": "Der Senat möchte die Krieger mit Prestigewappen auszeichnen, die aktiv am Training teilgenommen haben und gegen mazedonische Rebellentruppen gekämpt haben."
+    },
+    "loy_boot": {
+        "DB_name": "loy_boot",
+        "ar_title": null,
+        "header": "Loyal Shoes: HP +4, Offense +1,Defense +1.",
+        "desc": "To prevent the expansion of the Rebel, the Senate bestow Loyal Equipment as reward in battle achievement. By collecting enough Emblems, you can get handsome Quest reward. You will be awarded a Loyal Shield by completing this Quest."
+    },
+    "loy_shield": {
+        "DB_name": "loy_shield",
+        "ar_title": null,
+        "header": "Loyal Shield: HP +18, Defense +2.",
+        "desc": "To prevent the expansion of the Rebel, the Senate bestow Loyal Equipment as reward in battle achievement. By collecting enough Emblems, you can get handsome Quest reward. You will be awarded a Loyal Shield by completing this Quest."
+    },
+    "loy_helmet": {
+        "DB_name": "loy_helmet",
+        "ar_title": null,
+        "header": "Loyal Helmet: HP +13,Damage +1, Defense +1.",
+        "desc": "To prevent the expansion of the Rebel, the Senate bestow Loyal Equipment as reward in battle achievement. By collecting enough Emblems, you can get handsome Quest reward. You will be awarded a Loyal Shield by completing this Quest."
+    },
+    "loy_armor": {
+        "DB_name": "loy_armor",
+        "ar_title": null,
+        "header": "Loyal Armour: HP+10, Damage +1, Defense +1.",
+        "desc": "To prevent the expansion of the Rebel, the Senate bestow Loyal Equipment as reward in battle achievement. By collecting enough Emblems, you can get handsome Quest reward. You will be awarded a Loyal Shield by completing this Quest."
+    },
+    "loy_sword": {
+        "DB_name": "loy_sword",
+        "ar_title": null,
+        "header": "Loyal Sword: Damage +3, Offense +4, Technique: Rain of Arrows.",
+        "desc": "To prevent the expansion of the Rebel, the Senate bestow Loyal Equipment as reward in battle achievement. By collecting enough Emblems, you can get handsome Quest reward. You will be awarded a Loyal Sword by completing this Quest."
+    },
+    "lion_boot": {
+        "DB_name": "lion_boot",
+        "ar_title": null,
+        "header": "Lion Boots: Damage +4, Offense +4, Defense +4.",
+        "desc": "A pair of boots is bestowed by Lion for your bringing his lost emblem back through thick and thin."
+    },
+    "lion_shield": {
+        "DB_name": "lion_shield",
+        "ar_title": null,
+        "header": "Lion Shield: HP +48, Offense +16.",
+        "desc": "A shield is bestowed by Lion for your bringing his lost emblem back through thick and thin."
+    },
+    "lion_helmet": {
+        "DB_name": "lion_helmet",
+        "ar_title": null,
+        "header": "Lion Helmet: HP +48, Damage +4, Offense +8.",
+        "desc": "A helmet is bestowed by Lion for you bringing his lost emblem back through thick and thin."
+    },
+    "lion_armor": {
+        "DB_name": "lion_armor",
+        "ar_title": null,
+        "header": "Lion Armor: HP+32, Defense +12, Technique: Testudo.",
+        "desc": "A piece of armor is bestowed by Lion for your bringing his lost emblem back through thick and thin."
+    },
+    "lion_sword": {
+        "DB_name": "lion_sword",
+        "ar_title": null,
+        "header": "Lion Sword: Damage +16, Offense +32.",
+        "desc": "A sword is bestowed by Lion for your bringing his lost emblem back through thick and thin."
+    },
+    "fearless_boot": {
+        "ar_title": null,
+        "header": "Fearlessness Boots: Damage +8, Offense +8, Defense +8.",
+        "desc": "Fighting hard to crush the rebellion, you will be rewarded a piece of Fearlessness Armor for protecting Roman empire."
+    },
+    "fearless_shield": {
+        "DB_name": "lion_shield",
+        "ar_title": null,
+        "header": "Fearlessness Shield: HP +90, Defense +30.",
+        "desc": "Fighting hard to crush the rebellion, you will be rewarded a piece of Fearlessness Armor for protecting Roman empire."
+    },
+    "fearless_helmet": {
+        "DB_name": "lion_helmet",
+        "ar_title": null,
+        "header": "Fearlessness Helmet: HP +60, Damage +5, Offense +10.",
+        "desc": "Fighting hard to crush the rebellion, you will be rewarded a piece of Fearlessness Armor for protecting Roman empire."
+    },
+    "fearless_armor": {
+        "DB_name": "lion_armor",
+        "ar_title": null,
+        "header": "Fearlessness Armor: HP +60, Defense +20, Technique: Testudo.",
+        "desc": "Fighting hard to crush the rebellion, you will be rewarded a piece of Fearlessness Armor for protecting Roman empire."
+    },
+    "fearless_sword": {
+        "DB_name": "lion_sword",
+        "ar_title": null,
+        "header": "Fearlessness Sword: Damage +30, Offense +60.",
+        "desc": "Fighting hard to crush the rebellion, you will be rewarded a Fearlessness Sword for protecting Roman Empire."
+    },
+    "mili_boot": {
+        "ar_title": null,
+        "header": "Hardcore Boots: Offense +18, Damage +10.",
+        "desc": "Forged by Vulcan, let hero own more powerful strength to fight the Rebel. Only the powerful lords can get."
+    },
+    "mili_shield": {
+        "DB_name": "lion_shield",
+        "ar_title": null,
+        "header": "Hardcore Shield: HP +25, Defense +40.",
+        "desc": "Forged by Vulcan, let hero own more powerful strength to fight the Rebel. Only the powerful lords can get."
+    },
+    "mili_helmet": {
+        "DB_name": "lion_helmet",
+        "ar_title": null,
+        "header": "Hardcore Helmet: Defense +24, Offense +26.",
+        "desc": "Forged by Vulcan, let hero own more powerful strength to fight the Rebel. Only the powerful lords can get."
+    },
+    "mili_armor": {
+        "DB_name": "lion_armor",
+        "ar_title": null,
+        "header": "Hardcore Armor: HP +125, Defense +10.",
+        "desc": "Forged by Vulcan, let hero own more powerful strength to fight the Rebel. Only the powerful lords can get."
+    },
+    "mili_sword": {
+        "DB_name": "lion_sword",
+        "ar_title": null,
+        "header": "Hardcore Sword: Damage +50.",
+        "desc": "Forged by Vulcan, let hero own more powerful strength to fight the Rebel. Only the powerful lords can get."
+    },
+    "bright_boot": {
+        "ar_title": null,
+        "header": "Bright Boots: Offense +20, Damaga+15.",
+        "desc": "Senate bestow, the reward of defeat the evil legion, only the powerful lords can get them."
+    },
+    "bright_shield": {
+        "DB_name": "lion_shield",
+        "ar_title": null,
+        "header": "Bright Shield: HP+95, Defense+40.",
+        "desc": "Senate bestow, the reward of defeat the evil legion, only the powerful lords can get them."
+    },
+    "bright_helmet": {
+        "DB_name": "lion_helmet",
+        "ar_title": null,
+        "header": "Bright Helmet: HP+80, Offense +20, Technique: Rain of Arrows.",
+        "desc": "Senate bestow, the reward of defeat the evil legion, only the powerful lords can get them."
+    },
+    "bright_armor": {
+        "DB_name": "lion_armor",
+        "ar_title": null,
+        "header": "Bright Armor: HP +80, Defense +30, Technique: Testudo.",
+        "desc": "Senate bestow, the reward of defeat the evil legion, only the powerful lords can get them."
+    },
+    "bright_sword": {
+        "DB_name": "lion_sword",
+        "ar_title": null,
+        "header": "Bright Pike: Offense +65, Damage +35.",
+        "desc": "Senate bestow, the reward of defeat the evil legion, only the powerful lords can get them."
+    }
+}

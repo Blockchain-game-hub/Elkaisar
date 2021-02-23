@@ -1,0 +1,1059 @@
+{
+    "cottage_1": {
+        "ar_title": "Erguer Chalés",
+        "header": "Clique em Limpar e depois clique em Erguer abaixo de Chalés. <img src=\"img/Erect Cottages.jpg\"></img>",
+        "desc": "Chalés abrigam cidadões. Erga eles para juntar mais cidadões para ajudar em suas construções."
+    },
+    "cottage_2": {
+        "ar_title": "Aprimorar Chalés",
+        "header": "Em sua cidade, clique em Chalés Nv 1, e clique \"Aprimorar\". Se o botão de Aprimorar estiver cinza, isto significa que você não atende a certos requesitos para a Aprimoração. <img src=\"img/Upgrade Cottages.jpg\"></img>",
+        "desc": "Chalés abrigam cidadões. Erga e aprimore Chalés para aumentar a Capacidade de População e fazer a População Inativa disponível para preencher a posição de trabalho dos Trabalhadores Necessários nos campos de recursos (Fazendas, Serraria, Perdeira, e Mina de Ferro). Aprimore seus Chalés para Nv 2 para atrair mais pessoas para viver em sua cidade."
+    },
+    "cottage_3": {
+        "ar_title": "Aprimorar Chalés",
+        "header": "Procure Chalés em sua cidade e aprimore-os para o Nv 3.",
+        "desc": "Chalés abrigam cidadões. Erga e aprimore Chalés para aumentar a Capacidade de População e fazer a População Inativa disponível para preencher a posição de trabalho dos Trabalhadores Necessários nos campos de recursos (Fazendas, Serraria, Perdeira, e Mina de Ferro). Aprimore seus Chalés para Nv 3 para atrair mais pessoas para viver em sua cidade."
+    },
+    "cottage_4": {
+        "ar_title": "Aprimorar Chalés",
+        "header": "Estabeleça Chalés em sua cidade e aprimore-os para o Nv 4.",
+        "desc": "Chalés abrigam cidadões. Erga e aprimore Chalés para aumentar a Capacidade de População e fazer a População Inativa disponível para preencher postos de trabalho dos Trabalhadores Necessários nos campos de recursos (Fazendas, Serraria, Perdeira, e Mina de Ferro). Aprimore seus Chalés para Nv 4 para atrair mais pessoas para viver em sua cidade."
+    },
+    "cottage_5": {
+        "ar_title": "Aprimorar Chalés",
+        "header": "Procure Chalés da sua cidade e aprimore-as para nível 5.",
+        "desc": "Chalés abrigam cidadões. Erga e aprimore Chalés para aumentar a Capacidade de População e fazer a População Inativa disponível para preencher a posição de trabalho dos Trabalhadores Necessários nos campos de recursos (Fazendas, Serraria, Perdeira, e Mina de Ferro). Aprimore seus Chalés para Nv 5 para atrair mais pessoas para viver em sua cidade."
+    },
+    "cottage_6": {
+        "ar_title": "Aprimorar Chalés",
+        "header": "Procure Chalés da sua cidade e aprimore-as para nível 6.",
+        "desc": "Chalés abrigam cidadões. Erga e aprimore Chalés para aumentar a Capacidade de População e fazer a População Inativa disponível para preencher a posição de trabalho dos Trabalhadores Necessários nos campos de recursos (Fazendas, Serraria, Perdeira, e Mina de Ferro). Aprimore seus Chalés para Nv 6 para atrair mais pessoas para viver em sua cidade."
+    },
+    "cottage_7": {
+        "ar_title": "Aprimorar Chalés",
+        "header": "Procure Chalés da sua cidade e aprimore-as para nível 7.",
+        "desc": "Chalés abrigam cidadões. Erga e aprimore Chalés para aumentar a Capacidade de População e fazer a População Inativa disponível para preencher a posição de trabalho dos Trabalhadores Necessários nos campos de recursos (Fazendas, Serraria, Perdeira, e Mina de Ferro). Aprimore seus Chalés para Nv 7 para atrair mais pessoas para viver em sua cidade."
+    },
+    "cottage_8": {
+        "ar_title": "Aprimorar Chalés",
+        "header": "Estabeleça Chalés em sua cidade e aprimore-os para o Nv 8.",
+        "desc": "Chalés abrigam cidadões. Erga e aprimore Chalés para aumentar a Capacidade de População e fazer a População Inativa disponível para preencher a posição de trabalho dos Trabalhadores Necessários nos campos de recursos (Fazendas, Serraria, Perdeira, e Mina de Ferro). Aprimore seus Chalés para Nv 8 para atrair mais pessoas para viver em sua cidade."
+    },
+    "cottage_9": {
+        "ar_title": "Aprimorar Chalés",
+        "header": "Procure Chalés da sua cidade e aprimore-as para nível 9.",
+        "desc": "Chalés abrigam cidadões. Erga e aprimore Chalés para aumentar a Capacidade de População e fazer a População Inativa disponível para preencher a posição de trabalho dos Trabalhadores Necessários nos campos de recursos (Fazendas, Serraria, Perdeira, e Mina de Ferro). Aprimore seus Chalés para Nv 9 para atrair mais pessoas para viver em sua cidade."
+    },
+    "cottage_10": {
+        "ar_title": "Aprimorar Chalés",
+        "header": "Estabeleça Chalés em sua cidade e aprimore-os para o Nv 10.",
+        "desc": "Chalés abrigam cidadões. Erga e aprimore Chalés para aumentar a Capacidade de População e fazer a População Inativa disponível para preencher a posição de trabalho dos Trabalhadores Necessários nos campos de recursos (Fazendas, Serraria, Perdeira, e Mina de Ferro). Aprimore seus Chalés para Nv 10 para atrair mais pessoas para viver em sua cidade."
+    },
+    "store_1": {
+        "ar_title": "Erguer Armazém",
+        "header": "Clique em Limpar e depois em Erguer abaixo de Armazém. Se o requesito para Erguer for suficiente, o botão de Erguer estará funcional; se não ele será sombreado em cinza. <img src=\"img/Erect Warehouse.jpg\"></img>",
+        "desc": "Sua cidade está crescendo e os recursos estão por toda a parte. Aumente a sua Capacidade de Armazém para que você possa proteger seus recursos de Roubos."
+    },
+    "store_2": {
+        "ar_title": "Aprimorar Armazém",
+        "header": "Em sua cidade, clique em um \"Armazém\" Nv 1 e clique em \"Aprimorar\". Se o requerimento para aprimorar for suficiente o botão de Aprimoração estará funcional; se não ele estará sombreado em cinza. <img src=\"img/Upgrade Warehouse.jpg\"></img>",
+        "desc": "Seu Armazém foi erguido, mas isso pode não ser o suficiente. Aprimore seu Armazém para que os recursos produzidos pelos campos de recursos tenham um lugar para serem guardados. O Armazém protege seus itens de Roubo."
+    },
+    "store_3": {
+        "ar_title": "Aprimorar Armazém",
+        "header": "Em sua cidade, selecione o Armazém, e aprimore-o para o Nv 3.",
+        "desc": "Seu Armazém foi erguido, mas isso pode não ser o suficiente. Aprimore seu Armazém para que os recursos produzidos pelos campos de recursos tenham um lugar para serem guardados. O Armazém protege seus itens de Roubo."
+    },
+    "store_4": {
+        "ar_title": "Aprimorar Armazém",
+        "header": "Em sua cidade, selecione o Armazém, e aprimore-o para o Nv 4.",
+        "desc": "Seu Armazém foi erguido, mas isso pode não ser o suficiente. Aprimore seu Armazém para que os recursos produzidos pelos campos de recursos tenham um lugar para serem guardados. O Armazém protege seus itens de Roubo."
+    },
+    "store_5": {
+        "ar_title": "Aprimorar Armazém",
+        "header": "Em sua cidade, selecione o Armazém, e aprimore-o para o Nv 5.",
+        "desc": "Seu Armazém foi erguido, mas isso pode não ser o suficiente. Aprimore seu Armazém para que os recursos produzidos pelos campos de recursos tenham um lugar para serem guardados. O Armazém protege seus itens de Roubo."
+    },
+    "store_6": {
+        "ar_title": "Aprimorar Armazém",
+        "header": "Em sua cidade, selecione o Armazém, e aprimore-o para o Nv 6.",
+        "desc": "Seu Armazém foi erguido, mas isso pode não ser o suficiente. Aprimore seu Armazém para que os recursos produzidos pelos campos de recursos tenham um lugar para serem guardados. O Armazém protege seus itens de Roubo."
+    },
+    "store_7": {
+        "ar_title": "Aprimorar Armazém",
+        "header": "Em sua cidade, selecione o Armazém, e aprimore-o para o Nv 7.",
+        "desc": "Seu Armazém foi erguido, mas isso pode não ser o suficiente. Aprimore seu Armazém para que os recursos produzidos pelos campos de recursos tenham um lugar para serem guardados. O Armazém protege seus itens de Roubo."
+    },
+    "store_8": {
+        "ar_title": "Aprimorar Armazém",
+        "header": "Em sua cidade, selecione o Armazém, e aprimore-o para o Nv 8.",
+        "desc": "Seu Armazém foi criado, mas isso pode não ser o suficiente. Aprimore seu Armazém para que os recursos produzidos pelos campos de recursos tenham um lugar para serem guardados. O Armazém protege seus itens de Roubo."
+    },
+    "store_9": {
+        "ar_title": "Aprimorar Armazém",
+        "header": "Em sua cidade, selecione o Armazém, e aprimore-o para o Nv 9.",
+        "desc": "Seu Armazém foi erguido, mas isso pode não ser o suficiente. Aprimore seu Armazém para que os recursos produzidos pelos campos de recursos tenham um lugar para serem guardados. O Armazém protege seus itens de Roubo."
+    },
+    "store_10": {
+        "ar_title": "Aprimorar Armazém",
+        "header": "Em sua cidade, selecione o Armazém, e aprimore-o para o Nv 10.",
+        "desc": "Seu Armazém foi erguido, mas isso pode não ser o suficiente. Aprimore seu Armazém para que os recursos produzidos pelos campos de recursos tenham um lugar para serem guardados. O Armazém protege seus itens de Roubo."
+    },
+    "palace_2": {
+        "ar_title": "Aprimorar Reitoria",
+        "header": "Clique em \"Reitoria\" e depois em \"Aprimorar\". Se o botão de Aprimorar estiver cinza, isto quer dizer que você ainda não atingiu os requesitos suficientes para o Aprimoramento. <img src=\"img/Upgrade Rectorate.jpg\"></img>",
+        "desc": "Sua cidade está florescendo. Bravo! Você pode chegar mais longe aprimorando a Reitoria agora. Você será capaz de construir mais e mais rápido! Você pode expandir sua cidade e ganhar mais 4 äreas Limpas para erguer mais estruturas quando a Reitoria atingir nível 4, 8 e 10."
+    },
+    "palace_3": {
+        "ar_title": "Aprimorar Reitoria",
+        "header": "Clique em \"Reitoria\" e depois em \"Aprimorar\". Se o botão de Aprimorar estiver cinza, isto quer dizer que você ainda não atingiu os requerimentos suficientes para o Aprimoramento.",
+        "desc": "Sua cidade está florescendo. Bravo! Você pode chegar mais longe aprimorando a Reitoria agora. Você será capaz de construir mais e mais rápido! Você pode expandir sua cidade e ganhar mais 4 äreas Limpas para erguer mais estruturas quando a Reitoria atingir nível 4, 8 e 10."
+    },
+    "palace_4": {
+        "ar_title": "Aprimorar Reitoria",
+        "header": "Clique em \"Reitoria\" e depois em \"Aprimorar\". Se o botão de Aprimorar estiver cinza, isto quer dizer que você ainda não atingiu os requerimentos suficientes para o Aprimoramento.",
+        "desc": "Sua cidade está florescendo. Bravo! Você pode chegar mais longe aprimorando a Reitoria agora. Você será capaz de construir mais e mais rápido! Você pode expandir a sua cidade ao atingir o nível de Reitoria 4, 8 e 10."
+    },
+    "palace_5": {
+        "ar_title": "Aprimorar Reitoria",
+        "header": "Clique em \"Reitoria\" e depois em \"Aprimorar\". Se o botão de Aprimorar estiver cinza, isto quer dizer que você ainda não atingiu os requerimentos suficientes para o Aprimoramento.",
+        "desc": "Sua cidade está florescendo. Bravo! Você pode chegar mais longe aprimorando a Reitoria agora. Você será capaz de construir mais e mais rápido! Você pode expandir sua cidade e ganhar mais 4 äreas Limpas para erguer mais estruturas quando a Reitoria atingir nível 4, 8 e 10."
+    },
+    "palace_6": {
+        "ar_title": "Aprimorar Reitoria",
+        "header": "Clique em \"Reitoria\" e depois em \"Aprimorar\". Se o botão de Aprimorar estiver cinza, isto quer dizer que você ainda não atingiu os requerimentos suficientes para o Aprimoramento.",
+        "desc": "Sua cidade está florescendo. Bravo! Você pode chegar mais longe aprimorando a Reitoria agora. Você será capaz de construir mais e mais rápido! Você pode expandir sua cidade e ganhar mais 4 äreas Limpas para erguer mais estruturas quando a Reitoria atingir nível 4, 8 e 10."
+    },
+    "palace_7": {
+        "ar_title": "Aprimorar Reitoria",
+        "header": "Clique em \"Reitoria\" e depois em \"Aprimorar\". Se o botão de Aprimorar estiver cinza, isto quer dizer que você ainda não atingiu os requerimentos suficientes para o Aprimoramento.",
+        "desc": "Sua cidade está florescendo. Bravo! Você pode chegar mais longe aprimorando a Reitoria agora. Você será capaz de construir mais e mais rápido! Você pode expandir sua cidade e ganhar mais 4 äreas Limpas para erguer mais estruturas quando a Reitoria atingir nível 4, 8 e 10."
+    },
+    "palace_8": {
+        "ar_title": "Aprimorar Reitoria",
+        "header": "Clique em \"Reitoria\" e depois em \"Aprimorar\". Se o botão de Aprimorar estiver cinza, isto quer dizer que você ainda não atingiu os requesitos suficientes para o Aprimoramento.",
+        "desc": "Sua cidade está florescendo. Bravo! Você pode chegar mais longe aprimorando a Reitoria agora. Você será capaz de construir mais e mais rápido! Você pode expandir a sua cidade ao atingir o nível de Reitoria 4, 8 e 10."
+    },
+    "palace_9": {
+        "ar_title": "Aprimorar Reitoria",
+        "header": "Clique em \"Reitoria\" e depois em \"Aprimorar\". Se o botão de Aprimorar estiver cinza, isto quer dizer que você ainda não atingiu os requerimentos suficientes para o Aprimoramento.",
+        "desc": "Sua cidade está florescendo. Bravo! Você pode chegar mais longe aprimorando a Reitoria agora. Você será capaz de construir mais e mais rápido! Você pode expandir sua cidade e ganhar mais 4 äreas Limpas para erguer mais estruturas quando a Reitoria atingir nível 4, 8 e 10."
+    },
+    "palace_10": {
+        "ar_title": "Aprimorar Reitoria",
+        "header": "Clique em \"Reitoria\" e depois em \"Aprimorar\". Se o botão de Aprimorar estiver cinza, isto quer dizer que você ainda não atingiu os requesitos suficientes para o Aprimoramento.",
+        "desc": "Sua cidade está florescendo. Bravo! Você pode chegar mais longe aprimorando a Reitoria agora. Você será capaz de construir mais e mais rápido! Você pode expandir a sua cidade ao atingir o nível de Reitoria 4, 8 e 10."
+    },
+    "pop_1": {
+        "ar_title": "Infraestutura Completa",
+        "header": "Erga e aprimore Plantações até a Capacidade de População atingir 500.",
+        "desc": "Sua gestão interna está a melhorar e você pode certamente utilizar mais a ajuda de mais cidadãos leais!"
+    },
+    "pop_2": {
+        "ar_title": "Infraestutura Completa",
+        "header": "Erga e aprimore Plantações até a Capacidade de População atingir 5000.",
+        "desc": "Sua gestão interna está a melhorar e você pode certamente utilizar mais a ajuda de mais cidadãos leais!"
+    },
+    "pop_3": {
+        "ar_title": "Infraestutura Completa",
+        "header": "Erga e aprimore Plantações até a Capacidade de População atingir 50000.",
+        "desc": "Sua cidade está crescendo. Porém você ainda precisa de mais estruturas e recursos para ajudar as pessoas a imigrarem para a sua cidade. Quando a Capacidade de População estiver alcançado 50000, ela se tornará uma metrópole."
+    },
+    "pop_4": {
+        "ar_title": "Infraestutura Completa",
+        "header": "Erga e aprimore Plantações até a Capacidade de População atingir 50000.",
+        "desc": "Sua cidade está crescendo. Porém você ainda precisa de mais estruturas e recursos para ajudar as pessoas a imigrarem para a sua cidade. Quando a Capacidade de População estiver alcançado 50000, ela se tornará uma metrópole."
+    },
+    "jop_1": {
+        "ar_title": "Erguer Chalés",
+        "header": "Clique em Limpar e depois clique em Erguer abaixo de Chalés. <img src=\"img/Erect Cottages.jpg\"></img>",
+        "desc": "Chalés abrigam cidadões. Erga eles para juntar mais cidadões para ajudar em suas construções."
+    },
+    "jop_2": {
+        "ar_title": "Gestão de Empregos",
+        "header": "Em sua cidade, selecione campos de recursos (Fazendas, Serralherias, Pedreiras e Minas de Ferro), e crie 50 empregos em cada uma delas.",
+        "desc": "Você construiu algumas estruturas mas muitos de seus cidadãos ainda estão inativos. Você deve claramente colocar sua População Inativa para trabalhar! Aumente a Taxa de Ocupação de Empregos Alvo (TOEA) em \"Performance de Produção\" de Reitoria. Criando mais empregos nos campos de recursos (Fazendas, Serralherias, Pedreiras e Minas de Ferro)."
+    },
+    "farm_2": {
+        "ar_title": "Aprimorar Fazendas",
+        "header": "Em sua cidade, selecione fazendas, e aprimore para o Nv 2. <img src=\"img/Upgrade Farms.jpg\"></img>",
+        "desc": "A cidade está crescendo e todos precisam comer. Fazendas são indispensáveis em todos os aspectos da vida na cidade. Maior  nível de sua fazenda, mais rápido as Plantações crescerão e mais empregos elas podem gerar, um por vez a cada pedido."
+    },
+    "wood_2": {
+        "ar_title": "Aprimorar Serralheria",
+        "header": "Em sua cidade, selecione a Serralheria, e aprimore para o Nv2. <img src=\"img/Upgrade Sawmill.jpg\"></img>",
+        "desc": "Madeira é uma parte essencial para edifícios de qualquer tipo e todos os propósitos militares mais importantes. Quanto maior o nível da Serralheria, maior quantidade de madeira produzida e maior a geração de empregos."
+    },
+    "uni_1": {
+        "ar_title": "Erguer Universidade",
+        "header": "Clique em Limpar e então em Erguer em Universidade. Se os requesitos forem encontrados o botão de Erguer estará funcionar; se não, ele estará sombreado em cinza. <img src=\"img/Erect University.jpg\"></img>",
+        "desc": "A Universidade desenvolve tecnologias que aumentam a velocidade das construções. Maior o nível da Universidade, maior o nível de tecnologias que você pode estudar e mais rápido elas serão terminadas."
+    },
+    "uni_2": {
+        "ar_title": "Aprimorar Universidade",
+        "header": "Em sua cidade, clique em \"Universidade\", e clique em \"Aprimorar\". Se o botão estiver cinza, significa que você ainda tem que atingir certos requesitos antes do Aprimoramento.",
+        "desc": "A Universidade desenvolve tecnologias que aumentam a velocidade das construções. Maior o level da Universidade, maior o level de tecnologias que você pode estudar e mais rápido elas serão terminadas."
+    },
+    "uni_3": {
+        "ar_title": "Aprimorar Universidade",
+        "header": "Na sua cidade, selecinar Universidade e depois aprimora-a para nível 3.",
+        "desc": "A Universidade desenvolve tecnologias que aumentam a velocidade das construções. Maior o nível da Universidade, maior o nível de tecnologias que você pode estudar e mais rápido elas serão terminadas."
+    },
+    "uni_4": {
+        "ar_title": "Aprimorar Universidade",
+        "header": "Em sua cidade, selecione Universidade, e aprimore-a para o Nv 4.",
+        "desc": "A Universidade desenvolve tecnologias que aumentam a velocidade das construções. Maior o nível da Universidade, maior o nível de tecnologias que você pode estudar e mais rápido elas serão terminadas."
+    },
+    "uni_5": {
+        "ar_title": "Aprimorar Universidade",
+        "header": "Na sua cidade, selecinar Universidade e depois aprimora-a para nível 5.",
+        "desc": "A Universidade desenvolve tecnologias que aumentam a velocidade das construções. Maior o nível da Universidade, maior o nível de tecnologias que você pode estudar e mais rápido elas serão terminadas."
+    },
+    "uni_6": {
+        "ar_title": "Aprimorar Universidade",
+        "header": "Na sua cidade, selecinar Universidade e depois aprimora-a para nível 6.",
+        "desc": "A Universidade desenvolve tecnologias que aumentam a velocidade das construções. Maior o nível da Universidade, maior o nível de tecnologias que você pode estudar e mais rápido elas serão terminadas."
+    },
+    "uni_7": {
+        "ar_title": "Aprimorar Universidade",
+        "header": "Na sua cidade, selecinar Universidade e depois aprimora-a para nível 7.",
+        "desc": "A Universidade desenvolve tecnologias que aumentam a velocidade das construções. Maior o nível da Universidade, maior o nível de tecnologias que você pode estudar e mais rápido elas serão terminadas."
+    },
+    "uni_8": {
+        "ar_title": "Aprimorar Universidade",
+        "header": "Em sua cidade, selecione Universidade, e aprimore-a para o Nv 8.",
+        "desc": "A Universidade desenvolve tecnologias que aumentam a velocidade das construções. Maior o nível da Universidade, maior o nível de tecnologias que você pode estudar e mais rápido elas serão terminadas."
+    },
+    "uni_9": {
+        "ar_title": "Aprimorar Universidade",
+        "header": "Na sua cidade, selecinar Universidade e depois aprimora-a para nível 9.",
+        "desc": "A Universidade desenvolve tecnologias que aumentam a velocidade das construções. Maior o nível da Universidade, maior o nível de tecnologias que você pode estudar e mais rápido elas serão terminadas."
+    },
+    "uni_10": {
+        "ar_title": "Aprimorar Universidade",
+        "header": "Em sua cidade, selecione Universidade, e aprimore-a para o Nv 10.",
+        "desc": "A Universidade desenvolve tecnologias que aumentam a velocidade das construções. Maior o nível da Universidade, maior o nível de tecnologias que você pode estudar e mais rápido elas serão terminadas."
+    },
+    "acad_1": {
+        "ar_title": "Erguer Academia",
+        "header": "Clique em Limpar e então em Erguer em \"Academia\". Se os requesitos forem encontrados o botão estará funcional; se não, ele estará sombreado em cinza. <img src=\"img/Erect Academy.jpg\"></img>",
+        "desc": "A Academia se especializa em desenvolver tecnologias para fins militares. Quanto mais alto o nível da Academia, maior o nívell das tecnologias que você poderá estudar e mais rápido elas estarão prontas."
+    },
+    "acad_2": {
+        "ar_title": "Aprimorar Academia",
+        "header": "Em sua cidade, clique em Academia nível 1, e clique em \"Aprimorar\". Se o botão de Aprimoramento estiver cinza, isto quer dizer que você não atingiu certos requerimentos para a Aprimoração.",
+        "desc": "A Academia se especializa em desenvolver tecnologias para fins militares. Quanto maior o level da Academia, maior o level das tecnologias que você poderá estudar e mais rápido elas estarão prontas."
+    },
+    "acad_3": {
+        "ar_title": "Aprimorar Academia",
+        "header": "Em sua cidade, clique em Academia nível 3, e clique em \"Aprimorar\".",
+        "desc": "A Academia se especializa em desenvolver tecnologias para fins militares. Quanto maior o level da Academia, maior o level das tecnologias que você poderá estudar e mais rápido elas estarão prontas."
+    },
+    "acad_4": {
+        "ar_title": "Aprimorar Academia",
+        "header": "Em sua cidade, selecione Academia e aprimore-a para o nível 4.",
+        "desc": "A Academia se especializa em desenvolver tecnologias para fins militares. Quanto maior o nível da Academia, maior o nível das tecnologias que você poderá estudar e mais rápido elas estarão prontas."
+    },
+    "acad_5": {
+        "ar_title": "Aprimorar Academia",
+        "header": "Em sua cidade, clique em Academia nível 5, e clique em \"Aprimorar\".",
+        "desc": "A Academia se especializa em desenvolver tecnologias para fins militares. Quanto maior o level da Academia, maior o level das tecnologias que você poderá estudar e mais rápido elas estarão prontas."
+    },
+    "acad_6": {
+        "ar_title": "Aprimorar Academia",
+        "header": "Em sua cidade, clique em Academia nível 6, e clique em \"Aprimorar\".",
+        "desc": "A Academia se especializa em desenvolver tecnologias para fins militares. Quanto maior o level da Academia, maior o level das tecnologias que você poderá estudar e mais rápido elas estarão prontas."
+    },
+    "acad_7": {
+        "ar_title": "Aprimorar Academia",
+        "header": "Em sua cidade, clique em Academia nível 7, e clique em \"Aprimorar\".",
+        "desc": "A Academia se especializa em desenvolver tecnologias para fins militares. Quanto maior o level da Academia, maior o level das tecnologias que você poderá estudar e mais rápido elas estarão prontas."
+    },
+    "acad_8": {
+        "ar_title": "Aprimorar Academia",
+        "header": "Em sua cidade, selecione Academia e aprimore-a para o nível 8.",
+        "desc": "A Academia se especializa em desenvolver tecnologias para fins militares. Quanto maior o nível da Academia, maior o nível das tecnologias que você poderá estudar e mais rápido elas estarão prontas."
+    },
+    "acad_9": {
+        "ar_title": "Aprimorar Academia",
+        "header": "Em sua cidade, clique em Academia nível 9, e clique em \"Aprimorar\".",
+        "desc": "A Academia se especializa em desenvolver tecnologias para fins militares. Quanto maior o level da Academia, maior o level das tecnologias que você poderá estudar e mais rápido elas estarão prontas."
+    },
+    "acad_10": {
+        "ar_title": "Aprimorar Academia",
+        "header": "Em sua cidade, selecione Academia e aprimore-a para o nível 10.",
+        "desc": "A Academia se especializa em desenvolver tecnologias para fins militares. Quanto maior o nível da Academia, maior o nível das tecnologias que você poderá estudar e mais rápido elas estarão prontas."
+    },
+    "wall_1": {
+        "ar_title": "Erguer Muro",
+        "header": "Clique em Muro Nv 0, e clique em Erguer em \"Muro\". Se o requerimento for encontrado o botão estará funcional; se não ele estará sombreado em cinza. <img src=\"img/Erect Wall.jpg\"></img>",
+        "desc": "Você tem tudo que você necessita exceto um Muro. Muros exigem grandes quantidades de Pedras, então trabalhe duro para conseguir mais empregos de Gemologia. Você poderá plantar todos os tipos de fortificação em seu Muro para guardar sua cidade contra invasões."
+    },
+    "wall_2": {
+        "ar_title": "Fortificar Muro",
+        "header": "Em sua cidade, Clique em Muro Nv 1, e Clique em \"Aprimorar\". Se o botão de Aprimoramento estiver cinza, isto quer dizer que você ainda precisa de alguns requesitos antes do Aprimoramento.",
+        "desc": "Muros oferecem tremenda proteção militar ao aumentar as defesas das tropas na cidade, oferecendo espaço para plantar fortificações e simplesmente atuando como barreira contra invasores. Quanto maior o nível de seus muros, mais forte seus mecanismos de defesa."
+    },
+    "wall_3": {
+        "ar_title": "Fortificar Muro",
+        "header": "Em sua cidade, Clique em Muro e apriore-o para nível 3",
+        "desc": "Muros oferecem tremenda proteção militar ao aumentar as defesas das tropas na cidade, oferecendo espaço para plantar fortificações e simplesmente atuando como barreira contra invasores. Quanto maior o nível de seus muros, mais forte seus mecanismos de defesa."
+    },
+    "wall_4": {
+        "ar_title": "Fortificar Muro",
+        "header": "Em sua cidade, selecione Muro, e aprimore-o para o nível 4.",
+        "desc": "Muros oferecem tremenda proteção militar ao aumentar as defesas das tropas na cidade, oferecendo espaço para plantar fortificações e simplesmente atuando como barreira contra invasores. Quanto maior o nível de seus muros, mais forte seus mecanismos de defesa."
+    },
+    "wall_5": {
+        "ar_title": "Fortificar Muro",
+        "header": "Em sua cidade, Clique em Muro e apriore-o para nível 5.",
+        "desc": "Muros oferecem tremenda proteção militar ao aumentar as defesas das tropas na cidade, oferecendo espaço para plantar fortificações e simplesmente atuando como barreira contra invasores. Quanto maior o nível de seus muros, mais forte seus mecanismos de defesa."
+    },
+    "wall_6": {
+        "ar_title": "Fortificar Muro",
+        "header": "Em sua cidade, Clique em Muro e apriore-o para nível 6.",
+        "desc": "Muros oferecem tremenda proteção militar ao aumentar as defesas das tropas na cidade, oferecendo espaço para plantar fortificações e simplesmente atuando como barreira contra invasores. Quanto maior o nível de seus muros, mais forte seus mecanismos de defesa."
+    },
+    "wall_7": {
+        "ar_title": "Fortificar Muro",
+        "header": "Em sua cidade, Clique em Muro e apriore-o para nível 7.",
+        "desc": "Muros oferecem tremenda proteção militar ao aumentar as defesas das tropas na cidade, oferecendo espaço para plantar fortificações e simplesmente atuando como barreira contra invasores. Quanto maior o nível de seus muros, mais forte seus mecanismos de defesa."
+    },
+    "wall_8": {
+        "ar_title": "Fortificar Muro",
+        "header": "Em sua cidade, selecione Muro, e aprimore-o para o nível 8.",
+        "desc": "Muros oferecem tremenda proteção militar ao aumentar as defesas das tropas na cidade, oferecendo espaço para plantar fortificações e simplesmente atuando como barreira contra invasores. Quanto maior o nível de seus muros, mais forte são seus mecanismos de defesa."
+    },
+    "wall_9": {
+        "ar_title": "Fortificar Muro",
+        "header": "Em sua cidade, Clique em Muro e apriore-o para nível 9.",
+        "desc": "Muros oferecem tremenda proteção militar ao aumentar as defesas das tropas na cidade, oferecendo espaço para plantar fortificações e simplesmente atuando como barreira contra invasores. Quanto maior o nível de seus muros, mais forte seus mecanismos de defesa."
+    },
+    "wall_10": {
+        "ar_title": "Fortificar Muro",
+        "header": "Em sua cidade, selecione Muro, e aprimore-o para o nível 10.",
+        "desc": "Muros oferecem tremenda proteção militar ao aumentar as defesas das tropas na cidade, oferecendo espaço para plantar fortificações e simplesmente atuando como barreira contra invasores. Quanto maior o nível de seus muros, mais fortes serão seus mecanismos de defesa."
+    },
+    "theat_1": {
+        "ar_title": "Erguer Amphiteatro",
+        "header": "Clique em Limpar e depois em Erguer em Amphiteatro. Se o requesito para Erguer for encontrado, o botão Erguer estará funcional; se não ele estará sombreado em cinza. <img src=\"img/Erect Amphitheatre.jpg\"></img>",
+        "desc": "Talentos estão escassos e você precisa da ajuda de heróis capacitados. Erga um Amphiteatro para atrair heróis para recrutamento. Maior o level do Amphiteatro mais heróis aparecerão para você."
+    },
+    "theat_2": {
+        "ar_title": "Aprimorar Amphiteatro",
+        "header": "Em sua cidade, clique no Amphiteatro Nv 2, e clique em \"Aprimorar\".",
+        "desc": "Aprimore seu Amphiteatro para aumentar as chances de encontrar raros talentos. Recompense-os com presentes para aumentar sua lealdade. Quanto mais alto o nível do Amphiteatro, maior é o nível dos heróis que aparecerão para você!"
+    },
+    "theat_3": {
+        "ar_title": "Aprimorar Amphiteatro",
+        "header": "Em sua cidade, clique no Amphiteatro Nv 3, e clique em \"Aprimorar\".",
+        "desc": "Aprimore seu Amphiteatro para aumentar as chances de encontrar raros talentos. Recompense-os com presentes para aumentar sua lealdade. Quanto mais alto o nível do Amphiteatro, maior é o nível dos heróis que aparecerão para você!"
+    },
+    "theat_4": {
+        "ar_title": "Aprimorar Amphiteatro",
+        "header": "Em sua cidade, clique no Amphiteatro Nv 3, e clique em \"Aprimorar\".",
+        "desc": "Aprimore seu Amphiteatro para aumentar as chances de encontrar raros talentos. Recompense-os com presentes para aumentar sua lealdade. Quanto mais alto o nível do Amphiteatro, maior é o nível dos heróis que aparecerão para você!"
+    },
+    "theat_5": {
+        "ar_title": "Aprimorar Amphiteatro",
+        "header": "Em sua cidade, clique no Amphiteatro Nv 4, e clique em \"Aprimorar\".",
+        "desc": "Aprimore seu Amphiteatro para aumentar as chances de encontrar raros talentos. Recompense-os com presentes para aumentar sua lealdade. Quanto mais alto o nível do Amphiteatro, maior é o nível dos heróis que aparecerão para você!"
+    },
+    "theat_6": {
+        "ar_title": "Aprimorar Amphiteatro",
+        "header": "Em sua cidade, clique no Amphiteatro Nv 5, e clique em \"Aprimorar\".",
+        "desc": "Aprimore seu Amphiteatro para aumentar as chances de encontrar raros talentos. Recompense-os com presentes para aumentar sua lealdade. Quanto mais alto o nível do Amphiteatro, maior é o nível dos heróis que aparecerão para você!"
+    },
+    "theat_7": {
+        "ar_title": "Aprimorar Amphiteatro",
+        "header": "Em sua cidade, clique no Amphiteatro Nv 6, e clique em \"Aprimorar\".",
+        "desc": "Aprimore seu Amphiteatro para aumentar as chances de encontrar raros talentos. Recompense-os com presentes para aumentar sua lealdade. Quanto mais alto o nível do Amphiteatro, maior é o nível dos heróis que aparecerão para você!"
+    },
+    "theat_8": {
+        "ar_title": "Aprimorar Amphiteatro",
+        "header": "Em sua cidade, clique no Amphiteatro Nv 7, e clique em \"Aprimorar\".",
+        "desc": "Aprimore seu Amphiteatro para aumentar as chances de encontrar raros talentos. Recompense-os com presentes para aumentar sua lealdade. Quanto mais alto o nível do Amphiteatro, maior é o nível dos heróis que aparecerão para você!"
+    },
+    "theat_9": {
+        "ar_title": "Aprimorar Amphiteatro",
+        "header": "Em sua cidade, clique no Amphiteatro Nv 8, e clique em \"Aprimorar\".",
+        "desc": "Aprimore seu Amphiteatro para aumentar as chances de encontrar raros talentos. Recompense-os com presentes para aumentar sua lealdade. Quanto mais alto o nível do Amphiteatro, maior é o nível dos heróis que aparecerão para você!"
+    },
+    "theat_10": {
+        "ar_title": "Aprimorar Amphiteatro",
+        "header": "Em sua cidade, clique no Amphiteatro Nv 9, e clique em \"Aprimorar\".",
+        "desc": "Aprimore seu Amphiteatro para aumentar as chances de encontrar raros talentos. Recompense-os com presentes para aumentar sua lealdade. Quanto mais alto o nível do Amphiteatro, maior é o nível dos heróis que aparecerão para você!"
+    },
+    "worship_1": {
+        "ar_title": "Erguer Templo",
+        "header": "Clique em Limpar e depois em Erguer Templo. Se o nível para Erguer for requerido o botão estará funcional; se não ele estará sombreado em cinza.",
+        "desc": "O Templo é o ícone da religião Romana aonde você venera deus para receber ajudas especiais e melhorias na colheita de recursos. Apaziguar Crítica pode aumentar a Fidelidade dos cidadãos."
+    },
+    "worship_2": {
+        "ar_title": "Aprimorar Templo",
+        "header": "Em sua cidade, clique em \"Templo\", então clique em \"Aprimorar\". Se o botão de Aprimoração estiver cinza, isto quer dizer que você ainda não atingiu os requesitos suficientes para a Aprimoração.",
+        "desc": "O Templo é o ícone da religião Romana onde você venera deus para receber ajudas especiais e melhorias na colheita de recursos. Quanto maior o nível do seu Templo, maior as melhorias que você receberá."
+    },
+    "worship_3": {
+        "ar_title": "Aprimorar Templo",
+        "header": "Em sua cidade, clique em \"Templo\" e aprimora-o para nível 3.",
+        "desc": "O Templo é o ícone da religião Romana onde você venera deuses para receber ajudas especiais e melhorias na colheita de recursos. Quanto maior o nível do seu Templo, maior as melhorias que você receberá."
+    },
+    "worship_4": {
+        "ar_title": "Aprimorar Templo",
+        "header": "Em sua cidade, selecione o Templo e aprimore-o para o nível 4.",
+        "desc": "O Templo é o ícone da religião Romana aonde você venera deus para receber ajudas especiais e melhorias na colheita de recursos. Quanto maior o nível de seu Templo, maior as melhorias que você receberá."
+    },
+    "worship_5": {
+        "ar_title": "Aprimorar Templo",
+        "header": "Em sua cidade, clique em \"Templo\" e aprimora-o para nível 5.",
+        "desc": "O Templo é o ícone da religião Romana onde você venera deuses para receber ajudas especiais e melhorias na colheita de recursos. Quanto maior o nível do seu Templo, maior as melhorias que você receberá."
+    },
+    "worship_6": {
+        "ar_title": "Aprimorar Templo",
+        "header": "Em sua cidade, clique em \"Templo\" e aprimora-o para nível 6.",
+        "desc": "O Templo é o ícone da religião Romana onde você venera deuses para receber ajudas especiais e melhorias na colheita de recursos. Quanto maior o nível do seu Templo, maior as melhorias que você receberá."
+    },
+    "worship_7": {
+        "ar_title": "Aprimorar Templo",
+        "header": "Em sua cidade, clique em \"Templo\" e aprimora-o para nível 7.",
+        "desc": "O Templo é o ícone da religião Romana onde você venera deuses para receber ajudas especiais e melhorias na colheita de recursos. Quanto maior o nível do seu Templo, maior as melhorias que você receberá."
+    },
+    "worship_8": {
+        "ar_title": "Aprimorar Templo",
+        "header": "Em sua cidade, selecione o Templo e aprimore-o para o nível 8.",
+        "desc": "O Templo é o ícone da religião Romana aonde você venera deus para receber ajudas especiais e melhorias na colheita de recursos. Quanto maior o level de seu Templo, maior as melhorias que você receberá."
+    },
+    "worship_9": {
+        "ar_title": "Aprimorar Templo",
+        "header": "Em sua cidade, clique em \"Templo\" e aprimora-o para nível 9.",
+        "desc": "O Templo é o ícone da religião Romana onde você venera deuses para receber ajudas especiais e melhorias na colheita de recursos. Quanto maior o nível do seu Templo, maior as melhorias que você receberá."
+    },
+    "worship_10": {
+        "ar_title": "Aprimorar Templo",
+        "header": "Em sua cidade, selecione o Templo e aprimore-o para o nível 10.",
+        "desc": "O Templo é o ícone da religião Romana aonde você venera deuses para receber ajudas especiais e melhorias na colheita de recursos. Quanto maior o nível do seu Templo, maior as melhorias que você receberá."
+    },
+    "barracks_1": {
+        "ar_title": "Erguer Quartéis",
+        "header": "Clique em Limpar e então em Erguer em \"Quartel\". Se o botão estiver cinza, isto quer dizer que você ainda não encontrou os requesitos necessários para iniciar a construção. <img src=\"img/Erect Barrack.jpg\"></img>",
+        "desc": "Quartéis treinam Hastatus, Sagittarios e Principes. Alguns tipos de infantaria precisam de Quartéis de alto nível para serem treinadas. Você pode erguer mais de um Quartel em sua cidade.  Demissão de infantaria também é conduzida nos Quartéis."
+    },
+    "barracks_2": {
+        "ar_title": "Aprimorar Quartéis",
+        "header": "Em sua cidade, clique no \"Quartel\" nível 1, e então clique em \"Aprimorar\". Se os requesitos para aprimorar forem encontrados, o botão estará funcional; se não ele estará sombreado em cinza.",
+        "desc": "Quartéis treinam infantaria: Hastatus, Sagittarios e Principes. Quanto maior o nível, mais avançado o nivel da infantaria que você poderá treinar e mais filas de treinamento serão permitidas."
+    },
+    "barracks_3": {
+        "ar_title": "Aprimorar Quartéis",
+        "desc": "Quartéis treinam infantaria: Hastatus, Sagittarii e Principes. Quanto maior o nível, mais avançado o nivel da infantaria que você poderá treinar e mais filas de treinamento serão permitidas.",
+        "header": "Em sua cidade, clique no \"Quartel\" e aprimore-o par nível 3."
+    },
+    "barracks_4": {
+        "ar_title": "Aprimorar Quartéis",
+        "desc": "Quartéis treinam infantaria: Hastatus, Sagittarios e Principes. Quanto maior o nível, mais avançado o nivel da infantaria que você poderá treinar e mais filas de treinamento serão permitidas.",
+        "header": "Em sua cidade, selecione Quartel e aprimore-o para o nível 4."
+    },
+    "barracks_5": {
+        "ar_title": "Aprimorar Quartéis",
+        "desc": "Quartéis treinam infantaria: Hastatus, Sagittarios e Principes. Quanto maior o nível, mais avançado o nivel da infantaria que você poderá treinar e mais filas de treinamento serão permitidas.",
+        "header": "Em sua cidade, clique no \"Quartel\" e aprimore-o para nível 5."
+    },
+    "barracks_6": {
+        "ar_title": "Aprimorar Quartéis",
+        "desc": "Quartéis treinam infantaria: Hastatus, Sagittarii e Principes. Quanto maior o nível, mais avançado o nivel da infantaria que você poderá treinar e mais filas de treinamento serão permitidas.",
+        "header": "Em sua cidade, clique no \"Quartel\" e aprimore-o para nível 6."
+    },
+    "barracks_7": {
+        "ar_title": "Aprimorar Quartéis",
+        "desc": "Quartéis treinam infantaria: Hastatus, Sagittarios e Principes. Quanto maior o nível, mais avançado o nivel da infantaria que você poderá treinar e mais filas de treinamento serão permitidas.",
+        "header": "Em sua cidade, clique no \"Quartel\" e aprimore-o para nível 7."
+    },
+    "barracks_8": {
+        "ar_title": "Aprimorar Quartéis",
+        "desc": "Quartéis treinam infantaria: Hastatus, Sagittarios e Principes. Quanto maior o nível, mais avançado o nivel da infantaria que você poderá treinar e mais filas de treinamento serão permitidas.",
+        "header": "Em sua cidade, selecione Quartel e aprimore-o para o nível 8."
+    },
+    "barracks_9": {
+        "ar_title": "Aprimorar Quartéis",
+        "header": "Em sua cidade, clique no \"Quartel\" e aprimore-o para nível 9.",
+        "desc": "Quartéis treinam infantaria: Hastatus, Sagittarios e Principes. Quanto maior o nível, mais avançado o nivel da infantaria que você poderá treinar e mais filas de treinamento serão permitidas."
+    },
+    "barracks_10": {
+        "ar_title": "Aprimorar Quartéis",
+        "header": "Em sua cidade, selecione Quartel e aprimore-o para o nível 10.",
+        "desc": "Quartéis treinam infantaria: Hastatus, Sagittarios e Principes. Quanto maior o nível, mais avançado o nivel da infantaria que você poderá treinar e mais filas de treinamento serão permitidas."
+    },
+    "stabl_1": {
+        "ar_title": "Erguer Estábulo",
+        "header": "Clique em Limpar e em Erguer em \"Estábulo\". Se o botão de Erguer estiver cinza isto quer dizer que você ainda não alcançou os requesitos necessários para a construção. <img src=\"img/Erect Stable.jpg\"></img>",
+        "desc": "O Estábulo treina cavaleiros:: Speculatore e Equites. O maior o nível, mais rápido acaba seu treinamento. Você pode erguer mais de um Estábulo sem sua cidade. Demissão de cavaleiros também é conduzida aqui."
+    },
+    "stabl_2": {
+        "ar_title": "Aprimorar Estábulo",
+        "header": "Em sua cidade, clique no \"Estábulo\" nível 1, e clique em \"Aprimorar\". Se os requesitos forem encontrados, o botão estará funcional, se não ele estará sombreado em cinza.",
+        "desc": "O Estábulo treina Speculatores e Equites. O maior o nível, mais rápido seu treinamento e mais filas de treinamento são permitidas."
+    },
+    "stabl_3": {
+        "ar_title": "Aprimorar Estábulo",
+        "header": "Em sua cidade, selecione Estábulo e aprimore-o para o nível 3.",
+        "desc": "O Estábulo treina Speculatores e Equites. O maior o nível, mais rápido seu treinamento e mais filas de treinamento são permitidas."
+    },
+    "stabl_4": {
+        "ar_title": "Aprimorar Estábulo",
+        "header": "Em sua cidade, selecione Estábulo e aprimore-o para o nível 4.",
+        "desc": "O Estábulo treina Speculatores e Equites. O maior o nível, mais rápido seu treinamento e mais filas de treinamento são permitidas."
+    },
+    "stabl_5": {
+        "ar_title": "Aprimorar Estábulo",
+        "header": "Em sua cidade, selecione Estábulo e aprimore-o para o nível 5.",
+        "desc": "O Estábulo treina Speculatores e Equites. O maior o nível, mais rápido seu treinamento e mais filas de treinamento são permitidas."
+    },
+    "stabl_6": {
+        "ar_title": "Aprimorar Estábulo",
+        "header": "Em sua cidade, selecione Estábulo e aprimore-o para o nível 6.",
+        "desc": "O Estábulo treina Speculatores e Equites. O maior o nível, mais rápido seu treinamento e mais filas de treinamento são permitidas."
+    },
+    "stabl_7": {
+        "ar_title": "Aprimorar Estábulo",
+        "header": "Em sua cidade, selecione Estábulo e aprimore-o para o nível 7.",
+        "desc": "O Estábulo treina Speculatores e Equites. O maior o nível, mais rápido seu treinamento e mais filas de treinamento são permitidas."
+    },
+    "stabl_8": {
+        "ar_title": "Aprimorar Estábulo",
+        "header": "Em sua cidade, selecione Estábulo e aprimore-o para o nível 8.",
+        "desc": "O Estábulo treina Speculatores e Equites. O maior o nível, mais rápido seu treinamento e mais filas de treinamento são permitidas."
+    },
+    "stabl_9": {
+        "ar_title": "Aprimorar Estábulo",
+        "header": "Em sua cidade, selecione Estábulo e aprimore-o para o nível 9.",
+        "desc": "O Estábulo treina Speculatores e Equites. O maior o nível, mais rápido seu treinamento e mais filas de treinamento são permitidas."
+    },
+    "stabl_10": {
+        "ar_title": "Aprimorar Estábulo",
+        "header": "Em sua cidade, selecione Estábulo e aprimore-o para o nível 10.",
+        "desc": "O Estábulo treina Speculatores e Equites. O maior o nível, mais rápido seu treinamento e mais filas de treinamento são permitidas."
+    },
+    "workshop_1": {
+        "ar_title": "Erguer Oficina",
+        "header": "Clique em Limpar e então em Erguer em \"Oficina\". Se o botão estiver cinza, isto quer dizer que você não encontrou os requesitos suficientes para iniciar construção. <img src=\"img/Erect Workshop.jpg\"></img>",
+        "desc": "Oficinas produzem máquinas de batalha como: Ballistae e Onagers. Quanto maior o seu nível, mais rápido estas máquinas são produzidas e mais poderão ser processadas Você pode erguer mais Erguer mais que uma Oficina em uma cidade. Destituição de máquinas de batalha também é conduzida aqui."
+    },
+    "workshop_2": {
+        "ar_title": "Aprimorar Oficina",
+        "header": "Em sua cidade, clique em nível 1 \"Oficina\", e então em \"Aprimorar\". Se o requesitos for encontrado o botão estará funcional; se não ele estará sombreado em cinza.",
+        "desc": "Oficinas produzem máquinas de batalha como: Ballistae e Onagers. Quanto maior o seu nível, mais rápido estas máquinas são produzidas e mais filas de produção serão permitidas."
+    },
+    "workshop_3": {
+        "ar_title": "Aprimorar Oficina",
+        "desc": "Oficinas produzem máquinas de batalha como: Ballistae e Onagers. Quanto maior o seu nível, mais rápido estas máquinas são produzidas e mais filas de produção serão permitidas.",
+        "header": "Em sua cidade, selecione a Oficina e aprimore-a para o nível 4."
+    },
+    "workshop_4": {
+        "ar_title": "Aprimorar Oficina",
+        "desc": "Oficinas produzem máquinas de batalha como: Ballistae e Onagers. Quanto maior o seu nível, mais rápido estas máquinas são produzidas e mais filas de produção serão permitidas.",
+        "header": "Em sua cidade, selecione a Oficina e aprimore-a para o nível 4."
+    },
+    "workshop_5": {
+        "ar_title": "Aprimorar Oficina",
+        "header": "Em sua cidade, selecione a Oficina e aprimore-a para o nível 5.",
+        "desc": "Oficinas produzem máquinas de batalha como: Ballistae e Onagers. Quanto maior o seu nível, mais rápido estas máquinas são produzidas e mais filas de produção serão permitidas."
+    },
+    "workshop_6": {
+        "ar_title": "Aprimorar Oficina",
+        "header": "Em sua cidade, selecione a Oficina e aprimore-a para o nível 6.",
+        "desc": "Oficinas produzem máquinas de batalha como: Ballistae e Onagers. Quanto maior o seu nível, mais rápido estas máquinas são produzidas e mais filas de produção serão permitidas."
+    },
+    "workshop_7": {
+        "ar_title": "Aprimorar Oficina",
+        "header": "Em sua cidade, selecione a Oficina e aprimore-a para o nível 7.",
+        "desc": "Oficinas produzem máquinas de batalha como: Ballistae e Onagers. Quanto maior o seu nível, mais rápido estas máquinas são produzidas e mais filas de produção serão permitidas."
+    },
+    "workshop_8": {
+        "ar_title": "Aprimorar Oficina",
+        "header": "Em sua cidade, selecione a Oficina e aprimore-a para o nível 8.",
+        "desc": "Oficinas produzem máquinas de batalha como: Ballistae e Onagers. Quanto maior o seu nível, mais rápido estas máquinas são produzidas e mais filas de produção serão permitidas."
+    },
+    "workshop_9": {
+        "ar_title": "Aprimorar Oficina",
+        "header": "Em sua cidade, selecione a Oficina e aprimore-a para o nível 9.",
+        "desc": "Oficinas produzem máquinas de batalha como: Ballistae e Onagers. Quanto maior o seu nível, mais rápido estas máquinas são produzidas e mais filas de produção serão permitidas."
+    },
+    "workshop_10": {
+        "ar_title": "Aprimorar Oficina",
+        "header": "Em sua cidade, selecione a Oficina e aprimore-a para o nível 10.",
+        "desc": "Oficinas produzem máquinas de batalha como: Ballistae e Onagers. Quanto maior o seu nível, mais rápido estas máquinas são produzidas e mais filas de produção serão permitidas."
+    },
+    "prom_1": {
+        "ar_title": "Aedile",
+        "header": "Foi-lhe concedida uma promoção quando os requesitos em Sestércios e itens de luxo forem encontrados. Sestércios e itens de luxo requerido serão deduzidos ao aceitar os prêmios de quest.",
+        "desc": "A Cúria assim como todas as pessoas em sua cidade estão contentes com a forma que você está gerenciando sua cidade. Quando você obtiver Prestígio suficiente você será promovido para um rank nobre mais alto. Você deverá pagar Sestércios e itens de luxo para ceder um grande banquete de celebração!"
+    },
+    "prom_2": {
+        "ar_title": "Censor",
+        "header": "Foi-lhe concedida uma promoção quando os requesitos em Sestércios e itens de luxo forem encontrados. Sestércios e itens de luxo requerido serão deduzidos ao aceitar os prêmios de quest.",
+        "desc": "A Cúria assim como todas as pessoas em sua cidade estão contentes com a forma que você está gerenciando sua cidade. Quando você obtiver Prestígio suficiente você será promovido para um rank nobre mais alto. Você deverá pagar Sestércios e itens de luxo para ceder um grande banquete de celebração!"
+    },
+    "prom_3": {
+        "ar_title": "Quaestor",
+        "header": "Foi-lhe concedida uma promoção quando os requesitos em Sestércios e itens de luxo forem encontrados. Sestércios e itens de luxo requerido serão deduzidos ao aceitar os prêmios de quest.",
+        "desc": "A Cúria assim como todas as pessoas em sua cidade estão contentes com a forma que você está gerenciando sua cidade. Quando você obtiver Prestígio suficiente você será promovido para um rank nobre mais alto. Você deverá pagar Sestércios e itens de luxo para ceder um grande banquete de celebração!"
+    },
+    "prom_4": {
+        "ar_title": "Tribune",
+        "header": "Foi-lhe concedida uma promoção quando os requesitos em Sestércios e itens de luxo forem encontrados. Sestércios e itens de luxo requerido serão deduzidos ao aceitar os prêmios de quest.",
+        "desc": "A Cúria assim como todas as pessoas em sua cidade estão contentes com a forma que você está gerenciando sua cidade. Quando você obtiver Prestígio suficiente você será promovido para um rank nobre mais alto. Você deverá pagar Sestércios e itens de luxo para ceder um grande banquete de celebração!"
+    },
+    "prom_5": {
+        "ar_title": "Procurator",
+        "header": "Foi-lhe concedida uma promoção quando os requesitos em Sestércios e itens de luxo forem encontrados. Sestércios e itens de luxo requerido serão deduzidos ao aceitar os prêmios de quest.",
+        "desc": "A Cúria assim como todas as pessoas em sua cidade estão contentes com a forma que você está gerenciando sua cidade. Quando você obtiver Prestígio suficiente você será promovido para um rank nobre mais alto. Você deverá pagar Sestércios e itens de luxo para ceder um grande banquete de celebração!"
+    },
+    "prom_6": {
+        "ar_title": "Praetor",
+        "header": "Foi-lhe concedida uma promoção quando os requesitos em Sestércios e itens de luxo forem encontrados. Sestércios e itens de luxo requerido serão deduzidos ao aceitar os prêmios de quest.",
+        "desc": "A Cúria assim como todas as pessoas em sua cidade estão contentes com a forma que você está gerenciando sua cidade. Quando você obtiver Prestígio suficiente você será promovido para um rank nobre mais alto. Você deverá pagar Sestércios e itens de luxo para ceder um grande banquete de celebração!"
+    },
+    "prom_7": {
+        "ar_title": "Legate",
+        "header": "Foi-lhe concedida uma promoção quando os requesitos em Sestércios e itens de luxo forem encontrados. Sestércios e itens de luxo requerido serão deduzidos ao aceitar os prêmios de quest.",
+        "desc": "A Cúria assim como todas as pessoas em sua cidade estão contentes com a forma que você está gerenciando sua cidade. Quando você obtiver Prestígio suficiente você será promovido para um rank nobre mais alto. Você deverá pagar Sestércios e itens de luxo para ceder um grande banquete de celebração!"
+    },
+    "prom_8": {
+        "ar_title": "Dictator",
+        "header": "Foi-lhe concedida uma promoção quando os requesitos em Sestércios e itens de luxo forem encontrados. Sestércios e itens de luxo requerido serão deduzidos ao aceitar os prêmios de quest.",
+        "desc": "A Cúria assim como todas as pessoas em sua cidade estão contentes com a forma que você está gerenciando sua cidade. Quando você obtiver Prestígio suficiente você será promovido para um rank nobre mais alto. Você deverá pagar Sestércios e itens de luxo para ceder um grande banquete de celebração!"
+    },
+    "prom_9": {
+        "ar_title": "Chefe da 5ª Legião",
+        "header": "Foi-lhe concedida uma promoção quando os requesitos em Sestércios e itens de luxo forem encontrados. Sestércios e itens de luxo requerido serão deduzidos ao aceitar os prêmios de quest.",
+        "desc": "A Cúria assim como todas as pessoas em sua cidade estão contentes com a forma que você está gerenciando sua cidade. Quando você obtiver Prestígio suficiente você será promovido para um rank nobre mais alto. Você deverá pagar Sestércios e itens de luxo para ceder um grande banquete de celebração!"
+    },
+    "prom_10": {
+        "ar_title": "Chefe da 4ª Legião",
+        "header": "Será garantido uma promoção uma vez que os requesitos do Nv. da Reitoria, Prestígio, Setércios, melhorar itens e itens de luxúrias forem satisfeitos. Setércios e itens de luxúria requeridos serão deduzidos ao aceiar a recompensa da quest.",
+        "desc": "Tanto Cúria quanto outras classes sociais estão satisfeitos com a maneira que você está dirigindo a sua cidade. Uma vez que tiver Prestígios suficientes, você será promovido para ranking dos Nobres mais  alto. Com a promoção do seu ranking, você deverá doar alguns Setércios e itens de luxurias para um grande banquete de celebração!"
+    },
+    "prom_11": {
+        "ar_title": "Chefe da 3ª Legião",
+        "header": "Será garantido uma promoção uma vez que os requesitos do Nv. da Reitoria, Prestígio, Setércios, melhorar itens e itens de luxúrias forem satisfeitos. Setércios e itens de luxúria requeridos serão deduzidos ao aceiar a recompensa da quest.",
+        "desc": "Tanto Cúria quanto outras classes sociais estão satisfeitos com a maneira que você está dirigindo a sua cidade. Uma vez que tiver Prestígios suficientes, você será promovido para ranking dos Nobres mais  alto. Com a promoção do seu ranking, você deverá doar alguns Setércios e itens de luxurias para um grande banquete de celebração!"
+    },
+    "prom_12": {
+        "ar_title": "Chefe da 2ª Legião",
+        "header": "Será garantido uma promoção uma vez que os requesitos do Nv. da Reitoria, Prestígio, Setércios, melhorar itens e itens de luxúrias forem satisfeitos. Setércios e itens de luxúria requeridos serão deduzidos ao aceiar a recompensa da quest.",
+        "desc": "Tanto Cúria quanto outras classes sociais estão satisfeitos com a maneira que você está dirigindo a sua cidade. Uma vez que tiver Prestígios suficientes, você será promovido para ranking dos Nobres mais  alto. Com a promoção do seu ranking, você deverá doar alguns Setércios e itens de luxurias para um grande banquete de celebração!"
+    },
+    "prom_13": {
+        "ar_title": "Chefe da 1ª Legião",
+        "header": "Será garantido uma promoção uma vez que os requesitos do Nv. da Reitoria, Prestígio, Setércios, melhorar itens e itens de luxúrias forem satisfeitos. Setércios e itens de luxúria requeridos serão deduzidos ao aceiar a recompensa da quest.",
+        "desc": "Tanto Cúria quanto outras classes sociais estão satisfeitos com a maneira que você está dirigindo a sua cidade. Uma vez que tiver Prestígios suficientes, você será promovido para ranking dos Nobres mais  alto. Com a promoção do seu ranking, você deverá doar alguns Setércios e itens de luxurias para um grande banquete de celebração!"
+    },
+    "prom_14": {
+        "ar_title": "Major General",
+        "header": "Será garantido uma promoção uma vez que os requesitos do Nv. da Reitoria, Prestígio, Setércios, melhorar itens e itens de luxúrias forem satisfeitos. Setércios e itens de luxúria requeridos serão deduzidos ao aceiar a recompensa da quest.",
+        "desc": "Tanto Cúria quanto outras classes sociais estão satisfeitos com a maneira que você está dirigindo a sua cidade. Uma vez que tiver Prestígios suficientes, você será promovido para ranking dos Nobres mais  alto. Com a promoção do seu ranking, você deverá doar alguns Setércios e itens de luxurias para um grande banquete de celebração!"
+    },
+    "prom_15": {
+        "ar_title": "Tenente General",
+        "header": "Será garantido uma promoção uma vez que os requesitos do Nv. da Reitoria, Prestígio, Setércios, melhorar itens e itens de luxúrias forem satisfeitos. Setércios e itens de luxúria requeridos serão deduzidos ao aceiar a recompensa da quest.",
+        "desc": "Tanto Cúria quanto outras classes sociais estão satisfeitos com a maneira que você está dirigindo a sua cidade. Uma vez que tiver Prestígios suficientes, você será promovido para ranking dos Nobres mais  alto. Com a promoção do seu ranking, você deverá doar alguns Setércios e itens de luxurias para um grande banquete de celebração!"
+    },
+    "prom_16": {
+        "ar_title": "3ª Classe General",
+        "header": "Será garantido uma promoção uma vez que os requesitos do Nv. da Reitoria, Prestígio, Setércios, melhorar itens e itens de luxúrias forem satisfeitos. Setércios e itens de luxúria requeridos serão deduzidos ao aceiar a recompensa da quest.",
+        "desc": "Tanto Cúria quanto outras classes sociais estão satisfeitos com a maneira que você está dirigindo a sua cidade. Uma vez que tiver Prestígios suficientes, você será promovido para ranking dos Nobres mais  alto. Com a promoção do seu ranking, você deverá doar alguns Setércios e itens de luxurias para um grande banquete de celebração!"
+    },
+    "prom_17": {
+        "ar_title": "2ª Classe General",
+        "header": "Será garantido uma promoção uma vez que os requesitos do Nv. da Reitoria, Prestígio, Setércios, melhorar itens e itens de luxúrias forem satisfeitos. Setércios e itens de luxúria requeridos serão deduzidos ao aceiar a recompensa da quest.",
+        "desc": "Tanto Cúria quanto outras classes sociais estão satisfeitos com a maneira que você está dirigindo a sua cidade. Uma vez que tiver Prestígios suficientes, você será promovido para ranking dos Nobres mais  alto. Com a promoção do seu ranking, você deverá doar alguns Setércios e itens de luxurias para um grande banquete de celebração!"
+    },
+    "prom_18": {
+        "ar_title": "1ª Classe General",
+        "header": "Será garantido uma promoção uma vez que os requesitos do Nv. da Reitoria, Prestígio, Setércios, melhorar itens e itens de luxúrias forem satisfeitos. Setércios e itens de luxúria requeridos serão deduzidos ao aceiar a recompensa da quest.",
+        "desc": "Tanto Cúria quanto outras classes sociais estão satisfeitos com a maneira que você está dirigindo a sua cidade. Uma vez que tiver Prestígios suficientes, você será promovido para ranking dos Nobres mais  alto. Com a promoção do seu ranking, você deverá doar alguns Setércios e itens de luxurias para um grande banquete de celebração!"
+    },
+    "prom_19": {
+        "ar_title": "Marechal",
+        "header": "Será garantido uma promoção uma vez que os requesitos do Nv. da Reitoria, Prestígio, Setércios, melhorar itens e itens de luxúrias forem satisfeitos. Setércios e itens de luxúria requeridos serão deduzidos ao aceiar a recompensa da quest.",
+        "desc": "Tanto Cúria quanto outras classes sociais estão satisfeitos com a maneira que você está dirigindo a sua cidade. Uma vez que tiver Prestígios suficientes, você será promovido para ranking dos Nobres mais  alto. Com a promoção do seu ranking, você deverá doar alguns Setércios e itens de luxurias para um grande banquete de celebração!"
+    },
+    "prom_20": {
+        "ar_title": "9° Senador",
+        "header": "Será garantido uma promoção uma vez que os requesitos do Nv. da Reitoria, Prestígio, Setércios, melhorar itens e itens de luxúrias forem satisfeitos. Setércios e itens de luxúria requeridos serão deduzidos ao aceiar a recompensa da quest.",
+        "desc": "Tanto Cúria quanto outras classes sociais estão satisfeitos com a maneira que você está dirigindo a sua cidade. Uma vez que tiver Prestígios suficientes, você será promovido para ranking dos Nobres mais  alto. Com a promoção do seu ranking, você deverá doar alguns Setércios e itens de luxurias para um grande banquete de celebração!"
+    },
+    "prom_21": {
+        "ar_title": "8° Senador",
+        "header": "Será garantido uma promoção uma vez que os requesitos do Nv. da Reitoria, Prestígio, Setércios, melhorar itens e itens de luxúrias forem satisfeitos. Setércios e itens de luxúria requeridos serão deduzidos ao aceiar a recompensa da quest.",
+        "desc": "Tanto Cúria quanto outras classes sociais estão satisfeitos com a maneira que você está dirigindo a sua cidade. Uma vez que tiver Prestígios suficientes, você será promovido para ranking dos Nobres mais  alto. Com a promoção do seu ranking, você deverá doar alguns Setércios e itens de luxurias para um grande banquete de celebração!"
+    },
+    "prom_22": {
+        "ar_title": "7° Senador",
+        "header": "Será garantido uma promoção uma vez que os requesitos do Nv. da Reitoria, Prestígio, Setércios, melhorar itens e itens de luxúrias forem satisfeitos. Setércios e itens de luxúria requeridos serão deduzidos ao aceiar a recompensa da quest.",
+        "desc": "Tanto Cúria quanto outras classes sociais estão satisfeitos com a maneira que você está dirigindo a sua cidade. Uma vez que tiver Prestígios suficientes, você será promovido para ranking dos Nobres mais  alto. Com a promoção do seu ranking, você deverá doar alguns Setércios e itens de luxurias para um grande banquete de celebração!"
+    },
+    "prom_23": {
+        "ar_title": "6° Senador",
+        "header": "Será garantido uma promoção uma vez que os requesitos do Nv. da Reitoria, Prestígio, Setércios, melhorar itens e itens de luxúrias forem satisfeitos. Setércios e itens de luxúria requeridos serão deduzidos ao aceiar a recompensa da quest.",
+        "desc": "Tanto Cúria quanto outras classes sociais estão satisfeitos com a maneira que você está dirigindo a sua cidade. Uma vez que tiver Prestígios suficientes, você será promovido para ranking dos Nobres mais  alto. Com a promoção do seu ranking, você deverá doar alguns Setércios e itens de luxurias para um grande banquete de celebração!"
+    },
+    "prom_24": {
+        "ar_title": "5° Senador",
+        "header": "Será garantido uma promoção uma vez que os requesitos do Nv. da Reitoria, Prestígio, Setércios, melhorar itens e itens de luxúrias forem satisfeitos. Setércios e itens de luxúria requeridos serão deduzidos ao aceiar a recompensa da quest.",
+        "desc": "Tanto Cúria quanto outras classes sociais estão satisfeitos com a maneira que você está dirigindo a sua cidade. Uma vez que tiver Prestígios suficientes, você será promovido para ranking dos Nobres mais  alto. Com a promoção do seu ranking, você deverá doar alguns Setércios e itens de luxurias para um grande banquete de celebração!"
+    },
+    "prom_25": {
+        "ar_title": "4° Senador",
+        "header": "Será garantido uma promoção uma vez que os requesitos do Nv. da Reitoria, Prestígio, Setércios, melhorar itens e itens de luxúrias forem satisfeitos. Setércios e itens de luxúria requeridos serão deduzidos ao aceiar a recompensa da quest.",
+        "desc": "Tanto Cúria quanto outras classes sociais estão satisfeitos com a maneira que você está dirigindo a sua cidade. Uma vez que tiver Prestígios suficientes, você será promovido para ranking dos Nobres mais  alto. Com a promoção do seu ranking, você deverá doar alguns Setércios e itens de luxurias para um grande banquete de celebração!"
+    },
+    "prom_26": {
+        "ar_title": "3° Senador",
+        "header": "Será garantido uma promoção uma vez que os requesitos do Nv. da Reitoria, Prestígio, Setércios, melhorar itens e itens de luxúrias forem satisfeitos. Setércios e itens de luxúria requeridos serão deduzidos ao aceiar a recompensa da quest.",
+        "desc": "Tanto Cúria quanto outras classes sociais estão satisfeitos com a maneira que você está dirigindo a sua cidade. Uma vez que tiver Prestígios suficientes, você será promovido para ranking dos Nobres mais  alto. Com a promoção do seu ranking, você deverá doar alguns Setércios e itens de luxurias para um grande banquete de celebração!"
+    },
+    "prom_27": {
+        "ar_title": "2° Senador",
+        "header": "Será garantido uma promoção uma vez que os requesitos do Nv. da Reitoria, Prestígio, Setércios, melhorar itens e itens de luxúrias forem satisfeitos. Setércios e itens de luxúria requeridos serão deduzidos ao aceiar a recompensa da quest.",
+        "desc": "Tanto Cúria quanto outras classes sociais estão satisfeitos com a maneira que você está dirigindo a sua cidade. Uma vez que tiver Prestígios suficientes, você será promovido para ranking dos Nobres mais  alto. Com a promoção do seu ranking, você deverá doar alguns Setércios e itens de luxurias para um grande banquete de celebração!"
+    },
+    "prom_28": {
+        "ar_title": "1° Senador",
+        "header": "Será garantido uma promoção uma vez que os requesitos do Nv. da Reitoria, Prestígio, Setércios, melhorar itens e itens de luxúrias forem satisfeitos. Setércios e itens de luxúria requeridos serão deduzidos ao aceiar a recompensa da quest.",
+        "desc": "Tanto Cúria quanto outras classes sociais estão satisfeitos com a maneira que você está dirigindo a sua cidade. Uma vez que tiver Prestígios suficientes, você será promovido para ranking dos Nobres mais  alto. Com a promoção do seu ranking, você deverá doar alguns Setércios e itens de luxurias para um grande banquete de celebração!"
+    },
+    "prom_29": {
+        "ar_title": "César",
+        "header": "Será garantido uma promoção uma vez que os requesitos do Nv. da Reitoria, Prestígio, Setércios, melhorar itens e itens de luxúrias forem satisfeitos. Setércios e itens de luxúria requeridos serão deduzidos ao aceiar a recompensa da quest.",
+        "desc": "Tanto Cúria quanto outras classes sociais estão satisfeitos com a maneira que você está dirigindo a sua cidade. Uma vez que tiver Prestígios suficientes, você será promovido para ranking dos Nobres mais  alto. Com a promoção do seu ranking, você deverá doar alguns Setércios e itens de luxurias para um grande banquete de celebração!"
+    },
+    "lucky": {
+        "DB_name": "lucky",
+        "ar_title": "Cabra do Zodíaco Diária",
+        "header": "Todos jogadores recebem uma Cabra do Zodíaco grátis ao entrar diariamente. Entre diariamente para receber sua Cabra do Zodíaco diaria!",
+        "desc": "Uma Cabra do Zodíaco é necessária para uma Cerimônia Zodíaca. Oferecendo uma Cabra do Zodíaco para os deuses você será diariamente recompensado. Boa sorte e divirta-se com sua cerimônia."
+    },
+    "t_map": {
+        "DB_name": "t_map",
+        "ar_title": "Recolher Mapa do Tesouro",
+        "header": "Recolha mapa do tesouro todos os dias ao entrar no jogo.",
+        "desc": "Pessoas de todos os lados vêm e vão para as grandes cidades atrás de negócios. Comerciantes viajam, e ele a fofoca traz novas informações e mensagens sobre o boato de mapa do tesouro: onde obtê-lo, como obtê-lo, e quem está segurando-o, etc. Um bom lorde agarra estas oportunidades e envia servos confiáveis para examinar estes mapas."
+    },
+    "repel_trumpet": {
+        "DB_name": "repel_trumpet",
+        "ar_title": "Tomar a Permissão de Repressão",
+        "header": "A República Romana está sobre ataques do Valentão Esmaga Crânio e os Lordes estão imergidos em guerras contra as forças rebeldes. Portanto não há tropas suficientes para manter a cidade em ordem. No presente momento, as riquesas dos plebeus estão na mira dos ladrões e bandidos ambulantes que estão escondidos na República Romana já há muito tempo. Eles assaltam, roubam e matam residentes. Também queimam casas onde pessoas vivem causando-os sofrimentos terríves e fazendo com que deixam suas casas so para causar instabildade social. Agora os cidadãos Romanos anseiam pela paz e esperam pelo salvador que vá erradicar os crimes e devolvendo-os a vida próspera que tinham antes.",
+        "desc": "Você será recompensado com uma Permisão de Repressão sempre que fizer login diáriamente. Use-os para lançar guerras contra ladrões, bandidos ambulantes e gangues no mapa mundo. Ao derrotar esses criminosos será recompensado com recursos e tropas."
+    },
+    "copper_medal": {
+        "DB_name": "copper_medal",
+        "ar_title": "Pegue Medalhas de Cobre",
+        "header": "Obtenha 5 Medalhas de Cobre",
+        "desc": "Consumindo Medalhas de Cobre pode educar os heróis e melhorar sua capacidade de combate."
+    },
+    "exp_map": {
+        "DB_name": "exp_map",
+        "ar_title": "Barganhar por Plano de Vetrúvio",
+        "header": "Use 10 Mapas do Tesouro para barganhar por 1 Plano de Vetrúvio.",
+        "desc": "Quando você obtiver Mapas de Tesouro suficientes, tenta tirar o máximo proveito deles. Porém você poderá não ter tempo para examinar os locais. O fato é que não existe a garantia de que estes mapas lhe trarão riqueza e prosperidade. Por que não se livrar deles? De tempo em tempo alguns comerciantes poderão querer barganhar 10 Mapas do Tesouro por 1 Plano de Vetrúvio."
+    },
+    "army_s_1": {
+        "DB_name": "army_s_1",
+        "ar_title": "Reprimindo a Rebelião",
+        "header": "Trocar 5x Agulheta Cinza Rebelde por 1x Pacote Cinza",
+        "desc": "O Senado concedeu um Pacote Cinza para cada Lord que ajudar a reprimir a rebelião."
+    },
+    "army_s_3": {
+        "DB_name": "army_s_3",
+        "ar_title": "Barganhar por MiniPac.de Cativos",
+        "header": "Barganhe 20 Agulhetas Rebeldes Cinzas por 3 Mini Pacotes de Cativos.",
+        "desc": "Derrote rebeldes de uma área desconhecida de nível 1-3. Os trabalhadores locais lhe darão uma Agulheta Rebelde Cinza para demonstrar sua gratidão. Traga as agulhetas de volta para os senadores. Eles autorizarão mais forças militares ao seu dispor."
+    },
+    "army_m_1": {
+        "DB_name": "army_m_1",
+        "ar_title": "Missões II",
+        "header": "Dica: Só a cada rodada do jogador Terminou em 1 ° Arena pode obter Medalha Rei.",
+        "desc": "Apenas o rei da Arena pode obter recompensa, após busca completa, você ainda tem prestígio 50.000 e 50.000 honra."
+    },
+    "army_m_3": {
+        "DB_name": "army_m_3",
+        "ar_title": "Barganhar Passes CSG Negros",
+        "header": "Barganhar 20 Agulhetas Rebeldes Amarelas por 2 Passes CSG Negros.",
+        "desc": "O senado discute sobre Passe de Coliseu de Simulação de Guerra Negro (CSG) para o lorde que estiver capaz de participar da simulação de guerra. Você pode trocar 20 Agulhetas Rebeldes Amarelas por 2 Passes CSG Negros para garantir sua capacidade de participação na simulação de guerra."
+    },
+    "army_l_1": {
+        "DB_name": "army_l_1",
+        "ar_title": "Missões III",
+        "header": "Dica: Só a cada rodada do jogador Terminou em 1 ° Arena pode obter Medalha Rei.",
+        "desc": "Apenas o rei da Arena pode obter recompensa, após busca completa, você ainda tem prestígio 100.000 e 100.000 honra."
+    },
+    "army_l_3": {
+        "DB_name": "army_l_3",
+        "ar_title": "Barganhar p/GrandePac. Cativos",
+        "header": "Barganhe 20 Agulhetas Rebeldes Roxas por 3 Pacotes Grandes de Cativos.",
+        "desc": "Derrote rebeldes de uma área desconhecida de nível 8-10. Os trabalhadores locais lhe darão uma Agulheta Rebelde Roxa para demonstrar sua gratidão. Traga as agulhetas de volta para os senadores. Eles autorizarão mais forças militares ao seu dispor."
+    },
+    "m1_x20": {
+        "DB_name": "m1_x20",
+        "ar_title": "Barganhar por um Passe CSG",
+        "header": "Barganhe 20 Agulhetas Rebeldes Cinzas por 1 Passe  CSG  Negro.",
+        "desc": "O senado discute sobre Passes de Coliseu de Simulação de Guerra Negro (CSG) para o lorde que for capaz de participar da simulação de guerra. Você pode trocar 20 Agulhetas Rebeldes Cinzas por um Passe de Guerra Negra para garantir sua capacidade de participação na simulação de guerra."
+    },
+    "m2_x20": {
+        "DB_name": "m2_x20",
+        "ar_title": "Barganhar Passes CSG Negros",
+        "header": "Barganhar 20 Agulhetas Rebeldes Amarelas por 2 Passes CSG Negros.",
+        "desc": "O senado discute sobre Passe de Coliseu de Simulação de Guerra Negro (CSG) para o lorde que estiver capaz de participar da simulação de guerra. Você pode trocar 20 Agulhetas Rebeldes Amarelas por 2 Passes CSG Negros para garantir sua capacidade de participação na simulação de guerra."
+    },
+    "m3_x20": {
+        "DB_name": "m3_x20",
+        "ar_title": "Barganhar Passes CSG Negros",
+        "header": "Barganhar 20 Agulhetas Rebeldes Roxas por 5 Passes CSG Negros.",
+        "desc": "O senado discute Passes de Coliseu de Simulação de Guerra Negro (CSG) para o lorde que for capaz de participar da simulação de guerra. Você pode trocar 20 Agulhetas Rebeldes Roxas por 5 Passes CSG Negros para garantir sua capacidade de participação na simulação de guerra."
+    },
+    "mr_x10": {
+        "DB_name": "mr_x10",
+        "ar_title": "Barganhar Passes CSG Negros",
+        "header": "Barganhar 20 Passes CSG Vermelhos",
+        "desc": "O senado discute Coliseu de Simulação de Guerra Negro (CSG) e Pass para o lorde que estiver capaz de participar da simulação de guerra. Você pode trocar 10 Passes CSG  Vermelhos por 5 Passes CSG Negros para garantir sua capacidade de participação na simulação de guerra."
+    },
+    "mr_x2": {
+        "DB_name": "mr_x2",
+        "ar_title": "Prêmio de Simul.Guerra: Sirloin",
+        "header": "Barganhar 2 Passes CSG Vermelhos por 1 Sirloin",
+        "desc": "O senado atende o lorde que trouxer 2 Passes CSG Vermelhos."
+    },
+    "mr_x4": {
+        "DB_name": "mr_x4",
+        "ar_title": "Prêmio de Sim.Guerra: Tropas",
+        "header": "Barganhar 4 Passes CSG Vermelhos por 1 Pacote Grande de Cativos",
+        "desc": "O senado atende o lorde que trouxer 4 Passes CSG Vermelhos."
+    },
+    "mr_x300": {
+        "DB_name": "mr_x300",
+        "ar_title": "Prêmio de Simul.Guerra: Herói",
+        "header": "Barganhar 300 Passes Vermelhos CSG por um herói com 8 PDC.",
+        "desc": "O senado lhe dá um herói por trazer 300 Passes CSG Vermelhos."
+    },
+    "mb_x1": {
+        "DB_name": "mb_x1",
+        "ar_title": "Adquirir Passe de CSG Negro",
+        "header": "Adquirir Passe de Simulação de Guerra no Coliseu Negro (CSG).",
+        "desc": "O senado está procurando por lordes nobres de alto ranking para participar das simulações de guerra, resistindo aos rebeldes."
+    },
+    "pres_20k": {
+        "DB_name": "pres_20k",
+        "ar_title": "Barganhar Emblema(s) para Prestígio",
+        "header": "Quando o seu Rank Nobre e  a quantidade de Emblemas ganhas atingirem os requesitos, poderá barganhar pela recompensa do Quest. Nota que os Emblema barganhadas serão entregues depois de aceitar a recompensa.",
+        "desc": "As forças rebeldes estão expandindo pelos arredores rapidamente e cometendo os crimes mais bárbaros que existem. Para Proteger a República, os lordes precisam varrer de uma vez por todas tais forças rebeldes. Os lordes podem participar nas guerras contra as cidades das forças rebeldes consumindo Passes SGC Preto. Colecionando Emblemas suficientes, poderá ter  recompensas maravilhosas. Será recompensado com 20.000 Prestígio ao completar essa Quest."
+    },
+    "pres_80k": {
+        "DB_name": "pres_80k",
+        "ar_title": "Barganhar Emblema(s) para Prestígio",
+        "header": "Quando o seu Rank Nobre e  a quantidade de Emblemas ganhas atingirem os requesitos, poderá barganhar pela recompensa do Quest. Nota que os Emblema barganhadas serão entregues depois de aceitar a recompensa.",
+        "desc": "As forças rebeldes estão expandindo pelos arredores rapidamente e cometendo os crimes mais bárbaros que existem. Para Proteger a República, os lordes precisam varrer tais forças rebeldes. Os lordes podem participar nas guerras contra as cidades das forças rebeldes consumindo Passes SGC Preto. Colecionando Emblemas suficientes, poderá ter  recompensas maravilhosas. Será recompensado com 80.000 Prestígio ao completar essa Quest."
+    },
+    "union_era": {
+        "DB_name": "union_era",
+        "ar_title": "Barganhar Emblema(s) para Itens",
+        "header": "Quando o seu Rank Nobre e  a quantidade de Emblemas ganhas atingirem os requesitos, poderá barganhar pela recompensa do Quest. Nota que os Emblema barganhadas serão entregues depois de aceitar a recompensa.",
+        "desc": "As forças rebeldes estão expandindo pelos arredores rapidamente e cometendo os crimes mais bárbaros que existem. Para Proteger a República, os lordes precisam varrer tais forças rebeldes. Os lordes podem participar nas guerras contra as cidades das forças rebeldes consumindo Passes SGC Preto. Colecionando Emblemas suficientes, poderá ter  recompensas maravilhosas. Será recompensado com 1 Convenção das União de Ligas ao completar essa Quest."
+    },
+    "free_help": {
+        "DB_name": "freedom_help",
+        "ar_title": "Barganhar Emblema(s) para Itens",
+        "header": "Quando o seu Rank Nobre e  a quantidade de Emblemas ganhas atingirem os requesitos, poderá barganhar pela recompensa do Quest. Nota que os Emblema barganhadas serão entregues depois de aceitar a recompensa.",
+        "desc": "As forças rebeldes estão expandindo pelos arredores rapidamente e cometendo os crimes mais bárbaros que existem. Para Proteger a República, os lordes precisam varrer tais forças rebeldes. Os lordes podem participar nas guerras contra as cidades das forças rebeldes consumindo Passes SGC Preto. Colecionando Emblemas suficientes, poderá ter  recompensas maravilhosas. Será recompensado com 1 Liberdade Divina ao completar essa Quest."
+    },
+    "motiv_60": {
+        "DB_name": "motiv_60",
+        "ar_title": "Reparação",
+        "header": "Clique em \"Universidade\" e estude \"Reparação\".",
+        "desc": "Reparar de tempos em tempos ou imediatamente suas fortificações as mantem vivas e funcionais. Reparação pode aumentar a taxa de renovação de suas fortificações para que mais delas possam reviver após sua destruição."
+    },
+    "helper_chng": {
+        "DB_name": "help_house_chng",
+        "ar_title": "Reparação",
+        "header": "Clique em \"Universidade\" e estude \"Reparação\".",
+        "desc": "Reparar de tempos em tempos ou imediatamente suas fortificações as mantem vivas e funcionais. Reparação pode aumentar a taxa de renovação de suas fortificações para que mais delas possam reviver após sua destruição."
+    },
+    "pres_5k": {
+        "DB_name": "pres_5k",
+        "ar_title": "Negociar por 5.000 Prestígios",
+        "header": "Negociar 2 Passes CSG Vermelhos com 1 Emblema de Macedônia por 5.000 Prestígios.",
+        "desc": "Recompensas para os mais corajosos e mais brilhantes."
+    },
+    "pres_50k": {
+        "DB_name": "pres_50k",
+        "ar_title": "Emblemas de Prestígio por 50.000 Prestígios",
+        "header": "Negociar 2 Emblemas de Prestígio por 50.000 Prestígios",
+        "desc": "Recompensas para os mais corajosos e mais brilhantes."
+    },
+    "pres_100k": {
+        "DB_name": "pres_100k",
+        "ar_title": "Emblemas de Prestígio por 100.000 Prestígios",
+        "header": "Negociar 4 Emblemas de Prestígio por 100.000 Prestígios",
+        "desc": "Recompensas para os mais corajosos e mais brilhantes."
+    },
+    "pres_400k": {
+        "DB_name": "pres_400k",
+        "ar_title": "Emblemas de Prestígio por 400.000 Prestígios",
+        "header": "Negociar 16 Emblemas de Prestígio por 400.000 Prestígios",
+        "desc": "Recompensas para os mais corajosos e mais brilhantes."
+    },
+    "pres_500k": {
+        "DB_name": "pres_500k",
+        "ar_title": "Emblemas de Prestígio por 400.000 Prestígios",
+        "header": "Negociar 16 Emblemas de Prestígio por 400.000 Prestígios",
+        "desc": "Recompensas para os mais corajosos e mais brilhantes."
+    },
+    "loy_boot": {
+        "DB_name": "loy_boot",
+        "ar_title": "Barter Emblem (s) para fiéis Shoes",
+        "header": "Fiel Shoes: HP 4, Offense +1, Defesa +1.",
+        "desc": "Para evitar a expansão da Rebel, o Senado conceder Equipamentos Leal como recompensa realização batalha. Ao coletar emblemas suficientes, você pode obter bonito recompensa Quest. Você será premiado com um protetor leal ao completar esta Quest."
+    },
+    "loy_shield": {
+        "DB_name": "loy_shield",
+        "ar_title": "Barter Emblem (s) para Leal Escudo",
+        "header": "Leal Shield: HP +18, Defesa +2.",
+        "desc": "Para evitar a expansão da Rebel, o Senado conceder Equipamentos Leal como recompensa realização batalha. Ao coletar emblemas suficientes, você pode obter bonito recompensa Quest. Você será premiado com um protetor leal ao completar esta Quest."
+    },
+    "loy_helmet": {
+        "DB_name": "loy_helmet",
+        "ar_title": "Barter Emblem (s) para Capacete Leal",
+        "header": "Capacete Leal: HP +13, Danos +1, Defesa +1.",
+        "desc": "Para evitar a expansão da Rebel, o Senado conceder Equipamentos Leal como recompensa realização batalha. Ao coletar emblemas suficientes, você pode obter bonito recompensa Quest. Você será premiado com um protetor leal ao completar esta Quest."
+    },
+    "loy_armor": {
+        "DB_name": "loy_armor",
+        "ar_title": "Barter Emblem (s) para Armour Leal",
+        "header": "Armour Leal: HP +10, Danos +1, Defesa +1.",
+        "desc": "Para evitar a expansão da Rebel, o Senado conceder Equipamentos Leal como recompensa realização batalha. Ao coletar emblemas suficientes, você pode obter bonito recompensa Quest. Você será premiado com um protetor leal ao completar esta Quest."
+    },
+    "loy_sword": {
+        "DB_name": "loy_sword",
+        "ar_title": "Barter Emblem (s) para Espada Leal",
+        "header": "Espada Leal: +3 Danos, Offense 4, Técnica: Chuva de Flechas.",
+        "desc": "Para evitar a expansão da Rebel, o Senado conceder Equipamentos Leal como recompensa realização batalha. Ao coletar emblemas suficientes, você pode obter bonito recompensa Quest. Você será premiado com uma espada leal ao completar esta Quest."
+    },
+    "lion_boot": {
+        "DB_name": "lion_boot",
+        "ar_title": "Barter Emblem (s) e Dye para Lion Botas",
+        "header": "Leão Boots: Danos +4, Offense 4, Defesa +4.",
+        "desc": "Um par de botas é concedida por Leão para o seu trazendo seu emblema perdido de volta através grossa e fina."
+    },
+    "lion_shield": {
+        "DB_name": "lion_shield",
+        "ar_title": "Barter Emblem (s) e Especiarias por Leão Escudo",
+        "header": "Lion Shield: HP +48, ​​Offense 16.",
+        "desc": "Um escudo é concedida por Leão para o seu trazendo seu perdida emblema de volta através grossa e fina."
+    },
+    "lion_helmet": {
+        "DB_name": "lion_helmet",
+        "ar_title": "Barter Emblem (s) e do Vinho para Lion Helmet",
+        "header": "Leão Helmet: HP +48, ​​danos +4, Offense 8.",
+        "desc": "Um capacete é concedida por Leão para você trazer seu emblema perdidos de volta através grossa e fina."
+    },
+    "lion_armor": {
+        "DB_name": "lion_armor",
+        "ar_title": "Barter Emblem (s) e de lã para Leão Armadura",
+        "header": "Lion Armor: HP +32, Defesa +12, Técnica: Testudo.",
+        "desc": "Um pedaço de armadura é dado por Leão para o seu trazendo seu perdida emblema de volta através grossa e fina."
+    },
+    "lion_sword": {
+        "DB_name": "lion_sword",
+        "ar_title": "Barter Emblem (s) e Silk para Lion Espada",
+        "header": "Lion Sword: Dano +16, Offense 32.",
+        "desc": "A espada é concedida por Leão para o seu trazendo seu perdida emblema de volta através grossa e fina."
+    },
+    "fearless_boot": {
+        "ar_title": "Barter Emblem (s) e Furs para Botas Fearlessness",
+        "header": "Destemor Botas: Danos 8, Offense +8, Defesa +8.",
+        "desc": "Lutando arduamente para esmagar a rebelião, você será recompensado um pedaço de Destemor armadura para proteger império romano."
+    },
+    "fearless_shield": {
+        "DB_name": "lion_shield",
+        "ar_title": "Barter Emblem (s) e Furs para Escudo Destemor",
+        "header": "Destemor Shield: HP +90, Defesa +30.",
+        "desc": "Lutando arduamente para esmagar a rebelião, você será recompensado um pedaço de Destemor armadura para proteger império romano."
+    },
+    "fearless_helmet": {
+        "DB_name": "lion_helmet",
+        "ar_title": "Barter Emblem (s) e incenso para Capacete Destemor",
+        "header": "Destemor Helmet: HP 60, Damage +5, Offense 10.",
+        "desc": "Lutando arduamente para esmagar a rebelião, você será recompensado um pedaço de Destemor armadura para proteger império romano."
+    },
+    "fearless_armor": {
+        "DB_name": "lion_armor",
+        "ar_title": "Barter Emblem (s) e Ivory para Destemor Armadura",
+        "header": "Destemor Armor: HP +60, Defesa +20, Técnica: Testudo.",
+        "desc": "Lutando arduamente para esmagar a rebelião, você será recompensado um pedaço de Destemor armadura para proteger império romano."
+    },
+    "fearless_sword": {
+        "DB_name": "lion_sword",
+        "ar_title": "Barter Emblem (s) e Diamante de Espada Destemor",
+        "header": "Espada destemor: Danos 30, Offense 60.",
+        "desc": "Lutando arduamente para esmagar a rebelião, você será recompensado uma espada Destemor para proteger Império Romano."
+    },
+    "mili_boot": {
+        "ar_title": "Bater para Botas de Hardcore",
+        "header": "Incondicionais Botas: Ofensa +18, +10 Damage.",
+        "desc": "Forjado por Vulcano, vamos herói própria força mais poderosa para lutar contra o rebelde. Apenas os senhores poderosos podem obter."
+    },
+    "mili_shield": {
+        "DB_name": "lion_shield",
+        "ar_title": "Bater para o hardcore Escudo",
+        "header": "Hardcore Shield: HP +25, Defesa +40.",
+        "desc": "Forjado por Vulcano, vamos herói própria força mais poderosa para lutar contra o rebelde. Apenas os senhores poderosos podem obter."
+    },
+    "mili_helmet": {
+        "DB_name": "lion_helmet",
+        "ar_title": "Bater para Capacete Porno",
+        "header": "Hardcore Helmet: Defesa +24, Offense 26.",
+        "desc": "Forjado por Vulcano, vamos herói própria força mais poderosa para lutar contra o rebelde. Apenas os senhores poderosos podem obter."
+    },
+    "mili_armor": {
+        "DB_name": "lion_armor",
+        "ar_title": "Bater para o hardcore Armadura",
+        "header": "Hardcore Armor: HP +125, Defesa +10.",
+        "desc": "Forjado por Vulcano, vamos herói própria força mais poderosa para lutar contra o rebelde. Apenas os senhores poderosos podem obter."
+    },
+    "mili_sword": {
+        "DB_name": "lion_sword",
+        "ar_title": "Bater para Espada Porno",
+        "header": "Espada de hardcore: Danos +50.",
+        "desc": "Forjado por Vulcano, vamos herói própria força mais poderosa para lutar contra o rebelde. Apenas os senhores poderosos podem obter."
+    },
+    "bright_boot": {
+        "ar_title": "Botas Brilhantes",
+        "header": "Botas brilhantes: Offense 20, Damaga 15.",
+        "desc": "Senado concede, a recompensa de derrotar a legião do mal, apenas os senhores poderosos podem obtê-los."
+    },
+    "bright_shield": {
+        "DB_name": "lion_shield",
+        "ar_title": "Escudo Brilhante",
+        "header": "Escudo Brilhante: HP +95, Defesa +40.",
+        "desc": "Senado concede, a recompensa de derrotar a legião do mal, apenas os senhores poderosos podem obtê-los."
+    },
+    "bright_helmet": {
+        "DB_name": "lion_helmet",
+        "ar_title": "Capacete Brilhante",
+        "header": "Capacete Bright: HP +80, Offense +20, Técnica: Chuva de Flechas.",
+        "desc": "Senado concede, a recompensa de derrotar a legião do mal, apenas os senhores poderosos podem obtê-los."
+    },
+    "bright_armor": {
+        "DB_name": "lion_armor",
+        "ar_title": "Armadura Brilhante",
+        "header": "Armadura Brilhante: HP +80, Defesa +30, Técnica: Testudo.",
+        "desc": "Senado concede, a recompensa de derrotar a legião do mal, apenas os senhores poderosos podem obtê-los."
+    },
+    "bright_sword": {
+        "DB_name": "lion_sword",
+        "ar_title": "Lança Brilhante",
+        "header": "Lança Brilhante: Offense 65, Damage +35.",
+        "desc": "Senado concede, a recompensa de derrotar a legião do mal, apenas os senhores poderosos podem obtê-los."
+    }
+}

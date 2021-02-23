@@ -1,0 +1,1616 @@
+{
+    "motiv_60": {
+        "image": "images/items/item000.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item000.item000'",
+        "use": "once",
+        "Key": "motiv_60"
+    },
+    "motiv_7": {
+        "image": "images/items/item001.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item001.item001'",
+        "use": "once",
+        "Key": "motiv_7"
+    },
+    "hammer": {
+        "image": "images/items/Hammer.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/Hammer.Hammer'",
+        "use": "once",
+        "Key": "hammer"
+    },
+    "prot_pop": {
+        "image": "images/items/item002.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item002.item002'",
+        "use": "once",
+        "Key": "prot_pop"
+    },
+    "peace": {
+        "image": "images/items/item006.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item006.item006'",
+        "use": "once",
+        "Key": "peace"
+    },
+    "a_play": {
+        "image": "images/items/item004.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item004.item004'",
+        "use": "once",
+        "Key": "a_play"
+    },
+    "flag": {
+        "image": "images/items/item025.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item025.item025'",
+        "use": "none",
+        "Key": "flag"
+    },
+    "help_house_chng": {
+        "image": "images/items/item095.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item095.item095'",
+        "use": "none",
+        "Key": "help_house_chng"
+    },
+    "family_slogan": {
+        "image": "images/items/item097.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item097.item097'",
+        "use": "none",
+        "Key": "family_slogan"
+    },
+    "union_slogan": {
+        "image": "images/items/item024.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item024.item024'",
+        "use": "none",
+        "Key": "union_slogan"
+    },
+    "union_declar": {
+        "image": "images/items/item154.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item154.item154'",
+        "use": "none",
+        "Key": "union_declar"
+    },
+    "union_era": {
+        "image": "images/items/item155.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item155.item155'",
+        "use": "none",
+        "Key": "union_era"
+    },
+    "expan_plan": {
+        "image": "images/items/item003.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item003.item003'",
+        "use": "none",
+        "Key": "expan_plan"
+    },
+    "marcus_scheme": {
+        "image": "images/items/item005.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item005.item005'",
+        "use": "none",
+        "Key": "marcus_scheme"
+    },
+    "freedom_help": {
+        "image": "images/items/item149.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item149.item149'",
+        "use": "once",
+        "Key": "freedom_help"
+    },
+    "medical_moun": {
+        "image": "images/items/item009.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item009.item009'",
+        "use": "once",
+        "Key": "medical_moun"
+    },
+    "mediacl_statue": {
+        "image": "images/items/item153.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item153.item153'",
+        "use": "once",
+        "Key": "mediacl_statue"
+    },
+    "sparta_stab": {
+        "image": "images/items/item017.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item017.item017'",
+        "use": "once",
+        "Key": "sparta_stab"
+    },
+    "marmlo_helmet": {
+        "image": "images/items/item019.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item019.item019'",
+        "use": "once",
+        "Key": "marmlo_helmet"
+    },
+    "qulinds_shaft": {
+        "image": "images/items/item018.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item018.item018'",
+        "use": "once",
+        "Key": "qulinds_shaft"
+    },
+    "march_prot": {
+        "image": "images/items/item020.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item020.item020'",
+        "use": "once",
+        "Key": "march_prot"
+    },
+    "medal_ceasro": {
+        "image": "images/items/item010.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item010.item010'",
+        "use": "none",
+        "Key": "medal_ceasro"
+    },
+    "medal_den": {
+        "image": "images/items/item011.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item011.item011'",
+        "use": "none",
+        "Key": "medal_den"
+    },
+    "medal_leo": {
+        "image": "images/items/item012.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item012.item012'",
+        "use": "none",
+        "Key": "medal_leo"
+    },
+    "ceaser_eagle": {
+        "image": "images/items/item016.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item016.item016'",
+        "use": "none",
+        "Key": "ceaser_eagle"
+    },
+    "rec_letter": {
+        "image": "images/items/item013.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item013.item013'",
+        "use": "none",
+        "Key": "rec_letter"
+    },
+    "retreat_point": {
+        "image": "images/items/item014.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item014.item014'",
+        "use": "none",
+        "Key": "retreat_point"
+    },
+    "hero_train": {
+        "image": "images/items/item089.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item089.item089'",
+        "use": "none",
+        "Key": "hero_train"
+    },
+    "random_move": {
+        "image": "images/items/item007.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item007.item007'",
+        "use": "once",
+        "Key": "random_move"
+    },
+    "certain_move": {
+        "image": "images/items/item008.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item008.item008'",
+        "use": "once",
+        "Key": "certain_move"
+    },
+    "spies": {
+        "image": "images/items/item027.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item027.item027'",
+        "use": "none",
+        "Key": "spies"
+    },
+    "change_name": {
+        "image": "images/items/item026.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item026.item026'",
+        "use": "none",
+        "Key": "change_name"
+    },
+    "buy_voucher": {
+        "image": "images/items/buyVoucher.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/buyVoucher.buyVoucher'",
+        "use": "none",
+        "Key": "buy_voucher"
+    },
+    "sell_voucher": {
+        "image": "images/items/sellVoucher.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/sellVoucher.sellVoucher'",
+        "use": "none",
+        "Key": "sell_voucher"
+    },
+    "black_ore": {
+        "image": "images/items/Ore.black.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/Ore_black.Ore_black'",
+        "use": "none",
+        "Key": "black_ore"
+    },
+    "silver_ore": {
+        "image": "images/items/Ore.mirthial.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/Ore_mirthial.Ore_mirthial'",
+        "use": "none",
+        "Key": "silver_ore"
+    },
+    "red_ore": {
+        "image": "images/items/Redore.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/Redore.Redore'",
+        "use": "none",
+        "Key": "red_ore"
+    },
+    "red_bursa": {
+        "image": "images/items/Redbursa.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/Redbursa.Redbursa'",
+        "use": "none",
+        "Key": "red_bursa"
+    },
+    "power_bright": {
+        "image": "images/items/PowerofBright.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/PowerofBright.PowerofBright'",
+        "use": "none",
+        "Key": "power_bright"
+    },
+    "bright_medal": {
+        "image": "images/items/BrightMedal.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/BrightMedal.BrightMedal'",
+        "use": "none",
+        "Key": "bright_medal"
+    },
+    "bright_piece": {
+        "image": "images/items/BrightPiece.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/BrightPiece.BrightPiece'",
+        "use": "none",
+        "Key": "bright_piece"
+    },
+    "bright_slo": {
+        "image": "images/items/BrightEmblem.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/BrightEmblem.BrightEmblem'",
+        "use": "none",
+        "Key": "bright_slo"
+    },
+    "trumpet": {
+        "image": "images/items/item022.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item022.item022'",
+        "use": "none",
+        "Key": "trumpet"
+    },
+    "repel_trumpet_1": {
+        "image": "images/items/Horn.repression.1.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/Horn_repression_1.Horn_repression_1'",
+        "use": "none",
+        "Key": "repel_trumpet_1"
+    },
+    "repel_trumpet_2": {
+        "image": "images/items/Horn.repression.2.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/Horn_repression_2.Horn_repression_2'",
+        "use": "none",
+        "Key": "repel_trumpet_2"
+    },
+    "repel_medal": {
+        "image": "images/items/Trans.repression.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/Trans_repression.Trans_repression'",
+        "use": "none",
+        "Key": "repel_medal"
+    },
+    "warrior_medal": {
+        "image": "images/items/warrior.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/warrior.warrior'",
+        "use": "none",
+        "Key": "warrior_medal"
+    },
+    "demigod_papirus": {
+        "image": "images/items/DemigodPapirus.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/DemigodPapirus.DemigodPapirus'",
+        "use": "none",
+        "Key": "demigod_papirus"
+    },
+    "demigod_power": {
+        "image": "images/items/DemigodPower.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/DemigodPower.DemigodPower'",
+        "use": "none",
+        "Key": "demigod_power"
+    },
+    "bronze_horn": {
+        "image": "images/items/CopperHorn.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/CopperHorn.CopperHorn'",
+        "use": "none",
+        "Key": "bronze_horn"
+    },
+    "silver_horn": {
+        "image": "images/items/SilverHorn.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/SilverHorn.SilverHorn'",
+        "use": "none",
+        "Key": "silver_horn"
+    },
+    "gold_horn": {
+        "image": "images/items/GoldHorn.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/GoldHorn.GoldHorn'",
+        "use": "none",
+        "Key": "gold_horn"
+    },
+    "bronze_order": {
+        "image": "images/items/CopperOrder.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/CopperOrder.CopperOrder'",
+        "use": "none",
+        "Key": "bronze_order"
+    },
+    "silver_order": {
+        "image": "images/items/SilverOrder.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/SilverOrder.SilverOrder'",
+        "use": "none",
+        "Key": "silver_order"
+    },
+    "gold_order": {
+        "image": "images/items/GoldOrder.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/GoldOrder.GoldOrder'",
+        "use": "none",
+        "Key": "gold_order"
+    },
+    "evil_pass": {
+        "image": "images/items/Evilstoken.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/Evilstoken.Evilstoken'",
+        "use": "none",
+        "Key": "evil_pass"
+    },
+    "evil_army_pass": {
+        "image": "images/items/EvilArmyPass.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/EvilArmyPass.EvilArmyPass'",
+        "use": "none",
+        "Key": "evil_army_pass"
+    },
+    "ancient_coins": {
+        "image": "images/items/AncientCoins.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/AncientCoins.AncientCoins'",
+        "use": "none",
+        "Key": "ancient_coins"
+    },
+    "apollo_pass": {
+        "image": "images/items/ApolloPass.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/ApolloPass.ApolloPass'",
+        "use": "none",
+        "Key": "apollo_pass"
+    },
+    "drachma": {
+        "image": "images/items/drachma.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/drachma.drachma'",
+        "use": "none",
+        "Key": "drachma"
+    },
+    "medalofcraft": {
+        "image": "images/items/medalofcraft.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/medalofcraft.medalofcraft'",
+        "use": "none",
+        "Key": "medalofcraft"
+    },
+    "miraculous_coins": {
+        "image": "images/items/MiraculousCoins.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/MiraculousCoins.MiraculousCoins'",
+        "use": "none",
+        "Key": "miraculous_coins"
+    },
+    "owl_of_minerva": {
+        "image": "images/items/OwlofMinerva.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/OwlofMinerva.OwlofMinerva'",
+        "use": "none",
+        "Key": "owl_of_minerva"
+    },
+    "shining_coin": {
+        "image": "images/items/ShiningCoin.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/ShiningCoin.ShiningCoin'",
+        "use": "none",
+        "Key": "shining_coin"
+    },
+    "gold_cup": {
+        "image": "images/items/GoldCup.png",
+        "Texture2D": "Texture2D'/Game/images/items/GoldCup.GoldCup'",
+        "use": "none",
+        "Key": "gold_cup"
+    },
+    "bronze_cup": {
+        "image": "images/items/BronzeCup.png",
+        "Texture2D": "Texture2D'/Game/images/items/BronzeCup.BronzeCup'",
+        "use": "none",
+        "Key": "bronze_cup"
+    },
+    "silver_cup": {
+        "image": "images/items/SilverCup.png",
+        "Texture2D": "Texture2D'/Game/images/items/SilverCup.SilverCup'",
+        "use": "none",
+        "Key": "silver_cup"
+    },
+    "christmas_stocking": {
+        "image": "images/items/christmasstocking.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/christmasstocking.christmasstocking'",
+        "use": "none",
+        "Key": "christmas_stocking"
+    },
+    "christmas_tree": {
+        "image": "images/items/christmastree.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/christmastree.christmastree'",
+        "use": "none",
+        "Key": "christmas_tree"
+    },
+    "corn_seed": {
+        "image": "images/items/CornSeed.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/CornSeed.CornSeed'",
+        "use": "none",
+        "Key": "corn_seed"
+    },
+    "courage_medal": {
+        "image": "images/items/CourageMedal.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/CourageMedal.CourageMedal'",
+        "use": "none",
+        "Key": "courage_medal"
+    },
+    "king_medal": {
+        "image": "images/items/KingMedal.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/KingMedal.KingMedal'",
+        "use": "none",
+        "Key": "king_medal"
+    },
+    "debris": {
+        "image": "images/items/debris.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/debris.debris'",
+        "use": "none",
+        "Key": "debris"
+    },
+    "essence": {
+        "image": "images/items/essence.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/essence.essence'",
+        "use": "none",
+        "Key": "essence"
+    },
+    "spartans": {
+        "image": "images/items/spartans.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/spartans.spartans'",
+        "use": "none",
+        "Key": "spartans"
+    },
+    "spartans_pack": {
+        "image": "images/items/spartansPack.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/spartansPack.spartansPack'",
+        "use": "none",
+        "Key": "spartans_pack"
+    },
+    "spartans_relics": {
+        "image": "images/items/spartansRelics.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/spartansRelics.spartansRelics'",
+        "use": "none",
+        "Key": "spartans_relics"
+    },
+    "thor_stone": {
+        "image": "images/items/ThorStone.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/ThorStone.ThorStone'",
+        "use": "none",
+        "Key": "thor_stone"
+    },
+    "thor_pergament": {
+        "image": "images/items/ThorPergament.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/ThorPergament.ThorPergament'",
+        "use": "none",
+        "Key": "thor_pergament"
+    },
+    "thor_fragment": {
+        "image": "images/items/ThorFragment.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/ThorFragment.ThorFragment'",
+        "use": "none",
+        "Key": "thor_fragment"
+    },
+    "sol_stone": {
+        "image": "images/items/SolStone.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/SolStone.SolStone'",
+        "use": "none",
+        "Key": "sol_stone"
+    },
+    "sol_pergament": {
+        "image": "images/items/SolPergament.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/SolPergament.SolPergament'",
+        "use": "none",
+        "Key": "sol_pergament"
+    },
+    "sol_fragment": {
+        "image": "images/items/SolFragment.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/SolFragment.SolFragment'",
+        "use": "none",
+        "Key": "sol_fragment"
+    },
+    "luna_stone": {
+        "image": "images/items/LunaStone.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/LunaStone.LunaStone'",
+        "use": "none",
+        "Key": "luna_stone"
+    },
+    "luna_pergament": {
+        "image": "images/items/LunaPergament.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/LunaPergament.LunaPergament'",
+        "use": "none",
+        "Key": "luna_pergament"
+    },
+    "luna_fragment": {
+        "image": "images/items/LunaFragment.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/LunaFragment.LunaFragment'",
+        "use": "none",
+        "Key": "luna_fragment"
+    },
+    "hephaestus_pieces_a": {
+        "image": "images/items/HephaestusPiecesA.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/HephaestusPiecesA.HephaestusPiecesA'",
+        "use": "none",
+        "Key": "hephaestus_pieces_a"
+    },
+    "hephaestus_pieces_b": {
+        "image": "images/items/HephaestusPiecesB.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/HephaestusPiecesB.HephaestusPiecesB'",
+        "use": "none",
+        "Key": "hephaestus_pieces_b"
+    },
+    "mars_pieces_a": {
+        "image": "images/items/MarspiecesA.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/MarspiecesA.MarspiecesA'",
+        "use": "none",
+        "Key": "mars_pieces_a"
+    },
+    "mars_pieces_b": {
+        "image": "images/items/MarspiecesB.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/MarspiecesB.MarspiecesB'",
+        "use": "none",
+        "Key": "mars_pieces_b"
+    },
+    "mars_pieces_c": {
+        "image": "images/items/MarspiecesC.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/MarspiecesC.MarspiecesC'",
+        "use": "none",
+        "Key": "mars_pieces_c"
+    },
+    "soul_of_mars": {
+        "image": "images/items/SoulofMars.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/SoulofMars.SoulofMars'",
+        "use": "none",
+        "Key": "soul_of_mars"
+    },
+    "gold_bar_piece": {
+        "image": "images/items/GoldBarPiece.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/GoldBarPiece.GoldBarPiece'",
+        "use": "none",
+        "Key": "gold_bar_piece"
+    },
+    "gold_bar": {
+        "image": "images/items/GoldBar.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/GoldBar.GoldBar'",
+        "use": "none",
+        "Key": "gold_bar"
+    },
+    "silver_bar": {
+        "image": "images/items/SilverBar.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/SilverBar.SilverBar'",
+        "use": "none",
+        "Key": "silver_bar"
+    },
+    "bronze_bar": {
+        "image": "images/items/BronzeBar.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/BronzeBar.BronzeBar'",
+        "use": "none",
+        "Key": "bronze_bar"
+    },
+    "high_glory_stone": {
+        "image": "images/items/HighGloryStone.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/HighGloryStone.HighGloryStone'",
+        "use": "none",
+        "Key": "high_glory_stone"
+    },
+    "medium_glory_stone": {
+        "image": "images/items/MediumGloryStone.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/MediumGloryStone.MediumGloryStone'",
+        "use": "none",
+        "Key": "medium_glory_stone"
+    },
+    "low_glory_stone": {
+        "image": "images/items/LowGloryStone.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/LowGloryStone.LowGloryStone'",
+        "use": "none",
+        "Key": "low_glory_stone"
+    },
+    "festival_blue": {
+        "image": "images/items/festival_blue.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/festival_blue.festival_blue'",
+        "use": "none",
+        "Key": "festival_blue"
+    },
+    "festival_gray": {
+        "image": "images/items/festival_gray.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/festival_gray.festival_gray'",
+        "use": "none",
+        "Key": "festival_gray"
+    },
+    "festival_green": {
+        "image": "images/items/festival_green.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/festival_green.festival_green'",
+        "use": "none",
+        "Key": "festival_green"
+    },
+    "festival_orange": {
+        "image": "images/items/festival_orange.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/festival_orange.festival_orange'",
+        "use": "none",
+        "Key": "festival_orange"
+    },
+    "festival_purple": {
+        "image": "images/items/festival_purple.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/festival_purple.festival_purple'",
+        "use": "none",
+        "Key": "festival_purple"
+    },
+    "festival_special": {
+        "image": "images/items/festival_special.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/festival_special.festival_special'",
+        "use": "none",
+        "Key": "festival_special"
+    },
+    "festival_yellow": {
+        "image": "images/items/festival_yellow.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/festival_yellow.festival_yellow'",
+        "use": "none",
+        "Key": "festival_yellow"
+    },
+    "ghostemblem": {
+        "image": "images/items/ghostemblem.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/ghostemblem.ghostemblem'",
+        "use": "none",
+        "Key": "ghostemblem"
+    },
+    "god_spring": {
+        "image": "images/items/GodSpring.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/GodSpring.GodSpring'",
+        "use": "none",
+        "Key": "god_spring"
+    },
+    "huizhang": {
+        "image": "images/items/huizhang.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/huizhang.huizhang'",
+        "use": "none",
+        "Key": "huizhang"
+    },
+    "taffy": {
+        "image": "images/items/taffy.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/taffy.taffy'",
+        "use": "none",
+        "Key": "taffy"
+    },
+    "rose_flower": {
+        "image": "images/items/RoseFlower.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/RoseFlower.RoseFlower'",
+        "use": "none",
+        "Key": "rose_flower"
+    },
+    "peace_emblem": {
+        "image": "images/items/PeaceEmblem.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/PeaceEmblem.PeaceEmblem'",
+        "use": "none",
+        "Key": "peace_emblem"
+    },
+    "peace_flag": {
+        "image": "images/items/PeaceFlag.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/PeaceFlag.PeaceFlag'",
+        "use": "none",
+        "Key": "peace_flag"
+    },
+    "peace_medal": {
+        "image": "images/items/PeaceMedal.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/PeaceMedal.PeaceMedal'",
+        "use": "none",
+        "Key": "peace_medal"
+    },
+    "staduim_orange": {
+        "image": "images/items/item163.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item163.item163'",
+        "use": "none",
+        "Key": "staduim_orange"
+    },
+    "staduim_red": {
+        "image": "images/items/item164.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item164.item164'",
+        "use": "none",
+        "Key": "staduim_red"
+    },
+    "staduim_blue": {
+        "image": "images/items/item165.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item165.item165'",
+        "use": "none",
+        "Key": "staduim_blue"
+    },
+    "king": {
+        "image": "images/items/king.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/king.king'",
+        "use": "none",
+        "Key": "king"
+    },
+    "snowcity": {
+        "image": "images/items/snowcity.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/snowcity.snowcity'",
+        "use": "none",
+        "Key": "snowcity"
+    },
+    "archit_a": {
+        "image": "images/items/item028.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item028.item028'",
+        "use": "none",
+        "Key": "archit_a"
+    },
+    "archit_b": {
+        "image": "images/items/item029.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item029.item029'",
+        "use": "none",
+        "Key": "archit_b"
+    },
+    "archit_c": {
+        "image": "images/items/item030.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item030.item030'",
+        "use": "once",
+        "Key": "archit_c"
+    },
+    "archit_d": {
+        "image": "images/items/item031.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item031.item031'",
+        "use": "none",
+        "Key": "archit_d"
+    },
+    "archim_a": {
+        "image": "images/items/item032.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item032.item032'",
+        "use": "none",
+        "Key": "archim_a"
+    },
+    "archim_b": {
+        "image": "images/items/item033.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item033.item033'",
+        "use": "none",
+        "Key": "archim_b"
+    },
+    "archim_c": {
+        "image": "images/items/item034.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item034.item034'",
+        "use": "none",
+        "Key": "archim_c"
+    },
+    "archim_d": {
+        "image": "images/items/item035.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item035.item035'",
+        "use": "none",
+        "Key": "archim_d"
+    },
+    "polit_a": {
+        "image": "images/items/item099.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item099.item099'",
+        "use": "none",
+        "Key": "polit_a"
+    },
+    "polit_b": {
+        "image": "images/items/item100.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item100.item100'",
+        "use": "none",
+        "Key": "polit_b"
+    },
+    "polit_c": {
+        "image": "images/items/item101.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item101.item101'",
+        "use": "none",
+        "Key": "polit_c"
+    },
+    "polit_d": {
+        "image": "images/items/item102.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item102.item102'",
+        "use": "none",
+        "Key": "polit_d"
+    },
+    "bread": {
+        "image": "images/items/item091.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item091.item091'",
+        "use": "none",
+        "Key": "bread"
+    },
+    "fruit": {
+        "image": "images/items/item092.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item092.item092'",
+        "use": "none",
+        "Key": "fruit"
+    },
+    "milk": {
+        "image": "images/items/item093.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item093.item093'",
+        "use": "none",
+        "Key": "milk"
+    },
+    "meat": {
+        "image": "images/items/item094.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item094.item094'",
+        "use": "none",
+        "Key": "meat"
+    },
+    "coach": {
+        "image": "images/items/item088.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item088.item088'",
+        "use": "none",
+        "Key": "coach"
+    },
+    "train_acce_30": {
+        "image": "images/items/item036.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item036.item036'",
+        "use": "none",
+        "Key": "train_acce_30"
+    },
+    "train_acce_50": {
+        "image": "images/items/item152.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item152.item152'",
+        "use": "none",
+        "Key": "train_acce_50"
+    },
+    "exp_hero_8": {
+        "image": "images/items/item040.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item040.item040'",
+        "use": "none",
+        "Key": "exp_hero_8"
+    },
+    "exp_hero_30": {
+        "image": "images/items/item041.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item041.item041'",
+        "use": "none",
+        "Key": "exp_hero_30"
+    },
+    "exp_hero_100": {
+        "image": "images/items/item042.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item042.item042'",
+        "use": "none",
+        "Key": "exp_hero_100"
+    },
+    "hero_back": {
+        "image": "images/items/item087.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item087.item087'",
+        "use": "none",
+        "Key": "hero_back"
+    },
+    "shopping_car": {
+        "image": "images/items/item038.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item038.item038'",
+        "use": "none",
+        "Key": "shopping_car"
+    },
+    "wall_acce": {
+        "image": "images/items/item037.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item037.item037'",
+        "use": "none",
+        "Key": "wall_acce"
+    },
+    "powder_keg": {
+        "image": "images/items/item039.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item039.item039'",
+        "use": "none",
+        "Key": "powder_keg"
+    },
+    "wheat_1": {
+        "image": "images/items/item043.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item043.item043'",
+        "use": "once",
+        "Key": "wheat_1"
+    },
+    "wheat_7": {
+        "image": "images/items/item044.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item044.item044'",
+        "use": "once",
+        "Key": "wheat_7"
+    },
+    "stone_1": {
+        "image": "images/items/item047.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item047.item047'",
+        "use": "once",
+        "Key": "stone_1"
+    },
+    "stone_7": {
+        "image": "images/items/item048.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item048.item048'",
+        "use": "once",
+        "Key": "stone_7"
+    },
+    "wood_1": {
+        "image": "images/items/item045.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item045.item045'",
+        "use": "once",
+        "Key": "wood_1"
+    },
+    "wood_7": {
+        "image": "images/items/item046.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item046.item046'",
+        "use": "once",
+        "Key": "wood_7"
+    },
+    "metal_1": {
+        "image": "images/items/item049.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item049.item049'",
+        "use": "once",
+        "Key": "metal_1"
+    },
+    "metal_7": {
+        "image": "images/items/item050.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item050.item050'",
+        "use": "once",
+        "Key": "metal_7"
+    },
+    "coin_1": {
+        "image": "images/items/item051.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item051.item051'",
+        "use": "once",
+        "Key": "coin_1"
+    },
+    "coin_7": {
+        "image": "images/items/item052.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item052.item052'",
+        "use": "once",
+        "Key": "coin_7"
+    },
+    "gift_box": {
+        "image": "images/items/item068.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item068.item068'",
+        "use": "once",
+        "Key": "gift_box"
+    },
+    "wood_box": {
+        "image": "images/items/item069.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item069.item069'",
+        "use": "once",
+        "Key": "wood_box"
+    },
+    "golden_box": {
+        "image": "images/items/item070.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item070.item070'",
+        "use": "once",
+        "Key": "golden_box"
+    },
+    "luck_play": {
+        "image": "images/items/item098.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item098.item098'",
+        "use": "once",
+        "Key": "luck_play"
+    },
+    "army_box": {
+        "image": "images/items/item066.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item066.item066'",
+        "use": "many",
+        "Key": "army_box"
+    },
+    "tagned_3p": {
+        "image": "images/items/item086.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item086.item086'",
+        "use": "many",
+        "Key": "tagned_3p"
+    },
+    "tagned_4p": {
+        "image": "images/items/item086.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item086.item086'",
+        "use": "many",
+        "Key": "tagned_4p"
+    },
+    "tagned_5p": {
+        "image": "images/items/item086.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item086.item086'",
+        "use": "many",
+        "Key": "tagned_5p"
+    },
+    "tagned_6p": {
+        "image": "images/items/item086.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item086.item086'",
+        "use": "many",
+        "Key": "tagned_6p"
+    },
+    "tagned_7p": {
+        "image": "images/items/item086.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item086.item086'",
+        "use": "many",
+        "Key": "tagned_7p"
+    },
+    "tagned_8p": {
+        "image": "images/items/item086.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item086.item086'",
+        "use": "many",
+        "Key": "tagned_8p"
+    },
+    "necklace_1": {
+        "image": "images/items/item159.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item159.item159'",
+        "use": "none",
+        "Key": "necklace_1"
+    },
+    "necklace_2": {
+        "image": "images/items/item157.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item157.item157'",
+        "use": "none",
+        "Key": "necklace_2"
+    },
+    "necklace_3": {
+        "image": "images/items/item158.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item158.item158'",
+        "use": "none",
+        "Key": "necklace_3"
+    },
+    "necklace_4": {
+        "image": "images/items/item162.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item162.item162'",
+        "use": "none",
+        "Key": "necklace_4"
+    },
+    "necklace_5": {
+        "image": "images/items/item160.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item160.item160'",
+        "use": "none",
+        "Key": "necklace_5"
+    },
+    "medal_bronz": {
+        "image": "images/items/CopperMedal.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/CopperMedal.CopperMedal'",
+        "use": "none",
+        "Key": "medal_bronz"
+    },
+    "medal_silver": {
+        "image": "images/items/SilverMedal.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/SilverMedal.SilverMedal'",
+        "use": "none",
+        "Key": "medal_silver"
+    },
+    "medal_gold": {
+        "image": "images/items/GoldMedal.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/GoldMedal.GoldMedal'",
+        "use": "none",
+        "Key": "medal_gold"
+    },
+    "army_all_1": {
+        "image": "images/items/item143.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item143.item143'",
+        "use": "many",
+        "Key": "army_all_1"
+    },
+    "army_all_2": {
+        "image": "images/items/item144.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item144.item144'",
+        "use": "many",
+        "Key": "army_all_2"
+    },
+    "army_all_3": {
+        "image": "images/items/item145.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item145.item145'",
+        "use": "many",
+        "Key": "army_all_3"
+    },
+    "army_a_100": {
+        "image": "images/items/item144.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item144.item144'",
+        "use": "many",
+        "Key": "army_a_100"
+    },
+    "army_b_100": {
+        "image": "images/items/item144.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item144.item144'",
+        "use": "many",
+        "Key": "army_b_100"
+    },
+    "army_c_100": {
+        "image": "images/items/item144.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item144.item144'",
+        "use": "many",
+        "Key": "army_c_100"
+    },
+    "army_d_100": {
+        "image": "images/items/item144.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item144.item144'",
+        "use": "many",
+        "Key": "army_d_100"
+    },
+    "army_e_100": {
+        "image": "images/items/item144.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item144.item144'",
+        "use": "many",
+        "Key": "army_e_100"
+    },
+    "army_f_100": {
+        "image": "images/items/item144.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item144.item144'",
+        "use": "many",
+        "Key": "army_f_100"
+    },
+    "army_a_1000": {
+        "image": "images/items/item145.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item145.item145'",
+        "use": "many",
+        "Key": "army_a_1000"
+    },
+    "army_b_1000": {
+        "image": "images/items/item145.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item145.item145'",
+        "use": "many",
+        "Key": "army_b_1000"
+    },
+    "army_c_1000": {
+        "image": "images/items/item145.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item145.item145'",
+        "use": "many",
+        "Key": "army_c_1000"
+    },
+    "army_d_1000": {
+        "image": "images/items/item145.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item145.item145'",
+        "use": "many",
+        "Key": "army_d_1000"
+    },
+    "army_e_1000": {
+        "image": "images/items/item145.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item145.item145'",
+        "use": "many",
+        "Key": "army_e_1000"
+    },
+    "army_f_1000": {
+        "image": "images/items/item145.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item145.item145'",
+        "use": "many",
+        "Key": "army_f_1000"
+    },
+    "t_map": {
+        "image": "images/items/item090.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item090.item090'",
+        "use": "none",
+        "Key": "t_map"
+    },
+    "food_a": {
+        "image": "images/items/item081.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item081.item081'",
+        "use": "many",
+        "Key": "food_a"
+    },
+    "food_b": {
+        "image": "images/items/item081.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item081.item081'",
+        "use": "many",
+        "Key": "food_b"
+    },
+    "food_c": {
+        "image": "images/items/item081.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item081.item081'",
+        "use": "many",
+        "Key": "food_c"
+    },
+    "food_d": {
+        "image": "images/items/item081.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item081.item081'",
+        "use": "many",
+        "Key": "food_d"
+    },
+    "wood_a": {
+        "image": "images/items/item082.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item082.item082'",
+        "use": "many",
+        "Key": "wood_a"
+    },
+    "wood_b": {
+        "image": "images/items/item082.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item082.item082'",
+        "use": "many",
+        "Key": "wood_b"
+    },
+    "wood_c": {
+        "image": "images/items/item082.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item082.item082'",
+        "use": "many",
+        "Key": "wood_c"
+    },
+    "wood_d": {
+        "image": "images/items/item082.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item082.item082'",
+        "use": "many",
+        "Key": "wood_d"
+    },
+    "stone_a": {
+        "image": "images/items/item083.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item083.item083'",
+        "use": "many",
+        "Key": "stone_a"
+    },
+    "stone_b": {
+        "image": "images/items/item083.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item083.item083'",
+        "use": "many",
+        "Key": "stone_b"
+    },
+    "stone_c": {
+        "image": "images/items/item083.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item083.item083'",
+        "use": "many",
+        "Key": "stone_c"
+    },
+    "stone_d": {
+        "image": "images/items/item083.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item083.item083'",
+        "use": "many",
+        "Key": "stone_d"
+    },
+    "metal_a": {
+        "image": "images/items/item084.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item084.item084'",
+        "use": "many",
+        "Key": "metal_a"
+    },
+    "metal_b": {
+        "image": "images/items/item084.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item084.item084'",
+        "use": "many",
+        "Key": "metal_b"
+    },
+    "metal_c": {
+        "image": "images/items/item084.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item084.item084'",
+        "use": "many",
+        "Key": "metal_c"
+    },
+    "metal_d": {
+        "image": "images/items/item084.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item084.item084'",
+        "use": "many",
+        "Key": "metal_d"
+    },
+    "coin_a": {
+        "image": "images/items/item085.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item085.item085'",
+        "use": "many",
+        "Key": "coin_a"
+    },
+    "coin_b": {
+        "image": "images/items/item085.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item085.item085'",
+        "use": "many",
+        "Key": "coin_b"
+    },
+    "coin_c": {
+        "image": "images/items/item085.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item085.item085'",
+        "use": "many",
+        "Key": "coin_c"
+    },
+    "coin_d": {
+        "image": "images/items/item085.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item085.item085'",
+        "use": "many",
+        "Key": "coin_d"
+    },
+    "beginner_back_1": {
+        "image": "images/items/item053.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item053.item053'",
+        "use": "once",
+        "Key": "beginner_back_1"
+    },
+    "beginner_back_2": {
+        "image": "images/items/item054.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item054.item054'",
+        "use": "once",
+        "Key": "beginner_back_2"
+    },
+    "beginner_back_3": {
+        "image": "images/items/item055.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item055.item055'",
+        "use": "once",
+        "Key": "beginner_back_3"
+    },
+    "beginner_back_4": {
+        "image": "images/items/item056.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item056.item056'",
+        "use": "once",
+        "Key": "beginner_back_4"
+    },
+    "beginner_back_5": {
+        "image": "images/items/item057.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item057.item057'",
+        "use": "once",
+        "Key": "beginner_back_5"
+    },
+    "beginner_back_6": {
+        "image": "images/items/item058.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item058.item058'",
+        "use": "once",
+        "Key": "beginner_back_6"
+    },
+    "beginner_back_7": {
+        "image": "images/items/item059.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item059.item059'",
+        "use": "once",
+        "Key": "beginner_back_7"
+    },
+    "beginner_back_8": {
+        "image": "images/items/item060.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item060.item060'",
+        "use": "once",
+        "Key": "beginner_back_8"
+    },
+    "beginner_back_9": {
+        "image": "images/items/item061.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item061.item061'",
+        "use": "once",
+        "Key": "beginner_back_9"
+    },
+    "beginner_back_10": {
+        "image": "images/items/item062.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item062.item062'",
+        "use": "once",
+        "Key": "beginner_back_10"
+    },
+    "golden_supply_crate": {
+        "image": "images/items/GoldenSupplyCrate.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/GoldenSupplyCrate.GoldenSupplyCrate'",
+        "use": "once",
+        "Key": "golden_supply_crate"
+    },
+    "king_chest": {
+        "image": "images/items/kingChest.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/kingChest.kingChest'",
+        "use": "once",
+        "Key": "king_chest"
+    },
+    "roma_colosseum_box": {
+        "image": "images/items/RomaColosseumbox.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/RomaColosseumbox.RomaColosseumbox'",
+        "use": "once",
+        "Key": "roma_colosseum_box"
+    },
+    "senate_golden_box": {
+        "image": "images/items/SenateGoldenBox.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/SenateGoldenBox.SenateGoldenBox'",
+        "use": "once",
+        "Key": "senate_golden_box"
+    },
+    "senate_platinum_box": {
+        "image": "images/items/SenatePlatinumBox.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/SenatePlatinumBox.SenatePlatinumBox'",
+        "use": "once",
+        "Key": "senate_platinum_box"
+    },
+    "senate_silver_box": {
+        "image": "images/items/SenateSilverBox.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/SenateSilverBox.SenateSilverBox'",
+        "use": "once",
+        "Key": "senate_silver_box"
+    },
+    "silver_supply_crate": {
+        "image": "images/items/SilverSupplyCrate.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/SilverSupplyCrate.SilverSupplyCrate'",
+        "use": "once",
+        "Key": "silver_supply_crate"
+    },
+    "sol_chest": {
+        "image": "images/items/SolChest.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/SolChest.SolChest'",
+        "use": "once",
+        "Key": "sol_chest"
+    },
+    "vertumnus_box": {
+        "image": "images/items/Vertumnusbox.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/Vertumnusbox.Vertumnusbox'",
+        "use": "once",
+        "Key": "vertumnus_box"
+    },
+    "winter_pack": {
+        "image": "images/items/WinterPack.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/WinterPack.WinterPack'",
+        "use": "once",
+        "Key": "winter_pack"
+    },
+    "luxury_1": {
+        "image": "images/items/item071.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item071.item071'",
+        "use": "none",
+        "Key": "luxury_1"
+    },
+    "luxury_2": {
+        "image": "images/items/item072.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item072.item072'",
+        "use": "none",
+        "Key": "luxury_2"
+    },
+    "luxury_3": {
+        "image": "images/items/item073.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item073.item073'",
+        "use": "none",
+        "Key": "luxury_3"
+    },
+    "luxury_4": {
+        "image": "images/items/item074.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item074.item074'",
+        "use": "none",
+        "Key": "luxury_4"
+    },
+    "luxury_5": {
+        "image": "images/items/item075.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item075.item075'",
+        "use": "none",
+        "Key": "luxury_5"
+    },
+    "luxury_6": {
+        "image": "images/items/item076.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item076.item076'",
+        "use": "none",
+        "Key": "luxury_6"
+    },
+    "luxury_7": {
+        "image": "images/items/item077.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item077.item077'",
+        "use": "none",
+        "Key": "luxury_7"
+    },
+    "luxury_8": {
+        "image": "images/items/item078.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item078.item078'",
+        "use": "none",
+        "Key": "luxury_8"
+    },
+    "luxury_9": {
+        "image": "images/items/item079.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item079.item079'",
+        "use": "none",
+        "Key": "luxury_9"
+    },
+    "flag_england": {
+        "image": "images/items/Britons.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/Britons.Britons'",
+        "use": "once",
+        "Key": "flag_england"
+    },
+    "flag_france": {
+        "image": "images/items/Gauls.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/Gauls.Gauls'",
+        "use": "once",
+        "Key": "flag_france"
+    },
+    "flag_germany": {
+        "image": "images/items/Germans.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/Germans.Germans'",
+        "use": "once",
+        "Key": "flag_germany"
+    },
+    "flag_magul": {
+        "image": "images/items/Huns.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/Huns.Huns'",
+        "use": "once",
+        "Key": "flag_magul"
+    },
+    "flag_macdoni": {
+        "image": "images/items/Macedon.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/Macedon.Macedon'",
+        "use": "once",
+        "Key": "flag_macdoni"
+    },
+    "flag_roma": {
+        "image": "images/items/Rome.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/Rome.Rome'",
+        "use": "once",
+        "Key": "flag_roma"
+    },
+    "flag_spain": {
+        "image": "images/items/Spain.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/Spain.Spain'",
+        "use": "once",
+        "Key": "flag_spain"
+    },
+    "flag_cartaga": {
+        "image": "images/items/Carthage.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/Carthage.Carthage'",
+        "use": "once",
+        "Key": "flag_cartaga"
+    },
+    "flag_egypt": {
+        "image": "images/items/Egypt.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/Egypt.Egypt'",
+        "use": "once",
+        "Key": "flag_egypt"
+    },
+    "flag_greek": {
+        "image": "images/items/Parthia.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/Parthia.Parthia'",
+        "use": "once",
+        "Key": "flag_greek"
+    },
+    "law_1": {
+        "image": "images/items/CodeofDraco.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/CodeofDraco.CodeofDraco'",
+        "use": "none",
+        "Key": "law_1"
+    },
+    "law_2": {
+        "image": "images/items/LawoftheTwelveTables.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/LawoftheTwelveTables.LawoftheTwelveTables'",
+        "use": "none",
+        "Key": "law_2"
+    },
+    "law_3": {
+        "image": "images/items/RomanLaw.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/RomanLaw.RomanLaw'",
+        "use": "none",
+        "Key": "law_3"
+    },
+    "truce_pack": {
+        "image": "images/items/Trans.pacification.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/Trans_pacification.Trans_pacification'",
+        "use": "none",
+        "Key": "truce_pack"
+    },
+    "prestige_slogan": {
+        "image": "images/items/prestige1.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/prestige1.prestige1'",
+        "use": "none",
+        "Key": "prestige_slogan"
+    },
+    "lion_slo": {
+        "image": "images/items/LionEmblem.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/LionEmblem.LionEmblem'",
+        "use": "none",
+        "Key": "lion_slo"
+    },
+    "lion_hrt": {
+        "image": "images/items/LionHeart.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/LionHeart.LionHeart'",
+        "use": "none",
+        "Key": "lion_hrt"
+    },
+    "brave_slo": {
+        "image": "images/items/FearlessnessEmblem.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/FearlessnessEmblem.FearlessnessEmblem'",
+        "use": "none",
+        "Key": "brave_slo"
+    },
+    "horn_help": {
+        "image": "images/items/HornofMars.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/HornofMars.HornofMars'",
+        "use": "none",
+        "Key": "horn_help"
+    },
+    "mili_slo": {
+        "image": "images/items/Trans.excellent.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/Trans_excellent.Trans_excellent'",
+        "use": "none",
+        "Key": "mili_slo"
+    },
+    "god_point_5": {
+        "image": "images/items/item068.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item068.item068'",
+        "use": "many",
+        "Key": "god_point_5"
+    },
+    "god_point_30": {
+        "image": "images/items/item103.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item103.item103'",
+        "use": "many",
+        "Key": "god_point_30"
+    },
+    "god_point_75": {
+        "image": "images/items/item063.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item063.item063'",
+        "use": "many",
+        "Key": "god_point_75"
+    },
+    "god_point_175": {
+        "image": "images/items/item064.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item064.item064'",
+        "use": "many",
+        "Key": "god_point_175"
+    },
+    "god_point_750": {
+        "image": "images/items/item053.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item053.item053'",
+        "use": "many",
+        "Key": "god_point_750"
+    },
+    "god_point_1k": {
+        "image": "images/items/item054.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item054.item054'",
+        "use": "many",
+        "Key": "god_point_1k"
+    },
+    "god_point_2k": {
+        "image": "images/items/item055.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item055.item055'",
+        "use": "many",
+        "Key": "god_point_2k"
+    },
+    "god_point_5k": {
+        "image": "images/items/item056.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item056.item056'",
+        "use": "many",
+        "Key": "god_point_5k"
+    },
+    "god_point_10k": {
+        "image": "images/items/item057.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item057.item057'",
+        "use": "many",
+        "Key": "god_point_10k"
+    },
+    "god_point_50k": {
+        "image": "images/items/item058.jpg",
+        "Texture2D": "Texture2D'/Game/images/items/item058.item058'",
+        "use": "many",
+        "Key": "god_point_50k"
+    }
+}

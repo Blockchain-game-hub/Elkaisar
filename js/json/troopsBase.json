@@ -1,0 +1,465 @@
+{
+    "spies": {  
+        "Require":{
+            "food": 600,
+            "wood": 150,
+            "stone": 0,
+            "metal": 350,
+            "coin": 90,
+            "pop": 1,
+            "time": 60
+        },
+        "condetion": [
+            {
+                "type": "building",
+                "lvl": 1,
+                "buildingType": 4
+            },
+            {
+                "type": "study",
+                "studyType": "riding",
+                "lvl": 1
+            }
+        ],
+        "name": "جواسيس",
+        "image": "images/items/item027.jpg",
+        "Texture2D": "/Game/images/army/technology14.technology14",
+        "desc": "كانت الجواسيس هى سلاح الاستخبارت فى العصور الوسطى و كانت اهميتها تكمن فى جب الاخبار من المدن الاخرى  ولكن لا يمكنك الوثوق بهذه المعلومات بسسب قلة كفائة الجواسيس لديك",
+        "Power":{
+            "hp": 80,
+            "attack": 10,
+            "defence": 12,
+            "damage": "6-9",
+            "Break": 0,
+            "antiBreak": 0,
+            "strike": 0,
+            "immunity": 0,
+            "eating": 6,
+            "speed": 200,
+            "capacity": 1
+        },
+        "dismess": {
+            "food": 180,
+            "wood": 45,
+            "stone": 0,
+            "metal": 105
+        }
+    },
+    "army_a": { 
+        "Require":{
+            "food": 150,
+            "wood": 500,
+            "stone": 0,
+            "metal": 100,
+            "coin": 18,
+            "pop": 1,
+            "time": 50
+        },
+        "condetion": [
+            {
+                "type": "building",
+                "lvl": 1,
+                "buildingType": 3
+            },
+            {
+                "type": "study",
+                "studyType": "infantry",
+                "lvl": 1
+            }
+        ],
+        "name": "مشاه",
+        "image": "images/tech/soldier01.jpg",
+        "desc": "اكثر انواع الجيوش استعمالا اثناء الامبراطورية الرومانية  وذلك بسسب سهولة تدريبها  وتسليحها وتكمن قوتها  فى  الاسرار الحربية لديها",
+        "Texture2D": "/Game/images/army/soldier01.soldier01",
+        "Power":{
+            "hp": 60,
+            "attack": 8,
+            "defence": 8,
+            "damage": "3-6",
+            "Break": 5,
+            "antiBreak": 4,
+            "strike": 3,
+            "immunity": 1,
+            "eating": 4,
+            "speed": 300,
+            "capacity": 40
+        },
+        "dismess": {
+            "food": 45,
+            "wood": 150,
+            "stone": 0,
+            "metal": 30
+        }
+    },
+    "army_b": {  
+        "Require":{
+            "food": 1500,
+            "wood": 800,
+            "stone": 0,
+            "metal": 750,
+            "coin": 500,
+            "pop": 3,
+            "time": 300
+        },
+        "condetion": [
+            {
+                "type": "building",
+                "lvl": 5,
+                "buildingType": 4
+            },
+            {
+                "type": "study",
+                "studyType": "riding",
+                "lvl": 3
+            }
+        ],
+        "name": "فرسان",
+        "image": "images/tech/soldier02.jpg",
+        "desc": "سلاح الفرسان هو نموذج الفارس الممتاز في الجيش الروماني من حيث تسليحه عالي المستوى. يخيف هجوم سلاح الفرسان الخصم غير المستعدّ على الرغم من أنهم ليسوا أسرع القوات. مشكلتهم تكلفة صيانتهم لما يتوجب على من يدرّبهم من رصدٍ لطعام الفارس وفرسه.",
+        "Texture2D": "/Game/images/army/soldier02.soldier02",
+        "Power":{
+            "hp": 250,
+            "attack": 30,
+            "defence": 20,
+            "damage": "33-38",
+            "Break": 10,
+            "antiBreak": 4,
+            "strike": 1,
+            "immunity": 2,
+            "eating": 18,
+            "speed": 900,
+            "capacity": 100
+        },
+        "dismess": {
+            "food": 450,
+            "wood": 240,
+            "stone": 0,
+            "metal": 225
+        }
+    },
+    "army_c": {   
+        "Require":{
+            "food": 2000,
+            "wood": 500,
+            "stone": 0,
+            "metal": 2500,
+            "coin": 600,
+            "pop": 6,
+            "time": 500
+        },
+        "condetion": [
+            {
+                "type": "building",
+                "lvl": 9,
+                "buildingType": 3
+            },
+            {
+                "type": "study",
+                "studyType": "infantry",
+                "lvl": 6
+            }
+        ],
+        "name": "مدرعين",
+        "image": "images/tech/soldier03.jpg",
+        "desc": "المدرعين هم اساس القوات الرومانية بتسليحهم المعقد وتدريباتهم المكثفة يمكن الاعتبار انها من اقوى انواع الجيوش يستغرق تدريب الابطال كمية كبيرة كدا من الوقت وذلك بسبب الالتزام لصنع اقوى الابطال",
+        "Texture2D": "Texture2D'/Game/images/army/soldier03.soldier03'",
+        "Power":{
+            "hp": 400,
+            "attack": 25,
+            "defence": 30,
+            "damage": "40-60",
+            "Break": 1,
+            "antiBreak": 5,
+            "strike": 10,
+            "immunity": 10,
+            "eating": 36,
+            "speed": 600,
+            "capacity": 120
+        },
+        "dismess": {
+            "food": 600,
+            "wood": 150,
+            "stone": 0,
+            "metal": 750
+        }
+    },
+    "army_d": {
+        "Require":{
+            "food": 300,
+            "wood": 350,
+            "stone": 0,
+            "metal": 300,
+            "coin": 30,
+            "pop": 1,
+            "time": 120
+        },
+        "condetion": [
+            {
+                "type": "building",
+                "lvl": 2,
+                "buildingType": 3
+            },
+            {
+                "type": "study",
+                "studyType": "infantry",
+                "lvl": 2
+            }
+        ],
+        "name": "رماه",
+        "image": "images/tech/soldier04.jpg",
+        "desc": "رماة السهم او  النبالين كانوا زمرة الجيش الرومانى. يمكنك الاعتماد عليهم فى الهجوم اما  بالنسبة الى الى الدفاع فلا يمكن ابدا الاعتماد عليهم.  بسبب ضعف البنية الجسمانية لديهم ولكن يمكن لهذة القوات تنفيذ العديد من الاصابات البالغة  للاعداء",
+        "Texture2D": "/Game/images/army/soldier04.soldier04",
+        "Power":{
+            "hp": 45,
+            "attack": 9,
+            "defence": 5,
+            "damage": "3-5",
+            "Break": 6,
+            "antiBreak": 2,
+            "strike": 2,
+            "immunity": 2,
+            "eating": 5,
+            "speed": 250,
+            "capacity": 25
+        },
+        "dismess": {
+            "food": 90,
+            "wood": 105,
+            "stone": 0,
+            "metal": 90
+        }
+    },
+    "army_e": {
+        "Require":{
+            "food": 1000,
+            "wood": 1200,
+            "stone": 0,
+            "metal": 800,
+            "coin": 120,
+            "pop": 4,
+            "time": 180
+        },
+        "condetion": [
+            {
+                "type": "building",
+                "lvl": 3,
+                "buildingType": 5
+            },
+            {
+                "type": "study",
+                "studyType": "army",
+                "lvl": 1
+            }
+        ],
+        "name": "مقاليع",
+        "image": "images/tech/soldier05.jpg",
+        "desc": "كانت العصور الرومانية عصور ازدهار هندسى ومعمارى .  احد الأدلة على ذلك هو  سلاح المقاليع لدى الجيوش الرمانية . يلحق هذا النوع ضرر كبير جدا  بالاعداء  مهما كانت قوتهم ويشتت جمعهم",
+        "Texture2D": "/Game/images/army/soldier05.soldier05",
+        "Power":{
+           "hp": 100,
+            "attack": 19,
+            "defence": 25,
+            "damage": "18-20",
+            "Break": 5,
+            "antiBreak": 2,
+            "strike": 15,
+            "immunity": 2,
+            "eating": 20,
+            "speed": 150,
+            "capacity": 35
+        },
+        "dismess": {
+            "food": 300,
+            "wood": 360,
+            "stone": 0,
+            "metal": 240
+        }
+    },
+    "army_f": {  
+        "Require":{
+            "food": 3000,
+            "wood": 3000,
+            "stone": 6000,
+            "metal": 1200,
+            "coin": 450,
+            "time": 1000,
+            "pop": 8
+        },
+        "condetion": [
+            {
+                "type": "building",
+                "lvl": 7,
+                "buildingType": 5
+            },
+            {
+                "type": "study",
+                "studyType": "army",
+                "lvl": 6
+            }
+        ],
+        "name": "منجنيق",
+        "image": "images/tech/soldier06.jpg",
+        "desc": "اقوى  انوع القوات على الاطلاق .  لا شك فى ذلك حيث ان هذه القوات مسؤلة عن هدم الاسوار والمبانى الشاهقة. فليس من الصعب عليها سحق  الاعداء",
+        "Texture2D": "/Game/images/army/soldier06.soldier06",
+        "Power":{
+            "hp": 600,
+            "attack": 40,
+            "defence": 20,
+            "damage": "70-70",
+            "Break": 2,
+            "antiBreak": 4,
+            "strike": 15,
+            "immunity": 5,
+            "eating": 150,
+            "speed": 100,
+            "capacity": 75
+        },
+        "dismess": {
+            "food": 900,
+            "wood": 900,
+            "stone": 1800,
+            "metal": 360
+        }
+    },
+    "wall_a": {
+        "Require":{
+            "food": 50,
+            "wood": 500,
+            "stone": 100,
+            "metal": 50,
+            "coin": 0,
+            "time": 60,
+            "pop": 0
+        },
+        "condetion": [
+            {
+                "type": "building",
+                "lvl": 1,
+                "buildingType": 13
+            },
+            {
+                "type": "study",
+                "studyType": "safe",
+                "lvl": 1
+            }
+        ],
+        "name": "كمائن",
+        "image": "images/tech/defense01.jpg",
+        "desc": "يتم دس الكمائن داخ السور لعرقلة الاعداء. ولكن لا يمكن الاعتماد عليها  فى صد الهجمات",
+        "Texture2D": "/Game/images/army/defense01.defense01",
+        "Power":{
+            "hp": 0,
+            "attack": 0,
+            "defence": 0,
+            "damage": "0-0",
+            "Break": 0,
+            "antiBreak": 0,
+            "strike": 0,
+            "immunity": 0,
+            "eating": 0,
+            "speed": 0,
+            "capacity": 0
+        },
+        "dismess": {
+            "food": 15,
+            "wood": 150,
+            "stone": 30,
+            "metal": 15
+        },
+        "wallSpace": 1
+    },
+    "wall_b": {  
+        "Require":{
+            "food": 200,
+            "wood": 2000,
+            "stone": 1000,
+            "metal": 500,
+            "coin": 0,
+            "pop": 0,
+            "time": 180
+        },
+        "condetion": [
+            {
+                "type": "building",
+                "lvl": 3,
+                "buildingType": 13
+            },
+            {
+                "type": "study",
+                "studyType": "safe",
+                "lvl": 2
+            }
+        ],
+        "name": "ابراج",
+        "image": "images/tech/defense02.jpg",
+        "desc": "لا تنحصر وظيفة الابراج فى الرقابة على المدن,  ولكن تلعب دور هام فى الدفاع عن المدينة عند الهجوم عليها. تتميز الابراج بارتفاعتها الشاهقة مما يجعل منها افضلية هجومية ودفاعية ايضا",
+        "Texture2D": "/Game/images/army/defense02.defense02",
+        "Power":{
+            "hp": 200,
+            "attack": 18,
+            "defence": 15,
+            "damage": "12-15",
+            "Break": 0,
+            "antiBreak": 0,
+            "strike": 0,
+            "immunity": 0,
+            "eating": 0,
+            "speed": 0,
+            "capacity": 0
+        },
+        "dismess": {
+            "food": 60,
+            "wood": 600,
+            "stone": 300,
+            "metal": 150
+        },
+        "wallSpace": 3
+    },
+    "wall_c": {  
+        "Require":{
+            "food": 600,
+            "wood": 0,
+            "stone": 8000,
+            "metal": 0,
+            "coin": 0,
+            "time": 600,
+            "pop": 0
+        },
+        "condetion": [
+            {
+                "type": "building",
+                "lvl": 5,
+                "buildingType": 13
+            },
+            {
+                "type": "study",
+                "studyType": "safe",
+                "lvl": 6
+            }
+        ],
+        "name": "احجار متساقطة",
+        "image": "images/tech/defense03.jpg",
+        "desc": "الاحجار المتساقطة من اقوى الاسلحة الدفاعية للمدينة .يمكن الاعتماد عليها بالحاق الضرر الجسيم للمعتدى",
+        "Texture2D": "/Game/images/army/defense03.defense03",
+        "Power":{
+            "hp": 0,
+            "attack": 0,
+            "defence": 40,
+            "damage": "40-60",
+            "Break": 0,
+            "antiBreak": 0,
+            "strike": 0,
+            "immunity": 0,
+            "eating": 0,
+            "speed": 0,
+            "capacity": 0
+        },
+        "dismess": {
+            "food": 180,
+            "wood": 0,
+            "stone": 2400,
+            "metal": 0
+        },
+        "wallSpace": 5
+    }
+}

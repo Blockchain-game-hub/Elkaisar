@@ -1,12 +1,20 @@
 <?php
 
-class AplayerEquip 
+class APlayerEquip 
 {
     function getPlayerEquip()
     {
         
-        $idPlayer = validateID(cryptUserId($_GET["token"]));
-        return json_encode(selectFromTable("*", "equip", "id_player = :idp" , ["idp" => $idPlayer]), JSON_NUMERIC_CHECK);
+        global $idPlayer;
+        return selectFromTable("*", "equip", "id_player = :idp" , ["idp" => $idPlayer]);
+        
+    }
+    
+    
+    function getEquipPower()
+    {
+        
+        return selectFromTable("*", "equip_power", "1");
         
     }
     

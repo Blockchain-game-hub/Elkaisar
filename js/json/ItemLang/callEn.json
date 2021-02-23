@@ -1,0 +1,2085 @@
+{
+    "LoyalAccessoriesTicket.Lv1": {
+        "funcDesc": "Schmuckkarte Lv.1 kann beim Senat gegen 1x Schmuck der Treue (Lv.1) eingetauscht werden.",
+        "name": "Schmuckkarte Lv.1",
+        "itemDesc": "Schmuckkarte Lv.1 kann beim Senat gegen 1x Schmuck der Treue (Lv.1) eingetauscht werden."
+    },
+    "SaturnPack": {
+        "funcDesc": "Nach dem Aufmachen können Sie wertvolle Requisiten erhalten! Es beinhaltet: 1x Ganzporträt des Handelsgottes, 1x Ganzporträt des Agrargottes und 1x Heldenpaket (Potentialwert 7).",
+        "itemDesc": "Ein Festtagsgeschenk voller wertvoller edler Gegenstände",
+        "name": "Das Saturnpaket"
+    },
+    "speedup30pBuilding": {
+        "itemDesc": "Das im Jahr 27 v.Chr. vom römischen Architekten Vitruvius geschriebene Werk „Zehn Bücher über Architektur” ist eine helle Perle voller Weisheit in der römischen Zivilisation. Die Theorien und Techniken in diesem klassischen Werk spielt eine wichtige Rolle bei der Entwicklung der Architektur. Das komplette „Zehn Bücher über Architektur” ist in vielen Teilen eingegliedert. Mit Hilfe von denen kann die Bauzeit beträchtlich verkürzt und den Bauprozess beschleunigt werden.",
+        "funcDesc": "Durch Verwendung von diesem Requisit kann die Zeit eines Bauauftrags um 30% verkürzt werden.",
+        "name": "Ganzes Buch von Shi Buch"
+    },
+    "RebelMessenger": {
+        "itemDesc": "Überlauf der  Rebellen Boten tragen 20 bis 25 Mails.",
+        "funcDesc": "Überlauf der Rebellen Boten, können  20 bis 25 Rebellen Mails geöffnet werden",
+        "name": "Rebellen Nachricht"
+    },
+    "speedup30pTech": {
+        "funcDesc": "Durch Verwendung von diesem Requisit kann die Zeit eines Forschungsauftrags um 30%. verkürzt werden.",
+        "name": "Archimedesgesamtwerk",
+        "itemDesc": "Der griechische Wissenschaftler und Mathematiker Archimedes hat in vielen Bereichen brillanten Beiträgen geleistet. Die „Gesammelte Werke von Archimedes” sind sehr hilfreich für die Förderung der technischen Forschungen. Damit kannst du den Prozess der technischen Forschungen beschleunigen."
+    },
+    "incArmyDefence1D": {
+        "itemDesc": "Die Gladiatoren mit thrakischer Kleidung spielen eine außergewöhnliche Rolle im Kolosseum. Deswegen wird der thrakische Helm bei römischen Soldaten sehr geschätzt. Eine Ausstattung mit dem Helm wird die Verteidigungskraft deiner Truppen stärken.",
+        "funcDesc": "Die Verteidigungskraft des Kriegszugs nimmt um 10% zu. 24 Stunden gültig.",
+        "name": "Thrakischer Helm"
+    },
+    "incResStone7D": {
+        "funcDesc": "Die Steinproduktion steigt um 25%. 7 Tage gültig.",
+        "name": "Statue der Erdgöttin",
+        "itemDesc": "Die Erd- und Erntegöttin Chris ist Jupiters Schwester. Opfere eine Statue der Erdgöttin, um die Steinproduktion zu erhöhen."
+    },
+    "incAllianceLimitTo100": {
+        "itemDesc": "Nach Anerkennung der Allianz durch die Behörde, kannst du nach Zahlung einer Gebühr das Allianzwappen registrieren. Damit erhöhst du die Allianzstufe direkt auf 10 und gleichzeitig die Obergrenze der Mitglieder auf 100.",
+        "funcDesc": "Die Führer einer Allianz oder deren Stellvertreter können die Allianzstufe durch das Allianzwappen direkt auf Stufe 10 erhöhen und erreichen gleichzeitig die Obergrenze von 100 Mitgliedern.",
+        "name": "Allianzwappen"
+    },
+    "_number.player.box.gambling.medal.1": {
+        "funcDesc": "1 Goldmünze",
+        "name": "1 Goldmünze-Pack",
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden."
+    },
+    "incResWood7D": {
+        "funcDesc": "Die Holzproduktion steigt um 25%. 7 Tage gültig.",
+        "name": "Statue des Waldgottes",
+        "itemDesc": "Faunus ist der Wald- und Feldgott. Opfere eine Statue des Waldgottes, um die Holzproduktion zu erhöhen."
+    },
+    "meat": {
+        "name": "Fleisch",
+        "itemDesc": "Die Römer haben eine extrem große Nachfrage nach Fleisch. Nachdem die Körperkraft deiner Helden aufgeraucht ist, kann ein Stück Fleisch diese wiedererlangen.",
+        "funcDesc": "Wenn du bei deinem Held auf \"+\" hinter dem \"physikalischen Wert\" klickst und das Fleisch wählst, bekommt dein Held die volle Körperkraft wieder."
+    },
+    "HornofMars": {
+        "name": "Kriegsgottsignalhörner",
+        "itemDesc": "Das Signalhorn wird mit den beiden Hörnern des Satans hergestellt, nachdem der Kriegsgott Mars den Satan besiegt hat.",
+        "funcDesc": "Wird eine bestimmte Zahl gesammelt, können die im furchtlosen Anzug befindlichen Waffen oder Panzerrüstungen umgetauscht werden."
+    },
+    "incHeroPolitics1D": {
+        "funcDesc": "Die Verwaltung des Helden kann durch Verwendung der Jupiter-Medaille um 25% erhöht werden. 7 Tage gültig",
+        "name": "Jupiter-Medaille",
+        "itemDesc": "Den Kopf des Königs aller Götter Jupiter auf der Medaille einzugravieren, bedeutet die höchste Ehre. Durch diese Medaille kann das Talent des Helden in der Politik enorm inspiriert werden."
+    },
+    "PeaceFlag": {
+        "funcDesc": "Die Flagge von den Olympischen Spielen im Namen der Liebe des Friedens ausgestellt. Platziert als Vice Banner auf Ihrer aktuellen Stadt. Effektiver für 7 Tage.",
+        "name": "Friedens Flagge",
+        "itemDesc": "Die olympische Leichtathletik-Spiele finden alle 4 Jahre statt, das Unterstützen und daran teilzunehmen kann Friedensfahne einbringen."
+    },
+    "fifa17Logo": {
+        "funcDesc": "Die Flagge deiner Stadt wird zur niederländischen Flagge geändert. 1 Tag gültig",
+        "itemDesc": "Die niederländische Flagge wird 1 Tag lang über deiner Stadt angezeigt. Du kannst diese durch eine andere Flagge ersetzen. Requisit bis 11.07.2010 im Shop kaufbar.",
+        "name": "Niederländische Flagge"
+    },
+    "Egypt": {
+        "name": "Ägyptisches Wappen",
+        "itemDesc": "Rechts oben von der Stadt wird das ägyptischen Wappen 7 Tage lang angezeigt, danach wird es zurückgesetzt. Nach Verwendung der Wappen diverser Ländern wird das aktuelle Wappenmuster und die aktuelle Zeit ersetzt. Das Requisit ist solange wirksam, bis die Aktion \"Führertruppe\" ausläuft.",
+        "funcDesc": "Wechsel die Zweitflagge deiner Stadt zu ägyptischem Wappen, 7 Tage lang."
+    },
+    "speedup3hTraining": {
+        "itemDesc": "Das Werk aufzeichnet, wie man eine Stadt verwaltet, und enthält die von vielen historischen Herrscher zusammenfassenden Erfahrungen und Lehren. Obwohl einige Inhalte im Lauf der Zeit als fehlerhaft erkannt werden, können Anfänger noch davon viel profitieren. Mit Hilfe dieses Werkes kann die Zeit der Schaffung von Arbeitsplätzen reduziert werden.",
+        "funcDesc": "Durch Verwendung von diesem Requisit kann die Zeit der Schaffung von Arbeitsplätzen um 3 Std. verkürzt werden.",
+        "name": "Politische Essenz"
+    },
+    "taffy": {
+        "name": "Toffee",
+        "funcDesc": "Nach der Öffnung besteht die Wahrscheinlichkeit, folgende Requisiten zu erhalten: graue Typenschilder der Rebellentruppen, gelbe Typenschilder der Rebellentruppen, Edelsteine, Elfenbeine, Räucherstäbchen, Pelze, Schafwollen, Farbstoffe, Aromastoffe, Weine, Seiden, Sammelbänder von 10 Baubücher, Einzelbänder von 10 Baubücher, Obst, Schafmilch, violette Typenschilder der Rebellentruppen, Bauzeichnungen, Gespenster-Abzeichen.",
+        "itemDesc": "Zucker, in dem ein mystisches Präsent versteckt. Bei dessen Öffnung besteht die Chance, Ressourcen, Luxusartikel, Requisiten der Kaufhalle, Gespenster-Abzeichen usw. zu bekommen."
+    },
+    "Rome": {
+        "funcDesc": "Wechsel die Zweitflagge deiner Stadt zu römischem Wappen, 7 Tage lang.",
+        "name": "Römisches Wappen",
+        "itemDesc": "Rechts oben von der Stadt wird das rümischen Wappen 7 Tage lang angezeigt, danach wird es zurückgesetzt. Nach Verwendung der Wappen diverser Ländern wird das aktuelle Wappenmuster und die aktuelle Zeit ersetzt. Das Requisit ist solange wirksam, bis die Aktion \"Führertruppe\" ausläuft."
+    },
+    "CopperMedal": {
+        "name": "Kupfer-Medaille",
+        "itemDesc": "Medallie aus Kupfer. Der Konsum von Kupfer-Medaille kann zu erziehen, Helden Kampf-Fähigkeit zu erhöhen.",
+        "funcDesc": "Der Konsum von Kupfer-Medaille hat weniger Chancen, Helden Eigenschaften von Bildung zu erhöhen."
+    },
+    "_number.player.box.gambling.medal.5": {
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "funcDesc": "5 Goldmünzen",
+        "name": "5 Goldmünzen-Pack"
+    },
+    "RoseFlower": {
+        "funcDesc": "",
+        "name": "",
+        "itemDesc": ""
+    },
+    "_number.player.box.gambling.stone.80000": {
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "funcDesc": "80000 Steine",
+        "name": "80000 Steine-Pack"
+    },
+    "Cavalry.1": {
+        "funcDesc": "10 Reiter",
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "name": "10 Reiter-Pack"
+    },
+    "christmasstocking": {
+        "itemDesc": "Die roten Strümpfe des Weihnachtsmanns sind im ganzen Land des Roms verstreut, worin volle Weihnachtsüberraschungen liegen.",
+        "funcDesc": "Nach der Öffnung kann man erhalten: 1 Ganzporträt des Handelsgottes, 2 Handwerksstempel, 2 Gesamtwerk von 10 Baubücherdes.",
+        "name": "Weihnachtsstrümpfe"
+    },
+    "fifa22Logo": {
+        "funcDesc": "Die Flagge deiner Stadt wird zur paraguayischen Flagge geändert. 1 Tag gültig",
+        "name": "Paraguayische Flagge",
+        "itemDesc": "Die paraguayische Flagge wird 1 Tag lang über deiner Stadt angezeigt. Du kannst diese durch eine andere Flagge ersetzen. Requisit bis 11.07.2010 im Shop kaufbar."
+    },
+    "LostPackage": {
+        "itemDesc": "Este Paquete de Papá Noel Incluye Muchos Regalos",
+        "name": "Paquete Perdido",
+        "funcDesc": "El Paquete perdido de Papá Noel. En “Bendición Divina” --- “Contribuir”podrás conseguir equipo y objetos gratis"
+    },
+    "Trans.black.pocket": {
+        "itemDesc": "In der 「schwarzen Demonstrationsschildtasche」 sind schwarze Demonstrationsschilder x6 enthalten, du brauchst nur 100 Goldmünzen ausgeben und kannst du die「schwarzen Demonstrationsschildtasche」 mit einem Wert von 180 Goldmünzen haben. Die Teilnahme am regionalen militärischen Manöver kann dazu führen, daß deine Helden die tapfersten Soldaten werden können.",
+        "name": "schw.Teiln.typenschildtasche",
+        "funcDesc": "Erhalt nach der Öffnung: schwarze Demonstrationsschilder x6"
+    },
+    "WinterPack": {
+        "itemDesc": "Als Geschenk an die Menschen im Winter zu senden.",
+        "name": "Winter Packet",
+        "funcDesc": "Nach dem öffnen  haben die Chance , zwei oder drei Arten von folgenden Punkten zu erhalten: Schneeman Stadt x1, Weihnachtsbaum x1,Truthahn x1, wenn Glück;Nach öffnen des Truthahns können kleine Motivation Rede x1, Volkschutzbekanntmachung x1, x1 Theateraufführung, Büste Saturn x1 erhalten."
+    },
+    "_number.player.box.gambling.medal.1000": {
+        "name": "1000 Goldmünzen-Pack",
+        "funcDesc": "1000 Goldmünzen",
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden."
+    },
+    "hero.loyalty.4": {
+        "itemDesc": "Die Römer hatten einen nicht sehr hohen Bedarf an Kleidung. Die Tunika, die aus 2 viereckigen Wolltücher im Vorderen und Hinten bestand, war die Grundkleidung von Männern und Frauen, egal alt oder jung, reich oder arm. Aber die reichen Adligen trugen diese aus feiner Wolle.",
+        "funcDesc": "Wolle ist ein Luxusgut, sie wird verwendet um das Amt zu versetzen, Helden zur Kapitulation aufzufordern oder ihnen eine Auszeichnung zu verleihen. Einen Helden eine Auszeichnung zu verleihen, kann seine Loyalität um 20 erhöhen.",
+        "name": "Wolle"
+    },
+    "upgradeBuilding": {
+        "funcDesc": "dienen zum Austausch des Requisiten des Delagu-Gesetzb uches.",
+        "name": "Bauzeichnung",
+        "itemDesc": "Die Bautheorien vom Römischen Reich erreichen den Gipfel in damaliger Zeit. Viele Meister des Handwerks treten auf. Von den damaligen verbleibenden Bauruinen können wir ihre vorzügliche Fertigungstechnik noch mitkriegen. Um der Welt diese Architektur zu zeigen benötigst du Bauzeichnungen."
+    },
+    "incResStone1D": {
+        "funcDesc": "Die Steinproduktion steigt um 25%. 24 Std gültig.",
+        "name": "Büste der Erdgöttin",
+        "itemDesc": "Die Erd- und Erntegöttin Chris ist Jupiters Schwester. Opfere eine Büste der Erdgöttin, um die Steinproduktion zu erhöhen."
+    },
+    "fifa19Logo": {
+        "name": "Japanische Flagge",
+        "itemDesc": "Die japanische Flagge wird 1 Tag lang über deiner Stadt angezeigt. Du kannst diese durch eine andere Flagge ersetzen. Requisit bis 11.07.2010 im Shop kaufbar.",
+        "funcDesc": "Die Flagge deiner Stadt wird zur japanischen Flagge geändert. 1 Tag gültig"
+    },
+    "huizhang": {
+        "funcDesc": "Dagegen kann man 300 000 Ehrenpunkte eintauschen.",
+        "name": "Ehrenwappen",
+        "itemDesc": "Wird zum Eintauschen von 300 000 Ehrenpunkten verwendet, ein großes Verdienst für den Spieler und seine Bündnis. Das Requisit ist nicht kaufbar, kann aber gegen Wappen anderer Regionen eingetauscht werden oder nach Aufladen als Geschenk erhalten,Es ist bis Ende der Aktion \"Führertruppe\" gültig."
+    },
+    "LvUpPacket": {
+        "funcDesc": "Nach der Öffnung kann man erhalten: 《Expeditionsbericht von Alexander》x1, 《Kriegsgeschichte von Peloponnes》x1, 《Persischer Krieg》x1",
+        "name": "Musterwerk des Helden",
+        "itemDesc": "Im 「Musterwerk des Helden」enthält 《Expeditionsbericht von Alexander》x1, 《Kriegsgeschichte von Peloponnes》x1, 《Persischer Krieg》x1, nach der Benutzung wird die Heldenrangstufe rasch erhöht"
+    },
+    "MinervaHolyWater(L)PackII": {
+        "name": "Minervas Heiliges Wasserpaket II",
+        "itemDesc": "Kauft man 3x Minervas Heiliges Wasser (groß), bekommt man kostenlos 3x Minervas Edelstein.",
+        "funcDesc": "Beim Öffnen erhältst du 3x Minervas Heiliges Wasser (groß) und 3x Minervas Edelstein."
+    },
+    "homeIV": {
+        "name": "normal",
+        "funcDesc": "normal",
+        "itemDesc": "normal"
+    },
+    "LoyalRingTicket.Lv1": {
+        "itemDesc": "Ringkarte Lv.1 kann beim Senat gegen 1x Ring der Treue (Lv.1) eingetauscht werden.",
+        "name": "Ringkarte Lv.1",
+        "funcDesc": "Ringkarte Lv.1 kann beim Senat gegen 1x Ring der Treue (Lv.1) eingetauscht werden."
+    },
+    "incResWood1D": {
+        "funcDesc": "Die Holzproduktion steigt um 25%. 24 Std. gültig.",
+        "name": "Büste des Waldgottes",
+        "itemDesc": "Faunus ist der Wald- und Feldgott. Opfere eine Büste des Waldgottes, um die Holzproduktion zu erhöhen."
+    },
+    "homeIII": {
+        "name": "normal",
+        "funcDesc": "normal",
+        "itemDesc": "normal"
+    },
+    "SilverBarPackI": {
+        "funcDesc": "Conseguirás 13 Barras de Cobre y 1 Agua Bendita de Minerva (M) tras abrirlo.",
+        "name": "Paquete de Barras de Cobre I",
+        "itemDesc": "Paquete Especial de 13 Barras de Cobre con regalo extra。"
+    },
+    "ApolloPass": {
+        "name": "",
+        "itemDesc": "",
+        "funcDesc": ""
+    },
+    "Mars.pocket": {
+        "funcDesc": "normal",
+        "name": "normal",
+        "itemDesc": "normal"
+    },
+    "fruit": {
+        "funcDesc": "Wenn du bei deinem Held auf \"+\" hinter dem \"physikalischen Wert\" klickst und das Obst wählst, bekommt dein Held 30% der maximal erreichbaren Körperkraft wieder. Aber dennoch wird die Obergrenze nicht überschreitet.",
+        "name": "Obst",
+        "itemDesc": "Gemüse und Obst sind erforderlich für die römischen Bürger und können deinen Helden helfen, viel Körperkraft wiederzuerlangen."
+    },
+    "player.box.resource.1t.17": {
+        "itemDesc": "Wenn du 20€ auflädst, erhältst du Geschenke im Wert von 24€ dazu. Nach der Öffnung erhältest du viele Ressourcen und Beschleunigungsrequisiten, was dir beim Bau deiner Stadt und bei der Versetzung vom Amt hilft.",
+        "funcDesc": "Nach der Öffnung erhält ein Spieler: 160000 Getreide, 160000 Holz, 160000 Steine, 160000 Eisen, kleine Motivationsrede x 1, Volkschutzbekanntmachung x 1, Entwurfsplan x 2, Opfergaben x 10, 1.Band von „Zehn Bücher über Architektur” x 5, 4.Band von „Zehn Bücher über Architektur” x 2, „Politische Essenz“ x 5, Büste des Handelsgottes x 1, Statue des Waldgottes x 1, „Alexanders Expedition“ x 1, Horn x 10, Geschenkkasten x 2, urtümliche Geschenkkasten x 2, herrliche Geschenkkasten x 2.",
+        "name": "Luxus-Pack"
+    },
+    "LoyalMountTicket.Lv3": {
+        "name": "Reittierskarte Lv.3",
+        "itemDesc": "Reittierskarte Lv.3, kann beim Senat gegen 1x Kriegspferd der Treue (Lv.3) eingetauscht werden.",
+        "funcDesc": "Reittierskarte Lv.3, kann beim Senat gegen 1x Kriegspferd der Treue (Lv.3) eingetauscht werden."
+    },
+    "incHeroDefence1D": {
+        "funcDesc": "Die Inteligenz des Helden kann durch Verwendung der Minerva-Medaille um 25% erhöht werden. 7 Tage gültig.",
+        "name": "Minerva-Medaille",
+        "itemDesc": "Die Medaille im Namen von Göttin der Weisheit und des Sieges Minerva gibt den Besitzern Kriegsweisheit und führt sie vom Sieg zum Sieg."
+    },
+    "festival_green": {
+        "name": "Mondfestgeschenk (grün)",
+        "itemDesc": "Die Bescheinigung bzw. Auszeichnung in Bezug auf die Vernichtung des im freien befindlichen Feindes während dem Mondfest lässt man nach deren Benutzung eine gewisse Streitmacht bzw. Artikel für Belohnung des Helden erhalten.",
+        "funcDesc": "Erhalt nach der Öffnung: kapitulierte Armee der Großtruppeneinheit x1, Diamant x1, 20000 Kupfermünzen."
+    },
+    "_number.player.box.gambling.iron.120000": {
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "funcDesc": "120000 Eisen",
+        "name": "120000 Eisen-Pack"
+    },
+    "Trans.gray": {
+        "itemDesc": "Wenn es dir gelingt, die Rebellentruppen in der Wildnis Stufe 1-3 zu besiegen, erhälst du von den Einheimischen ein graues Rebellen Schild als Andenken. Dieses symbolisiert deinen Sieg. Je mehr Andenken du sammelst, desto höher sind deine Verdienste.",
+        "name": "Graues Rebellen Schild",
+        "funcDesc": "Du erhältst es durch Angriff in Wildnis oder Kauf im Shop. Es kann bei einer Austausch-Aufgabe verwendet werden."
+    },
+    "resetHero": {
+        "itemDesc": "Die Ausbildung eines Helden kostet viel Zeit. Durch einen Versetzungserlass kann die Entwicklungsrichtung des Helden am besten eingestellt werden. Die gesammelten Erfahrungen werden die erforderlichen Fähigkeiten gezielt verstärken.",
+        "funcDesc": "Durch einen Versetzungserlass werden die Heldeneigenschaften auf den Anfangswert gesetzt. Die Anzahl der benötigen Erlasse hängt von der Heldenstufe ab. Anzahl = Heldenstufe / 10.",
+        "name": "Versetzungserlass"
+    },
+    "fifa15Logo": {
+        "name": "Serbische Flagge",
+        "itemDesc": "Die serbische Flagge wird 1 Tag lang über deiner Stadt angezeigt. Du kannst diese durch eine andere Flagge ersetzen. Requisit bis 11.07.2010 im Shop kaufbar.",
+        "funcDesc": "Die Flagge deiner Stadt wird zur serbischen Flagge geändert. 1 Tag gültig"
+    },
+    "fifa21Logo": {
+        "name": "Italienische Flagge",
+        "itemDesc": "Die italienische Flagge wird 1 Tag lang über deiner Stadt angezeigt. Du kannst diese durch eine andere Flagge ersetzen. Requisit bis 11.07.2010 im Shop kaufbar.",
+        "funcDesc": "Die Flagge deiner Stadt wird zur italienischen Flagge geändert. 1 Tag gültig"
+    },
+    "fifa12Logo": {
+        "funcDesc": "Die Flagge deiner Stadt wird zur slowenischen Flagge geändert. 1 Tag gültig",
+        "itemDesc": "Die slowenische Flagge wird 1 Tag lang über deiner Stadt angezeigt. Du kannst diese durch eine andere Flagge ersetzen. Requisit bis 11.07.2010 im Shop kaufbar.",
+        "name": "Slowenische Flagge"
+    },
+    "speaker100": {
+        "funcDesc": "Damit kann ein Spieler im Weltkanal sprechen und Massenbriefe schicken.",
+        "name": "Horn × 100",
+        "itemDesc": "Hundert Hörner im Wert von 300 Goldmünzen werden zusammen für 240 Goldmünzen verkauft."
+    },
+    "fifa8Logo": {
+        "funcDesc": "Die Flagge deiner Stadt wird zur griechischen Flagge geändert. 1 Tag gültig",
+        "name": "Griechische Flagge",
+        "itemDesc": "Die griechische Flagge wird 1 Tag lang über deiner Stadt angezeigt. Du kannst diese durch eine andere Flagge ersetzen. Requisit bis 11.07.2010 im Shop kaufbar."
+    },
+    "Onagers.1": {
+        "name": "10 Katapulte-Pack",
+        "funcDesc": "10 Katapulte",
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden."
+    },
+    "Horn.repression.1": {
+        "funcDesc": "Wird durch den täglichen Austausch erhalten, ist der notwendige Gegenstand, den Krieg gegen Karthago-Pöbel und Karthago-Empörer zu starten.",
+        "name": "Kleines Repressionshorn",
+        "itemDesc": "Transportables Horn, wird von Karthago-Pöbel gewonnen."
+    },
+    "_number.player.box.gambling.iron.200000": {
+        "name": "200000 Eisen-Pack",
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "funcDesc": "200000 Eisen"
+    },
+    "CodeofDraco.Pocket": {
+        "name": "Draco-Gesetzbuch-Paket",
+        "itemDesc": "Kaufe 5 Draco-Gesetzbuch und man bekommt 1 geschenkt.",
+        "funcDesc": "Öffne es und man bekommt 6x Draco-Gesetzbuch."
+    },
+    "_number.player.box.gambling.wood.200000": {
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "funcDesc": "200000 Holz",
+        "name": "200000 Holz-Pack"
+    },
+    "reliveTroopAtWar": {
+        "itemDesc": "Durch die Büste des Heilungsgottes bekommen die Soldaten mehr Schutz. Durch den Glauben an den Heilungsgott überleben die Verwundeten länger und können so gerettet werden. Die Anzahl der Toten wird dadurch stark reduziert.",
+        "funcDesc": "10% der Truppeneinheit überleben einen tödlichen Angriff und befinden sich nach dem Kampf im Lazarett. Durch die Verwendung der „Büste des Heilungsgottes“ steigert sich Zahl der Verletzten auf 60%. 24 Stunden gültig.",
+        "name": "Büste des Heilungsgottes"
+    },
+    "speedupFort": {
+        "funcDesc": "Das Requisit kann bei der Stadtverteidigung verwendet werden. Dadurch werden die verbleibende Zeit aller Stadtverteidigung-Baugruppen um 50% verkürzt. Einmal pro Baugruppe gültig.",
+        "name": "Flaschenzug",
+        "itemDesc": "Der römische Altarchitekt Vitruvius hat in seinem Werk solchen Flaschenzug beschrieben, der aus zwei Festscheiben und einer Bewegungsscheibe besteht. Im einigen Werken wird behauptet, dass dieser Flaschenzug im 3. Jahrhundert v.Chr. von Archimedes erfunden wurde. Mit Hilfe dieses Gerätes kann der Bau für die Stadtverteidigung beschleunigt werden."
+    },
+    "madeCapital": {
+        "itemDesc": "Unter der Leitung des Orakel schaffst du deine jetzige Stadt zur Hauptstadt auszurufen. Die zur Hauptstadt gemachte Stadt darf nicht niedriger als Stufe 8 sein. Die erste Nennung zur Hauptstadt tritt sofort in Kraft. Mit Hilfe von \"Hauptstadt-nennen-Orakel\" wird eine Stadt erst nach 24 Std. zur Hauptstadt. Falls inzwischen diese Stadt erobert wird,scheitert auch die Verlegung der Hauptstadt.",
+        "funcDesc": "Du kannst die jetzige Stadt zur Hauptstadt nennen. Dadurch verdoppelt sich die Bautechnik der Stadt, und die Obergrenze der Bevölkerung wird sich um 20% erhöhen.",
+        "name": "Hauptstadt-nennen-Orakel"
+    },
+    "UrbanCohort.3": {
+        "funcDesc": "1000 Legion-Fußsoldaten",
+        "name": "1000 Legion-Fußsoldaten-Pack",
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden."
+    },
+    "player.box.resource.1t.13": {
+        "itemDesc": "Wenn du 9€ auflädst, erhältst du Geschenke im Wert von 10€ dazu. Nach der Öffnung kannst du viele Ressourcen und Requisiten erhalten, was dir beim Bau deiner Stadt und bei der Versetzung vom Amt hilft.",
+        "funcDesc": "Nach der Öffnung erhält ein Spieler: 80000 Getreide, 80000 Holz, 80000 Steine, 80000 Eisen, kleine Motivationsrede x 1, Volkschutzbekanntmachung x 1, Entwurfsplan x 1, 3.Band von „Zehn Bücher über Architektur”x 2, „Politische Essenz“ x 2, Büste des Handelsgottes x 1, Statue des Waldgottes x 1, „Alexanders Expedition“ x 1, Horn x 10, Geschenkkasten x 1, urtümlicher Geschenkkasten x 1 und herrlicher Geschenkkasten x 1.",
+        "name": "9€ Aufladen-Pack"
+    },
+    "_number.player.box.gambling.food.160000": {
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "funcDesc": "160000 Getreide",
+        "name": "160000 Getreide-Pack"
+    },
+    "Vertumnusbox": {
+        "funcDesc": "Four Seasons von Gottes Brust, sofort zu verwandeln eine Vielzahl von Produkten.",
+        "name": "Four Seasons Brust",
+        "itemDesc": "Four Seasons von Gottes Brust, sofort zu verwandeln eine Vielzahl von Produkten."
+    },
+    "festival_gray": {
+        "name": "Mondfestgeschenk (grau)",
+        "funcDesc": "Erhalt nach der Öffnung: kapitulierte Armee der Kleintruppeneinheit x1, Farbstoff x1, Aromastoff x1.",
+        "itemDesc": "Die Bescheinigung bzw. Auszeichnung in Bezug auf die Vernichtung des im freien befindlichen Feindes während dem Mondfest lässt man nach deren Benutzung ein wenig Streitmacht bzw. Artikel für Belohnung des Helden erhalten."
+    },
+    "incReshead.pocket": {
+        "funcDesc": "normal",
+        "name": "normal",
+        "itemDesc": "normal"
+    },
+    "pumpkinpie": {
+        "name": "Bisamkürbisgruppe",
+        "itemDesc": "Feiertagsnahrungsmittel, in dem feine Präsente verstecken. Bei dessen Öffnung kann man wertvolle Requisiten erhalten.",
+        "funcDesc": "Nach der Öffnung kann man erhalten: Toffee x2, Gespenster-Abzeichen x2, Bauzeichnungen x1, 20000 Kupfermünzen."
+    },
+    "incHeroExp100k": {
+        "funcDesc": "Durch Verwendung des Requisits kann der Erfahrungswert des Helden um 100000 oder um 100% des für die jetzigen Stufe erforderlichen Erfahrungswertes erhöht werden. (höherer Wert der Beiden wird genommen)",
+        "itemDesc": "„Alexanders Expedition“ ist ein Protokoll über den Feldzug von einem großartigen König. Mit Hilfe dieses Werkes kann der Erfahrungswert des Helden erhöht werden.",
+        "name": "„Alexanders Expedition“"
+    },
+    "LoyalAccessoriesLetterOfUpgradeResult.Lv2": {
+        "name": "Upgrade-Ergebnis des Schmucks auf Lv.2",
+        "itemDesc": "Upgrade-Ergebnis des Schmucks auf Lv.2, nach dem Öffnen erfährst du, ob die Ausrüstung erfolgreich hochgestuft wurde.",
+        "funcDesc": "Upgrade-Ergebnis des Schmucks auf Lv.2, nach dem Öffnen erfährst du, ob die Ausrüstung erfolgreich hochgestuft wurde. Schmuck der Treue (Lv.1) --- Schmuck der Treue (Lv.2), Erfolgsrate: 100%."
+    },
+    "independence": {
+        "name": "selbstständiges Orakel",
+        "funcDesc": "Durch Verwendung des Requisites \"selbstständiges Orakel\" kannst du deine Stadt von dem kolonialen Zustand befreien. Und die Besatzungstruppen von der Oberherrstadt dürfen dann auch zurückgeschickt werden",
+        "itemDesc": "Wenn deine Stadt erorbert und somit zur kolonialen Stadt gemacht wird, kannst du durch Verwendung des \"selbstständiges Orakel\" deine Stadt zur Handelsunabhängigkeit führen. Und die Besatzungstruppen von der Oberherrstadt dürfen dann auch zurückgeschickt werden"
+    },
+    "prestige1": {
+        "funcDesc": "Sammeln bestimmte Menge davon, um sie durch Tauschaufgabe gegen Prestige einzutauschen.",
+        "itemDesc": "Sammeln bestimmte Menge davon, um sie durch Tauschaufgabe gegen Prestige einzutauschen.",
+        "name": "Prestigewappen"
+    },
+    "_number.player.box.gambling.food.120000": {
+        "name": "120000 Getreide-Pack",
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "funcDesc": "120000 Getreide"
+    },
+    "sacrifice": {
+        "name": "Opfergabe",
+        "funcDesc": "Durch Verwendung des Requites kannst du \"Opferzeremonie\" halten. Danach erhältest du zufällig ein Requisit vom Gott.",
+        "itemDesc": "Eine Opferzeremonie in der römischen Zeit ist ein würdevolles Ritual.In der Regel gibt es eine große Opferung während der Zeremonie."
+    },
+    "Cavalry.3": {
+        "name": "1000 Reiter-Pack",
+        "funcDesc": "1000 Reiter",
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden."
+    },
+    "Spain": {
+        "itemDesc": "Rechts oben von der Stadt wird das spanischen Wappen 7 Tage lang angezeigt, danach wird es zurückgesetzt. Nach Verwendung der Wappen diverser Ländern wird das aktuelle Wappenmuster und die aktuelle Zeit ersetzt. Das Requisit ist solange wirksam, bis die Aktion \"Führertruppe\" ausläuft.",
+        "funcDesc": "Wechsel die Zweitflagge deiner Stadt zu spanischem Wappen, 7 Tage lang.",
+        "name": "Spanisches Wappen"
+    },
+    "Ore.black": {
+        "itemDesc": "Wird von den Karthago-Rebellen gewonnen. Seltenes Metall, hat die höchste Dichte und Härte, rostet nicht so leicht, ist ein hochwertiges Material zur Herstellung von Ausrüstung.",
+        "funcDesc": "Notwendiges Material zum Austausch von Hartkern-Ausrüstung.",
+        "name": "Schwarzeisenerz"
+    },
+    "6godmixpacket": {
+        "itemDesc": "In der 「Zusammensetzung des ganzkörperlichen Götzenbildes」enthält das Ganzporträt des Agrargottes x1, des Waldgottes x1, des Feuergottes x1, des Handelsgottes x1 und des Medizinengottes x1 sowie der Erdgöttin x1. Der Originalpreis beträgt 1080 Goldmünzen, nun wird sie mit dem 10% Sonderrabatt, nämlich 980 Goldmünzen verkauft.",
+        "name": "Zusammensetzung des ganzkörperlichen Götzenbildes",
+        "funcDesc": "Nach der Öffnung kann man erhalten: Ganzporträt des Agrargottes x1, des Waldgottes x1, des Feuergottes x1, des Handelsgottes x1 und des Medizinengottes x1 sowie der Erdgöttin x1"
+    },
+    "festival_purple": {
+        "itemDesc": "Die Bescheinigung bzw. Auszeichnung in Bezug auf die Vernichtung des im freien befindlichen Feindes während dem Mondfest lässt man nach deren Benutzung eine gewisse Streitmacht bzw. Artikel für Belohnung des Helden erhalten.",
+        "funcDesc": "Erhalt nach der Öffnung: kapitulierte Armee der Großtruppeneinheit x1, Seide x1, Pelz x1.",
+        "name": "Mondfestgeschenk (violett)"
+    },
+    "SilverBarPackV": {
+        "itemDesc": "Paquete Especial de 6 Barras de Cobre con regalo extra。",
+        "funcDesc": "Conseguirás 6 Barras de Cobre y 2 Gemas de Minerva tras abrirlo.",
+        "name": "Paquete de Barras de Cobre V"
+    },
+    "Onagers.3": {
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "name": "1000 Katapulte-Pack",
+        "funcDesc": "1000 Katapulte"
+    },
+    "fifa3Logo": {
+        "funcDesc": "Die Flagge deiner Stadt wird zur uruguayischen Flagge geändert. 1 Tag gültig",
+        "name": "Uruguayische Flagge",
+        "itemDesc": "Die uruguayische Flagge wird 1 Tag lang über deiner Stadt angezeigt. Du kannst diese durch eine andere Flagge ersetzen. Requisit bis 11.07.2010 im Shop kaufbar."
+    },
+    "Carthage": {
+        "itemDesc": "Rechts oben von der Stadt wird das karthagischen Wappen 7 Tage lang angezeigt, danach wird es zurückgesetzt. Nach Verwendung der Wappen diverser Ländern wird das aktuelle Wappenmuster und die aktuelle Zeit ersetzt. Das Requisit ist solange wirksam, bis die Aktion \"Führertruppe\" ausläuft.",
+        "name": "Karthagisches Wappen",
+        "funcDesc": "Wechsel die Zweitflagge deiner Stadt zu karthagischem Wappen, 7 Tage lang."
+    },
+    "hero.loyalty.9": {
+        "itemDesc": "Edelsteine können stets die Besitzgier der Menschen wecken. Diamant wird wegen seiner Härte als König der Edelsteine allgemein erkannt. Man betrachtet Diamant als das Symbol von Macht, Würde, Status und Reichtum. Als Geschenk würde man nichts besseres als Diamant finden können.",
+        "funcDesc": "Edelstein ist ein Luxusgut, er wird verwendet um das Amt zu versetzen, Helden zur Kapitulation aufzufordern oder ihnen eine Auszeichnung zu verleihen. Einen Helden eine Auszeichnung zu verleihen, kann seine Loyalität um 60 erhöhen.",
+        "name": "Edelstein"
+    },
+    "LoyalAccessoriesTicket.Lv2": {
+        "funcDesc": "Schmuckkarte Lv.2, kann beim Senat gegen 1x Schmuck der Treue (Lv.2) eingetauscht werden.",
+        "name": "Schmuckkarte Lv.2",
+        "itemDesc": "Schmuckkarte Lv.2, kann beim Senat gegen 1x Schmuck der Treue (Lv.2) eingetauscht werden."
+    },
+    "incArmyTroopLimit": {
+        "itemDesc": "Der Cäsars Adler gilt als Symbol der Cäsar-Familie und ist die Seele der römischen Armee. Ein Held mit dem Caesar Adler kann mehr Soldaten anführen.",
+        "funcDesc": "Die Obergrenze der Streitkräfte von Truppen des Helden kann durch Verwendung des Cäsars Adlers um 25% erhöht werden. 7 Tage gültig.",
+        "name": "Cäsars Adler"
+    },
+    "_number.player.box.gambling.stone.160000": {
+        "name": "160000 Steine-Pack",
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "funcDesc": "160000 Steine"
+    },
+    "upgradeCity.pocket1": {
+        "itemDesc": "Kaufe 4 Entwurfsplan und zahle 10 Goldmünze dazu und man bekommt 1 mehr.",
+        "funcDesc": "Öffne und man bekommt 5x Entwurfsplan",
+        "name": "Entwurfsplan-Paket"
+    },
+    "LionEmblem": {
+        "funcDesc": "Wird eine bestimmte Zahl gesammelt, können die im Löwenköniganzug befindlichen Schutzschilder oder Raupenhelme bzw. die Schuhen umgetauscht werden.",
+        "itemDesc": "Das Löwenabzeichen symbolisiert die Kühnheit und Kraft.",
+        "name": "Löwenkönig-Abzeichen"
+    },
+    "ipad.pocket": {
+        "itemDesc": "Normal",
+        "funcDesc": "Normal",
+        "name": "Normal"
+    },
+    "festival_blue": {
+        "name": "Mondfestgeschenk (blau)",
+        "funcDesc": "Erhalt nach der Öffnung: kapitulierte Armee der Mitteltruppeneinheit x1, Räucherstäbchen x1, 20000 Kupfermünzen.",
+        "itemDesc": "Die Bescheinigung bzw. Auszeichnung in Bezug auf die Vernichtung des im freien befindlichen Feindes während dem Mondfest lässt man nach deren Benutzung eine kleine Menge Streitmacht bzw. Artikel für Belohnung des Helden erhalten."
+    },
+    "_number.player.box.gambling.food.80000": {
+        "funcDesc": "80000 Getreide",
+        "name": "80000 Getreide-Pack",
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden."
+    },
+    "fifa25Logo": {
+        "funcDesc": "Die Flagge deiner Stadt wird zur brasilianischen Flagge geändert. 1 Tag gültig",
+        "name": "Brasilianische Flagge",
+        "itemDesc": "Die brasilianische Flagge wird 1 Tag lang über deiner Stadt angezeigt. Du kannst diese durch eine andere Flagge ersetzen. Requisit bis 11.07.2010 im Shop kaufbar."
+    },
+    "hero.loyalty.1": {
+        "funcDesc": "Farbstoff ist ein Luxusgut, er wird verwendet um das Amt zu versetzen, Helden zur Kapitulation aufzufordern oder ihnen eine Auszeichnung zu verleihen. Einen Helden eine Auszeichnung zu verleihen, kann seine Loyalität um 5 erhöhen.",
+        "name": "Farbstoff",
+        "itemDesc": "Im Jahr 715 v.Chr. gab es in Rom bereits die Technik des Wollfärbens. Die Römer besaßen ausreichenden Kenntnis über Farbstoffe, sodass die Farbstoffe zu ein der gewöhnlichsten Haushaltsgegenstände wurde. Als Geschenk für Freunde war Farbstoff ebenfalls sehr beliebt."
+    },
+    "bread": {
+        "name": "Brot",
+        "itemDesc": "Brot zählt als Grundnahrung der Römer. Es kann deinen Helden helfen, bestimmte Körperkraft wiederzuerlangen.",
+        "funcDesc": "Wenn du bei deinem Held auf \"+\" hinter dem \"physikalischen Wert\" klickst und das Brot wählst, bekommt dein Held 10% der maximal erreichbaren Körperkraft wieder. Aber dennoch wird die Obergrenze nicht überschreitet."
+    },
+    "speedup3hBuilding": {
+        "itemDesc": "Das im Jahr 27 v.Chr. vom römischen Architekten Vitruvius geschriebene Werk „Zehn Bücher über Architektur” ist eine helle Perle voller Weisheit in der römischen Zivilisation. Die Theorien und Techniken in diesem klassischen Werk spielt eine wichtige Rolle bei der Entwicklung der Architektur. Das komplette „Zehn Bücher über Architektur” ist in vielen Teilen eingegliedert. Mit Hilfe von denen kann die Bauzeit beträchtlich verkürzt und den Bauprozess beschleunigt werden.",
+        "name": "zerstreute Rolle v Shi Buch",
+        "funcDesc": "Durch Verwendung von diesem Requisit kann die Zeit eines Bauauftrags um 3 Std. verkürzt werden."
+    },
+    "GoldOrder": {
+        "name": "Gold-Abzeichen",
+        "funcDesc": "Für den Start oder Angriff in den Kampf  in großer Rhein Festung",
+        "itemDesc": "Für den Start oder Angriff in den Kampf  in großer Rhein Festung"
+    },
+    "Cavalry.2": {
+        "funcDesc": "100 Reiter",
+        "name": "100 Reiter-Pack",
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden."
+    },
+    "king.chest": {
+        "funcDesc": "Nach dem Öffnen erhält man 3x Kriegerwappen, 1x Portrait des Arztgottes und 1x Kleine Motivationsrede.",
+        "name": "Schatzkiste des spartanischen Königs",
+        "itemDesc": "Schatzkiste des spartanischen Königs, nach dem Öffnen erhält man 3x Kriegerwappen, 1x Portrait des Arztgottes und 1x Kleine Motivationsrede."
+    },
+    "fifa30Logo": {
+        "funcDesc": "Die Flagge deiner Stadt wird zur schweizen Flagge geändert. 1 Tag gültig",
+        "name": "Schweize Flagge",
+        "itemDesc": "Die schweize Flagge wird 1 Tag lang über deiner Stadt angezeigt. Du kannst diese durch eine andere Flagge ersetzen. Requisit bis 11.07.2010 im Shop kaufbar."
+    },
+    "hero.loyalty.5": {
+        "itemDesc": "Für die Römer galt Seide als teures Luxusgut, das nur wenige der Adligen benutzen durften. Eine Seide zu verschenken, bedeutet, seine eigene Hochachtung zu schenken.",
+        "funcDesc": "Seide ist ein Luxusgut, sie wird verwendet um das Amt zu versetzen, Helden zur Kapitulation aufzufordern oder ihnen eine Auszeichnung zu verleihen. Einen Helden eine Auszeichnung zu verleihen, kann seine Loyalität um 25 erhöhen.",
+        "name": "Seide"
+    },
+    "_number.player.box.gambling.wood.320000": {
+        "name": "320000 Holz-Pack",
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "funcDesc": "320000 Holz"
+    },
+    "player.box.special.1": {
+        "itemDesc": "Ein Geschenkkasten zur Aufbewahrung der Luxusgüter. Nach der Öffnung erhält ein Spieler zufällig 4 bis 12 Portionen Farbstoff, Gewürz und Wein. Mindestens 2 Arten, 2 bis 4 Portionen pro Art.",
+        "funcDesc": "Nach der Öffnung erhält ein Spieler zufällig 4 bis 12 Portionen Farbstoff, Gewürz und Wein. Mindestens 2 Arten, 2 bis 4 Portionen pro Art.",
+        "name": "Geschenkkasten"
+    },
+    "festival_special": {
+        "itemDesc": "Die Bescheinigung bzw. Auszeichnung in Bezug auf die Vernichtung des im freien befindlichen Feindes während dem Mondfest lässt man nach deren Benutzung eine gewisse Streitmacht bzw. Artikel für Belohnung des Helden erhalten.",
+        "name": "Mondfestgeschenk (Spezialversion)",
+        "funcDesc": "Erhalt nach der Öffnung: kapitulierte Armee der Kleintruppeneinheit x1, kapitulierte Armee der Mitteltruppeneinheit x1, kapitulierte Armee der Großtruppeneinheit x1, Kleinmobilmachungsbefehl, 80000 Kupfermünzen."
+    },
+    "football03": {
+        "name": "rotes Fußballfeld",
+        "itemDesc": "Ändere das Aussehen deiner Stadt zu einem roten Fußballfeld. 7 Tage gültig. Requisit bis 11.07.2010 im Shop kaufbar.",
+        "funcDesc": "Die Stadt wird zum roten Fußballfeld geändert. 7 Tage gültig"
+    },
+    "Trans.yellow": {
+        "funcDesc": "Du erhältst es durch Angriff in Wildnis oder Kauf im Shop. Es kann bei einer Austausch-Aufgabe verwendet werden.",
+        "itemDesc": "Wenn es dir gelingt, die Rebellentruppen in der Wildnis Stufe 4-7 zu besiegen, erhälst du von den Einheimischen ein gelbes Rebellen Schild als Andenken. Dieses symbolisiert deinen Sieg. Je mehr Andenken du sammelst, desto höher sind deine Verdienste.",
+        "name": "Gelbes Rebellen Schild"
+    },
+    "LoyalRingTicket.Lv2": {
+        "itemDesc": "Ringkarte Lv.2, kann beim Senat gegen 1x Ring der Treue (Lv.2) eingetauscht werden.",
+        "funcDesc": "Ringkarte Lv.2, kann beim Senat gegen 1x Ring der Treue (Lv.2) eingetauscht werden.",
+        "name": "Ringkarte Lv.2"
+    },
+    "_number.player.box.gambling.stone.120000": {
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "funcDesc": "120000 Steine",
+        "name": "120000 Steine-Pack"
+    },
+    "_number.player.box.gambling.gold.100000": {
+        "funcDesc": "100000 Kupfermünzen",
+        "name": "100000 Kupfermünzen-Pack",
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden."
+    },
+    "incArmyAttack7D": {
+        "name": "Kriegsgottes Tosen",
+        "itemDesc": "Es ist der Legende nach ein vom Kriegsgott Mars benutztes Schwert. Eine Ausstattung mit dem Schwert wird die Streitkraft deiner Truppen stärken.",
+        "funcDesc": "Die Streitkraft des Kriegszugs nimmt um 10% zu. 24 Stunden gültig."
+    },
+    "SilverBar": {
+        "name": "Silberbarren",
+        "itemDesc": "Silberbarren, kann die Ausrüstung hochstufen.",
+        "funcDesc": "Silberbarren, kann die Ausrüstung hochstufen."
+    },
+    "Parthia": {
+        "itemDesc": "Rechts oben von der Stadt wird das persischen Wappen 7 Tage lang angezeigt, danach wird es zurückgesetzt. Nach Verwendung der Wappen diverser Ländern wird das aktuelle Wappenmuster und die aktuelle Zeit ersetzt. Das Requisit ist solange wirksam, bis die Aktion \"Führertruppe\" ausläuft.",
+        "funcDesc": "Wechsel die Zweitflagge deiner Stadt zu persischem Wappen, 7 Tage lang.",
+        "name": "Persisches Wappen"
+    },
+    "player.box.present.1": {
+        "itemDesc": "Inhaltsreiches Geschenkpack für die Anfänger. Es kann direkt nach der Anmeldung geöffnet werden. Nach der Öffnung kann ein Spieler viele Ressourcen und Requisiten erhalten.",
+        "funcDesc": "Nach der Öffnung erhält ein Spieler: 5000 Getreide, 5000 Holz, 5000 Steine, 5000 Eisen, 1.Band von „Zehn Bücher über Architektur” x 1 und Anfänger Lv2-Pack x 1.",
+        "name": "Anfänger Lv1-Pack"
+    },
+    "speaker200": {
+        "name": "Horn × 200",
+        "funcDesc": "200 Hörner",
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden."
+    },
+    "hero.loyalty.6": {
+        "name": "Pelz",
+        "funcDesc": "Pelz ist ein Luxusgut, er wird verwendet um das Amt zu versetzen, Helden zur Kapitulation aufzufordern oder ihnen eine Auszeichnung zu verleihen. Einen Helden eine Auszeichnung zu verleihen, kann seine Loyalität um 30 erhöhen.",
+        "itemDesc": "Weil die Römer Pelz am Körper als die Kleidung der Barbaren hielten, trugen sie sehr selten Kleidung aus Pelz. Aber feiner Pelz ist geeignet für Matratzen und Kissen. Während dem Feldzug auf dem bitterkalten Gebiet ein paar Pelze mit sich nehmen, dann dürfte die Kälte nicht mehr so unerträglich sein."
+    },
+    "GoldHorn": {
+        "name": "Goldenes Horn",
+        "itemDesc": "Zum Anwenden der Schlacht in großer Rhein Festung",
+        "funcDesc": "Zum Anwenden der Schlacht in großer Rhein Festung"
+    },
+    "fifa16Logo": {
+        "name": "Ghanaische Flagge",
+        "itemDesc": "Die ghanaische Flagge wird 1 Tag lang über deiner Stadt angezeigt. Du kannst diese durch eine andere Flagge ersetzen. Requisit bis 11.07.2010 im Shop kaufbar.",
+        "funcDesc": "Die Flagge deiner Stadt wird zur ghanaischen Flagge geändert. 1 Tag gültig"
+    },
+    "player.box.present.12": {
+        "name": "6€ Aufladen-Pack",
+        "itemDesc": "Wenn du 6€ auflädst, erhältst du Geschenke im Wert von 4€ dazu. Nach der Öffnung kannst du viele Ressourcen und Beschleunigungsrequisiten erhalten, was dir beim Bau deiner Stadt und bei der Versetzung vom Amt hilft.",
+        "funcDesc": "Nach der Öffnung erhält ein Spieler: 40000 Getreide, 40000 Holz, 40000 Steine, 40000 Eisen, kleine Motivationsrede x 1, Volkschutzbekanntmachung x 1, Büste des Handelsgottes x 1, 1.Band von „Gesammelte Werke von Archimedes” x 2, Horn x 10 und urtümlichen Geschenkkasten x 1."
+    },
+    "Horn.repression.2": {
+        "funcDesc": "Wird durch den täglichen Austausch erhalten, ist der notwendige Gegenstand, den Krieg gegen die Karthago-Rebellen und ihre Hauptkraft zu starten.",
+        "name": "Großes Repressionshorn",
+        "itemDesc": "Ein lautes Horn, wird von Karthago-Empörer gewonnen."
+    },
+    "_number.player.box.gambling.wood.40000": {
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "name": "40000 Holz-Pack",
+        "funcDesc": "40000 Holz"
+    },
+    "player.box.present.10": {
+        "funcDesc": "Nach der Öffnung erhält ein Spieler: „Alexanders Expedition“ x 1, Bauzeichnung x 1 und Horn x 20.",
+        "itemDesc": "Inhaltsreiches Geschenkpack für die Anfänger. Nach der Versetzung der Amtssitz auf Level 10 kann es geöffnet werden. Nach der Öffnung kann ein Spieler viele Ressourcen und Requisiten erhalten.",
+        "name": "Anfänger Lv10-Pack"
+    },
+    "moveCastleAdv": {
+        "itemDesc": "„Umzugswagen in großer Menge“ ist viel praktischer, da du die Koordinaten des neuen Ortes selbst bestimmen kannst. Damit vermeidet man unsichere Faktoren oder führst deine starken Truppen dichter an den Feind ran.",
+        "funcDesc": "Du kannst deine Stadt zu einem bestimmten Ort verlegen. Zur Verwendung eines Umzuges dürfen sich keine Truppen außerhalb der Stadt oder Besatzungstruppen innerhalb der Stadt befinden. Nach dem Umzug sind innerhalb von 24 Stunden keine Kriegszüge oder weitere Umzüge möglich.",
+        "name": "Umzugswagen in großer Menge"
+    },
+    "homeI": {
+        "itemDesc": "normal",
+        "name": "normal",
+        "funcDesc": "normal"
+    },
+    "SilverMedal": {
+        "name": "Silber-Medaille",
+        "itemDesc": "Medaille aus Silber. Der Konsum von Silver Medal erziehen können, Helden Kampf-Fähigkeit zu erhöhen.",
+        "funcDesc": "Der Konsum von Silber-C hat eine mittlere Chance, Helden Eigenschaften von Bildung zu erhöhen."
+    },
+    "MinervaHolyWater": {
+        "itemDesc": "Minervas Heiliges Wasser, verlängert den Effekt von Minevas Segen auf der Ausrüstung.",
+        "name": "Minervas Heiliges Wasser",
+        "funcDesc": "Minervas Heiliges Wasser, verlängert den Effekt von Minevas Segen auf der Ausrüstung, dauert 3 Tage."
+    },
+    "BigBronzeBarPack": {
+        "funcDesc": "",
+        "name": "",
+        "itemDesc": ""
+    },
+    "football01": {
+        "itemDesc": "Ändere das Aussehen deiner Stadt zu einem orangen Fußballfeld. 7 Tage gültig. Requisit bis 11.07.2010 im Shop kaufbar.",
+        "funcDesc": "Die Stadt wird zum orangen Fußballfeld geändert. 7 Tage gültig",
+        "name": "oranges Fußballfeld"
+    },
+    "player.box.resource.1t.14": {
+        "itemDesc": "Inhaltreiches Entwicklung-Pack, das Beschleunigungsrequisiten, Herstellungsrequisiten, Ressourcen,..enthält. Der Gesamtwert beträgt 2665 Goldmünzen! Als mächtiger Fürst sollst du es besitzen!",
+        "funcDesc": "Nach der Öffnung erhält ein Spieler: 80000 Getreide, 80000 Holz, 80000 Steine, 80000 Eisen, 1.Band von „Zehn Bücher über Architektur” x 2, 2.Band von „Zehn Bücher über Architektur” x 6, 1.Band von „Gesammelte Werke von Archimedes” x 2, 2.Band von „Gesammelte Werke von Archimedes” x 6, „Politische Essenz“ x 2, „Politische fortschrittliche Phase“ x 6, Held-Pack (Potenzialwert 4) x 1, Statue des Waldgottes x 1, herrliche Geschenkkasten x 2, Opfergaben x 10, Horn x 10 und 4 Räder Kutschen x 5.",
+        "name": "Entwicklung-Diamant-Pack"
+    },
+    "PeaceEmblem.Pocket": {
+        "funcDesc": "Du erhältst 10-15 Friedens-Abzeichen nach dem Öffnen, die spezifische Zahl erfährst du  nach dem öffnen.",
+        "name": "Friedens-Abzeichen-Pack",
+        "itemDesc": "Die olympische Leichtathletik-Spiele finden alle 4 Jahre statt, das Unterstützen und daran teilzunehmen kann Friedens-Abzeichen einbringen."
+    },
+    "_number.player.box.gambling.food.240000": {
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "funcDesc": "240000 Getreide",
+        "name": "240000 Getreide-Pack"
+    },
+    "refreshTavern": {
+        "funcDesc": "Mit einem Einziehungsschriftstück kann die Heldenliste im Kolosseum aktualisiert werden.",
+        "name": "Einziehungsschriftstück",
+        "itemDesc": "Wenn für schwierige Aufgaben dringend ein neuer Held benötigt wird und im Kolosseum befindet sich derzeit nicht der richtige Held, verlassen dank des Einziehungsschriftstückes die vorhanden Helden das Kolosseum und neue Helden stellen sich vor."
+    },
+    "_number.player.box.gambling.medal.30": {
+        "funcDesc": "30 Goldmünzen",
+        "name": "30 Goldmünzen-Pack",
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden."
+    },
+    "Trans.red": {
+        "name": "Rotes Generaltypenschild",
+        "itemDesc": "Das Typenschild gilt als Belohung für den Sieg in einem regionalen Manöver. Es dient zum Umtausch von verschiedenen Auszeichnungen.",
+        "funcDesc": "Du erhältst es durch die Teilnahme an einem regionalen Manöver. Du kannst es mit dem Senat gegen anderen Requisiten umtauschen."
+    },
+    "Pumpkin": {
+        "funcDesc": "Er beinhaltet: 1x Opfer, 1x kapitulierte Armee der Kleintruppeneinheit und 1x kapitulierte Armee der Mitteltruppeneinheit.",
+        "name": "Kürbis",
+        "itemDesc": "Ein Festtagsgeschenk voller wertvoller edler Gegenstände"
+    },
+    "medal.of.craft": {
+        "funcDesc": "Dient zum Eintausch von Rüstungen",
+        "name": "Kunstwerkstempel",
+        "itemDesc": "Das symbolisiert gute Beziehung zwischen dir und den römischen Schmieden, die ausgezeichnete Kunstfertigkeit besitzen."
+    },
+    "_number.player.box.gambling.gold.60000": {
+        "funcDesc": "60000 Kupfermünzen",
+        "name": "60000 Kupfermünzen-Pack",
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden."
+    },
+    "LoyalCaestusLetterOfUpgradeResult.Lv2": {
+        "itemDesc": "Upgrade-Ergebnis des Gürtels auf Lv.2, nach dem Öffnen erfährst du, ob die Ausrüstung erfolgreich hochgestuft wurde.",
+        "name": "Upgrade-Ergebnis des Gürtels auf Lv.2",
+        "funcDesc": "Upgrade-Ergebnis des Gürtels auf Lv.2, nach dem Öffnen erfährst du, ob die Ausrüstung erfolgreich hochgestuft wurde. Gürtel der Treue (Lv.1) --- Gürtel der Treue (Lv.2), Erfolgsrate: 100%."
+    },
+    "resetHero6": {
+        "funcDesc": "Durch einen Versetzungserlass werden die Heldeneigenschaften auf den Anfangswert gesetzt. Die Anzahl der benötigen Erlasse hängt von der Heldenstufe ab. Anzahl = Heldenstufe / 10.",
+        "name": "Versetzungserlass × 6",
+        "itemDesc": "Sechs Versetzungserlasse im Wert von 120 Goldmünzen werden zusammen für 100 Gold verkauft."
+    },
+    "Developcity.pocket": {
+        "funcDesc": "normal",
+        "name": "normal",
+        "itemDesc": "normal"
+    },
+    "player.box.gambling.hero.6": {
+        "name": "Held-Pack (Potenzialwert 6)",
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "funcDesc": "Zufallsheld der Stufe 6 (Potenzialwert 6)"
+    },
+    "Triarii.2": {
+        "funcDesc": "100 Fußsoldaten",
+        "name": "100 Fußsoldaten-Pack",
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden."
+    },
+    "LoyalMountLetterOfUpgradeResult.Lv2": {
+        "funcDesc": "Upgrade-Ergebnis des Reittiers auf Lv.2, nach dem Öffnen erfährst du, ob die Ausrüstung erfolgreich hochgestuft wurde. Kriegspferd der Treue (Lv.1) --- Kriegspferd der Treue (Lv.2), Erfolgsrate: 100%.",
+        "name": "Upgrade-Ergebnis des Reittiers auf Lv.2",
+        "itemDesc": "Upgrade-Ergebnis des Reittiers auf Lv.2, nach dem Öffnen erfährst du, ob die Ausrüstung erfolgreich hochgestuft wurde."
+    },
+    "changePlayerName": {
+        "name": "(Gladiator) Künstlername",
+        "itemDesc": "Ein Spieler kann durch den Gladiator Künstlernamen den Fürstnamen ändern. Unter Spielerinformation (links unten im Spielfenster) kannst du den Namen ändern und mit den Button „Ändern“ die Umbenennung bestätigen.",
+        "funcDesc": "Du benötigst einen Gladiator Künstlernamen für die Änderung deines Namen."
+    },
+    "fifa6Logo": {
+        "funcDesc": "Die Flagge deiner Stadt wird zur nigerischen Flagge geändert. 1 Tag gültig",
+        "name": "Nigerische Flagge",
+        "itemDesc": "Die nigerische Flagge wird 1 Tag lang über deiner Stadt angezeigt. Du kannst diese durch eine andere Flagge ersetzen. Requisit bis 11.07.2010 im Shop kaufbar."
+    },
+    "SenatePlatinumBox": {
+        "name": "Senat Platin Box",
+        "funcDesc": "Einmal geöffnet, haben Sie die Chance auf einen der folgenden Items zu bekommen: großen Umzugswagen,Motivationsrede, Statue des Arztgottes,  Büste des Handelsgottes,herrlicher Geschenkkasten, Draco-Gesetzbuch,Gesetzbuch der 12 Kupfertabellen,römisches Gesetzbuch,100 Katapulte Pack, Schwarzeisenerz, Silbererz",
+        "itemDesc": "Senat Platinr Box, fortschrittlicher-Preis, der Senat benutzt es, um die mutigen Krieger zu belohnen."
+    },
+    "speaker": {
+        "funcDesc": "Damit kann ein Spieler im Weltkanal sprechen und Massenbriefe schicken.",
+        "name": "Horn",
+        "itemDesc": "Das Sprechen im Weltkanal kostet ein Horn und einmaliges Verschicken von Massenbriefen kostet 2 Hörner."
+    },
+    "RomanLaw": {
+        "itemDesc": "Spätere Generationen bezeichnen zahlreiche römische Gesetze als Oberbegriff. Gleichzeitig ist es auch das notwendige Requisit für das Aufrücken des Stadtkerns bzw. der Wissenschaft und Technik von 26 bis 30 Stufe.",
+        "funcDesc": "Das notwendige Requisit für das Aufrücken des Stadtkerns bzw. der Wissenschaft und Technik von 26 bis 30 Stufe.",
+        "name": "Römisches Gesetzbuch"
+    },
+    "vereinpacket": {
+        "name": "Bündnisverstärkungspaket",
+        "funcDesc": "Nach der Öffnung kann man erhalten: Manifest der Gemeinschaft x1, Strichsiegel der Familie x1",
+        "itemDesc": "Nachdem der Bündnisführer das 「Bündnisverstärkungspaket」benutzt hat, kann die Bündnisstufe bzw. die Bevölkerungsobergrenze erweitert werden und die Mitgliederspende gespart werden. Dadurch hast du bzw. haben die Mitglieder im Bündnis mehr Ressourcen zur Entwicklung der militärischen und politischen Fähigkeit."
+    },
+    "SoulofMars": {
+        "name": "",
+        "itemDesc": "",
+        "funcDesc": ""
+    },
+    "incResGold1D": {
+        "name": "Büste des Handelsgottes",
+        "funcDesc": "Die Kupfermünzenproduktion steigt um 25%. 24 Std. gültig.",
+        "itemDesc": "Der Handelsgott Mercurius ist Jupiters Sohn. Opfere eine Büste des Handelsgottes, um die Kupfermünzenproduktion zu erhöhen."
+    },
+    "sacrifice.Pocket": {
+        "name": "normal",
+        "funcDesc": "normal",
+        "itemDesc": "normal"
+    },
+    "Redore": {
+        "name": "Red Ore",
+        "itemDesc": "The Blessing of Evil Setekh Statue, welche Stärke.",
+        "funcDesc": "Kann für Loyal Ring (Lv.9) beitragen, wenn genug sammeln."
+    },
+    "_number.player.box.gambling.medal.300": {
+        "name": "300 Goldmünzen-Pack",
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "funcDesc": "300 Goldmünzen"
+    },
+    "pumpkinlantem": {
+        "itemDesc": "Rechts oben an der Burg des Häuptlings wird das Abzeichen der Bisamkürbislampen angezeigt. Die Folge dauert 7 Tage, bis dahin wird der ursprüngliche Zustand wiederhergestellt. Die vorhandenen Abzeichenmuster bzw. -zeiten werden durch diese Abzeichen ersetzt.",
+        "funcDesc": "Die Nebenfahne der gegenwärtigen Stadt des Häuptlings wird zu Zeichen der Bisamkürbislampen geändert. Die Folge dauert 7 Tage.",
+        "name": "Bisamkürbislampen"
+    },
+    "player.peace.1": {
+        "funcDesc": "Die Verwendung dieses Requisits bedeutet 12 Stunden lang einen Waffenstillstand für deine Stadt. D.h. du kannst Städten keine Angriffsbefehle geben. Einschließlich Eroberung, Plünderung und Erkundung. Wildnisse sind nicht inbegriffen.",
+        "itemDesc": "Der Krieg ist eine Fortsetzung der Politik und kehrt letztendlich immer zur Wahrung politischer Interessen zurück. Egal aus welchem Grund du einen Krieg vermeiden möchtest, findest du durch den Waffenstillstand eine Möglichkeit zu überleben.",
+        "name": "Waffenstillstand"
+    },
+    "Scout.3": {
+        "name": "1000 Vorhuten-Pack",
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "funcDesc": "1000 Vorhuten"
+    },
+    "LoyalAccessoriesTicket.Lv3": {
+        "funcDesc": "Schmuckkarte Lv.3, kann beim Senat gegen 1x Schmuck der Treue (Lv.3) eingetauscht werden.",
+        "name": "Schmuckkarte Lv.3",
+        "itemDesc": "Schmuckkarte Lv.3, kann beim Senat gegen 1x Schmuck der Treue (Lv.3) eingetauscht werden."
+    },
+    "player.box.present.2": {
+        "name": "Anfänger Lv2-Pack",
+        "itemDesc": "Inhaltsreiches Geschenkpack für die Anfänger. Nach der Versetzung der Amtssitz auf Level 2 kann es geöffnet werden. Nach der Öffnung kann ein Spieler viele Ressourcen und Requisiten erhalten.",
+        "funcDesc": "Nach der Öffnung erhält ein Spieler: 10000 Getreide, 10000 Holz, 10000 Steine, 10000 Eisen, Büste Saturn x 1, Büste des Waldgottes x 1, Büste der Erdgöttin x 1, Büste des Vulkangottes x 1, Büste des Handelsgottes x 1, Einziehungsschriftstücke x 2, Horn x 2, Opfergabe x 1 und Anfänger Lv3-Pack x 1."
+    },
+    "EmblemPack": {
+        "funcDesc": "Beim Öffnen erhältst du 20x Ägyptisches Wappen, 20x Karthago-Wappen, 20x Persisches Wappen, 20x Römisches Wappen",
+        "name": "Wappenpaket",
+        "itemDesc": "Nach dem Öffnen erhältst du 4 Arten, und insgesamt 80 Wappen. Es kostet nur 63% des Originalpreises. Damit kannst du in kürzester Zeit die Ausrüstung von Löwenkönig und Furchtlosigkeit eintauschen."
+    },
+    "incResIron7D": {
+        "name": "Statue des Vulkangottes",
+        "itemDesc": "Der Feuergott Vulkan ist verantwortlich für die Schmelze und das Schmieden. Er ist der hässlichsten Gott in der römischen Mythologie aber auch der Ehemann von der hübschesten Göttin Venus. Opfere eine Statue des Vulkangottes, um die Eisenproduktion zu erhöhen.",
+        "funcDesc": "Die Eisenproduktion steigt um 25%. 7 Tage gültig."
+    },
+    "200fun": {
+        "funcDesc": "normal",
+        "itemDesc": "normal",
+        "name": "normal"
+    },
+    "luxuriantpack": {
+        "name": "",
+        "funcDesc": "",
+        "itemDesc": ""
+    },
+    "Trans.pacification.Pocket": {
+        "funcDesc": "Öffne und man bekommt 30x Putschniederwerfungsschild.",
+        "name": "Putschniederwerfungsschild-Paket",
+        "itemDesc": "Kaufe 18 Putschniederwerfungsschild und man bekommt 12 geschenkt."
+    },
+    "_number.player.box.gambling.medal.3": {
+        "funcDesc": "3 Goldmünzen",
+        "name": "3 Goldmünzen-Pack",
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden."
+    },
+    "CornSeed": {
+        "funcDesc": "Ein Maiszeichen wir oben auf der rechten Seite neben der Burg für 7 Tage angezeigt.",
+        "name": "Maissaatgut",
+        "itemDesc": "Die Nebenfahne der Burg verändert sich zu einem Maiszeichen. Es hält 7 Tage lang an. Wenn eine bestimmte Anzahl angesammelt wird, können andere Ausrüstungsgegenstände durch den Auftragstausch erhalten werden."
+    },
+    "upgradeCity": {
+        "name": "Entwurfsplan",
+        "funcDesc": "Erforderliches Requisit für die Stadterweiterung.",
+        "itemDesc": "Wenn deine Stadt sich zu einer bestimmten Größe entwickelt und das Baugelände offensichtlich nicht ausreicht für weitere Einrichtungen, benötigst du den Entwurfsplan um die Stadt zu erweitern."
+    },
+    "LoyalNecklaceLetterOfUpgradeResult.Lv2": {
+        "itemDesc": "Upgrade-Ergebnis der Halskette auf Lv.2, nach dem Öffnen erfährst du, ob die Ausrüstung erfolgreich hochgestuft wurde.",
+        "funcDesc": "Upgrade-Ergebnis der Halskette auf Lv.2, nach dem Öffnen erfährst du, ob die Ausrüstung erfolgreich hochgestuft wurde. Halskette der Treue (Lv.1) --- Halskette der Treue (Lv.2), Erfolgsrate: 100%.",
+        "name": "Upgrade-Ergebnis der Halskette auf Lv.2"
+    },
+    "Trans.repression": {
+        "name": "Unterdrückungserlaubnis",
+        "itemDesc": "Die Römer leiden. Das römische Schmied schmiedet das Unterdrückungserlaubnis für die Helden, wer das Krieg zum Diebe, umherschweifende Banditen und Gangster  abgeschossen hat.",
+        "funcDesc": "Kann durch Austausch der Nachschübe oder  Angriff von NPCs erhalten werden, wird zum Angriff von dem Anführer der Karthago-Rebellen benutzt."
+    },
+    "hero.loyalty.2": {
+        "funcDesc": "Gewürz ist ein Luxusgut, es wird verwendet um das Amt zu versetzen, Helden zur Kapitulation aufzufordern oder ihnen eine Auszeichnung zu verleihen. Einen Helden eine Auszeichnung zu verleihen, kann seine Loyalität um 10 erhöhen.",
+        "name": "Gewürz",
+        "itemDesc": "Die Essgewohnheiten der Römer führten zum hohen Preis der Gewürze. Die Bewohner stützten sich wie die Geier besonders auf das exotische Gewürz, das im italienischen Gebiet nicht hergestellt werden konnte. Ein Gewürz als Beute zu erhalten, wurden oft von den Offizieren und Soldaten erwartet."
+    },
+    "Nakuz": {
+        "itemDesc": "normal",
+        "funcDesc": "normal",
+        "name": "normal"
+    },
+    "player.box.resource.1t.16": {
+        "name": "Entwicklung-Gold-Pack",
+        "funcDesc": "Nach der Öffnung erhält ein Spieler: 40000 Getreide, 40000 Holz, 40000 Steine, 40000 Eisen, 2.Band von „Zehn Bücher über Architektur” x 5, 2.Band von „Gesammelte Werke von Archimedes” x 5, „Politische fortschrittliche Phase“ x 5, Statue des Waldgottes x 1, herrlichen Geschenkkasten x 1, Horn x 10, Opfergaben x 5, 4 Räder Kutsche x 5.",
+        "itemDesc": "Inhaltreiches Entwicklung-Pack, das Beschleunigungsrequisiten, Herstellungsrequisiten, Ressourcen,..enthält. Der Gesamtwert beträgt 1160 Goldmünzen! Als weiser Fürst sollst du es besitzen!"
+    },
+    "changeBelieve": {
+        "itemDesc": "Du hast am Anfang einen Gott ausgewählt und angebetet, aber wegen unterschiedlichen Entwicklungsrichtungen deiner Stadt muss auch der Gott gewechselt werden. Durch den Amtsstab vom Priester kannst du deinen Glauben aufgeben und den Wechsel ermöglichen.",
+        "name": "Amtsstab vom Priester",
+        "funcDesc": "Möchte man seinen Glauben im Tempel aufgeben oder wechseln, wird ein Amtsstab vom Priester benötigt."
+    },
+    "fifa10Logo": {
+        "itemDesc": "Die amerikanische Flagge wird 1 Tag lang über deiner Stadt angezeigt. Du kannst diese durch eine andere Flagge ersetzen. Requisit bis 11.07.2010 im Shop kaufbar.",
+        "funcDesc": "Die Flagge deiner Stadt wird zur amerikanischen Flagge geändert. 1 Tag gültig",
+        "name": "Amerikanische Flagge"
+    },
+    "Newdeparture": {
+        "funcDesc": "normal",
+        "name": "normal",
+        "itemDesc": "normal"
+    },
+    "treasureMap": {
+        "name": "Schatzkarte",
+        "itemDesc": "Es sind einige Schatzkarten im Volk mit unbekannten Ausbeuten.Mit weniger Kosten kannst du versuchen diese zu sammeln. Vielleicht erwartet dich eine große Überraschung.",
+        "funcDesc": "Die für die Austausch-Aufgabe erforderliches Requisit. Nach den Gerüchten führt die Karte dich zu Schätzen der alten Kaiser."
+    },
+    "_number.player.box.gambling.medal.100": {
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "name": "100 Goldmünzen-Pack",
+        "funcDesc": "100 Goldmünzen"
+    },
+    "player.box.special.2": {
+        "itemDesc": "Ein Geschenkkasten zur Aufbewahrung der Luxusgüter, urtümlich und elegant. Nach der Öffnung erhält ein Spieler zufällig 4 bis 12 Portionen Wolle, Seide und Pelz. Mindestens 2 Arten, 2 bis 4 Portionen pro Art.",
+        "funcDesc": "Nach der Öffnung erhält ein Spieler zufällig 4 bis 12 Portionen Wolle, Seide und Pelz. Mindestens 2 Arten, 2 bis 4 Portionen pro Art.",
+        "name": "Urtümlicher Geschenkkasten"
+    },
+    "MinervaHolyWater(L)PackI": {
+        "itemDesc": "Kauft man 3x Minervas Heiliges Wasser (groß), bekommt man kostenlos 3 Kupferbarren.",
+        "funcDesc": "Beim Öffnen erhältst du 3x Minervas Heiliges Wasser (groß) und 3x Kupferbarren.",
+        "name": "Minervas Heiliges Wasserpaket I"
+    },
+    "LoyalRingTicket.Lv3": {
+        "itemDesc": "Ringkarte Lv.3, kann beim Senat gegen 1x Ring der Treue (Lv.3) eingetauscht werden.",
+        "name": "Ringkarte Lv.3",
+        "funcDesc": "Ringkarte Lv.3, kann beim Senat gegen 1x Ring der Treue (Lv.3) eingetauscht werden."
+    },
+    "fifa1Logo": {
+        "funcDesc": "Die Flagge deiner Stadt wird zur afrikanischen Flagge geändert. 1 Tag gültig",
+        "name": "Südafrikanische Flagge",
+        "itemDesc": "Die Südafrikanische Flagge wird 1 Tag lang über deiner Stadt angezeigt. Du kannst diese durch eine andere Flagge ersetzen. Requisit bis 11.07.2010 im Shop kaufbar."
+    },
+    "SilverBarPackVI": {
+        "funcDesc": "Conseguirás 6 Barras de Cobre y 2 Barras de Bronce tras abrirlo.",
+        "name": "Paquete de Barras de Cobre VI",
+        "itemDesc": "Paquete Especial de 6 Barras de Cobre con regalo extra。"
+    },
+    "_number.player.box.gambling.stone.200000": {
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "name": "200000 Steine-Pack",
+        "funcDesc": "200000 Steine"
+    },
+    "warrior": {
+        "itemDesc": "Der Nachweiss von Mut, kann gegen eine Krieger-Ausrüstung eingetauscht werden.",
+        "funcDesc": "Sammeln bestimmte Menge von Kriegerwappen, damit man sie gegen den Kriegerschutzschild oder Kriegerhelm vom Kriegerset eintauschen kann.",
+        "name": "Kriegerwappen"
+    },
+    "fifa28Logo": {
+        "itemDesc": "Die portugiesische Flagge wird 1 Tag lang über deiner Stadt angezeigt. Du kannst diese durch eine andere Flagge ersetzen. Requisit bis 11.07.2010 im Shop kaufbar.",
+        "funcDesc": "Die Flagge deiner Stadt wird zur portugiesischen Flagge geändert. 1 Tag gültig",
+        "name": "Portugiesische Flagge"
+    },
+    "speedup15mBuilding.pocket": {
+        "funcDesc": "normal",
+        "name": "normal",
+        "itemDesc": "normal"
+    },
+    "LoyalAccessoriesLetterOfUpgradeResult.Lv3": {
+        "itemDesc": "Upgrade-Ergebnis des Schmucks auf Lv.3, nach dem Öffnen erfährst du, ob die Ausrüstung erfolgreich hochgestuft wurde.",
+        "funcDesc": "Upgrade-Ergebnis des Schmucks auf Lv.3, nach dem Öffnen erfährst du, ob die Ausrüstung erfolgreich hochgestuft wurde. Schmuck der Treue (Lv.2) --- Schmuck der Treue (Lv.3), Erfolgsrate: 80%.",
+        "name": "Upgrade-Ergebnis des Schmucks auf Lv.3"
+    },
+    "Trans.black": {
+        "funcDesc": "Du erhältst es durch einen Umtausch mit dem Senat. Dieses erlaubt es dir, an einem Manöver teilzunehmen.",
+        "name": "schwar. Teilnahmetypenschild",
+        "itemDesc": "Bescheinigung zur Teilnahme an einem regionalen Manöver"
+    },
+    "MinervaHolyWater.L": {
+        "itemDesc": "Minervas Heiliges Wasser (groß), verlängert den Effekt von Minevas Segen auf der Ausrüstung.",
+        "name": "Minervas Heiliges Wasser (groß)",
+        "funcDesc": "Minervas Heiliges Wasser (groß), verlängert den Effekt von Minevas Segen auf der Ausrüstung, dauert 100 Tage."
+    },
+    "speedupTrade": {
+        "funcDesc": "Durch Verwendung von \"4 Räder Kutsche\" kann das Handeln im Markt und den Transport beschleunigt werden.",
+        "name": "4 Räder Kutsche",
+        "itemDesc": "Nachdem die Kutsche mit vier Rädern im römischen Reich erfunden ist, nehmen Transportkosten für eine Langstrecke radikal ab."
+    },
+    "incResall.pocket": {
+        "itemDesc": "normal",
+        "name": "normal",
+        "funcDesc": "normal"
+    },
+    "incCastleLoyalty": {
+        "funcDesc": "Beim direkten Benutzen kann man die öffentliche Meinung einmalig auf 100 erhöhen und den öffentlichenen Hass auf 0 senken.",
+        "name": "Theateraufführung",
+        "itemDesc": "In einer unruhigen Zeit sind die Bewohner besorgt über die Zukunft ihrer Stadt. Dies führt oft zu verschiedenen Beschwerden, was deiner Herrschaft schadet. Eine Therateraufführung könnte die Aufmerksamkeit der Menschen von dem Krieg ablenken."
+    },
+    "PeaceMedal": {
+        "funcDesc": "Medaille im Namen des Friedens für den Eintausch olympischer Gegenstände.",
+        "name": "Friedens-Medaille",
+        "itemDesc": "Die olympische Leichtathletik-Spiele finden alle 4 Jahre statt, das Unterstützen und daran teilzunehmen kann Friedens-Medaillen einbringen."
+    },
+    "_number.player.box.gambling.food.40000": {
+        "name": "40000 Getreide-Pack",
+        "funcDesc": "40000 Getreide",
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden."
+    },
+    "Trans.purple": {
+        "name": "Violettes Rebellen Schild",
+        "itemDesc": "Wenn es dir gelingt, die Rebellentruppen in der Wildnis Stufe 8-10 zu besiegen, erhälst du von den Einheimischen ein violettes Rebellen Schild als Andenken. Dieses symbolisiert deinen Sieg. Je mehr Andenken du sammelst, desto höher sind deine Verdienste.",
+        "funcDesc": "Du erhältst es durch Angriff in Wildnis oder Kauf im Shop. Es kann bei einer Austausch-Aufgabe verwendet werden."
+    },
+    "fifa23Logo": {
+        "name": "Neuseeländische Flagge",
+        "itemDesc": "Die neuseeländische Flagge wird 1 Tag lang über deiner Stadt angezeigt. Du kannst diese durch eine andere Flagge ersetzen. Requisit bis 11.07.2010 im Shop kaufbar.",
+        "funcDesc": "Die Flagge deiner Stadt wird zur neuseeländischen Flagge geändert. 1 Tag gültig"
+    },
+    "incResGold7D": {
+        "funcDesc": "Die Kupfermünzenproduktion steigt um 25%. 7 Tage gültig.",
+        "name": "Statue des Handelsgottes",
+        "itemDesc": "Der Handelsgott Mercurius ist Jupiters Sohn. Opfere eine Statue des Handelsgottes, um die Kupfermünzenproduktion zu erhöhen."
+    },
+    "_number.player.box.gambling.iron.160000": {
+        "name": "160000 Eisen-Pack",
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "funcDesc": "160000 Eisen"
+    },
+    "Evilstoken": {
+        "name": "Böse Pass",
+        "itemDesc": "Eine Notwendigkeit der Einleitung Böse Setekh Statue.",
+        "funcDesc": "Eine Notwendigkeit der Einleitung Böse Setekh Statue, wird ein jeder Angriff verbraucht."
+    },
+    "Germans": {
+        "name": "Germanisches Wappen",
+        "itemDesc": "Rechts oben von der Stadt wird das germanische Wappen 7 Tage lang angezeigt, danach wird es zurückgesetzt. Nach Verwendung der Wappen diverser Ländern wird das aktuelle Wappenmuster und die aktuelle Zeit ersetzt. Das Requisit ist solange wirksam, bis die Aktion \"Führertruppe\" ausläuft.",
+        "funcDesc": "Wechsel die Zweitflagge deiner Stadt zu germanischem Wappen, 7 Tage lang."
+    },
+    "speedup1hTraining": {
+        "funcDesc": "Durch Verwendung von diesem Requisit kann die Zeit der Schaffung von Arbeitsplätzen um 1 Std. verkürzt werden.",
+        "name": "politi. Entwicklungsphase",
+        "itemDesc": "Das Werk aufzeichnet, wie man eine Stadt verwaltet, und enthält die von vielen historischen Herrscher zusammenfassenden Erfahrungen und Lehren. Obwohl einige Inhalte im Lauf der Zeit als fehlerhaft erkannt werden, können Anfänger noch davon viel profitieren. Mit Hilfe dieses Werkes kann die Zeit der Schaffung von Arbeitsplätzen reduziert werden."
+    },
+    "player.box.present.5": {
+        "name": "Anfänger Lv5-Pack",
+        "itemDesc": "Inhaltsreiches Geschenkpack für die Anfänger. Nach der Versetzung der Amtssitz auf Level 5 kann es geöffnet werden. Nach der Öffnung kann ein Spieler viele Ressourcen und Requisiten erhalten.",
+        "funcDesc": "Nach der Öffnung erhält ein Spieler: Waffenstil x 1, Spartas Dolch x 1, thrakischer Helm x 1, „Perserkrieg“ x 1, 4 Räder Kutsche x 2, Spion x 1 und Anfänger Lv6-Pack x 1."
+    },
+    "player.box.present.11": {
+        "funcDesc": "Nach der Öffnung erhält ein Spieler: 80000 Getreide, 80000 Holz, 40000 Steine, 40000 Eisen, 1.Band von „Zehn Bücher über Architektur” x 5, 3.Band von „Zehn Bücher über Architektur” x 2, Wein x 5, Wolle x 5, Seide x 1 und Weihrauch x 1.",
+        "name": "erstmaliges Aufladen-Pack",
+        "itemDesc": "Inhaltsreiches großes Geschenkpack. Nach der Öffnung kannst du viele Ressourcen, Luxusgüter und Beschleunigungsrequisiten erhalten, was dir beim Bau vom Stadtgraben und bei der Versetzung vom Amt hilft."
+    },
+    "comeBack": {
+        "funcDesc": "Nachdem du einem Held den Rückkehr-Befehl erteilst, kannst du dieses Requisit verwenden um die Rückkehr zu beschleunigen. Es gilt für die Helden, die sich länger als 1 Minute auf einem Feldzug befinden als auch für Helden in einem Training.",
+        "name": "Rückruf-Order",
+        "itemDesc": "Wenn deine Helden einen Feldzug unternehmen oder eine Trainingsaufgabe machen, brauchst du beim Notfall (z.B. die Stadt wird angegriffen usw.) den \"Rückruf-Order\" zu verwenden um die Helden so schnell wie möglich wieder in deine Stadt zurück zu holen."
+    },
+    "speedup3hBuilding.pocket": {
+        "funcDesc": "normal",
+        "itemDesc": "normal",
+        "name": "normal"
+    },
+    "speaker20": {
+        "funcDesc": "20 Hörner",
+        "name": "Horn × 20",
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden."
+    },
+    "smallpack": {
+        "name": "",
+        "itemDesc": "",
+        "funcDesc": ""
+    },
+    "upgradeBuilding.pocket": {
+        "name": "normal",
+        "itemDesc": "normal",
+        "funcDesc": "normal"
+    },
+    "snowcity": {
+        "funcDesc": "Nach der Benutzung wird das Äußere der Burg in Weihnachtsschneestadt umwandeln. Die Folge dauert 7 Tage.",
+        "name": "Weihnachtsschneestadt",
+        "itemDesc": "Nach der Benutzung wird die Stadt in Spielwelt umwandeln. Das Äußere der Weihnachtsschneestadt ist nur einmalig. Die Folge dauert 7 Tage."
+    },
+    "football02": {
+        "itemDesc": "Ändere das Aussehen deiner Stadt zu einem blauen Fußballfeld. 7 Tage gültig. Requisit bis 11.07.2010 im Shop kaufbar.",
+        "funcDesc": "Die Stadt wird zum blauen Fußballfeld geändert. 7 Tage gültig",
+        "name": "blaues Fußballfeld"
+    },
+    "fifa18Logo": {
+        "itemDesc": "Die dänische Flagge wird 1 Tag lang über deiner Stadt angezeigt. Du kannst diese durch eine andere Flagge ersetzen. Requisit bis 11.07.2010 im Shop kaufbar.",
+        "funcDesc": "Die Flagge deiner Stadt wird zur dänischen Flagge geändert. 1 Tag gültig",
+        "name": "Dänische Flagge"
+    },
+    "_number.player.box.gambling.food.320000": {
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "name": "320000 Getreide-Pack",
+        "funcDesc": "320000 Getreide"
+    },
+    "LoyalCaestusTicket.Lv1": {
+        "name": "Gürtelkarte Lv.1",
+        "itemDesc": "Gürtelkarte Lv.1 kann beim Senat gegen 1x Gürtel der Treue (Lv.1) eingetauscht werden.",
+        "funcDesc": "Gürtelkarte Lv.1 kann beim Senat gegen 1x Gürtel der Treue (Lv.1) eingetauscht werden."
+    },
+    "PeaceEmblem": {
+        "funcDesc": "Abzeichen für den Frieden, können verwendet werden, um Friedens-Flagge und olympischen Gegenstände einzutauschen.",
+        "name": "Friedens-Abzeichen",
+        "itemDesc": "Die olympische Leichtathletik-Spiele finden alle 4 Jahre statt, das Unterstützen und daran teilzunehmen kann Friedens-Abzeichen einbringen."
+    },
+    "SilverBarPackIII": {
+        "funcDesc": "Conseguirás 13 Barras de Cobre y 3 Barras de Bronce tras abrirlo.",
+        "name": "Paquete de Barras de Cobre III",
+        "itemDesc": "Paquete Especial de 13 Barras de Cobre con regalo extra。"
+    },
+    "LoyalCaestusLetterOfUpgradeResult.Lv3": {
+        "itemDesc": "Upgrade-Ergebnis des Gürtels auf Lv.3, nach dem Öffnen erfährst du, ob die Ausrüstung erfolgreich hochgestuft wurde.",
+        "funcDesc": "Upgrade-Ergebnis des Gürtels auf Lv.3, nach dem Öffnen erfährst du, ob die Ausrüstung erfolgreich hochgestuft wurde. Gürtel der Treue (Lv.2) --- Gürtel der Treue (Lv.3), Erfolgsrate: 80%.",
+        "name": "Upgrade-Ergebnis des Gürtels auf Lv.3"
+    },
+    "Trans.excellent": {
+        "funcDesc": "Notwendiger Gegenstand zum Austausch von Kernausrüstung.",
+        "name": "Excellentes Emblem",
+        "itemDesc": "Wird von dem Anführer der Karthago-Rebellen gewonnen. Nur der starke Held kann das Emblem erhalten."
+    },
+    "speedup15mTraining.pocket": {
+        "funcDesc": "normal",
+        "name": "normal",
+        "itemDesc": "normal"
+    },
+    "Triarii.3": {
+        "funcDesc": "1000 Fußsoldaten",
+        "name": "1000 Fußsoldaten-Pack",
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden."
+    },
+    "LoyalMountLetterOfUpgradeResult.Lv3": {
+        "funcDesc": "Upgrade-Ergebnis des Reittiers auf Lv.3, nach dem Öffnen erfährst du, ob die Ausrüstung erfolgreich hochgestuft wurde. Kriegspferd der Treue (Lv.2) --- Kriegspferd der Treue (Lv.3), Erfolgsrate: 80%.",
+        "name": "Upgrade-Ergebnis des Reittiers auf Lv.3",
+        "itemDesc": "Upgrade-Ergebnis des Reittiers auf Lv.3, nach dem Öffnen erfährst du, ob die Ausrüstung erfolgreich hochgestuft wurde."
+    },
+    "BigSilverBarPack": {
+        "funcDesc": "",
+        "name": "",
+        "itemDesc": ""
+    },
+    "speedupTroop": {
+        "itemDesc": "„Das Bürgerkrieg-Protokoll“, vom Gründer des römischen Reich Cäsar autographisch geschrieben, ist ein Kriegsbuch voller Strategie und Taktik, das enorme Auswirkungen auf die späteren Generationen hat. Mit Hilfe dieses Buch kannst du die Trainingszeit deiner Truppen deutlich reduzieren.",
+        "name": "„Das Bürgerkrieg-Protokoll“",
+        "funcDesc": "Das Requisit kann bei Herstellung und Training in Pferdeställen, Kasernen oder Werkstätten verwendet werden. Dadurch wird 30% der verbleibenen Herstellungs- und Trainingszeit verkürzt."
+    },
+    "_number.player.box.gambling.iron.40000": {
+        "name": "40000 Eisen-Pack",
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "funcDesc": "40000 Eisen"
+    },
+    "PlatinumSupplyCrate": {
+        "name": "Platin Schatzkasten",
+        "itemDesc": "Über die Schatzkisten Versorung werden Spione gelifert, die vorgesehen sind die Armee Rebellen zu treffen .",
+        "funcDesc": "Nach dem öffnen  haben die Chance , zwei oder drei Arten von folgenden Punkten zu erhalten:Ägyptische Wappen x20, Schwarzeisenerz x1, Silbererz x1, 100 Katapulte Pack x1, Silber Medaile x20, Alexanders Expedition x1, großer Umzugswagen x1, Draco-Gesetzbuch x1, Gesetzbuch der 12 Kupfertabellen x1, römisches Gesetzbuch x1, Büste des Handelsgottes x1."
+    },
+    "_number.player.box.gambling.food.200000": {
+        "name": "200000 Getreide-Pack",
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "funcDesc": "200000 Getreide"
+    },
+    "BronzeBarPackII": {
+        "itemDesc": "Kauft man 15x Kupferbarren, bekommt man kostenlos 3 extra Kupferbarren und 3x Minervas Edelstein.",
+        "funcDesc": "Beim Öffnen erhältst du 18x Kupferbarren und 3x Minervas Edelstein.",
+        "name": "Kupferbarrenpaket II"
+    },
+    "speedup30pTraining": {
+        "funcDesc": "Durch Verwendung von diesem Requisit kann die Zeit der Schaffung von Arbeitsplätzen um 30% verkürzt werden.",
+        "name": "Politische Enzyklopädie",
+        "itemDesc": "Das Werk aufzeichnet, wie man eine Stadt verwaltet, und enthält die von vielen historischen Herrscher zusammenfassenden Erfahrungen und Lehren. Obwohl einige Inhalte im Lauf der Zeit als fehlerhaft erkannt werden, können Anfänger noch davon viel profitieren. Mit Hilfe dieses Werkes kann die Zeit der Schaffung von Arbeitsplätzen reduziert werden."
+    },
+    "RebelMail": {
+        "funcDesc": "Es gibt Kommunikations-Mails zwischen Rebellenarmee und Spion. Es ist der beste Beweis um  Rebellenarmee auszulöschen. Sie können für Rebellen Versorgung Senat erobert auszutauschen. Desto mehr Mails erhalten werden , deto  reicher können Sie werden.",
+        "name": "Rebellen Mail",
+        "itemDesc": "Rebellen  Mails zwischen Rebellenarmee und Spionen."
+    },
+    "hero.loyalty.7": {
+        "funcDesc": "Weihrauch ist ein Luxusgut, er wird verwendet um das Amt zu versetzen, Helden zur Kapitulation aufzufordern oder ihnen eine Auszeichnung zu verleihen. Einen Helden eine Auszeichnung zu verleihen, kann seine Loyalität um 40 erhöhen.",
+        "name": "Weihrauch",
+        "itemDesc": "Der Weihrauch wurde benutzt, wenn die frommen Römer die Götter verehren. Die Römer glaubten, dass diese Luxusgüter aus Ägypten zur Wiederherstellung des Geists und Beruhigung der Seele eine gute Auswirkung haben."
+    },
+    "LoyalMountTicket.Lv1": {
+        "itemDesc": "Reittierskarte Lv.1 kann beim Senat gegen 1x Kriegspferd der Treue (Lv.1) eingetauscht werden.",
+        "funcDesc": "Reittierskarte Lv.1 kann beim Senat gegen 1x Kriegspferd der Treue (Lv.1) eingetauscht werden.",
+        "name": "Reittierskarte Lv.1"
+    },
+    "incAllianceLimitTo200": {
+        "itemDesc": "Wenn immer mehr Fürsten der Allianz beitreten oder andere Allianzen komplett übernommen werden, muss der Welt dieses durch eine große Zeremonie verkündet werden. Durch Verwendung der Erklärung der Gemeinschaft wird die Allianzstufe auf 10 erhöht und die Obergrenze erreicht nun 200 Mitglieder.",
+        "funcDesc": "Die Führer einer Allianz oder deren Stellvertreter können die Allianzstufe durch die Erklärung der Gemeinschaft direkt auf Stufe 10 erhöhen und erreichen gleichzeitig die Obergrenze von 200 Mitgliedern.",
+        "name": "Erklärung der Gemeinsch."
+    },
+    "BronzeBarPackI": {
+        "funcDesc": "Beim Öffnen erhältst du 18x Kupferbarren und 1x Minervas Heiliges Wasser (mittel)",
+        "name": "Kupferbarrenpaket I",
+        "itemDesc": "Kauft man 15x Kupferbarren, bekommt man kostenlos 3 extra Kupferbarren und 1x Minervas Heiliges Wasser (mittel)."
+    },
+    "now": {
+        "itemDesc": "normal",
+        "name": "normal",
+        "funcDesc": "normal"
+    },
+    "incHeroAttack1D": {
+        "name": "Mars-Medaille",
+        "itemDesc": "Der Kriegsgott Mars gilt als Schutzgott der Soldaten. Diese Medaille kann die Sehnsucht nach Blut der Feinde bei dem Held wecken, dadurch wird seine Gewalt beträchtlich gesteigert.",
+        "funcDesc": "Die Gewalt des Helden kann durch Verwendung der Mars-Medaille um 25% erhöht werden. 7 Tage gültig."
+    },
+    "speedup3hTraining.pocket": {
+        "funcDesc": "normal",
+        "name": "normal",
+        "itemDesc": "normal"
+    },
+    "_number.player.box.gambling.stone.240000": {
+        "name": "240000 Steine-Pack",
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "funcDesc": "240000 Steine"
+    },
+    "Turkey": {
+        "funcDesc": "Nach dem Aufmachen können Sie wertvolle Requisiten erhalten! Er beinhaltet 1 kleine Rede der Mobilmachung, 1 Ankündigung von Volk-Schutzes, 1 Vorstellung des Theaters und 1 Statue des Saturns.",
+        "itemDesc": "Ein Festtagsgeschenk voller wertvoller edler Gegenstände",
+        "name": "Truthahn"
+    },
+    "spartans.pack": {
+        "itemDesc": "10 gut ausgebildete Nachkommen von Spartanischen Kriegern.",
+        "funcDesc": "Nach dem Öffnen erhält man 10x Korpssoldaten.",
+        "name": "Spartanisches Kriegerpaket"
+    },
+    "fifa13Logo": {
+        "itemDesc": "Die deutsche Flagge wird 1 Tag lang über deiner Stadt angezeigt. Du kannst diese durch eine andere Flagge ersetzen. Requisit bis 11.07.2010 im Shop kaufbar.",
+        "funcDesc": "Die Flagge deiner Stadt wird zur deutschen Flagge geändert. 1 Tag gültig",
+        "name": "Deutsche Flagge"
+    },
+    "spy": {
+        "funcDesc": "Durch Verwendung einen \"Spion\" kannst du die Koordinaten aller Städte eines Zielspielers lokalisieren. 24 Std. gültig.",
+        "itemDesc": "Du kannst die Koordinaten aller Städte eines bestimmten Ziels lokalisieren indem du Spione hinschickst.",
+        "name": "Spion"
+    },
+    "HonorI": {
+        "name": "normal",
+        "itemDesc": "normal",
+        "funcDesc": "normal"
+    },
+    "_number.player.box.gambling.gold.40000": {
+        "funcDesc": "40000 Kupfermünzen",
+        "name": "40000 Kupfermünzen-Pack",
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden."
+    },
+    "fifa9Logo": {
+        "itemDesc": "Die englische Flagge wird 1 Tag lang über deiner Stadt angezeigt. Du kannst diese durch eine andere Flagge ersetzen. Requisit bis 11.07.2010 im Shop kaufbar.",
+        "funcDesc": "Die Flagge deiner Stadt wird zur englischen Flagge geändert. 1 Tag gültig",
+        "name": "Englische Flagge"
+    },
+    "LoyalNecklaceLetterOfUpgradeResult.Lv3": {
+        "itemDesc": "Upgrade-Ergebnis der Halskette auf Lv.3, nach dem Öffnen erfährst du, ob die Ausrüstung erfolgreich hochgestuft wurde.",
+        "name": "Upgrade-Ergebnis der Halskette auf Lv.3",
+        "funcDesc": "Upgrade-Ergebnis der Halskette auf Lv.3, nach dem Öffnen erfährst du, ob die Ausrüstung erfolgreich hochgestuft wurde. Halskette der Treue (Lv.2) --- Halskette der Treue (Lv.3), Erfolgsrate: 80%."
+    },
+    "_number.player.box.gambling.gold.160000": {
+        "funcDesc": "160000 Kupfermünzen",
+        "name": "160000 Kupfermünzen-Pack",
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden."
+    },
+    "hero.loyalty.3": {
+        "funcDesc": "Wein ist ein Luxusgut, er wird verwendet um das Amt zu versetzen, Helden zur Kapitulation aufzufordern oder ihnen eine Auszeichnung zu verleihen. Einen Helden eine Auszeichnung zu verleihen, kann seine Loyalität um 15 erhöhen.",
+        "name": "Wein",
+        "itemDesc": "Wasser, Milch(Schafsmilch, Kuhmilch) und Wein waren die drei größten Getränke der Römer. Aber der Wein aus Gallien ist ein selten gutes Geschenk. Die Bewohner verdünnten den Wein oft mehrfach mit Wasser. Die Gallier dagegen tranken den Wein, ohne Wasser beizumischen, was als unkultiviert gehalten wurde."
+    },
+    "LoyalNecklaceTicket.Lv3": {
+        "itemDesc": "Halskettenkarte Lv.3, kann beim Senat gegen 1x Halskette der Treue (Lv.3) eingetauscht werden.",
+        "name": "Halskettenkarte Lv.3",
+        "funcDesc": "Halskettenkarte Lv.3, kann beim Senat gegen 1x Halskette der Treue (Lv.3) eingetauscht werden."
+    },
+    "_number.player.box.gambling.iron.80000": {
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "name": "80000 Eisen-Pack",
+        "funcDesc": "80000 Eisen"
+    },
+    "incBuildFormation": {
+        "itemDesc": "Der Aufbau einer Stadt ist sehr kompliziert. Ein Mangel an Personal führt dazu, dass der Errichtungsprozess sehr langsam ist. Während dieser Zeit kannst du eine kleine Motivationsrede halten, um die Stadtbewohner zu motivieren, damit gleichzeitig mehrere Bauaufträge starten.",
+        "name": "Motivationsrede",
+        "funcDesc": "Bei sofortigen benutzen oder bei der Auswahl im Amtssitz werden die Bauaufträge auf 3 Stück erhöht. 7 Tage gültig."
+    },
+    "Britons": {
+        "funcDesc": "Wechsel die Zweitflagge deiner Stadt zu britischem Wappen, 7 Tage lang.",
+        "name": "Britisches Wappen",
+        "itemDesc": "Rechts oben von der Stadt wird das britische Wappen 7 Tage lang angezeigt, dannach wird es zurückgesetzt. Nach Verwendung der Wappen diverser Ländern wird das aktuelle Wappenmuster und die aktuelle Zeit ersetzt. Das Requisit ist solange wirksam, bis die Aktion \"Führertruppe\" ausläuft."
+    },
+    "LoyalRingLetterOfUpgradeResult.Lv2": {
+        "itemDesc": "Upgrade-Ergebnis des Rings auf Lv.2, nach dem Öffnen erfährst du, ob die Ausrüstung erfolgreich hochgestuft wurde.",
+        "funcDesc": "Upgrade-Ergebnis des Rings auf Lv.2, nach dem Öffnen erfährst du, ob die Ausrüstung erfolgreich hochgestuft wurde. Ring der Treue (Lv.1) --- Ring der Treue (Lv.2), Erfolgsrate: 100%.",
+        "name": "Upgrade-Ergebnis des Rings auf Lv.2"
+    },
+    "speedup3hTech": {
+        "itemDesc": "Der griechische Wissenschaftler und Mathematiker Archimedes hat in vielen Bereichen brillanten Beiträgen geleistet. Die „Gesammelte Werke von Archimedes” sind sehr hilfreich für die Förderung der technischen Forschungen. Damit kannst du den Prozess der technischen Forschungen beschleunigen.",
+        "name": "zertreut archimedische Rolle",
+        "funcDesc": "Durch Verwendung von diesem Requisit kann die Zeit eines Forschungsauftrags um 3 Std. verkürzt werden."
+    },
+    "player.box.present.7": {
+        "itemDesc": "Inhaltsreiches Geschenkpack für die Anfänger. Nach der Versetzung der Amtssitz auf Level 7 kann es geöffnet werden. Nach der Öffnung kann ein Spieler viele Ressourcen und Requisiten erhalten.",
+        "name": "Anfänger Lv7-Pack",
+        "funcDesc": "Nach der Öffnung erhält ein Spieler: Jupiter-Medaille x 1, „Persischer Krieg“ x 1, 1.Band von „Zehn Bücher über Architektur” x 1, 1.Band von „Gesammelte Werke von Archimedes” x 1 und Anfänger Lv8-Pack x 1."
+    },
+    "_number.player.box.gambling.medal.10": {
+        "name": "10 Goldmünzen-Pack",
+        "funcDesc": "10 Goldmünzen",
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden."
+    },
+    "Trans.pacification": {
+        "name": "Putschniederwerfungsschild",
+        "itemDesc": "Cäsar hat deine Iststärke zur Niederwerfung der Rebellentruppen anerkannt und du wirst Glück haben, den Beitrag für die heilige römische Republik zu leisten und den Ruhm bzw. Verdienst zu bekommen.",
+        "funcDesc": "Erhalt durch den Kauf bei täglichem Auftrag oder in der Kaufhalle, dient zum Angriff der Achsenbündnisrebellentruppen des Unabhängigers. Der jeweilige Angriff wird ein entsprechendes Putschniederwerfungsschild verbraucht."
+    },
+    "player.box.special.3": {
+        "itemDesc": "Ein Geschenkkasten zur Aufbewahrung der Luxusgüter, fein und herrlich. Nach der Öffnung erhält ein Spieler zufällig 4 bis 12 Portionen Weihrauch, Elfenbein und Edelstein. Mindestens 2 Arten, 2 bis 4 Portionen pro Art.",
+        "name": "Herrlicher Geschenkkasten",
+        "funcDesc": "Nach der Öffnung erhält ein Spieler zufällig 4 bis 12 Portionen Weihrauch, Elfenbein und Edelstein. Mindestens 2 Arten, 2 bis 4 Portionen pro Art."
+    },
+    "ganer": {
+        "funcDesc": "normal",
+        "itemDesc": "normal",
+        "name": "normal"
+    },
+    "HonorII": {
+        "funcDesc": "normal",
+        "itemDesc": "normal",
+        "name": "normal"
+    },
+    "SilverBarPackIV": {
+        "funcDesc": "Conseguirás 6 Barras de Cobre y 1 Agua bendita de Minerva (P) tras abrirlo.",
+        "name": "Paquete de Barras de Cobre IV",
+        "itemDesc": "Paquete Especial de 6 Barras de Cobre con regalo extra。"
+    },
+    "Battalion.1": {
+        "itemDesc": "öffne \"Meine Requisiten\" um diese zu verwenden.",
+        "funcDesc": "200-300 Fußsoldaten, 100-200 Bogenschützen, 30-50 Vorhuten",
+        "name": "Kleine Kapitulierte Truppe"
+    },
+    "CodeofDraco": {
+        "itemDesc": "Es ist frühestes kodifiziertes Gesetzbuch und hat eine inspirierende Wirkung für die spätere Gesetzbuchgebung. Gleichzeitig ist es auch das notwendige Requisit für das Aufrücken des Stadtkerns bzw. der Wissenschaft und Technik von 11 bis 20 Stufe.",
+        "funcDesc": "Das notwendige Requisit für das Aufrücken des Stadtkerns bzw. der Wissenschaft und Technik von 11 bis 20 Stufe.",
+        "name": "Draco-Gesetzbuch"
+    },
+    "Pumpkinbox": {
+        "itemDesc": "",
+        "name": "",
+        "funcDesc": ""
+    },
+    "spartans": {
+        "itemDesc": "Nach der Verwendung von Spartanischer Kriegerfahne wird die Sekundäre Fahne in Spartanische Fahne von 300 Kriegern verwandelt. Dieser Effekt dauert 7 Tage. Man kann bestimmte Menge davon sammeln, um sie dann gegen Spartanisches Kriegerpaket, Relikt der spartanischen Kriegern oder Schatzkiste des  spartanischen Königs einzutauschen.",
+        "funcDesc": "Sammeln bestimmte Menge von Spartanischer Kriegerfahne, um sie gegen Spartanisches Kriegerpaket, Relikt der spartanischen Kriegern oder Schatzkiste des  spartanischen Königs einzutauschen. Bei einer direkten Verwendung von Spartanischer Kriegerfahne wird sie auf der Sekundären Fahne für 7 Tage lang angezeigt.",
+        "name": "Spartanische Kriegerfahne"
+    },
+    "changeFlag": {
+        "itemDesc": "Es kostet eine Kriegsflagge um die Flagge zu verändern. Diese erscheint in der Weltkarte über deinen Städten.",
+        "name": "Kriegsflagge",
+        "funcDesc": "Um im Informationsfenster des Spielers die Flagge oder das Profilbild zu tauschen, wird jedes Mal eine Kriegsflagge benötigt."
+    },
+    "HonorIII": {
+        "funcDesc": "normal",
+        "name": "normal",
+        "itemDesc": "normal"
+    },
+    "MinervaHolyWater.M": {
+        "itemDesc": "Minervas Heiliges Wasser (mittel), verlängert den Effekt von Minevas Segen auf der Ausrüstung.",
+        "funcDesc": "Minervas Heiliges Wasser (mittel), verlängert den Effekt von Minevas Segen auf der Ausrüstung, dauert 30 Tage.",
+        "name": "Minervas Heiliges Wasser (mittel)"
+    },
+    "commonpack": {
+        "name": "",
+        "funcDesc": "",
+        "itemDesc": ""
+    },
+    "incWorkout": {
+        "funcDesc": "Mit dem Pass können 5 Helden zusammen trainieren. Durch mehrfache Verwendung kann die Zeit ununterbrochen verlängert werden.",
+        "name": "Training-Pass",
+        "itemDesc": "Die Anzahl der zum Training zugelassenen Helden ist leider begrenzt. Durch einen Trainings-Pass können mehrere Helden gleichzeitig trainieren"
+    },
+    "sacrifice.Pocket1": {
+        "itemDesc": "Kaufe 24 Opfergabe und man bekommt 1 geschenkt.",
+        "funcDesc": "Öffne es und man bekommt 25x Opfergabe",
+        "name": "Opfergabe-Paket"
+    },
+    "Ore.mirthial": {
+        "name": "Silbererz",
+        "itemDesc": "Wird von der Hauptkraft der Karthago-Rebellen gewonnen. Seltenes Metall, leicht und hart, und ist ein hochwertiges Material zur Herstellung von Schutzrüstung.",
+        "funcDesc": "Notwendiges Material zum Austausch von Hartkern-Ausrüstung."
+    },
+    "player.box.present.3": {
+        "itemDesc": "Inhaltsreiches Geschenkpack für die Anfänger. Nach der Versetzung der Amtssitz auf Level 3 kann es geöffnet werden. Nach der Öffnung kann ein Spieler viele Ressourcen und Requisiten erhalten.",
+        "funcDesc": "Nach der Öffnung erhält ein Spieler: 10000 Getreide, 10000 Holz, 10000 Steine, 10000 Eisen, 10000 Kupfermünzen, 5 Goldmünzen, Einziehungsschriftstücke x 2, Horn x 5, Opfergabe x 1 und Anfänger Lv4-Pack x 1.",
+        "name": "Anfänger Lv3-Pack"
+    },
+    "51net": {
+        "funcDesc": "normal",
+        "name": "normal",
+        "itemDesc": "normal"
+    },
+    "_number.player.box.gambling.wood.120000": {
+        "funcDesc": "120000 Holz",
+        "name": "120000 Holz-Pack",
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden."
+    },
+    "fifa24Logo": {
+        "name": "Slowakische Flagge",
+        "itemDesc": "Die slowakische Flagge wird 1 Tag lang über deiner Stadt angezeigt. Du kannst diese durch eine andere Flagge ersetzen. Requisit bis 11.07.2010 im Shop kaufbar.",
+        "funcDesc": "Die Flagge deiner Stadt wird zur slowakischen Flagge geändert. 1 Tag gültig"
+    },
+    "fifa4Logo": {
+        "itemDesc": "Die französische Flagge wird 1 Tag lang über deiner Stadt angezeigt. Du kannst diese durch eine andere Flagge ersetzen. Requisit bis 11.07.2010 im Shop kaufbar.",
+        "funcDesc": "Die Flagge deiner Stadt wird zur französischen Flagge geändert. 1 Tag gültig",
+        "name": "Französische Flagge"
+    },
+    "doughnut1": {
+        "itemDesc": "",
+        "name": "",
+        "funcDesc": ""
+    },
+    "player.box.troop.1": {
+        "itemDesc": "Großes Geschenkpaket, das große Menge von Truppen und Schwerlastmaschinen enthält. Dadurch kann die Angriffsfähigkeit deiner Truppen beträchtlich erhöht werden.",
+        "name": "Millionen-Soldaten-Pack",
+        "funcDesc": "Nach der Öffnung erhält ein Spieler: 2000 Reiter, 1000 Ballisten und 3000 Katapulten."
+    },
+    "speedup1hBuilding": {
+        "funcDesc": "Durch Verwendung von diesem Requisit kann die Zeit eines Bauauftrags um 1 Std. verkürzt werden.",
+        "name": "Plan von Shi Buch",
+        "itemDesc": "Das im Jahr 27 v.Chr. vom römischen Architekten Vitruvius geschriebene Werk „Zehn Bücher über Architektur” ist eine helle Perle voller Weisheit in der römischen Zivilisation. Die Theorien und Techniken in diesem klassischen Werk spielt eine wichtige Rolle bei der Entwicklung der Architektur. Das komplette „Zehn Bücher über Architektur” ist in vielen Teilen eingegliedert. Mit Hilfe von denen kann die Bauzeit beträchtlich verkürzt und den Bauprozess beschleunigt werden."
+    },
+    "herogrowth.Pocket": {
+        "name": "Helden Wachstums-Paket",
+        "itemDesc": "Helden Wachstums-Paket, kaufe 6 \"Alexanders Expedition\" und man bekommt 4 geschenkt.",
+        "funcDesc": "Lässt deinen Helden schneller wachsen. Öffne es und man bekommt 10x \"Alexanders Expedition\""
+    },
+    "destoryBuilding": {
+        "name": "Schießpulverfass",
+        "itemDesc": "Wenn ein Gebäude überflüssig geworden ist und du dringend freie Baufläche brauchst, kannst du mit Hilfe von \"Schießpulverfass\" das Problem viel schneller lösen als das Gebäude schrittweise zurückzubauen.",
+        "funcDesc": "Bei „Vollständiges Entfernen“ von Gebäuden wird Schießpulverfass benötigt. Du kannst damit Gebäude entfernen, aber die verbrauchte Ressourcen bekommst du nicht mehr zurücken."
+    },
+    "upgradeCity.pocket": {
+        "funcDesc": "normal",
+        "name": "normal",
+        "itemDesc": "normal"
+    },
+    "fifa26Logo": {
+        "itemDesc": "Die nordkoreanische Flagge wird 1 Tag lang über deiner Stadt angezeigt. Du kannst diese durch eine andere Flagge ersetzen. Requisit bis 11.07.2010 im Shop kaufbar.",
+        "name": "Nordkoreanische Flagge",
+        "funcDesc": "Die Flagge deiner Stadt wird zur nordkoreanischen Flagge geändert. 1 Tag gültig"
+    },
+    "incArmyDefence7D": {
+        "funcDesc": "Die Verteidigungskraft des Kriegszugs nimmt um 10% zu. 7 Tage gültig.",
+        "name": "Kriegsgottes Segnung",
+        "itemDesc": "Es ist der Legende nach ein vom Kriegsgott Mars benutztes riesiges Schild. Eine Ausstattung mit dem Schild wird die Verteidigungskraft deiner Truppen stärken."
+    },
+    "SenateSilverBox": {
+        "itemDesc": "Senat Silber Box, Primär-Preis, der Senat benutzt es, um die mutigen Krieger zu belohnen.",
+        "name": "Senat Silber Box",
+        "funcDesc": "Einmal geöffnet, haben Sie die Chance auf einen der folgenden Items zu bekommen: Umzugswagen, zerstreute Rolle v Shi Buch,Entwurfsplan, Code of Draco, 20000 Kupfer-Pack, 100 Pferde Pack."
+    },
+    "hero.loyalty.8": {
+        "name": "Elfenbein",
+        "funcDesc": "Elfenbein ist ein Luxusgut, es wird verwendet um das Amt zu versetzen, Helden zur Kapitulation aufzufordern oder ihnen eine Auszeichnung zu verleihen. Einen Helden eine Auszeichnung zu verleihen, kann seine Loyalität um 50 erhöhen.",
+        "itemDesc": "Die Schnitztechnik im römischen Reich scheint heute noch sehr virtuos. Das Elfenbein als ein teures Schnitzmaterial wurde immer von Adligen wertgeschätzt. Und kleine Schmuckstücke aus Elfenbein waren sehr beliebt bei den Römern."
+    },
+    "fifa31Logo": {
+        "itemDesc": "Die honduranische Flagge wird 1 Tag lang über deiner Stadt angezeigt. Du kannst diese durch eine andere Flagge ersetzen. Requisit bis 11.07.2010 im Shop kaufbar.",
+        "name": "Honduranische Flagge",
+        "funcDesc": "Die Flagge deiner Stadt wird zur honduranischen Flagge geändert. 1 Tag gültig"
+    },
+    "player.box.gambling.hero.7": {
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "funcDesc": "Zufallsheld der Stufe 7 (Potenzialwert 7)",
+        "name": "Held-Pack (Potenzialwert 7)"
+    },
+    "Onagers.2": {
+        "funcDesc": "100 Katapulte",
+        "name": "100 Katapulte-Pack",
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden."
+    },
+    "speedup1hTech": {
+        "itemDesc": "Der griechische Wissenschaftler und Mathematiker Archimedes hat in vielen Bereichen brillanten Beiträgen geleistet. Die „Gesammelte Werke von Archimedes” sind sehr hilfreich für die Förderung der technischen Forschungen. Damit kannst du den Prozess der technischen Forschungen beschleunigen.",
+        "funcDesc": "Durch Verwendung von diesem Requisit kann die Zeit eines Forschungsauftrags um 1 Std. verkürzt werden.",
+        "name": "Archimedischer Entwurf"
+    },
+    "war.pocket": {
+        "funcDesc": "normal",
+        "name": "normal",
+        "itemDesc": "normal"
+    },
+    "discuss": {
+        "itemDesc": "normal",
+        "funcDesc": "normal",
+        "name": "normal"
+    },
+    "MinervaHoyWaterIII": {
+        "itemDesc": "",
+        "name": "",
+        "funcDesc": ""
+    },
+    "LoyalMountTicket.Lv2": {
+        "itemDesc": "Reittierskarte Lv.2 kann beim Senat gegen 1x Kriegspferd der Treue (Lv.2) eingetauscht werden.",
+        "name": "Reittierskarte Lv.2",
+        "funcDesc": "Reittierskarte Lv.2 kann beim Senat gegen 1x Kriegspferd der Treue (Lv.2) eingetauscht werden."
+    },
+    "incArmyAttack1D": {
+        "name": "Spartas Dolch",
+        "itemDesc": "Die römische Soldaten lieben den vom Gladiator verwendeten Spartas Dolch. Wenn du dich mit dem Sparta Dolch ausstattest, kann die Streitkraft deiner Truppen erhöht werden.",
+        "funcDesc": "Die Streitkraft des Kriegszugs nimmt um 10% zu. 24 Std. gültig."
+    },
+    "speedup15mTech": {
+        "funcDesc": "Durch Verwendung von diesem Requisit kann die Zeit eines Forschungsauftrags um 15 Minuten verkürzt werden.",
+        "itemDesc": "Der griechische Wissenschaftler und Mathematiker Archimedes hat in vielen Bereichen brillanten Beiträgen geleistet. Die „Gesammelte Werke von Archimedes” sind sehr hilfreich für die Förderung der technischen Forschungen. Damit kannst du den Prozess der technischen Forschungen beschleunigen.",
+        "name": "Archimedische Rolle"
+    },
+    "hkbn": {
+        "name": "normal",
+        "itemDesc": "normal",
+        "funcDesc": "normal"
+    },
+    "preacherpacket": {
+        "itemDesc": "Man benötigt nur 300 Goldmünzen und kann den Volksglauben ändern und den Schutz des Neugottes erhalten.",
+        "name": "Glaubensübertragungspaket",
+        "funcDesc": "Nach der Öffnung kann man erhalten: Machtstab des Opferpriesters x1, Mobilmachungsrede x1"
+    },
+    "player.box.gambling.hero.3": {
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "name": "Held-Pack (Potenzialwert 3)",
+        "funcDesc": "Zufallsheld der Stufe 3 (Potenzialwert 3)"
+    },
+    "player.box.gambling.hero.8": {
+        "name": "Held-Pack (Potenzialwert 8)",
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "funcDesc": "Zufallsheld der Stufe 8 (Potenzialwert 8)"
+    },
+    "GoldenSupplyCrate": {
+        "name": "Goldener Schatzkasten",
+        "itemDesc": "Über die Schatzkisten Versorung werden Spione gelifert, die vorgesehen sind die Armee Rebellen zu treffen .",
+        "funcDesc": "Nach dem öffnen  haben die Chance , zwei oder drei Arten von folgenden Punkten zu erhalten:  100 Legionäre Pack x1, Kupfer Medaile x20, Putschniederwerfungsschild x1, Alexanders Expedition x1, großer Umzugswagen x1, Draco-Gesetzbuch x1, x1, Büste des Handelsgottes x1."
+    },
+    "SenateGoldenBox": {
+        "funcDesc": "Einmal geöffnet, haben Sie die Chance auf einen der folgenden Items zu bekommen: Unterdrückungserlaubnis, Umzugswagen, zerstreute Rolle v Shi Buch,Statue des Arztgottes, Büste des Handelsgottes,  Draco- Gesetzbuch, 100 Legionäre Pack, Rom-Schuhe, Schwarzeisenerz",
+        "name": "Senat Gold Box",
+        "itemDesc": "Senat Gold Box, Senjor-Preis, der Senat benutzt es, um die mutigen Krieger zu belohnen."
+    },
+    "Ballista.2": {
+        "name": "100 Ballisten-Pack",
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "funcDesc": "100 Ballisten"
+    },
+    "incBuildFormation60h": {
+        "name": "kleine Motivationsrede",
+        "itemDesc": "Der Aufbau einer Stadt ist sehr kompliziert. Ein Mangel an Personal führt dazu, dass der Errichtungsprozess sehr langsam ist. Während dieser Zeit kannst du eine kleine Motivationsrede halten, um die Stadtbewohner zu motivieren, damit gleichzeitig mehrere Bauaufträge starten.",
+        "funcDesc": "Bei sofortigen benutzen oder bei der Auswahl im Amtssitz werden die Bauaufträge auf 3 Stück erhöht. 60 Std. gültig."
+    },
+    "Battalion.2": {
+        "name": "Mittlere Kapitulierte Truppe",
+        "itemDesc": "öffne \"Meine Requisiten\" um diese zu verwenden.",
+        "funcDesc": "200-300 Bogenschützen, 100-200 Ballisten, 30-50 Reiter und 10-20 Legion-Fußsoldaten"
+    },
+    "GoldBarPack": {
+        "itemDesc": "",
+        "name": "",
+        "funcDesc": ""
+    },
+    "LoyalRingLetterOfUpgradeResult.Lv3": {
+        "itemDesc": "Upgrade-Ergebnis des Rings auf Lv.3, nach dem Öffnen erfährst du, ob die Ausrüstung erfolgreich hochgestuft wurde.",
+        "name": "Upgrade-Ergebnis des Rings auf Lv.3",
+        "funcDesc": "Upgrade-Ergebnis des Rings auf Lv.3, nach dem Öffnen erfährst du, ob die Ausrüstung erfolgreich hochgestuft wurde. Ring der Treue (Lv.2) --- Ring der Treue (Lv.3), Erfolgsrate: 80%."
+    },
+    "player.box.present.8": {
+        "itemDesc": "Inhaltsreiches Geschenkpack für die Anfänger. Nach der Versetzung der Amtssitz auf Level 8 kann es geöffnet werden. Nach der Öffnung kann ein Spieler viele Ressourcen und Requisiten erhalten.",
+        "funcDesc": "Nach der Öffnung erhält ein Spieler: vorläufiger Assistent x 1, „De Bello Gallico“ x 1, Obst x 1 und Anfänger Lv9-Pack.",
+        "name": "Anfänger Lv8-Pack"
+    },
+    "fifa29Logo": {
+        "name": "Spanische Flagge",
+        "itemDesc": "Die spanische Flagge wird 1 Tag lang über deiner Stadt angezeigt. Du kannst diese durch eine andere Flagge ersetzen. Requisit bis 11.07.2010 im Shop kaufbar.",
+        "funcDesc": "Die Flagge deiner Stadt wird zur spanischen Flagge geändert. 1 Tag gültig"
+    },
+    "player.box.present.4": {
+        "name": "Anfänger Lv4-Pack",
+        "itemDesc": "Inhaltsreiches Geschenkpack für die Anfänger. Nach der Versetzung der Amtssitz auf Level 4 kann es geöffnet werden. Nach der Öffnung kann ein Spieler viele Ressourcen und Requisiten erhalten.",
+        "funcDesc": "Nach der Öffnung erhält ein Spieler: Politische Grundphase , 1.Band von „Gesammelte Werke von Archimedes” x 1, 2.Band von „Gesammelte Werke von Archimedes” x 1, Versetzungserlass x 1, Flaschenzug x 1, Horn x 5 und Anfänger Lv5-Pack x 1."
+    },
+    "fifa11Logo": {
+        "itemDesc": "Die algerische Flagge wird 1 Tag lang über deiner Stadt angezeigt. Du kannst diese durch eine andere Flagge ersetzen. Requisit bis 11.07.2010 im Shop kaufbar.",
+        "name": "Algerische Flagge",
+        "funcDesc": "Die Flagge deiner Stadt wird zur algerischen Flagge geändert. 1 Tag gültig"
+    },
+    "fifa7Logo": {
+        "itemDesc": "Die südkoreanische Flagge wird 1 Tag lang über deiner Stadt angezeigt. Du kannst diese durch eine andere Flagge ersetzen. Requisit bis 11.07.2010 im Shop kaufbar.",
+        "funcDesc": "Die Flagge deiner Stadt wird zur südkoreanischen Flagge geändert. 1 Tag gültig",
+        "name": "Südkoreanische Flagge"
+    },
+    "SilverBarPackII": {
+        "name": "Paquete de Barras de Cobre II",
+        "itemDesc": "Paquete Especial de 13 Barras de Cobre con regalo extra。",
+        "funcDesc": "Conseguirás 13 Barras de Cobre y 3 Gemas de Minerva tras abrirlo."
+    },
+    "UrbanCohort.1": {
+        "name": "10 Legion-Fußsoldaten-Pack",
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "funcDesc": "10 Legion-Fußsoldaten"
+    },
+    "yahoo": {
+        "name": "normal",
+        "itemDesc": "normal",
+        "funcDesc": "normal"
+    },
+    "LawoftheTwelveTables": {
+        "name": "Gesetzbuch der 12Kupfertabell.",
+        "itemDesc": "Das im Kampf zwischen der Zivilbevölkerung und dem Adligen entstandene 《Gesetz der zwölf Kupfertabelle》ist der errungene Riesensieg für die Zivilbevölkerung. Zu gleicher Zeit ist es nicht nur das erste römische Statutenrecht, sondern auch die embryonale Form römisches Gesetzes. Gleichzeitig ist es auch das notwendige Requisit für das Aufrücken des Stadtkerns bzw. der Wissenschaft und Technik von 21 bis 25 Stufe.",
+        "funcDesc": "Das notwendige Requisit für das Aufrücken des Stadtkerns bzw. der Wissenschaft und Technik von 21 bis 25 Stufe."
+    },
+    "_number.player.box.gambling.iron.240000": {
+        "name": "240000 Eisen-Pack",
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "funcDesc": "240000 Eisen"
+    },
+    "_number.player.box.gambling.stone.320000": {
+        "funcDesc": "320000 Steine",
+        "name": "320000 Steine-Pack",
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden."
+    },
+    "incResIron1D": {
+        "name": "Büste des Vulkangottes",
+        "itemDesc": "Der Feuergott Vulkan ist verantwortlich für die Schmelze und das Schmieden. Er ist der hässlichsten Gott in der römischen Mythologie aber auch der Ehemann von der hübschesten Göttin Venus. Opfere eine Büste des Vulkangottes, um die Eisenproduktion zu erhöhen.",
+        "funcDesc": "Die Eisenproduktion steigt um 25%. 24 Std. gültig"
+    },
+    "_number.player.box.gambling.gold.120000": {
+        "name": "120000 Kupfermünzen-Pack",
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "funcDesc": "120000 Kupfermünzen"
+    },
+    "recallHero": {
+        "itemDesc": "Sobald der Krieg verloren und die Stadt erobert wird, schleichen sich die Helden, die den Feinden entkommen können, ins Volk ein. Sie bleiben weiter loyal zu dir. Mit Hilfe von Feldherr-Unterpfand kannst du sie innerhalb 60 Tagen wieder zurückrufen.",
+        "name": "Feldherr-Unterpfand",
+        "funcDesc": "Jeder Rückruf der alten Truppen kostet einen Feldherr-Unterpfand."
+    },
+    "_number.player.box.gambling.gold.20000": {
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "name": "20000 Kupfermünzen-Pack",
+        "funcDesc": "20000 Kupfermünzen"
+    },
+    "king": {
+        "itemDesc": "Nach der Benutzung wird die Stadt in Spielwelt umwandeln, das Äußere der Königsstadt ist nur einmalig, es dauert 7 Tage. Das Requisit wird nicht direkt verkauft und kann entweder mit dem Abzeichen sonstiger Gegend getauscht werden oder durch Aufladungsschenkung erhalten werden. Die Gültigkeitsdauer der Requisiten bleibt bis zum Aktivitätsschluss der „Staatsoberhauptfaktion“, bis dahin wird das Requisit aus der Requisitenspalte verschwinden. Aber die Anzeigedauer darf die Abschlusszeit der Aktivität überschreiten.",
+        "funcDesc": "Das Äußere der aktuellen Stadt des Spielers wird zur Königsstadt geändert, es dauert 7 Tage.",
+        "name": "Königsstadt"
+    },
+    "fifa2Logo": {
+        "itemDesc": "Die mexikanische Flagge wird 1 Tag lang über deiner Stadt angezeigt. Du kannst diese durch eine andere Flagge ersetzen. Requisit bis 11.07.2010 im Shop kaufbar.",
+        "name": "Mexikanische Flagge",
+        "funcDesc": "Die Flagge deiner Stadt wird zur mexikanischen Flagge geändert. 1 Tag gültig"
+    },
+    "MacedonEmblemPack": {
+        "itemDesc": "",
+        "funcDesc": "",
+        "name": ""
+    },
+    "speedup30pBuilding.pocket": {
+        "itemDesc": "normal",
+        "name": "normal",
+        "funcDesc": "normal"
+    },
+    "festival_orange": {
+        "name": "Mondfestgeschenk (orange)",
+        "itemDesc": "Die Bescheinigung bzw. Auszeichnung in Bezug auf die Vernichtung des im freien befindlichen Feindes während dem Mondfest lässt man nach deren Benutzung eine kleine Menge Streitmacht bzw. Artikel für Belohnung des Helden erhalten.",
+        "funcDesc": "Erhalt nach der Öffnung: kapitulierte Armee der Mitteltruppeneinheit x1, Elfenbein x1, 20000 Kupfermünzen."
+    },
+    "LoyalCaestusTicket.Lv3": {
+        "name": "Gürtelkarte Lv.3",
+        "itemDesc": "Gürtelkarte Lv.3, kann beim Senat gegen 1x Gürtel der Treue (Lv.3) eingetauscht werden.",
+        "funcDesc": "Gürtelkarte Lv.3, kann beim Senat gegen 1x Gürtel der Treue (Lv.3) eingetauscht werden."
+    },
+    "Triarii.1": {
+        "funcDesc": "10 Fußsoldaten",
+        "name": "10 Fußsoldaten-Pack",
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden."
+    },
+    "player.box.gambling.hero.4": {
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "funcDesc": "Zufallsheld der Stufe 4 (Potenzialwert 4)",
+        "name": "Held-Pack (Potenzialwert 4)"
+    },
+    "MinervaHolyWater.S": {
+        "itemDesc": "Minervas Heiliges Wasser (klein), verlängert den Effekt von Minevas Segen auf der Ausrüstung.",
+        "funcDesc": "Minervas Heiliges Wasser (klein), verlängert den Effekt von Minevas Segen auf der Ausrüstung, dauert 7 Tage.",
+        "name": "Minervas Heiliges Wasser (klein)"
+    },
+    "yatta": {
+        "itemDesc": "normal",
+        "funcDesc": "normal",
+        "name": "normal"
+    },
+    "player.box.present.9": {
+        "itemDesc": "Inhaltsreiches Geschenkpack für die Anfänger. Nach der Versetzung der Amtssitz auf Level 9 kann es geöffnet werden. Nach der Öffnung kann ein Spieler viele Ressourcen und Requisiten erhalten.",
+        "name": "Anfänger Lv9-Pack",
+        "funcDesc": "Nach der Öffnung erhält ein Spieler: Jupiter-Medaille x 1, Minerva-Medaille x 1, Politische fortschrittliche Phase x 1, Entwurfsplan x 1 und Anfänger Lv10-Pack."
+    },
+    "GoldMedal": {
+        "itemDesc": "Medaille aus Gold. Der Konsum von Gold Medal erziehen können, Helden Kampf-Fähigkeit zu erhöhen.",
+        "name": "Gold Medaille",
+        "funcDesc": "Der Konsum von Gold Medaille hat eine höhere Chance, Helden Eigenschaften von Bildung zu erhöhen."
+    },
+    "ghostemblem": {
+        "itemDesc": "Rechts oben an der Burg des Häuptlings wird das Gespenster-Abzeichen angezeigt. Die Folge dauert 7 Tage, bis dahin wird der ursprüngliche Zustand wiederhergestellt. Die vorhandenen Abzeichenmuster bzw. -zeiten werden durch diese Abzeichen ersetzt.",
+        "name": "Gespenster-Abzeichen",
+        "funcDesc": "Die Nebenfahne der gegenwärtigen Stadt des Häuptlings wird zu Gespenster-Zeichen geändert. Die Folge dauert 7 Tage. Wenn eine bestimmte Anzahl gesammelt wird, können die Ausrüstungen für Gespenster durch den Auftragstausch erhalten werden."
+    },
+    "Battalion.3": {
+        "itemDesc": "öffne \"Meine Requisiten\" um diese zu verwenden.",
+        "funcDesc": "200-300 Ballisten, 100-200 Reiter, 30-40 Legion-Fußsoldaten und 10-20 Katapulten.",
+        "name": "Große Kapitulierte Truppe"
+    },
+    "Huns": {
+        "name": "Hunnisches Wappen",
+        "itemDesc": "Rechts oben von der Stadt wird das hunnischen Wappen 7 Tage lang angezeigt, danach wird es zurückgesetzt. Nach Verwendung der Wappen diverser Ländern wird das aktuelle Wappenmuster und die aktuelle Zeit ersetzt. Das Requisit ist solange wirksam, bis die Aktion \"Führertruppe\" ausläuft.",
+        "funcDesc": "Wechsel die Zweitflagge deiner Stadt zu hunnischem Wappen, 7 Tage lang."
+    },
+    "incAllianceLimitTo300": {
+        "name": "Heilige Liga",
+        "itemDesc": "Je mehr Mitglieder der Allianz beitreten, desto stärker und mächtiger wird die Allianz. Durch den Schutz und Segnung der Heiligen Liga kann deine Allianz die mächtigste der Welt werden. Verwende die Heilige Liga um die Allianzstufe auf 10 und die Obergrenze auf 300 zu erhöhen.",
+        "funcDesc": "Die Führer einer Allianz oder deren Stellvertreter können die Allianzstufe durch die Heilige Liga direkt auf Stufe 10 erhöhen und erreichen gleichzeitig die Obergrenze von 300 Mitgliedern."
+    },
+    "LoyalNecklaceTicket.Lv1": {
+        "itemDesc": "Halskettenkarte Lv.1 kann beim Senat gegen 1x Halskette der Treue (Lv.1) eingetauscht werden.",
+        "name": "Halskettenkarte Lv.1",
+        "funcDesc": "Halskettenkarte Lv.1 kann beim Senat gegen 1x Halskette der Treue (Lv.1) eingetauscht werden."
+    },
+    "speedup30pTraining.pocket": {
+        "itemDesc": "normal",
+        "funcDesc": "normal",
+        "name": "normal"
+    },
+    "newplayer.pocket": {
+        "name": "normal",
+        "itemDesc": "normal",
+        "funcDesc": "normal"
+    },
+    "drachma": {
+        "name": "Drachme",
+        "itemDesc": "die Wahrung, mit geheimnisvoller Geschäfter gehandelt, kann man im Umtauschladen\"\"täglicher Bedarf\"\" Drachme erhalten",
+        "funcDesc": "die Wahrung, mit geheimnisvoller Geschäfter gehandelt, kann man im Umtauschladen\"\"täglicher Bedarf\"\" Drachme erhalten"
+    },
+    "CopperHorn": {
+        "itemDesc": "Zum Anwenden der Schlacht in kleiner Rhein Festung",
+        "funcDesc": "Zum Anwenden der Schlacht in kleiner Rhein Festung",
+        "name": "Kupfer Horn"
+    },
+    "fifa32Logo": {
+        "name": "Chilenische Flagge",
+        "itemDesc": "Die chilenische Flagge wird 1 Tag lang über deiner Stadt angezeigt. Du kannst diese durch eine andere Flagge ersetzen. Requisit bis 11.07.2010 im Shop kaufbar.",
+        "funcDesc": "Die Flagge deiner Stadt wird zur chilenischen Flagge geändert. 1 Tag gültig"
+    },
+    "LionHeart": {
+        "name": "Löwenkönigherz",
+        "itemDesc": "Erhalt der Löwenköniganerkennung ist der einzig gangbare Weg für römische Helden.",
+        "funcDesc": "Wird eine bestimmte Zahl gesammelt, können die im Löwenköniganzug befindlichen Waffen oder Panzerrüstungen umgetauscht werden."
+    },
+    "relive50pTroopAtWar7D": {
+        "itemDesc": "Durch die Büste des Heilungsgottes bekommen die Soldaten mehr Schutz. Durch den Glauben an den Heilungsgott überleben die Verwundeten länger und können so gerettet werden. Die Anzahl der Toten wird dadurch stark reduziert.",
+        "name": "Statue des Arztgottes",
+        "funcDesc": "10% der Truppeneinheit überleben einen tödlichen Angriff und befinden sich nach dem Kampf im Lazarett. Durch die Verwendung der „Büste des Heilungsgottes“ steigert sich Zahl der Verletzten auf 60%. 7 Tage gültig."
+    },
+    "incPopulation": {
+        "itemDesc": "Du kannst Geburten fördern oder Sklaven und Kriegsgefangene freisprechen um die Bevölkerungszahl zu erhöhen. Außerdem kann freies Volk aus der Umgebung in die Stadt einziehen.Diese Bekanntmachung ist die schnellste Wahl, um mehr Bewohner für die Stadtentwicklung zu gewinnen.",
+        "funcDesc": "Beim direkten benutzen wird die Bevölkerung um 20% erhöht. Die Obergrenze der Bevölkerung wird nicht erhöht oder überschritten.",
+        "name": "Volkschutzbekanntmachung"
+    },
+    "fifa20Logo": {
+        "funcDesc": "Die Flagge deiner Stadt wird zur kamerunischen Flagge geändert. 1 Tag gültig",
+        "itemDesc": "Die kamerunische Flagge wird 1 Tag lang über deiner Stadt angezeigt. Du kannst diese durch eine andere Flagge ersetzen. Requisit bis 11.07.2010 im Shop kaufbar.",
+        "name": "Kamerunisch Flagge"
+    },
+    "festival_yellow": {
+        "name": "Mondfestgeschenk (gelb)",
+        "itemDesc": "Die Bescheinigung bzw. Auszeichnung in Bezug auf die Vernichtung des im freien befindlichen Feindes während dem Mondfest lässt man nach deren Benutzung eine kleine Menge Streitmacht bzw. Artikel für Belohnung des Helden erhalten.",
+        "funcDesc": "Erhalt nach der Öffnung: kapitulierte Armee der Mitteltruppeneinheit x1, Wein x1, Schafwolle x1."
+    },
+    "fifa5Logo": {
+        "itemDesc": "Die argentinische Flagge wird 1 Tag lang über deiner Stadt angezeigt. Du kannst diese durch eine andere Flagge ersetzen. Requisit bis 11.07.2010 im Shop kaufbar.",
+        "name": "Argentinische Flagge",
+        "funcDesc": "Die Flagge deiner Stadt wird zur argentinischen Flagge geändert. 1 Tag gültig"
+    },
+    "_number.player.box.gambling.medal.50": {
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "name": "50 Goldmünzen-Pack",
+        "funcDesc": "50 Goldmünzen"
+    },
+    "PowerfulMilitaryPack": {
+        "itemDesc": "Ein Festtagsgeschenk voller wertvoller edler Gegenstände",
+        "name": "Starksoldatenpaket",
+        "funcDesc": "Es beinhaltet: kapitulierte Armee der Großtruppeneinheit x1,das eigenständige Heiligedikt x1 ,das Sparta-Kurzstichschwert x1 und Thrakien-Raupenhelm x1."
+    },
+    "SilverSupplyCrate": {
+        "itemDesc": "Über die Schatzkisten Versorung werden Spione gelifert, die vorgesehen sind die Armee Rebellen zu treffen .",
+        "funcDesc": "Nach dem öffnen  haben die Chance , zwei oder drei Arten von folgenden Punkten zu erhalten: 100 Pferde Packx1, Kupfer Medaile x10, zerstreute Rolle v Shi Buch x1, Entwurfsplan x1, kleine Motivations Rede x1, 20000 Kupfer Pack x1.",
+        "name": "Silberner Schatzkasten"
+    },
+    "Archers.2": {
+        "name": "100 Bogenschützen-Pack",
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "funcDesc": "100 Bogenschützen"
+    },
+    "MinervaGem": {
+        "itemDesc": "Minervas Edelstein gibt den Helden eine mysteriöse Kraft, damit sie die Ausrüstung mit Minervas Segen tragen können.",
+        "funcDesc": "Minervas Edelstein gibt den Helden eine mysteriöse Kraft, damit sie die Ausrüstung mit Minervas Segen tragen können.",
+        "name": "Minervas Edelstein"
+    },
+    "player.box.gambling.hero.5": {
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "name": "Held-Pack (Potenzialwert 5)",
+        "funcDesc": "Zufallsheld der Stufe 5 (Potenzialwert 5)"
+    },
+    "architecturePacket": {
+        "name": "Seitentasche der Bauzeichnung",
+        "itemDesc": "In der 「Seitentasche der Bauzeichnung」, deren Originalpreis 400 Goldmünzen beträgt, sind 5 Bauzeichnungen bzw. 5 Planungszeichnungen enthalten. Nun wird diese Tasche mit dem 25% Sonderrabatt, nämlich 330 Goldmünzen verkauft, so daß du die Stadterweiterung leicht erzielen kannst.",
+        "funcDesc": "Nach der Öffnung kann man erhalten: Bauzeichnungen x5, Planungszeichnungen x5"
+    },
+    "CopperOrder": {
+        "funcDesc": "Für den Start oder Angriff in den Kampf  in kleinen Rhein Festung",
+        "name": "Kupfer-Abzeichen",
+        "itemDesc": "Für den Start oder Angriff in den Kampf  in kleinen Rhein Festung"
+    },
+    "speedup1hTraining.pocket": {
+        "name": "normal",
+        "itemDesc": "normal",
+        "funcDesc": "normal"
+    },
+    "changeLogo": {
+        "itemDesc": "Sobald ein Allianzname oder Wappen ausgewählt wurde, kann man dieses nur noch durch ein Familienwappen verändern.",
+        "name": "Familienwappen",
+        "funcDesc": "Es kostet jedes Mal ein Familienwappen um den Allianznamen oder Allianzwappen im Allianzverwaltungsmenü zu verändern."
+    },
+    "LoyalNecklaceTicket.Lv2": {
+        "itemDesc": "Halskettenkarte Lv.2, kann beim Senat gegen 1x Halskette der Treue (Lv.2) eingetauscht werden.",
+        "funcDesc": "Halskettenkarte Lv.2, kann beim Senat gegen 1x Halskette der Treue (Lv.2) eingetauscht werden.",
+        "name": "Halskettenkarte Lv.2"
+    },
+    "heha": {
+        "itemDesc": "normal",
+        "name": "normal",
+        "funcDesc": "normal"
+    },
+    "speedup3hBuilding.pocket1": {
+        "name": "zerstreute Rolle v Shi Buch-Paket",
+        "itemDesc": "Kaufe 6 zersteute Rolle v Shi Buch und man bekommt 2 geschenkt.",
+        "funcDesc": "Öffne und man bekommt 8x zerstreute Rolle v Shi Buch."
+    },
+    "player.box.present.6": {
+        "itemDesc": "Inhaltsreiches Geschenkpack für die Anfänger. Nach der Versetzung der Amtssitz auf Level 6 kann es geöffnet werden. Nach der Öffnung kann ein Spieler viele Ressourcen und Requisiten erhalten.",
+        "funcDesc": "Nach der Öffnung erhält ein Spieler: Büste Saturn x 1, Büste des Waldgottes x 1, Büste der Erdgöttin x 1, Büste des Vulkangottes x 1, Brot x 1, Umzugswagen x 1, „Perserkrieg“ x 1 und Anfänger Lv7-Pack x 1.",
+        "name": "Anfänger Lv6-Pack"
+    },
+    "GoldBarPiece": {
+        "name": "Stück des Goldbarrens",
+        "itemDesc": "Stück des Goldbarrens, kann beim Tempel gegen Goldbarren eingetauscht werden.",
+        "funcDesc": "Stück des Goldbarrens, kann beim Tempel gegen Goldbarren eingetauscht werden."
+    },
+    "fifa27Logo": {
+        "name": "Flagge der Elfenbeinküste",
+        "itemDesc": "Die Flagge der Elfenbeinküste wird 1 Tag lang über deiner Stadt angezeigt. Du kannst diese durch eine andere Flagge ersetzen. Requisit bis 11.07.2010 im Shop kaufbar.",
+        "funcDesc": "Die Flagge deiner Stadt wird zur Flagge der Elfenbeinküste geändert. 1 Tag gültig"
+    },
+    "player.box.resource.1t.15": {
+        "funcDesc": "Nach der Öffnung erhält ein Spieler: 80000 Getreide, 80000 Holz, 80000 Steine, 80000 Eisen, 2.Band von „Zehn Bücher über Architektur” x 6, 2.Band von „Gesammelte Werke von Archimedes” x 6, „Politische fortschrittliche Phase“ x 6, Held-Pack (Potenzialwert 3) x 1, Statue des Waldgottes x 1, herrlichen Geschenkkasten x 1, Opfergaben x 10, Horn x 10, 4 Räder Kutsche x 5.",
+        "name": "Entwicklung-Platin-Pack",
+        "itemDesc": "Inhaltreiches Entwicklung-Pack, das Beschleunigungsrequisiten, Herstellungsrequisiten, Ressourcen,..enthält. Der Gesamtwert beträgt 1885 Goldmünzen! Als mächtiger Fürst sollst du es besitzen!"
+    },
+    "_number.player.box.gambling.iron.320000": {
+        "name": "320000 Eisen-Pack",
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "funcDesc": "320000 Eisen"
+    },
+    "Scout.1": {
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "funcDesc": "10 Vorhuten",
+        "name": "10 Vorhuten-Pack"
+    },
+    "_number.player.box.gambling.gold.80000": {
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "funcDesc": "80000 Kupfermünzen",
+        "name": "80000 Kupfermünzen-Pack"
+    },
+    "LoyalCaestusTicket.Lv2": {
+        "itemDesc": "Gürtelkarte Lv.2, kann beim Senat gegen 1x Gürtel der Treue (Lv.2) eingetauscht werden.",
+        "funcDesc": "Gürtelkarte Lv.2, kann beim Senat gegen 1x Gürtel der Treue (Lv.2) eingetauscht werden.",
+        "name": "Gürtelkarte Lv.2"
+    },
+    "homeII": {
+        "name": "normal",
+        "itemDesc": "normal",
+        "funcDesc": "normal"
+    },
+    "GoldBar": {
+        "itemDesc": "Goldbarren, kann die Ausrüstung hochstufen.",
+        "funcDesc": "Goldbarren, kann die Ausrüstung hochstufen.",
+        "name": "Goldbarren"
+    },
+    "Macedon": {
+        "name": "Mazedonisches Wappen",
+        "itemDesc": "Rechts oben von der Stadt wird das mazedonischen Wappen 7 Tage lang angezeigt, danach wird es zurückgesetzt. Nach Verwendung der Wappen diverser Ländern wird das aktuelle Wappenmuster und die aktuelle Zeit ersetzt. Das Requisit ist solange wirksam, bis die Aktion \"Führertruppe\" ausläuft.",
+        "funcDesc": "Wechsel die Zweitflagge deiner Stadt zu mazedonischem Wappen, 7 Tage lang."
+    },
+    "_number.player.box.gambling.wood.160000": {
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "name": "160000 Holz-Pack",
+        "funcDesc": "160000 Holz"
+    },
+    "crazyIII": {
+        "itemDesc": "normal",
+        "funcDesc": "normal",
+        "name": "normal"
+    },
+    "player.box.51job": {
+        "itemDesc": "Sorglose-Zukunft-Pack im Wert von 250 Goldmünzen wird für 188 Goldmünzen verkauft. 10 „Versetzungserlasse“ und 10 „Einziehungsschriftstücke“ sind enthalten.",
+        "funcDesc": "Es enthält Requisiten um Helden zu rekrutieren",
+        "name": "Sorglose-Zukunft-Pack"
+    },
+    "Ballista.1": {
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "name": "10 Ballisten-Pack",
+        "funcDesc": "10 Ballisten"
+    },
+    "_number.player.box.gambling.stone.40000": {
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "name": "40000 Steine-Pack",
+        "funcDesc": "40000 Steine"
+    },
+    "christmastree": {
+        "itemDesc": "Rechts oben an der Burg des Häuptlings wird das Weihnachtsbaum-Abzeichen angezeigt. Die Folge dauert 7 Tage, bis dahin wird der ursprüngliche Zustand wiederhergestellt. Die vorhandenen Abzeichenmuster bzw. -zeiten werden durch verschiedene Staatsabzeichen ersetzt.",
+        "funcDesc": "Nach der Benutzung wird die Nebenfahne der Burg als Weihnachtsbaum angezeigt. Die Folge dauert 7 Tage.",
+        "name": "Weihnachtsbaum"
+    },
+    "incResFood7D": {
+        "name": "Ganzbild Saturn",
+        "itemDesc": "Saturn ist Jupiters Vater und gilt als Gott der Landwirtschaft. Opfere eine Statue des Landwirtschaftsgottes Saturn, um die Getreideproduktion zu erhöhen.",
+        "funcDesc": "Die Getreideproduktion steigt um 25%. 7 Tage gültig."
+    },
+    "incHeroExp1k": {
+        "itemDesc": "„Perserkrieg“ wurde von Herodot verfasst, der als „Vater der Geschichtsschreibung“ und als Erzähler „zahlloser Geschichten“ bezeichnet wurde. Mit Hilfe dieses Werkes kann der Erfahrungswert des Helden erhöht werden.",
+        "name": "„Perserkrieg“",
+        "funcDesc": "Durch Verwendung des Requisits kann der Erfahrungswert des Helden um 1000 oder um 8% des für die jetzigen Stufe erforderlichen Erfahrungswertes erhöht werden. (höherer Wert der Beiden wird genommen)"
+    },
+    "ipad": {
+        "itemDesc": "Normal",
+        "name": "Normal",
+        "funcDesc": "Normal"
+    },
+    "Scout.2": {
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "name": "100 Vorhuten-Pack",
+        "funcDesc": "100 Vorhuten"
+    },
+    "FearlessnessEmblem": {
+        "name": "Furchtloses Abzeichen",
+        "itemDesc": "Das Abzeichen wird vom Kriegsgott Mars geprägt, um die furchtlosen Haudegen auszuzeichnen.",
+        "funcDesc": "Wird eine bestimmte Zahl gesammelt, können die im furchtlosen Anzug befindlichen Schutzschilder oder Raupenhelme umgetauscht werden."
+    },
+    "milk": {
+        "itemDesc": "Schafsmilch ist eine der drei beliebsten Getränke der Römer. Sie kann deinen Helden helfen, den großen Teil der Körperkraft wiederzuerlangen.",
+        "name": "Schafsmilch",
+        "funcDesc": "Wenn du bei deinem Held auf \"+\" hinter dem \"physikalischen Wert\" klickst und die Schaftsmilch wählst, bekommt dein Held 60% der maximal erreichbaren Körperkraft wieder. Aber dennoch wird die Obergrenze nicht überschreitet."
+    },
+    "spartans.relics": {
+        "itemDesc": "Relikt der spartanischen Kriegern, nach dem Öffnen erhält man 10x Persische Wappen, 1x Spartanischer Dolch und 1x Opfergabe.",
+        "funcDesc": "Nach dem Öffnen erhält man 10x Persische Wappen, 1x Spartanischer Dolch und 1x Opfergabe.",
+        "name": "Relikt der spartanischen Kriegern"
+    },
+    "_number.player.box.gambling.wood.240000": {
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "funcDesc": "240000 Holz",
+        "name": "240000 Holz-Pack"
+    },
+    "google": {
+        "itemDesc": "normal",
+        "funcDesc": "normal",
+        "name": "normal"
+    },
+    "Archers.1": {
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "name": "10 Bogenschützen-Pack",
+        "funcDesc": "10 Bogenschützen"
+    },
+    "Gauls": {
+        "itemDesc": "Rechts oben von der Stadt wird das gallische Wappen 7 Tage lang angezeigt, danach wird es zurückgesetzt. Nach Verwendung der Wappen diverser Ländern wird das aktuelle Wappenmuster und die aktuelle Zeit ersetzt. Das Requisit ist solange wirksam, bis die Aktion \"Führertruppe\" ausläuft.",
+        "name": "Gallisches Wappen",
+        "funcDesc": "Wechsel die Zweitflagge deiner Stadt zu gallischem Wappen, 7 Tage lang."
+    },
+    "_number.player.box.gambling.wood.80000": {
+        "name": "80000 Holz-Pack",
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "funcDesc": "80000 Holz"
+    },
+    "GoldMedal.Pocket": {
+        "itemDesc": "Kann 30 Goldmedaillen nachdem öffnen enthalten,kostet nur 83% des ursprünglichen Preises.",
+        "name": "Gold –Medaillen-Pack",
+        "funcDesc": "Kann 30 Goldmedaillen nachdem öffnen enthalten."
+    },
+    "rebuilding": {
+        "itemDesc": "Wenn du eine bestimmte Art von Truppe-Trainingsplätzen nicht mehr brauchst, kannst du durch Verwendung der Umbauzeichnung zwischen Kasernen, Werkstätte und Pferdeställe willkürlich wechseln. Die Voraussetzung ist, dass das Gebäude schon Stufe 10 erreicht und keine Training hat. Das umgebaute Gebäude wird zur Stufe 9 degradiert.",
+        "name": "Umbauzeichnung",
+        "funcDesc": "Du kannst ein der Herstellungsgebäude (Kasernen, Werkstätten oder Pferdeställe) der Stufe 10 in ein anderen der Stufe 9 umwandeln."
+    },
+    "speedupWorkout": {
+        "itemDesc": "Wenn du in kürzerer Zeit das Ziel erreichen willst, kannst du den \"Vorläufiger Assistenten\" verwenden um einem Held bei der Trainingsaufgabe zu helfen.",
+        "name": "Vorläufiger Assistent",
+        "funcDesc": "Durch Verwendung des Requisites kann das Training des Helden beschleunigt werden. 30% der verbleibenden Trainingszeit kann dadurch verkürzt werden."
+    },
+    "SilverOrder": {
+        "itemDesc": "Für den Start oder Angriff in den Kampf  in mittlerer Rhein Festung",
+        "name": "Silber-Abzeichen",
+        "funcDesc": "Für den Start oder Angriff in den Kampf  in mittlerer Rhein Festung"
+    },
+    "speedup50pTroop": {
+        "itemDesc": "„De Bello Gallico“ hat insgesamt 7 Bände und stellt den Ablauf vom Caesars Krieg in Gallien dar. Mit Hilfe dieses Buch kannst du die Trainingszeit deiner Truppen deutlich reduzieren.",
+        "funcDesc": "Das Requisit kann bei Herstellung und Training in Pferdeställen, Kasernen oder Werkstätten verwendet werden. Dadurch wird 50% der verbleibenen Herstellungs- und Trainingszeit verkürzt.",
+        "name": "„De Bello Gallico“"
+    },
+    "incResFood1D": {
+        "itemDesc": "Saturn ist Jupiters Vater und gilt als Gott der Landwirtschaft. Opfere eine Büste des Landwirtschaftsgottes Saturn, um die Getreideproduktion zu erhöhen.",
+        "funcDesc": "Die Getreideproduktion steigt um 25%. 24 Std. gültig.",
+        "name": "Büste Saturn"
+    },
+    "speedup15mTraining": {
+        "itemDesc": "Das Werk aufzeichnet, wie man eine Stadt verwaltet, und enthält die von vielen historischen Herrscher zusammenfassenden Erfahrungen und Lehren. Obwohl einige Inhalte im Lauf der Zeit als fehlerhaft erkannt werden, können Anfänger noch davon viel profitieren. Mit Hilfe dieses Werkes kann die Zeit der Schaffung von Arbeitsplätzen reduziert werden.",
+        "name": "Politische Grundphase",
+        "funcDesc": "Durch Verwendung von diesem Requisit kann die Zeit der Schaffung von Arbeitsplätzen um 15 Minuten verkürzt werden."
+    },
+    "speaker10": {
+        "itemDesc": "Zehn Hörner im Wert von 30 Goldmünzen werden zusammen für 27 Goldmünzen verkauft.",
+        "name": "Horn × 10",
+        "funcDesc": "Damit kann ein Spieler im Weltkanal sprechen und Massenbriefe schicken."
+    },
+    "Ballista.3": {
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "name": "1000 Ballisten-Pack",
+        "funcDesc": "1000 Ballisten"
+    },
+    "SilverHorn": {
+        "name": "Silbernes Horn",
+        "itemDesc": "Zum Anwenden der Schlacht in mittlerer Rhein Festung",
+        "funcDesc": "Zum Anwenden der Schlacht in mittlerer Rhein Festung"
+    },
+    "incHeroExp10k": {
+        "itemDesc": "Es ist das Kriegswerk des griechischen Historiker Thukydides, in dem der Krieg zwischen dem von Athen geführten attischen Seebund und dem von Sparta geführten peloponnesischen Bund aufzeichnet wird. Mit Hilfe dieses Werkes kann der Erfahrungswert des Helden erhöht werden.",
+        "name": "Geschichte des Peloponnes",
+        "funcDesc": "Durch Verwendung des Requisits kann der Erfahrungswert des Helden um 10000 oder um 30% des für die jetzigen Stufe erforderlichen Erfahrungswertes erhöht werden. (höherer Wert der Beiden wird genommen)"
+    },
+    "fifa14Logo": {
+        "itemDesc": "Die österreichische Flagge wird 1 Tag lang über deiner Stadt angezeigt. Du kannst diese durch eine andere Flagge ersetzen. Requisit bis 11.07.2010 im Shop kaufbar.",
+        "funcDesc": "Die Flagge deiner Stadt wird zur österreichischen Flagge geändert. 1 Tag gültig",
+        "name": "Österreichische Flagge"
+    },
+    "BronzeBar": {
+        "itemDesc": "Kupferbarren, kann die Ausrüstung verbessern.",
+        "name": "Kupferbarren",
+        "funcDesc": "Kupferbarren, kann die Ausrüstung verbessern."
+    },
+    "speedup1hBuilding.pocket": {
+        "itemDesc": "normal",
+        "name": "normal",
+        "funcDesc": "normal"
+    },
+    "speedup15mBuilding": {
+        "itemDesc": "Das im Jahr 27 v.Chr. vom römischen Architekten Vitruvius geschriebene Werk „Zehn Bücher über Architektur” ist eine helle Perle voller Weisheit in der römischen Zivilisation. Die Theorien und Techniken in diesem klassischen Werk spielt eine wichtige Rolle bei der Entwicklung der Architektur. Das komplette „Zehn Bücher über Architektur” ist in vielen Teilen eingegliedert. Mit Hilfe von denen kann die Bauzeit beträchtlich verkürzt und den Bauprozess beschleunigt werden.",
+        "funcDesc": "Durch Verwendung von diesem Requisit kann die Zeit eines Bauauftrags um 15 Minuten verkürzt werden.",
+        "name": "Rolle von Shi Buch"
+    },
+    "pub": {
+        "name": "normal",
+        "itemDesc": "normal",
+        "funcDesc": "normal"
+    },
+    "moveCastleEnemy": {
+        "itemDesc": "Willst du die Belästigung anderer stärkere Feinde vermeiden? Dann kannst du durch das Demobilisierungsorakel die Städte deiner Feinde in eine andere entfernte Provinz verlegen. Alle nicht eigene verbündete Wehrmacht der Stadt wird zwangsweise zurückgeschickt. Die Truppen draußen kehren automatisch in die eigenen Städte zurück.",
+        "name": "Demobilisierungsorakel",
+        "funcDesc": "Du kannst die Stadt der Feinde auf dem entfernten Gebiet verlegen. Die verbündete Wehrmacht der Stadt wird zwangsweise zurückgeschickt. Die Truppen draußen kehren automatisch in eigene Städte zurück."
+    },
+    "moveCastle": {
+        "itemDesc": "Wenn sich deine Stadt in einer schlechten Umgebung befindet, zum Beispiel: Es gibt kaum Erträge in den Wildnissen oder ein starker feindlicher Fürst hat deine Stadt im Visier, kannst du mit Hilfe des Umzugswagen deine Stadt zu einem zufälligen Ort verlegen.",
+        "funcDesc": "Du kannst deine Stadt zu einem anderen Ort verlegen. Zur Verwendung eines Umzuges dürfen sich keine Truppen außerhalb der Stadt oder Besatzungstruppen innerhalb der Stadt befinden.",
+        "name": "Umzugswagen"
+    },
+    "UrbanCohort.2": {
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "name": "100 Legion-Fußsoldaten-Pack",
+        "funcDesc": "100 Legion-Fußsoldaten"
+    },
+    "Lyre": {
+        "itemDesc": "",
+        "name": "",
+        "funcDesc": ""
+    },
+    "doughnut": {
+        "itemDesc": "Verschiedene Weihnachtskrapfen mit unerwarteter Überraschung versteckt. Öffnest du sie und kannst du wertvolles Requisit erhalten.",
+        "name": "Weihnachtskrapfen",
+        "funcDesc": "Nach der Öffnung hast du Chance: Schatzversteckungszeichnung, Opfergabe, verschiedene Abzeichen, Luxuswaren, Nahrungsmittel und Schießpulvereimer usw. zu erhalten."
+    },
+    "Archers.3": {
+        "itemDesc": "öffne \"Meine Requisiten\" um es zu verwenden.",
+        "funcDesc": "1000 Bogenschützen",
+        "name": "1000 Bogenschützen-Pack"
+    },
+    "": {
+        "Nach": "dem Öffnen erhält man 10x Korpssoldaten."
+    }
+}

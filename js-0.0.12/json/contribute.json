@@ -1,0 +1,5299 @@
+{
+    "loy.belt.2": {
+        "id": "loy.belt.2",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 1
+            },
+            {
+                "type": "item",
+                "item": "bronze_bar",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 2
+            }
+        ]
+    },
+    "loy.belt.3": {
+        "id": "loy.belt.3",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 2
+            },
+            {
+                "type": "item",
+                "item": "bronze_bar",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 3
+            }
+        ]
+    },
+    "loy.belt.4": {
+        "id": "loy.belt.4",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 3
+            },
+            {
+                "type": "item",
+                "item": "silver_bar",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 4
+            }
+        ]
+    },
+    "loy.belt.5": {
+        "id": "loy.belt.5",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 4
+            },
+            {
+                "type": "item",
+                "item": "silver_bar",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 5
+            }
+        ]
+    },
+    "loy.belt.6": {
+        "id": "loy.belt.6",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 5
+            },
+            {
+                "type": "item",
+                "item": "silver_bar",
+                "amount": 6
+            },
+            {
+                "type": "promotion",
+                "promotion": 2
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 6
+            }
+        ]
+    },
+    "loy.belt.7": {
+        "id": "loy.belt.7",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 6
+            },
+            {
+                "type": "item",
+                "item": "gold_bar",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 2
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 7
+            }
+        ]
+    },
+    "loy.belt.8": {
+        "id": "loy.belt.8",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 7
+            },
+            {
+                "type": "item",
+                "item": "gold_bar",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 8
+            }
+        ]
+    },
+    "loy.belt.9": {
+        "id": "loy.belt.9",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 8
+            },
+            {
+                "type": "item",
+                "item": "gold_bar",
+                "amount": 6
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 9
+            }
+        ]
+    },
+    "loy.necklace.2": {
+        "id": "loy.necklace.2",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 1
+            },
+            {
+                "type": "item",
+                "item": "bronze_bar",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 2
+            }
+        ]
+    },
+    "loy.necklace.3": {
+        "id": "loy.necklace.3",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 2
+            },
+            {
+                "type": "item",
+                "item": "bronze_bar",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 3
+            }
+        ]
+    },
+    "loy.necklace.4": {
+        "id": "loy.necklace.4",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 3
+            },
+            {
+                "type": "item",
+                "item": "silver_bar",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 4
+            }
+        ]
+    },
+    "loy.necklace.5": {
+        "id": "loy.necklace.5",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 4
+            },
+            {
+                "type": "item",
+                "item": "silver_bar",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 5
+            }
+        ]
+    },
+    "loy.necklace.6": {
+        "id": "loy.necklace.6",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 5
+            },
+            {
+                "type": "item",
+                "item": "silver_bar",
+                "amount": 6
+            },
+            {
+                "type": "promotion",
+                "promotion": 2
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 6
+            }
+        ]
+    },
+    "loy.necklace.7": {
+        "id": "loy.necklace.7",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 6
+            },
+            {
+                "type": "item",
+                "item": "gold_bar",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 2
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 7
+            }
+        ]
+    },
+    "loy.necklace.8": {
+        "id": "loy.necklace.8",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 7
+            },
+            {
+                "type": "item",
+                "item": "gold_bar",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 8
+            }
+        ]
+    },
+    "loy.necklace.9": {
+        "id": "loy.necklace.9",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 8
+            },
+            {
+                "type": "item",
+                "item": "gold_bar",
+                "amount": 6
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 9
+            }
+        ]
+    },
+    "loy.pendant.2": {
+        "id": "loy.pendant.2",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 1
+            },
+            {
+                "type": "item",
+                "item": "bronze_bar",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 2
+            }
+        ]
+    },
+    "loy.pendant.3": {
+        "id": "loy.pendant.3",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 2
+            },
+            {
+                "type": "item",
+                "item": "bronze_bar",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 3
+            }
+        ]
+    },
+    "loy.pendant.4": {
+        "id": "loy.pendant.4",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 3
+            },
+            {
+                "type": "item",
+                "item": "silver_bar",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 4
+            }
+        ]
+    },
+    "loy.pendant.5": {
+        "id": "loy.pendant.5",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 4
+            },
+            {
+                "type": "item",
+                "item": "silver_bar",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 5
+            }
+        ]
+    },
+    "loy.pendant.6": {
+        "id": "loy.pendant.6",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 5
+            },
+            {
+                "type": "item",
+                "item": "silver_bar",
+                "amount": 6
+            },
+            {
+                "type": "promotion",
+                "promotion": 2
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 6
+            }
+        ]
+    },
+    "loy.pendant.7": {
+        "id": "loy.pendant.7",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 6
+            },
+            {
+                "type": "item",
+                "item": "gold_bar",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 2
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 7
+            }
+        ]
+    },
+    "loy.pendant.8": {
+        "id": "loy.pendant.8",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 7
+            },
+            {
+                "type": "item",
+                "item": "gold_bar",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 8
+            }
+        ]
+    },
+    "loy.pendant.9": {
+        "id": "loy.pendant.9",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 8
+            },
+            {
+                "type": "item",
+                "item": "gold_bar",
+                "amount": 6
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 9
+            }
+        ]
+    },
+    "loy.ring.2": {
+        "id": "loy.ring.2",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 1
+            },
+            {
+                "type": "item",
+                "item": "bronze_bar",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 2
+            }
+        ]
+    },
+    "loy.ring.3": {
+        "id": "loy.ring.3",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 2
+            },
+            {
+                "type": "item",
+                "item": "bronze_bar",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 3
+            }
+        ]
+    },
+    "loy.ring.4": {
+        "id": "loy.ring.4",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 3
+            },
+            {
+                "type": "item",
+                "item": "silver_bar",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 4
+            }
+        ]
+    },
+    "loy.ring.5": {
+        "id": "loy.ring.5",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 4
+            },
+            {
+                "type": "item",
+                "item": "silver_bar",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 5
+            }
+        ]
+    },
+    "loy.ring.6": {
+        "id": "loy.ring.6",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 5
+            },
+            {
+                "type": "item",
+                "item": "silver_bar",
+                "amount": 6
+            },
+            {
+                "type": "promotion",
+                "promotion": 2
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 6
+            }
+        ]
+    },
+    "loy.ring.7": {
+        "id": "loy.ring.7",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 6
+            },
+            {
+                "type": "item",
+                "item": "gold_bar",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 2
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 7
+            }
+        ]
+    },
+    "loy.ring.8": {
+        "id": "loy.ring.8",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 7
+            },
+            {
+                "type": "item",
+                "item": "gold_bar",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 8
+            }
+        ]
+    },
+    "loy.ring.9": {
+        "id": "loy.ring.9",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 8
+            },
+            {
+                "type": "item",
+                "item": "gold_bar",
+                "amount": 6
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 9
+            }
+        ]
+    },
+    "loy.steed.2": {
+        "id": "loy.steed.2",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 1
+            },
+            {
+                "type": "item",
+                "item": "bronze_bar",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 2
+            }
+        ]
+    },
+    "loy.steed.3": {
+        "id": "loy.steed.3",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 2
+            },
+            {
+                "type": "item",
+                "item": "bronze_bar",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 3
+            }
+        ]
+    },
+    "loy.steed.4": {
+        "id": "loy.steed.4",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 3
+            },
+            {
+                "type": "item",
+                "item": "silver_bar",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 4
+            }
+        ]
+    },
+    "loy.steed.5": {
+        "id": "loy.steed.5",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 4
+            },
+            {
+                "type": "item",
+                "item": "silver_bar",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 5
+            }
+        ]
+    },
+    "loy.steed.6": {
+        "id": "loy.steed.6",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 5
+            },
+            {
+                "type": "item",
+                "item": "silver_bar",
+                "amount": 6
+            },
+            {
+                "type": "promotion",
+                "promotion": 2
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 6
+            }
+        ]
+    },
+    "loy.steed.7": {
+        "id": "loy.steed.7",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 6
+            },
+            {
+                "type": "item",
+                "item": "gold_bar",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 2
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 7
+            }
+        ]
+    },
+    "loy.steed.8": {
+        "id": "loy.steed.8",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 7
+            },
+            {
+                "type": "item",
+                "item": "gold_bar",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 8
+            }
+        ]
+    },
+    "loy.steed.9": {
+        "id": "loy.steed.9",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 8
+            },
+            {
+                "type": "item",
+                "item": "gold_bar",
+                "amount": 6
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "loy",
+                "amount": 1,
+                "lvl": 9
+            }
+        ]
+    },
+
+    "holy.belt.2": {
+        "id": "holy.belt.2",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 1
+            },
+            {
+                "type": "item",
+                "item": "bronze_bar",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 2
+            }
+        ]
+    },
+    "holy.belt.3": {
+        "id": "holy.belt.3",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 2
+            },
+            {
+                "type": "item",
+                "item": "bronze_bar",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 3
+            }
+        ]
+    },
+    "holy.belt.4": {
+        "id": "holy.belt.4",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 3
+            },
+            {
+                "type": "item",
+                "item": "silver_bar",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 4
+            }
+        ]
+    },
+    "holy.belt.5": {
+        "id": "holy.belt.5",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 4
+            },
+            {
+                "type": "item",
+                "item": "silver_bar",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 5
+            }
+        ]
+    },
+    "holy.belt.6": {
+        "id": "holy.belt.6",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 5
+            },
+            {
+                "type": "item",
+                "item": "silver_bar",
+                "amount": 6
+            },
+            {
+                "type": "promotion",
+                "promotion": 2
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 6
+            }
+        ]
+    },
+    "holy.belt.7": {
+        "id": "holy.belt.7",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 6
+            },
+            {
+                "type": "item",
+                "item": "gold_bar",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 2
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 7
+            }
+        ]
+    },
+    "holy.belt.8": {
+        "id": "holy.belt.8",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 7
+            },
+            {
+                "type": "item",
+                "item": "gold_bar",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 8
+            }
+        ]
+    },
+    "holy.belt.9": {
+        "id": "holy.belt.9",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 8
+            },
+            {
+                "type": "item",
+                "item": "gold_bar",
+                "amount": 6
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 9
+            }
+        ]
+    },
+    "holy.necklace.2": {
+        "id": "holy.necklace.2",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 1
+            },
+            {
+                "type": "item",
+                "item": "bronze_bar",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 2
+            }
+        ]
+    },
+    "holy.necklace.3": {
+        "id": "holy.necklace.3",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 2
+            },
+            {
+                "type": "item",
+                "item": "bronze_bar",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 3
+            }
+        ]
+    },
+    "holy.necklace.4": {
+        "id": "holy.necklace.4",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 3
+            },
+            {
+                "type": "item",
+                "item": "silver_bar",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 4
+            }
+        ]
+    },
+    "holy.necklace.5": {
+        "id": "holy.necklace.5",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 4
+            },
+            {
+                "type": "item",
+                "item": "silver_bar",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 5
+            }
+        ]
+    },
+    "holy.necklace.6": {
+        "id": "holy.necklace.6",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 5
+            },
+            {
+                "type": "item",
+                "item": "silver_bar",
+                "amount": 6
+            },
+            {
+                "type": "promotion",
+                "promotion": 2
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 6
+            }
+        ]
+    },
+    "holy.necklace.7": {
+        "id": "holy.necklace.7",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 6
+            },
+            {
+                "type": "item",
+                "item": "gold_bar",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 2
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 7
+            }
+        ]
+    },
+    "holy.necklace.8": {
+        "id": "holy.necklace.8",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 7
+            },
+            {
+                "type": "item",
+                "item": "gold_bar",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 8
+            }
+        ]
+    },
+    "holy.necklace.9": {
+        "id": "holy.necklace.9",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 8
+            },
+            {
+                "type": "item",
+                "item": "gold_bar",
+                "amount": 6
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 9
+            }
+        ]
+    },
+    "holy.pendant.2": {
+        "id": "holy.pendant.2",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 1
+            },
+            {
+                "type": "item",
+                "item": "bronze_bar",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 2
+            }
+        ]
+    },
+    "holy.pendant.3": {
+        "id": "holy.pendant.3",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 2
+            },
+            {
+                "type": "item",
+                "item": "bronze_bar",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 3
+            }
+        ]
+    },
+    "holy.pendant.4": {
+        "id": "holy.pendant.4",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 3
+            },
+            {
+                "type": "item",
+                "item": "silver_bar",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 4
+            }
+        ]
+    },
+    "holy.pendant.5": {
+        "id": "holy.pendant.5",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 4
+            },
+            {
+                "type": "item",
+                "item": "silver_bar",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 5
+            }
+        ]
+    },
+    "holy.pendant.6": {
+        "id": "holy.pendant.6",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 5
+            },
+            {
+                "type": "item",
+                "item": "silver_bar",
+                "amount": 6
+            },
+            {
+                "type": "promotion",
+                "promotion": 2
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 6
+            }
+        ]
+    },
+    "holy.pendant.7": {
+        "id": "holy.pendant.7",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 6
+            },
+            {
+                "type": "item",
+                "item": "gold_bar",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 2
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 7
+            }
+        ]
+    },
+    "holy.pendant.8": {
+        "id": "holy.pendant.8",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 7
+            },
+            {
+                "type": "item",
+                "item": "gold_bar",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 8
+            }
+        ]
+    },
+    "holy.pendant.9": {
+        "id": "holy.pendant.9",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 8
+            },
+            {
+                "type": "item",
+                "item": "gold_bar",
+                "amount": 6
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 9
+            }
+        ]
+    },
+    "holy.ring.2": {
+        "id": "holy.ring.2",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 1
+            },
+            {
+                "type": "item",
+                "item": "bronze_bar",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 2
+            }
+        ]
+    },
+    "holy.ring.3": {
+        "id": "holy.ring.3",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 2
+            },
+            {
+                "type": "item",
+                "item": "bronze_bar",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 3
+            }
+        ]
+    },
+    "holy.ring.4": {
+        "id": "holy.ring.4",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 3
+            },
+            {
+                "type": "item",
+                "item": "silver_bar",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 4
+            }
+        ]
+    },
+    "holy.ring.5": {
+        "id": "holy.ring.5",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 4
+            },
+            {
+                "type": "item",
+                "item": "silver_bar",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 5
+            }
+        ]
+    },
+    "holy.ring.6": {
+        "id": "holy.ring.6",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 5
+            },
+            {
+                "type": "item",
+                "item": "silver_bar",
+                "amount": 6
+            },
+            {
+                "type": "promotion",
+                "promotion": 2
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 6
+            }
+        ]
+    },
+    "holy.ring.7": {
+        "id": "holy.ring.7",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 6
+            },
+            {
+                "type": "item",
+                "item": "gold_bar",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 2
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 7
+            }
+        ]
+    },
+    "holy.ring.8": {
+        "id": "holy.ring.8",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 7
+            },
+            {
+                "type": "item",
+                "item": "gold_bar",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 8
+            }
+        ]
+    },
+    "holy.ring.9": {
+        "id": "holy.ring.9",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 8
+            },
+            {
+                "type": "item",
+                "item": "gold_bar",
+                "amount": 6
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 9
+            }
+        ]
+    },
+    "holy.steed.2": {
+        "id": "holy.steed.2",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 1
+            },
+            {
+                "type": "item",
+                "item": "bronze_bar",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 2
+            }
+        ]
+    },
+    "holy.steed.3": {
+        "id": "holy.steed.3",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 2
+            },
+            {
+                "type": "item",
+                "item": "bronze_bar",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 3
+            }
+        ]
+    },
+    "holy.steed.4": {
+        "id": "holy.steed.4",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 3
+            },
+            {
+                "type": "item",
+                "item": "silver_bar",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 4
+            }
+        ]
+    },
+    "holy.steed.5": {
+        "id": "holy.steed.5",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 4
+            },
+            {
+                "type": "item",
+                "item": "silver_bar",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 5
+            }
+        ]
+    },
+    "holy.steed.6": {
+        "id": "holy.steed.6",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 5
+            },
+            {
+                "type": "item",
+                "item": "silver_bar",
+                "amount": 6
+            },
+            {
+                "type": "promotion",
+                "promotion": 2
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 6
+            }
+        ]
+    },
+    "holy.steed.7": {
+        "id": "holy.steed.7",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 6
+            },
+            {
+                "type": "item",
+                "item": "gold_bar",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 2
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 7
+            }
+        ]
+    },
+    "holy.steed.8": {
+        "id": "holy.steed.8",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 7
+            },
+            {
+                "type": "item",
+                "item": "gold_bar",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 8
+            }
+        ]
+    },
+    "holy.steed.9": {
+        "id": "holy.steed.9",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 8
+            },
+            {
+                "type": "item",
+                "item": "gold_bar",
+                "amount": 6
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 9
+            }
+        ]
+    },
+
+    "victory.belt.2": {
+        "id": "victory.belt.2",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 1
+            },
+            {
+                "type": "item",
+                "item": "low_glory_stone",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 2
+            }
+        ]
+    },
+    "victory.belt.3": {
+        "id": "victory.belt.3",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 2
+            },
+            {
+                "type": "item",
+                "item": "low_glory_stone",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 3
+            }
+        ]
+    },
+    "victory.belt.4": {
+        "id": "victory.belt.4",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 3
+            },
+            {
+                "type": "item",
+                "item": "medium_glory_stone",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 4
+            }
+        ]
+    },
+    "victory.belt.5": {
+        "id": "victory.belt.5",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 4
+            },
+            {
+                "type": "item",
+                "item": "medium_glory_stone",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 5
+            }
+        ]
+    },
+    "victory.belt.6": {
+        "id": "victory.belt.6",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 5
+            },
+            {
+                "type": "item",
+                "item": "medium_glory_stone",
+                "amount": 6
+            },
+            {
+                "type": "promotion",
+                "promotion": 2
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 6
+            }
+        ]
+    },
+    "victory.belt.7": {
+        "id": "victory.belt.7",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 6
+            },
+            {
+                "type": "item",
+                "item": "high_glory_stone",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 2
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 7
+            }
+        ]
+    },
+    "victory.belt.8": {
+        "id": "victory.belt.8",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 7
+            },
+            {
+                "type": "item",
+                "item": "high_glory_stone",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 8
+            }
+        ]
+    },
+    "victory.belt.9": {
+        "id": "victory.belt.9",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 8
+            },
+            {
+                "type": "item",
+                "item": "high_glory_stone",
+                "amount": 6
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 9
+            }
+        ]
+    },
+    "victory.necklace.2": {
+        "id": "victory.necklace.2",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 1
+            },
+            {
+                "type": "item",
+                "item": "low_glory_stone",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 2
+            }
+        ]
+    },
+    "victory.necklace.3": {
+        "id": "victory.necklace.3",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 2
+            },
+            {
+                "type": "item",
+                "item": "low_glory_stone",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 3
+            }
+        ]
+    },
+    "victory.necklace.4": {
+        "id": "victory.necklace.4",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 3
+            },
+            {
+                "type": "item",
+                "item": "medium_glory_stone",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 4
+            }
+        ]
+    },
+    "victory.necklace.5": {
+        "id": "victory.necklace.5",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 4
+            },
+            {
+                "type": "item",
+                "item": "medium_glory_stone",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 5
+            }
+        ]
+    },
+    "victory.necklace.6": {
+        "id": "victory.necklace.6",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 5
+            },
+            {
+                "type": "item",
+                "item": "medium_glory_stone",
+                "amount": 6
+            },
+            {
+                "type": "promotion",
+                "promotion": 2
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 6
+            }
+        ]
+    },
+    "victory.necklace.7": {
+        "id": "victory.necklace.7",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 6
+            },
+            {
+                "type": "item",
+                "item": "high_glory_stone",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 2
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 7
+            }
+        ]
+    },
+    "victory.necklace.8": {
+        "id": "victory.necklace.8",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 7
+            },
+            {
+                "type": "item",
+                "item": "high_glory_stone",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 8
+            }
+        ]
+    },
+    "victory.necklace.9": {
+        "id": "victory.necklace.9",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 8
+            },
+            {
+                "type": "item",
+                "item": "high_glory_stone",
+                "amount": 6
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 9
+            }
+        ]
+    },
+    "victory.pendant.2": {
+        "id": "victory.pendant.2",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 1
+            },
+            {
+                "type": "item",
+                "item": "low_glory_stone",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 2
+            }
+        ]
+    },
+    "victory.pendant.3": {
+        "id": "victory.pendant.3",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 2
+            },
+            {
+                "type": "item",
+                "item": "low_glory_stone",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 3
+            }
+        ]
+    },
+    "victory.pendant.4": {
+        "id": "victory.pendant.4",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 3
+            },
+            {
+                "type": "item",
+                "item": "medium_glory_stone",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 4
+            }
+        ]
+    },
+    "victory.pendant.5": {
+        "id": "victory.pendant.5",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 4
+            },
+            {
+                "type": "item",
+                "item": "medium_glory_stone",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 5
+            }
+        ]
+    },
+    "victory.pendant.6": {
+        "id": "victory.pendant.6",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 5
+            },
+            {
+                "type": "item",
+                "item": "medium_glory_stone",
+                "amount": 6
+            },
+            {
+                "type": "promotion",
+                "promotion": 2
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 6
+            }
+        ]
+    },
+    "victory.pendant.7": {
+        "id": "victory.pendant.7",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 6
+            },
+            {
+                "type": "item",
+                "item": "high_glory_stone",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 2
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 7
+            }
+        ]
+    },
+    "victory.pendant.8": {
+        "id": "victory.pendant.8",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 7
+            },
+            {
+                "type": "item",
+                "item": "high_glory_stone",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 8
+            }
+        ]
+    },
+    "victory.pendant.9": {
+        "id": "victory.pendant.9",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 8
+            },
+            {
+                "type": "item",
+                "item": "high_glory_stone",
+                "amount": 6
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 9
+            }
+        ]
+    },
+    "victory.ring.2": {
+        "id": "victory.ring.2",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 1
+            },
+            {
+                "type": "item",
+                "item": "low_glory_stone",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 2
+            }
+        ]
+    },
+    "victory.ring.3": {
+        "id": "victory.ring.3",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 2
+            },
+            {
+                "type": "item",
+                "item": "low_glory_stone",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 3
+            }
+        ]
+    },
+    "victory.ring.4": {
+        "id": "victory.ring.4",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 3
+            },
+            {
+                "type": "item",
+                "item": "medium_glory_stone",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 4
+            }
+        ]
+    },
+    "victory.ring.5": {
+        "id": "victory.ring.5",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 4
+            },
+            {
+                "type": "item",
+                "item": "medium_glory_stone",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 5
+            }
+        ]
+    },
+    "victory.ring.6": {
+        "id": "victory.ring.6",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 5
+            },
+            {
+                "type": "item",
+                "item": "medium_glory_stone",
+                "amount": 6
+            },
+            {
+                "type": "promotion",
+                "promotion": 2
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 6
+            }
+        ]
+    },
+    "victory.ring.7": {
+        "id": "victory.ring.7",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 6
+            },
+            {
+                "type": "item",
+                "item": "high_glory_stone",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 2
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 7
+            }
+        ]
+    },
+    "victory.ring.8": {
+        "id": "victory.ring.8",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 7
+            },
+            {
+                "type": "item",
+                "item": "high_glory_stone",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 8
+            }
+        ]
+    },
+    "victory.ring.9": {
+        "id": "victory.ring.9",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 8
+            },
+            {
+                "type": "item",
+                "item": "high_glory_stone",
+                "amount": 6
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 9
+            }
+        ]
+    },
+    "victory.steed.2": {
+        "id": "victory.steed.2",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 1
+            },
+            {
+                "type": "item",
+                "item": "low_glory_stone",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 2
+            }
+        ]
+    },
+    "victory.steed.3": {
+        "id": "victory.steed.3",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 2
+            },
+            {
+                "type": "item",
+                "item": "low_glory_stone",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 3
+            }
+        ]
+    },
+    "victory.steed.4": {
+        "id": "victory.steed.4",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 3
+            },
+            {
+                "type": "item",
+                "item": "medium_glory_stone",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 4
+            }
+        ]
+    },
+    "victory.steed.5": {
+        "id": "victory.steed.5",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 4
+            },
+            {
+                "type": "item",
+                "item": "medium_glory_stone",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 5
+            }
+        ]
+    },
+    "victory.steed.6": {
+        "id": "victory.steed.6",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 5
+            },
+            {
+                "type": "item",
+                "item": "medium_glory_stone",
+                "amount": 6
+            },
+            {
+                "type": "promotion",
+                "promotion": 2
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 6
+            }
+        ]
+    },
+    "victory.steed.7": {
+        "id": "victory.steed.7",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 6
+            },
+            {
+                "type": "item",
+                "item": "high_glory_stone",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 2
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 7
+            }
+        ]
+    },
+    "victory.steed.8": {
+        "id": "victory.steed.8",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 7
+            },
+            {
+                "type": "item",
+                "item": "high_glory_stone",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 8
+            }
+        ]
+    },
+    "victory.steed.9": {
+        "id": "victory.steed.9",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 8
+            },
+            {
+                "type": "item",
+                "item": "high_glory_stone",
+                "amount": 6
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "victory",
+                "amount": 1,
+                "lvl": 9
+            }
+        ]
+    },
+
+    "khaled.belt.2": {
+        "id": "khaled.belt.2",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 1
+            },
+            {
+                "type": "item",
+                "item": "low_glory_stone",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 2
+            }
+        ]
+    },
+    "khaled.belt.3": {
+        "id": "khaled.belt.3",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 2
+            },
+            {
+                "type": "item",
+                "item": "low_glory_stone",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 3
+            }
+        ]
+    },
+    "khaled.belt.4": {
+        "id": "khaled.belt.4",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 3
+            },
+            {
+                "type": "item",
+                "item": "medium_glory_stone",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 4
+            }
+        ]
+    },
+    "khaled.belt.5": {
+        "id": "khaled.belt.5",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 4
+            },
+            {
+                "type": "item",
+                "item": "medium_glory_stone",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 5
+            }
+        ]
+    },
+    "khaled.belt.6": {
+        "id": "khaled.belt.6",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 5
+            },
+            {
+                "type": "item",
+                "item": "medium_glory_stone",
+                "amount": 6
+            },
+            {
+                "type": "promotion",
+                "promotion": 2
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 6
+            }
+        ]
+    },
+    "khaled.belt.7": {
+        "id": "khaled.belt.7",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 6
+            },
+            {
+                "type": "item",
+                "item": "high_glory_stone",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 2
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 7
+            }
+        ]
+    },
+    "khaled.belt.8": {
+        "id": "khaled.belt.8",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 7
+            },
+            {
+                "type": "item",
+                "item": "high_glory_stone",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 8
+            }
+        ]
+    },
+    "khaled.belt.9": {
+        "id": "khaled.belt.9",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 8
+            },
+            {
+                "type": "item",
+                "item": "high_glory_stone",
+                "amount": 6
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 9
+            }
+        ]
+    },
+    "khaled.necklace.2": {
+        "id": "khaled.necklace.2",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 1
+            },
+            {
+                "type": "item",
+                "item": "low_glory_stone",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 2
+            }
+        ]
+    },
+    "khaled.necklace.3": {
+        "id": "khaled.necklace.3",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 2
+            },
+            {
+                "type": "item",
+                "item": "low_glory_stone",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 3
+            }
+        ]
+    },
+    "khaled.necklace.4": {
+        "id": "khaled.necklace.4",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 3
+            },
+            {
+                "type": "item",
+                "item": "medium_glory_stone",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 4
+            }
+        ]
+    },
+    "khaled.necklace.5": {
+        "id": "khaled.necklace.5",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 4
+            },
+            {
+                "type": "item",
+                "item": "medium_glory_stone",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 5
+            }
+        ]
+    },
+    "khaled.necklace.6": {
+        "id": "khaled.necklace.6",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 5
+            },
+            {
+                "type": "item",
+                "item": "medium_glory_stone",
+                "amount": 6
+            },
+            {
+                "type": "promotion",
+                "promotion": 2
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 6
+            }
+        ]
+    },
+    "khaled.necklace.7": {
+        "id": "khaled.necklace.7",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 6
+            },
+            {
+                "type": "item",
+                "item": "high_glory_stone",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 2
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 7
+            }
+        ]
+    },
+    "khaled.necklace.8": {
+        "id": "khaled.necklace.8",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 7
+            },
+            {
+                "type": "item",
+                "item": "high_glory_stone",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 8
+            }
+        ]
+    },
+    "khaled.necklace.9": {
+        "id": "khaled.necklace.9",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 8
+            },
+            {
+                "type": "item",
+                "item": "high_glory_stone",
+                "amount": 6
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 9
+            }
+        ]
+    },
+    "khaled.pendant.2": {
+        "id": "khaled.pendant.2",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 1
+            },
+            {
+                "type": "item",
+                "item": "low_glory_stone",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 2
+            }
+        ]
+    },
+    "khaled.pendant.3": {
+        "id": "khaled.pendant.3",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 2
+            },
+            {
+                "type": "item",
+                "item": "low_glory_stone",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 3
+            }
+        ]
+    },
+    "khaled.pendant.4": {
+        "id": "khaled.pendant.4",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 3
+            },
+            {
+                "type": "item",
+                "item": "medium_glory_stone",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 4
+            }
+        ]
+    },
+    "khaled.pendant.5": {
+        "id": "khaled.pendant.5",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 4
+            },
+            {
+                "type": "item",
+                "item": "medium_glory_stone",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 5
+            }
+        ]
+    },
+    "khaled.pendant.6": {
+        "id": "khaled.pendant.6",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 5
+            },
+            {
+                "type": "item",
+                "item": "medium_glory_stone",
+                "amount": 6
+            },
+            {
+                "type": "promotion",
+                "promotion": 2
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 6
+            }
+        ]
+    },
+    "khaled.pendant.7": {
+        "id": "khaled.pendant.7",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 6
+            },
+            {
+                "type": "item",
+                "item": "high_glory_stone",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 2
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 7
+            }
+        ]
+    },
+    "khaled.pendant.8": {
+        "id": "khaled.pendant.8",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 7
+            },
+            {
+                "type": "item",
+                "item": "high_glory_stone",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 8
+            }
+        ]
+    },
+    "khaled.pendant.9": {
+        "id": "khaled.pendant.9",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 8
+            },
+            {
+                "type": "item",
+                "item": "high_glory_stone",
+                "amount": 6
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 9
+            }
+        ]
+    },
+    "khaled.ring.2": {
+        "id": "khaled.ring.2",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 1
+            },
+            {
+                "type": "item",
+                "item": "low_glory_stone",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 2
+            }
+        ]
+    },
+    "khaled.ring.3": {
+        "id": "khaled.ring.3",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 2
+            },
+            {
+                "type": "item",
+                "item": "low_glory_stone",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 3
+            }
+        ]
+    },
+    "khaled.ring.4": {
+        "id": "khaled.ring.4",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 3
+            },
+            {
+                "type": "item",
+                "item": "medium_glory_stone",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 4
+            }
+        ]
+    },
+    "khaled.ring.5": {
+        "id": "khaled.ring.5",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 4
+            },
+            {
+                "type": "item",
+                "item": "medium_glory_stone",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 5
+            }
+        ]
+    },
+    "khaled.ring.6": {
+        "id": "khaled.ring.6",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 5
+            },
+            {
+                "type": "item",
+                "item": "medium_glory_stone",
+                "amount": 6
+            },
+            {
+                "type": "promotion",
+                "promotion": 2
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 6
+            }
+        ]
+    },
+    "khaled.ring.7": {
+        "id": "khaled.ring.7",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 6
+            },
+            {
+                "type": "item",
+                "item": "high_glory_stone",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 2
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 7
+            }
+        ]
+    },
+    "khaled.ring.8": {
+        "id": "khaled.ring.8",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 7
+            },
+            {
+                "type": "item",
+                "item": "high_glory_stone",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 8
+            }
+        ]
+    },
+    "khaled.ring.9": {
+        "id": "khaled.ring.9",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 8
+            },
+            {
+                "type": "item",
+                "item": "high_glory_stone",
+                "amount": 6
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 9
+            }
+        ]
+    },
+    "khaled.steed.2": {
+        "id": "khaled.steed.2",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 1
+            },
+            {
+                "type": "item",
+                "item": "low_glory_stone",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 2
+            }
+        ]
+    },
+    "khaled.steed.3": {
+        "id": "khaled.steed.3",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 2
+            },
+            {
+                "type": "item",
+                "item": "low_glory_stone",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 3
+            }
+        ]
+    },
+    "khaled.steed.4": {
+        "id": "khaled.steed.4",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 3
+            },
+            {
+                "type": "item",
+                "item": "medium_glory_stone",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 4
+            }
+        ]
+    },
+    "khaled.steed.5": {
+        "id": "khaled.steed.5",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 4
+            },
+            {
+                "type": "item",
+                "item": "medium_glory_stone",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 1
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 5
+            }
+        ]
+    },
+    "khaled.steed.6": {
+        "id": "khaled.steed.6",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 5
+            },
+            {
+                "type": "item",
+                "item": "medium_glory_stone",
+                "amount": 6
+            },
+            {
+                "type": "promotion",
+                "promotion": 2
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 6
+            }
+        ]
+    },
+    "khaled.steed.7": {
+        "id": "khaled.steed.7",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 6
+            },
+            {
+                "type": "item",
+                "item": "high_glory_stone",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 2
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 7
+            }
+        ]
+    },
+    "khaled.steed.8": {
+        "id": "khaled.steed.8",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 7
+            },
+            {
+                "type": "item",
+                "item": "high_glory_stone",
+                "amount": 5
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 8
+            }
+        ]
+    },
+    "khaled.steed.9": {
+        "id": "khaled.steed.9",
+        "cat": "upgrade",
+        "ListOfNeed": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 8
+            },
+            {
+                "type": "item",
+                "item": "high_glory_stone",
+                "amount": 6
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "khaled",
+                "amount": 1,
+                "lvl": 9
+            }
+        ]
+    },
+    
+    "Item.silver_bar": {
+        "id": "Item.silver_bar",
+        "cat": "contribute",
+        "ListOfNeed": [
+            {
+                "type": "item",
+                "item": "bronze_bar",
+                "amount": 4
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "item",
+                "item": "silver_bar",
+                "amount": 1
+            }
+        ]
+    },
+    
+    "Item.gold_bar": {
+        "id": "Item.gold_bar",
+        "cat": "contribute",
+        "ListOfNeed": [
+            {
+                "type": "item",
+                "item": "gold_bar_piece",
+                "amount": 20
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "item",
+                "item": "gold_bar",
+                "amount": 1
+            }
+        ]
+    },
+    
+    "holy.belt.9.cont": {
+        "id": "holy.belt.9.cont",
+        "cat": "contribute",
+        "ListOfNeed": [
+            {
+                "type": "item",
+                "item": "red_ore",
+                "amount": 50
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "belt",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 1
+            }
+        ]
+    },
+    "holy.necklace.9.cont": {
+        "id": "holy.necklace.9.cont",
+        "cat": "contribute",
+        "ListOfNeed": [
+            {
+                "type": "item",
+                "item": "red_ore",
+                "amount": 45
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "necklace",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 1
+            }
+        ]
+    },
+    "holy.pendant.9.cont": {
+        "id": "holy.pendant.9.cont",
+        "cat": "contribute",
+        "ListOfNeed": [
+            {
+                "type": "item",
+                "item": "red_ore",
+                "amount": 45
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "pendant",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 1
+            }
+        ]
+    },
+    "holy.ring.9.cont": {
+        "id": "holy.ring.9.cont",
+        "cat": "contribute",
+        "ListOfNeed": [
+            {
+                "type": "item",
+                "item": "red_ore",
+                "amount": 45
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "ring",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 1
+            }
+        ]
+    },
+    "holy.steed.9.cont": {
+        "id": "holy.ring.9.cont",
+        "cat": "contribute",
+        "ListOfNeed": [
+            {
+                "type": "item",
+                "item": "red_ore",
+                "amount": 45
+            },
+            {
+                "type": "promotion",
+                "promotion": 3
+            }
+
+        ],
+        "Reword": [
+            {
+                "type": "equip",
+                "part": "steed",
+                "equip": "holy",
+                "amount": 1,
+                "lvl": 1
+            }
+        ]
+    }
+}
