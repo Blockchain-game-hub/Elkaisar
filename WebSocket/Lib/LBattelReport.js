@@ -91,6 +91,7 @@ class LBattelReport
                 
                 Elkaisar.DB.Update("exp = exp + ?", "hero", "id_hero = ? AND lvl < 255", [Hero["gainXp"] || 0, Hero["id_hero"]]);
                 This.addHero(Hero);
+                
             });
         });
 
@@ -101,6 +102,7 @@ class LBattelReport
         if (Player["idPlayer"] <= 0)
             return;
         Elkaisar.DB.Insert(`id_player= ${Player.idPlayer}, id_report= ${this.idReport} , side = ${Player.side}, honor = ${Player.Honor}, time_stamp = ${Date.now() / 1000}`, "report_player", [], function (Res) {});
+        
         //$this->addPrize($Player);
     }
     addHero(Hero) {
@@ -125,7 +127,7 @@ class LBattelReport
             Hero["type"]["b_1"] , Hero["type"]["b_2"] , Hero["type"]["b_3"] ,
             Hero["side"], Hero["ord"], Hero["gainXp"] || 0
         ]);
-
+        this.Battel.Fight.FightRecord.addHero(Hero);
     }
 
     addPrize(Player)
@@ -150,7 +152,7 @@ class LBattelReport
                              metal = ${Player["ResourcePrize"]["metal"] || 0}, 
                              coin  = ${Player["ResourcePrize"]["coin"]  || 0} `, "report_res_prize");
 
-
+        this.Battel.Fight.FightRecord.addPlayer(Player);
     }
 
 }

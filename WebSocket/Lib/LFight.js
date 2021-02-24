@@ -1,5 +1,4 @@
 
-
 class LFight
 {
 
@@ -7,6 +6,7 @@ class LFight
     Heros = [];
     Unit;
     roundNum = 0;
+    FightRecord;
     TotalHonor = {
         [Elkaisar.Config.BATTEL_SIDE_DEF]: 0,
         [Elkaisar.Config.BATTEL_SIDE_ATT]: 0
@@ -26,6 +26,7 @@ class LFight
 
         this.Battel = Battel;
         this.Unit = Elkaisar.World.getUnit(this.Battel.Battel.x_coord, this.Battel.Battel.y_coord);
+        this.FightRecord = new Elkaisar.Lib.LFightRecord(this);
     }
     prepareFight() {
         Elkaisar.Lib.LBattel.getHeros(this.Battel, this.Heros);
@@ -77,40 +78,43 @@ class LFight
 
     roundFight(Attack, Defence) {
         var This = this;
+        
+        this.FightRecord.addRound(Attack, Defence);
+        
         Attack.forEach(function (Hero, Place) {
             if (Defence[Place])
-                This.heroFight(Hero, Defence[Place]);
+                This.heroFight(Hero, Defence[Place], {Def: Place, Att: Place, Sid: Elkaisar.Config.BATTEL_SIDE_ATT});
             else if (Defence[Place + 1])
-                This.heroFight(Hero, Defence[Place + 1]);
+                This.heroFight(Hero, Defence[Place + 1], {Def: Place + 1, Att: Place, Sid: Elkaisar.Config.BATTEL_SIDE_ATT});
             else if (Defence[Place + 2])
-                This.heroFight(Hero, Defence[Place + 2]);
+                This.heroFight(Hero, Defence[Place + 2], {Def: Place + 2, Att: Place, Sid: Elkaisar.Config.BATTEL_SIDE_ATT});
             else if (Defence[Place - 1])
-                This.heroFight(Hero, Defence[Place - 1]);
+                This.heroFight(Hero, Defence[Place - 1], {Def: Place - 1, Att: Place, Sid: Elkaisar.Config.BATTEL_SIDE_ATT});
             else if (Defence[Place - 2])
-                This.heroFight(Hero, Defence[Place - 2]);
+                This.heroFight(Hero, Defence[Place - 2], {Def: Place - 2, Att: Place, Sid: Elkaisar.Config.BATTEL_SIDE_ATT});
         });
 
         Defence.forEach(function (Hero, Place) {
 
             if (Attack[Place]) {
-                This.heroFight(Hero, Attack[Place]);
+                This.heroFight(Hero, Attack[Place], {Def: Place, Att: Place, Sid: Elkaisar.Config.BATTEL_SIDE_DEF});
             } else if (Attack[Place + 1]) {
 
-                This.heroFight(Hero, Attack[Place + 1]);
+                This.heroFight(Hero, Attack[Place + 1], {Def: Place, Att: Place + 1, Sid: Elkaisar.Config.BATTEL_SIDE_DEF});
 
             } else if (Attack[Place + 2]) {
-                This.heroFight(Hero, Attack[Place + 2]);
+                This.heroFight(Hero, Attack[Place + 2], {Def: Place, Att: Place + 2, Sid: Elkaisar.Config.BATTEL_SIDE_DEF});
             } else if (Attack[Place - 1])
-                This.heroFight(Hero, Attack[Place - 1]);
+                This.heroFight(Hero, Attack[Place - 1], {Def: Place, Att: Place - 1, Sid: Elkaisar.Config.BATTEL_SIDE_DEF});
             else if (Attack[Place - 2])
-                This.heroFight(Hero, Attack[Place - 2]);
+                This.heroFight(Hero, Attack[Place - 2], {Def: Place, Att: Place - 2, Sid: Elkaisar.Config.BATTEL_SIDE_DEF});
         });
 
         this.scanHero(Defence);
         this.scanHero(Attack);
     }
 
-    cellFight(cell_attack, cell_def)
+    cellFight(cell_attack, cell_def, Places)
     {
 
         /* trimnate condetion*/
@@ -136,9 +140,12 @@ class LFight
         cell_def    ["troopsKilled"] += amountDead;
         cell_attack ["honor"] += Math.ceil(total_dead / cell_def["def"]);
         cell_attack ["points"] += Math.ceil(total_dead);
+        
+        /*HeroAttSide.HeroAttPlace.CellAttPlace.HeroDefSide.HeroDefPlace.CellDefPlace.AttackType.KillAmount*/
+        this.FightRecord.addAttack(`${Places.Sid}.${Places.Att}.${cell_attack.CellIndex}.${ 1 - Places.Sid}.${Places.Def}.${cell_def.CellIndex}.0.${amountDead}`);
     }
 
-    heroFight(hero_attck, hero_def)
+    heroFight(hero_attck, hero_def, Places)
     {
         /* لو البطل ششايل اكتر من ثلاثة خانات كدة انا هخلى كل خانة تضرب الخانة الى قصادها 
          والخانة الى وراها         */
@@ -154,53 +161,53 @@ class LFight
             if (hero_def["real_eff"][place]
                     && hero_def["real_eff"][place]["unit"] > hero_def["real_eff"][place]["dead_unit"])// fight FIRST row                                     ATTACK SIDE
                 //                                              
-                this.cellFight(Cell, hero_def["real_eff"][place]);                                       //                       +------------------------+------------------------+-------------------------+
+                this.cellFight(Cell, hero_def["real_eff"][place], Places);                                       //                       +------------------------+------------------------+-------------------------+
             //                       |                        |                        |                         |                
             else if (hero_def["real_eff"][place + 3]                                                     // this will fight the back cell to him
                     && hero_def["real_eff"][place + 3]["unit"] > hero_def["real_eff"][place + 3]["dead_unit"])//                  |            4           |            5           |             6           |                
                 //                       |                        |                        |                         |                
-                this.cellFight(Cell, hero_def["real_eff"][place + 3 ]);                                  //                       |________________________|________________________|_________________________|
+                this.cellFight(Cell, hero_def["real_eff"][place + 3 ], Places);                                  //                       |________________________|________________________|_________________________|
             //                       |                        |                        |                         |               
             else if (hero_def["real_eff"][place + 1]
                     && hero_def["real_eff"][place + 1]["unit"] > hero_def["real_eff"][place + 1]["dead_unit"])  //                     |            1           |            2           |              3          |                
                 //                       |                        |                        |                         |                
-                this.cellFight(Cell, hero_def["real_eff"][place + 1 ]);                                  //                       +------------------------+------------------------+-------------------------+                       
+                this.cellFight(Cell, hero_def["real_eff"][place + 1 ], Places);                                  //                       +------------------------+------------------------+-------------------------+                       
             //
             else if (hero_def["real_eff"][place + 4]
                     && hero_def["real_eff"][place + 4]["unit"] > hero_def["real_eff"][place + 4]["dead_unit"])  //
                 //
-                this.cellFight(Cell, hero_def["real_eff"][place + 4 ]);                                  //
+                this.cellFight(Cell, hero_def["real_eff"][place + 4 ], Places);                                  //
             //
             else if (hero_def["real_eff"][place + 2]
                     && hero_def["real_eff"][place + 2]["unit"] > hero_def["real_eff"][place + 2]["dead_unit"])  //
                 //_____________________________________________________________________________________________________________________________
-                this.cellFight(Cell, hero_def["real_eff"][place + 2 ]);                                  //
+                this.cellFight(Cell, hero_def["real_eff"][place + 2 ], Places);                                  //
             //
             else if (hero_def["real_eff"][place + 5]
                     && hero_def["real_eff"][place + 5]["unit"] > hero_def["real_eff"][place + 5]["dead_unit"])  //
                 //
-                this.cellFight(Cell, hero_def["real_eff"][place + 5 ]);                                  //
+                this.cellFight(Cell, hero_def["real_eff"][place + 5 ], Places);                                  //
             //                       +------------------------+------------------------+-------------------------+
             else if (hero_def["real_eff"][place - 1]
                     && hero_def["real_eff"][place - 1]["unit"] > hero_def["real_eff"][place - 1]["dead_unit"])  //                     |                        |                        |                         |
                 //                       |           1            |           2            |            3            |
-                this.cellFight(Cell, hero_def["real_eff"][place - 1 ]);                                  //                       |                        |                        |                         |
+                this.cellFight(Cell, hero_def["real_eff"][place - 1 ], Places);                                  //                       |                        |                        |                         |
             //                       |________________________|________________________|_________________________|
             else if (hero_def["real_eff"][place - 4]
                     && hero_def["real_eff"][place - 4]["unit"] > hero_def["real_eff"][place - 4]["dead_unit"]) //                     |                        |                        |                         |
                 //                       |           4            |            5           |            6            |
-                this.cellFight(Cell, hero_def["real_eff"][place - 4 ]);                                  //                       |                        |                        |                         |
+                this.cellFight(Cell, hero_def["real_eff"][place - 4 ], Places);                                  //                       |                        |                        |                         |
             //                       +------------------------+------------------------+-------------------------+
             else if (hero_def["real_eff"][place - 5]
                     && hero_def["real_eff"][place - 5]["unit"] > hero_def["real_eff"][place - 5]["dead_unit"])  //
-                this.cellFight(Cell, hero_def["real_eff"][place - 5 ]);
+                this.cellFight(Cell, hero_def["real_eff"][place - 5 ], Places);
 
             if (hero_attck["real_eff"].length <= 3) {
 
                 if (hero_def["real_eff"][place + 3] && hero_def["real_eff"][place]
                         && hero_def["real_eff"][place + 3]["unit"] > hero_def["real_eff"][place + 3]["dead_unit"]) {                            //
 
-                    this.cellFight(Cell, hero_def["real_eff"][place + 3 ]);
+                    this.cellFight(Cell, hero_def["real_eff"][place + 3 ], Places);
 
 
                 }

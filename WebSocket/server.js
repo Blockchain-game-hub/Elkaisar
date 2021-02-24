@@ -20,6 +20,17 @@ Elkaisar.Mysql  = MySql.createPool({
 });
 
 
+Elkaisar.MysqlBattelReplay  = MySql.createPool({
+    connectionLimit    : 100,
+    host               : "localhost",
+    user               : Elkaisar.CONST.DBUserName,
+    password           : Elkaisar.CONST.DBPassWord,
+    database           : "elkaisar_battel_replay",
+    charset            : 'utf8mb4',
+    multipleStatements : true
+});
+
+
 
 Elkaisar.Arr = {};
 Elkaisar.data = {};
@@ -54,6 +65,7 @@ Elkaisar.Lib.LConfig              = require('./Lib/LConfig');
 Elkaisar.Lib.LBase                = require('./Lib/LBase');
 Elkaisar.Lib.LBattel              = require('./Lib/LBattel');
 Elkaisar.Lib.LFight               = require('./Lib/LFight');
+Elkaisar.Lib.LFightRecord         = require('./Lib/LFightRecord');
 Elkaisar.Lib.LHero                = require('./Lib/LHero');
 Elkaisar.Lib.LPlayer              = require('./Lib/LPlayer');
 Elkaisar.Lib.LWorld               = require('./Lib/LWorld');

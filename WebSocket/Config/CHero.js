@@ -32,36 +32,37 @@ class CHero
         "tagned_7p": 7,
         "tagned_8p": 8
     };
-    static  EmptyBattelHeroEff(){
+    static  EmptyBattelHeroEff(Place){
         return  {
-        "attack": 0, // attack of unite in this cell
-        "def": 0, // defence of unite in this cell
-        "vit": 0, // vitality of unite in this cell
-        "dam": 0, // damage of unite in this cell
-        "break": 0, // damage of unite in this cell
-        "anti_break": 0, // damage of unite in this cell
-        "strike": 0, // damage of unite in this cell
-        "immunity": 0, // damage of unite in this cell
+            "attack": 0, // attack of unite in this cell
+            "def": 0, // defence of unite in this cell
+            "vit": 0, // vitality of unite in this cell
+            "dam": 0, // damage of unite in this cell
+            "break": 0, // damage of unite in this cell
+            "anti_break": 0, // damage of unite in this cell
+            "strike": 0, // damage of unite in this cell
+            "immunity": 0, // damage of unite in this cell
+            CellIndex: Place,
 
-        "sp_attack": 0, // attack of unite in this cell
-        "sp_defence": 0, // defence of unite in this cell
-        "sp_vit": 0, // vitality of unite in this cell
-        "sp_damage": 0, // damage of unite in this cell
-        "sp_break": 0, // damage of unite in this cell
-        "sp_anti_break": 0, // damage of unite in this cell
-        "sp_strike": 0, // damage of unite in this cell
-        "sp_immunity": 0, // damage of unite in this cell
+            "sp_attack": 0, // attack of unite in this cell
+            "sp_defence": 0, // defence of unite in this cell
+            "sp_vit": 0, // vitality of unite in this cell
+            "sp_damage": 0, // damage of unite in this cell
+            "sp_break": 0, // damage of unite in this cell
+            "sp_anti_break": 0, // damage of unite in this cell
+            "sp_strike": 0, // damage of unite in this cell
+            "sp_immunity": 0, // damage of unite in this cell
 
-        "unit": 0, // the number of untie in this cell
-        "fight": false,
-        "defenced": false,
-        "dead_unit": 0,
-        "honor": 0,
-        "points": 0,
-        "armyType": 0,
-        "troopsKills": 0,
-        "troopsKilled": 0
-    };
+            "unit": 0, // the number of untie in this cell
+            "fight": false,
+            "defenced": false,
+            "dead_unit": 0,
+            "honor": 0,
+            "points": 0,
+            "armyType": 0,
+            "troopsKills": 0,
+            "troopsKilled": 0
+        };
 }
     static  EmptyHeroEquipEff = {
 

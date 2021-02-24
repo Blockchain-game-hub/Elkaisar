@@ -304,7 +304,7 @@ class LAfterFight
                         callBack();
                 });
             });
-
+            
             return;
         } else if (Elkaisar.Lib.LWorldUnit.isSeaCity(Unit.ut)) {
 

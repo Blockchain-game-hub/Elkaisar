@@ -109,9 +109,9 @@ class LHero {
             "pre"      : HeroArmy.pre,
             "post"     : HeroArmy.post,
             "real_eff": {
-                1: Elkaisar.Config.CHero.EmptyBattelHeroEff(), 2: Elkaisar.Config.CHero.EmptyBattelHeroEff(),
-                3: Elkaisar.Config.CHero.EmptyBattelHeroEff(), 4: Elkaisar.Config.CHero.EmptyBattelHeroEff(),
-                5: Elkaisar.Config.CHero.EmptyBattelHeroEff(), 6: Elkaisar.Config.CHero.EmptyBattelHeroEff()
+                1: Elkaisar.Config.CHero.EmptyBattelHeroEff(1), 2: Elkaisar.Config.CHero.EmptyBattelHeroEff(2),
+                3: Elkaisar.Config.CHero.EmptyBattelHeroEff(3), 4: Elkaisar.Config.CHero.EmptyBattelHeroEff(4),
+                5: Elkaisar.Config.CHero.EmptyBattelHeroEff(5), 6: Elkaisar.Config.CHero.EmptyBattelHeroEff(6)
             },
             "Equip": Hero.Equip,
             "is_garrsion": Hero.isGarrison,
