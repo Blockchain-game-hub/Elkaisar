@@ -1,6 +1,6 @@
 <?php
 
-$dbhIndex = new PDO("mysql:dbname=elkaisar_home;host=localhost" , "elkaisar_game" , "MyWifeSoma1231");
+$dbhIndex = new PDO("mysql:dbname=elkaisar_home;host=localhost" , "root" , "");
 
 
 $dbhIndex->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);

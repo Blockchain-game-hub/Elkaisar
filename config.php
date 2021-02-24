@@ -27,7 +27,7 @@ function DbConnect($idServer)
     if(!isset($ServerList[$idServer]))
       catchError ();
     
-    $dbh = new PDO("mysql:host=localhost;dbname={$ServerList [$idServer]["serverDbName"]};charset=utf8mb4", "elkaisar_game", "MyWifeSoma1231");
+    $dbh = new PDO("mysql:host=localhost;dbname={$ServerList [$idServer]["serverDbName"]};charset=utf8mb4", "root", "");
     $dbh->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
     $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_WARNING);
     $dbh->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
@@ -36,10 +36,10 @@ function DbConnect($idServer)
 }
 
 
-define("BASE_URL", "http://app.elkaisar.com");
-define("WEB_SOCKET_HOST", "ws.elkaisar.com");
+define("BASE_URL", "http://localhost/Elkaisar");
+define("WEB_SOCKET_HOST", "localhost");
 
-define("URL_LANDMARK_INDEX", 0);
+define("URL_LANDMARK_INDEX", 1);
 define('BASE_BATH',      dirname(__FILE__) . DIRECTORY_SEPARATOR);
 
 define("PLAYER_LIMIT_CITY_COUNT", 5);
