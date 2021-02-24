@@ -16,10 +16,28 @@ class LFightRecord {
             Heros: [],
             Attacks: []
         });
-
-        this.Record.Rounds[this.currentRound - 1].Heros.push(...Attack);
-        this.Record.Rounds[this.currentRound - 1].Heros.push(...Defence);
-
+        
+        this.currentRound = this.Record.Rounds.length;
+        for(var HeroAtt of Attack){
+            this.Record.Rounds[this.currentRound - 1].Heros.push({
+                side: HeroAtt.side,
+                type: HeroAtt.type,
+                pre: HeroAtt.pre,
+                post: HeroAtt.post
+            });
+            
+        };
+        
+        for(var HeroDef of Defence){
+            this.Record.Rounds[this.currentRound - 1].Heros.push({
+                side: HeroDef.side,
+                type: HeroDef.type,
+                pre: HeroDef.pre,
+                post: HeroDef.post
+            });
+            
+        };
+        
         return  this.Record.Rounds[this.currentRound - 1];
 
     }
@@ -29,7 +47,7 @@ class LFightRecord {
     }
 
     addHero(Hero) {
-        this.Record.Rounds[this.currentRound - 1].Heros.push(Hero);
+            this.Record.Rounds[this.currentRound - 1].Heros.push(Hero);
     }
 
     addPlayer(Player) {
@@ -43,8 +61,8 @@ class LFightRecord {
             Elkaisar.MysqlBattelReplay.getConnection(function (err, connection) {
                 if (err)
                     throw err;
-                connection.query(`INSERT IGNORE INTO battel_replay SET id_battel = ?, battel_replay = ?, id_server = ?`,
-                        [Elkaisar.Lib.LBase.MakeStringId(32), JSON.stringify(This.Record), Elkaisar.CONST.SERVER_ID], function (err, result) {
+                connection.query(`INSERT IGNORE INTO battel_replay SET id_battel_char = ?, battel_replay = ?, id_server = ?`,
+                        [This.Fight.FightReplayId, JSON.stringify(This.Record, null, 4), Elkaisar.CONST.SERVER_ID], function (err, result) {
                     if (err)
                         throw err;
                     connection.release();

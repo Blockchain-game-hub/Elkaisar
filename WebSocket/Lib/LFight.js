@@ -7,6 +7,7 @@ class LFight
     Unit;
     roundNum = 0;
     FightRecord;
+    FightReplayId;
     TotalHonor = {
         [Elkaisar.Config.BATTEL_SIDE_DEF]: 0,
         [Elkaisar.Config.BATTEL_SIDE_ATT]: 0
@@ -27,6 +28,7 @@ class LFight
         this.Battel = Battel;
         this.Unit = Elkaisar.World.getUnit(this.Battel.Battel.x_coord, this.Battel.Battel.y_coord);
         this.FightRecord = new Elkaisar.Lib.LFightRecord(this);
+        this.FightReplayId = Elkaisar.Lib.LBase.MakeStringId(32);
     }
     prepareFight() {
         Elkaisar.Lib.LBattel.getHeros(this.Battel, this.Heros);

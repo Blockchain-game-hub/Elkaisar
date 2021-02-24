@@ -3,17 +3,17 @@
 $ServerList = [
     1 => [
         "Port" => "8080",
-        "serverDbName" => "elkaisar_s_1__",
+        "serverDbName" => "elkaisar",
         "name"  => "الجبابرة"
     ],
     2 => [
         "Port" => "8081",
-        "serverDbName" => "elkaisar_s_2",
+        "serverDbName" => "elkaisar",
         "name"  => "الليث"
     ],
     4 => [
         "Port" => "8083",
-        "serverDbName" => "elkaisar_s_4",
+        "serverDbName" => "elkaisar",
         "name"  => "القمة"
     ]
 ];

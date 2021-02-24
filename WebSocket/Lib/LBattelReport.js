@@ -72,9 +72,9 @@ class LBattelReport
         var Unit = Elkaisar.World.getUnit(this.Battel.Battel.x_coord, this.Battel.Battel.y_coord);
         var This = this;
         Elkaisar.DB.Insert(
-                `x = ${Unit.x} , y = ${Unit.y} , time_stamp = ${Date.now() / 1000},
+                `x = ${Unit.x} , y = ${Unit.y} , time_stamp = ${Date.now() / 1000}, id_battel_replay = ?,
                 side_win = ${this.Battel.Fight.sideWin} , attacker = ${this.Battel.Battel.id_player} ,
-                 round_num = ${this.Battel.Fight.roundNum} , task = ${this.Battel.Battel.task}, lvl =${this.Battel.WinLvl}`, "report_battel", [], function (Res) {
+                round_num = ${this.Battel.Fight.roundNum} , task = ${this.Battel.Battel.task}, lvl =${this.Battel.WinLvl}`, "report_battel", [this.Battel.Fight.FightReplayId], function (Res) {
             This.idReport = Res.insertId;
             if (callBack)
                 callBack(Res);

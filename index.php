@@ -29,12 +29,10 @@ if($UrlLandMark == "api"){
     {
         $Token = $_GET["token"];
         $idServer = validateID($_GET["server"]);
-        $idPlayerV = $_GET['idPlayerV'];
         
     } else if(isset ($_POST["token"])){
         $Token = $_POST["token"];
         $idServer = validateID($_POST["server"]);
-        $idPlayerV = $_POST['idPlayerV'];
     }else{
        // print_r($formatedRoute);
     }
@@ -44,7 +42,6 @@ if($UrlLandMark == "api"){
     if($Token)
         $Player = selectFromTable("id_player", "player_auth", "auth_token = :pt", ["pt" => $Token]);
     if(!isset($Player[0])){
-        $VPlayer = selectFromTable("*", "player_auth", "id_player = :pt", ["pt" => $idPlayerV]);
         file_put_contents("PlayerTokenError.txt", print_r($Token, TRUE)."\n". json_encode($VPlayer)."   ".print_r($router->request->requestUri, true)."\n\n\n\n", FILE_APPEND);
     }
         
