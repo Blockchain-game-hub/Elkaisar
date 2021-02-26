@@ -85,31 +85,29 @@ class LFight
         
         Attack.forEach(function (Hero, Place) {
             if (Defence[Place])
-                This.heroFight(Hero, Defence[Place], {Def: Place, Att: Place, Sid: Elkaisar.Config.BATTEL_SIDE_ATT});
+                This.heroFight(Hero, Defence[Place], {Def: Defence[Place].id_hero, Att: Hero.id_hero, Sid: Elkaisar.Config.BATTEL_SIDE_ATT});
             else if (Defence[Place + 1])
-                This.heroFight(Hero, Defence[Place + 1], {Def: Place + 1, Att: Place, Sid: Elkaisar.Config.BATTEL_SIDE_ATT});
+                This.heroFight(Hero, Defence[Place + 1], {Def: Defence[Place + 1].id_hero, Att: Hero.id_hero, Sid: Elkaisar.Config.BATTEL_SIDE_ATT});
             else if (Defence[Place + 2])
-                This.heroFight(Hero, Defence[Place + 2], {Def: Place + 2, Att: Place, Sid: Elkaisar.Config.BATTEL_SIDE_ATT});
+                This.heroFight(Hero, Defence[Place + 2], {Def: Defence[Place + 2].id_hero, Att: Hero.id_hero, Sid: Elkaisar.Config.BATTEL_SIDE_ATT});
             else if (Defence[Place - 1])
-                This.heroFight(Hero, Defence[Place - 1], {Def: Place - 1, Att: Place, Sid: Elkaisar.Config.BATTEL_SIDE_ATT});
+                This.heroFight(Hero, Defence[Place - 1], {Def: Defence[Place - 1].id_hero, Att: Hero.id_hero, Sid: Elkaisar.Config.BATTEL_SIDE_ATT});
             else if (Defence[Place - 2])
-                This.heroFight(Hero, Defence[Place - 2], {Def: Place - 2, Att: Place, Sid: Elkaisar.Config.BATTEL_SIDE_ATT});
+                This.heroFight(Hero, Defence[Place - 2], {Def: Defence[Place - 2].id_hero, Att: Hero.id_hero, Sid: Elkaisar.Config.BATTEL_SIDE_ATT});
         });
 
         Defence.forEach(function (Hero, Place) {
 
             if (Attack[Place]) {
-                This.heroFight(Hero, Attack[Place], {Def: Place, Att: Place, Sid: Elkaisar.Config.BATTEL_SIDE_DEF});
+                This.heroFight(Hero, Attack[Place], {Def: Hero.id_hero,     Att: Attack[Place].id_hero,      Sid: Elkaisar.Config.BATTEL_SIDE_DEF});
             } else if (Attack[Place + 1]) {
-
-                This.heroFight(Hero, Attack[Place + 1], {Def: Place, Att: Place + 1, Sid: Elkaisar.Config.BATTEL_SIDE_DEF});
-
+                This.heroFight(Hero, Attack[Place + 1], {Def: Hero.id_hero, Att: Attack[Place + 1].id_hero, Sid: Elkaisar.Config.BATTEL_SIDE_DEF});
             } else if (Attack[Place + 2]) {
-                This.heroFight(Hero, Attack[Place + 2], {Def: Place, Att: Place + 2, Sid: Elkaisar.Config.BATTEL_SIDE_DEF});
+                This.heroFight(Hero, Attack[Place + 2], {Def: Hero.id_hero, Att: Attack[Place + 2].id_hero, Sid: Elkaisar.Config.BATTEL_SIDE_DEF});
             } else if (Attack[Place - 1])
-                This.heroFight(Hero, Attack[Place - 1], {Def: Place, Att: Place - 1, Sid: Elkaisar.Config.BATTEL_SIDE_DEF});
+                This.heroFight(Hero, Attack[Place - 1], {Def: Hero.id_hero, Att: Attack[Place - 1].id_hero, Sid: Elkaisar.Config.BATTEL_SIDE_DEF});
             else if (Attack[Place - 2])
-                This.heroFight(Hero, Attack[Place - 2], {Def: Place, Att: Place - 2, Sid: Elkaisar.Config.BATTEL_SIDE_DEF});
+                This.heroFight(Hero, Attack[Place - 2], {Def: Hero.id_hero, Att: Attack[Place - 2].id_hero, Sid: Elkaisar.Config.BATTEL_SIDE_DEF});
         });
 
         this.scanHero(Defence);
@@ -143,8 +141,8 @@ class LFight
         cell_attack ["honor"] += Math.ceil(total_dead / cell_def["def"]);
         cell_attack ["points"] += Math.ceil(total_dead);
         
-        /*HeroAttSide.HeroAttPlace.CellAttPlace.HeroDefSide.HeroDefPlace.CellDefPlace.AttackType.KillAmount*/
-        this.FightRecord.addAttack(`${Places.Sid}.${Places.Att}.${cell_attack.CellIndex}.${ 1 - Places.Sid}.${Places.Def}.${cell_def.CellIndex}.0.${amountDead}`);
+        /*idHeroAttack.CellAttPlace.idHeroDefence.CellDefPlace.AttackType.KillAmount*/
+        this.FightRecord.addAttack(`${Places.Att}.${cell_attack.CellIndex}.${Places.Def}.${cell_def.CellIndex}.0.${amountDead}`);
     }
 
     heroFight(hero_attck, hero_def, Places)

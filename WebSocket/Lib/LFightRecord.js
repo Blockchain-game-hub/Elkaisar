@@ -20,20 +20,22 @@ class LFightRecord {
         this.currentRound = this.Record.Rounds.length;
         for(var HeroAtt of Attack){
             this.Record.Rounds[this.currentRound - 1].Heros.push({
-                side: HeroAtt.side,
-                type: HeroAtt.type,
-                pre: HeroAtt.pre,
-                post: HeroAtt.post
+                idHero : HeroAtt.id_hero,
+                side   : HeroAtt.side,
+                type   : HeroAtt.type,
+                pre    : HeroAtt.pre,
+                post   : HeroAtt.post
             });
             
         };
         
         for(var HeroDef of Defence){
             this.Record.Rounds[this.currentRound - 1].Heros.push({
-                side: HeroDef.side,
-                type: HeroDef.type,
-                pre: HeroDef.pre,
-                post: HeroDef.post
+                idHero : HeroDef.id_hero,
+                side   : HeroDef.side,
+                type   : HeroDef.type,
+                pre    : HeroDef.pre,
+                post   : HeroDef.post
             });
             
         };
