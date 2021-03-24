@@ -151,7 +151,14 @@ else if($UrlLandMark == "ws")
     $inst       = new $class();
     echo json_encode($inst->{$func}());
     
-}else {
+}else if($UrlLandMark == "battelreplay"){
+
+    define("BATTEL_REPLAY_ID", $formatedRoute[URL_LANDMARK_INDEX + 1]);
+    require_once './configBR.php';
+    define("RESOURCE_BATH", BASE_URL."/Page/Battel");
+    require_once __DIR__.DIRECTORY_SEPARATOR."Page/Battel/BattelReplay.php";
+    
+}else{
     require_once __DIR__.DIRECTORY_SEPARATOR."lib".DIRECTORY_SEPARATOR."LConfig.php";
   
     define("RESOURCE_BATH", BASE_URL."/Page/".$formatedRoute[URL_LANDMARK_INDEX]);

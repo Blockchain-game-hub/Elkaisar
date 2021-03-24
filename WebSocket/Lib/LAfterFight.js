@@ -127,7 +127,7 @@ class LAfterFight
         var This = this;
         var idCity = 0;
         for (var iii in this.Battel.Heros)
-            if (this.Battel.Heros[iii].Hero.id_hero === this.Battel.Battel.id_hero)
+            if (this.Battel.Heros[iii].Hero.idHero === this.Battel.Battel.idHero)
             {
                 idCity = this.Battel.Heros[iii].Hero.id_city;
                 break;
@@ -251,7 +251,7 @@ class LAfterFight
 
         This.Battel.HeroReadyList.forEach(function (OneHero, Index) {
 
-            if (OneHero.id_hero <= 0)
+            if (parseInt(OneHero.idHero) <= 0)
                 return;
             var RT = Elkaisar.Lib.LWorldUnit.calReturningTime(OneHero, Unit);
 
@@ -260,7 +260,7 @@ class LAfterFight
                 return;
 
             Elkaisar.DB.Insert(
-                    `id_hero = ${OneHero.id_hero}, x_from  = ${Unit.x}, y_from = ${Unit.y},
+                    `id_hero = ${OneHero.idHero}, x_from  = ${Unit.x}, y_from = ${Unit.y},
                      task = ${This.Battel.Battel.task}, x_to = ${OneHero.x_coord} , y_to = ${OneHero.y_coord},
                      time_back = ${RT} , id_player = ${OneHero["id_player"]}`, "hero_back", []);
 
@@ -392,11 +392,11 @@ class LAfterFight
                 return;
 
             Battel.HeroReadyList.forEach(function (Hero, HeroIndex) {
-                if (Hero.id_hero <= 0)
+                if (parseInt(Hero.idHero) <= 0)
                     return;
 
                 Elkaisar.DB.Insert(
-                        `id_hero = ${Hero.id_hero}, x_from  = ${Battel.Battel.x_coord}, y_from = ${Battel.Battel.y_coord},
+                        `id_hero = ${Hero.idHero}, x_from  = ${Battel.Battel.x_coord}, y_from = ${Battel.Battel.y_coord},
                      task = ${This.Battel.Battel.task}, x_to = ${Hero.x_coord} , y_to = ${Hero.y_coord},
                      time_back = ${TimeBack} , id_player = ${Hero["id_player"]}`, "hero_back", []);
             });

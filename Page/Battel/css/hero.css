@@ -1,0 +1,171 @@
+.army-review{
+    width: 90%;
+    margin: auto;
+    overflow: auto;
+}
+.army-review li{
+    width: 33.33%;
+    margin: 0px;
+    height: 50px;
+    float: left;
+    
+}
+.army-review li .wrapper{
+    width: 95%;
+    background-image: url(../images/back-shape/rect.png);
+    background-position: center;
+    background-size: 100% auto;
+    height: 100%;
+    margin: auto;
+    background-repeat: no-repeat;
+}
+
+.army-review li .wrapper .army-unit{
+    width: 94%;
+    margin: auto;
+    background-size: 100% 34px;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: auto;
+    border-radius: 5px;
+   
+}
+.army-review li .wrapper .army-unit .amount{
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 0px 0px 3px 3px;
+    margin: auto;
+    margin-top: 27px;
+
+}
+
+#hero-dial-over-view  .row-4{
+    height: 136px;
+}
+#hero-dial-over-view #after-ajax-hero-army{
+    height: 100%;
+    overflow: auto;
+}
+#hero-dial-over-view #after-ajax-hero-army .army-review{
+    margin-top: 30px;
+}
+
+#hero-dial-equip .row-4{
+    height: 149px;
+}
+#hero-dial-equip #after-ajax-hero-army .army-review{
+    margin-top: 30px;
+}
+#hero-dial-equip .equip table td .wrapper{
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+    overflow: auto;
+}
+#hero-dial-equip .equip table td .EquiUnitWrapper{
+    background-image: url(../images/back-shape/rect.png);
+}
+
+#hero-dial-equip .equip table td .wrapper button{
+    height: 87%;
+    display: block;
+    width: 93%;
+    margin: auto;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: transparent;
+    border-radius: 0px;
+    margin-top: 2px;
+}
+#equip-list-heroDia .unite-eq .avail_equip{
+    background-size: 100% 100%;
+}
+
+#hero-dial-camp .row-4{
+    height: 136px;
+}
+
+#hero-dial-camp #after-ajax-hero-army{
+    height: 100%;
+    overflow: auto;
+}
+#hero-dial-camp #after-ajax-hero-army .army-review{
+    margin-top: 30px;
+}
+#dialg_box .box_content .right-content .equi_preveiw ul li{
+    width: 20% ;
+    margin: 0px;
+    height: 36px;
+    
+}
+.box_content .right-content .equi_preveiw ul li .wrapper{
+    width: 92%;
+    margin: auto;
+    background-image: url(../images/back-shape/rect.png);
+    background-size: 100% auto;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.box_content .right-content .equi_preveiw ul li .wrapper .img{
+    width: 94%;
+    height: 100%;
+    background-size: 100% 26px;
+    background-position: center;
+    margin: auto;
+    background-repeat: no-repeat;
+    
+}
+.box_content .right-content .equi_preveiw{
+    overflow: auto;
+}
+.box_content .right-content .equi_preveiw ul{
+    margin-top: 10px;
+    height: auto;
+}
+#hero-left-ol li ,#hero-right-ol  li{
+    width: 33.33% !important;
+    margin: 0px !important;
+    height: 52px !important;
+  
+}
+#hero-left-ol  , #hero-right-ol {
+    width: 90% !important;
+    margin: auto;
+}
+#hero-left-ol .unit-wrapper,
+#hero-right-ol .unit-wrapper{
+    width: 95%;
+    height: 100%;
+    background-image: url(../images/back-shape/rect.png);
+    background-size: 100% 42px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    padding: 4px;
+    margin: auto;
+}
+
+#hero-left-ol .unit-wrapper .img-bg,
+#hero-right-ol .unit-wrapper .img-bg{
+    height: 36px;
+    background-size: 100% 100%;
+    background-position: center;    
+    width: auto;
+    position: static;
+    margin: auto;
+}
+#hero-left-ol .amount ,#hero-right-ol .amount{
+    margin-top: -22px !important;
+    width: 78px !important;
+}
+
+.hero_up_lvl , .FIRE_HERO{
+    width: 70px;
+    font-size: 14px;
+}

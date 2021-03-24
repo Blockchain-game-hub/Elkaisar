@@ -127,7 +127,9 @@ class LBattelReport
             Hero["type"]["b_1"] , Hero["type"]["b_2"] , Hero["type"]["b_3"] ,
             Hero["side"], Hero["ord"], Hero["gainXp"] || 0
         ]);
-        this.Battel.Fight.FightRecord.addHero(Hero);
+        this.Battel.Fight.FightRecord.addHero({
+            side: Hero.side,type: Hero.type, pre: Hero.pre, post: Hero.post, Hero: Hero.Hero
+        });
     }
 
     addPrize(Player)

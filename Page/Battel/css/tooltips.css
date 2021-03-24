@@ -1,0 +1,556 @@
+#city-profile-tooltipe{ 
+    background-image:  url(../images/back-shape/right.png),
+        url(../images/back-shape/left.png),
+        url(../images/back-shape/top.png),
+        url(../images/back-shape/bottom.png),
+        url(../images/back-shape/center.png),
+        url(../images/back-shape/left-content.png)
+        ;
+    background-repeat: repeat-y , repeat-y,repeat-x , repeat-x , repeat, no-repeat;
+    background-position: right ,left , top  , bottom  , center, center;
+    background-size:     auto  , auto, auto ,auto     , auto, 100% 100%;
+    position: absolute;
+    bottom: 235px;
+    right: 15px;
+    
+}
+.tooltip-hero-cont{
+    background-image:  url(../images/back-shape/right.png),
+        url(../images/back-shape/left.png),
+        url(../images/back-shape/top.png),
+        url(../images/back-shape/bottom.png),
+        url(../images/back-shape/center.png),
+        url(../images/back-shape/left-content.png)
+        ;
+    background-repeat: repeat-y , repeat-y,repeat-x , repeat-x , repeat, no-repeat;
+    background-position: right ,left , top  , bottom  , center, center;
+    background-size:     auto  , auto, auto ,auto     , auto, 100% 100%;
+    position: absolute;
+    z-index: 100;
+    width: 350px !important;
+    height: 400px !important;
+}
+
+.tooltip-army {
+    width: 300px;
+    margin: 15px;
+    padding-bottom: 15px;
+}
+.tooltip-army .top{
+    width: 100%;
+    overflow: auto
+}
+.tooltip-army .top .left{
+    width: 45%;
+    float: left;
+    height: 100%;
+    color: #81511c;
+}
+.tooltip-army .top .title{
+    text-align: center;
+    font-size: 14px;
+}
+.tooltip-army .top .left .image img{
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-top: 8px;
+    padding: 4px;
+    background-image: url(../images/back-shape/rect.png);
+    background-size: 100% 100%;
+    border-radius: 5px;
+}
+.tooltip-army .top .right{
+    width: 55%;
+    float: right;
+    height: 100%;
+    color: #81511c;
+}
+.tooltip-army .bottom ul li{
+    float: left;
+    width: 25%;
+    overflow: auto;
+    height: 25px;
+}
+.tooltip-army .bottom ul .image{
+    float: left;
+    width: 50%;
+    padding-top: 2.5px;
+    text-align: center;
+}
+
+.tooltip-army .bottom ul .value{
+    float: right;
+    width: 50%;
+    height: 25px;
+    line-height: 25px;
+    text-align: center;
+}
+.tooltip-army .bottom {
+    width: 100%;
+    clear: both;
+    height: 55px;
+    margin-top: 10px
+}
+
+.tooltip-hero {
+    height: auto;
+    width: 340px;
+    overflow: auto;
+    padding-bottom: 15px;
+}
+.tooltip-hero .name-lvl-point , .tooltip-hero .crop-intake {
+    margin: auto;
+    margin-top: 10px;
+    direction: rtl
+}
+.tooltip-hero .name-lvl-point label{
+    margin-left: 10px;
+}
+.tooltip-hero .name-lvl-point .lvl{
+    display: inline-block
+}
+.tooltip-hero .bottom ol{
+    width: 80%;
+    margin: auto;
+    overflow: auto
+}
+.tooltip-hero .bottom ol li{
+    width: 33.3%;
+    float: left;
+    margin-top: 8px;
+}
+.tooltip-hero .bottom ol li .wrapper{
+    width: 80%;
+    margin: auto;
+    background-image: url(../images/back-shape/rect.png);
+    background-size: 100% 100%;
+    padding: 3px;
+}
+.tooltip-hero .bottom .equip-row li .wrapper{
+    padding: 2px; 
+}
+
+.tooltip-hero .bottom ol li img{
+    width: 72px;
+    height: 32px;
+    margin: auto;
+    border-radius: 3px;
+    display: block;
+    margin: auto
+}
+.tooltip-hero .bottom .equip-row li img{
+    width: 47px;
+    height: 25px;
+    margin: auto;
+    border-radius: 2px;
+    display: block;
+}
+.tooltip-hero .bottom ol li .amount{
+    color: white;
+    margin-top: -16px;
+    line-height: 16px;
+    text-align: center;
+}
+.tooltip-hero .top .state{
+  
+   margin: auto;
+   direction: rtl;
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+.tooltip-hero .top {
+   width: 90%;
+   margin: auto;
+}
+.tooltip-hero .top .state label{
+   margin-right: 10px;
+}
+.tooltip-hero .top ul li{
+   width: 25%;
+   float: left;
+   text-align: center;
+   margin-top: 10px;
+   margin-bottom: 10px
+}
+.tooltip-hero .top ul li img{
+   vertical-align: top
+}
+.tooltip-hero .bottom .equip-row {
+    width: 92%;
+    margin-top: 15px;
+}
+.tooltip-hero .bottom .equip-row li {
+    width:20%;
+    float: left;
+}
+.tooltip-equip{
+    width: 250px;
+    height: auto;
+    padding: 15px 10px;
+    direction: rtl;
+    background-image:url(../images/back-shape/left-content.png) ,url(../images/back-shape/left-content.png);
+ 
+    background-size:  100% 100%;
+    position: absolute;
+   z-index: 1500;
+}
+
+.tooltip-equip .top .title{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 8px;
+    color: #5e341b;
+}
+
+.tooltip-equip .top ul li{
+    color: #5f8c00;
+    margin-bottom: 5px;
+    font-size: 14px;
+    direction: rtl;
+    text-align: right;
+}
+.tooltip-equip .top ul li img{
+    vertical-align: middle
+}
+.tooltip-equip .bottom .desc ,.tooltip-equip .bottom .long-desc{
+    color: #9b4b1a;
+    margin-top: 10px;
+    text-align: right;
+}
+.tooltip-equip .bottom .requir{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 40px;
+}
+
+#hero-select-list{
+    margin-top: 45px;
+    height: 372px;
+}
+#hero-select-list ol{
+    width: 82%;
+    height: 100%;
+    margin: auto;
+    border: solid 12.5px transparent;
+    border-image: url(../images/background/border_a.png);
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-slice: 30;
+    border-image-repeat: round;
+    box-sizing: border-box;
+    border-radius: 10px;
+    background-image: url(../images/skins/desc-rect.png);
+    background-size: 110% 120%;
+    background-position: 10% 40%;
+    overflow-x: hidden
+}
+#hero-select-list .tr, .hero-select-list .tr{
+    width: auto;
+    height: 30px;
+    border-radius: 3px;
+    line-height: 30px;
+    overflow: hidden
+}
+#hero-select-list .tr:hover, .hero-select-list .tr:hover, .hero-select-list .selected{
+    
+    background: url(../images/selelct/select-row-3x.png);
+    background-size: 100% 110%;
+    background-position-y: -1px;
+    color: white;
+    transition: all linear 0.15s;
+    transform: scale(1.01)
+}
+#hero-select-list ol li .wrapper, .hero-select-list ol li .wrapper{
+    height: 25px;
+    margin: auto;
+    float: none;
+    margin-top: 2.5px;
+    width: 50px;
+    background-image: url(../images/back-shape/rect.png);
+    background-size: auto 100%;
+}
+#hero-select-list ol li .wrapper .image, .hero-select-list ol li .wrapper .image{
+    height: 22px;
+    width: auto;
+    margin: 1.5px;
+    width: 47px;
+    background-size: auto 100%;
+}
+.hero-select-list ol li .wrapper .image{
+    margin-top: 2px;
+    margin-left: 3px;
+    width: 45px;
+}
+#hero-select-list ol li .lvl, .hero-select-list ol li .lvl{
+   width: 37px;
+    height: 20px;
+    margin: auto;
+    margin-top: 5px;
+    background-image: url("../images/hero/icon_Lv.png");
+    background-size: 100% 100%;
+    line-height: 20px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    display: block;
+    float: none;
+}
+
+#hero-select-list ol li .heroState, .hero-select-list ol li .heroState{
+   width: 100%;
+   height: 100%;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+#hero-select-list ol li button{
+    width: 60px;
+    margin: auto;
+    line-height: 22px;
+    margin-top: 4px;
+    background-color: transparent;
+}
+
+
+#overview-palace-bg{
+    width: 680px;
+    height: 350px;
+    background-image: url(../images/skins/palace.png);
+    background-size: 100% 100%;
+    margin: auto;
+    margin-top: 120px;
+}
+#overview-palace-bg .header{
+    height:40px;
+}
+#overview-palace-bg .header .right{width: 25%;float: right; height: 100%;}
+#overview-palace-bg .header .middel{width: 50%;float: right; height: 100%; }
+#overview-palace-bg .header .left{width: 25%;float: right; height: 100%;}
+#overview-palace-bg .header .middel .title{
+    height: 100%;
+    line-height: 50px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+}
+#overview-palace-bg .content{
+    width: 90%;
+    margin: auto;
+    margin-top: 10px;
+    height: 285px;
+    border: 12.5px solid transparent;
+
+    border-image: url(../images/background/border_a.png);
+
+    border-image-slice: 30;
+    border-image-repeat: round;
+    box-sizing: border-box;
+}
+
+#hero-over-view{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+#hero-over-view .left{ width: 50%; float: left; height: 100%;}
+#hero-over-view .right{ width: 50%; float: right; height: 100%; position: relative}
+#hero-over-view .right .equip-review{ 
+    width: 100%;
+    height: 125px;
+    background-image: url(../images/background/bg_equip.jpg);
+}
+#hero-over-view .right .equip-review ul li{
+    float: left;
+    width: 25%;
+    height: 38px
+}
+#hero-over-view .right .equip-review ul li .wrapper{
+    width: 85%;
+    margin: auto;
+    background-image: url(../images/back-shape/rect.png);
+    height: 100%;
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#hero-over-view .right .equip-review ul li .wrapper .img{
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    background-size: 100% 27px;
+    background-position: center;
+    background-repeat: no-repeat
+}
+#hero-over-view .right .army-review {
+    background-image: url(../images/skins/desc-rect.png);
+    background-size: 98.5% 104.5%;
+    background-position-x: 4px;
+    background-position-y: -5px;
+    overflow: auto;
+    width: 100%;
+    height: 108px;
+    overflow: auto
+}
+#hero-over-view .right .army-review ul{
+    width: 80%;
+    margin: auto;
+    margin-top: 28px;
+    overflow: auto;
+}
+#hero-over-view .right .army-review ul li{
+    float: left;
+    width: 33.333%;
+    height: 38px
+}
+#hero-over-view .right .army-review ul li .wrapper{
+    width: 85%;
+    margin: auto;
+    background-image: url(../images/back-shape/rect.png);
+    height: 100%;
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#hero-over-view .right .army-review ul li .wrapper .img{
+    height: 100%;
+    width: 90%;
+    margin: auto;
+    background-size: 100% 28px;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: auto;
+}
+#hero-over-view .right .army-review .wrapper .amount{
+    height: 16px;
+    width: 100%;
+    margin: auto;
+    background-color: rgba(0,0,0,0.6);
+    line-height: 16px;
+    color: white;
+    font-weight: bold;
+    margin-top: 18.5px;
+    border-radius: 0px 0px 5px 5px;
+    text-indent: 5px;
+    
+}
+#hero-over-view .right .row-3 .col-2{
+    width: 196px;
+}
+
+#hero-over-view .right .dicor{
+    background-image: url(../images/border/top_panel_helmet_decor.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 50px;
+    pointer-events: none;
+    margin-top: -14px;
+    position: absolute;
+}
+
+
+
+
+#hero-over-view .left .hero-data{
+   
+    height: 75px;
+    width: 100%;
+    background-image: url(../images/background/dialog_bg.jpg);
+}
+
+#hero-over-view .left .hero-data .name{
+    float: right;
+    width: 55%;
+    height: 100%;
+}
+#hero-over-view .left .hero-data .image{
+    float: left;
+    width: 45%;
+    height: 100%;
+}
+
+#hero-over-view .left .hero-data .image .wrapper{
+    width:95%;
+    margin: auto;
+    height: 100%;
+    background-image: url(../images/back-shape/rect.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#hero-over-view .left .hero-data .image .wrapper .avatar-hero{
+    width:100%;
+    margin: auto;
+    height: 100%;
+    border-radius: 15px;
+    background-image: url(../images/back-shape/rect.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: auto;
+}
+
+#hero-over-view .left .hero-data .image .wrapper .avatar-hero .lvl{
+    background-image: url("../images/hero/icon_Lv.png");
+    line-height: 24px;
+    width: 33px;
+    text-align: center;
+    background-size: 100% 100%;
+    color: white;
+    font-weight: bold;
+    margin: 5px 0px 0px 5px;
+}
+
+#hero-over-view .left .hero-data .name .wrapper {
+    width: 70%;
+    margin: auto;
+    margin-top: 15px;
+    height: 30px;
+    background-image: url("../images/background/sitenav-bar-bg.jpg");
+    background-size: 100% 100%;
+    color: white;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 3px;
+}
+
+#hero-over-view .hero-points{
+    height: 185px;
+    background-image: url(../images/skins/desc-rect.png);
+    background-size: 99% 106%;
+    background-position-y: -10px;
+    overflow: auto;
+}
+#hero-over-view .hero-points table{
+    background-color: white;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+}
+#hero-over-view .hero-points table td{
+    padding: 5px 0px;
+    color: #81511c;
+    font-weight: bold;
+}
+#hero-over-view .middel{
+    background-image: url(../images/border/sprite_v.png);
+    background-size: 100% 100%;;
+    width: 8px;
+    position: absolute;
+    height: 100%;
+    left: 50%;
+    margin-left: -4px
+}
+
+
+#close-over-lay{
+    width: 50px;
+    height: 20px;
+    float: right;
+    margin-right: 5px;
+    margin-top: 22px;
+
+}

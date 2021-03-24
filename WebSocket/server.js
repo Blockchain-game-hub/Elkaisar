@@ -65,6 +65,7 @@ Elkaisar.Lib.LConfig              = require('./Lib/LConfig');
 Elkaisar.Lib.LBase                = require('./Lib/LBase');
 Elkaisar.Lib.LBattel              = require('./Lib/LBattel');
 Elkaisar.Lib.LFight               = require('./Lib/LFight');
+Elkaisar.Lib.LFightRound          = require('./Lib/LFightRound');
 Elkaisar.Lib.LFightRecord         = require('./Lib/LFightRecord');
 Elkaisar.Lib.LHero                = require('./Lib/LHero');
 Elkaisar.Lib.LPlayer              = require('./Lib/LPlayer');

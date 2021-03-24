@@ -4,7 +4,7 @@ class LArmy
     static  prepareHeroBattel(Hero)
     {
        
-        var Index = 0;
+        var Index = -1;
         for(var jjj in Hero.type)
         {
             Index ++;

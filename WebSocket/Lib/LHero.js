@@ -12,7 +12,8 @@ class LHero {
             Hero.Equip[iii].lvl = Math.max(Hero.Equip[iii].lvl, 1);
             var EquipEff = Elkaisar.Equip.EquipPower[`${Hero.Equip[iii].type}.${Hero.Equip[iii].part}.${Hero.Equip[iii].lvl}`];
             if(!EquipEff)
-                return console.log(`${Hero.Equip[iii].type}.${Hero.Equip[iii].part}.${Hero.Equip[iii].lvl}`);
+                return console.log(`This Equip Has No Power ${Hero.Equip[iii].type}.${Hero.Equip[iii].part}.${Hero.Equip[iii].lvl}`);
+            Hero.EquipSpAt[EquipEff.sp_attr] = true;
             for (var ii in Hero.real_eff){
                     
                 Hero.real_eff[ii].attack     +=  EquipEff.attack;
@@ -99,7 +100,8 @@ class LHero {
         var HeroArmy = LHero.HeroArmyBattel(Hero);
 
         var HeroPower = {
-            "id_hero"  : Hero.Hero.id_hero,
+            "idHero"   : Hero.Hero.id_hero,
+            "id_hero"   : Hero.Hero.id_hero,
             "id_player": Hero.Hero.id_player,
             "id_city"  : Hero.Hero.id_city,
             "x_coord"  : Hero.Hero.x,
@@ -109,11 +111,12 @@ class LHero {
             "pre"      : HeroArmy.pre,
             "post"     : HeroArmy.post,
             "real_eff": {
-                1: Elkaisar.Config.CHero.EmptyBattelHeroEff(1), 2: Elkaisar.Config.CHero.EmptyBattelHeroEff(2),
-                3: Elkaisar.Config.CHero.EmptyBattelHeroEff(3), 4: Elkaisar.Config.CHero.EmptyBattelHeroEff(4),
-                5: Elkaisar.Config.CHero.EmptyBattelHeroEff(5), 6: Elkaisar.Config.CHero.EmptyBattelHeroEff(6)
+                "0": Elkaisar.Config.CHero.EmptyBattelHeroEff(0, HeroArmy.type.f_1), "1": Elkaisar.Config.CHero.EmptyBattelHeroEff(1, HeroArmy.type.f_2),
+                "2": Elkaisar.Config.CHero.EmptyBattelHeroEff(2, HeroArmy.type.f_3), "3": Elkaisar.Config.CHero.EmptyBattelHeroEff(3, HeroArmy.type.b_1),
+                "4": Elkaisar.Config.CHero.EmptyBattelHeroEff(4, HeroArmy.type.b_2), "5": Elkaisar.Config.CHero.EmptyBattelHeroEff(5, HeroArmy.type.b_3)
             },
             "Equip": Hero.Equip,
+            "EquipSpAt":{},
             "is_garrsion": Hero.isGarrison,
             "point_atk": pointAttack,
             "point_def": pointDeffence,
@@ -134,7 +137,7 @@ class LHero {
 
     static  HeroArmyBattel(Hero) {
         if(!Hero.Army)
-            console.log(Hero)
+            console.log("Hero Has No Army", Hero);
         return {
             "pre": {
                 "f_1": Hero.Army.f_1_num,

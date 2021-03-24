@@ -11,36 +11,28 @@ class LFightRecord {
         this.Fight = Fight;
     }
 
-    addRound(Attack, Defence) {
-        this.currentRound = this.Record.Rounds.push({
-            Heros: [],
+    addRound(Heros) {
+        this.Record.Rounds.push({
+            Heros: {},
             Attacks: []
         });
-        
+
         this.currentRound = this.Record.Rounds.length;
-        for(var HeroAtt of Attack){
-            this.Record.Rounds[this.currentRound - 1].Heros.push({
-                idHero : HeroAtt.id_hero,
-                side   : HeroAtt.side,
-                type   : HeroAtt.type,
-                pre    : HeroAtt.pre,
-                post   : HeroAtt.post
-            });
-            
-        };
-        
-        for(var HeroDef of Defence){
-            this.Record.Rounds[this.currentRound - 1].Heros.push({
-                idHero : HeroDef.id_hero,
-                side   : HeroDef.side,
-                type   : HeroDef.type,
-                pre    : HeroDef.pre,
-                post   : HeroDef.post
-            });
-            
-        };
-        
+
+
         return  this.Record.Rounds[this.currentRound - 1];
+
+    }
+
+    addHeroToRound(Hero, Blocks, HeroIndex) {
+
+        this.Record.Rounds[this.currentRound - 1].Heros[HeroIndex] = {
+            idHero: Hero.idHero,
+            HeroIndex:HeroIndex,
+            side: Hero.side,
+            type: Hero.type,
+            ArmyBlocks: Blocks
+        };
 
     }
 
@@ -49,7 +41,7 @@ class LFightRecord {
     }
 
     addHero(Hero) {
-            this.Record.Rounds[this.currentRound - 1].Heros.push(Hero);
+        this.Record.Heros.push(Hero);
     }
 
     addPlayer(Player) {
@@ -58,7 +50,7 @@ class LFightRecord {
 
     saveRecord() {
         var This = this;
-        
+
         setTimeout(function () {
             Elkaisar.MysqlBattelReplay.getConnection(function (err, connection) {
                 if (err)

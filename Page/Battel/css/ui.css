@@ -1,0 +1,779 @@
+#menu-bar .left .wrapper-icon{
+    width: 40px;
+    height: 40px;
+    background-image: url(../images/btns/bg/round_button_normal.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#menu-bar .left .wrapper-icon .icon{
+    width: 100%;
+    height: 100%;
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#menu-bar .left .wrapper-icon:hover{
+    background-image: url(../images/btns/bg/round_button_hover.png)
+}
+
+
+.red-btn-wide{
+    background-image: url(../images/btns/parts/red-n-l.jpg),url(../images/btns/parts/red-n-r.jpg),url(../images/btns/parts/red-n-m.jpg);
+    background-position-y: center;
+    background-position-x: left, right, center;
+    background-repeat: no-repeat, no-repeat, repeat-x;
+    background-size: auto 100%;
+}
+
+.red-btn-wide:hover{ background-image: url(../images/btns/parts/red-h-l.jpg),url(../images/btns/parts/red-h-r.jpg),url(../images/btns/parts/red-h-m.jpg);}
+.red-btn-wide:active{ background-image: url(../images/btns/parts/red-a-l.jpg),url(../images/btns/parts/red-a-r.jpg),url(../images/btns/parts/red-a-m.jpg);}
+.red-btn-wide:disabled{ background-image: url(../images/btns/parts/red-d-l.jpg),url(../images/btns/parts/red-d-r.jpg),url(../images/btns/parts/red-d-m.jpg);}
+
+
+.smallAcce{
+    background-image: url(../images/btns/smallAcce-n.png);
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.smallAcce:hover    { background-image: url(../images/btns/smallAcce-h.png);}
+.smallAcce:active   { background-image: url(../images/btns/smallAcce-a.png);}
+.smallAcce:disabled { background-image: url(../images/btns/smallAcce-d.png);}
+
+.select-input{
+    background-image: url(../images/input/select-btn.png);
+    background-size: 100% 100%;
+    background-position: center;
+    min-height: 32px;
+    min-width: 160px;
+
+}
+
+.select-input .value{
+    width: 80%;
+    float: left;
+    text-align: center;
+}
+
+.select-input:hover{background-image: url(../images/input/select-btn-h.png);}
+.select-input:active{background-image: url(../images/input/select-btn-active.png);}
+
+
+#move-city-to{
+    padding-top: 15px;
+}
+
+#move-city-to .header-wrapper .select-input .value{
+    line-height: 28px;
+}
+#move-city-to .header-wrapper .wrapper{
+    width: 84%;
+    margin: auto;
+    justify-content: space-between
+}
+
+#move-city-to .header-wrapper .wrapper .con-btn .relocate{
+    color: white;
+    font-weight: bold;
+    padding: 7px 5px
+}
+
+#move-city-to .body-wrapper .content{
+    width: 84%;
+    height: 150px;
+    background-image: url(../images/skins/desc-rect.png);
+    margin: auto;
+    background-position-y: -10px;
+    background-size: 100%  106%;
+    margin-top: 5px;
+}
+
+.select-list .option{
+    background-image: url(../images/background/column.png);
+    position: absolute;
+    background-size: 100% auto;
+    z-index: 0;
+    height: 0px;
+}
+
+.select-list .option ul{
+    width: 85%;
+    margin: auto;
+    margin: 8px auto;
+}
+.select-list .option ul li{
+    text-align: center;
+    line-height: 25px;
+    background-size: 100% 100%;
+}
+
+.select-list .option ul li.selected-op{
+    color: white;
+    font-weight: bold;
+    background-image: url(../images/selelct/select-row.png);
+
+    text-align: center;
+    line-height: 25px;
+}
+.select-list .option ul li:hover{
+    background-image: url(../images/selelct/select-rect.png);
+    color: white
+}
+
+#move-city-to .select-list .option{
+    width: 160px;
+    overflow: hidden;
+    background-size: 100% 100%;
+}
+
+#dialg_box.guild_dialog_box .nav_icon{
+    position: relative;
+}
+#dialg_box.guild_dialog_box .nav_icon .drop-list{
+    top: 42px;
+}
+
+#msg-area .msg-body .quote::before {
+    content: '\201C';
+}
+
+#msg-area .msg-body .quote::after {
+    content: '\201D';
+}
+
+#msg-area .msg-body .quote{
+    color: black;
+    background-color: #9d6700;
+    padding: 3px 5px;
+    color: black;
+    font-weight: bold;
+    border-radius: 3px;
+    max-width: 126px;
+}
+#msg-area .msg-body .q-r{
+    margin-top: -8px;
+    text-indent: 140px;
+}
+
+
+.solidBg{
+    background-image: url(../images/skins/SolidBg.png);
+    background-size: 100% 100%;
+}
+
+#dialg_box .contributeBox .topBox{
+    height: 50%;
+}
+#dialg_box .contributeBox .bottomBox{
+    height: 50%;
+}
+
+#dialg_box .contributeBox .col-i{
+    width: 25%;
+    height: 100%;
+    background-image: url(../images/skins/solidRect.png);
+    background-size: 100% 100%;
+}
+#dialg_box .contributeBox .col-ii{
+    width: 38%;
+    height: 100%;
+    background-image: url(../images/skins/solidSquare.png);
+    background-size: 100% 100%;
+}
+#dialg_box .contributeBox .col-iii{
+    width: 75%;
+    height: 100%;
+    background-image: url(../images/skins/SolidBg.png);
+    background-size: 100% 100%;
+}
+#dialg_box .contributeBox .buttonWrapper:first-child{
+    margin-top: 15px;
+}
+
+#dialg_box .contributeBox .buttonWrapper{
+    width: 50%;
+    line-height: 25px;
+    margin: auto;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#dialg_box .contributeBox .col-iii .ReqList{
+    width: 100%;
+    height: 100%;
+}
+
+#dialg_box .contributeBox .col-iii .ReqList ul{
+    height: 60%;
+    width: 96%;
+    margin: auto
+}
+#dialg_box .contributeBox .col-iii .ReqList ul li{
+    width: 20%;
+    height: 100%;
+}
+#dialg_box .contributeBox .col-iii .ReqList ul .ReqUnit{
+    margin: 0px 5px;
+    height: 100%;
+    overflow: hidden
+}
+
+#dialg_box .contributeBox .col-iii .ReqList ul .ReqUnit .Reqimage{
+    height: 60%
+}
+#dialg_box .contributeBox .col-iii .ReqList ul .ReqUnit .Reqimg{
+    height: 100%;
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    margin: 1px 3px;
+
+
+}
+#dialg_box .contributeBox .col-iii .ReqList ul .ReqUnit .ReqBg{
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/back-shape/rect.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+.uiCheckedBox{
+    background-image: url(../images/BtnCover/BoxChecked.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.uiUnCheckBox{
+    background-image: url(../images/BtnCover/BoxUnChecked.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.uiCheckedRadio{
+    background-image: url(../images/BtnCover/RadioChecked.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.uiUnCheckRadio{
+    background-image: url(../images/BtnCover/RadioUnChecked.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+.uiBtnCloseDown{
+    background-image: url(../images/BtnCover/closeDownN.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.uiBtnCloseDown:hover{
+    background-image: url(../images/BtnCover/closeDownH.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.uiBtnCloseDown:active{
+    background-image: url(../images/BtnCover/closeDownA.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.uiBtnCloseDown:disabled{
+    background-image: url(../images/BtnCover/closeDownD.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.rightMark{
+    background-image: url(../images/BtnCover/rightMark.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#dialg_box .contributeBox .col-iii .ReqList ul .ReqUnit .ReqAmount{
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+
+#dialg_box .contributeBox .col-iii .ReqList ul .ReqUnit  .ReqTitle{
+    line-height: 25px;
+    text-align: center;
+}
+
+#dialg_box .contributeBox .col-i  .success-rate{
+    font-size: 14px;
+    margin-top: 15px;
+    text-align: center
+}
+
+#dialg_box .contributeBox .col-i .full-btn-3x{
+    width: 60%;
+    line-height: 50px;
+    margin: auto;
+    margin-top: 35px;
+    font-size: 16px;
+    text-align: center;
+}
+
+#dialg_box .contributeBox .wordsCol{
+    font-size: 16px;
+    text-align: right;
+    margin-right: 15px;
+    line-height: 20px;
+    color: #008c00
+}
+
+#dialg_box .contributeBox .wordsCol {
+    width: 100%;
+}
+
+
+#dialg_box .contributeBox .ReqFixed{
+    text-align: right;
+    width: 90%;
+    margin: auto;
+    font-size: 16px;
+
+}
+#dialg_box .contributeBox  .achieved{
+    color: #008c10;
+}
+#dialg_box .contributeBox .ReqFixed {
+    color: #a67939;
+}
+#dialg_box .contributeBox  .not-achieved {
+    color: #EF3B3A;
+}
+
+#ContSelectedReqConf button{
+    line-height: 26px;
+    font-size: 14px;
+    width: 100px;
+    margin: auto;
+    display: block;
+    margin-top: 5px;
+    margin-bottom: -5px;
+}
+#ArenaChallangeHome{
+    width: 100%;
+    height: 100%;
+}
+
+#ArenaChallangeHome .col-i{
+    width: 45%;
+    height: 100%;
+    background-size: 100% 100%;
+}
+#ArenaChallangeHome .col-ii{
+    width: 55%;
+    height: 100%;
+    /*background-image: url(../images/skins/solidSquare.png);*/
+    background-size: 100% 100%;
+}
+
+#ArenaChallangeHome .col-ii .row-i{
+    width: 100%;
+    height: 40%;
+    overflow: auto;
+}
+#ArenaChallangeHome .col-ii .row-ii{
+    width: 100%;
+    height: 60%;
+    background-size: 100% 100%;
+}
+
+#ArenaChallangeHome .col-i .RankList{
+    background: url(../images/icons/bg_patern.png);
+}
+
+
+#ArenaChallangeHome .col-i .RankList .tr{
+    height: 37.2px;
+    display: flex;
+}
+
+
+
+#ArenaChallangeHome .col-i .RankList .tr div{
+    line-height: 37px;
+}
+
+#ArenaChallangeHome  .RankList .guildIcon{
+    width: 30px;
+    height: 30px;
+}
+
+#ArenaChallangeHome  .RankList .guildIcon .image-slog{
+    width: 100%;
+    height: 100%;
+    background-size: 100% 100%;
+}
+
+
+#ArenaChallangeHome  .RankList .guildName{
+    width: 60px;
+}
+#ArenaChallangeHome  .RankList .tr .full-btn-3x{
+    line-height: 24px;
+    padding: 0px 5px;
+}
+
+#ArenaChallangeHome .col-ii .row-i .li{
+    font-size: 16px;
+    line-height: 20px;
+    direction: rtl
+}
+
+
+#ArenaChallangeHome .col-ii .arenaChallangePrief{
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+    color: #79582E
+}
+
+#ArenaChallangeHome .col-ii .arenaChallangePrief .red{
+    color: #e30c0c
+}
+#ArenaChallangeHome .col-ii .arenaChallangePrief .green{
+    color: #76b852
+}
+
+#ArenaChallangeHome .col-ii .arenaChallangePrief .buyBtn{
+    line-height: 25px;
+    padding: 0px 10px;
+    margin: 0px 5px;
+    color: #5e341b;
+    font-weight: bold
+}
+#ArenaChallangeHome .col-ii .prizeListWrapper{
+    width: 50%;
+    height: 100%;
+    background-image: url(../images/skins/solidRect.png);
+    background-size: 100% 100%;
+}
+
+#ArenaChallangeHome .col-ii .prizeListWrapper ul{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: auto;
+}
+#ArenaChallangeHome .col-ii .prizeListWrapper li{
+    width: 33%;
+    height: 30px;
+    line-height: 30px;
+    margin-bottom: 3px;
+}
+
+
+#heroArenaSelectList{
+    width: 27%;
+    height: 100%;
+    background: url(../images/icons/bg_patern.png);
+    background-size: 100% 100%;
+}
+
+#ArenaChallangeHome .heroControlBtns{
+    width: 8%;
+    height: 100%;
+}
+
+#ArenaChallangeHome .heroControlBtns .border{
+    width: 7%;
+    height: 100%;
+    background-image: url(../images/border/sprite_v.png);
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+}
+
+
+#ArenaChallangeHome .heroControlBtns .content{
+    width: 86%;
+    height: 100%;
+    background-image: url(../images/skins/solidRect.png);
+    background-size: auto 120%;
+    background-position: -50px -50px;
+}
+
+#ArenaChallangeHome .arenaHeroList{
+    width: 25%;
+    height: 100%;
+}
+#ArenaChallangeHome .arenaChallangeReview{
+    width: 40%;
+    height: 100%;
+    background-image: url(../images/skins/solidRect.png);
+    background-size: auto 150%;
+    background-position: -50px -50px;
+}
+
+#ArenaChallangeHome .arenaChallangeReview .border{
+    width: 2%;
+    height: 100%;
+    background-image: url(../images/border/sprite_v.png);
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+}
+
+#ArenaChallangeHome .prize-row{
+    width: 100%;
+    height: 40px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row-reverse
+
+
+}
+#ArenaChallangeHome .prize-row li, #ArenaChallangeHome .prize-row ul{
+    float: none;
+    color: inherit;
+}
+
+#ArenaChallangeHome #selectHeroCity{
+    width: 40%;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+#ArenaChallangeHome #selectHeroCity .select-list .option{
+    width: 120px;
+    background-size: 100% 100%;
+    overflow: hidden;
+    z-index: 10
+}
+
+#ArenaChallangeHome #selectHeroCity .select-input{
+    width: 74%;
+    min-width: 100px;
+    min-height: 26px;
+    line-height: 23px;
+}
+
+
+.goRight{
+    background-image: url(../images/arrow/go-right-n.png);
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat
+}
+.goRight:hover{background-image: url(../images/arrow/go-right-h.png);}
+.goRight:active{background-image: url(../images/arrow/go-right-a.png);}
+.goRight:disabled{background-image: url(../images/arrow/go-right-d.png);}
+
+.goLeft{
+    background-image: url(../images/arrow/go-left-n.png);
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat
+}
+.goLeft:hover{background-image: url(../images/arrow/go-left-h.png);}
+.goLeft:active{background-image: url(../images/arrow/go-left-a.png);}
+.goLeft:disabled{background-image: url(../images/arrow/go-left-d.png);}
+
+.goDown{
+    background-image: url(../images/arrow/go-right-n.png);
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: rotate(90deg);
+}
+.goDown:hover{background-image: url(../images/arrow/go-right-h.png);}
+.goDown:active{background-image: url(../images/arrow/go-right-a.png);}
+.goDown:disabled{background-image: url(../images/arrow/go-right-d.png);}
+
+.goUp{
+    background-image: url(../images/arrow/go-left-n.png);
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    transform: rotate(90deg);
+}
+.goUp:hover{background-image: url(../images/arrow/go-left-h.png);}
+.goUp:active{background-image: url(../images/arrow/go-left-a.png);}
+.goUp:disabled{background-image: url(../images/arrow/go-left-d.png);}
+
+
+#ArenaChallangeHome .heroControlBtns .content .btnBlock{
+    width: 100%;
+    height: 50px;
+    margin-top: 25px;
+    margin-bottom: 40px;
+}
+
+#ArenaChallangeHome .heroControlBtns .content .btnBlock .full-btn-2x{
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    display: block;
+    display: flex;
+    align-items: center
+}
+
+
+#ArenaChallangeHome .heroControlBtns .content .btnBlock .cb{
+    display: block;
+    width: 100%;
+    height: 60%;
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#ArenaChallangeHome .arenaChallangeReview .content{
+    width: 100%;
+    height: 100%;
+}
+
+#ArenaChallangeHome .arenaChallangeReview .content .title{
+    width: 45%;
+    margin: auto;
+}
+#ArenaChallangeHome .arenaChallangeReview .content .playerProfileImage{
+    width: 70%;
+    display: flex;
+    flex-flow: column;
+}
+#ArenaChallangeHome .arenaChallangeReview .content .playerProfile{
+    margin-top: -20px;
+}
+#ArenaChallangeHome .arenaChallangeReview .content .arenaChallangeProfile{
+    width: 40%;
+    height: 100%;
+}
+#ArenaChallangeHome .arenaChallangeReview .content .avatar-img img{
+    width: 90px;
+}
+#ArenaChallangeHome .arenaChallangeReview .content .avatar-img{
+    height: 150px;
+}
+#ArenaChallangeHome .arenaChallangeReview .content .avatar-name{
+    line-height: 28px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    background-image: url("../images/background/p_name_n.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 35px;
+    color: white;
+    margin-top: -20px
+}
+
+
+#ArenaChallangeHome .arenaChallangeReview .arenaChallangeProfile{
+    margin-top: 10px;
+    margin-right: 15px;
+    text-align: right;
+    font-size: 14px;
+    color: #79582E;
+    line-height: 24px;
+}
+#ArenaChallangeHome .arenaChallangeReview .th::after{
+    content: "";
+    height: 50px;
+    position: absolute;
+    display: block;
+    width: 347px;
+    background-image: url(../images/border/top_panel_helmet_decor.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 42px;
+    pointer-events: none;
+}
+#ArenaChallangeHome .arenaChallangeReview .arenaKingPrize {
+   width: 100%;
+   height: 170px;
+}
+#ArenaChallangeHome .arenaChallangeReview .arenaKingPrize .bg{
+    width: 95%;
+    height: 100%;
+    margin: auto;
+}
+
+#ArenaChallangeHome .arenaChallangeReview .arenaKingPrize ul{
+    display: flex;
+    flex-flow: wrap;
+    margin-top: 24px;
+}
+#ArenaChallangeHome .arenaChallangeReview .arenaKingPrize ul li{
+    width: 25%;
+    height: 36px;
+    line-height: 36px;
+}
+#ArenaChallangeHome .arenaHeroList .banner-red{
+    width: 80%;
+    margin: auto;
+}
+
+#ArenaChallangeHome .tr{
+    height: 31.5px;
+}
+
+#heroArenaSelectList .heroCityList .ol{
+    height: 347px;
+    overflow: hidden
+}
+
+
+#ArenaChallangeRankList {
+    width: 100%;
+    height: 100%;
+}
+#ArenaChallangeRankList .tr{
+   height: 33px;
+   line-height: 33px;
+   font-size: 16px;
+}
+
+#ArenaChallangeHome .right-content-footer{
+    margin-top: -39px;
+}
+
+
+#ArenaChallangeRankList.RankList .cont{
+    display: flex;
+    margin: auto;
+    width: 150px;
+    flex-basis: content;
+}
+
+#useAttemptBox{
+    
+    height: 20px;
+    width: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    vertical-align: top;
+    margin-bottom: 8px;
+    
+}
+
+#useArenaExpBox{
+    
+    height: 20px;
+    width: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    vertical-align: middle;
+    margin-right: 10px;
+    
+}
+
+
+.showCityHero{
+    width: 80%;
+    height: 60%;
+    text-align: center;
+}
+.showCityHero img{
+    margin: auto
+}

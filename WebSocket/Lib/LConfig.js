@@ -355,3 +355,16 @@ Elkaisar.Config.ArenaChallangeLvlReqExp = {
     "14": 24000,
     "15": 30000
 };
+
+
+
+Elkaisar.Config.EquipSpAtNone = 0;
+Elkaisar.Config.EquipSpAtArrowRainA = 1;
+Elkaisar.Config.EquipSpAtArrowRainB = 2;
+
+
+
+Elkaisar.Config.AttackTypeNorm = 0;
+Elkaisar.Config.AttackTypeBreak = 1;
+Elkaisar.Config.AttackTypeStrike = 2;
+Elkaisar.Config.AttackTypeStrikeAndBreak = 3;

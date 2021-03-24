@@ -207,29 +207,7 @@ class LWorld {
 
 
         var UnitHero;
-        /*for (ii in HeroUnitList){
-         UnitHero = HeroUnitList[ii];
-         herosToSend.push({
-         "name": UnitHero["name"],
-         "ord": UnitHero["ord"],
-         "pre": {
-         "f_1": UnitHero["f_1_num"],
-         "f_2": UnitHero["f_2_num"],
-         "f_3": UnitHero["f_3_num"],
-         "b_1": UnitHero["b_1_num"],
-         "b_2": UnitHero["b_2_num"],
-         "b_3": UnitHero["b_3_num"]
-         },
-         "type": {
-         "f_1": UnitHero["f_1_type"],
-         "f_2": UnitHero["f_2_type"],
-         "f_3": UnitHero["f_3_type"],
-         "b_1": UnitHero["b_1_type"],
-         "b_2": UnitHero["b_2_type"],
-         "b_3": UnitHero["b_3_type"]
-         }
-         });
-         }*/
+       
         if (callBack)
             callBack(HeroUnitList);
 

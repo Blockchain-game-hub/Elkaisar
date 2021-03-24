@@ -32,7 +32,7 @@ class CHero
         "tagned_7p": 7,
         "tagned_8p": 8
     };
-    static  EmptyBattelHeroEff(Place){
+    static  EmptyBattelHeroEff(Place, ArmyType){
         return  {
             "attack": 0, // attack of unite in this cell
             "def": 0, // defence of unite in this cell
@@ -59,7 +59,7 @@ class CHero
             "dead_unit": 0,
             "honor": 0,
             "points": 0,
-            "armyType": 0,
+            "armyType": ArmyType,
             "troopsKills": 0,
             "troopsKilled": 0
         };

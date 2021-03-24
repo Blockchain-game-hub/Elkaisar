@@ -1,0 +1,613 @@
+
+#god-gate{
+    height: 435px;
+    margin-top: -20px;
+}
+
+#god-gate .content-wrapper{
+    width: 100%; 
+    height: 100%;
+    background-image: url(../images/godGate/godGate-bg.jpg);
+    background-size: 100% 100%;
+    position: relative;
+}
+
+#god-gate .content-wrapper .god-container{
+    width: 180px;
+    height: 160px;
+    position: absolute;
+    background-repeat: no-repeat;
+    transition: all linear 0.1s;
+}
+
+#god-gate .content-wrapper .god-container:hover{
+    transform: scale(1.03);
+}
+
+#god-1{
+    background-image: url(../images/godGate/god-1.png);
+    background-position: center;
+    background-size: contain;
+}
+#god-2{
+    background-image: url(../images/godGate/god-2.png);
+    background-position: center;
+    background-size: contain;
+}
+#god-3{
+    background-image: url(../images/godGate/god-3.png);
+    background-position: center;
+    background-size: contain;
+}
+#god-4{
+    background-image: url(../images/godGate/god-4.png);
+    background-position: center;
+    background-size: contain;
+   
+}
+
+#god-gate .content-wrapper .text-val{
+    
+    width: 90px;
+    color: #e2952b;
+    font-size: 16px;
+    position: absolute;
+    text-align: center;
+    left: 50%;
+}
+
+#godGate-rank{
+    width: 40px;
+    height: 60px;
+    left: 25px;
+    top: 0px;
+    position: absolute;
+    background-image: url(../images/icon-menu/6_n.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#godGate-rank:hover{
+    background-image: url(../images/icon-menu/6_h.png);
+}
+#godGate-rank:active{
+    background-image: url(../images/icon-menu/6_a.png);
+}
+#godGate-rank:disabled{
+    background-image: url(../images/icon-menu/6_d.png);
+}
+#godGate-rank .text{
+    color: #e2952b;
+    font-size: 12px;
+    text-align: center;
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    font-weight: bold;
+}
+
+#god-gate .content-wrapper .player-points{
+    width: 160px;
+    height: 35px;
+    background-image: url(../images/btns/ui_timer.png);
+    position: absolute;
+    left: 50%;
+    margin-left: -80px;
+    top: 50%;
+    margin-top: -17.5px;
+    background-size: 100% 100%;
+    color: white;
+}
+
+#god-gate .content-wrapper .player-points label{
+    display: block;
+    float: left;
+    width: 75%;
+    height: 100%;
+    text-align: center;
+    line-height: 35px;
+    font-size: 14px;
+}
+#god-gate .content-wrapper .player-points .wrapper{
+    display: block;
+    float: right;
+    width: 25%;
+    height: 100%;
+    text-align: center;
+    line-height: 35px;
+    font-size: 14px;
+}
+#god-gate .content-wrapper .player-points .wrapper{
+    background-position: left center;
+    
+    background-repeat: no-repeat;
+}
+#god-gate .content-wrapper .player-points .wrapper .pluse{
+    width: 22px;
+    height: 22px;
+    display: block;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 22px 22px;
+    margin-top: 6px;
+}
+.pluse {background-image: url(../images/icons/pluse.png);}
+.pluse:hover{background-image: url(../images/icons/pluse-h.png);}
+.pluse:active{background-image: url(../images/icons/pluse-a.png);}
+
+#godGateBtnWrapper{
+    width: 64px;
+    height: 64px;
+    position: fixed;
+    left: 5px;
+    bottom: 210px;
+    z-index: 100;
+}
+#godGateBtnWrapper button{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    background-image: url(../images/godGate/godGate.png);
+}
+#godGateBtnWrapper button:hover{
+    transform: scale(1.03);
+    transition: all linear 0.2s;
+}
+
+.gray-filter{
+
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+
+}
+
+
+
+.score-1{color: white;}
+.score-2{color: #769c24 ;}
+.score-3{color: #13acac;}
+.score-4{color: #aa00aa;}
+.score-5{color: #e2952b;}
+
+
+
+#godGateBox{
+    width: 480px;
+    height: 350px;
+    position: absolute;
+    top: 180px;
+    left: 50%;
+    margin-left: -240px;
+    background-image: url(../images/skins/palace.png);
+    background-size: 100% 100%;
+}
+
+#godGateBox .content-wrapper{
+    width: 87%;
+    height: 65%;
+    margin: auto;
+    background-image: url(../images/godGate/godGateBoxBg.png);
+    background-size: 100% 100%;
+    margin-top: 54px;
+    overflow: auto;
+}
+
+#godGateBox .btn-wrapper{
+    width: 87%;
+    margin: auto;
+    height: 55px;
+    background-image: url("../images/background/sitenav-bar-bg.jpg");
+    background-size: auto 80%; 
+    background-position: center;
+    background-repeat: repeat-x;
+    
+    
+}
+#godGateBox .btn-wrapper .btns-group{
+    width: 40%;
+    height: 100%;
+    float: right;
+}
+#godGateBox .btn-wrapper .text-group{
+    width: 55%;
+    height: 100%;
+    float: right;
+}
+
+#godGateBox .btn-wrapper .text-group label{
+    width: 45%;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 55px;
+    color: white
+}
+#godGateBox .btn-wrapper .text-group label span{
+    color: #4c7f47;
+}
+
+#change-gate-cell{
+    display:block;
+    float: right;
+    margin-right: 15px;
+    height: 32px;
+    margin-top: 10px;
+    width: 106px;
+    background-color: transparent;
+    color: white;
+    line-height: 32px;
+    text-align: center;
+    font-size: 15px;
+}
+#godGateBox .btn-wrapper .pluse {
+    width: 25px;
+    height: 25px;
+    display: block;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 25px 25px;
+    margin-top: 15px;
+    float: right;
+    margin-right: 15px;
+}
+
+
+#godGateBox .content-wrapper .scoreBord{
+    width: 70px;
+    height: 73px;
+    background-image: url(../images/godGate/scoreBord.png);
+    position: absolute;
+    background-size: 100% 100%;
+    top: 30px;
+    left: 15px;
+    
+}
+#godGateBox .content-wrapper .scoreBord{
+    width: 70px;
+    height: 73px;
+    background-image: url(../images/godGate/scoreBord.png);
+    position: absolute;
+    background-size: 100% 100%;
+    top: 30px;
+    left: 15px;
+    color: #ac340f;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold
+}
+#godGateBox .content-wrapper .scoreBord div{
+    margin-top: 32px;
+}
+
+#godGateBox .content-wrapper .godName{
+    height: 40px;
+    width: 80%;
+    margin: auto;
+    margin-top: 12px;
+}
+
+#godGateBox .content-wrapper .godName .name{
+    height: 100%;
+    width: 45%;
+    float: right;
+    text-align: center;
+    line-height: 40px;
+    background-image: url(../images/godGate/godName.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #e2952b;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+#godGateBox .content-wrapper ul{margin-top: 6px; overflow: auto;}
+#godGateBox .content-wrapper ul li{
+    width: 80%;
+    height: 32px;
+    margin: auto;
+    margin-top: 5px;
+    background-image: url(../images/godGate/listItem.png);
+    background-size: 100% 100%;
+}
+#godGateBox .content-wrapper ul li .lock{
+    height: 100%;
+    width: 15%;
+    float: right;
+    margin-right: 1%;
+}
+#godGateBox .content-wrapper ul li .lock label{
+    background-image: url(../images/box/lock.png);
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 94%;
+}
+#godGateBox .content-wrapper ul li .effect{
+    width: 55%;
+    height: 100%;
+    float: right;
+}
+#godGateBox .content-wrapper ul li .effect div{
+    float: right;
+    margin-left: 6px;
+    line-height: 32px;
+    font-size: 14px;
+    width: 30%;
+    text-align: center;
+}
+#godGateBox .content-wrapper ul li .checkBox{
+    float: right;
+    width: 8%;
+    height: 100%;
+    position: relative
+}
+#godGateBox .content-wrapper ul li .checkBox input{
+   
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+
+}
+#godGateBox .content-wrapper ul li .checkBox .checkmark{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url(../images/godGate/checkMark.png);
+    background-size: 100% 100%;
+    background-color: transparent;
+}
+#godGateBox .content-wrapper ul li .checkBox .chackable:hover{
+    background-image: url(../images/godGate/checkedMark.png);
+}
+#godGateBox .content-wrapper ul li .checkBox .checked {
+  background-image: url(../images/godGate/checkedMark.png);
+}
+#godGateBox .content-wrapper ul li .closeWord {
+    color: #ac340f;
+    width: 20%;
+    float: right;
+    text-align: center;
+    font-size: 14px;
+    line-height: 32px;
+}
+
+#godGateBox .content-wrapper .close-godGateBox {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 25px;
+    right: 7px;
+    background: url(../images/btns/close_b.png) no-repeat transparent  ;
+    background-position: center;
+    background-size: 80%;
+}
+
+#helpGateBtnWrapper{
+    
+    width: 55px;
+    height: 56px;
+    position: fixed;
+    left: 74px;
+    bottom: 212px;
+    z-index: 100;
+    
+}
+
+#helpGateBtnWrapper button{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    background-image: url(../images/btns/helpGate.png);
+    border-radius: 50%;
+    position: absolute
+}
+#helpGateBtnWrapper button:hover{
+    background-position-y: -56px;
+}
+#helpGateBtnWrapper button:active{
+    background-position-y: -112px;
+}
+
+
+#ArenaChallangeBtnWrapper{
+    
+    width: 60px;
+    height: 60px;
+    position: fixed;
+    left: 135px;
+    bottom: 212px;
+    z-index: 100;
+    
+}
+
+#ArenaChallangeBtnWrapper button{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    background-image: url(../images/btns/arenaChallange.png);
+    position: absolute;
+    background-size: 90% auto;
+    background-repeat: no-repeat;
+    background-position: center
+}
+#ArenaChallangeBtnWrapper button:hover{
+    transform: scale(1.02);
+    transition: all linear 0.1s;
+}
+#godGateBtnWrapper button:hover{
+    transform: scale(1.03);
+    transition: all linear 0.2s;
+}
+#godGateBtnWrapper  .fire{
+    width: 64px;
+    height: 54px;
+    position: absolute;
+    background-image: url(../images/animation/fireBtn.png);
+    position: absolute;
+    top: 20px;
+    left: 7px;
+    z-index: -1
+}
+#helpGateBtnWrapper  .fire-tail{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/helpGate/fireTail.png);
+    position: absolute;
+    /*animation: antiClockwiseSpin 2.5s infinite linear;*/
+    pointer-events: none;
+}
+
+#equip-blessing{
+    background-image: url(../images/skins/palace.png);
+    background-size: 100% 100%;
+    border: none;
+    width: 96%;
+    margin-top: -24px;
+    height: 89.5%;
+    position: relative;
+}
+
+#equip-blessing .full{
+    width: 92% !important;
+    float: none;
+    position: absolute;
+    margin-left:4%;
+    height: 85%;
+    top: 49px;
+}
+#equip-blessing .up-wrapper .col-1 .up .section .title,
+#equip-blessing .up-wrapper .col-3 .up .section .title{
+    color:#5e341b;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 22px;
+}
+#equip-blessing .up-wrapper .col-1 .up .section ul li,
+#equip-blessing .up-wrapper .col-3 .up .section ul li{
+    text-align: right;
+    font-size: 14px;
+    color: #5f8c00;
+    width: 75%;
+    margin: auto
+}
+#equip-blessing .up-wrapper .col-1 .up .section,
+#equip-blessing .up-wrapper .col-3 .up .section{
+    height: 100%;
+    width: 50%;
+}
+#equip-blessing .up-wrapper,
+#equip-blessing .up-wrapper .col-1 .up , 
+#equip-blessing .up-wrapper .col-1 .down , 
+#equip-blessing .up-wrapper .col-3 .up, 
+#equip-blessing .up-wrapper .col-3 .down, 
+#equip-blessing .down-wrapper{
+    width: 100%;
+    height: 50%;
+}
+
+#equip-blessing .up-wrapper .col-1 .down .desc,
+#equip-blessing .up-wrapper .col-3 .down .desc{
+    font-size: 14px;
+    color: #5f8c00;
+    text-align: right;
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+}
+
+#equip-blessing .up-wrapper .col-1 .up .image-wrapper .image, 
+#equip-blessing .up-wrapper .col-3 .up .image-wrapper .image{
+    
+   
+    height: 82%;
+    width: 93%;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 5px;
+    background-size: 100% 100%;
+    
+}
+#equip-blessing .up-wrapper .col-1 .up .image-wrapper, 
+#equip-blessing .up-wrapper .col-3 .up .image-wrapper{
+    width: 90%;
+    margin: auto;
+    height: 71px;
+    margin-top: 21px;
+    background-image: url(../images/back-shape/rect.png);
+    background-size: 100% auto;
+    overflow: auto;
+    background-repeat: no-repeat;
+} 
+
+
+#equip-blessing .up-wrapper .col-1, 
+#equip-blessing .up-wrapper .col-3{
+    width: 38%;
+    height: 100%;
+    background-image: url(../images/skins/desc-rect.png);
+    background-size: 100% 100%;
+} 
+
+
+#equip-blessing .up-wrapper .col-2{
+    width: 24%;
+    height: 100%;
+    background-image: url(../images/skins/solidRect.png);
+    background-size: 100% 100%;
+}
+
+#equip-blessing .up-wrapper .col-2 .arrow{
+    width: 100%;
+    height: 50px;
+    margin-top: 30px;
+}
+
+#equip-blessing .up-wrapper .col-2 .arrow button{
+    width: 80px;
+    height: 30px;
+    background-size: 100% auto;
+    background-image: url(../images/arrow/rightSolid.png);
+    background-color: transparent;
+    margin: auto;
+    display: block;
+}
+#equip-blessing .up-wrapper .col-2 .arrow button:hover{ background-position-y: -29px;}
+#equip-blessing .up-wrapper .col-2 .arrow button:active{ background-position-y: -57.5px;}
+#equip-blessing .up-wrapper .col-2 .big-btn{
+    float: none;
+    margin: 15px auto;
+}
+#equip-blessing .down-wrapper .left{
+    width: 38%; 
+    height: 96%;
+    background-image: url(../images/skins/solidSquare.png);
+    background-size: 100% 100%;
+}
+
+#equip-blessing .down-wrapper .left ul{
+    width: 90%;
+    margin: auto;
+    padding-top: 15px;
+}
+#equip-blessing .down-wrapper .left ul li button{
+    width: 40%;
+    height: 28px;
+    font-size: 14px;
+    color:  #5e341b;
+    margin: auto;
+    margin-top: 10px;
+    display: block
+}
+
+#equip-blessing .left-content{background: none}
+
+@keyframes antiClockwiseSpin {
+	0%  {transform: rotate(360deg);}
+	100% {transform: rotate(0deg);}	
+}

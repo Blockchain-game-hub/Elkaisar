@@ -387,7 +387,7 @@ class LWorldUnit {
     }
 
     static calReturningTime(Hero, Unit) {
-        if (Hero.id_hero <= 0)
+        if (parseInt(Hero.id_hero) <= 0)
             return 0;
         var now = Date.now() / 1000;
         var distance = LWorldUnit.calDist(Hero["x_coord"], Unit["x"], Hero["y_coord"], Unit["y"]);

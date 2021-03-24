@@ -243,7 +243,7 @@ class LBattel
         {
             var OneHero = UnitHeros[ii];
             Battel.Heros.unshift({
-                idHero: 0,
+                idHero: `0-${ii}`,
                 isGarrison: false,
                 side: Elkaisar.Config.BATTEL_SIDE_DEF,
                 Hero: OneHero.Hero,

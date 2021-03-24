@@ -1,0 +1,1650 @@
+#WorldCity{
+    width: 100%;
+    height: 60px;
+    /*cursor: pointer;*/
+    background-color: transparent
+}
+#WorldCity[data-view="city"]{
+
+    background-image: url(../images/icons/navigate/enter_world.png);
+    background-size: 100px auto;
+    background-repeat: no-repeat;
+
+}
+#WorldCity[data-view="city"]:hover{ background-position-y: -60.5px;}
+#WorldCity[data-view="city"]:active{ background-position-y: -121px;}
+#WorldCity[data-view="city"]:disabled{ background-position-y: -181px;}
+#WorldCity[data-view="world"]{
+    background-image: url(../images/icons/navigate/enter_city.png);
+    background-size: 100px auto;
+    background-repeat: no-repeat
+}
+#WorldCity[data-view="world"]:hover{ background-position-y: -60.5px;}
+#WorldCity[data-view="world"]:active{ background-position-y: -121px;}
+#WorldCity[data-view="world"]:disabled{ background-position-y: -181px;}
+#city_col{
+    position: fixed;
+    z-index: 10;
+    right: 5px;
+    bottom: 250px;
+    width: 100px;
+}
+#helper-choose {
+    margin-top: 48.5px;
+}
+#helper-choose li{
+    width: 90%;
+    background: url(../images/icons/bg_patern.png);
+    height: 70px;
+    border-radius: 5px;
+    margin: 5px 5%;
+
+    /*cursor: pointer;*/
+}
+#helper-choose .selected{
+    background-image: url(../images/skins/table-rect.png);
+    background-size: 100% 100%;
+}
+#helper-choose li .image{
+    width: 102px;
+    float: left;
+    padding: 12px 3px;
+}
+#helper-choose li .image img{
+    border-radius: 5px;
+    width: 80%;
+    background-image: url(../images/back-shape/rect.png);
+    background-size: 100% 100%;
+    padding: 4px;
+    display: block;
+    margin: auto;
+
+}
+#helper-choose li h1{
+    float: right;
+    width: 84px;
+    line-height: 60px;
+    margin: 5px;
+    text-align: center;
+}
+#helper-desc{
+    margin-top: 100px;
+    font-size: 16px;
+    text-align: center;
+}
+#confirmChoose, #changeChoose {
+    margin: auto;
+    margin-top:80px;
+    width: 124px;
+}
+
+#confirmChoose button, #changeChoose  button{
+    display: block;
+    width: 100%;
+}
+#choosen-helper .header{
+    margin-top: 30px;
+    width: 100%;
+    height: 30px;
+    line-height: 30px;
+    font-size: 16px;
+    text-align: center;
+}
+#choosen-helper .image img{
+    display: block;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 8px;
+    padding: 4px;
+    background-image: url(../images/back-shape/rect.png);
+    background-size: 100% 100%;
+}
+
+
+#wounded_list{
+    width: 398px;
+    margin: auto;
+    background: url(../images/skins/desc-rect.png);
+    background-size: 100% 100%;
+    margin-top: 5px;
+    padding-top: 24px;
+    padding-bottom: 12px;
+    border-radius: 7px;
+}
+#wounded_list li{
+    height: 42px;
+    width: 77%;
+    margin: auto;
+    border-bottom: solid 1px #b18f5f;
+    border-radius: 5px;
+}
+#wounded_list li:hover{
+    background-color: #b18f5f;
+}
+#wounded_list li:last-child{
+    border: none;
+}
+#wounded_list li div{
+    float: left;   
+    height: 100%;
+    line-height: 42px
+
+}
+#wounded_list li .image img{
+    vertical-align: middle
+}
+#wounded_list li .check_box{
+    width: 40px;
+    text-align: center;
+}
+#wounded_list li .image{
+    width: 60px;
+    text-align: center;
+}
+#wounded_list li .amount{
+    width: 100px;
+    text-align: center;
+    color: white;
+    font-size: 16px;
+    line-height: 42px;
+}
+#wounded_list li .cure{
+    width: 145px;
+}
+#wounded_list li .cure button{
+    width: 70px;
+    margin-top:7px;
+}
+.tr .only_num{
+    width: 50%;
+    height: 100%;
+    border: none;
+    text-align: center;
+}
+#expan-city{
+    width: 150px;
+    margin: auto;
+    margin-top: 12px;
+}
+#bar_list{
+    clear: both;
+    height: 275px;
+}
+#city-garrison-list{
+    height: 235px;
+}
+#city-trade-center{
+    background: url(../images/skins/desc-rect.png);
+    background-position-y: -18px;
+    background-size: 100% 106%;
+    background-repeat: no-repeat;
+}
+
+#bar_list li div ,#city-garrison-list li div , #trade-list div{
+
+    display: inline-block;
+    width: 24%;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;  
+    font-size: 14px;
+
+}
+#trade-list .amount{
+    margin: auto;
+    float: none;
+}
+#bar_list li div .full-btn , #city-garrison-list li div .full-btn , #trade-list div .full-btn{
+    width: 50px;
+    margin: auto;
+    height: 25px;
+    line-height: 25px;
+    margin-top: 2.5px;
+}
+#city-garrison-list .tr{
+    width: auto;
+}
+#bar_list li , #city-garrison-list li , #trade-list li{
+    margin: 5px 2%;
+    background: url(../images/icons/bg_patern.png);
+    border-radius: 3px;
+    height: 30px;
+}
+#city-garrison-list li , #trade-list li{
+    margin: 5px 2%;
+    background: url(../images/icons/bg_patern.png);
+    border-radius: 3px;
+    height: 29px;
+    width: auto;
+}
+#city-garrison-list li:last-child ,#trade-list:last-child{
+    margin-bottom: 0px;
+}
+#city-garrison-list li .image , #trade-list .image {width: 54px; height: 27px; margin-top: 1.5px; float: left}
+#city-garrison-list li .name , #trade-list .name{width: 79px; height: 27px; margin-top: 1.5px; float: right;
+                                                 line-height: 27px;}
+#city-garrison-list li .image .wrapper , #trade-list .image .wrapper{
+    width: 54px;
+    height: 27px;
+    background-image: url(../images/back-shape/rect.png);
+    background-size: auto 100%;
+}
+#city-garrison-list li .image .wrapper .hero-avatar , #trade-list .image .wrapper .item-image{
+    width: 50px;
+    height: 23px;
+    margin: 2px;
+    background-size: auto 100%;
+}
+#city-garrison-list li .hero-lvl{
+    width: 37px;
+    height: 20px;
+    margin: auto;
+    margin-top: 5px;
+    background-image: url("../images/hero/icon_Lv.png");
+    background-size: 100% 100%;
+    line-height: 20px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    display: block;
+    float: none;
+
+}
+#city-garrison-list .selected{
+    background-image: url(../images/selelct/select-row-4x.png);
+    color: white;
+    background-size: 100% 110%;
+    background-position: center;
+    margin: 2px 2%;
+    padding-top: 2px;
+    padding-bottom: 3px;
+}
+#city-garrison-list li .full-btn-3x , #trade-list .full-btn-3x{
+    width: 40%;
+    height: 25px;
+    margin: auto;
+    margin-top: 2.5px;
+    line-height: 25px;
+    float: none;
+    background-color: transparent;
+    font-size: 13px;
+}
+#city-garrison-footer , .cell-3-footer{
+    height: 33.5px;
+    width: 98%;
+    margin: auto;
+    margin-top: 3px;
+}
+#city-garrison-footer .right  , .cell-3-footer .right{
+    float: right;
+    height: 100%;
+    width: 25%;
+}
+#city-garrison-footer .right .wrapper , .cell-3-footer .right .wrapper{
+    width: 55%;
+    margin: auto;
+    height: 100%
+}
+#city-garrison-footer .middle .wrapper , .cell-3-footer  .middle .wrapper{
+    width: 116px;
+    margin: auto;
+    height: 100%;
+}
+#city-garrison-footer .right .wrapper button , .cell-3-footer .right .wrapper button{
+    width: 35%;
+    height:80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: transparent;
+    background-size: 100% 100%;
+    border-radius: 50%;
+    margin-top: 3px;
+}
+#city-garrison-footer .middle , .cell-3-footer .middle{
+    float: right;
+    height: 100%;
+    width: 50%;
+}
+
+#city-garrison-footer .middle label , .cell-3-footer .middle label{
+    line-height: 33px;
+    margin: 0px 8px;
+    font-size: 13px;
+    width: 50px;
+    float: left;
+    display: block;
+    text-align: center;
+    color: white;
+    font-weight: bold
+}
+#city-garrison-footer .middle button  , .cell-3-footer .middle button{
+    height: 20px;
+    width: 25px;
+    vertical-align: middle;
+    background-color: transparent;
+    float: left;
+    margin-top: 7px;
+}
+#city-garrison-footer .left , .cell-3-footer .left{
+    float: left;
+    height: 100%;
+    width: 25%;
+}
+#city-garrison-footer .left button , .cell-3-footer .left button{
+    width: 80px;
+    height: 25px;
+    background-color: transparent;
+    display: block;
+    margin: auto;
+    margin-top: 4.5px;
+}
+#job-typs tr td img{
+    width: 132px;
+    border-radius: 5px;
+}
+.for_city_jop .left-content {
+    width: 284px;
+}
+.for_city_jop .right-content{
+    width: 521px;
+    float: right;
+}
+.for_city_jop .right-content::before{
+    right: 557px !important ;
+}
+#job-typs{
+    margin-right: 13px;
+    margin-top: 21px;
+}
+
+#job-typs tr td{
+
+    text-align: center;
+    background-image: url(../images/icons/left-content.png);
+    background-size: 100% 100%;
+}
+#job-typs tr .select-layer{
+    padding: 16px 13px; 
+}
+#job-typs tr .fram{
+    background: url(../images/skins/desc-rect.png);
+    background-size: 100% 100%;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+#job-typs tr .selected{
+    background-image: url(../images/background/selected-squer.png);
+    background-size: 100% 100%;
+}
+#job-typs tr .over-text h2{
+    background-image: url("../images/selelct/select-row.png");
+    width: 60px;
+    margin: auto;
+    background-size: 60px 20px;
+    font-size: 14px;
+    line-height: 20px;
+}
+#job-typs tr .over-text{
+    position: relative;
+    height: 84px;
+    color: white;
+    cursor: pointer;
+    background-size: auto 100%;
+    background-position: center;
+    margin: 0px 4px ;
+    border-radius: 3px;
+
+}
+#pay-for-jop{
+    width: 254px;
+    float: left;
+    height: 100%;
+}
+#pay-for-jop .req_table{
+
+    height: 93px;
+    margin: inherit;
+    margin-left: 15px;
+    width: 224px;
+
+}
+#pay-for-jop #jop-title{
+    margin: 10px 0  5px 15px;
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+}
+#pay-for-jop .header-2{
+    text-align: center;
+    margin-top: 47px;
+    margin-bottom: 15px;
+}
+
+#jop_desc{
+    width: 256px;
+    float: right;
+    height: 100%;
+}
+#jop-num-input{
+    text-align: center;
+    overflow: auto;
+}
+#jop-num-input .number-arrow-wrapper{
+    margin-left: -26px;
+    margin-top: 5px;
+
+}
+
+#jop-num-input span{
+    font-size: 15px;
+    line-height: 35px;  
+}
+#jop-num-input input{
+    width: 80px;
+    height: 25px;
+    padding-right: 15px;
+    margin: 5px 5px 5px 50px;
+}
+#jop_desc p{
+
+    margin-top: 15px;
+    height: 185px;
+
+}
+#hire-btn{
+    width: 100px;
+    margin: auto;
+    margin-top: 12px;
+}
+#hire-btn button{
+    width: 100%
+}
+#FIRE-EMPLOYEE button{
+    width: 30%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#change-city-pro-rate{
+    width: 45%;
+    height: 26px;
+    margin-top: 3.5px;
+    background-color: transparent;
+    font-size: 14px;
+}
+
+
+
+.notinf_green , .notinf_red{
+
+    width: 25px;
+    border-radius: 50%;
+    position: absolute;
+    color: white;
+    line-height: 25px;
+    text-align: center;
+    font-weight: bold;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+
+}
+.notinf_green{
+    margin-top: -70px;
+    background-image: url(../images/background/notif_green.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.notinf_red{
+    margin-top: -44px;
+    background-image: url(../images/background/notif_red.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.battel_hero_back , .show_hero_back{
+    margin: auto;
+    width: 60%;
+    line-height: 20px;
+    font-size: 14px;
+    margin-top: 2px;
+}
+
+
+#ToggelSound[data-state="on"]{
+
+}
+#ToggelSound[data-state="off"]{
+
+}
+
+.right-content-footer .budget, .right-content-footer .buttons {
+    height: 100%;
+}
+.right-content-footer .buttons ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row-reverse;
+    height: 100%;
+}
+#mall-matrial .right-content-footer .buttons ul , #matrial-player .right-content-footer .buttons ul {
+    height: 97% !important;
+}
+.close_dialog{
+    margin-right: 15px;
+    float: right !important;
+}
+#msg-navigator{
+    height: 100%;
+    width: 66px;
+    line-height: 28px;
+    text-align: center;
+    font-size: 16px;
+}
+#loader-layer{
+
+    background: url("../images/style/log-in-bg.jpg");
+    height: 100%;
+    position: fixed;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    z-index: 1000000;
+    top: 0px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: #342216;
+
+}
+
+#loader-layer .logo img{
+    width: 320px;
+}
+#loader-layer .logo {
+
+    width: 320px;
+    margin: auto;
+    margin-top: 200px
+
+}
+
+#loader-grab{
+
+    width: 85%;
+    height: 100px;
+    background-image: url(../images/bars/prog_floor.png) , url(../images/bars/progresbar_bg.png) ;
+    background-repeat:repeat-x ,no-repeat ;
+    background-position:center ,  center;
+    background-size: auto 30%,  contain;
+    margin: auto;
+    margin-top: 192px;
+
+}
+#load-bar div{
+
+    background-image: url(../images/bars/green.png);
+    background-position: center;
+    background-size: auto 75%;
+    background-repeat: repeat-x;
+    width: 0px;
+    height: 100%;
+}
+#load-bar{
+    width: 86%;
+    margin-left:7%;
+    margin-top: -67px;
+    height: 34px;
+    /*background-image:url(../images/bars/prog_left.png),url(../images/bars/prog_right.png);
+    background-repeat:no-repeat , no-repeat;
+    background-position:center left , center right;
+    background-size: contain ;*/
+}
+#load-bar::after{
+    content: " ";
+    width: 100%;
+    margin-top: -34px;
+    height: 34px;
+    background-image: url(../images/bars/prog_left.png),url(../images/bars/prog_right.png);
+    background-repeat: no-repeat , no-repeat;
+    background-position: center left , center right;
+    background-size: contain;
+    display: block;
+
+}
+#load-percent{
+
+    width: 216px;
+    color: white;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+    line-height: 50px;
+    font-size: 62px;
+    font-family: monospace;
+
+}
+
+#rank-review{
+
+    height: 354px;
+    width: 78%;
+    margin: auto;
+    margin-top: 40px;
+    border: 12.5px solid transparent;
+    border-image: url(../images/background/border_a.png);
+    border-image-slice: 30;
+    border-image-repeat: round;
+
+
+}
+#rank-review .upper{
+
+    background: url(../images/icons/bg_patern.png);
+
+    padding: 0px 10px;
+
+}
+#rank-review .down p{
+    text-align: center;
+    font-size: 16px;
+    padding: 15px;
+    margin-top: 10px;
+    height: 78px;
+    padding-bottom: 5px;
+
+}
+#rank-review .table{
+    overflow: auto;
+}
+#rank-review .table .left{
+    width: 40%;
+    height: 100px;
+}
+#rank-review .table .right{
+    width: 60%;
+    float: right;
+    height: 100%;
+    color: white;
+    line-height: 22px;
+    font-size: 16px;
+}
+#rank-review .table .right label:first-child{
+    display: inline-block;
+    width: 60%;
+    text-align: center;
+}
+
+#send-guild-req  button{
+    width: 40%;
+    margin: auto;
+    display: block;
+}
+#rank-review .down textarea{
+    resize: none;
+    display: block;
+    width: 100%;
+    height: 77px;
+
+}
+#rank-review .down{
+
+    background: url(../images/background/dialog_bg.jpg) 90% 90%;
+
+    height: 170px;
+}
+#rank-review table{
+
+    width: 90%;
+    margin: auto;
+    font-size: 15px;
+    color: white;
+    text-shadow: 0 0 1.3px #000;
+}
+.tr .td_7 button{
+
+    margin: auto;
+    width: 70%;
+    line-height: 26px;
+    margin-top: 3px;
+
+}
+
+.drop-list{
+
+    position: absolute;
+    width: 150px;
+    height: auto;
+    margin-left: -65px;
+    margin-top: 5px;
+    border: solid 10px  transparent;
+    border-image: url(../images/border/win_sprite.png) 20 round;
+    z-index: 100000;
+    display: none;
+
+}
+.drop-list ul{
+
+    background: url(../images/background/dialog_bg.jpg) 90% 90%;
+    height: 100%;
+    direction: rtl;
+    padding: 5px 0;
+
+}
+.drop-list ul li{
+    color: white;
+    padding-right: 10px;
+    font-size: 16px;
+    line-height: 25px;
+    width: 85% ;
+    margin: auto;
+}
+.drop-list ul li:hover{
+
+    background: url(../images/icons/bg_patern.png);
+
+}
+
+#save-g-intro{
+    width: 35%;
+    margin: auto;
+    margin-top: 7px
+}
+
+#trigger_1 , #trigger_2 , #trigger_3 , #game-lang-list .choose-lang {
+    display: none;
+}
+
+#use_golden_med , #use_silver_med , #use_coper_med  {
+    display: none;
+}
+#use_golden_med:checked + .checker ,#use_silver_med:checked + .checker ,#use_coper_med:checked + .checker   {
+
+    background-image: url(../images/btns/checked.png);
+
+}
+.checker {
+    background-image: url(../images/btns/unchecked.png);
+    width: 18px;
+    height: 18px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    background-size: 100% 100%;
+    vertical-align: top;
+    margin-top: 6px;
+    float: left;
+    margin-left: 15px;
+}
+#trigger_1:checked + .checker, #trigger_2:checked + .checker, #trigger_3:checked + .checker, #trigger_4:checked + .checker ,#trigger_5:checked + .checker, #trigger_6:checked + .checker   {
+
+    background-image: url(../images/btns/checked.png);
+
+}
+
+
+#check_0:checked + .checker,
+#check_1:checked + .checker,
+#check_2:checked + .checker,
+#check_3:checked + .checker,
+#check_4:checked + .checker,
+#check_5:checked + .checker,
+#check_6:checked + .checker,
+#check_7:checked + .checker,
+#check_8:checked + .checker,
+#check_9:checked + .checker,
+#check_10:checked + .checker,
+#check_11:checked + .checker{
+
+    background-image: url(../images/btns/checked.png);
+
+}
+
+.for_msg .checker{
+
+    display: block;
+    margin: auto;
+    float: none;
+    margin-top: 7.5px;
+
+} 
+
+.F_E-list .row-1{
+    height: 45px !important;
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    margin-top: 20px;
+}
+.F_E-list .row-1 input{
+
+    padding: 10px;
+    margin-top: 2.5px;
+
+}
+.F_E-list .row-1 .th{
+
+    margin-top: 5px !important;
+    width: 90px;
+    height: 30px;
+
+}
+.F_E-list .row-2 ul li{
+
+    width: 100px;
+    background-image: url("../images/background/profile_name.png");
+    background-size: 100% 100%;
+    color: white;
+    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+
+
+}
+.F_E-list .row-2 ul li span{
+    display: inline-block;
+    float: right;
+    margin-right: 20px;
+}
+.F_E-list .row-2 ul{
+    width: 309px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+#invited-list .search_res , #join-req-list .search_res {
+
+    width: 100%;
+    position: static;
+    margin: 0px;
+    border: none;
+    padding: 0px;
+    background: none;
+    height: 159px;
+
+}
+#invited-list .search_res ul , #join-req-list .search_res ul{
+    height: 100%
+}
+#invited-list .search_res li img , #join-req-list .search_res li img{
+
+    margin: 10px 7px 10px 18px;
+
+}
+#invited-list .search_res li , #join-req-list .search_res li{
+
+    background-size: 98% 95%;
+
+}
+#invited-list .select-button , #join-req-list .search_res .select-button{
+
+    float: right;
+    width: 82px;
+    height: 100%;
+    margin-right: 12px;
+
+}
+#invited-list .select-button .full-btn ,  #join-req-list .search_res .full-btn{
+
+    width: 37px;
+    margin-top: 12.5px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 13px;
+
+}
+
+#rank-review .upper{
+
+    height: 185px;
+
+}
+#rank-review .down .th{
+    height: 30px
+}
+#rank-review .down::after   {
+
+    content:" ";
+    position: absolute;
+    margin-top: 15px;
+    width: 78.2%;
+    background-image: url(../images/border/top_panel_helmet_decor.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50px;
+    top: 237px;
+
+}
+.player-review .upper{
+    padding: 0px !important;
+
+}
+.player-review .upper .left {
+
+    background:url(../images/background/top_left_resources_panel.png) no-repeat center;
+    height: 93%;
+    width: 204px;
+}
+.player-review  .player-avatar{
+    text-align: center;
+    padding-top: 16.5px;
+    width: 177px;
+}
+.player-avatar img{
+    border: 6px solid transparent;
+
+    border-image: url(../images/border/sml_btn.jpg);
+    border-image-slice: 7;
+    border-image-repeat: round;
+    box-sizing: content-box; 
+    height: 41px;
+}
+.player-review .player-name{
+    text-align: center;
+    color: white;
+    line-height: 34px;
+    background-image: url(../images/background/profile_name.png);
+    background-size: 75% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: auto;
+    width: 300px;
+    margin-top: -25px;
+    position: absolute;
+    font-size: 16px;
+}
+
+.player-review .right{
+    width: 105px;
+}
+.player-review .trow{
+
+    color: white;
+    line-height: 27px;
+    text-align: center;
+}
+.bg-btn-blu{
+
+    background-image: url("../images/background/background.jpg");
+    background-size: 100% 100%;
+
+}
+.bg-btn-red{
+
+    background-image: url(../images/background/profile_name.png);
+    background-size:100% 100%;
+
+}
+.player-review .down .li{
+    width: 88%;
+    margin: auto;
+    height: 32px;
+
+}
+.player-review .down .li .image img{
+    width: 25px;
+    height: 25px;
+}
+.player-review .down .li .image {
+    margin-left: 5px;
+    margin-top: 2.5px;
+
+}
+.player-review .down .li .title{
+    line-height: 30px;
+    color: white;
+    width: 90px;
+    text-align: center;
+    font-size: 14px;
+}
+.player-review .down .li .li-d{
+
+    width: 125px;
+
+}
+.player-review .down .buttons .li-d{
+
+    width:95px;
+    margin-left: 5px;
+
+}
+.player-review .down .buttons .li-d:first-child{
+
+
+    margin-left: 0px;
+
+}
+.player-review .down .buttons .title{
+    width: 65px;
+}
+
+
+/*
+        scroll_bar css
+*/
+.nicescroll-cursors{
+
+    background-image: url(../images/bars/scroll_down.png), url(../images/bars/scroll_up.png), url(../images/bars/scroll_center.png);
+    background-repeat: no-repeat , no-repeat , repeat-y;
+    background-position:  bottom , top , center;
+    background-size: contain;
+
+}
+.bg-general{
+
+    background-image:url("../images/background/U.png"), url("../images/background/B.png") ,  url("../images/background/L.png"),  url("../images/background/R.png") , url(../images/background/paperCenter.jpg)!important;
+    background-repeat: repeat-x , repeat-x  ,repeat-y , repeat-y , repeat !important;
+    background-position: top, bottom, left , right;
+    background-size: auto auto!important;
+
+}
+.bg-general::before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image:url("../images/background/UL.png"), url("../images/background/UR2.png") ,  url("../images/background/BL.png"),  url("../images/background/BR.png") ;
+    background-repeat: no-repeat;
+    background-position: top left, top right, bottom left , bottom right;
+    position: absolute;
+    z-index: -10;
+}
+#quest_pack .selected , #sub_quest .selected , .for_quest .top-left .selected{
+
+    background-image: url(../images/btns/selectedTile.jpg) !important;
+    background-size: contain !important;
+    color: white;
+
+    border-left: solid 5px transparent;
+    border-right: solid 5px transparent;
+    border-image: url(../images/border/border_red.png);
+    border-image-slice: 7;
+    border-image-repeat: round;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+
+}
+
+.drop-down-li{
+
+    width: 80px;
+    background-color: rgba(0 , 0 , 0 , 0.85);
+    position: relative;
+    margin-top: 34px;
+    border-radius: 6px;
+    display: none;
+    padding: 5px 0px;
+
+}
+.drop-down-li div{
+
+
+    height: 25px;
+    line-height: 25px;
+    width: 80%;
+    margin: auto;
+    border-radius: 5px;
+    text-align: center;
+
+}
+.drop-down-li div:hover{
+
+
+    background-color: #eee;
+    color: black;
+
+}
+
+.for_guild .left-content .tr .drop-down-li{
+
+    width: 130px !important;
+    color: white;
+    height: auto !important;
+    margin-top: 30px;
+    position: absolute
+
+}
+.for_guild .left-content .tr .drop-down-li div{
+
+    float: none !important
+
+}
+
+/*_____________________________________________________PRIVARE _ CHAT BOX ______________________*/
+
+.chat-room{
+
+
+    width: 600px;
+    height: 400px;
+    background-image: url("../images/background/U.png"), url("../images/background/B.png") , url("../images/background/L.png"), url("../images/background/R.png");
+    background-repeat: repeat-x , repeat-x ,repeat-y , repeat-y;
+    background-position: top, bottom, left , right;
+    position: fixed;
+    left: 50%;
+    top: 135px;
+    margin-left: -300px;
+    z-index: 11;
+
+}
+.chat-room::before{
+
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/background/UL.png"), url("../images/background/UR2.png") , url("../images/background/BL.png"), url("../images/background/BR.png");
+    background-repeat: no-repeat;
+    background-position: top left, top right, bottom left , bottom right;
+    position: absolute;
+    z-index: -10;
+
+}
+.chat-room .head_bar{
+
+    height: 90px;
+    width: 250px;
+    margin: auto;
+    margin-top: -50px;
+
+}
+.chat-room .head_bar .banner{
+    height: inherit;
+    width: 100%;
+    display: block;
+}
+.chat-room .head_bar .banner img{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+.chat-room .head_bar .title{
+
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    color: white;
+    margin-top: -52px;
+
+}
+.chat-room .window-icon img{
+    float: right;
+    margin-right: 6px;
+    width: 25px;
+
+}
+.chat-room .window-icon{
+    position: absolute;
+    width: 150px;
+    right: 10px;
+    margin-top: -12px;
+
+}
+.chat-room .container{
+
+    height: inherit;
+    margin: auto;
+    margin-top: -40px;
+    width:90%;
+    overflow: hidden
+}
+
+.chat-room .container .upper{
+    background: url(../images/background/dialog_bg.jpg) 90% 90%; 
+    border-top-right-radius: 15px;
+    height: 55%;
+    margin-top: 6%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.chat-room .container .bottom{
+
+    background: url(../images/background/dialog_bg.jpg) 90% 90%; 
+    height: 30%;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.chat-room .container .upper .body{
+
+    height: 100%;
+    width: 75%;
+    float: left;
+
+    border-top-left-radius: 15px;
+
+}
+
+.chat-room .container .upper .recieve-avatar{
+
+    height: 100%;
+    width: 25%;
+    float: right;
+    border-top-right-radius: 15px;
+    background: url(../images/border/roof.png) no-repeat bottom ,url(../images/border/roof.png) no-repeat top ;
+    background-size: contain
+
+
+}
+
+.chat-room .container .upper .recieve-avatar .image{
+    margin: auto;
+    padding-top: 15px;
+    margin-top: 16px;
+    background-image: url(../images/background/ribbon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    padding-bottom: 25px
+
+}
+.chat-room .container .your-avatar .image  {
+
+
+    margin: auto;
+    padding-top: 15px;
+    background-image: url(../images/background/ribbon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    padding-bottom: 25px
+
+}
+
+.chat-room .container .upper .recieve-avatar .image img ,
+.chat-room .container .your-avatar .image img  {
+    width: 60%;
+    margin: auto;
+    display: block
+}
+
+.chat-room .container .upper .recieve-avatar .name{
+    background-image: url("../images/background/background.jpg");
+    background-size: 100% 100%;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    width: 85%;
+    margin: auto;
+
+}
+.chat-room .container .upper .recieve-avatar .btns {
+
+    height: 30px;
+    margin-top: 15px;
+
+}
+.chat-room .container .upper .recieve-avatar .btns .full-btn{
+    width: 50%;
+    margin: auto;   
+}
+
+.sender-msg  span{
+    font-weight: bold
+}
+
+.scrollable-msg-body{
+
+    margin: 10px;
+    height: 90.5%;
+    background: url(../images/icons/bg_patern.png);
+    border-radius: 5px
+
+}
+.scrollable-msg-body .sender-msg{
+
+    margin-left: 15px;
+    padding: 2px 0px;
+    width: 90%;
+
+}
+
+.scrollable-msg-body .sender-msg::after{
+
+    content: "";
+    clear: both;
+    display: block
+
+}
+
+
+.scrollable-msg-body .reciever-msg{
+
+    margin-left: 15px;
+    padding: 2px 0px;
+    margin-right: 15px;
+    text-align: right;
+
+}
+
+.chat-room .bottom .msg-input{
+
+    width: 75%;
+    float: left ;
+    height: 70%;
+
+}
+
+.chat-room .bottom .msg-input textarea{
+    resize: none;
+    display: block;
+    margin: auto;
+    width: 95%;
+    margin-top: 8px;
+    height: 80%;
+    text-align: right;
+    background: url(../images/icons/bg_patern.png);
+    border-radius: 5px;
+    border: 2px solid wheat;
+
+}
+
+.chat-room .bottom .your-avatar{
+
+    width: 25%;
+    float: right ;
+    height: 70%;
+
+}
+.chat-room .bottom .btns .full-btn{
+
+    width: 80px;
+    margin-top: 3.5px;
+    border-radius: 3px;
+
+}
+
+.chat-room .bottom .btns .pull-L{
+
+    margin-left: 15px;
+
+}
+.chat-room .bottom .btns .pull-R{
+
+    margin-right: 15px;
+
+}
+#expand-chat .send{
+
+    width: 40px;
+    margin-left: 7px;
+    line-height: 30px
+
+}
+#expand-chat .send img{
+
+    height: 25px;
+    margin-top: 2.5px
+
+}
+#drop-down-list-wrapper{position: relative}
+
+#drop-down-list-wrapper .drop-down-li{
+
+    width: 150px;
+    color: white;
+    position: absolute;
+    right: -94px;
+    bottom: 0px;
+    z-index: 10;
+    display: block;
+
+}
+#drop-down-list-wrapper .drop-down-li .user-group-0{color: white}
+#drop-down-list-wrapper .drop-down-li lable{
+
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+    text-align: center;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+
+}
+#drop-down-list-wrapper .drop-down-li button{
+    width: 20px;
+    height: 20px;
+    background-image: url(../images/btns/close_b.png);
+    background-size: 100% 100%;
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: transparent
+}
+#active-chat-rooms{
+    height: 100%;
+    width: 270px;
+    float: left !important;
+}
+#active-chat-rooms ul{
+    height: 100%;
+    overflow: auto;
+}
+.unit-chat-icon{
+    width: 45px;
+    height: 80%;
+    margin-top: 4px;
+    background-size: auto 100%;
+    background-position: center;
+    border-radius: 5px;
+    margin-right: 5px;
+} 
+
+.promote-guild-member{
+
+    position: absolute;
+    margin-left: 130px !important;
+    margin-top: -25px !important;
+
+}
+
+.guild-banner{
+
+    margin: auto;
+    height: 105px;
+    position: relative;
+    padding-top: 15px;
+
+}
+.guild-banner img{
+
+    position: absolute;
+    height: 100px;
+    width: auto !important;
+    display: block;
+    left: 50%;
+    margin-left: -50px;
+
+}
+#guild-lvl{
+
+    background-image: url(../images/background/bg_lvl.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 84px;
+    z-index: 3;
+    top: 4px;
+    color: white;
+    text-align: center;
+    line-height: 55px;
+    font-size: 16px;
+}
+.not-seen{
+
+    font-weight: bold;
+    font-size: 14px;
+
+}
+.not-seen .full-btn{
+
+    font-weight: normal;
+
+} 
+.sys-msg{
+
+    color: #770101;
+
+}
+.g-msg{
+
+    color: #419322;
+
+}
+
+#select-production select{
+    width: 80%;
+    margin: auto;
+    line-height: 30px;
+    display: block;
+    height: 30px;
+    margin-bottom: 15px;
+}
+
+
+#dialogBox3{
+    width: 820px;
+    height: 410px;
+    background-image: url(../images/skins/palace.png);
+    position: fixed;
+    z-index: 15;
+    top: 150px;
+    left: 50%;
+    margin-left: -410px;
+}
+
+#dialogBox3 .box-haeder{
+    height: 52px;
+}
+#dialogBox3 .box-haeder .box-title{
+    height: 40px;
+    justify-content: center;
+    align-items: flex-end
+}
+#dialogBox3 .box-haeder .box-title .title-txt{
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+#dialogBox3 .box-haeder .close-btn{
+    margin-top: -10px;
+}
+#dialogBox3 .box-haeder .close-btn .close-wide{
+    width: 52px;
+    height: 20px;
+
+}
+#dialogBox3 .box-content {
+    height: 338px;
+}
+
+#dialogBox3 .box-content .box-content-wrapper{
+    width: 91%;
+    margin: auto;
+    height: 100%;
+}
+
+#player-profile-box{
+    width: 100%;
+    height: 100%;
+}
+
+#player-profile-box .player-avatar{
+    width: 60%;
+    margin: auto;
+}
+
+#player-profile-box .player-avatar .image{
+    width: 140px;
+    height: 140px;
+}
+
+#player-profile-box .player-avatar .image .bg{
+    width: 100%;
+    height: 100%;
+    background-image: url(../images/background/frame.png);
+    background-size: 100% auto;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+#player-profile-box .player-avatar .image .bg .avatar{
+    width: 82%;
+    height: 82%;
+    background-size: 100% auto;
+    float: none;
+    margin: 10px;
+    border-radius: 50%;
+
+}
+
+#game-lang-list {
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+#game-lang-list li{
+    height: 30px;
+    width: 140px;
+    color: white;
+    margin: 7px 0px;
+}
+#game-lang-list li .content-wrapper{
+    width: 80%;
+    margin: auto;
+    justify-content: space-around;
+
+}
+#game-lang-list li .flag{
+    width: 30px;
+    height: 30px;
+
+}
+#game-lang-list li .flag label{
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 70%;
+}
+#game-lang-list li .checker{
+    margin: 0px;
+    cursor: pointer
+}
+
+#SelectContributeList{
+    height: 300px;
+    display: flex;
+    padding: 0px 10px;
+    flex-flow: wrap;
+    align-items: center;
+    align-content: baseline;
+}
+
+#SelectContributeList .unitCont{
+    background-size: 100% 100%;
+
+}
+#SelectContributeList .title{
+    text-align: center;
+    font-size: 12px;
+    color: #994b2c
+}
+
+
+#SelectContributeList .unit-contribute{
+    background-image: url(../images/icons/left-content.png);
+    width: 24%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    height: 70px;
+    padding-top: 5px;
+    background-size: 100% 100%;
+    margin: 2px 0.5%;
+    
+}

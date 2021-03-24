@@ -1,0 +1,10 @@
+body{
+    background-image: url(../images/battelReview/bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#battel-report-msg .left-content{
+    height: 100%;
+}
