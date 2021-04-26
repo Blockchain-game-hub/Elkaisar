@@ -45,12 +45,7 @@
     },
     "cottage_2": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "cottage_1"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -88,12 +83,7 @@
     },
     "cottage_3": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "cottage_2"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -127,12 +117,7 @@
     },
     "cottage_4": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "cottage_3"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -166,12 +151,7 @@
     },
     "cottage_5": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "cottage_4"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -205,12 +185,7 @@
     },
     "cottage_6": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "cottage_5"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -244,12 +219,7 @@
     },
     "cottage_7": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "cottage_6"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -283,12 +253,7 @@
     },
     "cottage_8": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "cottage_7"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -322,12 +287,7 @@
     },
     "cottage_9": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "cottage_8"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -361,12 +321,7 @@
     },
     "cottage_10": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "cottage_9"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -434,12 +389,7 @@
     },
     "store_2": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "store_1"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -473,12 +423,7 @@
     },
     "store_3": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "store_2"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -512,12 +457,7 @@
     },
     "store_4": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "store_3"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -555,12 +495,7 @@
     },
     "store_5": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "store_4"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -594,12 +529,7 @@
     },
     "store_6": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "store_5"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -633,12 +563,7 @@
     },
     "store_7": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "store_6"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -672,12 +597,7 @@
     },
     "store_8": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "store_7"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -711,12 +631,7 @@
     },
     "store_9": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "store_8"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -750,12 +665,7 @@
     },
     "store_10": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "store_9"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -823,12 +733,7 @@
     },
     "palace_3": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "palace_2"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -862,12 +767,7 @@
     },
     "palace_4": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "palace_3"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -901,12 +801,7 @@
     },
     "palace_5": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "palace_4"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -940,12 +835,7 @@
     },
     "palace_6": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "palace_5"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -979,12 +869,7 @@
     },
     "palace_7": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "palace_6"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -1018,12 +903,7 @@
     },
     "palace_8": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "palace_7"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -1057,12 +937,7 @@
     },
     "palace_9": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "palace_8"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -1096,12 +971,7 @@
     },
     "palace_10": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "palace_9"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -1157,12 +1027,7 @@
     },
     "pop_2": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "pop_1"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "population",
@@ -1184,12 +1049,7 @@
     },
     "pop_3": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "pop_2"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "population",
@@ -1211,12 +1071,7 @@
     },
     "pop_4": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "pop_3"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "population",
@@ -1257,12 +1112,7 @@
     },
     "jop_2": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "jop_1"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "playerState",
@@ -1433,12 +1283,7 @@
     },
     "uni_2": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "uni_1"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -1472,12 +1317,7 @@
     },
     "uni_3": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "uni_2"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -1511,12 +1351,7 @@
     },
     "uni_4": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "uni_3"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -1550,12 +1385,7 @@
     },
     "uni_5": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "uni_4"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -1589,12 +1419,7 @@
     },
     "uni_6": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "uni_5"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -1628,12 +1453,7 @@
     },
     "uni_7": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "uni_6"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -1667,12 +1487,7 @@
     },
     "uni_8": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "uni_7"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -1706,12 +1521,7 @@
     },
     "uni_9": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "uni_8"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -1745,12 +1555,7 @@
     },
     "uni_10": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "uni_8"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -1818,12 +1623,7 @@
     },
     "acad_2": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "acad_1"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -1857,12 +1657,7 @@
     },
     "acad_3": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "acad_2"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -1896,12 +1691,7 @@
     },
     "acad_4": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "acad_3"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -1935,12 +1725,7 @@
     },
     "acad_5": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "acad_4"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -1974,12 +1759,7 @@
     },
     "acad_6": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "acad_5"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -2013,12 +1793,7 @@
     },
     "acad_7": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "acad_6"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -2052,12 +1827,7 @@
     },
     "acad_8": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "acad_7"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -2091,12 +1861,7 @@
     },
     "acad_9": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "acad_8"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -2130,12 +1895,7 @@
     },
     "acad_10": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "acad_9"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -2209,12 +1969,7 @@
     },
     "wall_2": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "wall_1"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -2248,12 +2003,7 @@
     },
     "wall_3": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "wall_2"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -2287,12 +2037,7 @@
     },
     "wall_4": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "wall_3"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -2326,12 +2071,7 @@
     },
     "wall_5": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "wall_4"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -2365,12 +2105,7 @@
     },
     "wall_6": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "wall_5"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -2404,12 +2139,7 @@
     },
     "wall_7": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "wall_6"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -2443,12 +2173,7 @@
     },
     "wall_8": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "wall_7"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -2482,12 +2207,7 @@
     },
     "wall_9": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "wall_8"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -2521,12 +2241,7 @@
     },
     "wall_10": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "wall_9"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -2599,12 +2314,7 @@
     },
     "theat_2": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "theat_1"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -2638,12 +2348,7 @@
     },
     "theat_3": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "theat_2"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -2677,12 +2382,7 @@
     },
     "theat_4": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "theat_3"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -2716,12 +2416,7 @@
     },
     "theat_5": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "theat_4"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -2755,12 +2450,7 @@
     },
     "theat_6": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "theat_5"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -2794,12 +2484,7 @@
     },
     "theat_7": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "theat_6"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -2833,12 +2518,7 @@
     },
     "theat_8": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "theat_7"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -2872,12 +2552,7 @@
     },
     "theat_9": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "theat_8"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -2911,12 +2586,7 @@
     },
     "theat_10": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "theat_9"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -2984,12 +2654,7 @@
     },
     "worship_2": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "worship_1"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -3023,12 +2688,7 @@
     },
     "worship_3": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "worship_2"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -3062,12 +2722,7 @@
     },
     "worship_4": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "worship_3"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -3101,12 +2756,7 @@
     },
     "worship_5": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "worship_4"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -3140,12 +2790,7 @@
     },
     "worship_6": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "worship_5"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -3179,12 +2824,7 @@
     },
     "worship_7": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "worship_6"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -3218,12 +2858,7 @@
     },
     "worship_8": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "worship_7"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -3257,12 +2892,7 @@
     },
     "worship_9": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "worship_8"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -3296,12 +2926,7 @@
     },
     "worship_10": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "worship_9"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -3369,12 +2994,7 @@
     },
     "barracks_2": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "barracks_1"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -3408,12 +3028,7 @@
     },
     "barracks_3": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "barracks_2"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -3447,12 +3062,7 @@
     },
     "barracks_4": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "barracks_3"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -3486,12 +3096,7 @@
     },
     "barracks_5": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "barracks_4"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -3525,12 +3130,7 @@
     },
     "barracks_6": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "barracks_5"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -3564,12 +3164,7 @@
     },
     "barracks_7": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "barracks_6"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -3603,12 +3198,7 @@
     },
     "barracks_8": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "barracks_7"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -3642,12 +3232,7 @@
     },
     "barracks_9": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "barracks_8"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -3681,12 +3266,7 @@
     },
     "barracks_10": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "barracks_9"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -3754,12 +3334,7 @@
     },
     "stabl_2": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "stabl_1"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -3793,12 +3368,7 @@
     },
     "stabl_3": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "stabl_2"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -3832,12 +3402,7 @@
     },
     "stabl_4": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "stabl_3"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -3871,12 +3436,7 @@
     },
     "stabl_5": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "stabl_4"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -3910,12 +3470,7 @@
     },
     "stabl_6": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "stabl_5"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -3949,12 +3504,7 @@
     },
     "stabl_7": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "stabl_6"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -3988,12 +3538,7 @@
     },
     "stabl_8": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "stabl_7"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -4027,12 +3572,7 @@
     },
     "stabl_9": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "stabl_8"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -4066,12 +3606,7 @@
     },
     "stabl_10": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "stabl_9"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -4139,12 +3674,7 @@
     },
     "workshop_2": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "workshop_1"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -4178,12 +3708,7 @@
     },
     "workshop_3": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "workshop_2"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -4217,12 +3742,7 @@
     },
     "workshop_4": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "workshop_3"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -4256,12 +3776,7 @@
     },
     "workshop_5": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "workshop_4"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -4295,12 +3810,7 @@
     },
     "workshop_6": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "workshop_5"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -4334,12 +3844,7 @@
     },
     "workshop_7": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "workshop_6"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -4373,12 +3878,7 @@
     },
     "workshop_8": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "workshop_7"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -4412,12 +3912,7 @@
     },
     "workshop_9": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "workshop_8"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",
@@ -4451,12 +3946,7 @@
     },
     "workshop_10": {
         "refresh": 0,
-        "showCond": [
-            {
-                "type": "quest",
-                "idQuest": "workshop_9"
-            }
-        ],
+        "showCond": [],
         "ListOfNeed": [
             {
                 "type": "building",

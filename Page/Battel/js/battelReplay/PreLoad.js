@@ -94,8 +94,8 @@ class BattelReplayScene extends Phaser.Scene
     {
         super();
         BattelReplayScene.Scene = this;
-        
-        
+
+
     }
 
     configAnims() {
@@ -222,34 +222,86 @@ class BattelReplayScene extends Phaser.Scene
     }
 
     preload() {
-        this.load.image('BattelGroundSprite', BASE_ASSET_BATH+'/images/BattelReplay/field.jpg');
-        this.load.spritesheet('TroopArmyA',   BASE_ASSET_BATH+'/images/BattelReplay/troop_triarii.png', {frameWidth: 100, frameHeight: 100});
-        this.load.spritesheet('TroopArmyB',   BASE_ASSET_BATH+'/images/BattelReplay/troop_cavalry.png', {frameWidth: 100, frameHeight: 100});
-        this.load.spritesheet('TroopArmyC',   BASE_ASSET_BATH+'/images/BattelReplay/troop_cohort.png', {frameWidth: 100, frameHeight: 100});
-        this.load.spritesheet('TroopArmyD',   BASE_ASSET_BATH+'/images/BattelReplay/troop_archers.png', {frameWidth: 100, frameHeight: 100});
-        this.load.spritesheet('TroopArmyE',   BASE_ASSET_BATH+'/images/BattelReplay/troop_ballistas.png', {frameWidth: 100, frameHeight: 100});
-        this.load.spritesheet('TroopArmyF',   BASE_ASSET_BATH+'/images/BattelReplay/troop_onagers.png', {frameWidth: 100, frameHeight: 100});
-        this.load.bitmapFont('desyrel',       BASE_ASSET_BATH+'/assets/fonts/bitmap/desyrel.png',      BASE_ASSET_BATH+'/assets/fonts/bitmap/desyrel.xml');
-        this.load.bitmapFont('desyrel-pink',  BASE_ASSET_BATH+'/assets/fonts/bitmap/desyrel-pink.png', BASE_ASSET_BATH+'/assets/fonts/bitmap/desyrel-pink.xml');
-        this.load.bitmapFont('shortStack',    BASE_ASSET_BATH+'/assets/fonts/bitmap/shortStack.png',   BASE_ASSET_BATH+'/assets/fonts/bitmap/shortStack.xml');
-        this.load.spritesheet('ArmyWeapons',  BASE_ASSET_BATH+'/images/BattelReplay/others_weapon.png', {frameWidth: 100, frameHeight: 100});
-        this.load.spritesheet('DeadSol',      BASE_ASSET_BATH+'/images/BattelReplay/others_corpse.png', {frameWidth: 100, frameHeight: 100});
-        var This = this;
-        this.load.once('complete', function(){
-            This.configAnims();
-           // (new BattelReplay(JSON.parse(BattelReplayData))).startBattelShow();
-            (new BattelReplay(TestRound)).startBattelShow();
+
+
+
+        var width = this.cameras.main.width;
+        var height = this.cameras.main.height;
+
+
+        var percentText = this.make.text({
+            x: width / 2,
+            y: height / 2 + 50,
+            text: '0%',
+            style: {
+                font: '32px monospace',
+                fill: '#ffffff',
+                fontWeight: "bold"
+            }
         });
-        
+        percentText.setOrigin(0.5, 0.5);
+
+
+
+        this.load.on('progress', function (value) {
+            percentText.setText(parseInt(value * 100) + '%');
+        });
+
+
+        var This = this;
+        var ImageBg;
+        this.load.image('LoadingBg', BASE_ASSET_BATH + '/images/BattelReplay/bg_en.png').on("complete", function () {
+            ImageBg = This.add.image(This.scale.width / 2, 300, "LoadingBg").setDisplaySize(720, 325);
+        });
+
+        this.load.image('BattelGroundSprite', BASE_ASSET_BATH + '/images/BattelReplay/field.jpg');
+        this.load.image('windowFrame', BASE_ASSET_BATH + '/images/BattelReplay/windowFrame.png');
+        this.load.image('windowFrame', BASE_ASSET_BATH + '/images/BattelReplay/windowFrame.png');
+        this.load.spritesheet('TroopArmyA', BASE_ASSET_BATH + '/images/BattelReplay/troop_triarii.png', {frameWidth: 100, frameHeight: 100});
+        this.load.spritesheet('TroopArmyB', BASE_ASSET_BATH + '/images/BattelReplay/troop_cavalry.png', {frameWidth: 100, frameHeight: 100});
+        this.load.spritesheet('TroopArmyC', BASE_ASSET_BATH + '/images/BattelReplay/troop_cohort.png', {frameWidth: 100, frameHeight: 100});
+        this.load.spritesheet('TroopArmyD', BASE_ASSET_BATH + '/images/BattelReplay/troop_archers.png', {frameWidth: 100, frameHeight: 100});
+        this.load.spritesheet('TroopArmyE', BASE_ASSET_BATH + '/images/BattelReplay/troop_ballistas.png', {frameWidth: 100, frameHeight: 100});
+        this.load.spritesheet('TroopArmyF', BASE_ASSET_BATH + '/images/BattelReplay/troop_onagers.png', {frameWidth: 100, frameHeight: 100});
+        this.load.bitmapFont('desyrel', BASE_ASSET_BATH + '/assets/fonts/bitmap/desyrel.png', BASE_ASSET_BATH + '/assets/fonts/bitmap/desyrel.xml');
+        this.load.bitmapFont('desyrel-pink', BASE_ASSET_BATH + '/assets/fonts/bitmap/desyrel-pink.png', BASE_ASSET_BATH + '/assets/fonts/bitmap/desyrel-pink.xml');
+        this.load.bitmapFont('shortStack', BASE_ASSET_BATH + '/assets/fonts/bitmap/shortStack.png', BASE_ASSET_BATH + '/assets/fonts/bitmap/shortStack.xml');
+        this.load.spritesheet('ArmyWeapons', BASE_ASSET_BATH + '/images/BattelReplay/others_weapon.png', {frameWidth: 100, frameHeight: 100});
+        this.load.spritesheet('DeadSol', BASE_ASSET_BATH + '/images/BattelReplay/others_corpse.png', {frameWidth: 100, frameHeight: 100});
+        var This = this;
+        this.load.on('complete', function () {
+            percentText.destroy();
+            ImageBg.destroy();
+            Elkaisar.BattelReplay.drawControllPanel();
+            This.configAnims();
+            (new BattelReplay(JSON.parse(BattelReplayData))).startBattelShow();
+            //(new BattelReplay(TestRound)).startBattelShow();
+        });
+
+
+
     }
     create() {
         this.add.image(0, 0, "BattelGroundSprite").setOrigin(0, 0).setDisplaySize(this.scale.width, this.scale.height);
+        this.add.image(0, 0, "windowFrame").setOrigin(0, 0).setDisplaySize(this.scale.width, this.scale.height).setDepth(1000);
     }
     update()
     {
     }
+    
+    
 }
 
+
+
+Elkaisar.BattelReplay.drawControllPanel = function (){
+   
+   var Win = $("#BattelReplayCanvas canvas");
+    $("#PlayControlBoard").width(Win.width());
+    $("#PlayControlBoard").css({top: Win.height() - $("#PlayControlBoard").height(), left: Win.offset().left, display: "flex"});
+    $("#BloodBar").css({display: "flex", left: Win.offset().left})
+    $("#BloodBar").width(Win.width());
+};
 
 
 

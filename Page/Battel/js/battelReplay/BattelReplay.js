@@ -144,43 +144,133 @@ var TestRound = {
                     "HeroIndex": "3",
                     "side": 1,
                     "type": {
-                        "f_1": 0,
+                        "f_1": 1,
                         "f_2": 1,
-                        "f_3": 0,
-                        "b_1": 0,
-                        "b_2": 0,
-                        "b_3": 0
+                        "f_3": 1,
+                        "b_1": 4,
+                        "b_2": 4,
+                        "b_3": 4
                     },
                     "ArmyBlocks": {
                         "0": {
-                            "unit": 0,
-                            "dead": 0,
-                            "armyType": 0
+                            "unit": 302,
+                            "dead": 302,
+                            "armyType": 1
                         },
                         "1": {
-                            "unit": 552900,
-                            "dead": 101.36152663693828,
+                            "unit": 302,
+                            "dead": 302,
                             "armyType": 1
                         },
                         "2": {
-                            "unit": 0,
-                            "dead": 0,
-                            "armyType": 0
+                            "unit": 302,
+                            "dead": 302,
+                            "armyType": 1
                         },
                         "3": {
-                            "unit": 0,
+                            "unit": 94,
                             "dead": 0,
-                            "armyType": 0
+                            "armyType": 4
                         },
                         "4": {
-                            "unit": 0,
-                            "dead": 0,
-                            "armyType": 0
+                            "unit": 94,
+                            "dead": 94,
+                            "armyType": 4
                         },
                         "5": {
-                            "unit": 0,
+                            "unit": 94,
                             "dead": 0,
-                            "armyType": 0
+                            "armyType": 4
+                        }
+                    }
+                },
+                "4": {
+                    "idHero": 6091102,
+                    "HeroIndex": "4",
+                    "side": 1,
+                    "type": {
+                        "f_1": 1,
+                        "f_2": 1,
+                        "f_3": 1,
+                        "b_1": 4,
+                        "b_2": 4,
+                        "b_3": 4
+                    },
+                    "ArmyBlocks": {
+                        "0": {
+                            "unit": 302,
+                            "dead": 302,
+                            "armyType": 1
+                        },
+                        "1": {
+                            "unit": 302,
+                            "dead": 302,
+                            "armyType": 1
+                        },
+                        "2": {
+                            "unit": 302,
+                            "dead": 302,
+                            "armyType": 1
+                        },
+                        "3": {
+                            "unit": 94,
+                            "dead": 0,
+                            "armyType": 4
+                        },
+                        "4": {
+                            "unit": 94,
+                            "dead": 94,
+                            "armyType": 4
+                        },
+                        "5": {
+                            "unit": 94,
+                            "dead": 0,
+                            "armyType": 4
+                        }
+                    }
+                },
+                "5": {
+                    "idHero": 6091102,
+                    "HeroIndex": "5",
+                    "side": 1,
+                    "type": {
+                        "f_1": 1,
+                        "f_2": 1,
+                        "f_3": 1,
+                        "b_1": 4,
+                        "b_2": 4,
+                        "b_3": 4
+                    },
+                    "ArmyBlocks": {
+                        "0": {
+                            "unit": 302,
+                            "dead": 302,
+                            "armyType": 1
+                        },
+                        "1": {
+                            "unit": 302,
+                            "dead": 302,
+                            "armyType": 1
+                        },
+                        "2": {
+                            "unit": 302,
+                            "dead": 302,
+                            "armyType": 1
+                        },
+                        "3": {
+                            "unit": 94,
+                            "dead": 0,
+                            "armyType": 4
+                        },
+                        "4": {
+                            "unit": 94,
+                            "dead": 94,
+                            "armyType": 4
+                        },
+                        "5": {
+                            "unit": 94,
+                            "dead": 0,
+                            "armyType": 4
                         }
                     }
                 }

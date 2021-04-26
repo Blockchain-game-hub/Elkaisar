@@ -31,8 +31,9 @@ setInterval(function () {
 
         if (Fight.sideWin === Elkaisar.Config.BATTEL_SIDE_ATT)
             AFterFight.afterWin(function () {
-                AFterFight.afterWinAnnounce();
                 Fight.FightRecord.saveRecord();
+                AFterFight.afterWinAnnounce();
+                
             });
         else
             AFterFight.afterLose(function (){

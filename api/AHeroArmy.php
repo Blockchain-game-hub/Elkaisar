@@ -62,7 +62,7 @@ class AHeroArmy
             return ["state" => "error_1", "TryToHack" => TryToHack()];
         if($Hero[0][($ArmyPlace."_type")] != 0 && $ArmyType != CArmy::$ArmyCityPlace[$Hero[0][($ArmyPlace."_type")]])
             return ["state" => "error_2", "TryToHack" => TryToHack()];
-        if($amount < 0)
+        if($amount <= 0)
             return ["state" => "error_3", "TryToHack" => TryToHack()];
         if(LHero::emptyPlacesSize($idHero) < $amount*CArmy::$ArmyCap[CArmy::$ArmyCityToArmyHero[$ArmyType]])
             return ["state" => "error_4", "TryToHack" => TryToHack(), "emptySize" => LHero::emptyPlacesSize($idHero)];
@@ -106,7 +106,7 @@ class AHeroArmy
             return ["state" => "error_1", "TryToHack" => TryToHack()];
         if($HeroTo[0][($ArmyPlaceTo."_type")] != 0 && $HeroFrom[0][($ArmyPlaceFrom."_type")] != $HeroTo[0][($ArmyPlaceTo."_type")])
             return ["state" => "error_2", "TryToHack" => TryToHack()];
-        if($amount < 0 || $amount > $HeroFrom[0][($ArmyPlaceFrom."_num")])
+        if($amount <= 0 || $amount > $HeroFrom[0][($ArmyPlaceFrom."_num")])
             return ["state" => "error_3", "TryToHack" => TryToHack()];
         if(LHero::emptyPlacesSize($idHeroTo) < $amount*CArmy::$ArmyCap[$HeroFrom[0][($ArmyPlaceFrom."_type")]])
             return ["state" => "error_4", "TryToHack" => TryToHack()];

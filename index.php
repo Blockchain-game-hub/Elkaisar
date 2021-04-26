@@ -156,6 +156,7 @@ else if($UrlLandMark == "ws")
     define("BATTEL_REPLAY_ID", $formatedRoute[URL_LANDMARK_INDEX + 1]);
     require_once './configBR.php';
     define("RESOURCE_BATH", BASE_URL."/Page/Battel");
+
     require_once __DIR__.DIRECTORY_SEPARATOR."Page/Battel/BattelReplay.php";
     
 }else{

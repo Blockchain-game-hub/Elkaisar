@@ -35,11 +35,12 @@ class BRHero {
     addHero() {
         var x = this.HeroIndex % 3;
         var y = Math.floor(this.HeroIndex / 3);
-        var tx = (x - y) * 300;
-        var ty = (x + y) * 150;
-        var Center = {x: tx + window.innerWidth / 3, y: ty + window.innerHeight / 6};
+        var tx = (x - y) * 250;
+        var ty = (x + y) * 125;
+        
+        var Center = {x: tx + this.Scene.scale.width / 3, y: ty + this.Scene.scale.height / 6};
         if (this.HeroIndex < 3) {
-            Center = {x: tx + window.innerWidth / 2.5, y: ty + window.innerHeight / 7};
+            Center = {x: tx + this.Scene.scale.width / 2.5, y: ty + this.Scene.scale.height / 7};
         }
 
 
@@ -56,12 +57,13 @@ class BRHero {
     addBlock(BlockIndex, Center, AcPlace) {
         var x = BlockIndex % 3;
         var y = Math.floor(BlockIndex / 3);
-        
-        var tx = (x - y) * 90;
-        var ty = (x + y) * 45;  
+        var xBadding = 64;
+        var yBadding = 32;
+        var tx = (x - y) * xBadding;
+        var ty = (x + y) * yBadding;  
         if(this.HeroIndex < 3){
-            tx = (x + y) * 90;
-            ty = (x - y) * 45; 
+            tx = (x + y) * xBadding;
+            ty = (x - y) * yBadding; 
         }
         
         
@@ -155,8 +157,8 @@ class BRHeroCell {
         var mapWidth = 5;
         var mapHeight = 4;
 
-        var tileWidthHalf = 15;
-        var tileHeightHalf = 7;
+        var tileWidthHalf = 10;
+        var tileHeightHalf = 5;
         var ArmyType = this.ArmyType;
 
         if (ArmyType === Elkaisar.BattelReplay.ArmyTyps.ArmyB
@@ -164,8 +166,6 @@ class BRHeroCell {
                 || ArmyType === Elkaisar.BattelReplay.ArmyTyps.ArmyF) {
             mapWidth = 4;
             mapHeight = 3;
-            tileWidthHalf = 15;
-            tileHeightHalf = 7;
 
         }
 
@@ -223,6 +223,9 @@ class BRHeroCell {
             duration: 2000,
             onComplete: function (e) {
                 Text.destroy();
+                
+            },
+            onStart: function (){
                 This.kill(Amount);
             }
         });
@@ -231,7 +234,7 @@ class BRHeroCell {
     }
 
     killWithBreak(Amount) {
-        var Text = this.Scene.add.bitmapText(this.Center.x, this.Center.y + 25, 'desyrel', "#150", 20).setDepth(1000);
+        var Text = this.Scene.add.bitmapText(this.Center.x, this.Center.y + 25, 'desyrel', "#"+Amount, 20).setDepth(1000);
         var This = this;
         this.Scene.tweens.add({
             targets: Text,
@@ -241,6 +244,8 @@ class BRHeroCell {
             duration: 2000,
             onComplete: function (e) {
                 Text.destroy();
+            },
+            onStart: function (){
                 This.kill(Amount);
             }
         });
@@ -249,7 +254,7 @@ class BRHeroCell {
     }
 
     killWithStrike(Amount) {
-        var Text = this.Scene.add.bitmapText(this.Center.x, this.Center.y + 25, 'desyrel-pink', "*150", 20).setDepth(1000);
+        var Text = this.Scene.add.bitmapText(this.Center.x, this.Center.y + 25, 'desyrel-pink', "*"+Amount, 20).setDepth(1000);
         var This = this;
         this.Scene.tweens.add({
             targets: Text,
@@ -259,6 +264,8 @@ class BRHeroCell {
             duration: 2000,
             onComplete: function (e) {
                 Text.destroy();
+            },
+            onStart: function (){
                 This.kill(Amount);
             }
         });

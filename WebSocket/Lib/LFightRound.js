@@ -1,6 +1,5 @@
 class LFightRound {
 
-    RoundHeros = {"0": false, "1": false, "2": false, "3": false, "4": false, "5": false};
     Battel;
     constructor(Battel) {
         this.Battel = Battel;
@@ -8,39 +7,52 @@ class LFightRound {
     }
 
     scaneRoundHeros() {
-        for (var ii in this.RoundHeros) {
-            if (this.Battel.Fight.checkHeroSweped(this.RoundHeros[ii]))
-                this.RoundHeros[ii] = false;
+        for (var ii in this.Battel.Fight.RoundHeros) {
+            if (this.Battel.Fight.checkHeroSweped(this.Battel.Fight.RoundHeros[ii]))
+                this.Battel.Fight.RoundHeros[ii] = false;
         }
     }
 
 
     hasHerosToFight() {
-        if ((this.RoundHeros[0] || this.RoundHeros[1] || this.RoundHeros[2])
-                && (this.RoundHeros[3] || this.RoundHeros[4] || this.RoundHeros[5]))
+        if ((this.Battel.Fight.RoundHeros[0] || this.Battel.Fight.RoundHeros[1] || this.Battel.Fight.RoundHeros[2])
+                && (this.Battel.Fight.RoundHeros[3] || this.Battel.Fight.RoundHeros[4] || this.Battel.Fight.RoundHeros[5]))
             return true;
 
         return false;
     }
 
     addHeroToRound(Hero) {
+     
+        for (var ii in this.Battel.Fight.RoundHeros) {
 
-        for (var ii in this.RoundHeros) {
-
-            if (this.RoundHeros[ii] != false)
+            if (this.Battel.Fight.RoundHeros[ii] != false)
                 continue;
-            if(this.checkIfHeroInRound(Hero.idHero))
-                continue;
+            if(this.checkIfHeroInRound(Hero.idHero)){
+                console.log("This Hero is InBattel "+Hero.idHero);
+                return true;
+            }
+                
+            
+                
 
-            if (Hero.side == Elkaisar.Config.BATTEL_SIDE_DEF && ii < 3) {
-                Hero.Index = ii;
-                this.RoundHeros[ii] = Hero;
+            if (Hero.side == Elkaisar.Config.BATTEL_SIDE_DEF) {
+                if(ii< 3){
+                    Hero.Index = ii;
+                    this.Battel.Fight.RoundHeros[ii] = Hero;
+                    console.log(`Hero With id ${Hero.idHero} Join Def side`);
+                }
                 return true;
             }
 
-            if (Hero.side == Elkaisar.Config.BATTEL_SIDE_ATT && ii >= 3) {
-                Hero.Index = ii;
-                this.RoundHeros[ii] = Hero;
+            if (Hero.side == Elkaisar.Config.BATTEL_SIDE_ATT) {
+                if(ii >= 3){
+                    Hero.Index = ii;
+                    this.Battel.Fight.RoundHeros[ii] = Hero;
+                    console.log(`Hero With id ${Hero.idHero} Join Att side`);
+                }else{
+                    continue;
+                }
                 return true;
             }
         }
@@ -49,10 +61,12 @@ class LFightRound {
     }
 
     checkIfHeroInRound(idHero) {
-        for (var iii in this.RoundHeros) {
-            if (idHero == this.RoundHeros[iii].idHero) {
+        for (var iii in this.Battel.Fight.RoundHeros) {
+            if(!this.Battel.Fight.RoundHeros[iii])
+                continue;
+            if (idHero == this.Battel.Fight.RoundHeros[iii].idHero) 
                 return true;
-            }
+            
         }
         return false;
     }
@@ -60,7 +74,7 @@ class LFightRound {
     
     startRoundFight(){
         
-        this.Battel.Fight.FightRecord.addRound(this.RoundHeros);
+        this.Battel.Fight.FightRecord.addRound(this.Battel.Fight.RoundHeros);
         
         this.startHeroFight(3);
         this.startHeroFight(4);
@@ -69,13 +83,14 @@ class LFightRound {
         this.startHeroFight(1);
         this.startHeroFight(2);
         
+       
+        this.Battel.Fight.scanHero(this.Battel.Fight.RoundHeros);
         
-        this.Battel.Fight.scanHero(this.RoundHeros);
     }
     
     startHeroFight(Index){
         
-        if(!this.RoundHeros[Index])
+        if(!this.Battel.Fight.RoundHeros[Index])
             return ;
         
         
@@ -91,7 +106,8 @@ class LFightRound {
     
     startHeroCellFight(HeroAttIndex, CellAttIndex){
         
-        var HeroAttack =  this.RoundHeros[HeroAttIndex];
+        
+        var HeroAttack =  this.Battel.Fight.RoundHeros[HeroAttIndex];
         
         if(HeroAttack == false)
             return ;
@@ -100,13 +116,13 @@ class LFightRound {
         var HI;
         var CI;
         for( HI in CellAttacks){
-            if(!this.RoundHeros[HI])
+            if(!this.Battel.Fight.RoundHeros[HI])
                 continue;
             var NotBlindSpots = [];
             var BlockedSpots = 0;
             
             for( CI in CellAttacks[HI]){
-                if(!this.RoundHeros[HI].real_eff[CellAttacks[HI][CI]])
+                if(!this.Battel.Fight.RoundHeros[HI].real_eff[CellAttacks[HI][CI]])
                     continue;
                 
                 if(this.cellAttack(HeroAttIndex, CellAttIndex, HI, CellAttacks[HI][CI])){
@@ -116,13 +132,17 @@ class LFightRound {
             
             if(NotBlindSpots.length > 0)
                 continue;
-            
+            var attackedTimes = 0;
+            var ShouldAttack = CellAttacks[HI].length;
             for(var ii = 0; ii < 6; ii ++){
                 if(NotBlindSpots.includes(ii))
                     continue;
                 if(CellAttacks[HI].includes(ii))
                     continue;
                 this.cellAttack(HeroAttIndex, CellAttIndex, HI, ii);
+                if(ShouldAttack < attackedTimes)
+                    break;
+                attackedTimes ++;
             }
         }
     }
@@ -130,8 +150,8 @@ class LFightRound {
     
     cellAttack(HeroAttIndex, CellAttIndex, HeroDefIndex, CellDefIndex){
         
-        var HeroDef = this.RoundHeros[HeroDefIndex];
-        var HeroAtt = this.RoundHeros[HeroAttIndex];
+        var HeroDef = this.Battel.Fight.RoundHeros[HeroDefIndex];
+        var HeroAtt = this.Battel.Fight.RoundHeros[HeroAttIndex];
         
         if(!HeroDef || !HeroAtt)
             return false;
@@ -140,7 +160,7 @@ class LFightRound {
         
         if(!CellAttack || !CellDefence )
             return false;
-        if(CellDefence.unit <= 0)
+        if(CellDefence.unit <= 0 || CellDefence.unit <= CellDefence.dead_unit)
             return false;
         if(CellAttack.unit <= 0)
             return false;
@@ -194,8 +214,8 @@ class LFightRound {
         
         var Attacks  = {};
         var CellRow  = Math.floor(CellIndex/3);
-        var Side     = this.RoundHeros[HeroIndex].side;
-        var ArmyType = this.RoundHeros[HeroIndex].real_eff[CellIndex].armyType;
+        var Side     = this.Battel.Fight.RoundHeros[HeroIndex].side;
+        var ArmyType = this.Battel.Fight.RoundHeros[HeroIndex].real_eff[CellIndex].armyType;
         
        
        
@@ -223,7 +243,7 @@ class LFightRound {
         }
         
         if(ArmyType == Elkaisar.Config.ARMY_D){
-            var Hero = this.RoundHeros[HeroIndex];
+            var Hero = this.Battel.Fight.RoundHeros[HeroIndex];
             
             Attacks[(1-Side)*3 + 0] = [CellIndex, CellIndex + 3];
             Attacks[(1-Side)*3 + 1] = [CellIndex, CellIndex + 3];

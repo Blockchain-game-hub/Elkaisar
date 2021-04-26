@@ -70,6 +70,7 @@ class LAfterFight
 
     setCityColonizer()
     {
+        return ;
         var Unit = Elkaisar.World.getUnit(this.Battel.Battel.x_coord, this.Battel.Battel.y_coord);
         var This = this;
         Elkaisar.DB.SelectFrom("loy, id_city,  player.id_player, city.name AS CityName, player.name AS PlayerName, player.id_guild",

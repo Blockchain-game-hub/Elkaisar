@@ -28,7 +28,7 @@ class LHero {
 
         
 
-        insertIntoTable("id_hero = :idh, id_player = :idp", "hero_equip", ["idh" => $idHero, "idp" => $idPlayer]);
+        
         insertIntoTable("id_hero = :idh, id_player = :idp", "hero_army", ["idh" => $idHero, "idp" => $idPlayer]);
         insertIntoTable("id_hero = :idh", "hero_medal", ["idh" => $idHero]);
         updateTable("hero_num  = hero_num  + 1", "server_data", "id = 1");

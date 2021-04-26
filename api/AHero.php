@@ -75,7 +75,6 @@ class AHero
         
         deleteTable("hero_army", "id_hero  = :idh AND id_player = :idp", ["idp" => $idPlayer, "idh" => $idHero]);
         deleteTable("hero_medal", "id_hero = :idh", ["idh" => $idHero]);
-        deleteTable("hero_equip", "id_hero = :idh AND id_player = :idp", ["idp" => $idPlayer, "idh" => $idHero]);
         deleteTable("world_unit_garrison", "id_hero = :idh AND id_player = :idp", ["idp" => $idPlayer, "idh" => $idHero]);
         deleteTable("hero", "id_hero = :idh AND id_player = :idp",  ["idp" => $idPlayer, "idh" => $idHero]);
         

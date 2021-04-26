@@ -3,11 +3,12 @@
 $(document).ready(function () {
     Elkaisar.Config.Game = {
         type: Phaser.AUTO,
-        width: 1000,
-        height: 600,
+        width: 1500,
+        height: 900,
+        parent: "BattelReplayCanvas",
         scale: {
-            mode: Phaser.Scale.NONE ,
-            autoCenter: Phaser.Scale.CENTER_BOTH
+            mode: Phaser.Scale.NONE,
+            autoCenter: Phaser.Scale.CENTER_HORIZONTALLY
         },
         physics: {
             default: 'arcade',

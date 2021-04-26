@@ -71,7 +71,7 @@ class APlayerQuest
                 if(selectFromTable($one["jopFor"], "city_jop", "id_city = :idc", ["idc" => $idCity])[0][$one["jopFor"]] < $one["amount"])
                     return false;
             }else if($one["type"] == "playerState"){
-                if(selectFromTable($one["stateFor"], "player_state", "id_player = :idp", ["idp" => $idPlayer])[0][$one["stateFor"]] < time())
+                if(selectFromTable($one["stateFor"], "player_stat", "id_player = :idp", ["idp" => $idPlayer])[0][$one["stateFor"]] < time())
                     return false;
             }
             

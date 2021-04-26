@@ -142,11 +142,17 @@ Elkaisar.Base.Request.postReq(
             
             Elkaisar.Base.getAllWorldCity();
 
-            if (parseInt(serverData.open_status) === 0)
+            if (parseInt(serverData.open_status) === 0){
+                console.log("Server is Closed So You cant start");
                 process.exit(0);
+            }
+                
 
-            if (parseInt(serverData.under_main) === 1)
+            if (parseInt(serverData.under_main) === 1){
+                console.log("Server is Under maintain So You cant start")
                 process.exit(0);
+            }
+                
 
         }
 );

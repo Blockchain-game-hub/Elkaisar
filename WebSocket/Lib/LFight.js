@@ -8,6 +8,7 @@ class LFight
     roundNum = 0;
     FightRecord;
     FightReplayId;
+    RoundHeros = {"0": false, "1": false, "2": false, "3": false, "4": false, "5": false};
     TotalHonor = {
         [Elkaisar.Config.BATTEL_SIDE_DEF]: 0,
         [Elkaisar.Config.BATTEL_SIDE_ATT]: 0
@@ -35,11 +36,13 @@ class LFight
     }
 
     startFight() {
+        
         var check_loop_overflow = 0;
-        var Heros = this.Battel.HeroReadyList;
+        var HerosQue = this.Battel.HeroReadyList;
         var DefHeroCount = 0;
         var AttHeroCount = 0;
         var Hero;
+        
         var Round;
         do {
            
@@ -49,15 +52,21 @@ class LFight
             
             Round = new Elkaisar.Lib.LFightRound(this.Battel);
             
-            for (var iii in Heros) {
-                Hero = Heros[iii];
+            for (var iii in HerosQue) {
+                Hero = HerosQue[iii];
+                
                 if (this.checkHeroSweped(Hero))
                     continue;
+                
+                    
                 
                 
                 if(!Round.addHeroToRound(Hero))
                     break;
+                
+                
             }
+            
 
             /*
              * condetion    to check if arrays contains data
@@ -96,8 +105,8 @@ class LFight
 
                 var Cell = Hero.real_eff[ii];
                 HeroBlocks[ii] = {
-                    unit: Cell.unit,
-                    dead: Cell.dead_unit,
+                    unit: Math.floor(Cell.unit),
+                    dead: Math.ceil(Cell.dead_unit),
                     armyType: Cell.armyType
                 };
                 
@@ -215,3 +224,4 @@ class LFight
 
 
 module.exports = LFight;
+

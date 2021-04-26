@@ -14,7 +14,7 @@ class LPlayer {
         "gate_4": "damage"
     };
 
-    static  RANK_POINT_PLUSE = {
+    /*static  RANK_POINT_PLUSE = {
         "gate_1": {
 //  1     2     3     4     5     6     7     8    9      10
             "attack": [
@@ -44,8 +44,22 @@ class LPlayer {
                 100, 80, 80, 80, 80, 50, 50, 50, 50, 50
             ]
         }
-    };
-
+    };*/
+    static  RANK_POINT_PLUSE = {
+        "gate_1": {
+//  1     2     3     4     5     6     7     8    9      10
+            "attack": []
+        },
+        "gate_2": {
+            "defence": []
+        },
+        "gate_3": {
+            "vit": []
+        },
+        "gate_4": {
+            "damage": []
+        }
+    }
     static getPlayerdata(Player, callBack)
     {
         Elkaisar.DB.SelectFrom(
