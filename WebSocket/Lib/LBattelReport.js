@@ -34,7 +34,8 @@ class LBattelReport
 
             return arr_xp[Unit["ut"]];
 
-        } else if (Elkaisar.Lib.LWorldUnit.isBarrary(Unit["ut"])) {
+        }
+        else if (Elkaisar.Lib.LWorldUnit.isBarrary(Unit["ut"])) {
             var arr_xp = {
                 1: Elkaisar.Base.rand(50, 100), 2: Elkaisar.Base.rand(80, 150), 3: Elkaisar.Base.rand(300, 400),
                 4: Elkaisar.Base.rand(400, 500), 5: Elkaisar.Base.rand(1300, 1400), 6: Elkaisar.Base.rand(3200, 3800),
@@ -43,11 +44,13 @@ class LBattelReport
             };
             return arr_xp[Unit["l"]];
 
-        } else if (Elkaisar.Lib.LWorldUnit.isCamp(Unit["ut"]) || Elkaisar.Lib.LWorldUnit.isMonawrat(Unit["ut"])) {
+        } 
+        else if (Elkaisar.Lib.LWorldUnit.isCamp(Unit["ut"]) || Elkaisar.Lib.LWorldUnit.isMonawrat(Unit["ut"])) {
 
             return Elkaisar.Base.rand((Math.pow(Unit["l"], 2) * 100), (Math.pow(Unit["l"], 2) * 110));
 
-        } else if (Elkaisar.Lib.LWorldUnit.isGangStar(Unit["ut"])) {
+        } 
+        else if (Elkaisar.Lib.LWorldUnit.isGangStar(Unit["ut"])) {
             return Elkaisar.Base.rand(500, 650) * Unit["l"];
         } else if (Elkaisar.Lib.LWorldUnit.isCarthagianArmies(Unit["ut"])) {
 
@@ -84,8 +87,12 @@ class LBattelReport
             });
             This.Battel.HeroReadyList.forEach(function (Hero, Index) {
                 Hero["gainXp"] = 0;
-                if (Hero.side == This.Battel.Fight.sideWin)
-                    Hero["gainXp"] = This.Battel.Fight.TotalKill[Elkaisar.Config.BATTEL_SIDE_ATT]["kills"] > 0 ? Elkaisar.Lib.LBattelReport.getHeroXp(Unit) * Hero["troopsKills"] / This.Battel.Fight.TotalKill[Elkaisar.Config.BATTEL_SIDE_ATT]["kills"] : 0;
+                if (Hero.side == This.Battel.Fight.sideWin){
+                    var Exp =  Elkaisar.Lib.LBattelReport.getHeroXp(Unit);
+                    Hero["gainXp"] = This.Battel.Fight.TotalKill[Elkaisar.Config.BATTEL_SIDE_ATT]["kills"] > 0 ? Exp* Hero["troopsKills"] / This.Battel.Fight.TotalKill[Elkaisar.Config.BATTEL_SIDE_ATT]["kills"] : 0;
+                    Hero["gainXp"] = Math.min( Hero["gainXp"], Exp);
+                }
+                    
 
                 Hero["ord"] = Index;
                 

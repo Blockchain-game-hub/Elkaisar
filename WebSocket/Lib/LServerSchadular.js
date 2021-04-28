@@ -83,6 +83,8 @@ Elkaisar.Cron.schedule(`0 0 * * 1`, function () {
 
 
 
+
+
 Elkaisar.Cron.schedule(`0 0 * * 2`, function () {
 
     Elkaisar.DB.SelectFrom("*", "world", `ut IN (${Elkaisar.Config.WUT_QUEEN_CITY_A}, ${Elkaisar.Config.WUT_QUEEN_CITY_B}, ${Elkaisar.Config.WUT_QUEEN_CITY_C })`, [], function (Unites) {
@@ -146,6 +148,8 @@ Elkaisar.Cron.schedule("0 12 * * *", function () {
 });
 
 
+
+
 Elkaisar.Cron.schedule("0 13 * * *", function () {
 
     Elkaisar.DB.SelectFrom("*", "world", `ut IN(${Elkaisar.Config.WUT_REPLE_CASTLE_A}, ${Elkaisar.Config.WUT_REPLE_CASTLE_B}, ${Elkaisar.Config.WUT_REPLE_CASTLE_C})`, [], function (Units) {
@@ -165,6 +169,8 @@ Elkaisar.Cron.schedule("0 13 * * *", function () {
     scheduled: true,
     timezone: "Etc/UTC"
 });
+
+
 
 
 
@@ -195,6 +201,8 @@ Elkaisar.Cron.schedule("30 17 * * 1", function () {
     scheduled: true,
     timezone: "Etc/UTC"
 });
+
+
 
 /*close Army Capital*/
 Elkaisar.Cron.schedule("0 19 * * 1", function () {
@@ -271,6 +279,8 @@ Elkaisar.Cron.schedule("0 19 * * 1", function () {
 
 
 
+
+
 /*   Arena challange */
 Elkaisar.Cron.schedule("59 19 * * *", function () {
 
@@ -308,6 +318,7 @@ Elkaisar.Cron.schedule("59 19 * * *", function () {
     });
 
 });
+
 
 /*   Arena challange */
 Elkaisar.Cron.schedule("0 16 * * 0,1,2,3,4,6", function () {

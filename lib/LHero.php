@@ -118,6 +118,8 @@ class LHero {
         $filledPlaces += CArmy::$ArmyCap[$HeroArmy[0]["b_1_type"]] * $HeroArmy[0]["b_1_num"];
         $filledPlaces += CArmy::$ArmyCap[$HeroArmy[0]["b_2_type"]] * $HeroArmy[0]["b_2_num"];
         $filledPlaces += CArmy::$ArmyCap[$HeroArmy[0]["b_3_type"]] * $HeroArmy[0]["b_3_num"];
+        
+        return $filledPlaces;
     }
 
     static function heroFullCap($idHero)
@@ -132,7 +134,7 @@ class LHero {
         if (!count($PlayerEdu)) $PlayerEdu = [["leader" => 0]];
 
         $now = time();
-        $baseCap = HERO_SWAY_POINT_EFF * ($Hero[0]["point_a"] + $Hero[0]["point_a_plus"]) + 30000;
+        $baseCap = HERO_SWAY_POINT_EFF * ($Hero[0]["point_a"] + $Hero[0]["point_a_plus"]);
         $afterEduEff = min($AcadmyLvl, $PlayerEdu[0]["leader"]) * $baseCap * HERO_EDU_LVL_EFF_CAP;
         $afterCiceroEff = $Hero[0]["medal_ceasro"] > $now ? $baseCap * HERO_MEDAL_EFF_CAP : 0;
         $afterCeaserMarqueEff = $Hero[0]["ceaser_eagle"] > $now ? $baseCap * HERO_EAGLE_EFF_CAP : 0;
