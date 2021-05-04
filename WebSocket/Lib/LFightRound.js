@@ -88,19 +88,19 @@ class LFightRound {
         
     }
     
-    startHeroFight(Index){
+    startHeroFight(HeroIndex){
         
-        if(!this.Battel.Fight.RoundHeros[Index])
+        if(!this.Battel.Fight.RoundHeros[HeroIndex])
             return ;
         
         
         
-        this.startHeroCellFight(Index, 0);
-        this.startHeroCellFight(Index, 1);
-        this.startHeroCellFight(Index, 2);
-        this.startHeroCellFight(Index, 3);
-        this.startHeroCellFight(Index, 4);
-        this.startHeroCellFight(Index, 5);
+        this.startHeroCellFight(HeroIndex, 0);
+        this.startHeroCellFight(HeroIndex, 1);
+        this.startHeroCellFight(HeroIndex, 2);
+        this.startHeroCellFight(HeroIndex, 3);
+        this.startHeroCellFight(HeroIndex, 4);
+        this.startHeroCellFight(HeroIndex, 5);
         
     }
     
@@ -190,7 +190,7 @@ class LFightRound {
         var DeadUnits = OneSolDamage*CellAttack.unit/CellDefence.vit;
         
         // get the min number
-        var totalDead = Math.min(DeadUnits, CellDefence.unit);
+        var totalDead = Math.ceil(Math.min(DeadUnits, CellDefence.unit));
         /* this condetion will check  if the two cells have not fight done*/
 
 

@@ -106,6 +106,7 @@ class LHero {
             "id_city"  : Hero.Hero.id_city,
             "x_coord"  : Hero.Hero.x,
             "y_coord"  : Hero.Hero.y,
+            "Hero"     : Hero.Hero,
             "side"     : Hero.side,
             "type"     : HeroArmy.type,
             "pre"      : HeroArmy.pre,

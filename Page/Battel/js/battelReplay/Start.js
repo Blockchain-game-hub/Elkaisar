@@ -19,5 +19,7 @@ $(document).ready(function () {
         scene: [BattelReplayScene]
     };
     ElkaisarBR.Game = new Phaser.Game(Elkaisar.Config.Game);
+    
+    
 });
 

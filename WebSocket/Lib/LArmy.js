@@ -11,16 +11,16 @@ class LArmy
             if(Hero.type[jjj] === 0)
                 continue;
             
-            Hero.real_eff[Index].attack       = Elkaisar.Config.CArmy.ArmyPower[Hero.type[jjj]] .attack;
-            Hero.real_eff[Index].def          = Elkaisar.Config.CArmy.ArmyPower[Hero.type[jjj]] .def;
-            Hero.real_eff[Index].vit          = Elkaisar.Config.CArmy.ArmyPower[Hero.type[jjj]] .vit;
-            Hero.real_eff[Index].dam          = Elkaisar.Config.CArmy.ArmyPower[Hero.type[jjj]] .dam;
-            Hero.real_eff[Index].break        = Elkaisar.Config.CArmy.ArmyPower[Hero.type[jjj]] .break;
-            Hero.real_eff[Index].anti_break   = Elkaisar.Config.CArmy.ArmyPower[Hero.type[jjj]] .anti_break;
-            Hero.real_eff[Index].strike       = Elkaisar.Config.CArmy.ArmyPower[Hero.type[jjj]] .strike;
-            Hero.real_eff[Index].immunity     = Elkaisar.Config.CArmy.ArmyPower[Hero.type[jjj]] .immunity;
-            Hero.real_eff[Index].unit         = Hero.pre[jjj];
-            Hero.real_eff[Index].armyType     = Hero.type[jjj];
+            Hero.real_eff[Index].attack       =  Elkaisar.Config.CArmy.ArmyPower[Hero.type[jjj]] .attack;
+            Hero.real_eff[Index].def          =  Elkaisar.Config.CArmy.ArmyPower[Hero.type[jjj]] .def;
+            Hero.real_eff[Index].vit          =  Elkaisar.Config.CArmy.ArmyPower[Hero.type[jjj]] .vit;
+            Hero.real_eff[Index].dam          =  Elkaisar.Config.CArmy.ArmyPower[Hero.type[jjj]] .dam;
+            Hero.real_eff[Index].break        =  Elkaisar.Config.CArmy.ArmyPower[Hero.type[jjj]] .break;
+            Hero.real_eff[Index].anti_break   =  Elkaisar.Config.CArmy.ArmyPower[Hero.type[jjj]] .anti_break;
+            Hero.real_eff[Index].strike       =  Elkaisar.Config.CArmy.ArmyPower[Hero.type[jjj]] .strike;
+            Hero.real_eff[Index].immunity     =  Elkaisar.Config.CArmy.ArmyPower[Hero.type[jjj]] .immunity;
+            Hero.real_eff[Index].unit         =  Hero.pre[jjj];
+            Hero.real_eff[Index].armyType     =  Hero.type[jjj];
             Hero.resource_capacity           +=  Elkaisar.Config.CArmy.ArmyPower[Hero.type[jjj]]["res_cap"]*Hero.pre[jjj];
            
         }

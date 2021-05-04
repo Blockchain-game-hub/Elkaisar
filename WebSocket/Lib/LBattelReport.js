@@ -146,7 +146,7 @@ class LBattelReport
         Player["ItemPrize"].forEach(function (Prize, Index) {
             Elkaisar.DB.Insert(`id_report = ${This.idReport}, id_player = ${Player.idPlayer}, prize = '${Prize["Item"]}', amount = ${Prize.amount}`, "report_mat_prize", [])
         });
-
+        
 
 
         var Sum = Object.values(Player["ResourcePrize"]).reduce(function (a, b) {
@@ -161,8 +161,9 @@ class LBattelReport
                              metal = ${Player["ResourcePrize"]["metal"] || 0}, 
                              coin  = ${Player["ResourcePrize"]["coin"]  || 0} `, "report_res_prize");
 
-        this.Battel.Fight.FightRecord.addPlayer(Player);
+        
     }
+    
 
 }
 

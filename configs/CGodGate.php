@@ -26,7 +26,11 @@ class CGodGate
         "vit"=>100,
         "attack"=>50,
         "damage"=>50,
-        "defence"=>50
+        "defence"=>50,
+        "break" => 15,
+        "anti_break" => 15,
+        "strike" => 15,
+        "immunity" => 15
     ];
     
      public static $RankPointPluse = [

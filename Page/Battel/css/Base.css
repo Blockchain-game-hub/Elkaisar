@@ -52,7 +52,13 @@ body{
     height: 100%;
     width: 80%;
     display: flex;
-    flex-flow: row
+    flex-flow: column;
+}
+#PlayControlBoard .bordContainer .DescBox{
+ 
+    display: flex;
+    flex-flow: row;
+    height: calc(100% - 30px)
 }
 
 
@@ -136,4 +142,133 @@ body{
     background-repeat: no-repeat;
     background-size: 90%;
     background-position-x: center;
+}
+
+
+#ControlBtns{
+    width: 100%;
+    height: 30px;
+    display: block;
+}
+
+#ControlBtns .con-btns-wrapper{
+    height: 100%;
+    width: 65%;
+    margin: auto;
+    background-image: url(../images/BattelReplay/BattalControl/play_bg.png);
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#ControlBtns .con-btns-wrapper ul{
+    list-style: none;
+    display: flex;
+    width: 150px;
+    height: 30px;
+    flex-flow: row;
+}
+
+#ControlBtns .con-btns-wrapper ul li{
+    width: 30%;
+    height: 100%;
+}
+
+#ControlBtns .con-btns-wrapper ul li button{
+    background: none;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-size: 100% auto;
+    border: none;
+}
+
+#ControlBtns .con-btns-wrapper ul .next-round{
+    width: 40%;
+}
+
+#ControlBtns .con-btns-wrapper ul .next-round button{
+    background-image: url(../images/BattelReplay/BattalControl/button_next-Normal.png);
+}
+#ControlBtns .con-btns-wrapper ul .next-round button:hover{
+    background-image: url(../images/BattelReplay/BattalControl/button_next-MouseOver.png);
+}
+#ControlBtns .con-btns-wrapper ul .next-round button:active{
+    background-image: url(../images/BattelReplay/BattalControl/button_next-ClickDown.png);
+}
+
+
+#ControlBtns .con-btns-wrapper ul .play-round button{
+    background-image: url(../images/BattelReplay/BattalControl/button_start-Normal.png);
+}
+#ControlBtns .con-btns-wrapper ul .play-round button:hover{
+    background-image: url(../images/BattelReplay/BattalControl/button_start-MouseOver.png);
+}
+#ControlBtns .con-btns-wrapper ul .play-round button:active{
+    background-image: url(../images/BattelReplay/BattalControl/button_start-ClickDown.png);
+}
+
+
+#ControlBtns .con-btns-wrapper ul .prev-round button{
+    background-image: url(../images/BattelReplay/BattalControl/button_back-Normal.png);
+}
+#ControlBtns .con-btns-wrapper ul .prev-round button:hover{
+    background-image: url(../images/BattelReplay/BattalControl/button_back-MouseOver.png);
+}
+#ControlBtns .con-btns-wrapper ul .prev-round button:active{
+    background-image: url(../images/BattelReplay/BattalControl/button_back-ClickDown.png);
+}
+
+
+
+#RightSideData{
+    width: 140px;
+    height: 200px;
+    position: fixed;
+    right: 0px;
+    top: 50px;
+    display: none
+}
+
+
+
+
+
+
+
+#RightSideData .city-health{
+    width: 100%;
+    height: 80%;
+    background-image: url(../images/BattelReplay/BattelReport/ZDbg.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+}
+
+#RightSideData .show-battel-report{
+    width: 100%;
+    height: 20%;
+}
+#RightSideData .show-battel-report .btn-wrapper{
+    height: 100%;
+}
+#RightSideData .show-battel-report button{
+    background: none;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    display: block;
+    background-image: url(../images/ui/btns/btn-n.png);
+    border: none;
+    background-size: 100% 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-size: 14px;
+}
+#RightSideData .show-battel-report button:hover{
+    background-image: url(../images/ui/btns/btn-h.png);
+}
+#RightSideData .show-battel-report button:active{
+    background-image: url(../images/ui/btns/btn-a.png);
 }

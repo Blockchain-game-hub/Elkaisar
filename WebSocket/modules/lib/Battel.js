@@ -78,7 +78,7 @@ exports.abort = function (con, msgObj) {
         });
     });
 
-    Elkaisar.Base.Request.postReq(
+    /*Elkaisar.Base.Request.postReq(
             {
                 "idHero": msgObj.idHero,
                 "server": con.idGameServer,
@@ -114,7 +114,7 @@ exports.abort = function (con, msgObj) {
 
 
             }
-    );
+    );*/
 
 };
 

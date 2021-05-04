@@ -37,7 +37,7 @@ class LBattel
         var Heros = [];
         var TimeBack = 0;
         var Battel = {};
-
+        
         Elkaisar.DB.SelectFrom("*", "battel_member", `id_hero = ${idHero}`, [], function (HeroBattel) {
             if (!HeroBattel[0])
                 return;
@@ -47,7 +47,8 @@ class LBattel
             var Hero;
             var PlayerFound = false;
             var Battel = Elkaisar.Battel.BattelList[HeroBattel[0]["id_battel"]];
-
+            console.log(Battel.Heros);
+            console.log(idHero);
             TimeBack = Math.floor(Date.now() / 1000) - Battel.Battel.time_start;
 
 
@@ -60,6 +61,7 @@ class LBattel
                         Hero: Hero
                     });
                     Battel.Heros.splice(Index, 1);
+                    
                 } else if (Hero.Hero.id_player == HeroBattel[0]["id_player"])
                     PlayerFound = true;
 
@@ -79,6 +81,7 @@ class LBattel
                 }
                 Elkaisar.Lib.LBattel.removeBattel(Battel.Battel.id_battel);
                 delete(Elkaisar.Battel.BattelList[Battel.Battel.id_battel]);
+                console.log(Elkaisar.Battel.BattelList);
             }
 
 
@@ -114,10 +117,10 @@ class LBattel
             Elkaisar.Battel.BattelList[Battel.id_battel].Battel.defenceNum++;
 
         Elkaisar.DB.SelectFrom(
-                `hero.point_a, hero.point_a_plus,hero.point_b, hero.point_b_plus,
-                 hero.point_c, hero.point_c_plus , hero.id_player, 
+                `hero.point_a, hero.point_a_plus,hero.point_b, hero.point_b_plus, hero.id_player,
+                 hero.point_c, hero.point_c_plus , hero.id_player, hero.avatar, hero.name AS HeroName,
                  hero_medal.medal_den , hero_medal.medal_leo, 
-                 hero.id_city, city.x, city.y `,
+                 hero.id_city, city.x, city.y , city.name AS CityName`,
                 `hero  JOIN hero_medal  ON hero_medal.id_hero = hero.id_hero JOIN city ON hero.id_city = city.id_city`,
                 `hero.id_hero = ?`, [Hero.idHero],
                 function (Res) {

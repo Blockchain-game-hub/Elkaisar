@@ -63,15 +63,16 @@ class LPlayer {
     static getPlayerdata(Player, callBack)
     {
         Elkaisar.DB.SelectFrom(
-                "name , id_player, guild, id_guild, porm",
+                "name , id_player, guild, id_guild, porm, avatar",
                 "player", "id_player = ?", [Player.idPlayer], function (Res) {
             if (Res[0])
                 Player.Player = {
-                    idGuild    : Res[0].id_guild,
-                    Porm       : Res[0].porm,
-                    GuildName  : Res[0].guild,
-                    PlayerName : Res[0].name,
-                    idPlayer   : Res[0].id_player
+                    idGuild      : Res[0].id_guild,
+                    Porm         : Res[0].porm,
+                    GuildName    : Res[0].guild,
+                    PlayerName   : Res[0].name,
+                    PlayerAvatar : Res[0].avatar,
+                    idPlayer     : Res[0].id_player
                 };
             if(callBack)
                 callBack();

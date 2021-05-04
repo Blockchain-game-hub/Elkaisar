@@ -257,6 +257,28 @@ class BattelReplayScene extends Phaser.Scene
         this.load.image('BattelGroundSprite', BASE_ASSET_BATH + '/images/BattelReplay/field.jpg');
         this.load.image('windowFrame', BASE_ASSET_BATH + '/images/BattelReplay/windowFrame.png');
         this.load.image('windowFrame', BASE_ASSET_BATH + '/images/BattelReplay/windowFrame.png');
+        
+        this.load.image('HeroFaceA1', BASE_ASSET_BATH + '/images/BattelReplay/BattelReport/faceA1.png');
+        this.load.image('HeroFaceA2', BASE_ASSET_BATH + '/images/BattelReplay/BattelReport/faceA2.png');
+        this.load.image('HeroFaceA3', BASE_ASSET_BATH + '/images/BattelReplay/BattelReport/faceA3.png');
+        this.load.image('HeroFaceA4', BASE_ASSET_BATH + '/images/BattelReplay/BattelReport/faceA4.png');
+        this.load.image('HeroFaceA5', BASE_ASSET_BATH + '/images/BattelReplay/BattelReport/faceA5.png');
+        this.load.image('HeroFaceA6', BASE_ASSET_BATH + '/images/BattelReplay/BattelReport/faceA6.png');
+        this.load.image('HeroFaceA7', BASE_ASSET_BATH + '/images/BattelReplay/BattelReport/faceA7.png');
+        this.load.image('HeroFaceA8', BASE_ASSET_BATH + '/images/BattelReplay/BattelReport/faceA8.png');
+        this.load.image('HeroFaceA9', BASE_ASSET_BATH + '/images/BattelReplay/BattelReport/faceA9.png');
+        this.load.image('HeroFaceA10', BASE_ASSET_BATH + '/images/BattelReplay/BattelReport/faceA10.png');
+        this.load.image('HeroFaceB1', BASE_ASSET_BATH + '/images/BattelReplay/BattelReport/faceB1.png');
+        this.load.image('HeroFaceB2', BASE_ASSET_BATH + '/images/BattelReplay/BattelReport/faceB2.png');
+        this.load.image('HeroFaceB3', BASE_ASSET_BATH + '/images/BattelReplay/BattelReport/faceB3.png');
+        this.load.image('HeroFaceB4', BASE_ASSET_BATH + '/images/BattelReplay/BattelReport/faceB4.png');
+        this.load.image('HeroFaceB5', BASE_ASSET_BATH + '/images/BattelReplay/BattelReport/faceB5.png');
+        this.load.image('HeroFaceB6', BASE_ASSET_BATH + '/images/BattelReplay/BattelReport/faceB6.png');
+        this.load.image('HeroFaceB7', BASE_ASSET_BATH + '/images/BattelReplay/BattelReport/faceB7.png');
+        this.load.image('HeroFaceB8', BASE_ASSET_BATH + '/images/BattelReplay/BattelReport/faceB8.png');
+        this.load.image('HeroFaceB9', BASE_ASSET_BATH + '/images/BattelReplay/BattelReport/faceB9.png');
+        this.load.image('HeroFaceB10', BASE_ASSET_BATH + '/images/BattelReplay/BattelReport/faceB10.png');
+        
         this.load.spritesheet('TroopArmyA', BASE_ASSET_BATH + '/images/BattelReplay/troop_triarii.png', {frameWidth: 100, frameHeight: 100});
         this.load.spritesheet('TroopArmyB', BASE_ASSET_BATH + '/images/BattelReplay/troop_cavalry.png', {frameWidth: 100, frameHeight: 100});
         this.load.spritesheet('TroopArmyC', BASE_ASSET_BATH + '/images/BattelReplay/troop_cohort.png', {frameWidth: 100, frameHeight: 100});
@@ -274,10 +296,8 @@ class BattelReplayScene extends Phaser.Scene
             ImageBg.destroy();
             Elkaisar.BattelReplay.drawControllPanel();
             This.configAnims();
-            (new BattelReplay(JSON.parse(BattelReplayData))).startBattelShow();
-            //(new BattelReplay(TestRound)).startBattelShow();
+            (new BattelReplay(BattelReplayData)).startBattelShow();
         });
-
 
 
     }
@@ -299,8 +319,11 @@ Elkaisar.BattelReplay.drawControllPanel = function (){
    var Win = $("#BattelReplayCanvas canvas");
     $("#PlayControlBoard").width(Win.width());
     $("#PlayControlBoard").css({top: Win.height() - $("#PlayControlBoard").height(), left: Win.offset().left, display: "flex"});
-    $("#BloodBar").css({display: "flex", left: Win.offset().left})
+    
+    $("#BloodBar").css({display: "flex", left: Win.offset().left});
     $("#BloodBar").width(Win.width());
+    $("#RightSideData").css({right: Win.offset().left + 3, display: "block"});
+    
 };
 
 

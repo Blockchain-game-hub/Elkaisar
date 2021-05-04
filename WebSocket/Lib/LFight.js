@@ -39,16 +39,11 @@ class LFight
         
         var check_loop_overflow = 0;
         var HerosQue = this.Battel.HeroReadyList;
-        var DefHeroCount = 0;
-        var AttHeroCount = 0;
         var Hero;
-        
         var Round;
+        
+        
         do {
-           
-            DefHeroCount = 0;
-            AttHeroCount = 0;
-            
             
             Round = new Elkaisar.Lib.LFightRound(this.Battel);
             
@@ -58,13 +53,8 @@ class LFight
                 if (this.checkHeroSweped(Hero))
                     continue;
                 
-                    
-                
-                
-                if(!Round.addHeroToRound(Hero))
-                    break;
-                
-                
+                Round.addHeroToRound(Hero);
+             
             }
             
 

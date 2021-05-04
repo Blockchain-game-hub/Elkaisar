@@ -1,0 +1,372 @@
+#dialg_box, #dialg_box_two {
+    width: 894px;
+    height: 503px;
+    background-image: url("../images/background/U.png"), url("../images/background/B.png") , url("../images/background/L.png"), url("../images/background/R.png"), url(../images/background/paperCenter.jpg);
+    background-repeat: repeat-x , repeat-x ,repeat-y , repeat-y , repeat;
+    background-position: top, bottom, left , right , center;
+    position: fixed;
+    left: 50%;
+    margin-left: -447px;
+    top: 125px;
+    z-index: 11;
+}
+
+#dialg_box::before, #dialg_box_two::before {
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: url("../images/background/UL.png"), url("../images/background/UR2.png") , url("../images/background/BL.png"), url("../images/background/BR.png");
+    background-repeat: no-repeat;
+    background-position: top left, top right, bottom left , bottom right;
+    position: absolute;
+    z-index: -10;
+}
+
+#dialg_box .head_bar, #dialg_box_two .head_bar, #select_from .head_bar {
+    width: 100%;
+    height: 63px;
+    margin-top: -63px;
+    direction: rtl;
+}
+#dialg_box .head_bar, #dialg_box_two .head_bar {
+    pointer-events: none;
+}
+#dialg_box .head_bar img, #dialg_box_two .head_bar img, #select_from .head_bar .banner {
+    height: 90px;
+    display: block;
+    margin: auto;
+}
+
+#dialg_box .head_bar .title, #dialg_box_two .head_bar .title, #select_from .head_bar .title {
+    text-align: center;
+    margin-top: -27px;
+    font-size: 16px;
+    color: white;
+}
+
+#dialg_box .nav_bar, #dialg_box_two .nav_bar {
+    width: 100%;
+    height: 55px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_bar .right-nav {
+    display: flex;
+}
+
+.nav_bar .nav_icon {
+    height: 100%;
+    float: right;
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+    direction: rtl;
+    margin-right: 15px;
+}
+
+.nav_bar .left-nav {
+    min-width: 80%;
+}
+
+.box_content {
+    height: 416px;
+    width: 833px;
+    margin: auto;
+    border: 12.5px solid transparent;
+    border-image-outset: 0;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-image: url(../../../images/background/border_a.png);
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-slice: 30;
+    border-image-repeat: round;
+    box-sizing: border-box;
+}
+
+#battel-report-msg .left-content {
+    height: 100%;
+}
+#msg_income_detail .left-content, #battel-report-msg .left-content, #msg_diff_detail .left-content, #msg_income_detail .left-content {
+    background: url(../../../images/skins/desc-rect.png);
+    background-position-y: 0%;
+    background-size: auto;
+    background-position-y: -18px;
+    background-size: 100% 106%;
+}
+
+#battel_r_upper {
+    background-image: url(../../../images/border/roof.png);
+    background-position-x: center;
+    background-size: 99% 50%;
+    background-repeat: no-repeat;
+    height: 34%;
+}
+
+.for_msg .header {
+    width: 100%;
+    height: 30px;
+}
+
+.for_Br .header .th {
+    height: 30px;
+    padding: 0px 12px;
+}
+.for_msg .header div {
+    margin-left: 10px;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+#battel-detail::after {
+    content: "";
+    width: 10px;
+    margin: auto;
+        margin-right: auto;
+    background-color: red;
+    position: absolute;
+    right: 50%;
+    margin-right: -5px;
+    height: 100%;
+    background-image: url(../../../images/border/sprite_v.png);
+    background-size: contain;
+}
+
+.th {
+    height: 21px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 21px;
+    background-image: url("../images/background/bar_L.png") ,url("../images/background/bar_R.png") , url("../images/background/bar_center.png");
+    background-repeat: no-repeat ,no-repeat , repeat-x;
+    background-position: left , right , center;
+    background-size: auto 100%;
+    color: white;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pull-R {
+    float: right;
+    margin-right: 10px;
+}
+.pull-L {
+    float: left;
+}
+.for_msg .result-icon {
+    position: absolute;
+    width: 25%;
+    margin-top: -31px;
+    left: 37.5%;
+    height: 40px;
+    background-image: url(../../../images/panner/h_title_l.png) , url(../../../images/panner/h_title_r.png);
+    background-repeat: no-repeat , no-repeat;
+    background-position: left , right;
+    background-size: 50% 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+.for_msg .battel-desc {
+    direction: rtl;
+    font-size: 14px;
+    line-height: 30px;
+    padding-right: 15px;
+}
+
+#battel_r_upper .resource-row {
+    height: 30px;
+    background-image: url(../../../images/background/progresbar_up_l.png) , url(../../../images/background/progresbar_up_r.png) , url(../../../images/background/center_1.jpg);
+    background-repeat: no-repeat, no-repeat, repeat-x;
+    background-position: left , right , center;
+    box-shadow: 2px 0px 4px 2px black;
+    width: 98%;
+    margin: auto;
+}
+
+#battel_r_upper .resource-row ul {
+    overflow: auto;
+}
+
+#battel_r_upper .resource-row li {
+    float: left;
+    width: 20%;
+    text-align: center;
+    color: greenyellow;
+    font-size: 14px;
+}
+
+#battel_r_upper .resource-row li img {
+    height: 25px;
+    vertical-align: middle;
+}
+
+#battel_r_upper .resource-row li span {
+    line-height: 27px;
+}
+
+.prize-row {
+    height: 70px;
+    margin-top: 2px;
+    padding-bottom: 4px;
+    background-image: url(../../../images/back-shape/freg-top-left.png), url(../../../images/back-shape/freg-top-right.png), url(../../../images/back-shape/freg-btm-left.png), url(../../../images/back-shape/freg-btm-right.png), url(../../../images/back-shape/top.png), url(../../../images/back-shape/bottom.png), url(../../../images/back-shape/center.png);
+    background-repeat: no-repeat , no-repeat ,no-repeat,no-repeat,repeat-x , repeat-x , repeat;
+    background-position: left top ,top right , bottom left , bottom right, top center , bottom center , center;
+    width: 98%;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.prize-row ul {
+    overflow: auto;
+    margin-top: 4px;
+    float: left;
+    width: 385px;
+}
+
+.prize-row li {
+    float: left;
+    margin-left: 5px;
+    text-align: center;
+    color: greenyellow;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.prize-row li img {
+    height: 25px;
+    vertical-align: middle;
+    padding: 2.5px;
+    background-image: url(../../../images/back-shape/rect.png);
+    background-size: 100% 100%;
+    box-sizing: border-box;
+}
+
+.prize-row li .amount {
+    margin-top: -15px;
+    height: 15px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: right;
+    margin-right: 15px;
+    width: 85%;
+}
+.stroke {
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.prize-row p {
+    height: 30px;
+    line-height: 35px;
+    float: right;
+    margin-right: 10px;
+    color: #81511c;
+    font-size: 14px;
+}
+
+#battel-detail {
+    width: 100%;
+    height: 64%;
+    overflow: auto;
+    position: relative;
+}
+
+#battel-detail .your_side {
+    background-repeat: no-repeat;
+    background-position: center;
+    border-right: solid 5px white;
+    box-sizing: border-box;
+}
+#battel-detail .your_side, #battel-detail .enemy_side {
+    width: 50%;
+    height: inherit;
+    float: left;
+}
+
+#battel-detail .enemy_side {
+    background-repeat: no-repeat;
+    background-position: center;
+    border-left: solid 5px transparent;
+    box-sizing: border-box;
+}
+
+#battel-detail ul li {
+    height: 80px;
+}
+#battel-detail .hero {
+    width: 30%;
+    float: left;
+    height: 100%;
+}
+
+#battel-detail ul .name {
+    margin: 5px 10px;
+    font-size: 13px;
+    font-weight: bold;
+}
+.ellipsis {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#battel-detail ul li .image img {
+    width: 91px;
+    margin-left: 10px;
+    background-image: url(../../../images/back-shape/rect.png);
+    background-size: 100% 100%;
+    border-radius: 6px;
+    padding: 4px;
+}
+
+#battel-detail ul li .image .xp {
+    font-size: 14px;
+    font-weight: bolder;
+    text-align: center;
+    width: 110px;
+    color: greenyellow;
+    margin-top: -24px;
+    width: 85%;
+    text-align: right;
+}
+
+#battel-detail .army {
+    width: 70%;
+    float: right;
+    height: 100%;
+}
+#battel-detail .army ol {
+    height: 100%;
+}
+
+#battel-detail .army ol li {
+    float: left;
+    width: 45px;
+    text-align: center;
+}
+#battel-detail ul li {
+    height: 80px;
+}
+#battel-detail .army ol li img {
+    display: block;
+    margin: auto;
+    margin-top: auto;
+    margin-top: 11px;
+    max-width: 40px;
+}
+
+.pre-amount {
+    color: white;
+}
+.post-amount {
+    color: #ff0d0c;
+    font-weight: bold;
+}

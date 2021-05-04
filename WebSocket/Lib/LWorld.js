@@ -99,7 +99,10 @@ Elkaisar.World.refreshWorldUnitHeros = function (callBack) {
                     medal_leo: 0,
                     x: 0, y: 0,
                     id_hero: Res[ii].id_hero * -1,
-                    id_city: 0
+                    id_city: 0,
+                    avatar: Res[ii].avatar,
+                    HeroName: Res[ii].name,
+                    idHero: Res[ii].id_hero * -1
                 },
                 Army: {
                     id_hero: 0,

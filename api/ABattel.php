@@ -27,7 +27,6 @@ class ABattel
     
     function abort()
     {
-        
         global $idPlayer;
         $idHero   = validateID($_POST["idHero"]);
         $Battel   = selectFromTable("*", "battel", "id_hero = :idh", ["idh" => $idHero]);
@@ -70,6 +69,7 @@ class ABattel
     
     private function retreatHero($Battel)
     {
+        
         global $idPlayer;
         $cumulative = 
                 

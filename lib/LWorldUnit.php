@@ -441,7 +441,7 @@ class LWorldUnit {
     }
 
     static function calAttackTime($idHero, $City, $Unit) {
-     
+        
         $unitType = $Unit["ut"];
         
        

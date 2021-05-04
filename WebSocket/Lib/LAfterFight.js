@@ -378,7 +378,11 @@ class LAfterFight
                 Prize.givePrize(Player, function () {
                     This.BattelReport.addPrize(Player);
                 });
+            
         });
+        
+        if (callBack)
+            callBack();
 
     }
 
