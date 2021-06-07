@@ -361,6 +361,7 @@ Elkaisar.Config.ArenaChallangeLvlReqExp = {
 Elkaisar.Config.EquipSpAtNone = 0;
 Elkaisar.Config.EquipSpAtArrowRainA = 1;
 Elkaisar.Config.EquipSpAtArrowRainB = 2;
+Elkaisar.Config.EquipSpAtIRonShield = 3;
 
 
 

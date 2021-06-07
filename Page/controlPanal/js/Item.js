@@ -10,7 +10,7 @@ ElkaisarCp.Item.getItemData = function () {
         type: 'GET',
         success: function (data, textStatus, jqXHR) {
             var jsonObject = JSON.parse(data);
-
+            console.log(jsonObject)
             for (var iii in jsonObject) {
                 var Item = jsonObject[iii];
                 if (!ElkaisarCp.Items[Item.id_item])

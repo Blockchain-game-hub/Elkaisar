@@ -83,28 +83,40 @@
                     <div class="table" style="margin-bottom: 0px; width: 100%"> 
                         <div class="listing" style="text-align: center">
                             <div class="th" style="background: #9097A9 url(../img/bg-th-left.gif) no-repeat left top;">
-                                <div class="tr" style="width: 30%; display: inline-block; ">قائمة اللاعبين</div>
-                                <div class="tr" style="width: 68%; display: inline-block">المواد</div>
+                                <div class="tr">الابطال</div>
 
                             </div>
-                            <div id="playerHeros" style="">
-                                <ul>
-                                    <div class="matrial-unit" hero-id="">
-                                        <img src="../images/items/item050.jpg">
-                                        <div class="amount">1500</div>
-                                        <div class="name"><span>تمثال فولكان</span></div>
-                                    </div>
-                                </ul>
+                            <div id="playerHeros1" style="">
+                                <ul></ul>
                             </div>
+                            <hr style="display: block;width: 100%;float: none;clear: both;">
+                            <div id="playerHeros2" style="">
+                                <ul> </ul>
+                            </div>
+                            <hr style="display: block;width: 100%;float: none;clear: both;">
+                            <div id="playerHeros3" style="">
+                                <ul></ul>
+                            </div>
+                            <hr style="display: block;width: 100%;float: none;clear: both;">
+                            <div id="playerHeros4" style="">
+                                <ul> </ul>
+                            </div>
+                            <hr style="display: block;width: 100%;float: none;clear: both;">
+                            <div id="playerHeros5" style=" display: block">
+                                <ul>    </ul>
+                            </div>
+
                         </div>
 
                     </div>
-                    <hr style="display: block;width: 100%;float: none;clear: both;">
+
                 </div>
             </div>
 
             <div id="footer"></div>
         </div>
+
+        
     </body>
     <script>
         var BASE_URL = "<?= BASE_URL ?>";

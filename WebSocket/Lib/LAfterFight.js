@@ -463,7 +463,7 @@ class LAfterFight
             "EnemyName": "بطل النظام",
             "WinPrize": Attacker.ItemPrize,
             "honor": Attacker.Honor,
-            "WorldUnit": {x: Unit.x, y: Unit.y, l: Unit.l, ut: Unit.ut, t: Unit.t}
+            "WorldUnit": {x: Unit.x, y: Unit.y, l: Unit.l - 1, ut: Unit.ut, t: Unit.t}
         });
     }
 

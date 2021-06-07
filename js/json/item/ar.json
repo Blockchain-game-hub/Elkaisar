@@ -23,6 +23,17 @@
         "long_desc": "بناء المدينة قد يكون منهك . البنائين المؤهلين قليلن . اقم بالخطبة التحفيزية لكى تستحت المهم وتزيد طاقات البنائين ويستطيعون مساعدتك فى تمام البناء بسرعة وكنتجه ستحصل هلى بنائين اكفاء يساعدونك فى البناء والتشييد"
 
     },
+    "motiv_pack": {
+        "image": "images/items/Hammer.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",  
+        "gold": 0,
+        "desc": "",     
+        "table": "matrial_main",
+        "db_tab": "matrial_main",
+        "long_desc": ""
+    },
     "prot_pop": {
         "image": "images/items/item002.jpg",
         "name": "اشعار حماية السكان",
@@ -78,6 +89,17 @@
         "db_tab": "matrial_main",
         "long_desc": "بواسطة هذه الماده تستطيع التخلى عن المساعد الحالى واختيار مساعد اخر حسب رغبتك واحتياج مدينتك "   
     },
+    "help_house_slog": {
+        "image": "images/items/item096.jpg",
+        "name": "",
+        "req": [],
+        "use": "none",  
+        "gold": 0,
+        "desc": "التخلى عن المساعد . وقم باعادة ضبط خاصيه المساعد الى الحاله الاولية له . سوف يتيح لك الحرية فى اختيار مساعد اخر بما يناسب مع تطور مدينتك واحتياجاتك ",      
+        "table": "matrial_main",
+        "db_tab": "matrial_main",
+        "long_desc": "بواسطة هذه الماده تستطيع التخلى عن المساعد الحالى واختيار مساعد اخر حسب رغبتك واحتياج مدينتك "   
+    },
     "family_slogan": {
         "image": "images/items/item097.jpg",
         "name": "شعار الاسرة",
@@ -122,6 +144,28 @@
         "db_tab": "matrial_main",
         "long_desc": "لكى توحد البلاد كلها فى امبراطورية كبيره . الملك يجب عليه ان يظهر رغبته فى النجاح فيما يتعلق بسعة الحلف وعهد الحلف لهم االقدرة على اقناع الملوك العظام للانظمام للحلف ليكونو تجمع هائل فى الحلف "
     },
+    "union_pack": {
+        "image": "images/items/vereinpacket.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",  
+        "gold": 0,
+        "desc": "مدير الحلف يقوم بالتعاهد مع الحلف لكى يستطيعون تطوير الحلف الى المستوى 10 بلمسة واحده وبسعة تصل الى 300 عضو ",      
+        "table": "matrial_main",
+        "db_tab": "matrial_main",
+        "long_desc": "لكى توحد البلاد كلها فى امبراطورية كبيره . الملك يجب عليه ان يظهر رغبته فى النجاح فيما يتعلق بسعة الحلف وعهد الحلف لهم االقدرة على اقناع الملوك العظام للانظمام للحلف ليكونو تجمع هائل فى الحلف "
+    },
+    "expan_plan_pack": {
+        "image": "images/items/architecturePacket.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",  
+        "gold": 0,
+        "desc": "مهم لوسعة المدينة . تحتاج الى استخدمها عندما يكون القصر لديك وصل الى مستوى 4.8 او 10 ",      
+        "table": "matrial_main",
+        "db_tab": "matrial_main",
+        "long_desc": "وعندما تصل مدينتك الى حد معين من التطور , وعندما تصل الى الحد الاقصى اوانه لا يوجد اماكن خاليه لكى تقوم بالبناء عليها , انت بحاجه حينها الى ان تستعمل الخطة هذه لكى تتمكن من توسعة مدينتك وبهذا ستحصل على اماكن خاليه يمكن البناء عليها "
+    },
     "expan_plan": {
         "image": "images/items/item003.jpg",
         "name": "خطة توسعة",
@@ -150,6 +194,50 @@
         "req": [],
         "use": "once",  
         "gold": 50,
+        "desc": "كسر السيادة طرت القوات الحامية والتى تجعل المدينة تحت جزية ولكن اذا استطاعت المدينة من كسر السياده فان القوات المرابطه قد تكون تابعة لتلك المدينة ",     
+        "table": "matrial_main",
+        "db_tab": "matrial_main",
+        "long_desc": "المدنة التى تحت الجزية . ربما ستعمل مساعدة الحرية لكى تحصل على السيادة من القوات المحتملة وبهذا تصبح دولة سيادة , وفى نفس الوقت القوات الحامية الى ترابط فى المدينة قد تسهل السيطرة عليها وتحويلها الى قوات تابعة للمدينة "
+    },
+    "freedom_take_away": {
+        "image": "images/items/item148.jpg",
+        "name": "سلب الحرية",
+        "req": [],
+        "use": "none",  
+        "gold": 0,
+        "desc": "كسر السيادة طرت القوات الحامية والتى تجعل المدينة تحت جزية ولكن اذا استطاعت المدينة من كسر السياده فان القوات المرابطه قد تكون تابعة لتلك المدينة ",     
+        "table": "matrial_main",
+        "db_tab": "matrial_main",
+        "long_desc": "المدنة التى تحت الجزية . ربما ستعمل مساعدة الحرية لكى تحصل على السيادة من القوات المحتملة وبهذا تصبح دولة سيادة , وفى نفس الوقت القوات الحامية الى ترابط فى المدينة قد تسهل السيطرة عليها وتحويلها الى قوات تابعة للمدينة "
+    },
+    "city_take_away": {
+        "image": "images/items/item151.jpg",
+        "name": "سلب الحرية",
+        "req": [],
+        "use": "none",  
+        "gold": 0,
+        "desc": "كسر السيادة طرت القوات الحامية والتى تجعل المدينة تحت جزية ولكن اذا استطاعت المدينة من كسر السياده فان القوات المرابطه قد تكون تابعة لتلك المدينة ",     
+        "table": "matrial_main",
+        "db_tab": "matrial_main",
+        "long_desc": "المدنة التى تحت الجزية . ربما ستعمل مساعدة الحرية لكى تحصل على السيادة من القوات المحتملة وبهذا تصبح دولة سيادة , وفى نفس الوقت القوات الحامية الى ترابط فى المدينة قد تسهل السيطرة عليها وتحويلها الى قوات تابعة للمدينة "
+    },
+    "king_slyer": {
+        "image": "images/items/item156.jpg",
+        "name": "ّذابح الملوك",
+        "req": [],
+        "use": "none",  
+        "gold": 0,
+        "desc": "كسر السيادة طرت القوات الحامية والتى تجعل المدينة تحت جزية ولكن اذا استطاعت المدينة من كسر السياده فان القوات المرابطه قد تكون تابعة لتلك المدينة ",     
+        "table": "matrial_main",
+        "db_tab": "matrial_main",
+        "long_desc": "المدنة التى تحت الجزية . ربما ستعمل مساعدة الحرية لكى تحصل على السيادة من القوات المحتملة وبهذا تصبح دولة سيادة , وفى نفس الوقت القوات الحامية الى ترابط فى المدينة قد تسهل السيطرة عليها وتحويلها الى قوات تابعة للمدينة "
+    },
+    "army_build_ex": {
+        "image": "images/items/item150.jpg",
+        "name": "",
+        "req": [],
+        "use": "none",  
+        "gold": 0,
         "desc": "كسر السيادة طرت القوات الحامية والتى تجعل المدينة تحت جزية ولكن اذا استطاعت المدينة من كسر السياده فان القوات المرابطه قد تكون تابعة لتلك المدينة ",     
         "table": "matrial_main",
         "db_tab": "matrial_main",
@@ -265,6 +353,28 @@
         "db_tab": "matrial_main",
         "long_desc": "نسر او علم القيصر يطمح الى امتلاكه الكثير من الابطال لكى تزيد من قدراتهك على القيادة وقدرتهم على القتال ايضا "
     },
+    "medal_pack": {
+        "image": "images/items/preacherpacket.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",  
+        "gold": 0,
+        "desc": "نسر او علم القيصر يزيد من القدرات القيادية بنسبة 25% . فعال لمدة 7 ايام ",      
+        "table": "matrial_main",
+        "db_tab": "matrial_main",
+        "long_desc": "نسر او علم القيصر يطمح الى امتلاكه الكثير من الابطال لكى تزيد من قدراتهك على القيادة وقدرتهم على القتال ايضا "
+    },
+    "skill_book": {
+        "image": "images/items/skillBook.jpg",
+        "name": "كتاب المهارات",
+        "req": [],
+        "use": "none",  
+        "gold": 0,
+        "desc": "يستخدم لفتح مهارة جديدة فى بوبات التسليح",      
+        "table": "matrial_main",
+        "db_tab": "matrial_main",
+        "long_desc": "عندما تحتاج الى بطل معين لا يوجد احد حوالك حينما يظهر بعض الابطال غير المرغوب فيه فى المسرح . رساله التجديد تبعدهم وتترك مجالات للمواهب الحقيقى "
+    },
     "rec_letter": {
         "image": "images/items/item013.jpg",
         "name": "رسالة تجنيد",
@@ -282,6 +392,17 @@
         "req": [],
         "use": "none",
         "gold": 8,
+        "desc": "هو نقطة التراجع فى نقاط التميز . حيث يمكنك التراجع عن اسقاط القياده والشجاعه والتصدي الى مستواها السابق . مثلا كان مستوى البكل قد تدنى يمكنك ا ستارجاعها عن طريق هذه الخاصيه نظام التراجع لكل عشر نقاط للبطل تحتاج الى نقطة اخرى زياده  ",      
+        "table": "matrial_main",
+        "db_tab": "matrial_main",
+        "long_desc": "تحتاج الى مجهود كبير لكي يتم تجنيد بطل جديد لمختلف اغراض ولكن ا كان لديك مخطط خاص لتجنيد البطل يمكن استعمال نظام التراجع بحيث تتمكن من تعديل ميزاته بما تناسب مع مخططك "
+    },
+    "retreat_point_pack": {
+        "image": "images/items/item015.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
         "desc": "هو نقطة التراجع فى نقاط التميز . حيث يمكنك التراجع عن اسقاط القياده والشجاعه والتصدي الى مستواها السابق . مثلا كان مستوى البكل قد تدنى يمكنك ا ستارجاعها عن طريق هذه الخاصيه نظام التراجع لكل عشر نقاط للبطل تحتاج الى نقطة اخرى زياده  ",      
         "table": "matrial_main",
         "db_tab": "matrial_main",
@@ -331,6 +452,39 @@
         "db_tab": "matrial_main",
         "long_desc": "على جميع احداثيات المدن التى تود معرفتها عن طريق ارسال الجواسيس"
     },
+    "RebelMessenger": {
+        "image": "images/items/RebelMessenger.jpg",
+        "name": "",
+        "req": [],
+        "use": "none", 
+        "gold": 0,
+        "desc": "لتحديد احداثيات المدن للاعبين المستهدفين . فعال لمده 24 ساعه ",      
+        "table": "matrial_main",
+        "db_tab": "matrial_main",
+        "long_desc": "على جميع احداثيات المدن التى تود معرفتها عن طريق ارسال الجواسيس"
+    },
+    "RebelMail": {
+        "image": "images/items/RebelMail.jpg",
+        "name": "",
+        "req": [],
+        "use": "none", 
+        "gold": 0,
+        "desc": "لتحديد احداثيات المدن للاعبين المستهدفين . فعال لمده 24 ساعه ",      
+        "table": "matrial_main",
+        "db_tab": "matrial_main",
+        "long_desc": "على جميع احداثيات المدن التى تود معرفتها عن طريق ارسال الجواسيس"
+    },
+    "TrialCertificate": {
+        "image": "images/items/TrialCertificate.jpg",
+        "name": "",
+        "req": [],
+        "use": "none", 
+        "gold": 0,
+        "desc": "لتحديد احداثيات المدن للاعبين المستهدفين . فعال لمده 24 ساعه ",      
+        "table": "matrial_main",
+        "db_tab": "matrial_main",
+        "long_desc": "على جميع احداثيات المدن التى تود معرفتها عن طريق ارسال الجواسيس"
+    },
     "change_name": {
         "image": "images/items/item026.jpg",
         "name": "تغير اسم الملك",
@@ -354,7 +508,7 @@
         "long_desc": " يمكنك شراء احد المواد الخاصة بالملوك الاخرين المعروضة داخل المركز ويتم شراءها  بالذهب او السسترسس"
     },
     "sell_voucher": {
-        "image": "images/items/sellVoucher.jpg",
+        "image": "images/items/SecretLetter.jpg",
         "name": "قسيمة بيع",
         "req": [],
         "use": "none",  
@@ -653,10 +807,9 @@
         "long_desc": "العملة المستخدمة للمتاجرة مع المواد الثمينة والنادرة  يمكن الحصول عليها من التبادل اليومي",
         "id":"drachma"
     },
-    
     "medalofcraft": {
         "image": "images/items/medalofcraft.jpg",
-        "name": "",
+        "name": "ميدالية الصنع",
         "req": [],
         "use": "none",  
         "gold": 0,
@@ -667,7 +820,7 @@
     },
     "miraculous_coins": {
         "image": "images/items/MiraculousCoins.jpg",
-        "name": "",
+        "name": "عملة المعجزات",
         "req": [],
         "use": "none",  
         "gold": 0,
@@ -678,7 +831,7 @@
     },
     "owl_of_minerva": {
         "image": "images/items/OwlofMinerva.jpg",
-        "name": "",
+        "name": "عملة الحكمة",
         "req": [],
         "use": "none",  
         "gold": 0,
@@ -689,7 +842,7 @@
     },
     "shining_coin": {
         "image": "images/items/ShiningCoin.jpg",
-        "name": "",
+        "name": "عملة قيصر",
         "req": [],
         "use": "none",  
         "gold": 0,
@@ -699,10 +852,9 @@
         "long_desc": ""
     },
     
-   
     "gold_cup": {
         "image": "images/items/GoldCup.png",
-        "name": "",
+        "name": "الكأس الذهبى",
         "req": [],
         "use": "none",  
         "gold": 0,
@@ -713,7 +865,7 @@
     },
     "bronze_cup": {
         "image": "images/items/BronzeCup.png",
-        "name": "",
+        "name": "الكأس النحاسى",
         "req": [],
         "use": "none",  
         "gold": 0,
@@ -724,7 +876,7 @@
     },
     "silver_cup": {
         "image": "images/items/SilverCup.jpg",
-        "name": "",
+        "name": "الكأس الفضى",
         "req": [],
         "use": "none",  
         "gold": 0,
@@ -735,7 +887,7 @@
     },
     "christmas_stocking": {
         "image": "images/items/christmasstocking.jpg",
-        "name": "",
+        "name": "جوارب  الكريسمس",
         "req": [],
         "use": "none",  
         "gold": 0,
@@ -746,7 +898,7 @@
     },
     "christmas_tree": {
         "image": "images/items/christmastree.jpg",
-        "name": "",
+        "name": "شجرة الكريسمس",
         "req": [],
         "use": "none",  
         "gold": 0,
@@ -757,7 +909,7 @@
     },
     "corn_seed": {
         "image": "images/items/CornSeed.jpg",
-        "name": "",
+        "name": "بذور الذرة",
         "req": [],
         "use": "none",  
         "gold": 0,
@@ -768,7 +920,18 @@
     },
     "courage_medal": {
         "image": "images/items/CourageMedal.jpg",
-        "name": "",
+        "name": "ميدالية البسالة",
+        "req": [],
+        "use": "none",  
+        "gold": 0,
+        "desc": "",      
+        "table": "matrial_main",
+        "db_tab": "matrial_main",
+        "long_desc": ""
+    },
+    "victory_medal": {
+        "image": "images/items/VictoryMedal.jpg",
+        "name": "ميدالية النصر",
         "req": [],
         "use": "none",  
         "gold": 0,
@@ -779,7 +942,7 @@
     },
     "king_medal": {
         "image": "images/items/KingMedal.jpg",
-        "name": "King Medal",
+        "name": "ميدالية الملك",
         "req": [],
         "use": "none",  
         "gold": 0,
@@ -790,7 +953,7 @@
     },
     "debris": {
         "image": "images/items/debris.jpg",
-        "name": "",
+        "name": "حطام الذهب",
         "req": [],
         "use": "none",  
         "gold": 0,
@@ -801,7 +964,7 @@
     },
     "essence": {
         "image": "images/items/essence.jpg",
-        "name": "",
+        "name": "الحجر الاحمر",
         "req": [],
         "use": "none",  
         "gold": 0,
@@ -812,7 +975,7 @@
     },
     "spartans": {
         "image": "images/items/spartans.jpg",
-        "name": "",
+        "name": "علم سبارطا",
         "req": [],
         "use": "none",  
         "gold": 0,
@@ -823,9 +986,9 @@
     },
     "spartans_pack": {
         "image": "images/items/spartansPack.jpg",
-        "name": "",
+        "name": "حقيبة سبارطا",
         "req": [],
-        "use": "none",  
+        "use": "Box",  
         "gold": 0,
         "desc": "",      
         "table": "matrial_main",
@@ -834,9 +997,20 @@
     },
     "spartans_relics": {
         "image": "images/items/spartansRelics.jpg",
-        "name": "",
+        "name": "قلادة سبارطا",
         "req": [],
         "use": "none",  
+        "gold": 0,
+        "desc": "",      
+        "table": "matrial_main",
+        "db_tab": "matrial_main",
+        "long_desc": ""
+    },
+    "spartans_flag_pack": {
+        "image": "images/items/MacedonEmblemPack.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",  
         "gold": 0,
         "desc": "",      
         "table": "matrial_main",
@@ -846,7 +1020,7 @@
     
     "thor_stone": {
         "image": "images/items/ThorStone.jpg",
-        "name": "",
+        "name": "احجار ثور",
         "req": [],
         "use": "none",  
         "gold": 0,
@@ -857,7 +1031,7 @@
     },
     "thor_pergament": {
         "image": "images/items/ThorPergament.jpg",
-        "name": "",
+        "name": "خطاب ثور",
         "req": [],
         "use": "none",  
         "gold": 0,
@@ -868,7 +1042,7 @@
     },
     "thor_fragment": {
         "image": "images/items/ThorFragment.jpg",
-        "name": "",
+        "name": "حطام ثور",
         "req": [],
         "use": "none",  
         "gold": 0,
@@ -879,7 +1053,7 @@
     },
     "sol_stone": {
         "image": "images/items/SolStone.jpg",
-        "name": "",
+        "name": "حجر النور",
         "req": [],
         "use": "none",  
         "gold": 0,
@@ -890,7 +1064,7 @@
     },
     "sol_pergament": {
         "image": "images/items/SolPergament.jpg",
-        "name": "",
+        "name": "خطاب النور",
         "req": [],
         "use": "none",  
         "gold": 0,
@@ -901,7 +1075,7 @@
     },
     "sol_fragment": {
         "image": "images/items/SolFragment.jpg",
-        "name": "",
+        "name": "حطام النور",
         "req": [],
         "use": "none",  
         "gold": 0,
@@ -912,7 +1086,7 @@
     },
     "luna_stone": {
         "image": "images/items/LunaStone.jpg",
-        "name": "",
+        "name": "حجر القمر",
         "req": [],
         "use": "none",  
         "gold": 0,
@@ -923,7 +1097,7 @@
     },
     "luna_pergament": {
         "image": "images/items/LunaPergament.jpg",
-        "name": "",
+        "name": "خطاب القمر",
         "req": [],
         "use": "none",  
         "gold": 0,
@@ -934,7 +1108,7 @@
     },
     "luna_fragment": {
         "image": "images/items/LunaFragment.jpg",
-        "name": "",
+        "name": "حطام القمر",
         "req": [],
         "use": "none",  
         "gold": 0,
@@ -946,7 +1120,7 @@
     
     "hephaestus_pieces_a": {
         "image": "images/items/HephaestusPiecesA.jpg",
-        "name": "",
+        "name": "قطع الحداد أ",
         "req": [],
         "use": "none",  
         "gold": 0,
@@ -958,7 +1132,7 @@
     
     "hephaestus_pieces_b": {
         "image": "images/items/HephaestusPiecesB.jpg",
-        "name": "",
+        "name": "قطع الحداد ب",
         "req": [],
         "use": "none",  
         "gold": 0,
@@ -969,7 +1143,7 @@
     },
     "mars_pieces_a": {
         "image": "images/items/MarspiecesA.jpg",
-        "name": "",
+        "name": "قطع مارس أ",
         "req": [],
         "use": "none",  
         "gold": 0,
@@ -980,7 +1154,7 @@
     },
     "mars_pieces_b": {
         "image": "images/items/MarspiecesB.jpg",
-        "name": "",
+        "name": "قطع مارس ب",
         "req": [],
         "use": "none",  
         "gold": 0,
@@ -991,7 +1165,7 @@
     },
     "mars_pieces_c": {
         "image": "images/items/MarspiecesC.jpg",
-        "name": "",
+        "name": "قطع مارس ج",
         "req": [],
         "use": "none",  
         "gold": 0,
@@ -1002,7 +1176,7 @@
     },
     "soul_of_mars": {
         "image": "images/items/SoulofMars.jpg",
-        "name": "",
+        "name": "شعاع مارس",
         "req": [],
         "use": "none",  
         "gold": 0,
@@ -1011,12 +1185,9 @@
         "db_tab": "matrial_main",
         "long_desc": ""
     },
-    
-    
-    
     "gold_bar_piece": {
         "image": "images/items/GoldBarPiece.jpg",
-        "name": "",
+        "name": "القطع الذهبية",
         "req": [],
         "use": "none",  
         "gold": 0,
@@ -1027,7 +1198,7 @@
     },
     "gold_bar": {
         "image": "images/items/GoldBar.jpg",
-        "name": "",
+        "name": "السبيكة الذهبية",
         "req": [],
         "use": "none",  
         "gold": 0,
@@ -1038,7 +1209,7 @@
     },
     "silver_bar": {
         "image": "images/items/SilverBar.jpg",
-        "name": "",
+        "name": "السبيكة الفضية",
         "req": [],
         "use": "none",  
         "gold": 0,
@@ -1049,7 +1220,7 @@
     },
     "bronze_bar": {
         "image": "images/items/BronzeBar.jpg",
-        "name": "",
+        "name": "السبيكة البرنزية",
         "req": [],
         "use": "none",  
         "gold": 0,
@@ -1058,9 +1229,42 @@
         "db_tab": "matrial_main",
         "long_desc": ""
     },
+    "bronze_bar_pack":{
+        "image": "images/items/BigBronzeBarPack.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_main",
+        "db_tab": "matrial_main",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "silver_bar_pack":{
+        "image": "images/items/BigSilverBarPack.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_main",
+        "db_tab": "matrial_main",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "gold_bar_pack":{
+        "image": "images/items/GoldBarPack.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_main",
+        "db_tab": "matrial_main",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
     "high_glory_stone": {
         "image": "images/items/HighGloryStone.jpg",
-        "name": "",
+        "name": "احجار الشرف الكبري",
         "req": [],
         "use": "none",  
         "gold": 0,
@@ -1071,7 +1275,7 @@
     },
     "medium_glory_stone": {
         "image": "images/items/MediumGloryStone.jpg",
-        "name": "",
+        "name": "احجار المجد الوسطى",
         "req": [],
         "use": "none",  
         "gold": 0,
@@ -1082,7 +1286,7 @@
     },
     "low_glory_stone": {
         "image": "images/items/LowGloryStone.jpg",
-        "name": "",
+        "name": "احجار الشرف الصغرى",
         "req": [],
         "use": "none",  
         "gold": 0,
@@ -1096,7 +1300,7 @@
         "image": "images/items/festival_blue.jpg",
         "name": "الحزمة الزرقاء",
         "req": [],
-        "use": "none",  
+        "use": "Box",  
         "gold": 0,
         "desc": "",      
         "table": "matrial_main",
@@ -1107,7 +1311,7 @@
         "image": "images/items/festival_gray.jpg",
         "name": "الحزمة الرمادية",
         "req": [],
-        "use": "none",  
+        "use": "Box",  
         "gold": 0,
         "desc": "",      
         "table": "matrial_main",
@@ -1118,7 +1322,7 @@
         "image": "images/items/festival_green.jpg",
         "name": "الحزمة الخضراء",
         "req": [],
-        "use": "none",  
+        "use": "Box",  
         "gold": 0,
         "desc": "",      
         "table": "matrial_main",
@@ -1129,7 +1333,7 @@
         "image": "images/items/festival_orange.jpg",
         "name": "الحزمة البرتقالية",
         "req": [],
-        "use": "none",  
+        "use": "Box",  
         "gold": 0,
         "desc": "",      
         "table": "matrial_main",
@@ -1140,7 +1344,7 @@
         "image": "images/items/festival_purple.jpg",
         "name": "الحزمة الارجوانية",
         "req": [],
-        "use": "none",  
+        "use": "Box",  
         "gold": 0,
         "desc": "",      
         "table": "matrial_main",
@@ -1151,7 +1355,7 @@
         "image": "images/items/festival_special.jpg",
         "name": "الحزمة الخاصة",
         "req": [],
-        "use": "none",  
+        "use": "Box",  
         "gold": 0,
         "desc": "",      
         "table": "matrial_main",
@@ -1162,7 +1366,7 @@
         "image": "images/items/festival_yellow.jpg",
         "name": "الحزمة الصفراء",
         "req": [],
-        "use": "none",  
+        "use": "Box",  
         "gold": 0,
         "desc": "",      
         "table": "matrial_main",
@@ -1172,6 +1376,17 @@
     "ghostemblem": {
         "image": "images/items/ghostemblem.jpg",
         "name": "شعار الموت",
+        "req": [],
+        "use": "none",  
+        "gold": 0,
+        "desc": "",      
+        "table": "matrial_main",
+        "db_tab": "matrial_main",
+        "long_desc": ""
+    },
+    "pumpkinlantem": {
+        "image": "images/items/pumpkinlantem.jpg",
+        "name": "",
         "req": [],
         "use": "none",  
         "gold": 0,
@@ -1225,6 +1440,17 @@
         "long_desc": ""
     },
     
+    "peace_emblem_pack": {
+        "image": "images/items/PeaceEmblem.Pocket.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",  
+        "gold": 0,
+        "desc": "",      
+        "table": "matrial_main",
+        "db_tab": "matrial_main",
+        "long_desc": ""
+    },
     "peace_emblem": {
         "image": "images/items/PeaceEmblem.jpg",
         "name": "شعار السلام",
@@ -1261,7 +1487,7 @@
     },
     "staduim_orange": {
         "image": "images/items/item163.jpg",
-        "name": "",
+        "name": "ملعب فرنسا",
         "req": [],
         "use": "none",  
         "gold": 0,
@@ -1272,7 +1498,7 @@
     },
     "staduim_red": {
         "image": "images/items/item164.jpg",
-        "name": "",
+        "name": "ملعب مصر",
         "req": [],
         "use": "none",  
         "gold": 0,
@@ -1283,7 +1509,7 @@
     },
     "staduim_blue": {
         "image": "images/items/item165.jpg",
-        "name": "",
+        "name": "ملعب المانيا",
         "req": [],
         "use": "none",  
         "gold": 0,
@@ -1294,9 +1520,64 @@
     },
     "king": {
         "image": "images/items/king.jpg",
+        "name": "مدينة الملك",
+        "req": [],
+        "use": "none",  
+        "gold": 0,
+        "desc": "",      
+        "table": "matrial_main",
+        "db_tab": "matrial_main",
+        "long_desc": ""
+    },
+    "snowman": {
+        "image": "images/items/snowcity.jpg",
+        "name": "مدينة الملك",
+        "req": [],
+        "use": "none",  
+        "gold": 0,
+        "desc": "",      
+        "table": "matrial_main",
+        "db_tab": "matrial_main",
+        "long_desc": ""
+    },
+    "old_gitar": {
+        "image": "images/items/Lyre.jpg",
         "name": "",
         "req": [],
         "use": "none",  
+        "gold": 0,
+        "desc": "",      
+        "table": "matrial_main",
+        "db_tab": "matrial_main",
+        "long_desc": ""
+    },
+    "win_glass": {
+        "image": "images/items/WineGlass.jpg",
+        "name": "",
+        "req": [],
+        "use": "none",  
+        "gold": 0,
+        "desc": "",      
+        "table": "matrial_main",
+        "db_tab": "matrial_main",
+        "long_desc": ""
+    },
+    "chat_horn": {
+        "image": "images/items/item021.jpg",
+        "name": "",
+        "req": [],
+        "use": "none",  
+        "gold": 0,
+        "desc": "",      
+        "table": "matrial_main",
+        "db_tab": "matrial_main",
+        "long_desc": ""
+    },
+    "chat_horn_pack": {
+        "image": "images/items/item023.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",  
         "gold": 0,
         "desc": "",      
         "table": "matrial_main",
@@ -1435,6 +1716,17 @@
         "db_tab": "matrial_acce",
         "long_desc": "كتب متخصصه فى ادارة المدن وتحتوى على الكثير من الدراسات والابحثاث باستخدام هذه الخاصه تستطيع تقصير مدة التوظف بنسبة 30 %"
     },
+    "doughnut": {
+        "image": "images/items/doughnut.jpg",
+        "name": "الخبز",
+        "req": [],
+        "use": "none", 
+        "gold": 5,
+        "desc": "يزيد من الطاقة البدنية للبطل بمقدار 5 %",      
+        "table": "matrial_acce",
+        "db_tab": "matrial_acce",
+        "long_desc": "الرومانيون يعرفون انواع كثيره من الحبز. وبالتحديد الخبز الذى ينطع مع الخميره . باستعمالك لهذه الخاصيه سوف تزيد الطاقة البدنة  للبطل بمقدار 10%"
+    },
     "bread": {
         "image": "images/items/item091.jpg",
         "name": "الخبز",
@@ -1474,6 +1766,17 @@
         "req": [],
         "use": "none", 
         "gold": 80,
+        "desc": "يزيد من الطاقة البدنية للبطل الى الحد الاعلى ",      
+        "table": "matrial_acce",
+        "db_tab": "matrial_acce",
+        "long_desc": "وقطعة من اللحم تعطى للبطل طاقة كامله وتعيده الى الطاقة القصوى "
+    },
+    "hero_power_pack": {
+        "image": "images/items/Turkey.jpg",
+        "name": "اللحوم",
+        "req": [],
+        "use": "Box", 
+        "gold": 0,
         "desc": "يزيد من الطاقة البدنية للبطل الى الحد الاعلى ",      
         "table": "matrial_acce",
         "db_tab": "matrial_acce",
@@ -1540,6 +1843,28 @@
         "req": [],
         "use": "none",  
         "gold": 100,
+        "desc": "تريد الخبرع للبطل بمقدار 100% او 1000000 وحده وربما اكثر",      
+        "table": "matrial_acce",
+        "db_tab": "matrial_acce",
+        "long_desc": "حروب الاسكندر   خاصية اذ استخدمتها للابطال فانها تزيد من نقاط الخبره  بمقدار 100 % ما يعادل 1000000 وحدة خبره"
+    },
+    "exp_arena_100": {
+        "image": "images/items/incGodExp10k.jpg",
+        "name": "",
+        "req": [],
+        "use": "none",  
+        "gold": 100,
+        "desc": "تريد الخبرع للبطل بمقدار 100% او 1000000 وحده وربما اكثر",      
+        "table": "matrial_acce",
+        "db_tab": "matrial_acce",
+        "long_desc": "حروب الاسكندر   خاصية اذ استخدمتها للابطال فانها تزيد من نقاط الخبره  بمقدار 100 % ما يعادل 1000000 وحدة خبره"
+    },
+    "exp_arena_1000": {
+        "image": "images/items/incGodExp100k.jpg",
+        "name": "",
+        "req": [],
+        "use": "none",  
+        "gold": 1000,
         "desc": "تريد الخبرع للبطل بمقدار 100% او 1000000 وحده وربما اكثر",      
         "table": "matrial_acce",
         "db_tab": "matrial_acce",
@@ -1702,12 +2027,23 @@
         "db_tab": "matrial_product",
         "long_desc": "هذه خدمة خاصه تحصل عليها وتستطيع استخدامها اذا اردت فى زيادة محصولك من للسسترسس  بمقدار 25% ولكن لمدة 7 ايام "
     },
-
+    "production_pack": {
+        "image": "images/items/6godmixpacket.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "",
+        "table": "matrial_product",
+        "db_tab": "matrial_product",
+        "long_desc": ""
+    },
+    
     "gift_box": {
         "image": "images/items/item068.jpg",
         "name": "صندوق الهدايا",
         "req": [],
-        "use": "once",
+        "use": "Box",
         "gold": 80,
         "desc": "صندوق الهدايا يحتوي ٤-١٢ مواد كمالية ورفاهية : صبغ بهارات نبيذ، كل صندوق يحتوي على الاقل مادتين من هؤلاء . من كل مادة يوجد حوالي ٢-٤ قطع ",
         "table": "matrial_box",
@@ -1718,7 +2054,7 @@
         "image": "images/items/item069.jpg",
         "name": "صندوق خشبى",
         "req": [],
-        "use": "once",
+        "use": "Box",
         "gold": 140,
         "desc": "الصندوق الخشبي يحتوي ٤-١٢ مواد كمالية ورفاهية : الصوف ، حرير، فرو  كل صندوق يحتوي على الاقل مادتين من كل مادة يوجد  ٢-٤ قطع ",
         "table": "matrial_box",
@@ -1729,7 +2065,7 @@
         "image": "images/items/item070.jpg",
         "name": "صندوق حلى",
         "req": [],
-        "use": "once",
+        "use": "Box",
         "gold": 240,
         "desc": "صندوق هدايا يحروي ٤-١٢ مادة كمالية : بخور عاج جواهر  وبداخل كل صندوق مادتين من كل مادة يوجد ٢-٤ ",
         "table": "matrial_box",
@@ -1747,6 +2083,17 @@
         "db_tab": "matrial_box",
         "long_desc": "دولاب الحظ وهي دولاب يحتاج الي تقديم هدية الدولاب لكي يقوم بالدوران وعندما تقوم بتدويره سوف تحصل على مادة بشكل عشوائي"
     },
+    "hidden_box": {
+        "image": "images/items/Hiddenbox.jpg",
+        "name": "صندوق التمرد الخفى",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "افتح الصندوق للحصول على مادة عشوائية ",
+        "table": "matrial_box",
+        "db_tab": "matrial_box",
+        "long_desc": "افتح الصندوق للحصول على مادة عشوائية "
+    },
     "army_box": {
         "image": "images/items/item066.jpg",
         "name": "حزمة الجيش العملاقة",
@@ -1758,39 +2105,27 @@
         "db_tab": "matrial_box",
         "long_desc": "ستعطيك فيلق قوي وقوات قوية تحتوي الفرسان والمقاليع والمنجنيق. وبهذا قد تصبح قوة لا تهزم"
     },
-    "tagned_3p": {
-        "image": "images/items/item086.jpg",
-        "name": "بطل بثلاثة نقاط امكانية",
+    "easter_pack": {
+        "image": "images/items/EasterFortune.jpg",
+        "name": "",
         "req": [],
-        "use": "many",
-        "gold": 50,
-        "desc": "تجنيد بطل بشكل عشوائي من المسرح بطل ب٣ نقاط امكانية  بالمستوى٣",
+        "use": "Box",
+        "gold": 0,
+        "desc": "",
         "table": "matrial_box",
         "db_tab": "matrial_box",
-        "long_desc": "افتح المواد ومن ثم افتح الصندوق لكي تحصل عليها"
+        "long_desc": ""
     },
-    "tagned_4p": {
-        "image": "images/items/item086.jpg",
-        "name": "بطل باربعة نقاط امكانية",
+    "easter_box": {
+        "image": "images/items/EasterPack.jpg",
+        "name": "",
         "req": [],
-        "use": "many",
-        "gold": 80,
-        "desc": "تجنيد بطل بشكل عشوائي من المسرح بطل ٤ نقاط امكانية u628/ بالمستوى ٤  ",
+        "use": "Box",
+        "gold": 0,
+        "desc": "",
         "table": "matrial_box",
         "db_tab": "matrial_box",
-        "long_desc": "افتح المواد ومن ثم افتح الصندوق لكي تحصل عليها"
-
-    },
-    "tagned_5p": {
-        "image": "images/items/item086.jpg",
-        "name": "بطل بخمسة نقاط امكانية",
-        "req": [],
-        "use": "many",
-        "gold": 120,
-        "desc": "تجنيد بطل بشكل عشوائي من المسرح ٥ نقاط امكانية  بالمستوى ٥  ",
-        "table": "matrial_box",
-        "db_tab": "matrial_box",
-        "long_desc": "افتح المواد ومن ثم افتح الصندوق لكي تحصل عليها"
+        "long_desc": ""
     },
     "necklace_1": {
         "image": "images/items/item159.jpg",
@@ -1846,6 +2181,17 @@
         "table": "matrial_box",
         "db_tab": "matrial_box",
         "long_desc": "لتحقق من اهليتك في المشاركة في المناوارت"
+    },
+    "necklace_6": {
+        "image": "images/items/item161.jpg",
+        "name": "القلادة الخضراء",
+        "req": [],
+        "use": "none",
+        "gold": 150,
+        "desc": "",
+        "table": "matrial_box",
+        "db_tab": "matrial_box",
+        "long_desc": ""
     },
     "medal_bronz": {
         "image": "images/items/CopperMedal.jpg",
@@ -1913,6 +2259,17 @@
         "table": "matrial_box",
         "db_tab": "matrial_box_plus",
         "long_desc": "افتح المواد ومن ثم افتح الصندوق لكي تحصل عليها"
+    },
+    "army_all_pack": {
+        "image": "images/items/PowerfulMilitaryPack.jpg",
+        "name": "صندوق حزم اسرى",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "",
+        "table": "matrial_box",
+        "db_tab": "matrial_box_plus",
+        "long_desc": ""
     },
     "army_a_100": {
         "image": "images/items/item144.jpg",
@@ -2046,6 +2403,40 @@
         "db_tab": "matrial_box_plus",
         "long_desc": "افتح المواد من ثم افتح  الصندوق لكي تحصل عليها"
     },
+    "tagned_3p": {
+        "image": "images/items/item086.jpg",
+        "name": "بطل بثلاثة نقاط امكانية",
+        "req": [],
+        "use": "many",
+        "gold": 50,
+        "desc": "تجنيد بطل بشكل عشوائي من المسرح بطل ب٣ نقاط امكانية  بالمستوى٣",
+        "table": "matrial_box",
+        "db_tab": "matrial_box",
+        "long_desc": "افتح المواد ومن ثم افتح الصندوق لكي تحصل عليها"
+    },
+    "tagned_4p": {
+        "image": "images/items/item086.jpg",
+        "name": "بطل باربعة نقاط امكانية",
+        "req": [],
+        "use": "many",
+        "gold": 80,
+        "desc": "تجنيد بطل بشكل عشوائي من المسرح بطل ٤ نقاط امكانية u628/ بالمستوى ٤  ",
+        "table": "matrial_box",
+        "db_tab": "matrial_box",
+        "long_desc": "افتح المواد ومن ثم افتح الصندوق لكي تحصل عليها"
+
+    },
+    "tagned_5p": {
+        "image": "images/items/item086.jpg",
+        "name": "بطل بخمسة نقاط امكانية",
+        "req": [],
+        "use": "many",
+        "gold": 120,
+        "desc": "تجنيد بطل بشكل عشوائي من المسرح ٥ نقاط امكانية  بالمستوى ٥  ",
+        "table": "matrial_box",
+        "db_tab": "matrial_box",
+        "long_desc": "افتح المواد ومن ثم افتح الصندوق لكي تحصل عليها"
+    },
     "tagned_6p": {
         "image": "images/items/item086.jpg",
         "name": "بطل بستة نقاط امكانية",
@@ -2079,6 +2470,95 @@
         "db_tab": "matrial_box",
         "long_desc": "افتح المواد من ثم افتح  الصندوق لكي تحصل عليها"
     },
+    "tagned_pack": {
+        "image": "images/items/LvUpPacket.jpg",
+        "name": "حزمة ابطال",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "بطل بثمانية نقاط امكانية",
+        "table": "matrial_box",
+        "db_tab": "matrial_box",
+        "long_desc": "افتح المواد من ثم افتح  الصندوق لكي تحصل عليها"
+    },
+    "tagned_random": {
+        "image": "images/items/newHeroPack.png",
+        "name": "حزمة ابطال",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "بطل بثمانية نقاط امكانية",
+        "table": "matrial_box",
+        "db_tab": "matrial_box",
+        "long_desc": "افتح المواد من ثم افتح  الصندوق لكي تحصل عليها"
+    },
+    "MinervaGem": {
+        "image": "images/items/MinervaGem.jpg",
+        "name": "",
+        "req": [],
+        "use": "none",
+        "gold": 0,
+        "desc": "",
+        "table": "matrial_box",
+        "db_tab": "matrial_box",
+        "long_desc": ""
+    },
+    "MinervaHolyWater": {
+        "image": "images/items/MinervaHolyWater.jpg",
+        "name": "",
+        "req": [],
+        "use": "none",
+        "gold": 0,
+        "desc": "",
+        "table": "matrial_box",
+        "db_tab": "matrial_box",
+        "long_desc": ""
+    },
+    "MinervaHolyWater.S": {
+        "image": "images/items/MinervaHolyWater.S.jpg",
+        "name": "",
+        "req": [],
+        "use": "none",
+        "gold": 0,
+        "desc": "",
+        "table": "matrial_box",
+        "db_tab": "matrial_box",
+        "long_desc": ""
+    },
+    "MinervaHolyWater.M": {
+        "image": "images/items/MinervaHolyWater.M.jpg",
+        "name": "",
+        "req": [],
+        "use": "none",
+        "gold": 0,
+        "desc": "",
+        "table": "matrial_box",
+        "db_tab": "matrial_box",
+        "long_desc": ""
+    },
+    "MinervaHolyWater.L": {
+        "image": "images/items/MinervaHolyWater.L.jpg",
+        "name": "",
+        "req": [],
+        "use": "none",
+        "gold": 0,
+        "desc": "",
+        "table": "matrial_box",
+        "db_tab": "matrial_box",
+        "long_desc": ""
+    },
+    "MinervaHolyWaterPack": {
+        "image": "images/items/MinervaHoyWaterIII.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "",
+        "table": "matrial_box",
+        "db_tab": "matrial_box",
+        "long_desc": ""
+    },
+    
     "t_map": {
         "image": "images/items/item090.jpg",
         "name": "خريطة الكنز",
@@ -2113,7 +2593,7 @@
         "long_desc": " افتح المواد من ثم افتح  الصندوق لكي تحصل عليها"
     },
     "food_c": {
-        "image": "images/items/item081.jpg",
+        "image": "images/items/item104.jpg",
         "name": "100000 غذاء",
         "req": [],
         "use": "many",
@@ -2124,11 +2604,22 @@
         "long_desc": " افتح المواد من ثم افتح  الصندوق لكي تحصل عليها"
     },
     "food_d": {
-        "image": "images/items/item081.jpg",
+        "image": "images/items/item104.jpg",
         "name": "350000 غذاء",
         "req": [],
         "use": "many",
         "gold": 100,
+        "desc": "يمكنك فتح احزمة والحصول على 350000 وحدة غذاء ",
+        "table": "matrial_box",
+        "db_tab": "matrial_box_plus",
+        "long_desc": " افتح المواد من ثم افتح  الصندوق لكي تحصل عليها"
+    },
+    "food_pack": {
+        "image": "images/items/SaturnPack.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
         "desc": "يمكنك فتح احزمة والحصول على 350000 وحدة غذاء ",
         "table": "matrial_box",
         "db_tab": "matrial_box_plus",
@@ -2157,7 +2648,7 @@
         "long_desc": " افتح المواد من ثم افتح  الصندوق لكي تحصل عليها"
     },
     "wood_c": {
-        "image": "images/items/item082.jpg",
+        "image": "images/items/item105.jpg",
         "name": "100000 خشب",
         "req": [],
         "use": "many",
@@ -2168,7 +2659,7 @@
         "long_desc": " افتح المواد من ثم افتح  الصندوق لكي تحصل عليها"
     },
     "wood_d": {
-        "image": "images/items/item082.jpg",
+        "image": "images/items/item105.jpg",
         "name": "350000 خشب",
         "req": [],
         "use": "many",
@@ -2201,7 +2692,7 @@
         "long_desc": " افتح المواد من ثم افتح  الصندوق لكي تحصل عليها"
     },
     "stone_c": {
-        "image": "images/items/item083.jpg",
+        "image": "images/items/item106.jpg",
         "name": "100000 صخور",
         "req": [],
         "use": "many",
@@ -2212,7 +2703,7 @@
         "long_desc": " افتح المواد من ثم افتح  الصندوق لكي تحصل عليها"
     },
     "stone_d": {
-        "image": "images/items/item083.jpg",
+        "image": "images/items/item106.jpg",
         "name": "350000 صخور",
         "req": [],
         "use": "many",
@@ -2245,7 +2736,7 @@
         "long_desc": " افتح المواد من ثم افتح  الصندوق لكي تحصل عليها"
     },
     "metal_c": {
-        "image": "images/items/item084.jpg",
+        "image": "images/items/item107.jpg",
         "name": "100000 حديد",
         "req": [],
         "use": "many",
@@ -2256,7 +2747,7 @@
         "long_desc": " افتح المواد من ثم افتح  الصندوق لكي تحصل عليها"
     },
     "metal_d": {
-        "image": "images/items/item084.jpg",
+        "image": "images/items/item107.jpg",
         "name": "350000 حديد",
         "req": [],
         "use": "many",
@@ -2289,7 +2780,7 @@
         "long_desc": " افتح المواد من ثم افتح  الصندوق لكي تحصل عليها"
     },
     "coin_c": {
-        "image": "images/items/item085.jpg",
+        "image": "images/items/item108.jpg",
         "name": "100000 عملات",
         "req": [],
         "use": "many",
@@ -2300,7 +2791,7 @@
         "long_desc": " افتح المواد من ثم افتح  الصندوق لكي تحصل عليها"
     },
     "coin_d": {
-        "image": "images/items/item085.jpg",
+        "image": "images/items/item108.jpg",
         "name": "350000 عملات",
         "req": [],
         "use": "many",
@@ -2314,7 +2805,7 @@
         "image": "images/items/item053.jpg",
         "name": "Newcomer Pack I",
         "req": [],
-        "use": "once",
+        "use": "Box",
         "gold": 0,
         "desc": "The amount of items you can get: 5000 Crops, 5000 Lumber, 5000 Stone, 5000 Iron, 1 De Architectura Outline, 1 Newcomer Pack II.",
         "table": "matrial_box",
@@ -2325,7 +2816,7 @@
         "image": "images/items/item054.jpg",
         "name": "Newcomer Pack II",
         "req": [],
-        "use": "once",
+        "use": "Box",
         "gold": 0,
         "desc": "The amount of items you can get: 10000 Crops, 10000 Lumber, 10000 Stone, 10000 Iron, 1 Saturn Acrolith, 1 Faunus Acrolith, 1 Ceres Acrolith, 1 Vulcan Acrolith, 1 Mercury Acrolith, 2 Recruitment Rescript, 2 Bugle, 1 Zodiac Goat, 1 Newcomer Pack III.",
         "table": "matrial_box",
@@ -2336,7 +2827,7 @@
         "image": "images/items/item055.jpg",
         "name": "Newcomer Pack III",
         "req": [],
-        "use": "once",
+        "use": "Box",
         "gold": 0,
         "desc": "The amount of items you can get: 10000 Sesterces, 10000 Crops, 10000 Lumber, 10000 Stone, 10000 Iron, 5 Gold, 2 Recruitment Rescript, 5 Bugle, 1 Zodiac Goat, 1 Newcomer Pack IV.",
         "table": "matrial_box",
@@ -2347,7 +2838,7 @@
         "image": "images/items/item056.jpg",
         "name": "Newcomer Pack IV",
         "req": [],
-        "use": "once",
+        "use": "Box",
         "gold": 0,
         "desc": "The amount of items you can get: 1 Politics Elementary, 1 Archimedes Sketch, 1 Archimedes Note, 1 Reversion Act, 1 Pulley Crane, 5 Bugle, 1 Newcomer Pack V.",
         "table": "matrial_box",
@@ -2358,7 +2849,7 @@
         "image": "images/items/item057.jpg",
         "name": "Newcomer Pack VI",
         "req": [],
-        "use": "once",
+        "use": "Box",
         "gold": 0,
         "desc": "The amount of items you can get: 1 Saturn Acrolith, 1 Faunus Acrolith, 1 Ceres Acrolith, 1 Vulcan Acrolith, 1 Bread, 1 Mover, 1 Greco-Persian Wars, 1 Newcomer Pack VII.",
         "table": "matrial_box",
@@ -2369,7 +2860,7 @@
         "image": "images/items/item058.jpg",
         "name": "Newcomer Pack I",
         "req": [],
-        "use": "once",
+        "use": "Box",
         "gold": 0,
         "desc": "The amount of items you can get: 5000 Crops, 5000 Lumber, 5000 Stone, 5000 Iron, 1 De Architectura Outline, 1 Newcomer Pack II.",
         "table": "matrial_box",
@@ -2380,7 +2871,7 @@
         "image": "images/items/item059.jpg",
         "name": "Newcomer Pack II",
         "req": [],
-        "use": "once",
+        "use": "Box",
         "gold": 0,
         "desc": "The amount of items you can get: 10000 Crops, 10000 Lumber, 10000 Stone, 10000 Iron, 1 Saturn Acrolith, 1 Faunus Acrolith, 1 Ceres Acrolith, 1 Vulcan Acrolith, 1 Mercury Acrolith, 2 Recruitment Rescript, 2 Bugle, 1 Zodiac Goat, 1 Newcomer Pack III.",
         "table": "matrial_box",
@@ -2389,9 +2880,9 @@
     },
     "beginner_back_8": {
         "image": "images/items/item060.jpg",
-        "name": "Newcomer Pack III",
+        "name": "صندوق كنز",
         "req": [],
-        "use": "once",
+        "use": "Box",
         "gold": 0,
         "desc": "The amount of items you can get: 10000 Sesterces, 10000 Crops, 10000 Lumber, 10000 Stone, 10000 Iron, 5 Gold, 2 Recruitment Rescript, 5 Bugle, 1 Zodiac Goat, 1 Newcomer Pack IV.",
         "table": "matrial_box",
@@ -2402,7 +2893,7 @@
         "image": "images/items/item061.jpg",
         "name": "Newcomer Pack IV",
         "req": [],
-        "use": "once",
+        "use": "Box",
         "gold": 0,
         "desc": "The amount of items you can get: 1 Politics Elementary, 1 Archimedes Sketch, 1 Archimedes Note, 1 Reversion Act, 1 Pulley Crane, 5 Bugle, 1 Newcomer Pack V.",
         "table": "matrial_box",
@@ -2413,19 +2904,7 @@
         "image": "images/items/item062.jpg",
         "name": "Newcomer Pack VI",
         "req": [],
-        "use": "once",
-        "gold": 0,
-        "desc": "The amount of items you can get: 1 Saturn Acrolith, 1 Faunus Acrolith, 1 Ceres Acrolith, 1 Vulcan Acrolith, 1 Bread, 1 Mover, 1 Greco-Persian Wars, 1 Newcomer Pack VII.",
-        "table": "matrial_box",
-        "db_tab": "matrial_box_plus",
-        "long_desc": "Unpack prerequisite is Rectorate Lv 6. You get various Acroliths to buff up resource production, Bread for hero Physical restoration, and Mover to relocate your city for strategic maneuver. You also get Greco-Persian Wars again to speed up hero upgrade."
-    },
-    
-    "golden_supply_crate": {
-        "image": "images/items/GoldenSupplyCrate.jpg",
-        "name": "Newcomer Pack VI",
-        "req": [],
-        "use": "once",
+        "use": "Box",
         "gold": 0,
         "desc": "The amount of items you can get: 1 Saturn Acrolith, 1 Faunus Acrolith, 1 Ceres Acrolith, 1 Vulcan Acrolith, 1 Bread, 1 Mover, 1 Greco-Persian Wars, 1 Newcomer Pack VII.",
         "table": "matrial_box",
@@ -2436,7 +2915,7 @@
         "image": "images/items/kingChest.jpg",
         "name": "Newcomer Pack VI",
         "req": [],
-        "use": "once",
+        "use": "Box",
         "gold": 0,
         "desc": "The amount of items you can get: 1 Saturn Acrolith, 1 Faunus Acrolith, 1 Ceres Acrolith, 1 Vulcan Acrolith, 1 Bread, 1 Mover, 1 Greco-Persian Wars, 1 Newcomer Pack VII.",
         "table": "matrial_box",
@@ -2447,7 +2926,7 @@
         "image": "images/items/RomaColosseumbox.jpg",
         "name": "Newcomer Pack VI",
         "req": [],
-        "use": "once",
+        "use": "Box",
         "gold": 0,
         "desc": "The amount of items you can get: 1 Saturn Acrolith, 1 Faunus Acrolith, 1 Ceres Acrolith, 1 Vulcan Acrolith, 1 Bread, 1 Mover, 1 Greco-Persian Wars, 1 Newcomer Pack VII.",
         "table": "matrial_box",
@@ -2456,9 +2935,9 @@
     },
     "senate_golden_box": {
         "image": "images/items/SenateGoldenBox.jpg",
-        "name": "Newcomer Pack VI",
+        "name": "صندوق ذهبى",
         "req": [],
-        "use": "once",
+        "use": "Box",
         "gold": 0,
         "desc": "The amount of items you can get: 1 Saturn Acrolith, 1 Faunus Acrolith, 1 Ceres Acrolith, 1 Vulcan Acrolith, 1 Bread, 1 Mover, 1 Greco-Persian Wars, 1 Newcomer Pack VII.",
         "table": "matrial_box",
@@ -2467,9 +2946,9 @@
     },
     "senate_platinum_box": {
         "image": "images/items/SenatePlatinumBox.jpg",
-        "name": "Newcomer Pack VI",
+        "name": "صندوق ماسى",
         "req": [],
-        "use": "once",
+        "use": "Box",
         "gold": 0,
         "desc": "The amount of items you can get: 1 Saturn Acrolith, 1 Faunus Acrolith, 1 Ceres Acrolith, 1 Vulcan Acrolith, 1 Bread, 1 Mover, 1 Greco-Persian Wars, 1 Newcomer Pack VII.",
         "table": "matrial_box",
@@ -2478,9 +2957,42 @@
     },
     "senate_silver_box": {
         "image": "images/items/SenateSilverBox.jpg",
+        "name": "صندوق فضى",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "The amount of items you can get: 1 Saturn Acrolith, 1 Faunus Acrolith, 1 Ceres Acrolith, 1 Vulcan Acrolith, 1 Bread, 1 Mover, 1 Greco-Persian Wars, 1 Newcomer Pack VII.",
+        "table": "matrial_box",
+        "db_tab": "matrial_box_plus",
+        "long_desc": "Unpack prerequisite is Rectorate Lv 6. You get various Acroliths to buff up resource production, Bread for hero Physical restoration, and Mover to relocate your city for strategic maneuver. You also get Greco-Persian Wars again to speed up hero upgrade."
+    },
+    "platinum_supply_crate": {
+        "image": "images/items/PlatinumSupplyCrate.jpg",
         "name": "Newcomer Pack VI",
         "req": [],
-        "use": "once",
+        "use": "Box",
+        "gold": 0,
+        "desc": "The amount of items you can get: 1 Saturn Acrolith, 1 Faunus Acrolith, 1 Ceres Acrolith, 1 Vulcan Acrolith, 1 Bread, 1 Mover, 1 Greco-Persian Wars, 1 Newcomer Pack VII.",
+        "table": "matrial_box",
+        "db_tab": "matrial_box_plus",
+        "long_desc": "Unpack prerequisite is Rectorate Lv 6. You get various Acroliths to buff up resource production, Bread for hero Physical restoration, and Mover to relocate your city for strategic maneuver. You also get Greco-Persian Wars again to speed up hero upgrade."
+    },
+    "diamond_supply_crate": {
+        "image": "images/items/DiamondSupplyCrate.jpg",
+        "name": "Newcomer Pack VI",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "The amount of items you can get: 1 Saturn Acrolith, 1 Faunus Acrolith, 1 Ceres Acrolith, 1 Vulcan Acrolith, 1 Bread, 1 Mover, 1 Greco-Persian Wars, 1 Newcomer Pack VII.",
+        "table": "matrial_box",
+        "db_tab": "matrial_box_plus",
+        "long_desc": "Unpack prerequisite is Rectorate Lv 6. You get various Acroliths to buff up resource production, Bread for hero Physical restoration, and Mover to relocate your city for strategic maneuver. You also get Greco-Persian Wars again to speed up hero upgrade."
+    },
+    "golden_supply_crate": {
+        "image": "images/items/GoldenSupplyCrate.jpg",
+        "name": "Newcomer Pack VI",
+        "req": [],
+        "use": "Box",
         "gold": 0,
         "desc": "The amount of items you can get: 1 Saturn Acrolith, 1 Faunus Acrolith, 1 Ceres Acrolith, 1 Vulcan Acrolith, 1 Bread, 1 Mover, 1 Greco-Persian Wars, 1 Newcomer Pack VII.",
         "table": "matrial_box",
@@ -2491,7 +3003,7 @@
         "image": "images/items/SilverSupplyCrate.jpg",
         "name": "Newcomer Pack VI",
         "req": [],
-        "use": "once",
+        "use": "Box",
         "gold": 0,
         "desc": "The amount of items you can get: 1 Saturn Acrolith, 1 Faunus Acrolith, 1 Ceres Acrolith, 1 Vulcan Acrolith, 1 Bread, 1 Mover, 1 Greco-Persian Wars, 1 Newcomer Pack VII.",
         "table": "matrial_box",
@@ -2502,7 +3014,7 @@
         "image": "images/items/SolChest.jpg",
         "name": "Newcomer Pack VI",
         "req": [],
-        "use": "once",
+        "use": "Box",
         "gold": 0,
         "desc": "The amount of items you can get: 1 Saturn Acrolith, 1 Faunus Acrolith, 1 Ceres Acrolith, 1 Vulcan Acrolith, 1 Bread, 1 Mover, 1 Greco-Persian Wars, 1 Newcomer Pack VII.",
         "table": "matrial_box",
@@ -2513,7 +3025,7 @@
         "image": "images/items/Vertumnusbox.jpg",
         "name": "Newcomer Pack VI",
         "req": [],
-        "use": "once",
+        "use": "Box",
         "gold": 0,
         "desc": "The amount of items you can get: 1 Saturn Acrolith, 1 Faunus Acrolith, 1 Ceres Acrolith, 1 Vulcan Acrolith, 1 Bread, 1 Mover, 1 Greco-Persian Wars, 1 Newcomer Pack VII.",
         "table": "matrial_box",
@@ -2524,14 +3036,299 @@
         "image": "images/items/WinterPack.jpg",
         "name": "Newcomer Pack VI",
         "req": [],
-        "use": "once",
+        "use": "Box",
         "gold": 0,
         "desc": "The amount of items you can get: 1 Saturn Acrolith, 1 Faunus Acrolith, 1 Ceres Acrolith, 1 Vulcan Acrolith, 1 Bread, 1 Mover, 1 Greco-Persian Wars, 1 Newcomer Pack VII.",
         "table": "matrial_box",
         "db_tab": "matrial_box_plus",
         "long_desc": "Unpack prerequisite is Rectorate Lv 6. You get various Acroliths to buff up resource production, Bread for hero Physical restoration, and Mover to relocate your city for strategic maneuver. You also get Greco-Persian Wars again to speed up hero upgrade."
     },
-
+    "lost_pack": {
+        "image": "images/items/LostPackage.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "",
+        "table": "matrial_box",
+        "db_tab": "matrial_box_plus",
+        "long_desc": ""
+    },
+    "letter_pendant_up_2":{
+        "image": "images/items/LoyalAccessoriesLetterOfUpgradeResult.Lv2.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "",
+        "table": "matrial_box",
+        "db_tab": "matrial_box_plus",
+        "long_desc": ""
+    },
+    "letter_pendant_up_3":{
+        "image": "images/items/LoyalAccessoriesLetterOfUpgradeResult.Lv3.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "",
+        "table": "matrial_box",
+        "db_tab": "matrial_box_plus",
+        "long_desc": ""
+    },
+    "letter_belt_up_2":{
+        "image": "images/items/LoyalCaestusLetterOfUpgradeResult.Lv2.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "",
+        "table": "matrial_box",
+        "db_tab": "matrial_box_plus",
+        "long_desc": ""
+    },
+    "letter_belt_up_3":{
+        "image": "images/items/LoyalCaestusLetterOfUpgradeResult.Lv3.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "",
+        "table": "matrial_box",
+        "db_tab": "matrial_box_plus",
+        "long_desc": ""
+    },
+    "letter_necklace_up_2":{
+        "image": "images/items/LoyalNecklaceLetterOfUpgradeResult.Lv2.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "",
+        "table": "matrial_box",
+        "db_tab": "matrial_box_plus",
+        "long_desc": ""
+    },
+    "letter_necklace_up_3":{
+        "image": "images/items/LoyalNecklaceLetterOfUpgradeResult.Lv3.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "",
+        "table": "matrial_box",
+        "db_tab": "matrial_box_plus",
+        "long_desc": ""
+    },
+    "letter_ring_up_2":{
+        "image": "images/items/LoyalRingLetterOfUpgradeResult.Lv2.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "",
+        "table": "matrial_box",
+        "db_tab": "matrial_box_plus",
+        "long_desc": ""
+    },
+    "letter_ring_up_3":{
+        "image": "images/items/LoyalRingLetterOfUpgradeResult.Lv3.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "",
+        "table": "matrial_box",
+        "db_tab": "matrial_box_plus",
+        "long_desc": ""
+    },
+    "letter_steed_up_2":{
+        "image": "images/items/LoyalMountLetterOfUpgradeResult.Lv2.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "",
+        "table": "matrial_box",
+        "db_tab": "matrial_box_plus",
+        "long_desc": ""
+    },
+    "letter_steed_up_3":{
+        "image": "images/items/LoyalMountLetterOfUpgradeResult.Lv3.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "",
+        "table": "matrial_box",
+        "db_tab": "matrial_box_plus",
+        "long_desc": ""
+    },
+    "letter_pendant_1":{
+        "image": "images/items/LoyalAccessoriesTicket.Lv1.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "",
+        "table": "matrial_box",
+        "db_tab": "matrial_box_plus",
+        "long_desc": ""
+    },
+    "letter_pendant_2":{
+        "image": "images/items/LoyalAccessoriesTicket.Lv2.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "",
+        "table": "matrial_box",
+        "db_tab": "matrial_box_plus",
+        "long_desc": ""
+    },
+    "letter_pendant_3":{
+        "image": "images/items/LoyalAccessoriesTicket.Lv3.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "",
+        "table": "matrial_box",
+        "db_tab": "matrial_box_plus",
+        "long_desc": ""
+    },
+    "letter_belt_1":{
+        "image": "images/items/LoyalCaestusTicket.Lv1.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "",
+        "table": "matrial_box",
+        "db_tab": "matrial_box_plus",
+        "long_desc": ""
+    },
+    "letter_belt_2":{
+        "image": "images/items/LoyalCaestusTicket.Lv2.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "",
+        "table": "matrial_box",
+        "db_tab": "matrial_box_plus",
+        "long_desc": ""
+    },
+    "letter_belt_3":{
+        "image": "images/items/LoyalCaestusTicket.Lv3.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "",
+        "table": "matrial_box",
+        "db_tab": "matrial_box_plus",
+        "long_desc": ""
+    },
+    "letter_necklace_1":{
+        "image": "images/items/LoyalNecklaceTicket.Lv1.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "",
+        "table": "matrial_box",
+        "db_tab": "matrial_box_plus",
+        "long_desc": ""
+    },
+    "letter_necklace_2":{
+        "image": "images/items/LoyalNecklaceTicket.Lv2.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "",
+        "table": "matrial_box",
+        "db_tab": "matrial_box_plus",
+        "long_desc": ""
+    },
+    "letter_necklace_3":{
+        "image": "images/items/LoyalNecklaceTicket.Lv3.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "",
+        "table": "matrial_box",
+        "db_tab": "matrial_box_plus",
+        "long_desc": ""
+    },
+    "letter_ring_1":{
+        "image": "images/items/LoyalRingTicket.Lv1.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "",
+        "table": "matrial_box",
+        "db_tab": "matrial_box_plus",
+        "long_desc": ""
+    },
+    "letter_ring_2":{
+        "image": "images/items/LoyalRingTicket.Lv2.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "",
+        "table": "matrial_box",
+        "db_tab": "matrial_box_plus",
+        "long_desc": ""
+    },
+    "letter_ring_3":{
+        "image": "images/items/LoyalRingTicket.Lv3.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "",
+        "table": "matrial_box",
+        "db_tab": "matrial_box_plus",
+        "long_desc": ""
+    },
+    "letter_steed_1":{
+        "image": "images/items/LoyalMountTicket.Lv1.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "",
+        "table": "matrial_box",
+        "db_tab": "matrial_box_plus",
+        "long_desc": ""
+    },
+    "letter_steed_2":{
+        "image": "images/items/LoyalMountTicket.Lv2.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "",
+        "table": "matrial_box",
+        "db_tab": "matrial_box_plus",
+        "long_desc": ""
+    },
+    "letter_steed_3":{
+        "image": "images/items/LoyalMountTicket.Lv3.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "",
+        "table": "matrial_box",
+        "db_tab": "matrial_box_plus",
+        "long_desc": ""
+    },
     "luxury_1": {
         "image": "images/items/item071.jpg",
         "name": "صبغ",
@@ -2626,6 +3423,17 @@
         "req": [],
         "use": "none",
         "gold": 60,
+        "desc": "احد  المواد الكمالية الهامة التى ترفع تصنيف اللاعب او النبيل بمقدار كبير, وكذا تدريب ابطال بمستويات عالية. وعندما تستخدمها لمكافأة الابطال تزيد واحدة الولاء بمقدار 45",
+        "table": "matrial_luxury",
+        "db_tab": "matrial_luxury",
+        "long_desc": "الجواهر كانت وما تزال من اغلى الاشياء  فى التاريخ الرومانى حاله حال الالماس والجواهر المختلفة الاخرى وكان احد الهدايا الهامة فى التاريخ الرمانى القديم"
+    },
+    "luxury_pack": {
+        "image": "images/items/WinePack.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
         "desc": "احد  المواد الكمالية الهامة التى ترفع تصنيف اللاعب او النبيل بمقدار كبير, وكذا تدريب ابطال بمستويات عالية. وعندما تستخدمها لمكافأة الابطال تزيد واحدة الولاء بمقدار 45",
         "table": "matrial_luxury",
         "db_tab": "matrial_luxury",
@@ -2737,6 +3545,17 @@
         "req": [],
         "use": "once",
         "gold": 10,
+        "desc": "يرفع كشعار ثانوى لمدينتك فعا لمدة 7 أيام ",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "الشعار الاغريقى سوف يوضع محل العلم الثانوى. فى اعلى المدينتك لمدة 7 أيام عندما تقوم بتفعيلة. <br/> (يمكن استخدام الشعار لتبدية بأحد المواد من اتبادل او المهام)"
+    },
+    "necklace_4_pack": {
+        "image": "images/items/Trans.black.pocket.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
         "desc": "يرفع كشعار ثانوى لمدينتك فعا لمدة 7 أيام ",
         "table": "matrial_flags",
         "db_tab": "matrial_flags",
@@ -2854,113 +3673,750 @@
     },
     "god_point_5":{
         "image": "images/items/item068.jpg",
-        "name": "5 نقاط الالهة",
+        "name": "5 نقاط التسليح",
         "req": [],
         "use": "many",
         "gold": 1,
-        "desc": "تقديم قربان للالهة للحصول فى المقابل على 5 نقطة الالهة",
+        "desc": "تقديم قربان للالهة للحصول فى المقابل على 5 نقطة التسليح",
         "table": "matrial_flags",
         "db_tab": "matrial_flags",
-        "long_desc": "بعد تقدقيمك قربان للالهة الرومانى والفرعونية قديما يمكنك الحصول على نقاط لاستخدمها فى  بوبات الالهة الخاصة بك للحصول على قوة اضافية لجيوشك"
+        "long_desc": "بعد تقدقيمك قربان للالهة الرومانى والفرعونية قديما يمكنك الحصول على نقاط لاستخدمها فى  بوبات التسليح الخاصة بك للحصول على قوة اضافية لجيوشك"
     },
     "god_point_30":{
         "image": "images/items/item103.jpg",
-        "name": "30 نقاط الالهة",
+        "name": "30 نقاط التسليح",
         "req": [],
         "use": "many",
         "gold": 5,
-        "desc": "تقديم قربان للالهة للحصول فى المقابل على 30 نقطة الالهة",
+        "desc": "تقديم قربان للالهة للحصول فى المقابل على 30 نقطة التسليح",
         "table": "matrial_flags",
         "db_tab": "matrial_flags",
-        "long_desc": "بعد تقدقيمك قربان للالهة الرومانى والفرعونية قديما يمكنك الحصول على نقاط لاستخدمها فى  بوبات الالهة الخاصة بك للحصول على قوة اضافية لجيوشك"
+        "long_desc": "بعد تقدقيمك قربان للالهة الرومانى والفرعونية قديما يمكنك الحصول على نقاط لاستخدمها فى  بوبات التسليح الخاصة بك للحصول على قوة اضافية لجيوشك"
     },
     "god_point_75":{
         "image": "images/items/item063.jpg",
-        "name": "75 نقاط الالهة",
+        "name": "75 نقاط التسليح",
         "req": [],
         "use": "many",
         "gold": 10,
-        "desc": "تقديم قربان للالهة للحصول فى المقابل على 75 نقطة الالهة",
+        "desc": "تقديم قربان للالهة للحصول فى المقابل على 75 نقطة التسليح",
         "table": "matrial_flags",
         "db_tab": "matrial_flags",
-        "long_desc": "بعد تقدقيمك قربان للالهة الرومانى والفرعونية قديما يمكنك الحصول على نقاط لاستخدمها فى  بوبات الالهة الخاصة بك للحصول على قوة اضافية لجيوشك"
+        "long_desc": "بعد تقدقيمك قربان للالهة الرومانى والفرعونية قديما يمكنك الحصول على نقاط لاستخدمها فى  بوبات التسليح الخاصة بك للحصول على قوة اضافية لجيوشك"
     },
     "god_point_175":{
         "image": "images/items/item064.jpg",
-        "name": "175 نقاط الالهة",
+        "name": "175 نقاط التسليح",
         "req": [],
         "use": "many",
         "gold": 20,
-        "desc": "تقديم قربان للالهة للحصول فى المقابل على 175 نقطة الالهة",
+        "desc": "تقديم قربان للالهة للحصول فى المقابل على 175 نقطة التسليح",
         "table": "matrial_flags",
         "db_tab": "matrial_flags",
-        "long_desc": "بعد تقدقيمك قربان للالهة الرومانى والفرعونية قديما يمكنك الحصول على نقاط لاستخدمها فى  بوبات الالهة الخاصة بك للحصول على قوة اضافية لجيوشك"
+        "long_desc": "بعد تقدقيمك قربان للالهة الرومانى والفرعونية قديما يمكنك الحصول على نقاط لاستخدمها فى  بوبات التسليح الخاصة بك للحصول على قوة اضافية لجيوشك"
     },
     "god_point_750":{
         "image": "images/items/item053.jpg",
-        "name": "750 نقاط الالهة",
+        "name": "750 نقاط التسليح",
         "req": [],
         "use": "many",
         "gold": 80,
-        "desc": "تقديم قربان للالهة للحصول فى المقابل على 750 نقطة الالهة",
+        "desc": "تقديم قربان للالهة للحصول فى المقابل على 750 نقطة التسليح",
         "table": "matrial_flags",
         "db_tab": "matrial_flags",
-        "long_desc": "بعد تقدقيمك قربان للالهة الرومانى والفرعونية قديما يمكنك الحصول على نقاط لاستخدمها فى  بوبات الالهة الخاصة بك للحصول على قوة اضافية لجيوشك"
+        "long_desc": "بعد تقدقيمك قربان للالهة الرومانى والفرعونية قديما يمكنك الحصول على نقاط لاستخدمها فى  بوبات التسليح الخاصة بك للحصول على قوة اضافية لجيوشك"
     },
     "god_point_1k":{
         "image": "images/items/item054.jpg",
-        "name": "1000  نقاط الالهة",
+        "name": "1000  نقاط التسليح",
         "req": [],
         "use": "many",
         "gold": 100,
-        "desc": "تقديم قربان للالهة للحصول فى المقابل على 1,000 نقطة الالهة",
+        "desc": "تقديم قربان للالهة للحصول فى المقابل على 1,000 نقطة التسليح",
         "table": "matrial_flags",
         "db_tab": "matrial_flags",
-        "long_desc": "بعد تقدقيمك قربان للالهة الرومانى والفرعونية قديما يمكنك الحصول على نقاط لاستخدمها فى  بوبات الالهة الخاصة بك للحصول على قوة اضافية لجيوشك"
+        "long_desc": "بعد تقدقيمك قربان للالهة الرومانى والفرعونية قديما يمكنك الحصول على نقاط لاستخدمها فى  بوبات التسليح الخاصة بك للحصول على قوة اضافية لجيوشك"
     },
     "god_point_2k":{
         "image": "images/items/item055.jpg",
-        "name": "2000 نقاط الالهة",
+        "name": "2000 نقاط التسليح",
         "req": [],
         "use": "many",
         "gold": 180,
-        "desc": "تقديم قربان للالهة للحصول فى المقابل على 2,000 نقطة الالهة",
+        "desc": "تقديم قربان للالهة للحصول فى المقابل على 2,000 نقطة التسليح",
         "table": "matrial_flags",
         "db_tab": "matrial_flags",
-        "long_desc": "بعد تقدقيمك قربان للالهة الرومانى والفرعونية قديما يمكنك الحصول على نقاط لاستخدمها فى  بوبات الالهة الخاصة بك للحصول على قوة اضافية لجيوشك"
+        "long_desc": "بعد تقدقيمك قربان للالهة الرومانى والفرعونية قديما يمكنك الحصول على نقاط لاستخدمها فى  بوبات التسليح الخاصة بك للحصول على قوة اضافية لجيوشك"
     },
     "god_point_5k":{
         "image": "images/items/item056.jpg",
-        "name": "5000 نقاط الالهة",
+        "name": "5000 نقاط التسليح",
         "req": [],
         "use": "many",
         "gold": 425,
-        "desc": "تقديم قربان للالهة للحصول فى المقابل على 5,000 نقطة الالهة",
+        "desc": "تقديم قربان للالهة للحصول فى المقابل على 5,000 نقطة التسليح",
         "table": "matrial_flags",
         "db_tab": "matrial_flags",
-        "long_desc": "بعد تقدقيمك قربان للالهة الرومانى والفرعونية قديما يمكنك الحصول على نقاط لاستخدمها فى  بوبات الالهة الخاصة بك للحصول على قوة اضافية لجيوشك"
+        "long_desc": "بعد تقدقيمك قربان للالهة الرومانى والفرعونية قديما يمكنك الحصول على نقاط لاستخدمها فى  بوبات التسليح الخاصة بك للحصول على قوة اضافية لجيوشك"
     },
     "god_point_10k":{
         "image": "images/items/item057.jpg",
-        "name": "10k نقاط الالهة",
+        "name": "10k نقاط التسليح",
         "req": [],
         "use": "many",
         "gold": 800,
-        "desc": "تقديم قربان للالهة للحصول فى المقابل على 10,000 نقطة الالهة",
+        "desc": "تقديم قربان للالهة للحصول فى المقابل على 10,000 نقطة التسليح",
         "table": "matrial_flags",
         "db_tab": "matrial_flags",
-        "long_desc": "بعد تقدقيمك قربان للالهة الرومانى والفرعونية قديما يمكنك الحصول على نقاط لاستخدمها فى  بوبات الالهة الخاصة بك للحصول على قوة اضافية لجيوشك"
+        "long_desc": "بعد تقدقيمك قربان للالهة الرومانى والفرعونية قديما يمكنك الحصول على نقاط لاستخدمها فى  بوبات التسليح الخاصة بك للحصول على قوة اضافية لجيوشك"
     },
     "god_point_50k":{
         "image": "images/items/item058.jpg",
-        "name": "50k نقاط الالهة",
+        "name": "50k نقاط التسليح",
         "req": [],
         "use": "many",
         "gold": 3800,
-        "desc": "تقديم قربان للالهة للحصول فى المقابل على 50,000 نقطة الالهة",
+        "desc": "تقديم قربان للالهة للحصول فى المقابل على 50,000 نقطة التسليح",
         "table": "matrial_flags",
         "db_tab": "matrial_flags",
-        "long_desc": "بعد تقدقيمك قربان للالهة الرومانى والفرعونية قديما يمكنك الحصول على نقاط لاستخدمها فى  بوبات الالهة الخاصة بك للحصول على قوة اضافية لجيوشك"
+        "long_desc": "بعد تقدقيمك قربان للالهة الرومانى والفرعونية قديما يمكنك الحصول على نقاط لاستخدمها فى  بوبات التسليح الخاصة بك للحصول على قوة اضافية لجيوشك"
+    },
+    "arena_attempt_1": {
+        "image": "images/items/festival_blue.jpg",
+        "name": "صندوق جولة (1)",
+        "req": [],
+        "use": "many",  
+        "gold": 0,
+        "desc": "افتح الصندوق للحصول على على1 جولات ميدان تحدى لمحاولة السيطرة علية!",      
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc":"افتح الصندوق للحصول على على1 جولات ميدان تحدى لمحاولة السيطرة علية!"      
+    },
+    "arena_attempt_5": {
+        "image": "images/items/festival_gray.jpg",
+        "name": "صندوق جولة (5)",
+        "req": [],
+        "use": "many",  
+        "gold": 0,
+        "desc": "افتح الصندوق للحصول على على5 جولات ميدان تحدى لمحاولة السيطرة علية!",         
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "افتح الصندوق للحصول على على5 جولات ميدان تحدى لمحاولة السيطرة علية!"
+    },
+    "arena_attempt_10": {
+        "image": "images/items/festival_green.jpg",
+        "name": "صندوق جولة (10)",
+        "req": [],
+        "use": "many",  
+        "gold": 0,
+        "desc": "افتح الصندوق للحصول على على10 جولات ميدان تحدى لمحاولة السيطرة علية!",     
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "افتح الصندوق للحصول على على10 جولات ميدان تحدى لمحاولة السيطرة علية!"
+    },
+    "arena_exp_1": {
+        "image": "images/items/festival_orange.jpg",
+        "name": "صندوق خبرة ميدان (1)",
+        "req": [],
+        "use": "many",  
+        "gold": 0,
+        "desc": "افتح الصندوق للحصول على خبرة ميدان(1) لتحدى القياصرة وتطوير الميدان لاستيعاب ابطال اكثر",      
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "افتح الصندوق للحصول على خبرة ميدان(1) لتحدى القياصرة وتطوير الميدان لاستيعاب ابطال اكثر"
+    },
+    "arena_exp_5": {
+        "image": "images/items/festival_purple.jpg",
+        "name": "صندوق خبرة ميدان (5)",
+        "req": [],
+        "use": "many",  
+        "gold": 0,
+        "desc": "افتح الصندوق للحصول على خبرة ميدان(5) لتحدى القياصرة وتطوير الميدان لاستيعاب ابطال اكثر",      
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "افتح الصندوق للحصول على خبرة ميدان(5) لتحدى القياصرة وتطوير الميدان لاستيعاب ابطال اكثر"
+    },
+    "arena_exp_10": {
+        "image": "images/items/festival_special.jpg",
+        "name": "صندوق خبرة ميدان (10)",
+        "req": [],
+        "use": "many",  
+        "gold": 0,
+        "desc": "افتح الصندوق للحصول على خبرة ميدان(10) لتحدى القياصرة وتطوير الميدان لاستيعاب ابطال اكثر",      
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "افتح الصندوق للحصول على خبرة ميدان(10) لتحدى القياصرة وتطوير الميدان لاستيعاب ابطال اكثر"
+    },
+    "arena_exp_25": {
+        "image": "images/items/festival_yellow.jpg",
+        "name": "صندوق خبرة ميدان (25)",
+        "req": [],
+        "use": "many",  
+        "gold": 0,
+        "desc": "افتح الصندوق للحصول على خبرة ميدان(25) لتحدى القياصرة وتطوير الميدان لاستيعاب ابطال اكثر",      
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "افتح الصندوق للحصول على خبرة ميدان(25) لتحدى القياصرة وتطوير الميدان لاستيعاب ابطال اكثر"
+    },
+    "gold_1":{
+        "image": "images/items/item080.jpg",
+        "name": "حزمة ذهب 1",
+        "req": [],
+        "use": "many",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1 ذهب"
+    },
+    "gold_5":{
+        "image": "images/items/item080.jpg",
+        "name": "حزمة ذهب 5",
+        "req": [],
+        "use": "many",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 5 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 5 ذهب"
+    },
+    "gold_10":{
+        "image": "images/items/item080.jpg",
+        "name": "حزمة ذهب 10",
+        "req": [],
+        "use": "many",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 10 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 10 ذهب"
+    },
+    "gold_25":{
+        "image": "images/items/item117.jpg",
+        "name": "حزمة ذهب 25",
+        "req": [],
+        "use": "many",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 25 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 25 ذهب"
+    },
+    "gold_75":{
+        "image": "images/items/item117.jpg",
+        "name": "حزمة ذهب 75",
+        "req": [],
+        "use": "many",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 75 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 75 ذهب"
+    },
+    "gold_100":{
+        "image": "images/items/item117.jpg",
+        "name": "حزمة ذهب 100",
+        "req": [],
+        "use": "many",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 100 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 100 ذهب"
+    },
+    "gold_500":{
+        "image": "images/items/item065.jpg",
+        "name": "حزمة ذهب 500",
+        "req": [],
+        "use": "many",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 500 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 500 ذهب"
+    },
+    "gold_1000":{
+        "image": "images/items/item065.jpg",
+        "name": "حزمة ذهب 1000",
+        "req": [],
+        "use": "many",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "offer_pronze_bar_i":{
+        "image": "images/items/BronzeBarPackI.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "offer_pronze_bar_ii":{
+        "image": "images/items/BronzeBarPackII.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "offer_draco":{
+        "image": "images/items/CodeofDraco.Pocket.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "offer_flags":{
+        "image": "images/items/EmblemPack.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "offer_motiv":{
+        "image": "images/items/Developcity.pocket.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "offer_gold_medal":{
+        "image": "images/items/GoldMedal.Pocket.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "offer_lux_1":{
+        "image": "images/items/HonorI.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "offer_lux_2":{
+        "image": "images/items/HonorII.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "offer_lux_3":{
+        "image": "images/items/HonorIII.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "offer_lux_4":{
+        "image": "images/items/homeI.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "offer_lux_5":{
+        "image": "images/items/homeII.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "offer_lux_6":{
+        "image": "images/items/homeIII.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "offer_lux_7":{
+        "image": "images/items/homeIV.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "offer_king_medal":{
+        "image": "images/items/Mars.pocket.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "offer_MinervaHolyWater_1":{
+        "image": "images/items/MinervaHolyWater(L)PackI.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "offer_MinervaHolyWater_2":{
+        "image": "images/items/MinervaHolyWater(L)PackII.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "offer_peace":{
+        "image": "images/items/Newdeparture.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "offer_silver_bar_1":{
+        "image": "images/items/SilverBarPackI.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "offer_silver_bar_2":{
+        "image": "images/items/SilverBarPackII.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "offer_silver_bar_3":{
+        "image": "images/items/SilverBarPackIII.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "offer_silver_bar_4":{
+        "image": "images/items/SilverBarPackIV.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "offer_silver_bar_5":{
+        "image": "images/items/SilverBarPackV.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "offer_silver_bar_6":{
+        "image": "images/items/SilverBarPackVI.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "offer_truce":{
+        "image": "images/items/Trans.pacification.Pocket.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "offer_hammer":{
+        "image": "images/items/crazyIII.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "offer_hero_exp":{
+        "image": "images/items/herogrowth.Pocket.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "offer_production_pack":{
+        "image": "images/items/incResall.pocket.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "offer_production_pack_2":{
+        "image": "images/items/incReshead.pocket.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "offer_luck_1":{
+        "image": "images/items/sacrifice.Pocket.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "offer_luck_2":{
+        "image": "images/items/sacrifice.Pocket1.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "offer_archit_1":{
+        "image": "images/items/speedup15mBuilding.pocket.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "offer_archit_2":{
+        "image": "images/items/speedup1hBuilding.pocket.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "offer_archit_3":{
+        "image": "images/items/speedup3hBuilding.pocket.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "offer_archit_4":{
+        "image": "images/items/speedup30pBuilding.pocket.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "offer_jop_1":{
+        "image": "images/items/speedup15mTraining.pocket.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "offer_jop_2":{
+        "image": "images/items/speedup1hTraining.pocket.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "offer_jop_3":{
+        "image": "images/items/speedup3hTraining.pocket.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "offer_jop_4":{
+        "image": "images/items/speedup30pTraining.pocket.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "offer_building_speed":{
+        "image": "images/items/speedup3hBuilding.pocket1.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "offer_marcus_scheme":{
+        "image": "images/items/upgradeBuilding.pocket.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "offer_expan_plan":{
+        "image": "images/items/upgradeCity.pocket.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "offer_expan_plan_2":{
+        "image": "images/items/upgradeCity.pocket1.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
+    },
+    "offer_war":{
+        "image": "images/items/war.pocket.jpg",
+        "name": "",
+        "req": [],
+        "use": "Box",
+        "gold": 0,
+        "desc": "استعملها لتحصل على 1000 ذهب",
+        "table": "matrial_flags",
+        "db_tab": "matrial_flags",
+        "long_desc": "استعملها لتحصل على 1000 ذهب"
     }
-    
 }

@@ -20,8 +20,8 @@ class AItem {
         updateTable(
                 "gold = :g, tab = :t, startingAmount = :sa, prizeLimit = :pl", 
                 "item", "id_item = :id", [
-                    "g" => $ItemPrice,
-                    "t" => $ItemSelectPlace, 
+                    "g"  => $ItemPrice,
+                    "t"  => $ItemSelectPlace, 
                     "sa" => $ItemStartingAmount,
                     "pl" => $ItemMaxPrize,
                     "id" => $idItem

@@ -49,7 +49,7 @@ class LSaveState
             $heroFood += CArmy::$FoodEat[$one["b_3_type"]]*$one["b_3_num"];
         }
         
-        if(existInTable("city_colonize", "id_city_colonized = :idc", ["idc" => $idCity]))
+        /*if(existInTable("city_colonize", "id_city_colonized = :idc", ["idc" => $idCity]))
             return updateTable(
                "food_out = "
                . "LEAST("
@@ -59,7 +59,7 @@ class LSaveState
                "city", "id_city = :idc", 
                ["idc" => $idCity, "idp"=> $idPlayer, "hf" =>$heroFood ]
                );
-         
+         */
             return updateTable(
                "food_out = "
                . "LEAST("
@@ -174,6 +174,7 @@ class LSaveState
     
     static function resOutState($idCity , $res)
     {
+        return;
         if(existInTable("city_colonize", "id_city_colonized = :idc", ["idc" => $idCity]))
             return updateTable( static::$ResourceInEffct[$res]["ResOut"]." = ".static::$ResourceInEffct[$res]["ResIn"]."*0.03", "city", "id_city = :idc", ["idc" => $idCity]);
     }
@@ -188,21 +189,19 @@ class LSaveState
         $ColoEff = static::getResFromColonize($idCity);
         $ratio_pro_mat = $matrialEffect["coin"] > time() ? 0.25 : 0 ;
         $ConsoleEff = static::getConsoleEffect($idCity);
-        $statment = " coin_in = ("
-                . "(SELECT accounting FROM edu_uni WHERE id_player = :idp)*10/100) * (taxs/100)*pop "
-                . " + (taxs/100)*pop + :ce *(taxs/100)*pop "
-                . " + (taxs/100)*pop*$ratio_pro_mat + {$ColoEff["coin"]}";
+        $statment = " coin_in = ( (SELECT accounting FROM player_edu WHERE id_player = :idp)*10/100) * (taxs/100)*pop + (taxs/100)*pop + :ce *(taxs/100)*pop   + (taxs/100)*pop*$ratio_pro_mat + {$ColoEff["coin"]}";
         updateTable($statment, "city", "id_city = :idc ", ["idp" => $idPlayer, "idc" => $idCity, "ce" =>$ConsoleEff]);
         
     }
     
     static function coinOutState($idCity)
     {
+       
         global $idPlayer;
         $totalLvls = selectFromTable(" SUM(lvl) as c", "hero", "id_city = :idc AND id_player = :idp", ["idc" => $idCity, "idp" => $idPlayer])[0]["c"];
         
-        if(existInTable("city_colonize", "id_city_colonized = :idc", ["idc" => $idCity]))
-            return updateTable("coin_out = LEAST(coin_in + coin_in*0.03, :c)", "city", "id_city = :idc", ["c" => $totalLvls*10, "idc" => $idCity]);
+       /* if(existInTable("city_colonize", "id_city_colonized = :idc", ["idc" => $idCity]))
+            return updateTable("coin_out = LEAST(coin_in + coin_in*0.03, :c)", "city", "id_city = :idc", ["c" => $totalLvls*10, "idc" => $idCity]);*/
         
         return updateTable("coin_out = LEAST(coin_in, :c)", "city", "id_city = :idc", ["c" => $totalLvls*10, "idc" => $idCity]);
     }

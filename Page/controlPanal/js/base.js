@@ -66,6 +66,17 @@ ElkaisarCp.BaseData.HeroAvatar = [
     "images/hero/faceB9.jpg"
 ];
 
+
+ElkaisarCp.BaseData.ArmyImage = [
+    "no_army.png",
+    "soldier01.jpg",
+    "soldier02.jpg",
+    "soldier03.jpg",
+    "soldier04.jpg",
+    "soldier05.jpg",
+    "soldier06.jpg"
+];
+
 var pormotion = [
     {
         ar_title: "مواطن"
@@ -321,6 +332,9 @@ alertBox = {
 
 };
 
+$(document).on("click", ".close-alert", function (){
+    $("#over_lay_alert").remove();
+});
 
 ElkaisarCp.Ws = {};
 

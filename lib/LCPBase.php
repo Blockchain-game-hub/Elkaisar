@@ -26,12 +26,12 @@ class LCPBase
                     <li'.($CurrentTab == 'Exchange'       ? ' class="active"' : "").'><span><span><a href="Exchange?server='.$serverID.'&AdminToken='.$Ot.'">التبادل</a></span></span></li>
                     <li'.($CurrentTab == 'Item'           ? ' class="active"' : "").'><span><span><a href="Item?server='.$serverID.'&AdminToken='.$Ot.'">المواد</a></span></span></li>
                     <li'.($CurrentTab == 'onePlayer'      ? ' class="active"' : "").'><span><span><a href="onePlayer.php?server='.$serverID.'">احصاء لاعب</a></span></span></li>
-                    <li'.($CurrentTab == 'online'         ? ' class="active"' : "").'><span><span><a href="online.php?server='.$serverID.'&AdminToken='.$Ot.'">online</a></span></span></li>
+                    <li'.($CurrentTab == 'Online'         ? ' class="active"' : "").'><span><span><a href="Online?server='.$serverID.'&AdminToken='.$Ot.'">online</a></span></span></li>
                     <li'.($CurrentTab == 'rate'           ? ' class="active"' : "").'><span><span><a href="rate.php?server='.$serverID.'&AdminToken='.$Ot.'">نسب الجوائز</a></span></span></li>
                     <li'.($CurrentTab == 'spPrize'        ? ' class="active"' : "").'><span><span><a href="spPrize.php?server='.$serverID.'&AdminToken='.$Ot.'">ج خاصة</a></span></span></li>
-                    <li'.($CurrentTab == 'equip'          ? ' class="active"' : "").'><span><span><a href="equipment.php?server='.$serverID.'&AdminToken='.$Ot.'">معدات</a></span></span></li>
+                    <li'.($CurrentTab == 'Equip'          ? ' class="active"' : "").'><span><span><a href="Equip?server='.$serverID.'&AdminToken='.$Ot.'">معدات</a></span></span></li>
                     <li'.($CurrentTab == 'reportprize'    ? ' class="active"' : "").'><span><span><a href="reportPrize.php?server='.$serverID.'&AdminToken='.$Ot.'">تقارير</a></span></span></li>
-                    <li'.($CurrentTab == 'ip    '         ? ' class="active"' : "").'><span><span><a href="ip.php?server='.$serverID.'&AdminToken='.$Ot.'">ip</a></span></span></li>
+                    <li'.($CurrentTab == 'Ip    '         ? ' class="active"' : "").'><span><span><a href="Ip?server='.$serverID.'&AdminToken='.$Ot.'">ip</a></span></span></li>
                   '
                 ;
         return $ret;

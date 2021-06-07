@@ -56,20 +56,21 @@ class AGodGate {
         $p_1 = rand(1, 20);
         $p_2 = rand(1, 20);
         $p_3 = rand(1, 20);
+        $p_4 = 0;
 
-        $quary = "cell_1_type =  'vit' , cell_2_type = 'attack' , cell_3_type = 'damage',"
-                . "cell_1_score = $p_1, cell_2_score = $p_2, cell_3_score = $p_3 , id_player = :idp";
+        $quary = "cell_1_type =  'vit' , cell_2_type = 'attack' , cell_3_type = 'damage', cell_4_type = 'defence',"
+                . "cell_1_score = $p_1, cell_2_score = $p_2, cell_3_score = $p_3 , cell_4_score = $p_4 , id_player = :idp";
 
         insertIntoTable($quary, "`god_gate_$gateIndex`", ["idp" => $idPlayer]);
 
-        updateTable("`gate_$gateIndex` = $p_1 + $p_2 + $p_3", "god_gate", "id_player = :idp", ["idp" => $idPlayer]);
+        updateTable("`gate_$gateIndex` = $p_1 + $p_2 + $p_3 + $p_4", "god_gate", "id_player = :idp", ["idp" => $idPlayer]);
         updateTable("points = points - {$godGateData["points"]}", "god_gate", "id_player = :idp", ["idp" => $idPlayer]);
 
         return [
             "state" => "ok",
             "Gate" => selectFromTable("*", "`god_gate_$gateIndex`", "id_player = :idp", ["idp" => $idPlayer])[0],
             "PlayerGate" => selectFromTable("*", "god_gate", "id_player = :idp", ["idp" => $idPlayer])[0],
-            "score" => $p_1 + $p_2 + $p_3
+            "score" => $p_1 + $p_2 + $p_3 + $p_4
         ];
     }
 
@@ -79,8 +80,14 @@ class AGodGate {
         $gateIndex = validateID($_POST["gateIndex"]);
         $cellIndex = validateID($_POST["cellIndex"]);
         $state = validateID($_POST["state"]);
-
-        if ($state == 2)
+        
+        $Gate = selectFromTable("`c_" . $cellIndex . "_s`", "`god_gate_$gateIndex`",  "id_player = :idp", ["idp" => $idPlayer]);
+        
+        if(!count($Gate))
+            return ["state" => "error_0"];
+        if ($state != 0 && $state != 1)
+            return ["state" => "error_0"];
+        if($Gate[0]["c_" . $cellIndex . "_s"] == 2)
             return ["state" => "error_0"];
 
         updateTable("`c_" . $cellIndex . "_s` = '$state'", "`god_gate_$gateIndex`", "id_player = :idp", ["idp" => $idPlayer]);

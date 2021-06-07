@@ -40,13 +40,13 @@ class LSaveState {
 
             Elkaisar.DB.Exist("city_colonize", "id_city_colonized = ?", [idCity], function (Found) {
 
-                if (Found)
+                /*if (Found)
                     Elkaisar.DB.Update(`food_out = LEAST( (army_a*4 + army_b*18 + army_c*36 + army_d*5 + army_e*20 + army_f*150 + ? + 0.03*food_in) * ( 1 - (SELECT  supplying FROM  player_edu WHERE id_player = ?)*3/100 ) , food_in)`,
                             "city", "id_city = ?", [heroFood, idPlayer, idCity], function (Res) {
                         if (callBack)
                             callBack();
                     });
-                else
+                else*/
                     Elkaisar.DB.Update(`food_out = LEAST( (army_a*4 + army_b*18 + army_c*36 + army_d*5 + army_e*20 + army_f*150 + ?) * ( 1 - (SELECT  supplying FROM  player_edu WHERE id_player = ?)*3/100 ),  food_in)`,
                             "city", "id_city = ?", [heroFood, idPlayer, idCity], function (Res) {
                         if (callBack)
@@ -190,9 +190,9 @@ class LSaveState {
     
     static resOutState(idPlayer, idCity , $res)
     {
-        Elkaisar.DB.Exist("city_colonize", "id_city_colonized = ?", [idCity], function(Found){
+        /*Elkaisar.DB.Exist("city_colonize", "id_city_colonized = ?", [idCity], function(Found){
             Elkaisar.DB.Update(LSaveState.ResourceInEffct[$res]["ResOut"]+" = "+LSaveState.ResourceInEffct[$res]["ResIn"]+"*0.03", "city", "id_city = ?", [idCity]);
-        });
+        });*/
     }
     
     
@@ -204,7 +204,7 @@ class LSaveState {
             var ratio_pro_mat = matrialEffect["coin"] > Date.now()/1000 ? 0.25 : 0 ;
             LSaveState.getConsoleEffect(idCity, function (ConEff){
                 var Quary = ` coin_in = (
-                             (SELECT accounting FROM edu_uni WHERE id_player = ${idPlayer})*10/100) * (taxs/100)*pop 
+                             (SELECT accounting FROM player_edu WHERE id_player = ${idPlayer})*10/100) * (taxs/100)*pop 
                              + (taxs/100)*pop + ${ConEff} *(taxs/100)*pop 
                              + (taxs/100)*pop*${ratio_pro_mat} + ${ColoEff}`;
                 Elkaisar.DB.Update(Quary, "city", "id_city = ?", [idCity], function (){});
@@ -219,9 +219,9 @@ class LSaveState {
             
             var LvlSum = HeroLvl[0]["c"];
             Elkaisar.DB.Exist("city_colonize", "id_city_colonized = ?", [idCity], function (Found){
-                if(Found)
+                /*if(Found)
                     Elkaisar.DB.Update("coin_out = LEAST(coin_in + coin_in*0.03, ?)", "city", "id_city = ?", [LvlSum*10, idCity]);
-                else 
+                else */
                     Elkaisar.DB.Update("coin_out = LEAST(coin_in , ?)", "city", "id_city = ?", [LvlSum*10, idCity]);
             });
             

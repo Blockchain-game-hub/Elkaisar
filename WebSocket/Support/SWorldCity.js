@@ -81,11 +81,16 @@ Elkaisar.Cron.schedule(`${Elkaisar.Base.rand(20, 40)} 6 * * *`, function () {
     Elkaisar.DB.QueryExc("INSERT IGNORE INTO arena_player_challange(id_player) SELECT id_player FROM player", []);
     Elkaisar.DB.QueryExc("INSERT IGNORE INTO city_theater(id_city, id_player) SELECT id_city, id_player FROM city", []);
     Elkaisar.DB.QueryExc("INSERT IGNORE INTO player_item(id_item, id_player, amount) SELECT item.id_item, player.id_player, item.startingAmount FROM item JOIN player WHERE 1", []);
-
+    Elkaisar.DB.QueryExc("TRUNCATE `battel`");
+    Elkaisar.DB.QueryExc("TRUNCATE `battel_member`");
+    Elkaisar.DB.QueryExc("TRUNCATE `hero_back`");
+    Elkaisar.DB.QueryExc(`UPDATE hero SET in_city = ${Elkaisar.Config.HERO_IN_CITY} WHERE in_city = 0`);
+    
 }, {
     scheduled: true,
     timezone: "Etc/UTC"
 });
+
 
 
 

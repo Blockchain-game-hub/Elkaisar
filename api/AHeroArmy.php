@@ -26,6 +26,7 @@ class AHeroArmy
         if($Hero[0]["in_city"] != HERO_IN_CITY)
             return ["state" => "error_5", "TryToHack" => TryToHack()];
         
+        
         updateTable(
                 "`".CArmy::$ArmyCityPlace[$Hero[0][($ArmyPlace."_type")]]."` = `".CArmy::$ArmyCityPlace[$Hero[0][($ArmyPlace."_type")]]."` + :a",
                 "city", "id_city = :idc AND id_player = :idp", ["idc" => $Hero[0]["id_city"], "idp" => $idPlayer, "a" => $amount]);
@@ -112,6 +113,8 @@ class AHeroArmy
             return ["state" => "error_4", "TryToHack" => TryToHack()];
         if($HeroFrom[0]["in_city"] != HERO_IN_CITY || $HeroTo[0]["in_city"] != HERO_IN_CITY)
             return ["state" => "error_5", "TryToHack" => TryToHack()];
+        if($HeroFrom[0]["id_city"] != $HeroTo[0]["id_city"])
+            return ["state" => "error_6", "TryToHack" => TryToHack()];
         
         if($HeroFrom[0][($ArmyPlaceFrom."_num")] == $amount)
             updateTable ("`".$ArmyPlaceFrom."_type` = :t, `".$ArmyPlaceFrom."_num` = `".$ArmyPlaceFrom."_num` - :a", "hero_army", "id_hero = :idh", ["idh" => $idHeroFrom, "t" => 0, "a" => $amount]);

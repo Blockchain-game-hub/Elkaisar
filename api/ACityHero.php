@@ -154,7 +154,7 @@ class ACityHero
     
     private function heroTheaterRef($num_to_update, $num_to_insert, $cityTheater)
     {
-        $idCity = $_POST["idCity"];
+        $idCity = validateID($_POST["idCity"]);
         $TeaterLvl = min($cityTheater[0]["lvl"], 30);
         if($num_to_update > 0)
             updateTable(

@@ -8,7 +8,7 @@ class APlayerState{
         $idPlayer = validateID($_POST["idPlayer"]);
          
         return [
-            "Heros"  => selectFromTable("*", "hero",  "id_player = :idp ORDER BY ord DESC", ["idp" => $idPlayer]),
+            "Heros"  => selectFromTable("*", "hero",  "id_player = :idp ORDER BY id_city ASC, ord DESC", ["idp" => $idPlayer]),
             "City"   => selectFromTable("*", "city",  "id_player = :idp", ["idp" => $idPlayer]),
             "Equip"  => selectFromTable("*", "equip", "id_player = :idp", ["idp" =>$idPlayer]),
             "Item"   => selectFromTable("*", "player_item", "id_player = :idp AND amount > 0", ["idp" => $idPlayer]),
@@ -73,6 +73,59 @@ class APlayerState{
     function deletePlayerEquip(){
         $idEquip = validateID($_POST["idEquip"]);
         deleteTable("equip", "id_equip = :ide", ["ide" => $idEquip]);
+    }
+    
+    function getHeroDetails(){
+        $idHero = validateID($_GET["idHero"]);
+        return [
+            "Hero" => selectFromTable("*", "hero", "id_hero = :idh", ["idh" => $idHero])[0],
+            "HeroArmy" => selectFromTable("*", "hero_army", "id_hero = :idh", ["idh" => $idHero])[0],
+            "HeroEquip" => selectFromTable("*", "equip", "id_hero = :idh", ["idh" => $idHero])
+        ];
+    }
+    
+    function getEquipOffHero(){
+        $idEquip = validateID($_POST["idEquip"]);
+        updateTable("on_hero = 0, id_hero = NULL", "equip", "id_equip = :ide", ["ide" => $idEquip]);
+    }
+    
+    function changeHeroArmy(){
+        
+        
+        $idHero    = validateID($_POST["idHero"]);
+        $ArmyPlace = validateGameNames($_POST["ArmyPlace"]);
+        $ToDo      = validateGameNames($_POST["ToDo"]);
+        
+        $HeroArmy = selectFromTable("hero_army.*, hero.id_city", "hero_army JOIN hero ON hero.id_hero = hero_army.id_hero", "hero_army.id_hero = :idh", ["idh" => $idHero]);
+        
+       if(!count($HeroArmy))
+           return;
+       
+       updateTable($ArmyPlace."_num = 0, ".$ArmyPlace."_type = 0", "hero_army", "id_hero = :idh", ["idh" => $idHero]);
+       $CityArmy = [
+           "1" => "army_a",
+           "2" => "army_b",
+           "3" => "army_c",
+           "4" => "army_d",
+           "5" => "army_e",
+           "6" => "army_f"
+       ];
+       
+       if($ToDo == 1){
+           updateTable($CityArmy[$HeroArmy[0][$ArmyPlace."_type"]]." = ".$CityArmy[$HeroArmy[0][$ArmyPlace."_type"]]." + ".$HeroArmy[0][$ArmyPlace."_num"], "city", "id_city = :idc", ["idc" => $HeroArmy[0]["id_city"]]); 
+       }
+        
+    }
+    
+    
+    function changeHeroAtt(){
+        
+        $idHero    = validateID($_POST["idHero"]);
+        $Att       = validateGameNames($_POST["Att"]);
+        $Val      = validateGameNames($_POST["val"]);
+        
+        
+        updateTable("$Att = $Val", "hero", "id_hero = :idh", ["idh" => $idHero]);      
     }
 }
 

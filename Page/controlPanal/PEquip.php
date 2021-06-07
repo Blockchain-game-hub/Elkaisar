@@ -9,7 +9,7 @@
         <div id="main">
             <div id="header"> <a href="#" class="logo"><img src="../images/Logo-wow.png" width="101" height="29" alt="" /></a>
                 <ul id="top-navigation">
-                    <?= LCPBase::getTabs("Item") ?>  
+                    <?= LCPBase::getTabs("Equip") ?>  
                 </ul>
             </div>
             <div id="middle">
@@ -37,21 +37,11 @@
                     <div class="table" style="margin-bottom: 0px;"> <img src="img/bg-th-left.gif" width="8" height="7" alt="" class="left" /> <img src="img/bg-th-right.gif" width="7" height="7" alt="" class="right" />
                         <div class="listing" style="text-align: center">
                             <div class="th" style="background: #9097A9 url(../img/bg-th-left.gif) no-repeat left top;">
-                                <div class="tr" style="width: 30%; display: inline-block; ">تفاصيل المادة</div>
-                                <div class="tr" style="width: 68%; display: inline-block">المواد</div>
+                                <div class="tr" style="width: 50%; display: inline-block">المعدات</div>
                             </div>
                             <div class="content" style="overflow: auto">
-                                <div id="matrial-list">
-
-                                </div>
-
-                                <div id="other-list" style="width: 30%">
-                                    <div id="itemPreview" style="display: block; height: 100px; display: flex; align-items: center; align-content: center">
-
-                                    </div>
-                                    <div id="item-base-data" style="display: flex; flex-flow: column">
-
-                                    </div>
+                                <div id="matrial-list" style="width: 100%">
+                                   
                                 </div>
                             </div>
                         </div>
@@ -99,13 +89,7 @@
         </script>
         <script type="text/javascript" src="<?= RESOURCE_BATH ?>/js/jquery-3.2.1.min.js"></script>
         <script type="text/javascript" src="<?= RESOURCE_BATH ?>/js/base.js"></script>
-        <script type="text/javascript" src="<?= RESOURCE_BATH ?>/js/Item.js"></script>
-        <script>
-            ElkaisarCp.getItem().done(function () {
-                ElkaisarCp.Item.showAllItemList();
-                ElkaisarCp.Item.getItemData();
-                ElkaisarCp.Item.getItemBoxPrize();
-            });
-        </script>
+        <script type="text/javascript" src="<?= RESOURCE_BATH ?>/js/Equip.js"></script>
+
     </body>
 </html>

@@ -115,12 +115,14 @@ class LFightRound {
         var CellAttacks = this.cellsToAttack(HeroAttIndex, CellAttIndex);
         var HI;
         var CI;
+        var attackedTimes = 0;
+        var ShouldAttack = 0;
+        var NotBlindSpots = [];
         for( HI in CellAttacks){
             if(!this.Battel.Fight.RoundHeros[HI])
                 continue;
-            var NotBlindSpots = [];
-            var BlockedSpots = 0;
             
+            NotBlindSpots = [];
             for( CI in CellAttacks[HI]){
                 if(!this.Battel.Fight.RoundHeros[HI].real_eff[CellAttacks[HI][CI]])
                     continue;
@@ -132,17 +134,19 @@ class LFightRound {
             
             if(NotBlindSpots.length > 0)
                 continue;
-            var attackedTimes = 0;
-            var ShouldAttack = CellAttacks[HI].length;
-            for(var ii = 0; ii < 6; ii ++){
+            attackedTimes = 0;
+            ShouldAttack = CellAttacks[HI].length;
+            
+            for(var ii = 0; ii < 7; ii ++){
+                
+                if(attackedTimes >= ShouldAttack )
+                    break;
                 if(NotBlindSpots.includes(ii))
                     continue;
                 if(CellAttacks[HI].includes(ii))
                     continue;
-                this.cellAttack(HeroAttIndex, CellAttIndex, HI, ii);
-                if(ShouldAttack < attackedTimes)
-                    break;
-                attackedTimes ++;
+                if(this.cellAttack(HeroAttIndex, CellAttIndex, HI, ii))
+                    attackedTimes ++;
             }
         }
     }
@@ -166,7 +170,10 @@ class LFightRound {
             return false;
         
         
-        var OneSolDamage = CellAttack.attack*(100/(100+CellDefence.def)) + CellAttack.dam;
+        
+        
+        
+        var OneSolDamage = 1;
         var StrikePers = CellAttack.strike - CellDefence.immunity;
         var BreakPers = CellAttack.break  - CellDefence.anti_break;
         var AttackType = Elkaisar.Config.AttackTypeNorm;
@@ -187,10 +194,11 @@ class LFightRound {
         }
             
         
-        var DeadUnits = OneSolDamage*CellAttack.unit/CellDefence.vit;
         
-        // get the min number
-        var totalDead = Math.ceil(Math.min(DeadUnits, CellDefence.unit));
+        var unDefSol   = Math.ceil(CellAttack["unit"] * CellAttack.attack / CellDefence.def);
+        var DeadUnits  = Math.ceil(CellAttack["unit"] * CellAttack["dam"] / CellDefence.vit);
+        var totalDead = Math.min(unDefSol, DeadUnits)*OneSolDamage;
+
         /* this condetion will check  if the two cells have not fight done*/
 
 
