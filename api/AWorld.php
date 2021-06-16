@@ -166,7 +166,7 @@ class AWorld {
         $yCoord = validateID($_GET["yCoord"]);
 
         $City = selectFromTable(
-                "city.name AS CityName, player.name AS PlayerName, player.id_guild, player.id_player, city.id_city, player.prestige",
+                "city.name AS CityName, player.name AS PlayerName, player.id_guild, player.id_player, player.avatar, city.id_city, player.prestige",
                 "city JOIN player ON player.id_player = city.id_player", "city.x = :x AND city.y = :y", ["x" => $xCoord, "y" => $yCoord]);
 
         if (!count($City)) return [];

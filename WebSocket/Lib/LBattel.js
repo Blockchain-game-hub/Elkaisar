@@ -198,14 +198,8 @@ class LBattel
         };
         LBattel.addPlayerToBattel(Battel.id_player, Elkaisar.Battel.BattelList[Battel.id_battel], Elkaisar.Config.BATTEL_SIDE_ATT);
         LBattel.BattelInfluencedPlayers(Elkaisar.Battel.BattelList[Battel.id_battel]);
-        LBattel.addUnitGarrison(Battel/*, function () {
-         LBattel.addHeroToBattel(HeroBattel, Battel, function (Hero) {
-         Elkaisar.Battel.BattelList[Battel.id_battel].Heros.push(HeroBattel);
-         if (callBack)
-         callBack();
-         });
-         }*/);
-        Elkaisar.Lib.LWorldUnit.fireOnWorldUnit(Battel.x_coord, Battel.y_coord);
+        LBattel.addUnitGarrison(Battel);
+        Elkaisar.Lib.LWorldUnit.newWorldBattel(Battel);
         Elkaisar.WsLib.BattelWatchList.newBattelNotif(null, {
             xCoord: Battel.x_coord,
             yCoord: Battel.y_coord,
@@ -291,7 +285,7 @@ class LBattel
         Elkaisar.DB.Delete("battel", "id_battel = ?", [idBattel]);
         Elkaisar.DB.Delete("battel_member", "id_battel = ?", [idBattel]);
         Elkaisar.Lib.LWorldUnit.fireOffWorldUnit(Elkaisar.Battel.BattelList[idBattel].Battel.x_coord, Elkaisar.Battel.BattelList[idBattel].Battel.y_coord);
-
+        Elkaisar.Lib.LWorldUnit.worldBattelEnded(Elkaisar.Battel.BattelList[idBattel].Battel);
     }
 
 }

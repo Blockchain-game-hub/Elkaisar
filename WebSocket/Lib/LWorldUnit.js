@@ -367,9 +367,9 @@ class LWorldUnit {
             return true;
         if (LWorldUnit.isStatueWar(Unit.ut))
             return true;
-        if(LWorldUnit.isQueenCity(Unit.ut) || LWorldUnit.isRepelCastle(Unit.ut))
+        if (LWorldUnit.isQueenCity(Unit.ut) || LWorldUnit.isRepelCastle(Unit.ut))
             return true;
-        
+
         if (LWorldUnit.isMonawrat(Unit["ut"]) || LWorldUnit.isCamp(Unit["ut"]))
             return (WinLvl % 10 === 0);
 
@@ -400,8 +400,8 @@ class LWorldUnit {
                 || LWorldUnit.isCarthagianArmies(Unit.ut) || LWorldUnit.isCamp(Unit.ut) || LWorldUnit.isStatueWalf(Unit.ut)
                 || LWorldUnit.isStatueWar(Unit.ut) || LWorldUnit.isQueenCity(Unit.ut))
             returningTime = now + Math.min(OrgRetTim, 15 * 60);
-        else if(LWorldUnit.isSeaCity(Unit.ut) )
-            returningTime = now + 60*60;
+        else if (LWorldUnit.isSeaCity(Unit.ut))
+            returningTime = now + 60 * 60;
         else if (LWorldUnit.isArena(Unit.ut) || LWorldUnit.isArmyCapital(Unit.ut))
             returningTime = now + 60;
         else
@@ -411,46 +411,95 @@ class LWorldUnit {
     }
 
     static fireOffWorldUnit(x, y) {
-        
-        if(!Elkaisar.World.OnFireUnits[x*500 + y])
-            return ;
-        
-        var Battel = {};
+
+        if (!Elkaisar.World.OnFireUnits[x * 500 + y])
+            return;
+
+        var CBattel = {};
         var BattelCount = 0;
         for (var iii in Elkaisar.Battel.BattelList) {
-            Battel = Elkaisar.Battel.BattelList[iii];
-            if (!Battel.Battel)
+            CBattel = Elkaisar.Battel.BattelList[iii];
+            if (!CBattel.Battel)
                 continue;
-            if (!Battel.Battel.x_coord !== x)
+            if (CBattel.Battel.x_coord !== x)
                 continue;
-            if (!Battel.Battel.y_coord !== y)
+            if (CBattel.Battel.y_coord !== y)
                 continue;
             BattelCount++;
-            if(BattelCount > 1)
+            if (BattelCount > 1)
                 return;
         }
-        
+
         Elkaisar.Base.broadcast(JSON.stringify({
             classPath: "World.Fire.Off",
             xCoord: x,
             yCoord: y
         }));
-        delete(Elkaisar.World.OnFireUnits[x*500 + y]);
+        delete(Elkaisar.World.OnFireUnits[x * 500 + y]);
         Elkaisar.DB.Update("s = 0", "world", `x = ? AND y = ?`, [x, y]);
     }
-    static  fireOnWorldUnit(x, y) {
+
+    static worldBattelEnded(Battel) {
+
+        const x = Battel.x_coord;
+        const y = Battel.y_coord;
         
-        if(Elkaisar.World.OnFireUnits[x*500 + y])
-            return ;
-        
-        
-        
+        const WorldBattelKey = `${Battel.x_city}.${Battel.y_city}-${Battel.x_coord}.${Battel.x_coord}`;
+        console.log(WorldBattelKey);
+        if (!Elkaisar.World.WorldBattels[WorldBattelKey])
+            return;
+
+        var CBattel = {};
+        var BattelCount = 0;
+        for (var iii in Elkaisar.Battel.BattelList) {
+            CBattel = Elkaisar.Battel.BattelList[iii];
+            if (!CBattel.Battel)
+                continue;
+            if (CBattel.Battel.x_coord !== x)
+                continue;
+            if (CBattel.Battel.y_coord !== y)
+                continue;
+            if (CBattel.Battel.x_city !== Battel.x_city)
+                continue;
+            if (CBattel.Battel.x_city !== Battel.x_city)
+                continue;
+            BattelCount++;
+            if (BattelCount > 1)
+                return;
+        }
+        console.log("Just Done");
         Elkaisar.Base.broadcast(JSON.stringify({
-            classPath: "World.Fire.On",
-            xCoord: x,
-            yCoord: y
+            classPath: "World.Battel.Ended",
+            xCoord: Battel.x_coord,
+            yCoord: Battel.y_coord,
+            xCity: Battel.x_city,
+            yCity: Battel.y_city
         }));
-        Elkaisar.World.OnFireUnits[x*500 + y] = true;
+        delete(Elkaisar.World.WorldBattels[WorldBattelKey]);
+    }
+
+    static  newWorldBattel(Battel) {
+        const x = Battel.x_coord;
+        const y = Battel.y_coord;
+        const WorldBattelKey = `${Battel.x_city}.${Battel.y_city}-${Battel.x_coord}.${Battel.x_coord}`;
+        if (Elkaisar.World.WorldBattels[WorldBattelKey])
+            return;
+        Elkaisar.World.WorldBattels[WorldBattelKey] = {
+            classPath: "World.Battel.Started",
+            xCoord: Battel.x_coord,
+            yCoord: Battel.y_coord,
+            xCity: Battel.x_city,
+            yCity: Battel.y_city,
+            idPlayer: Battel.id_player,
+            idGuild: Battel.idGuild,
+            CityName: Battel.CityName,
+            PlayerName: Battel.PlayerName,
+            GuildName: Battel.GuildName,
+            timeEnd: Battel.time_end,
+            timeStart: Battel.time_start
+        };
+        Elkaisar.World.OnFireUnits[x * 500 + y] = true;
+        Elkaisar.Base.broadcast(JSON.stringify(Elkaisar.World.WorldBattels[WorldBattelKey]));
     }
 
 }

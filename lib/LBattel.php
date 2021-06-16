@@ -212,7 +212,7 @@ class LBattel {
     static function getBattelById($idBattel) {
 
         return selectFromTable(
-                        "battel.*, player.name AS PlayerName, city.name AS CityName",
+                        "battel.*, player.name AS PlayerName, city.name AS CityName, player.id_guild AS idGuild,player.guild AS GuildName",
                         "battel JOIN city ON city.x = battel.x_city AND city.y = battel.y_city  JOIN player ON battel.id_player = player.id_player",
                         "id_battel = :idb", ["idb" => $idBattel])[0];
     }

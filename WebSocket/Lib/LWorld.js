@@ -4,6 +4,7 @@ Elkaisar.World.WorldUnitData = {};
 Elkaisar.World.WorldUnitPrize = {};
 Elkaisar.World.WorldUnitLosePrize = {};
 Elkaisar.World.OnFireUnits = {};
+Elkaisar.World.WorldBattels = {};
 
 Elkaisar.World.refreshWorldUnit = function (callBack) {
 

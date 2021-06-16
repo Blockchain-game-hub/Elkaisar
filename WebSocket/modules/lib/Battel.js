@@ -255,3 +255,13 @@ exports.BattelCanceled = function (con, msgObj)
 };
 
 
+exports.getAllWorldBattels = function (con, msgObj)
+{
+    con.sendUTF(JSON.stringify({
+        "classPath": "Base.Ack",
+        ReqId      : msgObj.ReqId,
+        Res        : Elkaisar.World.WorldBattels
+    }));
+};
+
+
