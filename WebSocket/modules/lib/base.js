@@ -119,42 +119,6 @@ exports.arrayChunk = function (arr, chunkSize = 50){
 
 
 
-exports.getAllWorldCity = function (){
-    
-    var CityBatches = Math.ceil(module.exports.ServerData.city_num / 250);
-   
-    for(var iii =0; iii <  CityBatches; iii++)
-        Elkaisar.Base.getAllWorldCityPart(iii);
-};
-
-
-exports.getAllWorldCityPart = function (offset){
-    
-    Elkaisar.Base.Request.postReq(
-            {
-                "server"  : Elkaisar.CONST.SERVER_ID,
-                offset    : offset
-            },
-            `${Elkaisar.CONST.BASE_URL}/ws/api/ACity/getWorldCity`,
-            function (data) {
-                var WorldCities = Elkaisar.Base.isJson(data);
-
-                if (!WorldCities)
-                    return;
-                
-                var ii;
-                var Unit;
-                for(ii in WorldCities)
-                {
-                    Unit = WorldCities[ii];
-                    module.exports.WorldUnitCity[(Unit.x + "." + Unit.y)] = Unit;
-                }
-                    
-            }
-    );
-};
-
-
 
 exports.rand = function (min, max){
     return Math.floor(Math.random() * (max - min + 1) ) + min;

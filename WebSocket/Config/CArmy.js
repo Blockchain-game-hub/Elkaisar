@@ -20,7 +20,7 @@ class CArmy {
         "army_e" : 5,
         "army_f" : 6
     };
-    static  $ArmyCapCity = {
+    static  ArmyCapCity = {
         "army_a" : 1,
         "army_b" : 3,
         "army_c" : 6,
@@ -28,7 +28,7 @@ class CArmy {
         "army_e" : 4,
         "army_f" : 8
     };
-    static  $ArmyCityPlace = {
+    static  ArmyCityPlace = {
         0 : 0,
         1 : "army_a",
         2 : "army_b",

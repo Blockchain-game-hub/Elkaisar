@@ -2,6 +2,7 @@
 
 var webSocketServer = require('websocket').server;
 var Http = require('http');
+Elkaisar.URL = require('url');
 var MySql = require('mysql');
 
 Elkaisar.ZLib = require('zlib');
@@ -45,6 +46,7 @@ Elkaisar.Config = {};
 Elkaisar.AllWorldCity = [];
 Elkaisar.AllWorldCityColonized = [];
 Elkaisar.Helper = {};
+Elkaisar.API = {};
 
 Elkaisar.World = {};
 Elkaisar.Battel = {
@@ -81,6 +83,7 @@ Elkaisar.Lib.LPrize = require('./Lib/LPrize');
 Elkaisar.Lib.LAfterFight = require('./Lib/LAfterFight');
 Elkaisar.Lib.LBattelReport = require('./Lib/LBattelReport');
 Elkaisar.Lib.LCity = require('./Lib/LCity');
+Elkaisar.Lib.LCityBuilding = require('./Lib/LCityBuilding');
 Elkaisar.Lib.LSchadular = require('./Lib/LSchadular');
 Elkaisar.Lib.LItem = require('./Lib/LItem');
 
@@ -103,6 +106,10 @@ Elkaisar.WsLib.ServerAnnounce = require('./modules/lib/serverAnnounce');
 
 
 Elkaisar.WsLib.CSendMail = require('./CPanal/CSendMail');
+
+
+Elkaisar.API.AHeroArmy = require('./api/AHeroArmy');
+Elkaisar.API.AWorld = require('./api/AWorld');
 
 /*Elkaisar.WsLib.WS_Guild           = require('./modules/lib/guild');
  Elkaisar.WsLib.WS_GuildReq        = require('./modules/lib/guildReq');
@@ -144,8 +151,6 @@ Elkaisar.Base.Request.postReq(
 
             Elkaisar.Base.ServerData = serverData;
 
-            Elkaisar.Base.getAllWorldCity();
-
             if (parseInt(serverData.open_status) === 0) {
                 console.log("Server is Closed So You cant start");
                 process.exit(0);
@@ -174,13 +179,41 @@ Elkaisar.Base.Request.postReq(
 
 
 
+var BusyPlayers = {};
 
 
+/*
+ Http.use(function(req, res, next) {
+ res.header("Access-Control-Allow-Origin", "*");
+ res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
+ next();
+ });
+ */
+setInterval(function (){
+    BusyPlayers = {};
+}, 60*1000);
 
-var server = Http.createServer(function (request, response) {
-    console.log((new Date()) + ' Received request for ' + request.url);
-    response.writeHead(404);
+var server = Http.createServer(async function (request, response) {
+
+    response.setHeader('Access-Control-Allow-Origin', '*');
+    response.setHeader("Content-Type", "text/plain");
+    const Url = Elkaisar.URL.parse(request.url, true);
+    const Path = Url.pathname.split("/");
+    const Parm = Url.query;
+    
+    if(BusyPlayers[Parm.idPlayer]){
+        response.end(JSON.stringify({state: "SysBusy"}));
+        return ;
+    }else{
+        BusyPlayers[Parm.idPlayer] = true;
+        const Player = await Elkaisar.DB.ASelectFrom("id_player", "player_auth", "auth_token = ?", [Parm.token]);
+        response.end(JSON.stringify(await (new Elkaisar.API[Path[1]](Player[0].id_player, Parm))[Path[2]]()));
+        BusyPlayers[Parm.idPlayer] = false;
+    }
+    
     response.end();
+        
+    
 });
 
 server.listen(Elkaisar.CONST.ServerPort, function () { });
@@ -227,8 +260,10 @@ wsServer.on('request', function (request) {
     });
 
     connection.on('close', function (code) {
+        
         if (connection.idPlayer && connection.idPlayer > 0)
             Elkaisar.WsLib.Player.offline(connection);
+        delete BusyPlayers[connection.idPlayer] ;
     });
 });
 

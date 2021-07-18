@@ -24,7 +24,7 @@ module.exports.online = function (con) {
 };
 
 module.exports.offline = function (con) {
-
+    
     Elkaisar.Base.Request.postReq(
             {
                 "server": con.idGameServer,

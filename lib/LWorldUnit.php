@@ -441,7 +441,6 @@ class LWorldUnit {
     }
 
     static function calAttackTime($idHero, $City, $Unit) {
-        return 30*60;
         $unitType = $Unit["ut"];
         if (
            static::isAsianSquads($unitType) || static::isGangStar($unitType) || static::isCarthagianArmies($unitType) || static::isArenaChallange($unitType) || static::isArenaDeath($unitType) || static::isArmyCapital($unitType) || static::isMonawrat($unitType) || static::isStatueWar($unitType) || static::isStatueWalf($unitType)

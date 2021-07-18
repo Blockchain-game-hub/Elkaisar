@@ -5,9 +5,9 @@ class AWorld {
     function getWorldUnitPrize() {
 
         return [
-            "Win"     => selectFromTable("*", "world_unit_prize",         "1"),
-            "Lose"    => selectFromTable("*", "world_unit_prize_lose",    "1"),
-            "Sp"      => selectFromTable("*", "world_unit_prize_sp",      "1"),
+            "Win" => selectFromTable("*", "world_unit_prize", "1"),
+            "Lose" => selectFromTable("*", "world_unit_prize_lose", "1"),
+            "Sp" => selectFromTable("*", "world_unit_prize_sp", "1"),
             "Plunder" => selectFromTable("*", "world_unit_prize_plunder", "1")
         ];
     }
@@ -29,12 +29,15 @@ class AWorld {
                 "p.name as PlayerName, p.id_player AS idPlayer ,p.guild AS GuildName ,  p.id_guild , c.name as CityName , c.x , c.y",
                 "player p, city_bar b, city c",
                 "c.id_player = p.id_player  AND b.x_coord = :x AND b.y_coord = :y AND b.id_city = c.id_city ", ["x" => $xCoord, "y" => $yCoord]);
-        if (!count($Barr)) return [];
+        if (!count($Barr))
+            return [];
 
-        if (!$Barr[0]["id_guild"]) return $Barr;
+        if (!$Barr[0]["id_guild"])
+            return $Barr;
 
         $Guild = selectFromTable("name AS GuildName, slog_top, slog_btm, slog_cnt", "guild", "id_guild = :idg", ["idg" => $Barr[0]["id_guild"]]);
-        if (!count($Guild)) return $Barr;
+        if (!count($Guild))
+            return $Barr;
         $Barr[0]["GuildName"] = $Guild[0]["GuildName"];
         $Barr[0]["slog_top"] = $Guild[0]["slog_top"];
         $Barr[0]["slog_btm"] = $Guild[0]["slog_btm"];
@@ -44,7 +47,7 @@ class AWorld {
     }
 
     function BuildNewCity() {
-        
+
         global $idPlayer;
 
         $xCoord = validateID($_POST["xCoord"]);
@@ -57,15 +60,16 @@ class AWorld {
         $unit = selectFromTable("ut", "world", "x = :xc AND y = :yc", ["xc" => $xCoord, "yc" => $yCoord]);
 
         if (!count($Player) || !count($cityCount) || !count($unit))
-                return ["state" => "error_0", "TryToHack" => TryToHack()];
+            return ["state" => "error_0", "TryToHack" => TryToHack()];
         if ($unit[0]["ut"] != WUT_EMPTY)
-                return ["state" => "error_1", "TryToHack" => TryToHack()];
-        if (mb_strlen($CityName) > 8) return ["state" => "error_2"];
+            return ["state" => "error_1", "TryToHack" => TryToHack()];
+        if (mb_strlen($CityName) > 8)
+            return ["state" => "error_2"];
 
         if ($cityCount[0]["c_count"] > 4)
-                return ["state" => "error_3", "TryToHack" => TryToHack()];
+            return ["state" => "error_3", "TryToHack" => TryToHack()];
         if ($Player[0]['porm'] < $cityCount[0]["c_count"] * 2)
-                return ["state" => "error_4", "TryToHack" => TryToHack()];
+            return ["state" => "error_4", "TryToHack" => TryToHack()];
 
         $Res = [
             "food" => pow(10, $cityCount[0]["c_count"] + 2),
@@ -76,7 +80,7 @@ class AWorld {
         ];
 
         if (!LCity::isResourceTaken($Res, $idCity))
-                return ["state" => "error_5", "TryToHack" => TryToHack()];
+            return ["state" => "error_5", "TryToHack" => TryToHack()];
 
         LCity::addCity($xCoord, $yCoord, $CityName);
         (new LWebSocket())->send(json_encode(["url" => "World/refreshWorldUnit", "data" => [
@@ -110,7 +114,7 @@ class AWorld {
         ];
 
         if ($Unit["t"] <= WUT_WOODS_LVL_10)
-                return [
+            return [
                 "Unit" => $Unit,
                 "Army" => $Army
             ];
@@ -169,15 +173,21 @@ class AWorld {
                 "city.name AS CityName, player.name AS PlayerName, player.id_guild, player.id_player, player.avatar, city.id_city, player.prestige",
                 "city JOIN player ON player.id_player = city.id_player", "city.x = :x AND city.y = :y", ["x" => $xCoord, "y" => $yCoord]);
 
-        if (!count($City)) return [];
-        if (!$City[0]["id_guild"]) return $City[0];
+        if (!count($City))
+            return [];
+        if (!$City[0]["id_guild"])
+            return $City[0];
 
         $Guild = selectFromTable("id_guild, name, slog_top, slog_btm, slog_cnt", "guild", "id_guild = :idg", ["idg" => $City[0]["id_guild"]]);
+        if (count($Guild)) {
+            $City[0]["GuildName"] = $Guild[0]["name"];
+            $City[0]["slog_top"]  = $Guild[0]["slog_top"];
+            $City[0]["slog_btm"]  = $Guild[0]["slog_btm"];
+            $City[0]["slog_cnt"]  = $Guild[0]["slog_cnt"];
+        }else{
+            $City[0]["GuildName"] = "----";
+        }
 
-        $City[0]["GuildName"] = $Guild[0]["name"];
-        $City[0]["slog_top"] = $Guild[0]["slog_top"];
-        $City[0]["slog_btm"] = $Guild[0]["slog_btm"];
-        $City[0]["slog_cnt"] = $Guild[0]["slog_cnt"];
 
         return $City[0];
     }
