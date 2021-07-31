@@ -12,7 +12,7 @@ class ARankingGuild
                 . "guild.mem_num , player.name AS lord_name, player.avatar, player.porm,"
                 . "guild.slog_top, guild.slog_cnt, guild.slog_btm",
                 "guild JOIN player ON player.id_player = guild.id_leader",
-                "1 ORDER BY guild.mem_num DESC  LIMIT 10 OFFSET $offset");
+                "1 ORDER BY guild.mem_num DESC, guild.prestige DESC  LIMIT 10 OFFSET $offset");
         
     }
     

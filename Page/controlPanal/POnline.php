@@ -85,12 +85,12 @@
                         <div class="select">
                             <ul>
                                 <?php
-                                    $start = max(0 , $page_num -5);
+                                    $start = max(0 , $page_num/15 -5);
                                     $end   = min($start + 10 , (int)($mem_count/15));
                                     for($iii = $start ; $iii <= $end ; $iii++){
                                         
                                         
-                                        echo ' <li><a href="?page='.$iii.'">'.$iii.'</a></li>' ;
+                                        echo ' <li><a href="?page='.$iii.'&server='.$_GET["server"].'&AdminToken='.$_GET["AdminToken"].'">'.$iii.'</a></li>' ;
                                         
                                         
                                     }

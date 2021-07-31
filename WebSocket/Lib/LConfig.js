@@ -219,6 +219,17 @@ Elkaisar.Config.GUILD_R_DEPUTY = 5;
 Elkaisar.Config.GUILD_R_LEADER = 6;
 
 
+
+
+Elkaisar.Config.TEAM_R_MEMBER = 0;
+Elkaisar.Config.TEAM_R_SENIOR = 1;
+Elkaisar.Config.TEAM_R_SUPERVISOR_2 = 2;
+Elkaisar.Config.TEAM_R_SUPERVISOR = 3;
+Elkaisar.Config.TEAM_R_DEPUTY_2 = 4;
+Elkaisar.Config.TEAM_R_DEPUTY = 5;
+Elkaisar.Config.TEAM_R_LEADER = 6;
+
+
 Elkaisar.Config.HERO_BASE_CAP = 30000;
 Elkaisar.Config.HERO_SWAY_POINT_EFF = 500;
 Elkaisar.Config.HERO_EDU_LVL_EFF_CAP = 0.03;
@@ -369,3 +380,5 @@ Elkaisar.Config.AttackTypeNorm = 0;
 Elkaisar.Config.AttackTypeBreak = 1;
 Elkaisar.Config.AttackTypeStrike = 2;
 Elkaisar.Config.AttackTypeStrikeAndBreak = 3;
+
+

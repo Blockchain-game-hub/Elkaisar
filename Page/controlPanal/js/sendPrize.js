@@ -1,3 +1,5 @@
+GUILD_TO_SEND_PRIZE = {};
+
 function promotionOptionList(){
 
    var list = "";
@@ -97,8 +99,16 @@ function showPlayerToSend()
                             data-id-player="${PLYAERS_TO_SEND[iii].id_player}"
                             data-player-name="${PLYAERS_TO_SEND[iii].name}"
                             data-player-porm="${PLYAERS_TO_SEND[iii].porm}"
-                     style="direction:  rtl"> ${PLYAERS_TO_SEND[iii].name} (${pormotion[PLYAERS_TO_SEND[iii].porm].ar_title})</li>`;
+                     style="direction:  rtl"> ${PLYAERS_TO_SEND[iii].name} (${pormotion[PLYAERS_TO_SEND[iii].porm].ar_title}) (لاعب)</li>`;
 
+    }
+
+
+    if(GUILD_TO_SEND_PRIZE.idGuild){
+        allList += `<li class="delete-guild"
+                            data-id-guild="${GUILD_TO_SEND_PRIZE.id_guild}"
+                            data-guild-name="${GUILD_TO_SEND_PRIZE.GuildName}"
+                     style="direction:  rtl"> ${GUILD_TO_SEND_PRIZE.GuildName} (حلف)</li>`;
     }
 
     $("#player-to-send").html(allList);
@@ -194,6 +204,60 @@ $(document).on("click", "#start-search-player-prize", function () {
 });
 
 
+$(document).on("click", "#start-search-guild-prize", function () {
+
+    var searchval = $("#search-val").val();
+
+    $.ajax({
+        url: `http://${WS_HOST}:${WS_PORT}/cp/CPSendPrize/searchByGuildName`,
+        data: {
+            seg: searchval
+        },
+        type: 'GET',
+        beforeSend: function (xhr) {
+
+        },
+        success: function (data, textStatus, jqXHR) {
+
+            $("#start-search").removeAttr("disabled");
+
+
+            if (isJson(data)) {
+
+                var json_data = JSON.parse(data);
+
+            } else {
+                alert(data);
+            }
+
+            if (json_data.length < 1) {
+                alert("لا يوجد حلف يحمل هذا الاسم");
+                return;
+            }
+
+
+            var list = "";
+
+            for (var iii in json_data) {
+
+                list += `<li class="add-guild-prize"
+                            data-id-guild="${json_data[iii].id_guild}"
+                            data-guild-name="${json_data[iii].name}"
+                     style="direction:  rtl"> ${json_data[iii].name} (${json_data[iii].mem_num}) </li>`;
+
+            }
+            $("#search-result ul").html(list);
+
+        },
+        error: function (jqXHR, textStatus, errorThrown) {
+
+        }
+    });
+
+
+});
+
+
 
 $(document).on("click", ".add-player-prize", function () {
 
@@ -202,13 +266,29 @@ $(document).on("click", ".add-player-prize", function () {
     var porm = $(this).attr("data-player-porm");
 
     $(this).remove();
-
-
     PLYAERS_TO_SEND.push({
         id_player: id_player,
         name: name,
         porm: porm
     });
+
+    
+
+    showPlayerToSend();
+});
+
+
+$(document).on("click", ".add-guild-prize", function () {
+
+    var idGuild = $(this).attr("data-id-guild");
+    var GuildName = $(this).attr("data-guild-name");
+    $(this).remove();
+
+    GUILD_TO_SEND_PRIZE = {
+        idGuild: idGuild,
+        GuildName: GuildName
+    }
+   
 
 
     showPlayerToSend();
@@ -234,6 +314,20 @@ $(document).on("click", ".delete-player", function () {
 
     }
 
+
+    showPlayerToSend();
+
+
+});
+
+
+$(document).on("click", ".delete-guild", function () {
+
+    var id_player = $(this).attr("data-id-guild");
+    var name = $(this).attr("data-guild-name");
+    $(this).remove();
+
+    GUILD_TO_SEND_PRIZE = {};
 
     showPlayerToSend();
 
@@ -294,6 +388,34 @@ $(document).on("click", "#SEND_MATRIAL button", function () {
             });
 
         }
+
+
+    } else if( sendTo === "guild"){
+
+        if(!GUILD_TO_SEND_PRIZE.idGuild)
+        return alertBox.confirmDialog(" عليك إختيار الحلف أولاً");
+
+        $.ajax({
+            url: `http://${WS_HOST}:${WS_PORT}/cp/CPSendPrize/sendPrizeToGuild`,
+            type: "GET",
+            data:{
+                idPlayer :1,
+                token: OuthToken,
+                idGuild: GUILD_TO_SEND_PRIZE.idGuild,
+                DistBy: $("#DistGuildPrizeBy").val(),
+                Prizes: JSON.stringify(PRIZE_TO_SEND)
+            },
+            beforeSend:function(){},
+            success: function(data){
+
+                PLYAERS_TO_SEND = [];
+                PRIZE_TO_SEND = [];
+                $(".add-matrial").prop("checked", false);
+                $(".amount").html("");
+                showMatrialToSend();
+                showPlayerToSend();
+            }
+        });
 
 
     } else if (sendTo === "server") {
@@ -443,6 +565,22 @@ $(document).on("change", '#select-grou-to-send', function () {
 
     }else if(value == "online"){
         $("#player-list").html("");
+    }else if(value == "guild"){
+
+        $("#player-list").html(`<label style="margin-top:15px; display: block ">
+                                    <input id="search-val" type="text" name="textfield" placeholder="أدخل اسم الحلف ">
+                                </label>
+                                <label>
+                                    <input id="start-search-guild-prize" type="submit" name="Submit" value="Search">
+                                </label>
+                                <div id="search-result"><ul></ul></div>
+                                <label style="margin-top:15px; display: block ">توزيع النسبة حسب</label>
+                                <label style="margin-top:15px; display: block ">
+                                    <select id="DistGuildPrizeBy">
+                                        <option selected value="Equally"> توزيع النسبة بالتساوى</option>
+                                        <option value="Manually">توزيع  حسب نسبة كل لاعب بالحلف</option>
+                                    </select> 
+                                </label>`);
     }
     $("#SEND_MATRIAL button").attr("data-send-to", value);
 

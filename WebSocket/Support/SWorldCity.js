@@ -72,6 +72,7 @@ Elkaisar.DB.SelectFrom("x, y, lvl, id_city, id_player", "city", "1", [], functio
 Elkaisar.Cron.schedule(`${Elkaisar.Base.rand(20, 40)} 6 * * *`, function () {
 
     Elkaisar.DB.QueryExc("INSERT IGNORE INTO city_storage(id_player, id_city) SELECT id_player, id_city FROM city", []);
+    Elkaisar.DB.QueryExc("UPDATE server_data SET guild_num = (SELECT COUNT(*) FROM guild), city_num = (SELECT count(*) from city )", []);
     Elkaisar.DB.QueryExc("INSERT IGNORE INTO hero_army(id_player, id_hero) SELECT id_player, id_hero FROM hero", []);
     Elkaisar.DB.QueryExc("INSERT IGNORE INTO hero_medal (id_hero) SELECT id_hero FROM hero", []);
     Elkaisar.DB.QueryExc("UPDATE equip SET lvl = 1 WHERE lvl = 0", []);

@@ -11,7 +11,7 @@ class AItem {
         $Item = validateGameNames($_POST["item"]);
         $amount = validateID($_POST["amount"]);
         $itemPrice = selectFromTable("*", "item", "id_item = :ii", ["ii" => $Item]);
-
+        
         if ($amount <= 0)
                 return ["state" => "error_0", "TryToHack" => TryToHack()];
         if (!count($itemPrice))

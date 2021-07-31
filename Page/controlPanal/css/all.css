@@ -986,3 +986,19 @@ li{
     background-size: contain;
     max-width: 94%;
 }
+
+
+#WorldUnitDesc{
+    text-align: center;
+    font-size: 14px;;
+}
+
+
+#LeftWorldUnitDesc{
+    width: 50%;
+    height: 100%;
+}
+#RightWorldUnitDesc{
+    width: 50%;
+    height: 100%;
+}

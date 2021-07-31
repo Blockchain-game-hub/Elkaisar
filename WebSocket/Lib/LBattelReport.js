@@ -70,36 +70,35 @@ class LBattelReport
 
     }
 
-    addReport(callBack)
+    async addReport()
     {
         var Unit = Elkaisar.World.getUnit(this.Battel.Battel.x_coord, this.Battel.Battel.y_coord);
         var This = this;
-        Elkaisar.DB.Insert(
+
+        const Res = await Elkaisar.DB.AInsert(
                 `x = ${Unit.x} , y = ${Unit.y} , time_stamp = ${Date.now() / 1000}, id_battel_replay = ?,
                 side_win = ${this.Battel.Fight.sideWin} , attacker = ${this.Battel.Battel.id_player} ,
-                round_num = ${this.Battel.Fight.roundNum} , task = ${this.Battel.Battel.task}, lvl =${this.Battel.WinLvl}`, "report_battel", [this.Battel.Fight.FightReplayId], function (Res) {
-            This.idReport = Res.insertId;
-            if (callBack)
-                callBack(Res);
+                round_num = ${this.Battel.Fight.roundNum} , task = ${this.Battel.Battel.task}, lvl =${this.Battel.WinLvl}`,
+                "report_battel", [this.Battel.Fight.FightReplayId]);
 
-            Object.values(This.Battel.Players).forEach(function (Player, Index) {
-                This.addPlayer(Player);
-            });
-            This.Battel.HeroReadyList.forEach(function (Hero, Index) {
-                Hero["gainXp"] = 0;
-                if (Hero.side == This.Battel.Fight.sideWin){
-                    var Exp =  Elkaisar.Lib.LBattelReport.getHeroXp(Unit);
-                    Hero["gainXp"] = This.Battel.Fight.TotalKill[Elkaisar.Config.BATTEL_SIDE_ATT]["kills"] > 0 ? Exp* Hero["troopsKills"] / This.Battel.Fight.TotalKill[Elkaisar.Config.BATTEL_SIDE_ATT]["kills"] : 0;
-                    Hero["gainXp"] = Math.min( Hero["gainXp"], Exp);
-                }
-                    
+        this.idReport = Res.insertId;
+        Object.values(This.Battel.Players).forEach(function (Player, Index) {
+            This.addPlayer(Player);
+        });
+        This.Battel.HeroReadyList.forEach(function (Hero, Index) {
+            Hero["gainXp"] = 0;
+            if (Hero.side == This.Battel.Fight.sideWin){
+                var Exp =  Elkaisar.Lib.LBattelReport.getHeroXp(Unit);
+                Hero["gainXp"] = This.Battel.Fight.TotalKill[Elkaisar.Config.BATTEL_SIDE_ATT]["kills"] > 0 ? Exp* Hero["troopsKills"] / This.Battel.Fight.TotalKill[Elkaisar.Config.BATTEL_SIDE_ATT]["kills"] : 0;
+                Hero["gainXp"] = Math.min( Hero["gainXp"], Exp);
+            }
+                
 
-                Hero["ord"] = Index;
-                
-                Elkaisar.DB.Update("exp = exp + ?", "hero", "id_hero = ? AND lvl < 255", [Hero["gainXp"] || 0, Hero["id_hero"]]);
-                This.addHero(Hero);
-                
-            });
+            Hero["ord"] = Index;
+            
+            Elkaisar.DB.Update("exp = exp + ?", "hero", "id_hero = ? AND lvl < 255", [Hero["gainXp"] || 0, Hero["id_hero"]]);
+            This.addHero(Hero);
+            
         });
 
     }

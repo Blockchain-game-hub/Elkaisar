@@ -13,6 +13,7 @@ class CArmy {
         [Elkaisar.Config.ARMY_WALL_C] : 0
     };
     static  ArmyCityToArmyHero = {
+        0 : 0,
         "army_a" : 1,
         "army_b" : 2,
         "army_c" : 3,

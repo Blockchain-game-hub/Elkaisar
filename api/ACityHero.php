@@ -40,7 +40,7 @@ class ACityHero
         
         global $idPlayer;
         $idCity = validateID($_GET["idCity"]);
-        
+        $this->refreshHeroTheater();
         return selectFromTable("hero_name as name, hero_lvl AS lvl, hero_image AS avatar, hero_theater.*", "hero_theater", "id_city = :idc ORDER BY ord", ["idc" => $idCity]);
     
     }

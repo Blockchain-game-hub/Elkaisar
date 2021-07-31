@@ -22,7 +22,7 @@ class AGuild {
                 "id_leader = :idp, name = :na, slog_top = :st, slog_cnt = :sc, slog_btm = :sb",
                 "guild", ["idp" => $idPlayer, "na" => $guildName, "st" => $slogTop, "sb" => $slogBottom, "sc" => $slogMiddle]
         );
-        
+        updateTable( "guild_num = (SELECT COUNT(*) FROM guild), city_num = (SELECT count(*) from city )", "server_data", "1");
         
         $GuildData = LGuild::getGuildData($idGuild);
         

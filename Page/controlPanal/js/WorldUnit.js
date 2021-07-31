@@ -1607,10 +1607,10 @@ const  WORLD_UNIT_LVL = {
         {ar_title:"ميدان تحدى العالم",  en_title: "Rebel City Lvl 1", lvl:1,  type: WUT_CHALLAGE_FIELD_SERVER}
     ],
     "1000":[
-        {ar_title: "مدينه مستوى 0", en_title: "", lvl:1, type: WUT_CITY_LVL_0}, 
-        {ar_title: "مدينه مستوى 1", en_title: "", lvl:2, type: WUT_CITY_LVL_1},
-        {ar_title: "مدينه مستوى 2", en_title: "", lvl:3, type: WUT_CITY_LVL_2}, 
-        {ar_title: "مدينه مستوى 3", en_title: "", lvl:4, type: WUT_CITY_LVL_3}
+        {ar_title: "مدينه مستوى 0", en_title: "", lvl:0, type: WUT_CITY_LVL_0}, 
+        {ar_title: "مدينه مستوى 1", en_title: "", lvl:1, type: WUT_CITY_LVL_1},
+        {ar_title: "مدينه مستوى 2", en_title: "", lvl:2, type: WUT_CITY_LVL_2}, 
+        {ar_title: "مدينه مستوى 3", en_title: "", lvl:3, type: WUT_CITY_LVL_3}
     ]
     
 };

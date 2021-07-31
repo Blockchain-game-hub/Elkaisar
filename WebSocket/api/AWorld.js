@@ -9,7 +9,6 @@ class AWorld{
     
     
     getWorldCity(){
-        
         return Elkaisar.AllWorldCity
     }
     

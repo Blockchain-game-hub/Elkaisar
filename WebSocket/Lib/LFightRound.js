@@ -267,6 +267,12 @@ class LFightRound {
                 Attacks[(1-Side)*3 + 1] = [3, 4, 5];
                 Attacks[(1-Side)*3 + 2] = [3, 4, 5];
             }
+            
+            if(Hero.EquipSpAt[Elkaisar.Config.EquipSpAtArrowRainB] && Hero.EquipSpAt[Elkaisar.Config.EquipSpAtArrowRainA]){
+                Attacks[(1-Side)*3 + 0] = [0, 1, 2, 3, 4, 5];
+                Attacks[(1-Side)*3 + 1] = [0, 1, 2, 3, 4, 5];
+                Attacks[(1-Side)*3 + 2] = [0, 1, 2, 3, 4, 5];
+            }
         }
         
         if(ArmyType == Elkaisar.Config.ARMY_E){

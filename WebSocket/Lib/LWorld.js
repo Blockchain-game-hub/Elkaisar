@@ -18,6 +18,8 @@ Elkaisar.World.refreshWorldUnit = function (callBack) {
             else{
                 Elkaisar.World.WorldUnits[Unit.x*500 + Unit.y].ut = Unit.ut;
                 Elkaisar.World.WorldUnits[Unit.x*500 + Unit.y].l  = Unit.l;
+                Elkaisar.World.WorldUnits[Unit.x*500 + Unit.y].lo  = Unit.lo;
+                Elkaisar.World.WorldUnits[Unit.x*500 + Unit.y].s  = Unit.s;
             }
         }
         console.log(Date.now());
@@ -45,6 +47,7 @@ Elkaisar.World.getUnitPrize = function (Battel) {
     var xCoord = Battel.Battel.x_coord;
     var yCoord = Battel.Battel.y_coord;
     var Unit = Elkaisar.World.WorldUnits[xCoord * 500 + yCoord];
+   
     var PrizeList = [];
     if(Battel.Fight.sideWin === Elkaisar.Config.BATTEL_SIDE_ATT)
         PrizeList = Elkaisar.World.WorldUnitPrize[`${Unit.ut}.${Battel.WinLvl}`];
@@ -255,6 +258,12 @@ class LWorld {
                 function (Res) {
                     callBack(Res);
                 });
+    }
+
+    static removeCityColonizer(idCity){
+
+        Elkaisar.DB.Delete("city_colonize", "id_city_colonized = ?", [idCity]);
+
     }
 
 }

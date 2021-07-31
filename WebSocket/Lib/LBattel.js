@@ -191,20 +191,9 @@ class LBattel
             Players: {},
             HeroReadyList: []
         };
-        var HeroBattel = {
-            idHero: Battel.id_hero,
-            isGarrison: false,
-            side: Elkaisar.Config.BATTEL_SIDE_ATT
-        };
         LBattel.addPlayerToBattel(Battel.id_player, Elkaisar.Battel.BattelList[Battel.id_battel], Elkaisar.Config.BATTEL_SIDE_ATT);
         LBattel.BattelInfluencedPlayers(Elkaisar.Battel.BattelList[Battel.id_battel]);
         LBattel.addUnitGarrison(Battel);
-        Elkaisar.Lib.LWorldUnit.newWorldBattel(Battel);
-        Elkaisar.WsLib.BattelWatchList.newBattelNotif(null, {
-            xCoord: Battel.x_coord,
-            yCoord: Battel.y_coord,
-            Battel: Battel
-        });
     }
 
     static heroJoinedBattel(Hero, Battel)
@@ -286,7 +275,11 @@ class LBattel
         Elkaisar.DB.Delete("battel_member", "id_battel = ?", [idBattel]);
         Elkaisar.Lib.LWorldUnit.fireOffWorldUnit(Elkaisar.Battel.BattelList[idBattel].Battel.x_coord, Elkaisar.Battel.BattelList[idBattel].Battel.y_coord);
         Elkaisar.Lib.LWorldUnit.worldBattelEnded(Elkaisar.Battel.BattelList[idBattel].Battel);
+        delete Elkaisar.Battel.BattelList[idBattel];
     }
+
+   
+
 
 }
 

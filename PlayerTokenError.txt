@@ -1,5 +1,0 @@
-
-null   /Elkaisar/api/AEquip/changeEquipPower
-
-
-
