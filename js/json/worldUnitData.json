@@ -13,7 +13,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -240,7 +240,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -259,7 +259,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -278,7 +278,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -297,7 +297,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -316,7 +316,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -335,7 +335,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -354,7 +354,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -373,7 +373,7 @@
         "maxLvl": 0,
         "reqProm": 0,
         "lvlChange": false,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -392,7 +392,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -411,7 +411,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -430,7 +430,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -449,7 +449,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -468,7 +468,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -487,7 +487,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -506,7 +506,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -525,7 +525,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -544,7 +544,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -563,7 +563,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -582,7 +582,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -601,7 +601,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -612,6 +612,7 @@
         "SnapShootRect": "Texture2D'/Game/images/world/SnapShootRect/wood_1.wood_1'",
         "Texture2D": "Texture2D'/Game/images/world/Sprites/w_1_Sprite.w_1_Sprite'",
         "tileName": "w_1",
+        "AnimKey" : "Forest.1",
         "hitArea": [63, 72, 90, 83, 92, 97, 67, 112, 39, 99, 47, 84],
         "Desc": null,
         "heroLvl": 1,
@@ -620,7 +621,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -631,6 +632,7 @@
         "SnapShootRect": "Texture2D'/Game/images/world/SnapShootRect/wood_1.wood_1'",
         "Texture2D": "Texture2D'/Game/images/world/Sprites/w_2_Sprite.w_2_Sprite'",
         "tileName": "w_2",
+        "AnimKey" : "Forest.1",
         "hitArea": [63, 72, 90, 83, 92, 97, 67, 112, 39, 99, 47, 84],
         "Desc": null,
         "heroLvl": 1,
@@ -639,7 +641,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -650,6 +652,7 @@
         "SnapShootRect": "Texture2D'/Game/images/world/SnapShootRect/wood_1.wood_1'",
         "Texture2D": "Texture2D'/Game/images/world/Sprites/w_3_Sprite.w_3_Sprite'",
         "tileName": "w_3",
+        "AnimKey" : "Forest.1",
         "hitArea": [63, 72, 90, 83, 92, 97, 67, 112, 39, 99, 47, 84],
         "Desc": null,
         "heroLvl": 1,
@@ -658,7 +661,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -669,6 +672,7 @@
         "SnapShootRect": "Texture2D'/Game/images/world/SnapShootRect/wood_1.wood_1'",
         "Texture2D": "Texture2D'/Game/images/world/Sprites/w_4_Sprite.w_4_Sprite'",
         "tileName": "w_4",
+        "AnimKey" : "Forest.1",
         "hitArea": [63, 72, 90, 83, 92, 97, 67, 112, 39, 99, 47, 84],
         "Desc": null,
         "heroLvl": 1,
@@ -677,7 +681,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -688,6 +692,7 @@
         "SnapShootRect": "Texture2D'/Game/images/world/SnapShootRect/wood_2.wood_2'",
         "Texture2D": "Texture2D'/Game/images/world/Sprites/w_5_Sprite.w_5_Sprite'",
         "tileName": "w_5",
+        "AnimKey" : "Forest.2",
         "hitArea": [64, 64, 106, 86, 109, 101, 66, 122, 27, 97, 33, 80],
         "Desc": null,
         "heroLvl": 1,
@@ -696,7 +701,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -707,6 +712,7 @@
         "SnapShootRect": "Texture2D'/Game/images/world/SnapShootRect/wood_2.wood_2'",
         "Texture2D": "Texture2D'/Game/images/world/Sprites/w_6_Sprite.w_6_Sprite'",
         "tileName": "w_6",
+        "AnimKey" : "Forest.2",
         "hitArea": [64, 64, 106, 86, 109, 101, 66, 122, 27, 97, 33, 80],
         "Desc": null,
         "heroLvl": 1,
@@ -715,7 +721,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -726,6 +732,7 @@
         "SnapShootRect": "Texture2D'/Game/images/world/SnapShootRect/wood_2.wood_2'",
         "Texture2D": "Texture2D'/Game/images/world/Sprites/w_7_Sprite.w_7_Sprite'",
         "tileName": "w_7",
+        "AnimKey" : "Forest.2",
         "hitArea": [64, 64, 106, 86, 109, 101, 66, 122, 27, 97, 33, 80],
         "Desc": null,
         "heroLvl": 1,
@@ -734,7 +741,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -745,6 +752,7 @@
         "SnapShootRect": "Texture2D'/Game/images/world/SnapShootRect/wood_3.wood_3'",
         "Texture2D": "Texture2D'/Game/images/world/Sprites/w_8_Sprite.w_8_Sprite'",
         "tileName": "w_8",
+        "AnimKey" : "Forest.3",
         "hitArea": [62, 48, 116, 77, 120, 97, 65, 127, 15, 100, 16, 74],
         "Desc": null,
         "heroLvl": 1,
@@ -753,7 +761,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -764,6 +772,7 @@
         "SnapShootRect": "Texture2D'/Game/images/world/SnapShootRect/wood_3.wood_3'",
         "Texture2D": "Texture2D'/Game/images/world/Sprites/w_9_Sprite.w_9_Sprite'",
         "tileName": "w_9",
+        "AnimKey" : "Forest.3",
         "hitArea": [62, 48, 116, 77, 120, 97, 65, 127, 15, 100, 16, 74],
         "Desc": null,
         "heroLvl": 1,
@@ -772,7 +781,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -783,6 +792,7 @@
         "SnapShootRect": "Texture2D'/Game/images/world/SnapShootRect/wood_3.wood_3'",
         "Texture2D": "Texture2D'/Game/images/world/Sprites/w_10_Sprite.w_10_Sprite'",
         "tileName": "w_10",
+        "AnimKey" : "Forest.3",
         "hitArea": [62, 48, 116, 77, 120, 97, 65, 127, 15, 100, 16, 74],
         "Desc": null,
         "heroLvl": 1,
@@ -791,7 +801,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },

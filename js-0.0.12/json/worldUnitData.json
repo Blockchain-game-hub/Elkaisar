@@ -13,7 +13,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -240,7 +240,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -259,7 +259,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -278,7 +278,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -297,7 +297,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -316,7 +316,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -335,7 +335,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -354,7 +354,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -373,7 +373,7 @@
         "maxLvl": 0,
         "reqProm": 0,
         "lvlChange": false,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -392,7 +392,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -411,7 +411,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -430,7 +430,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -449,7 +449,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -468,7 +468,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -487,7 +487,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -506,7 +506,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -525,7 +525,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -544,7 +544,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -563,7 +563,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -582,7 +582,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -601,7 +601,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -621,7 +621,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -641,7 +641,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -661,7 +661,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -681,7 +681,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -701,7 +701,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -721,7 +721,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -741,7 +741,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -761,7 +761,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -781,7 +781,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },
@@ -801,7 +801,7 @@
         "maxLvl": 0,
         "lvlChange": false,
         "reqProm": 0,
-        "reqFitness": 0,
+        "reqFitness": 10,
         "MakeReq": [],
         "JoinReq": []
     },

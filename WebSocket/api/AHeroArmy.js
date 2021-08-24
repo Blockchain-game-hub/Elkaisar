@@ -54,7 +54,7 @@ class AHeroArmy{
         
         const Hero = await  Elkaisar.DB.ASelectFrom("hero.id_city, hero.in_city, hero_army.*", "hero Join hero_army ON hero.id_hero = hero_army.id_hero", "hero.id_hero = ? AND hero.id_player = ?", [idHero, this.idPlayer]);
         const CityArmy = (await  (Elkaisar.DB.ASelectFrom(ArmyType, "city", "id_city = ?", [ Hero[0]["id_city"]])))[0][ArmyType];
-        const EmptyPlaces = await  Elkaisar.Lib.LHero.emptyPlacesSize(this.idPlayer, idHero);
+        const EmptyPlaces = await  Elkaisar.Lib.LHeroArmy.emptyPlacesSize(this.idPlayer, idHero);
         const OnArmyUnitSize =  Elkaisar.Config.CArmy.ArmyCap[Elkaisar.Config.CArmy.ArmyCityToArmyHero[ArmyType]];
         
         if(!Array.isArray(Hero) || Hero.length < 1)
@@ -83,8 +83,7 @@ class AHeroArmy{
             "City" : (await Elkaisar.DB.ASelectFrom("*", "city", "id_city = ?", [Hero[0]["id_city"]]))[0]
         };
     }
-    
-    
+
     async  transArmyFromHeroToHero()
     {
         
@@ -105,7 +104,7 @@ class AHeroArmy{
             return {"state": "error_2"};
         if(amount <= 0 || amount > HeroFrom[0][(ArmyPlaceFrom+"_num")])
             return {"state": "error_3"};
-        if(Elkaisar.Lib.LHero.emptyPlacesSize(this.idPlayer, idHeroTo) < amount*Elkaisar.Config.CArmy.ArmyCap[HeroFrom[0][(ArmyPlaceFrom+"_type")]])
+        if(Elkaisar.Lib.LHeroArmy.emptyPlacesSize(this.idPlayer, idHeroTo) < amount*Elkaisar.Config.CArmy.ArmyCap[HeroFrom[0][(ArmyPlaceFrom+"_type")]])
             return {"state": "error_4"};
         if(HeroFrom[0]["in_city"] != Elkaisar.Config.HERO_IN_CITY || HeroTo[0]["in_city"] != Elkaisar.Config.HERO_IN_CITY)
             return {"state": "error_5"};
@@ -124,6 +123,87 @@ class AHeroArmy{
             "HeroArmyTo"   : (await Elkaisar.DB.ASelectFrom("*", "hero_army", "id_hero = ?", [idHeroTo]))[0]
         };
     }
+
+    async swapHeroArmy()
+    {
+        
+        const idHeroLeft    = Elkaisar.Base.validateId(this.Parm["idHeroLeft"]);
+        const idHeroRight   = Elkaisar.Base.validateId(this.Parm["idHeroRight"]);
+        const HeroLeft      = await Elkaisar.DB.ASelectFrom("hero.id_city, hero.in_city, hero_army.*", "hero JOIN hero_army ON hero.id_hero = hero_army.id_hero", "hero.id_hero = ? AND hero.id_player = ?", [idHeroLeft,  this.idPlayer]);
+        const HeroRight     = await Elkaisar.DB.ASelectFrom("hero.id_city, hero.in_city, hero_army.*", "hero JOIN hero_army ON hero.id_hero = hero_army.id_hero", "hero.id_hero = ? AND hero.id_player = ?", [idHeroRight, this.idPlayer]);
+        const HeroLeftCap   = Elkaisar.Lib.LHeroArmy.heroFullCap(this.idPlayer, idHeroLeft);
+        const HeroLeftFill  = Elkaisar.Lib.LHeroArmy.filledPlacesSize(idHeroLeft);
+        const HeroRightCap  = Elkaisar.Lib.LHeroArmy.heroFullCap(this.idPlayer, idHeroRight);
+        const HeroRightfill = Elkaisar.Lib.LHeroArmy.filledPlacesSize(idHeroRight);
+        
+        if(!HeroLeft.length || !HeroRight.length)
+            return {"state" : "error_0"};
+        if(HeroLeftCap < HeroRightfill || HeroRightCap < HeroLeftFill)
+            return {"state" : "error_1"};
+        if(HeroLeft[0]["in_city"] != Elkaisar.Config.HERO_IN_CITY || HeroRight[0]["in_city"] != Elkaisar.Config.HERO_IN_CITY)
+            return {"state" : "error_2"};
+       
+        const quary_1 = `f_1_type = ${HeroLeft[0]["f_1_type"]} , f_1_num = ${HeroLeft[0]["f_1_num"]},
+                    f_2_type = ${HeroLeft[0]["f_2_type"]} , f_2_num = ${HeroLeft[0]["f_2_num"]},
+                    f_3_type = ${HeroLeft[0]["f_3_type"]} , f_3_num = ${HeroLeft[0]["f_3_num"]}, 
+                    b_1_type = ${HeroLeft[0]["b_1_type"]} , b_1_num = ${HeroLeft[0]["b_1_num"]}, 
+                    b_2_type = ${HeroLeft[0]["b_2_type"]} , b_2_num = ${HeroLeft[0]["b_2_num"]}, 
+                    b_3_type = ${HeroLeft[0]["b_3_type"]} , b_3_num = ${HeroLeft[0]["b_3_num"]}`;
+        
+        const quary_2 = `f_1_type = ${HeroRight[0]["f_1_type"]} , f_1_num = ${HeroRight[0]["f_1_num"]}, 
+                    f_2_type = ${HeroRight[0]["f_2_type"]} , f_2_num = ${HeroRight[0]["f_2_num"]}, 
+                    f_3_type = ${HeroRight[0]["f_3_type"]} , f_3_num = ${HeroRight[0]["f_3_num"]}, 
+                    b_1_type = ${HeroRight[0]["b_1_type"]} , b_1_num = ${HeroRight[0]["b_1_num"]}, 
+                    b_2_type = ${HeroRight[0]["b_2_type"]} , b_2_num = ${HeroRight[0]["b_2_num"]}, 
+                    b_3_type = ${HeroRight[0]["b_3_type"]} , b_3_num = ${HeroRight[0]["b_3_num"]}`;
+        await Elkaisar.DB.AUpdate(quary_2, "hero_army", "id_hero = ? AND id_player = ?", [idHeroLeft,  this.idPlayer]);
+        await Elkaisar.DB.AUpdate(quary_1, "hero_army", "id_hero = ? AND id_player = ?", [idHeroRight, this.idPlayer]);
+          return {
+                "state" : "ok",
+                "HeroArmyLeft"  : (await Elkaisar.DB.ASelectFrom("*", "hero_army", "id_hero = ?", [idHeroLeft]))[0],
+                "HeroArmyRight" : (await Elkaisar.DB.ASelectFrom("*", "hero_army", "id_hero = ?", [idHeroRight]))[0]
+          };
+    }
+
+    async clearHeroArmy()
+    {
+        
+        const idHero = Elkaisar.Base.validateId(this.Parm["idHero"]);
+        const Hero = await Elkaisar.DB.ASelectFrom("hero.id_city, hero.in_city, hero_army.*", "hero Join hero_army ON hero.id_hero = hero_army.id_hero", "hero.id_hero = ? AND hero.id_player = ?", [idHero, this.idPlayer]);
+        if(Hero.length <= 0)
+            return {"state": "error_0"};
+        if(Hero[0]["in_city"] !=  Elkaisar.Config.HERO_IN_CITY)
+            return {"state": "error_1"};
+        
+        let cityArmy = {0:0, "army_a": 0, "army_b": 0, "army_c": 0, "army_d": 0, "army_e": 0, "army_f": 0};
+        
+        cityArmy[Elkaisar.Config.CArmy.ArmyCityPlace[Hero[0]["f_2_type"]]] += Hero[0]["f_2_num"];
+        cityArmy[Elkaisar.Config.CArmy.ArmyCityPlace[Hero[0]["f_3_type"]]] += Hero[0]["f_3_num"];
+        cityArmy[Elkaisar.Config.CArmy.ArmyCityPlace[Hero[0]["f_1_type"]]] += Hero[0]["f_1_num"];
+    
+        cityArmy[Elkaisar.Config.CArmy.ArmyCityPlace[Hero[0]["b_1_type"]]] += Hero[0]["b_1_num"];
+        cityArmy[Elkaisar.Config.CArmy.ArmyCityPlace[Hero[0]["b_2_type"]]] += Hero[0]["b_2_num"];
+        cityArmy[Elkaisar.Config.CArmy.ArmyCityPlace[Hero[0]["b_3_type"]]] += Hero[0]["b_3_num"];
+        
+        await Elkaisar.DB.AUpdate(
+               `army_a = army_a + ?, army_b = army_b + ?, army_c = army_c + ?, army_d = army_d + ?, 
+                army_e = army_e + ?, army_f = army_f + ?`, "city", "id_city = ?" ,  [
+                    cityArmy["army_a"], cityArmy["army_b"], cityArmy["army_c"], cityArmy["army_d"], 
+                    cityArmy["army_e"], cityArmy["army_f"], Hero[0]["id_city"]  ]);
+        
+        await Elkaisar.DB.AUpdate(
+                `f_1_type = 0, f_1_num = 0, f_2_type = 0, f_2_num = 0, 
+                f_3_type = 0, f_3_num = 0, b_1_type = 0, b_1_num = 0, 
+                b_2_type = 0, b_2_num = 0, b_3_type = 0, b_3_num = 0`,
+                "hero_army", "id_hero = ?", [idHero]);
+        Elkaisar.Lib.LSaveState.saveCityState(Hero[0]["id_city"]);
+        return {
+            "state"    : "ok",
+            "HeroArmy" : (await Elkaisar.DB.ASelectFrom("*", "hero_army", "id_hero = ?", [idHero]))[0],
+            "City"     : (await Elkaisar.DB.ASelectFrom("*", "city", "id_city = ?", [Hero[0]["id_city"]]))[0]
+        };
+    }
+
     
 }
 

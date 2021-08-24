@@ -48,7 +48,7 @@ class ABattelRunning {
 
     private function reachedLimitHero($Battel, $side) {
         $countAttack = selectFromTable("COUNT(*) AS joiner", "battel_member", "id_battel = :idb AND side = :si", ["idb" => $Battel["id_battel"], "si" => BATTEL_SIDE_ATT])[0]["joiner"];
-        $countDef = selectFromTable("COUNT(*) AS joiner", "battel_member", "id_battel = :idb AND side = :si", ["idb" => $Battel["id_battel"], "si" => BATTEL_SIDE_DEF])[0]["joiner"];
+        $countDef    = selectFromTable("COUNT(*) AS joiner", "battel_member", "id_battel = :idb AND side = :si", ["idb" => $Battel["id_battel"], "si" => BATTEL_SIDE_DEF])[0]["joiner"];
         if ($countAttack >= LBattel::MaxJoinNum($Battel["ut"]) && $side == BATTEL_SIDE_ATT)
                 return true;
         else if ($countDef >= LBattel::MaxJoinNum($Battel["ut"]) && $side == BATTEL_SIDE_DEF)

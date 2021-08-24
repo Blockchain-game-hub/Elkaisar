@@ -972,10 +972,10 @@ const  WORLD_UNIT_LVL = {
         {ar_title:"ذئب كبير مستوى 10", en_title: "Rebel City Lvl 1", lvl:10, type: 155}
     ],
     "1000":[
-        {ar_title: "مدينه مستوى 0", en_title: "", lvl:1, type:17}, 
-        {ar_title: "مدينه مستوى 1", en_title: "", lvl:2, type:18},
-        {ar_title: "مدينه مستوى 2", en_title: "", lvl:3, type:19}, 
-        {ar_title: "مدينه مستوى 3", en_title: "", lvl:4, type:20}
+        {ar_title: "مدينه مستوى 0", en_title: "", lvl:0, type:17}, 
+        {ar_title: "مدينه مستوى 1", en_title: "", lvl:1, type:18},
+        {ar_title: "مدينه مستوى 2", en_title: "", lvl:2, type:19}, 
+        {ar_title: "مدينه مستوى 3", en_title: "", lvl:3, type:20}
     ]
     
 };

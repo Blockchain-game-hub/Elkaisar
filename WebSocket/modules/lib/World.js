@@ -7,6 +7,7 @@ exports.refreshWorldCities = function (callBack) {
             "1", [], function (Res) {
 
         Elkaisar.AllWorldCity = Res;
+        console.log("World City Length Is " + Res.length)
         if (callBack)
             callBack();
     });

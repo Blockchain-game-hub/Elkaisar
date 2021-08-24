@@ -22,8 +22,8 @@ class AGuild {
                 "id_leader = :idp, name = :na, slog_top = :st, slog_cnt = :sc, slog_btm = :sb",
                 "guild", ["idp" => $idPlayer, "na" => $guildName, "st" => $slogTop, "sb" => $slogBottom, "sc" => $slogMiddle]
         );
-        
-        
+        updateTable( "guild_num = (SELECT COUNT(*) FROM guild), city_num = (SELECT count(*) from city )", "server_data", "1");
+        insertIntoTable("id_guild = :idg, rank = :r", "arena_guild_challange", ["idg" => $idGuild, "r" => selectFromTable('COUNT(*) AS c', "arena_guild_challange", '1')[0]["c"] + 1]);
         $GuildData = LGuild::getGuildData($idGuild);
         
         if(!$GuildData)

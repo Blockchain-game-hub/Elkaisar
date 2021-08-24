@@ -1,0 +1,12 @@
+0
+Array
+(
+    [server] => 5
+)
+Array
+(
+    [0] => elkaisar
+    [1] => cp
+    [2] => AIp
+    [3] => getAllPlayerIps
+)

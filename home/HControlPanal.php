@@ -8,9 +8,7 @@ class HControlPanal
         
         $UserName = validatePlayerWord($_POST["UserName"]);
         $PassWord = validatePlayerWord($_POST["password"]);
-        
         $User = selectFromTableIndex("id_user, user_name, user_group, enc_pass", "game_user", "user_name = :un", ["un" => $UserName]);
-        
         if(!count($User))
             return ["state" => "error_0", "TryToHack" => LCPBase::TryToHack()];
         if(!LBase::passCheck($PassWord, $User[0]["enc_pass"]))

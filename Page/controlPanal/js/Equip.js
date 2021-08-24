@@ -67,7 +67,7 @@ $(document).on("click", ".change-equip-power", function (){
                         
                         $.ajax({
                            
-                            url:`${BASE_URL}/cp/AEquip/changeEquipPower`,
+                            url:`http://${WS_HOST}:${WS_PORT}/cp/CPEquip/changeEquipPower`,
                             data:{
                                 idEquip   : idEquip,
                                 attack    :$("#point-attack").val(),
@@ -81,7 +81,6 @@ $(document).on("click", ".change-equip-power", function (){
                                 sp_attr   : $("#point-sp_attr").val()
                                 
                             },
-                            type: 'POST',
                             beforeSend: function (xhr) {
                                 
                             },

@@ -139,8 +139,8 @@ Elkaisar.Config.WUT_WOLF_STATUE_B = 204;
 Elkaisar.Config.WUT_WOLF_STATUE_C = 205;
 
 Elkaisar.Config.WUT_CHALLAGE_FIELD_PLAYER = 220;
-Elkaisar.Config.WUT_CHALLAGE_FIELD_TEAM = 221;
-Elkaisar.Config.WUT_CHALLAGE_FIELD_GUILD = 222;
+Elkaisar.Config.WUT_CHALLAGE_FIELD_TEAM   = 221;
+Elkaisar.Config.WUT_CHALLAGE_FIELD_GUILD  = 222;
 Elkaisar.Config.WUT_CHALLAGE_FIELD_SERVER = 223;
 
 Elkaisar.Config.WUT_FIEGHT_FIELD_PLAYER = 224;
@@ -217,6 +217,17 @@ Elkaisar.Config.GUILD_R_SUPERVISOR = 3;
 Elkaisar.Config.GUILD_R_DEPUTY_2 = 4;
 Elkaisar.Config.GUILD_R_DEPUTY = 5;
 Elkaisar.Config.GUILD_R_LEADER = 6;
+
+
+
+
+Elkaisar.Config.TEAM_R_MEMBER = 0;
+Elkaisar.Config.TEAM_R_SENIOR = 1;
+Elkaisar.Config.TEAM_R_SUPERVISOR_2 = 2;
+Elkaisar.Config.TEAM_R_SUPERVISOR = 3;
+Elkaisar.Config.TEAM_R_DEPUTY_2 = 4;
+Elkaisar.Config.TEAM_R_DEPUTY = 5;
+Elkaisar.Config.TEAM_R_LEADER = 6;
 
 
 Elkaisar.Config.HERO_BASE_CAP = 30000;
@@ -356,6 +367,40 @@ Elkaisar.Config.ArenaChallangeLvlReqExp = {
     "15": 30000
 };
 
+Elkaisar.Config.ArenaTeamChallangeLvlReqExp = {
+    "2": 100,
+    "3": 280,
+    "4": 600,
+    "5": 1200,
+    "6": 1500,
+    "7": 2600,
+    "8": 4600,
+    "9": 7400,
+    "10": 10800,
+    "11": 24000,
+    "12": 30000,
+    "13": 38000,
+    "14": 48000,
+    "15": 60000
+};
+
+Elkaisar.Config.ArenaGuildChallangeLvlReqExp = {
+    "2": 200,
+    "3": 500,
+    "4": 1200,
+    "5": 2400,
+    "6": 3000,
+    "7": 5000,
+    "8": 8000,
+    "9": 14000,
+    "10": 20800,
+    "11": 44000,
+    "12": 60000,
+    "13": 68000,
+    "14": 88000,
+    "15": 100000
+};
+
 
 
 Elkaisar.Config.EquipSpAtNone = 0;
@@ -369,3 +414,5 @@ Elkaisar.Config.AttackTypeNorm = 0;
 Elkaisar.Config.AttackTypeBreak = 1;
 Elkaisar.Config.AttackTypeStrike = 2;
 Elkaisar.Config.AttackTypeStrikeAndBreak = 3;
+
+

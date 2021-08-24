@@ -12,6 +12,7 @@ class AWorldUnit {
         $Unit = selectFromTable("*", "world", "x = :x AND y = :y", ["x" => $xCoord, "y" => $yCoord]);
 
         if (!count($Unit)) return ["state" => "error_0"];
+        
         if (LWorldUnit::isRepelCastle($Unit[0]["ut"]))
                 return $this->plundeRepleCastlePrize($Unit[0]);
         if (LWorldUnit::isQueenCity($Unit[0]["ut"]))
@@ -28,7 +29,7 @@ class AWorldUnit {
 
         global $idPlayer;
 
-        $Domainant   = selectFromTable("*", "world_unit_rank", "x = :x AND y = :y", ["x" => $Unit["x"], "y" => $Unit["y"]]);
+        $Domainant   = selectFromTable("*", "world_unit_rank", "x = :x AND y = :y ORDER BY id_round DESC LIMIT 1", ["x" => $Unit["x"], "y" => $Unit["y"]]);
         $playerGuild = selectFromTable("id_guild, time_join", "guild_member", "id_player = :idp", ["idp" => $idPlayer]);
         $PrizeTaken  = selectFromTable("*"  ,"world_prize_taken", "x = :x AND y = :y AND id_player = :idp", ["x" => $Unit["x"], "y" => $Unit["y"], "idp" => $idPlayer]);
 
@@ -44,7 +45,6 @@ class AWorldUnit {
 
         $PrizWin = [];
         foreach ($PrizeList as $onePrize) {
-
             $Luck = rand(1, 1000);
             if ($Luck > $onePrize["win_rate"]) continue;
 
@@ -66,9 +66,9 @@ class AWorldUnit {
 
         global $idPlayer;
 
-        $Domainant = selectFromTable("*", "world_unit_rank", "x = :x AND y = :y ORDER BY id_round DESC LIMIT 1", ["x" => $Unit["x"], "y" => $Unit["y"]]);
+        $Domainant   = selectFromTable("*", "world_unit_rank", "x = :x AND y = :y ORDER BY id_round DESC LIMIT 1", ["x" => $Unit["x"], "y" => $Unit["y"]]);
         $playerGuild = selectFromTable("id_guild, time_join", "guild_member", "id_player = :idp", ["idp" => $idPlayer]);
-        $PrizeTaken = selectFromTable("*","world_prize_taken", "x = :x AND y = :y AND id_player = :idp", ["x" => $Unit["x"], "y" => $Unit["y"], "idp" => $idPlayer]);
+        $PrizeTaken  = selectFromTable("*","world_prize_taken", "x = :x AND y = :y AND id_player = :idp", ["x" => $Unit["x"], "y" => $Unit["y"], "idp" => $idPlayer]);
 
         if (!count($Domainant)) return ["state" => "error_1_0"];
         if (count($playerGuild) == 0) return ["state" => "error_1_1"];

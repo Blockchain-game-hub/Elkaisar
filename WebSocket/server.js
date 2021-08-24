@@ -2,12 +2,13 @@
 
 var webSocketServer = require('websocket').server;
 var Http = require('http');
+const QueryString = require('querystring');
 Elkaisar.URL = require('url');
 var MySql = require('mysql');
-
 Elkaisar.ZLib = require('zlib');
 Elkaisar.Event = require('events');
 Elkaisar.Cron = require('node-cron');
+
 
 
 
@@ -67,49 +68,19 @@ Elkaisar.CP = {};
 Elkaisar.Base = require('./modules/lib/base');
 Elkaisar.data = require('./modules/util/world/unitData');
 
-Elkaisar.Lib.LConfig = require('./Lib/LConfig');
-Elkaisar.Lib.LBase = require('./Lib/LBase');
-Elkaisar.Lib.LBattel = require('./Lib/LBattel');
-Elkaisar.Lib.LFight = require('./Lib/LFight');
-Elkaisar.Lib.LFightRound = require('./Lib/LFightRound');
-Elkaisar.Lib.LFightRecord = require('./Lib/LFightRecord');
-Elkaisar.Lib.LHero = require('./Lib/LHero');
-Elkaisar.Lib.LPlayer = require('./Lib/LPlayer');
-Elkaisar.Lib.LWorld = require('./Lib/LWorld');
-Elkaisar.Lib.LWorldUnit = require('./Lib/LWorldUnit');
-Elkaisar.Lib.LArmy = require('./Lib/LArmy');
-Elkaisar.Lib.LSaveState = require('./Lib/LSaveState');
-Elkaisar.Lib.LPrize = require('./Lib/LPrize');
-Elkaisar.Lib.LAfterFight = require('./Lib/LAfterFight');
-Elkaisar.Lib.LBattelReport = require('./Lib/LBattelReport');
-Elkaisar.Lib.LCity = require('./Lib/LCity');
-Elkaisar.Lib.LCityBuilding = require('./Lib/LCityBuilding');
-Elkaisar.Lib.LSchadular = require('./Lib/LSchadular');
-Elkaisar.Lib.LItem = require('./Lib/LItem');
+require("./ImportLib")
 
 Elkaisar.Config.CHero = require('./Config/CHero');
 Elkaisar.Config.CArmy = require('./Config/CArmy');
 Elkaisar.Config.CPlayer = require('./Config/CPlayer');
+Elkaisar.Config.CItem = require('./Config/CItem');
+
+require("./ImportWsLib");
+require("./ImportApiLib");
+require("./ImportApi");
+require("./ImportCp");
 
 
-Elkaisar.WsLib.Player = require('./modules/lib/Player');
-Elkaisar.WsLib.Base = require('./modules/lib/BaseLib');
-Elkaisar.WsLib.Battel = require('./modules/lib/Battel');
-Elkaisar.WsLib.BattelWatchList = require('./modules/lib/battelWatchList');
-Elkaisar.WsLib.Chat = require('./modules/lib/chat');
-Elkaisar.WsLib.Guild = require('./modules/lib/Guild');
-Elkaisar.WsLib.World = require('./modules/lib/World');
-Elkaisar.WsLib.Ban = require('./modules/lib/ban');
-
-Elkaisar.WsLib.ServerAnnounce = require('./modules/lib/serverAnnounce');
-
-
-
-Elkaisar.WsLib.CSendMail = require('./CPanal/CSendMail');
-
-
-Elkaisar.API.AHeroArmy = require('./api/AHeroArmy');
-Elkaisar.API.AWorld = require('./api/AWorld');
 
 /*Elkaisar.WsLib.WS_Guild           = require('./modules/lib/guild');
  Elkaisar.WsLib.WS_GuildReq        = require('./modules/lib/guildReq');
@@ -119,22 +90,7 @@ Elkaisar.API.AWorld = require('./api/AWorld');
 
 
 /* inf Loops */
-require('./modules/loops/TaskBuilding');
-require('./modules/loops/TaskArmy');
-require('./modules/loops/TaskJop');
-require('./modules/loops/TaskStudy');
-require('./modules/loops/BattelEnd');
-require('./modules/loops/HeroBack');
-require('./modules/loops/HeroPower');
-require('./modules/loops/CityPop');
-require('./modules/loops/CityLoy');
-require('./modules/loops/MarketTransport');
-require('./modules/loops/marketBuyTransport');
-require('./modules/loops/SpyEnd');
-
-require('./Support/SWorldCity');
-require('./Support/SBackUpDB');
-require('./Lib/LServerSchadular');
+require("./ImportLoop");
 
 
 
@@ -180,43 +136,72 @@ Elkaisar.Base.Request.postReq(
 
 
 var BusyPlayers = {};
-
-
-/*
- Http.use(function(req, res, next) {
- res.header("Access-Control-Allow-Origin", "*");
- res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
- next();
- });
- */
-setInterval(function (){
+setInterval(function () {
     BusyPlayers = {};
-}, 60*1000);
+}, 60 * 1000);
+
+Elkaisar.Base.HandleReq = async function(Path, Parm){
+    
+    var Res  = ""; 
+    if (BusyPlayers[Parm.idPlayer]) {
+        Res = JSON.stringify({state: "SysBusy"});
+    } else {
+        BusyPlayers[Parm.idPlayer] = true;
+        
+        if (Path[1] == "api") {
+            
+            const Player = await Elkaisar.DB.ASelectFrom("id_player", "player_auth", "auth_token = ?", [Parm.token]);
+            if(!Player.length)
+                return console.log(Path, Parm);
+            Res = JSON.stringify(await (new Elkaisar.API[Path[2]](Player[0].id_player, Parm))[Path[3]]());
+
+        } else if(Path[1] == "cp") {
+            Res = JSON.stringify(await (new Elkaisar.CP[Path[2]](Parm))[Path[3]]());
+        }
+
+
+        BusyPlayers[Parm.idPlayer] = false;
+    }
+    
+    return Res;
+};
+
 
 var server = Http.createServer(async function (request, response) {
 
     response.setHeader('Access-Control-Allow-Origin', '*');
     response.setHeader("Content-Type", "text/plain");
+    var data = "";
+    
     const Url = Elkaisar.URL.parse(request.url, true);
     const Path = Url.pathname.split("/");
-    const Parm = Url.query;
+    const Method = request.method;
     
-    if(BusyPlayers[Parm.idPlayer]){
-        response.end(JSON.stringify({state: "SysBusy"}));
+    if(Method == "POST"){
+        request.on('data', chunk => {
+            data += chunk;
+        });
+        request.on('end', async () => {
+            const PostPar = QueryString.parse(data);
+            response.end(await Elkaisar.Base.HandleReq(Path, PostPar));
+        });
+        
         return ;
-    }else{
-        BusyPlayers[Parm.idPlayer] = true;
-        const Player = await Elkaisar.DB.ASelectFrom("id_player", "player_auth", "auth_token = ?", [Parm.token]);
-        response.end(JSON.stringify(await (new Elkaisar.API[Path[1]](Player[0].id_player, Parm))[Path[2]]()));
-        BusyPlayers[Parm.idPlayer] = false;
     }
     
-    response.end();
-        
     
+    const Parm = Url.query;
+    response.end(await Elkaisar.Base.HandleReq(Path, Parm));
+   
+   
+
+
 });
 
 server.listen(Elkaisar.CONST.ServerPort, function () { });
+
+
+
 
 var wsServer = new webSocketServer({httpServer: server});
 
@@ -260,10 +245,10 @@ wsServer.on('request', function (request) {
     });
 
     connection.on('close', function (code) {
-        
+
         if (connection.idPlayer && connection.idPlayer > 0)
             Elkaisar.WsLib.Player.offline(connection);
-        delete BusyPlayers[connection.idPlayer] ;
+        delete BusyPlayers[connection.idPlayer];
     });
 });
 

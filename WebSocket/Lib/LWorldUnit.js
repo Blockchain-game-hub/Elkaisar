@@ -339,7 +339,7 @@ class LWorldUnit {
     }
 
     static isSharablePrize($t) {
-        return LWorldUnit.isCarthagianArmies($t) || LWorldUnit.isArenaDeath($t) || LWorldUnit.isCity($t) || LWorldUnit.isSeaCity($t);
+        return LWorldUnit.isCarthagianArmies($t) || LWorldUnit.isArenaDeath($t) || LWorldUnit.isCity($t) || LWorldUnit.isSeaCity($t) || LWorldUnit.isChallangeField($t);
     }
 
     static isEquipEfeective($t) {
@@ -355,8 +355,20 @@ class LWorldUnit {
     }
 
     static limitedHero($t) {
-        return (LWorldUnit.isArmyCapital($t) || LWorldUnit.isArmyCapital($t));
+        return (LWorldUnit.isArmyCapital($t) || LWorldUnit.isCarthagianArmies($t) || LWorldUnit.isStatueWalf($t)|| LWorldUnit.isStatueWar($t) || LWorldUnit.isSeaCity($t));
     }
+    
+    static  isDefencable($t){
+        return (!LWorldUnit.isCarthagianArmies($t) && !LWorldUnit.isStatueWalf($t) && !LWorldUnit.isStatueWar($t));
+    }
+    
+    static  isGuildWar($t) {
+        return LWorldUnit.isRepelCastle($t) ||
+                LWorldUnit.isCarthagianArmies($t) ||
+                LWorldUnit.isArenaGuild($t) ||
+                LWorldUnit.isQueenCity($t);
+    }
+    
 
     static afterWinAnnounceable(Unit, WinLvl) {
         if (LWorldUnit.isArena(Unit.ut))
@@ -445,7 +457,7 @@ class LWorldUnit {
         const y = Battel.y_coord;
         
         const WorldBattelKey = `${Battel.x_city}.${Battel.y_city}-${Battel.x_coord}.${Battel.x_coord}`;
-        console.log(WorldBattelKey);
+    
         if (!Elkaisar.World.WorldBattels[WorldBattelKey])
             return;
 
@@ -467,7 +479,7 @@ class LWorldUnit {
             if (BattelCount > 1)
                 return;
         }
-        console.log("Just Done");
+       
         Elkaisar.Base.broadcast(JSON.stringify({
             classPath: "World.Battel.Ended",
             xCoord: Battel.x_coord,
@@ -478,29 +490,7 @@ class LWorldUnit {
         delete(Elkaisar.World.WorldBattels[WorldBattelKey]);
     }
 
-    static  newWorldBattel(Battel) {
-        const x = Battel.x_coord;
-        const y = Battel.y_coord;
-        const WorldBattelKey = `${Battel.x_city}.${Battel.y_city}-${Battel.x_coord}.${Battel.x_coord}`;
-        if (Elkaisar.World.WorldBattels[WorldBattelKey])
-            return;
-        Elkaisar.World.WorldBattels[WorldBattelKey] = {
-            classPath: "World.Battel.Started",
-            xCoord: Battel.x_coord,
-            yCoord: Battel.y_coord,
-            xCity: Battel.x_city,
-            yCity: Battel.y_city,
-            idPlayer: Battel.id_player,
-            idGuild: Battel.idGuild,
-            CityName: Battel.CityName,
-            PlayerName: Battel.PlayerName,
-            GuildName: Battel.GuildName,
-            timeEnd: Battel.time_end,
-            timeStart: Battel.time_start
-        };
-        Elkaisar.World.OnFireUnits[x * 500 + y] = true;
-        Elkaisar.Base.broadcast(JSON.stringify(Elkaisar.World.WorldBattels[WorldBattelKey]));
-    }
+    
 
 }
 

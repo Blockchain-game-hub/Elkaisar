@@ -137,7 +137,7 @@ exports.JoinReqAccepted = function (con, msgObj)
     var Player;
     var msg = JSON.stringify({
         "classPath": "Guild.JoinReqAccepted"
-    })
+    });
     for (index in msgObj.Players)
     {
         Player = Elkaisar.Base.getPlayer(msgObj.Players[index]);

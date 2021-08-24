@@ -32,7 +32,7 @@ Elkaisar.Helper.AfterBuildingUpGraded = function (Task){
         
         return  GaindePres;
         
-}
+};
 
 setInterval(function () {
     
@@ -59,7 +59,8 @@ setInterval(function () {
                         return;
                     Player.connection.sendUTF(JSON.stringify({
                         "classPath": "TimedTask.Building",
-                        Task       : Task
+                        Task       : Task,
+                        prestige   : Task.prestige
                     }));
                 
             });

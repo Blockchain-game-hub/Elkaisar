@@ -160,6 +160,8 @@ class AItemBoxUse
             "Item" => $ItemList
         ];
     }
+
+    
     function useArmyBox(){
         
         global $idPlayer;

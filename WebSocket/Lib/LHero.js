@@ -11,8 +11,6 @@ class LHero {
         {
             Hero.Equip[iii].lvl = Math.max(Hero.Equip[iii].lvl, 1);
             var EquipEff = Elkaisar.Equip.EquipPower[`${Hero.Equip[iii].type}.${Hero.Equip[iii].part}.${Hero.Equip[iii].lvl}`];
-            if (!EquipEff)
-                return console.log(`This Equip Has No Power ${Hero.Equip[iii].type}.${Hero.Equip[iii].part}.${Hero.Equip[iii].lvl}`);
             Hero.EquipSpAt[EquipEff.sp_attr] = true;
             for (var ii in Hero.real_eff) {
 
@@ -177,14 +175,23 @@ class LHero {
                         callBack(Hero);
                 });
     }
+    
+    
     static  getHeroArmy(Hero, callBack) {
 
         if (Hero.AttackTask == Elkaisar.Config.BATTEL_TASK_CHALLANGE) {
-
-            Elkaisar.DB.SelectFrom("*", "arena_player_challange_hero", "id_hero = ?", [Hero.idHero], function (Army) {
+            const Unit = Elkaisar.World.getUnit(Hero.xTo, Hero.yTo);
+            var Table = "arena_player_challange_hero";
+            if(Unit.ut == Elkaisar.Config.WUT_CHALLAGE_FIELD_TEAM)
+                Table = "arena_team_challange_hero";
+            else if(Unit.ut == Elkaisar.Config.WUT_CHALLAGE_FIELD_GUILD)
+                Table = "arena_guild_challange_hero";
+            
+            Elkaisar.DB.SelectFrom("*", Table, "id_hero = ?", [Hero.idHero], function (Army) {
 
                 if (!Army.length)
                     return console.log("Error Adding Hero Army", Army, Hero);
+                
                 Hero.Army = Army[0];
 
                 if (callBack)
@@ -244,50 +251,6 @@ class LHero {
                 callBack();
         });
 
-    }
-
-    static async  filledPlacesSize(idHero)
-    {
-        const HeroArmy = await Elkaisar.DB.ASelectFrom("*", "hero_army", "id_hero = ?", [idHero]);
-        if (!Array.isArray(HeroArmy) || HeroArmy.length < 1)
-            return 0;
-        let filledPlaces = 0;
-        filledPlaces += Elkaisar.Config.CArmy.ArmyCap[HeroArmy[0]["f_1_type"]] * HeroArmy[0]["f_1_num"];
-        filledPlaces += Elkaisar.Config.CArmy.ArmyCap[HeroArmy[0]["f_2_type"]] * HeroArmy[0]["f_2_num"];
-        filledPlaces += Elkaisar.Config.CArmy.ArmyCap[HeroArmy[0]["f_3_type"]] * HeroArmy[0]["f_3_num"];
-        filledPlaces += Elkaisar.Config.CArmy.ArmyCap[HeroArmy[0]["b_1_type"]] * HeroArmy[0]["b_1_num"];
-        filledPlaces += Elkaisar.Config.CArmy.ArmyCap[HeroArmy[0]["b_2_type"]] * HeroArmy[0]["b_2_num"];
-        filledPlaces += Elkaisar.Config.CArmy.ArmyCap[HeroArmy[0]["b_3_type"]] * HeroArmy[0]["b_3_num"];
-
-        return filledPlaces;
-    }
-
-    static async  heroFullCap(idPlayer, idHero)
-    {
-
-
-        const Hero = await Elkaisar.DB.ASelectFrom("hero.point_a, hero.point_a_plus, hero_medal.*, hero.id_city", "hero JOIN hero_medal ON hero.id_hero = hero_medal.id_hero", "hero.id_hero = ?", [idHero]);
-        const PlayerEdu = await Elkaisar.DB.ASelectFrom("leader", "player_edu", "id_player = ?", [idPlayer]);
-        const AcadmyLvl = (await Elkaisar.Lib.LCityBuilding.buildingWithHeighestLvl(Hero[0]["id_city"], Elkaisar.Config.CITY_BUILDING_ACADEMY))["Lvl"];
-
-        if (!Array.isArray(Hero) || Hero.length < 1)
-            return 0;
-        if (!Array.isArray(PlayerEdu) || PlayerEdu.length < 1)
-            PlayerEdu = [{"leader": 0}];
-        const now = Date.now() / 1000;
-
-        const baseCap = Elkaisar.Config.HERO_SWAY_POINT_EFF * (Number(Hero[0]["point_a"]) + Number(Hero[0]["point_a_plus"])) + Elkaisar.Config.HERO_BASE_CAP;
-        const afterEduEff = Math.min(AcadmyLvl, PlayerEdu[0]["leader"]) * baseCap * Elkaisar.Config.HERO_EDU_LVL_EFF_CAP;
-        const afterCiceroEff = Hero[0]["medal_ceasro"] > now ? baseCap * Elkaisar.Config.HERO_MEDAL_EFF_CAP : 0;
-        const afterCeaserMarqueEff = Hero[0]["ceaser_eagle"] > now ? baseCap * Elkaisar.Config.HERO_EAGLE_EFF_CAP : 0;
-        
-        
-
-        return  baseCap + afterEduEff + afterCiceroEff + afterCeaserMarqueEff;
-    }
-
-    static async  emptyPlacesSize(idPlayer, idHero) {
-        return (await LHero.heroFullCap(idPlayer, idHero)) - (await LHero.filledPlacesSize(idHero));
     }
 }
 

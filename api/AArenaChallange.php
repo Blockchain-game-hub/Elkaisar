@@ -92,6 +92,7 @@ class AArenaChallange {
 
         global $idPlayer;
         $amount = validateID($_POST["amount"]);
+        $ArenaFor = validateGameNames($_POST["ArenaFor"]);
         $price = 4;
         if ($amount == 10) $price = 3;
         else if ($amount == 25) $price = 2;
@@ -103,8 +104,15 @@ class AArenaChallange {
             return ["state" => "error_1", "TryToHack" => TryToHack()];
         if (!LPlayer::tekeGold($amount * $price))
             return ["state" => "error_0", "TryToHack" => TryToHack()];
-
-        updateTable("attempt = attempt + :a", "arena_player_challange", "id_player = :idp", ["idp" => $idPlayer, "a" => $amount]);
+        
+        if($ArenaFor == "Arena")
+            updateTable("attempt = attempt + :a", "arena_player_challange", "id_player = :idp", ["idp" => $idPlayer, "a" => $amount]);
+        else if($ArenaFor == "ArenaTeam")
+            updateTable("attempt = attempt + :a", "arena_team_challange", "id_team = (SELECT id_team FROM team_member WHERE id_player = :idp)", ["idp" => $idPlayer, "a" => $amount]);
+        else if($ArenaFor == "ArenaGuild")
+            updateTable("attempt = attempt + :a", "arena_guild_challange", "id_guild = (SELECT id_guild FROM guild_member WHERE id_player = :idp)", ["idp" => $idPlayer, "a" => $amount]);
+        
+        
         updateTable("buy_times = buy_times + 1", "arena_player_challange_buy", "id_player = :idp", ["idp" => $idPlayer]);
         $ArenaData = selectFromTable("*", "arena_player_challange", "id_player = :idp", ["idp" => $idPlayer]);
         return [
@@ -201,11 +209,20 @@ class AArenaChallange {
         global $idPlayer;
 
         if (!LPlayer::tekeGold(2)) return ["state" => "error_0"];
-        updateTable("lastAttackTime = 0", "arena_player_challange", "id_player = :idp", ["idp" => $idPlayer]);
+        
+        $ArenaFor = validateGameNames($_POST["ArenaFor"]);
+
+        
+        if($ArenaFor == "Arena")
+            updateTable("lastAttackTime = 0", "arena_player_challange", "id_player = :idp", ["idp" => $idPlayer]);
+        else if($ArenaFor == "ArenaTeam")
+            updateTable("lastAttackTime = 0", "arena_team_challange", "id_team = (SELECT id_team FROM team_member WHERE id_player = :idp)", ["idp" => $idPlayer]);
+        else if($ArenaFor == "ArenaGuild")
+            updateTable("lastAttackTime = 0", "arena_guild_challange", "id_guild = (SELECT id_guild FROM guild_member WHERE id_player = :idp)", ["idp" => $idPlayer]);
+        
 
         return [
-            "state" => "ok",
-            "Arena" => selectFromTable("*", "arena_player_challange", "id_player = :idp", ["idp" => $idPlayer])[0]
+            "state" => "ok"
         ];
     }
     
@@ -214,8 +231,8 @@ class AArenaChallange {
         
         global $idPlayer;
         $Item = validateGameNames($_POST["Item"]);
-        
-        
+        $ArenaFor = validateGameNames($_POST["ArenaFor"]);
+
         if(!LItem::useItem($Item))
             return ["state" => "error_0"];
         
@@ -232,7 +249,14 @@ class AArenaChallange {
         else 
             return ["state" => "error_0"];
             
-        updateTable("exp = exp + :e", "arena_player_challange", "id_player = :idp", ["e" => $amount, "idp" => $idPlayer]);
+        if($ArenaFor == "Arena")
+            updateTable("exp = exp + :e", "arena_player_challange", "id_player = :idp", ["e" => $amount, "idp" => $idPlayer]);
+        else if($ArenaFor == "ArenaTeam")
+            updateTable("exp = exp + :e", "arena_team_challange", "id_team = (SELECT id_team FROM team_member WHERE id_player = :idp)", ["e" => $amount, "idp" => $idPlayer]);
+        else if($ArenaFor == "ArenaGuild")
+            updateTable("exp = exp + :e", "arena_guild_challange", "id_guild = (SELECT id_guild FROM guild_member WHERE id_player = :idp)", ["e" => $amount, "idp" => $idPlayer]);
+        
+        
         return [
             "state" => "ok",
             "Exp"  => $amount
@@ -245,6 +269,7 @@ class AArenaChallange {
         
         global $idPlayer;
         $Item = validateGameNames($_POST["Item"]);
+        $ArenaFor = validateGameNames($_POST["ArenaFor"]);
         
         
         if(!LItem::useItem($Item))
@@ -260,8 +285,14 @@ class AArenaChallange {
             $amount = 10;
         else 
             return ["state" => "error_0"];
-            
-        updateTable("attempt = attempt + :e", "arena_player_challange", "id_player = :idp", ["e" => $amount, "idp" => $idPlayer]);
+        
+        if($ArenaFor == "Arena")
+            updateTable("attempt = attempt + :e", "arena_player_challange", "id_player = :idp", ["e" => $amount, "idp" => $idPlayer]);
+        else if($ArenaFor == "ArenaTeam")
+            updateTable("attempt = attempt + :e", "arena_team_challange", "id_team = (SELECT id_team FROM team_member WHERE id_player = :idp)", ["e" => $amount, "idp" => $idPlayer]);
+        else if($ArenaFor == "ArenaGuild")
+            updateTable("attempt = attempt + :e", "arena_guild_challange", "id_guild = (SELECT id_guild FROM guild_member WHERE id_player = :idp)", ["e" => $amount, "idp" => $idPlayer]);
+        
         return [
             "state" => "ok",
             "Att"  => $amount

@@ -176,6 +176,8 @@ class LCity
                 "yCoord"    => $yCoord
             ]]));
         
+        
+        updateTable( "guild_num = (SELECT COUNT(*) FROM guild), city_num = (SELECT count(*) from city )", "server_data", "1");
         return $idCity;
         
     }

@@ -28,19 +28,12 @@ class LFightRound {
 
             if (this.Battel.Fight.RoundHeros[ii] != false)
                 continue;
-            if(this.checkIfHeroInRound(Hero.idHero)){
-                console.log("This Hero is InBattel "+Hero.idHero);
+            if(this.checkIfHeroInRound(Hero.idHero))
                 return true;
-            }
-                
-            
-                
-
             if (Hero.side == Elkaisar.Config.BATTEL_SIDE_DEF) {
                 if(ii< 3){
                     Hero.Index = ii;
                     this.Battel.Fight.RoundHeros[ii] = Hero;
-                    console.log(`Hero With id ${Hero.idHero} Join Def side`);
                 }
                 return true;
             }
@@ -49,7 +42,6 @@ class LFightRound {
                 if(ii >= 3){
                     Hero.Index = ii;
                     this.Battel.Fight.RoundHeros[ii] = Hero;
-                    console.log(`Hero With id ${Hero.idHero} Join Att side`);
                 }else{
                     continue;
                 }
@@ -266,6 +258,12 @@ class LFightRound {
                 Attacks[(1-Side)*3 + 0] = [3, 4, 5];
                 Attacks[(1-Side)*3 + 1] = [3, 4, 5];
                 Attacks[(1-Side)*3 + 2] = [3, 4, 5];
+            }
+            
+            if(Hero.EquipSpAt[Elkaisar.Config.EquipSpAtArrowRainB] && Hero.EquipSpAt[Elkaisar.Config.EquipSpAtArrowRainA]){
+                Attacks[(1-Side)*3 + 0] = [0, 1, 2, 3, 4, 5];
+                Attacks[(1-Side)*3 + 1] = [0, 1, 2, 3, 4, 5];
+                Attacks[(1-Side)*3 + 2] = [0, 1, 2, 3, 4, 5];
             }
         }
         

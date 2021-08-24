@@ -29,6 +29,24 @@ class AIp {
 
     }
     
+    function getAllPlayerIps() {
+        
+        $userIps = selectFromTable("player_logs.id_player,  ipv4, time_stamp, times, player.*", "player_logs JOIN player ON player.id_player = player_logs.id_player", "1 GROUP BY player_logs.id_player");
+        $Count = 0;
+        foreach ($userIps as &$oneUser){
+            $ipData = selectFromTableIndex("*", "ip_info", "ip = :i", ["i" => $oneUser["ipv4"]]);
+            if(count($ipData)){
+                $Count++;
+               echo "{$Count} Player  <span style='color: #aa0011'>({$oneUser["name"]})</span> Countery <span style='color: #aa0011'>({$ipData[0]["countery"]})</span> <br>";
+            }
+        }
+        
+        return [
+            "state" => "ok"
+        ];
+
+    }
+    
     
     function getIpData(){
         $AllPlayersIp = selectFromTable("DISTINCT(ipv4)", "player_logs", "1");

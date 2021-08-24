@@ -1,3 +1,4 @@
+//01033488458
 class LCityBuilding {
 
     static async  buildingWithHeighestLvl(idCity, BuildingType){
@@ -16,6 +17,8 @@ class LCityBuilding {
         
         for(var onePlace in cityBuildingType){
             let oneType = cityBuildingType[onePlace];
+            if(oneType != BuildingType)
+            continue;
             if(buildingLvl["Lvl"] < cityBuildingLvl[onePlace])
                buildingLvl = {
                         "Place" : onePlace,

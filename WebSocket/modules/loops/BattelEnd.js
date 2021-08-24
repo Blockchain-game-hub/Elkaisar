@@ -2,7 +2,7 @@
 setInterval(function () {
 
     var Now = Date.now() / 1000;
-    Object.values(Elkaisar.Battel.BattelList).forEach(function (Battel, Index) {
+    Object.values(Elkaisar.Battel.BattelList).forEach(async function (Battel, Index) {
         
         if(Battel.Battel.time_end < Now - 5 && Battel.Taken){
             if(Elkaisar.Battel.BattelList[Battel.Battel.id_battel])
@@ -29,38 +29,36 @@ setInterval(function () {
         Fight.startFight();
         AFterFight.heroBattelBack();
 
-        if (Fight.sideWin === Elkaisar.Config.BATTEL_SIDE_ATT)
-            AFterFight.afterWin(function () {
-                Fight.FightRecord.saveAllPlayers(Battel);
-                Fight.FightRecord.saveRecord(Battel.Battel);
-                AFterFight.afterWinAnnounce();
-                
-            });
-        else
-            AFterFight.afterLose(function (){
-                Fight.FightRecord.saveAllPlayers(Battel);
-                Fight.FightRecord.saveRecord(Battel.Battel);
-            });
+        if (Fight.sideWin === Elkaisar.Config.BATTEL_SIDE_ATT){
+            await AFterFight.afterWin();
+            AFterFight.afterWinAnnounce();
+        }else
+            await AFterFight.afterLose();
+        
+
+        Fight.FightRecord.saveAllPlayers(Battel);
+        Fight.FightRecord.saveRecord(Battel.Battel);
+            
 
 
 
         Fight.killHeroArmy();
 
-
-        var xCoord = Battel.Battel.x_coord, yCoord = Battel.Battel.y_coord;
-
-        for (var iii in Fight.Battel.Players) {
-            var Player = Elkaisar.Base.getPlayer(Fight.Battel.Players[iii].idPlayer);
+        Object.values(Fight.Battel.Players).forEach(function(OnePlayer){
+            var Player = Elkaisar.Base.getPlayer(OnePlayer.idPlayer);
             if (!Player)
-                continue;
+                return;
             Player.connection.sendUTF(JSON.stringify({
                 "classPath": "Battel.Finished",
-                ItemPrize: Fight.Battel.Players[iii].ItemPrize,
+                ItemPrize: OnePlayer.ItemPrize,
                 Battel: Battel.Battel,
-                Player: Fight.Battel.Players[iii],
+                Player: OnePlayer,
                 sideWin: Fight.sideWin
             }));
-        }
+        })
+      
+           
+       
         Elkaisar.Lib.LBattel.removeBattel(Battel.Battel.id_battel);
     });
 }, 1000);

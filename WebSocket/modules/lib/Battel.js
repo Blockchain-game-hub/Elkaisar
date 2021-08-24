@@ -1,68 +1,5 @@
 
 
-Elkaisar.Helper.BattelStartAnnounce = function (Battel) {
-
-    var Unit = Elkaisar.World.getUnit(Battel.Battel.x_coord, Battel.Battel.y_coord);
-
-
-    if (Elkaisar.Lib.LWorldUnit.isArmyCapital(Unit.ut)) {
-
-        Elkaisar.DB.SelectFrom("player.name AS PlayerName, city.name AS CityName, city.x, city.y",
-                "city JOIN player ON player.id_player = city.id_player",
-                "city.x = ? AND city.y = ?", [Battel.Battel.x_city, Battel.Battel.y_city], function (Attack) {
-            Elkaisar.DB.SelectFrom("id_dominant", "world_unit_rank", "x = ? AND y = ? ORDER BY id_round DESC LIMIT 1", [Unit["x"], Unit["y"]],
-                    function (Defence) {
-                        
-                        if(!Defence.length)
-                            return ;
-
-                        P = Elkaisar.Base.getPlayer(Defence[0]["id_dominant"]);
-                        if (P)
-                            P.connection.sendUTF(JSON.stringify({
-                                "classPath": "Battel.startAnnounce",
-                                "Battel": Battel.Battel,
-                                "Attacker": Attack[0],
-                                "Defender": Defence[0]
-                            }));
-
-                    });
-        });
-
-    } else if (Elkaisar.Lib.LWorldUnit.isCity(Unit.ut)) {
-
-        Elkaisar.DB.SelectFrom("player.name AS PlayerName, city.name AS CityName, city.x, city.y",
-                "city JOIN player ON player.id_player = city.id_player",
-                "city.x = ? AND city.y = ?", [Battel.Battel.x_city, Battel.Battel.y_city], function (Attack) {
-            Elkaisar.DB.SelectFrom("player.name AS PlayerName, city.name AS CityName, city.x, city.y, player.id_guild, player.id_player",
-                    "city JOIN player ON player.id_player = city.id_player",
-                    "city.x = ? AND city.y = ?", [Battel.Battel.x_coord, Battel.Battel.y_coord], function (Defence) {
-                Elkaisar.DB.SelectFrom("id_player", "player", "online = 1 AND id_guild = ?", [Defence[0]["id_guild"]], function (Players) {
-
-                    var Msg = JSON.stringify({
-                        "classPath": "Battel.startAnnounce",
-                        "Battel": Battel.Battel,
-                        "Attacker": Attack[0],
-                        "Defender": Defence[0]
-                    });
-                    var P;
-                    if (Players.length && Defence[0]["id_guild"] != null)
-                        Players.forEach(function (Player, Index) {
-                            P = Elkaisar.Base.getPlayer(Player["id_player"]);
-                            if (P)
-                                P.connection.sendUTF(Msg);
-                        });
-                    else {
-                        P = Elkaisar.Base.getPlayer(Defence[0]["id_player"]);
-                        if (P)
-                            P.connection.sendUTF(Msg);
-                    }
-                });
-            });
-        });
-    }
-
-};
-
 exports.abort = function (con, msgObj) {
 
     var idHero = msgObj.idHero;
@@ -78,44 +15,6 @@ exports.abort = function (con, msgObj) {
         });
     });
 
-    /*Elkaisar.Base.Request.postReq(
-            {
-                "idHero": msgObj.idHero,
-                "server": con.idGameServer,
-                "token": con.token
-            },
-            `${Elkaisar.CONST.BASE_URL}/api/ABattel/abort`,
-            function (data) {
-                var arrayData = Elkaisar.Base.isJson(data);
-                if (!arrayData)
-                    return;
-                var ii;
-                var player;
-
-
-
-                if (arrayData.state === "ok")
-                    for (ii in arrayData.idPlayers) {
-                        player = Elkaisar.Base.getPlayer(arrayData.idPlayers[ii]);
-                        if (player) {
-                            player.connection.sendUTF(JSON.stringify({
-                                "classPath": "Battel.Aborted",
-                                "Battel": arrayData.Battel,
-                                "idBattel": arrayData.idBattel,
-                                "state": arrayData.state
-                            }));
-                        }
-                    }
-                else if (arrayData.state === "error_2")
-                    con.sendUTF(JSON.stringify({
-                        "classPath": "Battel.Aborted.Failed",
-                        "state": arrayData.state
-                    }));
-
-
-            }
-    );*/
-
 };
 
 
@@ -125,80 +24,43 @@ exports.Join = function (con, msgObj) {
 
 };
 
-exports.newBattelStarted = function (con, msgObject) {
-    Elkaisar.Lib.LBattel.newBattelStarted(msgObject.Battel);
-}
+exports.start = async function (con, msgObj) {
+    const idPlayer      = con.idPlayer;
+    const idHero        = Elkaisar.Base.validateId(msgObj["idHero"]);
+    const xCoord        = Elkaisar.Base.validateId(msgObj["xCoord"]);
+    const yCoord        = Elkaisar.Base.validateId(msgObj["yCoord"]);
+    const attackTask    = Elkaisar.Base.validateId(msgObj["attackTask"]);
+    const Hero          = await Elkaisar.DB.ASelectFrom("hero.in_city, city.x, city.y, hero.power, hero.id_city, hero.id_hero, hero.id_player", "hero JOIN city ON city.id_city = hero.id_city", "hero.id_hero = ? AND hero.id_player = ?", [idHero, idPlayer]);
+    const Unit          = Elkaisar.World.getUnit(xCoord, yCoord);
+    const UnitData      = Elkaisar.World.WorldUnitData[Unit.ut];
+    const powerNeeded   = UnitData.reqFitness;
+    const LHArmy        = new Elkaisar.Lib.LHeroArmy();
+    
+    if(!Hero[0] || !UnitData)
+        return con.sendUTF(JSON.stringify({"classPath": "Battel.StartFailed", "state": "error_0","d" : Unit, "k": UnitData}));
+    if(await LHArmy.isCarringArmy(idHero) === false)
+        return con.sendUTF(JSON.stringify({"classPath": "Battel.StartFailed", "state": "hero_carry_no_army"}));
+    if(Hero[0]["in_city"] != Elkaisar.Config.HERO_IN_CITY)
+        return con.sendUTF(JSON.stringify({"classPath": "Battel.StartFailed", "state": "not_in_city"}));
+    if(UnitData.maxLvl > 0 && Unit.l > UnitData.maxLvl)
+        return con.sendUTF(JSON.stringify({"classPath": "Battel.StartFailed", "state": "no_more_lvls"}));
+    if(Unit["lo"] == Elkaisar.Config.WU_lOCKED_UNIT)
+        return con.sendUTF(JSON.stringify({"classPath": "Battel.StartFailed", "state": "locked_unit"}));
+    if(!LHArmy.heroCanAttack(Unit["ut"]))
+        return con.sendUTF(JSON.stringify({"classPath": "Battel.StartFailed", "state": "hero_cant_used"}));
+    if(!(await Elkaisar.Lib.LBattelUnit.isAttackable(idPlayer, idHero, Unit)))
+        return con.sendUTF(JSON.stringify({"classPath": "Battel.StartFailed", "state": "in_attackable"}));
+    if(!(await Elkaisar.Lib.LBattelUnit.takeStartingPrice(idPlayer, Unit)))
+        return con.sendUTF(JSON.stringify({"classPath": "Battel.StartFailed", "state": "no_enough_mat"}));
+    if(Hero[0].power < powerNeeded)
+        return con.sendUTF(JSON.stringify({"classPath": "Battel.StartFailed", "state": "no_enough_hero_power"}));
+    if(!(await Elkaisar.Lib.LBattelUnit.onTheRoleInAttQue(idPlayer, Unit)))
+        return con.sendUTF(JSON.stringify({"classPath": "Battel.StartFailed", "state": "not_his_role"}));
 
-exports.start = function (con, msgObj) {
-    var Parm = {
-        "xCoord": msgObj.xCoord,
-        "yCoord": msgObj.yCoord,
-        "idHero": msgObj.idHero,
-        "task": msgObj.attackTask,
-        "server": con.idGameServer,
-        "token": con.token,
-        idPlayerV: con.idPlayer
+    Hero[0].LHArmy = LHArmy;
 
-    };
-
-    Elkaisar.Base.Request.postReq(
-            Parm,
-            `${Elkaisar.CONST.BASE_URL}/api/ABattel/start`,
-            function (data) {
-
-                var battel = Elkaisar.Base.isJson(data);
-                if (!battel)
-                    return console.log(data);
-
-                if (battel.state === "ok") {
-
-
-                    Elkaisar.Helper.BattelStartAnnounce(battel);
-
-                    var Player;
-                    for (var ii in battel.InvolvedPlayer) {
-
-                        Player = Elkaisar.Base.getPlayer(battel.InvolvedPlayer[ii]);
-                        if (Player) {
-
-                            Player.connection.sendUTF(JSON.stringify({
-                                "classPath": "Battel.Started",
-                                "Battel": battel.Battel,
-                                "StartingPrice": battel.StartingPrice,
-                                "state": "ok"
-                            }));
-
-
-                        } else {
-                            console.log(battel.InvolvedPlayer);
-                        }
-
-                    }
-
-
-
-
-                } else {
-
-                    con.sendUTF(JSON.stringify({
-                        "classPath": "Battel.StartFailed",
-                        "state": battel.state
-                    }));
-                }
-
-                if (battel.newFire)
-                    Elkaisar.Base.broadcast(JSON.stringify({
-                        classPath: "World.Fire.On",
-                        xCoord: battel.Battel.x_coord,
-                        yCoord: battel.Battel.y_coord
-                    }));
-
-                exports.watchListNewBattelNotif(con, msgObj);
-                Elkaisar.WsLib.BattelWatchList.addPlayer(con, msgObj);
-
-
-            }
-    );
+    Elkaisar.Lib.LBattelUnit.startBattel(idPlayer, idHero, Hero , Unit, attackTask);
+   
 
 };
 
