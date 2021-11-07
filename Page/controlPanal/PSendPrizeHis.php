@@ -54,7 +54,7 @@
         </script>
         <script type="text/javascript" src="<?= RESOURCE_BATH ?>/js/jquery-3.2.1.min.js"></script>
         <script type="text/javascript" src="<?= RESOURCE_BATH ?>/js/base.js"></script>
-        <script type="text/javascript" src="<?= RESOURCE_BATH ?>/js/player.js"></script>
+        <script type="text/javascript" src="<?= RESOURCE_BATH ?>/js/Player.js"></script>
         <script type="text/javascript" src="<?= RESOURCE_BATH ?>/js/SendPrizeHis.js"></script>
         <script>
             var PRIZE_TO_SEND = [];

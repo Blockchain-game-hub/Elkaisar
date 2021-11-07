@@ -42,7 +42,7 @@ class AGodGate {
         $godGate = selectFromTable("god_gate.points , player.porm",
                 "player JOIN god_gate ON player.id_player = god_gate.id_player",
                 "player.id_player = :idp", ["idp" => $idPlayer]);
-        $godGateData = CGodGate::$GateData[("gate_" . $gateIndex)];
+        $godGateData = CGodGate::getGateData()[("gate_" . $gateIndex)];
 
         if (!count($godGate))
             return ["state" => "error_0", "TryToHack" => TryToHack()];
@@ -103,7 +103,7 @@ class AGodGate {
         $gateIndex = validateID($_POST["gateIndex"]);
         $godGate = selectFromTable("*", "`god_gate_$gateIndex`", "id_player = :idp", ["idp" => $idPlayer]);
         $playerPoint = selectFromTable("points", "god_gate", "id_player = :idp", ["idp" => $idPlayer])[0]["points"];
-
+        $MaxVal = CGodGate::getMaxVal();
         if (!count($godGate))
             return ["state" => "error_0", "TryToHack" => TryToHack()];
 
@@ -138,7 +138,7 @@ class AGodGate {
             }
             if ($godGate[0][("c_" . $iii . "_s")] == 0) {
 
-                $totalScore += floor(($godGate[0][("cell_" . $iii . "_score")] / CGodGate::$MaxVal[$godGate[0][("cell_" . $iii . "_type")]]) * 100);
+                $totalScore += floor(($godGate[0][("cell_" . $iii . "_score")] / $MaxVal[$godGate[0][("cell_" . $iii . "_type")]]) * 100);
                 continue;
             }
 
@@ -152,18 +152,18 @@ class AGodGate {
 
             $randLH = rand(0, 100);
             if ($randLH > 97) {
-                rand(floor(CGodGate::$MaxVal[$unlockedTyps[$newType]] * 0.97), CGodGate::$MaxVal[$unlockedTyps[$newType]]);
+                rand(floor($MaxVal[$unlockedTyps[$newType]] * 0.97), $MaxVal[$unlockedTyps[$newType]]);
             } else if ($randLH > 80) {
-                $score = rand(1, floor(CGodGate::$MaxVal[$unlockedTyps[$newType]] * 0.97));
+                $score = rand(1, floor($MaxVal[$unlockedTyps[$newType]] * 0.97));
             } else if ($randLH > 71) {
-                $score = rand(1, floor(CGodGate::$MaxVal[$unlockedTyps[$newType]] * 0.7));
+                $score = rand(1, floor($MaxVal[$unlockedTyps[$newType]] * 0.7));
             } else {
-                $score = rand(1, floor(CGodGate::$MaxVal[$unlockedTyps[$newType]] * 0.5));
+                $score = rand(1, floor($MaxVal[$unlockedTyps[$newType]] * 0.5));
             }
 
 
             $godGate[0][("cell_" . $iii . "_score")] = $score;
-            $totalScore += floor(($score / CGodGate::$MaxVal[$godGate[0][("cell_" . $iii . "_type")]]) * 100);
+            $totalScore += floor(($score / $MaxVal[$godGate[0][("cell_" . $iii . "_type")]]) * 100);
         }
 
         $quary = "cell_1_type = '{$godGate[0]["cell_1_type"]}' , cell_2_type = '{$godGate[0]["cell_2_type"]}' ,"
@@ -249,7 +249,7 @@ class AGodGate {
     }
 
     function getGodGateRankPointPlus() {
-        return CGodGate::$RankPointPluse;
+        return CGodGate::getRankPointPluse();
     }
 
     function OpenFourthCell() {

@@ -217,9 +217,6 @@ wsServer.on('request', function (request) {
     connection.ip = request.remoteAddress;
 
 
-
-
-
     connection.on('message', function (message) {
 
 
@@ -251,14 +248,6 @@ wsServer.on('request', function (request) {
         delete BusyPlayers[connection.idPlayer];
     });
 });
-
-
-
-
-
-
-
-
 
 
 process.on('uncaughtException', (err, origin) => {

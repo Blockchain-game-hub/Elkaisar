@@ -79,7 +79,7 @@ exports.sendWorldMsg = function (con, msgObj) {
         Elkaisar.Base.broadcast(quoatedWorldMsg({
             msg: Elkaisar.Base.escapeHtml(msgObj.chat_msg),
             sender: player.playerData,
-            title: player.playerTitle,
+            title: player.playerTitles,
             data: msgObj
         }));
 
@@ -87,7 +87,7 @@ exports.sendWorldMsg = function (con, msgObj) {
         Elkaisar.Base.broadcast(unQuoatedWorldMsg({
             msg: Elkaisar.Base.escapeHtml(msgObj.chat_msg),
             sender: player.playerData,
-            title: player.playerTitle,
+            title: player.playerTitles,
             data: msgObj
         }));
 

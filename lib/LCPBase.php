@@ -31,7 +31,8 @@ class LCPBase
                     <li'.($CurrentTab == 'spPrize'        ? ' class="active"' : "").'><span><span><a href="spPrize.php?server='.$serverID.'&AdminToken='.$Ot.'">ج خاصة</a></span></span></li>
                     <li'.($CurrentTab == 'Equip'          ? ' class="active"' : "").'><span><span><a href="Equip?server='.$serverID.'&AdminToken='.$Ot.'">معدات</a></span></span></li>
                     <li'.($CurrentTab == 'reportprize'    ? ' class="active"' : "").'><span><span><a href="reportPrize.php?server='.$serverID.'&AdminToken='.$Ot.'">تقارير</a></span></span></li>
-                    <li'.($CurrentTab == 'Ip    '         ? ' class="active"' : "").'><span><span><a href="Ip?server='.$serverID.'&AdminToken='.$Ot.'">ip</a></span></span></li>
+                    <li'.($CurrentTab == 'Ip'             ? ' class="active"' : "").'><span><span><a href="Ip?server='.$serverID.'&AdminToken='.$Ot.'">ip</a></span></span></li>
+                    <li'.($CurrentTab == 'GodGate'        ? ' class="active"' : "").'><span><span><a href="GodGate?server='.$serverID.'&AdminToken='.$Ot.'">بوابات</a></span></span></li>
                   '
                 ;
         return $ret;

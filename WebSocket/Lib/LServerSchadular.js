@@ -248,7 +248,6 @@ Elkaisar.Helper.CloseArmyCapital = async function (UnitType) {
         Player: Players[0],
         WorldUnit: Unit
     }));
-    console.log("Test");
 
 };
 
@@ -354,12 +353,15 @@ Elkaisar.Helper.CloseArenaChallangeTeam = async function () {
     const Team = await Elkaisar.DB.ASelectFrom("arena_team_challange.*, team.name",
             "arena_team_challange JOIN team ON team.id_team = arena_team_challange.id_team",
             "arena_team_challange.rank = 1", []);
-
+    
     if (!Team.length)
         return;
 
     const PrizeList = await Elkaisar.DB.ASelectFrom("*", "world_unit_prize_sp", "unitType = ?", [Elkaisar.Config.WUT_CHALLAGE_FIELD_TEAM]);
     const PlayerTeam = await Elkaisar.DB.ASelectFrom("DISTINCT id_player", "arena_team_challange_hero", "id_team = ?", [Team[0].id_team]);
+    
+    
+    
     PlayerTeam.forEach(function (Player) {
         var List = ``;
         PrizeList.forEach(function (Prize) {
@@ -439,6 +441,7 @@ Elkaisar.Cron.schedule("59 19 * * *", function () {
     Elkaisar.Helper.CloseArenaChallangeTeam();
     Elkaisar.Helper.CloseArenaChallangeGuild();
 });
+
 
 
 /*   Arena challange */

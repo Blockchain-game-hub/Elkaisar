@@ -3,17 +3,14 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/Elkaisar/Page/controlPanal/js/SendPrize.js</file>
-            <file>file:/C:/xampp/htdocs/Elkaisar/index.php</file>
-            <file>file:/C:/xampp/htdocs/Elkaisar/WebSocket/Lib/LItem.js</file>
-            <file>file:/C:/xampp/htdocs/Elkaisar/WebSocket/api/AItemArmyPack.js</file>
-            <file>file:/C:/xampp/htdocs/Elkaisar/WebSocket/api/AItem.js</file>
-            <file>file:/C:/xampp/htdocs/Elkaisar/WebSocket/api/AItemUse.js</file>
-            <file>file:/C:/xampp/htdocs/Elkaisar/Page/controlPanal/PSendPrize.php</file>
+            <file>file:/C:/xampp/htdocs/Elkaisar/WebSocket/Lib/LSchadular.js</file>
+            <file>file:/C:/xampp/htdocs/Elkaisar/Page/controlPanal/api/AIp.php</file>
             <file>file:/C:/xampp/htdocs/Elkaisar/WebSocket/Lib/LServerSchadular.js</file>
-            <file>file:/C:/xampp/htdocs/Elkaisar/WebSocket/api/AItemBoxUse.js</file>
-            <file>file:/C:/xampp/htdocs/Elkaisar/WebSocket/Lib/LAfterFight.js</file>
-            <file>file:/C:/xampp/htdocs/Elkaisar/WebSocket/Lib/LBase.js</file>
+            <file>file:/C:/xampp/htdocs/Elkaisar/Page/controlPanal/api/ARestartServers.php</file>
+            <file>file:/C:/xampp/htdocs/Elkaisar/WebSocket/modules/lib/chat.js</file>
+            <file>file:/C:/xampp/htdocs/Elkaisar/Page/controlPanal/PPlayer.php</file>
+            <file>file:/C:/xampp/htdocs/Elkaisar/Page/controlPanal/js/player.js</file>
+            <file>file:/C:/xampp/htdocs/Elkaisar/WebSocket/modules/lib/Player.js</file>
         </group>
     </open-files>
 </project-private>

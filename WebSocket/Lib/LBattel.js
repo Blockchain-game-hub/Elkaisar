@@ -47,8 +47,7 @@ class LBattel
             var Hero;
             var PlayerFound = false;
             var Battel = Elkaisar.Battel.BattelList[HeroBattel[0]["id_battel"]];
-            console.log(Battel.Heros);
-            console.log(idHero);
+           
             TimeBack = Math.floor(Date.now() / 1000) - Battel.Battel.time_start;
 
 
@@ -81,7 +80,6 @@ class LBattel
                 }
                 Elkaisar.Lib.LBattel.removeBattel(Battel.Battel.id_battel);
                 delete(Elkaisar.Battel.BattelList[Battel.Battel.id_battel]);
-                console.log(Elkaisar.Battel.BattelList);
             }
 
 

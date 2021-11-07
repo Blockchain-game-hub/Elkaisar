@@ -238,6 +238,62 @@ class ATeam {
             TeamPeers : AllTeamPeers
         };
     }
+    
+    async  disbandTeam()
+    {
+        const TeamMember  = await  Elkaisar.DB.ASelectFrom("team_member.*, team.id_leader, team.name", "team_member JOIN team ON team.id_team = team_member.id_team", "team_member.id_player = ?", [this.idPlayer]);
+        if(TeamMember.length < 1)
+            return {"state" : "error_0"};
+        if(TeamMember[0]["rank"] < Elkaisar.Config.TEAM_R_LEADER)
+            return {"state" : "error_1"};
+        if(TeamMember[0]["id_leader"] != this.idPlayer)
+            return {"state" : "error_2"};
+        
+        await Elkaisar.DB.ADelete("team_member", "id_team = ?", [TeamMember[0]["id_team"]]);
+        await Elkaisar.DB.ADelete("team", "id_leader = ?", [this.idPlayer]);
+        
+        Elkaisar.Base.broadcast(JSON.stringify({
+                                    classPath: "Team.TeamDisbanded",
+                                    TeamName: TeamMember[0].name
+                                }));
+        
+        return {
+            "state" : "ok"
+        };
+    }
+    
+    
+    async fireTeamMember(){
+        
+        const idMember = Elkaisar.Base.validateId(this.Parm.idMember);
+        const TeamLeader  = await  Elkaisar.DB.ASelectFrom("team_member.*, team.id_leader, team.name", "team_member JOIN team ON team.id_team = team_member.id_team", "team_member.id_player = ?", [this.idPlayer]);
+        const TeamMember = await  Elkaisar.DB.ASelectFrom("team_member.*, player.name", "team_member JOIN player ON player.id_player = team_member.id_player", "team_member.id_player = ?", [idMember]);
+        
+        if(TeamMember.length < 1)
+            return {"state" : "error_0"};
+        if(TeamLeader.length < 1)
+            return {"state" : "error_1"};
+        if(TeamLeader[0]["rank"] < Elkaisar.Config.TEAM_R_LEADER)
+            return {"state" : "error_2"};
+        if(TeamLeader[0]["id_leader"] != this.idPlayer || TeamLeader[0]["id_leader"] == idMember )
+            return {"state" : "error_3"};
+            
+        const TeamMem = await Elkaisar.DB.ASelectFrom("id_player", "team_member", "id_team  = ?", [TeamLeader[0].id_team]) 
+        await Elkaisar.DB.ADelete("team_member", "id_player = ?", [idMember]);
+        Elkaisar.Lib.ALTeam.refreshTeamData(TeamLeader[0].id_team);
+        var Msg = JSON.stringify({
+                    classPath: "Team.TeamMemberFired",
+                    TeamName: TeamLeader[0].name,
+                    FiredName: TeamMember[0].name
+                });
+        TeamMem.forEach(function (Player){
+            Elkaisar.Base.sendMsgToPlayer(Player.id_player,Msg);
+        });
+        
+        return {
+            "state" : "ok"
+        };
+    }
 
 }
 

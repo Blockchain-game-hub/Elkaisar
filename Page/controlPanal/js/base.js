@@ -171,7 +171,13 @@ var pormotion = [
 ];
 
 
-
+ElkaisarCp.BaseData.getPormSelectList = function (SelectedIdex = 0){
+    var List = "";
+    for(var  iii in pormotion){
+        List += `<option value="${iii}" ${SelectedIdex == iii ? `selected="selected"` : ""}>${pormotion[iii].ar_title}</option>`
+    }
+    return List;
+}
 
 
 

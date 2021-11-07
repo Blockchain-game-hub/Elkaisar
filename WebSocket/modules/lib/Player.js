@@ -32,7 +32,6 @@ module.exports.offline = function (con) {
                 idLog: con.idLog
             }, `${Elkaisar.CONST.BASE_URL}/api/APlayer/offline`,
             function (data) {
-                console.log("After Offline " + data);
 
             }
 

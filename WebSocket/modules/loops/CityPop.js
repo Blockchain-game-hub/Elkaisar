@@ -3,7 +3,6 @@ setInterval(function () {
 
 
     Elkaisar.DB.SelectFrom("pop, pop_cap, pop_max, id_city, id_player", "city", "pop != pop_max", [], function (Cities) {
-        console.log("City Under Update = " + Cities.length);
         if (!Cities)
             return;
 

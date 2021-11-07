@@ -44,7 +44,7 @@
                                 <th>ترقية</th>
                                 <th>ذهب</th>
                                 <th>حظر</th>
-                                <th>حذف</th>
+                                <th>القاب</th>
                                 <th>فحص</th>
                                 <th class="last">نقل</th>
                             </tr>
@@ -73,7 +73,7 @@
                                             <td class="change-player-porm"       data-id-player="'.$one["id_player"].'">  '.$one["porm"].' </td>
                                             <td class="change-player-gold"       data-id-player="'.$one["id_player"].'">  '.$one["gold"].' </td>
                                             <td class="pannPlayer"               data-id-player="'.$one["id_player"].'">   '. date("j M Y, H:i", $one["panned"]).'</td>
-                                            <td class="deletePlayer"             data-player-name="'.$one['name'].'"     data-id-player="'.$one["id_player"].'"> <img src="../img/hr.gif" width="16" height="16" alt="" /></td>
+                                            <td class="changePlayerTitle"        data-player-name="'.$one['name'].'"     data-id-player="'.$one["id_player"].'"> <img src="../img/hr.gif" width="16" height="16" alt="" /></td>
                                             <td class="examinPlayer"             data-player-name="'.$one['name'].'"     data-id-player="'.$one["id_player"].'"> <img src="../img/hr.gif" width="16" height="16" alt="" /></td>
                                             <td class="transPlayer"              data-player-name="'.$one['name'].'"     data-id-player="'.$one["id_player"].'"> <img src="../img/save-icon.gif" width="16" height="16" alt="" /></td>
                                         </tr>';
@@ -115,5 +115,5 @@
     </script>
     <script type="text/javascript" src="<?=RESOURCE_BATH?>/js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="<?=RESOURCE_BATH?>/js/base.js"></script>
-    <script type="text/javascript" src="<?=RESOURCE_BATH?>/js/player.js"></script>
+    <script type="text/javascript" src="<?=RESOURCE_BATH?>/js/Player.js"></script>
 </html>

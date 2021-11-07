@@ -16,6 +16,8 @@ Elkaisar.Lib.LBase.DailyReset = function (){
     Elkaisar.DB.Update("points = points + 25", "god_gate", "points < 4000");
     Elkaisar.DB.Update("done = 0", "quest_player", "id_quest IN(SELECT id_quest FROM quest WHERE refresh = 1)");
     Elkaisar.DB.Update("attempt = 10", "arena_player_challange", "1");
+    Elkaisar.DB.Update("attempt = 10", "arena_team_challange", "1");
+    Elkaisar.DB.Update("attempt = 10", "arena_guild_challange", "1");
     Elkaisar.DB.Update("buy_times = 0", "arena_player_challange_buy", "1");
     Elkaisar.Base.broadcast(JSON.stringify({
         classPath: 'Base.DailyRest'
@@ -157,11 +159,15 @@ Elkaisar.Cron.schedule("0 20 * * *", function () {
 
 
 
-Elkaisar.Cron.schedule("51 * * * *", function (){
+Elkaisar.Cron.schedule("51 * * * *", async  function (){
     Elkaisar.DB.QueryExc(`UPDATE guild t2
                             JOIN player t1 ON t1.id_guild = t2.id_guild
                             SET t2.prestige = (SELECT SUM(player.prestige) FROM player WHERE player.id_guild = t2.id_guild),
                                  t2.honor   = (SELECT SUM(player.honor)    FROM player WHERE player.id_guild = t2.id_guild)`);
+    const Teams = await Elkaisar.DB.ASelectFrom("id_team", "team", "1");
+    Teams.forEach(function (Team){
+        Elkaisar.Lib.ALTeam.refreshTeamData(Team.id_team);
+    })
 }, {
     scheduled: true,
     timezone: "Etc/UTC"
