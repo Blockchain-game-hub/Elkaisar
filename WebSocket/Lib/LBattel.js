@@ -37,7 +37,7 @@ class LBattel
         var Heros = [];
         var TimeBack = 0;
         var Battel = {};
-        
+
         Elkaisar.DB.SelectFrom("*", "battel_member", `id_hero = ${idHero}`, [], function (HeroBattel) {
             if (!HeroBattel[0])
                 return;
@@ -47,8 +47,7 @@ class LBattel
             var Hero;
             var PlayerFound = false;
             var Battel = Elkaisar.Battel.BattelList[HeroBattel[0]["id_battel"]];
-            console.log(Battel.Heros);
-            console.log(idHero);
+           
             TimeBack = Math.floor(Date.now() / 1000) - Battel.Battel.time_start;
 
 
@@ -61,7 +60,7 @@ class LBattel
                         Hero: Hero
                     });
                     Battel.Heros.splice(Index, 1);
-                    
+
                 } else if (Hero.Hero.id_player == HeroBattel[0]["id_player"])
                     PlayerFound = true;
 
@@ -81,7 +80,6 @@ class LBattel
                 }
                 Elkaisar.Lib.LBattel.removeBattel(Battel.Battel.id_battel);
                 delete(Elkaisar.Battel.BattelList[Battel.Battel.id_battel]);
-                console.log(Elkaisar.Battel.BattelList);
             }
 
 
@@ -131,6 +129,8 @@ class LBattel
                     CuHero.id_hero = Hero.idHero;
                     Hero.Hero = CuHero;
                     Hero.AttackTask = Battel.task;
+                    Hero.xTo = Battel.x_coord;
+                    Hero.yTo = Battel.y_coord;
                     Elkaisar.Lib.LHero.getHeroEquip(Hero);
                     Elkaisar.Lib.LHero.getHeroArmy(Hero);
                     if (callBack)
@@ -273,13 +273,13 @@ class LBattel
 
         Elkaisar.DB.Delete("battel", "id_battel = ?", [idBattel]);
         Elkaisar.DB.Delete("battel_member", "id_battel = ?", [idBattel]);
-        Elkaisar.Lib.LWorldUnit.fireOffWorldUnit(Elkaisar.Battel.BattelList[idBattel].Battel.x_coord, Elkaisar.Battel.BattelList[idBattel].Battel.y_coord);
-        Elkaisar.Lib.LWorldUnit.worldBattelEnded(Elkaisar.Battel.BattelList[idBattel].Battel);
-        delete Elkaisar.Battel.BattelList[idBattel];
+        if (Elkaisar.Battel.BattelList[idBattel]) {
+            Elkaisar.Lib.LWorldUnit.fireOffWorldUnit(Elkaisar.Battel.BattelList[idBattel].Battel.x_coord, Elkaisar.Battel.BattelList[idBattel].Battel.y_coord);
+            Elkaisar.Lib.LWorldUnit.worldBattelEnded(Elkaisar.Battel.BattelList[idBattel].Battel);
+            delete Elkaisar.Battel.BattelList[idBattel];
+        }
+
     }
-
-   
-
 
 }
 

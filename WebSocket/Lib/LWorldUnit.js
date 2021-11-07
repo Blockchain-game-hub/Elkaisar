@@ -339,7 +339,7 @@ class LWorldUnit {
     }
 
     static isSharablePrize($t) {
-        return LWorldUnit.isCarthagianArmies($t) || LWorldUnit.isArenaDeath($t) || LWorldUnit.isCity($t) || LWorldUnit.isSeaCity($t);
+        return LWorldUnit.isCarthagianArmies($t) || LWorldUnit.isArenaDeath($t) || LWorldUnit.isCity($t) || LWorldUnit.isSeaCity($t) || LWorldUnit.isChallangeField($t);
     }
 
     static isEquipEfeective($t) {
@@ -355,7 +355,7 @@ class LWorldUnit {
     }
 
     static limitedHero($t) {
-        return (LWorldUnit.isArmyCapital($t) || LWorldUnit.isCarthagianArmies($t) || LWorldUnit.isStatueWalf($t), LWorldUnit.isStatueWar($t) || LWorldUnit.isSeaCity($t));
+        return (LWorldUnit.isArmyCapital($t) || LWorldUnit.isCarthagianArmies($t) || LWorldUnit.isStatueWalf($t)|| LWorldUnit.isStatueWar($t) || LWorldUnit.isSeaCity($t));
     }
     
     static  isDefencable($t){
@@ -364,9 +364,9 @@ class LWorldUnit {
     
     static  isGuildWar($t) {
         return LWorldUnit.isRepelCastle($t) ||
-                LWorldUnit.isRepelCastle($t) ||
-                LWorldUnit.isRepelCastle($t) ||
-                LWorldUnit.isRepelCastle($t);
+                LWorldUnit.isCarthagianArmies($t) ||
+                LWorldUnit.isArenaGuild($t) ||
+                LWorldUnit.isQueenCity($t);
     }
     
 

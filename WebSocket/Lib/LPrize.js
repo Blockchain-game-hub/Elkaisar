@@ -230,7 +230,6 @@ class LPrize {
 
 
         if (Elkaisar.Lib.LWorldUnit.isCity(Unit["ut"]) && this.Battel.Battel.task == Elkaisar.Config.BATTEL_TASK_CONQUER) {
-            console.log("this is City")
             const ResourcePrize = await this.cityPrize(Player);
             const ItemPrize = await this.cityItemsPrize(Player);
             this.addPrizeToDB({ ResourcePrize: ResourcePrize, ItemPrize: ItemPrize }, Player);
@@ -242,7 +241,7 @@ class LPrize {
             this.addPrizeToDB({ ResourcePrize: ResourcePrize, ItemPrize: Prizes["ItemPrize"] }, Player);
             return;
         }
-
+        
         Prizes["ItemPrize"] = Elkaisar.World.getUnitPrize(this.Battel);
         this.addPrizeToDB(Prizes, Player);
     }
@@ -256,7 +255,6 @@ class LPrize {
             var amount = 0;
             if (Luck <= OnePrize["win_rate"]) {
                 amount = Elkaisar.Base.rand(OnePrize["amount_min"], OnePrize["amount_max"]);
-
                 Elkaisar.DB.Update(`amount = amount + ${amount}`, "player_item", "id_player = ? AND id_item = ?", [Player.idPlayer, OnePrize["prize"]]);
                 Player.ItemPrize.push({
                     "Item": OnePrize["prize"],

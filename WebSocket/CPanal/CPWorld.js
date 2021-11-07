@@ -119,6 +119,10 @@ class CPWorld {
             Elkaisar.Helper.CloseArmyCapital(Unit.ut);
         }else if(Unit.ut == Elkaisar.Config.WUT_CHALLAGE_FIELD_PLAYER){
             Elkaisar.Helper.CloseArenaChallange();
+        }else if(Unit.ut == Elkaisar.Config.WUT_CHALLAGE_FIELD_TEAM){
+            Elkaisar.Helper.CloseArenaChallangeTeam();
+        }else if(Unit.ut == Elkaisar.Config.WUT_CHALLAGE_FIELD_GUILD){
+            Elkaisar.Helper.CloseArenaChallangeGuild();
         }
 
         Elkaisar.Base.broadcast(JSON.stringify({
@@ -126,7 +130,7 @@ class CPWorld {
             xCoord: xCoord,
             yCoord: yCoord
         }));
-        return { state: "ok" }
+        return { state: "ok" };
     }
 
 
