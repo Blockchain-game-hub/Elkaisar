@@ -91,9 +91,9 @@ Elkaisar.Helper.OpenQueenCity = async function (unitType) {
     Elkaisar.DB.SelectFrom("*", "world", `ut = ${unitType}`, [], function (Unites) {
         Unites.forEach(function (Unit, Index) {
             Elkaisar.DB.Update("lo = 0, l = 1", "world", "x = ? AND y = ?", [Unit.x, Unit.y],
-                    function () {
-                        Elkaisar.World.refreshWorldUnit();
-                    });
+            function () {
+                Elkaisar.World.refreshWorldUnit();
+            });
             Elkaisar.DB.Delete("world_unit_rank", "x = ? AND y = ?", [Unit.x, Unit.y]);
             Elkaisar.Base.broadcast(JSON.stringify({
                 "classPath": "ServerAnnounce.QueenCityOpened",
@@ -248,6 +248,7 @@ Elkaisar.Helper.CloseArmyCapital = async function (UnitType) {
         Player: Players[0],
         WorldUnit: Unit
     }));
+    console.log("Test");
 
 };
 
@@ -347,101 +348,10 @@ Elkaisar.Helper.CloseArenaChallange = async function () {
     });
 };
 
-
-Elkaisar.Helper.CloseArenaChallangeTeam = async function () {
-
-    const Team = await Elkaisar.DB.ASelectFrom("arena_team_challange.*, team.name",
-            "arena_team_challange JOIN team ON team.id_team = arena_team_challange.id_team",
-            "arena_team_challange.rank = 1", []);
-    
-    if (!Team.length)
-        return;
-
-    const PrizeList = await Elkaisar.DB.ASelectFrom("*", "world_unit_prize_sp", "unitType = ?", [Elkaisar.Config.WUT_CHALLAGE_FIELD_TEAM]);
-    const PlayerTeam = await Elkaisar.DB.ASelectFrom("DISTINCT id_player", "arena_team_challange_hero", "id_team = ?", [Team[0].id_team]);
-    
-    
-    
-    PlayerTeam.forEach(function (Player) {
-        var List = ``;
-        PrizeList.forEach(function (Prize) {
-            var Luck = Math.floor(Math.random() * 1000);
-            var amount = 0;
-            if (Luck <= Prize["win_rate"]) {
-                amount = Elkaisar.Base.rand(Prize["amount_min"], Prize["amount_max"]);
-                Elkaisar.DB.Update(`amount = amount + ${amount}`, "player_item", "id_player = ? AND id_item = ?", [Player.id_player, Prize.prize]);
-
-                var Item = Elkaisar.Lib.LItem.ItemList[Prize["prize"]];
-                List += `<li style="width: 20%;">
-                        <div class="image"><img src="${Item.image}"></div>
-                        <div class="amount stroke">${amount} X</div>
-                    </li>`;
-            }
-        });
-
-        Elkaisar.DB.Insert(
-                `id_to = ${Player.id_player}, head = 'تقرير استلام جوائز ميدان تحدى الفريق', body=?, time_stamp = ${Math.floor(Date.now() / 1000)}`, "msg_diff",
-                [`<div id="matrial-box-gift" style="border: none; background: none"><ul class="matrial-list">${List}</ul></div>`]);
-        
-    });
-    Elkaisar.DB.Update("champion = champion + 1", "arena_team_challange", `id_team = ${Team[0].id_team}`);
-
-    Elkaisar.Base.broadcast(JSON.stringify({
-        classPath: "ServerAnnounce.ArenaChallangeTeamRoundEnd",
-        TeamName: Team[0].name
-    }));
-};
-
-
-Elkaisar.Helper.CloseArenaChallangeGuild = async function () {
-
-    const Guild = await Elkaisar.DB.ASelectFrom("arena_guild_challange.*, guild.name",
-            "arena_guild_challange JOIN guild ON guild.id_guild = arena_guild_challange.id_guild",
-            "arena_guild_challange.rank = 1", []);
-
-    if (!Guild.length)
-        return;
-
-    const PrizeList = await Elkaisar.DB.ASelectFrom("*", "world_unit_prize_sp", "unitType = ?", [Elkaisar.Config.WUT_CHALLAGE_FIELD_GUILD]);
-    const PlayerGuild = await Elkaisar.DB.ASelectFrom("DISTINCT id_player", "arena_guild_challange_hero", "id_guild = ?", [Guild[0].id_guild]);
-    PlayerGuild.forEach(function (Player) {
-        var List = ``;
-        PrizeList.forEach(function (Prize) {
-            var Luck = Math.floor(Math.random() * 1000);
-            var amount = 0;
-            if (Luck <= Prize["win_rate"]) {
-                amount = Elkaisar.Base.rand(Prize["amount_min"], Prize["amount_max"]);
-                Elkaisar.DB.Update(`amount = amount + ${amount}`, "player_item", "id_player = ? AND id_item = ?", [Player.id_player, Prize.prize]);
-
-                var Item = Elkaisar.Lib.LItem.ItemList[Prize["prize"]];
-                List += `<li style="width: 20%;">
-                        <div class="image"><img src="${Item.image}"></div>
-                        <div class="amount stroke">${amount} X</div>
-                    </li>`;
-            }
-        });
-
-        Elkaisar.DB.Insert(
-                `id_to = ${Player.id_player}, head = 'تقرير استلام جوائز ميدان تحدى الأحلاف', body=?, time_stamp = ${Math.floor(Date.now() / 1000)}`, "msg_diff",
-                [`<div id="matrial-box-gift" style="border: none; background: none"><ul class="matrial-list">${List}</ul></div>`]);
-        
-    });
-    
-    Elkaisar.DB.Update("champion = champion + 1", "arena_guild_challange", `id_guild = ${Guild[0].id_guild}`);
-
-    Elkaisar.Base.broadcast(JSON.stringify({
-        classPath: "ServerAnnounce.ArenaChallangeGuildRoundEnd",
-        GuildName: Guild[0].name
-    }));
-};
-
 /*   Arena challange */
 Elkaisar.Cron.schedule("59 19 * * *", function () {
     Elkaisar.Helper.CloseArenaChallange();
-    Elkaisar.Helper.CloseArenaChallangeTeam();
-    Elkaisar.Helper.CloseArenaChallangeGuild();
 });
-
 
 
 /*   Arena challange */

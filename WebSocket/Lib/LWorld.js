@@ -6,25 +6,26 @@ Elkaisar.World.WorldUnitLosePrize = {};
 Elkaisar.World.OnFireUnits = {};
 Elkaisar.World.WorldBattels = {};
 
-Elkaisar.World.refreshWorldUnit = async function (callBack) {
+Elkaisar.World.refreshWorldUnit = function (callBack) {
 
-    console.log(Date.now());
-    const Units = await Elkaisar.DB.ASelectFrom("x, y, l, t, ut, lo", "world", "1", []);
-    var ii;
-    for (ii in Units) {
-        const Unit = Units[ii];
-        if (!Elkaisar.World.WorldUnits[Unit.x * 500 + Unit.y])
-            Elkaisar.World.WorldUnits[Unit.x * 500 + Unit.y] = Unit;
-        else {
-            Elkaisar.World.WorldUnits[Unit.x * 500 + Unit.y].ut = Unit.ut;
-            Elkaisar.World.WorldUnits[Unit.x * 500 + Unit.y].l = Unit.l;
-            Elkaisar.World.WorldUnits[Unit.x * 500 + Unit.y].lo = Unit.lo;
-            Elkaisar.World.WorldUnits[Unit.x * 500 + Unit.y].s = Unit.s;
+    Elkaisar.DB.SelectFrom("x, y, l, t, ut, lo", "world", "1", [], function (Res) {
+        console.log("====");
+        console.log(Date.now());
+        for(var iii in Res){
+            var Unit = Res[iii];
+            if(!Elkaisar.World.WorldUnits[Unit.x*500 + Unit.y])
+                Elkaisar.World.WorldUnits[Unit.x*500 + Unit.y] = Unit;
+            else{
+                Elkaisar.World.WorldUnits[Unit.x*500 + Unit.y].ut = Unit.ut;
+                Elkaisar.World.WorldUnits[Unit.x*500 + Unit.y].l  = Unit.l;
+                Elkaisar.World.WorldUnits[Unit.x*500 + Unit.y].lo  = Unit.lo;
+                Elkaisar.World.WorldUnits[Unit.x*500 + Unit.y].s  = Unit.s;
+            }
         }
-    }
-    console.log(Date.now());
-    if (callBack)
-        callBack();
+        console.log(Date.now());
+        if (callBack)
+            callBack();
+    });
 };
 
 
@@ -46,13 +47,13 @@ Elkaisar.World.getUnitPrize = function (Battel) {
     var xCoord = Battel.Battel.x_coord;
     var yCoord = Battel.Battel.y_coord;
     var Unit = Elkaisar.World.WorldUnits[xCoord * 500 + yCoord];
-
+   
     var PrizeList = [];
-    if (Battel.Fight.sideWin === Elkaisar.Config.BATTEL_SIDE_ATT)
+    if(Battel.Fight.sideWin === Elkaisar.Config.BATTEL_SIDE_ATT)
         PrizeList = Elkaisar.World.WorldUnitPrize[`${Unit.ut}.${Battel.WinLvl}`];
     else
         PrizeList = Elkaisar.World.WorldUnitPrize[`${Unit.ut}.${Battel.WinLvl}.Lose`];
-
+    
     if (!PrizeList)
         return [];
     for (var i = PrizeList.length - 1; i > 0; i--) {
@@ -65,7 +66,8 @@ Elkaisar.World.getUnitPrize = function (Battel) {
     return PrizeList;
 };
 
-Elkaisar.World.getUnitData = function (callBack) {
+Elkaisar.World.getUnitData = function (callBack)
+{
     Elkaisar.Base.Request.getReq(
             {
                 server: Elkaisar.CONST.SERVER_ID
@@ -145,22 +147,22 @@ Elkaisar.World.refreshWorldUnitEquip = function (callBack) {
     });
 };
 
-Elkaisar.World.refreshWorldUnitPrize = function (callBack) {
-
+Elkaisar.World.refreshWorldUnitPrize = function (callBack){
+    
     Elkaisar.DB.SelectFrom("*", "world_unit_prize", "1", [], function (Res) {
-        Elkaisar.DB.SelectFrom("*", "world_unit_prize_lose", "1", [], function (LP) {
+        Elkaisar.DB.SelectFrom("*", "world_unit_prize_lose", "1", [], function (LP){
             Elkaisar.World.WorldUnitPrize = {};
-            for (var iii in Res) {
-
+            for (var iii in Res){
+            
                 var UnitPrize = Res[iii];
                 if (!Elkaisar.World.WorldUnitPrize[`${UnitPrize.unitType}.${UnitPrize.lvl}`])
                     Elkaisar.World.WorldUnitPrize[`${UnitPrize.unitType}.${UnitPrize.lvl}`] = [];
                 Elkaisar.World.WorldUnitPrize[`${UnitPrize.unitType}.${UnitPrize.lvl}`].push(Res[iii]);
 
             }
-
-            for (var ii in LP) {
-
+            
+            for (var ii in LP){
+            
                 var UnitLPrize = LP[ii];
                 if (!Elkaisar.World.WorldUnitPrize[`${UnitLPrize.unitType}.${UnitLPrize.lvl}.Lose`])
                     Elkaisar.World.WorldUnitPrize[`${UnitLPrize.unitType}.${UnitLPrize.lvl}.Lose`] = [];
@@ -168,21 +170,23 @@ Elkaisar.World.refreshWorldUnitPrize = function (callBack) {
 
             }
             if (callBack)
-                callBack();
+            callBack();
         });
     });
-
+    
 };
 
 
 Elkaisar.World.refreshWorldUnit(function () {
     Elkaisar.World.refreshWorldUnitHeros(function () {
         Elkaisar.World.refreshWorldUnitEquip(function () {
-            Elkaisar.World.getUnitData(function () {
-                Elkaisar.World.refreshWorldUnitPrize(function () {
-                    Elkaisar.OnEvent.emit("OnServerReady");
-                    Elkaisar.DB.Update("s = 0", "world", "1", []);
-                    Elkaisar.World.getEquipPower();
+            Elkaisar.World.refreshWorldUnitEquip(function () {
+                Elkaisar.World.getUnitData(function () {
+                    Elkaisar.World.refreshWorldUnitPrize(function () {
+                        Elkaisar.OnEvent.emit("OnServerReady");
+                        Elkaisar.DB.Update("s = 0", "world", "1", []);
+                        Elkaisar.World.getEquipPower();
+                    });
                 });
             });
         });
@@ -210,14 +214,15 @@ class LWorld {
 
 
         var UnitHero;
-
+       
         if (callBack)
             callBack(HeroUnitList);
 
         return HeroUnitList;
     }
 
-    static unitEquip(Unit, callBack) {
+    static unitEquip(Unit, callBack)
+    {
         var WorldUnit = Elkaisar.World.getUnit(Unit.x, Unit.y);
         if (!WorldUnit.UnitEquip)
             return [];
@@ -226,7 +231,7 @@ class LWorld {
         return WorldUnit.UnitEquip[WorldUnit.l];
     }
 
-    static unitGarrisonHero(Unit, callBack) {
+    static  unitGarrisonHero(Unit, callBack) {
         Elkaisar.DB.SelectFrom(
                 `world_unit_garrison.* , hero.id_city, 
                 hero.point_b, hero.point_b_plus, hero.point_c, hero.point_c_plus  , 
@@ -241,7 +246,8 @@ class LWorld {
 
     }
 
-    static battelHeros(Battel, callBack) {
+    static battelHeros(Battel, callBack)
+    {
         Elkaisar.DB.SelectFrom(
                 `battel_member.id_hero , battel_member.id_player ,
                 hero.point_b, hero.point_b_plus, hero.point_c, hero.point_c_plus  , 
@@ -254,7 +260,7 @@ class LWorld {
                 });
     }
 
-    static removeCityColonizer(idCity) {
+    static removeCityColonizer(idCity){
 
         Elkaisar.DB.Delete("city_colonize", "id_city_colonized = ?", [idCity]);
 

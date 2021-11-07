@@ -45,40 +45,33 @@ class LPlayer {
             ]
         }
     };*/
-    static RANK_POINT_PLUSE = {}
-    
-    static async  getRankPointPluse(){
-        const Gate1 = await Elkaisar.DB.ASelectFrom("*", "god_gate_point_plus_1", "1");
-        const Gate2 = await Elkaisar.DB.ASelectFrom("*", "god_gate_point_plus_2", "1");
-        const Gate3 = await Elkaisar.DB.ASelectFrom("*", "god_gate_point_plus_3", "1");
-        const Gate4 = await Elkaisar.DB.ASelectFrom("*", "god_gate_point_plus_4", "1");
-        
-        const RankPointPluse = {
-            "gate_1" : LPlayer.getRankPP(Gate1),
-            "gate_2" : LPlayer.getRankPP(Gate2),
-            "gate_3" : LPlayer.getRankPP(Gate3),
-            "gate_4" : LPlayer.getRankPP(Gate4)
-        };
-        LPlayer.RANK_POINT_PLUSE = RankPointPluse;
-        return RankPointPluse;
-    }
-    
-    static getRankPP(Gate){
-        var GatePoints = {};
-        
-        Gate.forEach (function (OneRow){
-            for(var oneKey in OneRow){
-                if(oneKey == "id" || oneKey == "rank")
-                    continue;
-                if(OneRow[oneKey] == 0)
-                    continue;
-                if(!GatePoints[oneKey])
-                    GatePoints[oneKey] = [];
-               GatePoints[oneKey].push(OneRow[oneKey]); 
-            }
-        });
-        
-        return GatePoints;
+    static RANK_POINT_PLUSE = {
+        "gate_1": {
+            "attack": [
+                300, 300, 300, 200, 200, 200, 200, 200, 150, 150,
+                145, 145, 140, 140, 130, 130, 120, 120, 110, 110,
+                100, 100, 100, 100, 100, 75, 75, 75, 75, 75]
+        },
+        "gate_2": {
+            "defence": [ 
+                300, 300, 300, 200, 200, 200, 200, 200, 150, 150,
+                145, 145, 140, 140, 130, 130, 120, 120, 110, 110,
+                100, 100, 100, 100, 100, 75, 75, 75, 75, 75]
+        },
+        "gate_3": {
+            "vit": [
+                750, 700, 700, 700, 600, 600, 600, 450, 450, 450,
+                300, 300, 300, 300, 300, 250, 250, 250, 250, 250,
+                150, 150, 150, 150, 150, 100, 100, 100, 100, 100
+            ]
+        },
+        "gate_4": {
+            "damage": [
+                200, 200, 200, 150, 150, 150, 150, 150, 140, 140,
+                140, 130, 130, 130, 120, 120, 120, 110, 110, 100,
+                100, 80, 80, 80, 80, 50, 50, 50, 50, 50
+            ]
+        }
     }
     static getPlayerdata(Player, callBack) {
         Elkaisar.DB.SelectFrom(
@@ -195,14 +188,7 @@ class LPlayer {
                     if (!GateRank)
                         return;
 
-                    if(LPlayer.RANK_POINT_PLUSE[`gate_${GateIndex}`]["attack"])
-                        Player.GodGate["attack"] += LPlayer.RANK_POINT_PLUSE[`gate_${GateIndex}`]["attack"][GateRank.rank] || 0;
-                    if(LPlayer.RANK_POINT_PLUSE[`gate_${GateIndex}`]["defence"])
-                        Player.GodGate["defence"] += LPlayer.RANK_POINT_PLUSE[`gate_${GateIndex}`]["defence"][GateRank.rank] || 0;
-                    if(LPlayer.RANK_POINT_PLUSE[`gate_${GateIndex}`]["vit"])
-                        Player.GodGate["vit"] += LPlayer.RANK_POINT_PLUSE[`gate_${GateIndex}`]["vit"][GateRank.rank] || 0;
-                    if(LPlayer.RANK_POINT_PLUSE[`gate_${GateIndex}`]["damage"])
-                        Player.GodGate["damage"] += LPlayer.RANK_POINT_PLUSE[`gate_${GateIndex}`]["damage"][GateRank.rank] || 0;
+                    Player.GodGate[LPlayer.godP[`gate_${GateIndex}`]] += LPlayer.RANK_POINT_PLUSE[`gate_${GateIndex}`][LPlayer.godP[`gate_${GateIndex}`]][GateRank.rank] || 0;
 
                     if (callBack)
                         callBack();
@@ -227,8 +213,5 @@ class LPlayer {
 }
 
 
-Elkaisar.OnEvent.on('OnServerReady', function () {
-    LPlayer.getRankPointPluse();
-});
 
 module.exports = LPlayer;

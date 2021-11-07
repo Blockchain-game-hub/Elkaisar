@@ -8,7 +8,7 @@ class CPEquip {
 
 
     async changeEquipPower() {
-        
+        console.log(this.Parm)
         const idEquip = Elkaisar.Base.validateGameNames(this.Parm.idEquip);
         const attack = Elkaisar.Base.validateId(this.Parm.attack);
         const defence = Elkaisar.Base.validateId(this.Parm.defence);

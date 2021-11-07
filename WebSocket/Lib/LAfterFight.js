@@ -13,34 +13,36 @@ class LAfterFight {
 
 
         if (
-                Elkaisar.Lib.LWorldUnit.isMonawrat(Unit["ut"]) ||
-                Elkaisar.Lib.LWorldUnit.isCamp(Unit["ut"]) ||
-                Elkaisar.Lib.LWorldUnit.isAsianSquads(Unit["ut"]) ||
-                Elkaisar.Lib.LWorldUnit.isGangStar(Unit["ut"]) ||
-                Elkaisar.Lib.LWorldUnit.isCarthagianArmies(Unit["ut"]) ||
-                Elkaisar.Lib.LWorldUnit.isStatueWalf(Unit["ut"]) ||
-                Elkaisar.Lib.LWorldUnit.isStatueWar(Unit["ut"])) {
+            Elkaisar.Lib.LWorldUnit.isMonawrat(Unit["ut"]) ||
+            Elkaisar.Lib.LWorldUnit.isCamp(Unit["ut"]) ||
+            Elkaisar.Lib.LWorldUnit.isAsianSquads(Unit["ut"]) ||
+            Elkaisar.Lib.LWorldUnit.isGangStar(Unit["ut"]) ||
+            Elkaisar.Lib.LWorldUnit.isCarthagianArmies(Unit["ut"]) ||
+            Elkaisar.Lib.LWorldUnit.isStatueWalf(Unit["ut"]) ||
+            Elkaisar.Lib.LWorldUnit.isStatueWar(Unit["ut"])) {
 
             Elkaisar.DB.Update("l = l + 1", "world", "x = ? AND y = ? AND l <= ? ", [Unit.x, Unit.y, Elkaisar.World.WorldUnitData[Unit.ut].maxLvl]);
             Unit.l++;
         }
     }
 
-    async setDominant() {
+   async setDominant() {
 
         var now = Math.floor(Date.now() / 1000);
         var Unit = Elkaisar.World.getUnit(this.Battel.Battel.x_coord, this.Battel.Battel.y_coord);
 
         if (
-                Elkaisar.Lib.LWorldUnit.isArmyCapital(Unit["ut"]) || Elkaisar.Lib.LWorldUnit.isArena(Unit["ut"])
-                ) {
+            Elkaisar.Lib.LWorldUnit.isArmyCapital(Unit["ut"]) || Elkaisar.Lib.LWorldUnit.isArena(Unit["ut"])
+        ) {
 
             var idDominant = 0;
 
             if (Elkaisar.Lib.LWorldUnit.isArenaGuild(Unit["ut"])) {
                 idDominant = this.Battel.Players[this.Battel.Battel.id_player].Player.idGuild;
                 Elkaisar.DB.Insert("x = ?, y = ?, id_dominant = ?, id_guild = ?, time_stamp = ?", "world_unit_rank", [Unit.x, Unit.y, idDominant, idDominant, now]);
-            } else {
+            }
+
+            else {
                 idDominant = this.Battel.Battel.id_player;
                 Elkaisar.DB.Insert("x = ?, y = ?, id_dominant = ?, id_player = ?, time_stamp = ?", "world_unit_rank", [Unit.x, Unit.y, idDominant, idDominant, now]);
             }
@@ -75,9 +77,9 @@ class LAfterFight {
         var Unit = Elkaisar.World.getUnit(this.Battel.Battel.x_coord, this.Battel.Battel.y_coord);
         var This = this;
         const CityLoy = await Elkaisar.DB.ASelectFrom("loy, id_city,  player.id_player, city.name AS CityName, player.name AS PlayerName, player.id_guild",
-                "city JOIN player ON player.id_player = city.id_player", "x = ? AND y = ?", [Unit.x, Unit.y]);
+            "city JOIN player ON player.id_player = city.id_player", "x = ? AND y = ?", [Unit.x, Unit.y]);
         const CityColonizer = await Elkaisar.DB.ASelectFrom("id_city, player.id_player, player.name AS PlayerName, player.id_guild, player.city_flag",
-                "city JOIN player ON player.id_player = city.id_player", "x = ? AND y = ?", [This.Battel.Battel.x_city, This.Battel.Battel.y_city]);
+            "city JOIN player ON player.id_player = city.id_player", "x = ? AND y = ?", [This.Battel.Battel.x_city, This.Battel.Battel.y_city]);
         const Colonizer = await Elkaisar.DB.ASelectFrom("*", "city_colonize", "id_city_colonized = ?", [CityLoy[0]["id_city"]]);
         if (!CityLoy[0] || !CityColonizer[0])
             return;
@@ -87,6 +89,7 @@ class LAfterFight {
         }
 
         if (Colonizer[0]) {
+            console.log(Colonizer)
             if (Colonizer[0]["time_stamp"] + 24 * 60 * 60 < Date.now() / 1000)
                 Elkaisar.Lib.LWorld.removeCityColonizer(Colonizer[0]["id_city_colonized"]);
             else
@@ -94,7 +97,7 @@ class LAfterFight {
         }
 
         Elkaisar.DB.Insert(
-                `id_colonizer = ${CityColonizer[0]["id_player"]}, id_colonized = ${CityLoy[0]["id_player"]},
+            `id_colonizer = ${CityColonizer[0]["id_player"]}, id_colonized = ${CityLoy[0]["id_player"]},
                                     id_city_colonizer  = ${CityColonizer[0]["id_city"]}, id_city_colonized = ${CityLoy[0]["id_city"]},
                                     time_stamp = ${Math.floor(Date.now() / 1000)}`, `city_colonize`, []);
 
@@ -132,8 +135,8 @@ class LAfterFight {
             return;
         await Elkaisar.DB.ADelete("city_bar", "x_coord = ? AND y_coord = ?", [Unit.x, Unit.y]);
         Elkaisar.DB.Insert("id_player = ?, id_city = ?, x_coord = ?, y_coord = ?",
-                "city_bar", [This.Battel.Battel.id_player, idCity, Unit["x"], Unit["y"]]);
-        Elkaisar.Base.sendMsgToPlayer(idPlayer, JSON.stringify({classPath: "World.newBarrColonized", xCoord: Unit.x, yCoord: Unit.y, idCity: idCity}))
+            "city_bar", [This.Battel.Battel.id_player, idCity, Unit["x"], Unit["y"]]);
+        Elkaisar.Base.sendMsgToPlayer(idPlayer, JSON.stringify({ classPath: "World.newBarrColonized", xCoord: Unit.x, yCoord: Unit.y, idCity: idCity }))
     }
 
     setColonizer() {
@@ -148,107 +151,44 @@ class LAfterFight {
             this.setCityColonizer();
     }
 
-    async setRank() {
-        var This = this, Arena;
-        if (this.Battel.Battel["task"] != Elkaisar.Config.BATTEL_TASK_CHALLANGE)
-            return;
-        const Unit = Elkaisar.World.getUnit(this.Battel.Battel.x_coord, this.Battel.Battel.y_coord);
+    setRank() {
+        var This = this;
+        if (this.Battel.Battel["task"] === Elkaisar.Config.BATTEL_TASK_CHALLANGE) {
+            Elkaisar.DB.QueryExc(`UPDATE
+                                    arena_player_challange AS a1
+                                    JOIN arena_player_challange AS a2 ON
+                                    ( a1.id_player = ${This.Battel.Battel["id_player_def"]} AND a2.id_player = ${This.Battel.Battel["id_player"]} )
+                                    SET
+                                    a1.rank = a2.rank,
+                                    a2.rank = a1.rank WHERE a2.rank > a1.rank;`, [], function (Res) {
 
-        if (Elkaisar.Lib.LWorldUnit.isChallangeFieldPlayer(Unit.ut)) {
-            const Res = await Elkaisar.DB.AQueryExc(
-                    `UPDATE arena_player_challange AS a1 JOIN arena_player_challange AS a2 ON( a1.id_player = ? AND a2.id_player = ? )
-                            SET a1.rank = a2.rank, a2.rank = a1.rank WHERE a2.rank > a1.rank;`,
-                    [This.Battel.Battel["id_player_def"], This.Battel.Battel["id_player"]]);
+                Elkaisar.DB.Update("win = win + 1, exp = exp + 3", "arena_player_challange", "id_player = ?", [This.Battel.Battel["id_player"]]);
+                Elkaisar.DB.SelectFrom("exp, lvl, rank", "arena_player_challange", "id_player = ?", [This.Battel.Battel.id_player], function (Arena) {
 
-            Elkaisar.DB.Update("win = win + 1, exp = exp + 3", "arena_player_challange", "id_player = ?", [This.Battel.Battel["id_player"]]);
-            Arena = await Elkaisar.DB.ASelectFrom("exp, lvl, rank", "arena_player_challange", "id_player = ?", [This.Battel.Battel.id_player]);
+                    if (Arena[0]["rank"] == 1 && Res.affectedRows > 0)
+                        Elkaisar.Base.broadcast(JSON.stringify({
+                            classPath: "ServerAnnounce.KingOfArenaChallange",
+                            Player: This.Battel.Players[This.Battel.Battel.id_player].Player
+                        }));
 
-            if (Arena[0]["rank"] == 1 && Res.affectedRows > 0)
-                Elkaisar.Base.broadcast(JSON.stringify({
-                    classPath: "ServerAnnounce.KingOfArenaChallange",
-                    Player: This.Battel.Players[This.Battel.Battel.id_player].Player
-                }));
+                    if (Arena[0]["lvl"] >= 15)
+                        return;
 
-            if (Arena[0]["lvl"] >= 15)
-                return;
+                    if (Arena[0]["exp"] >= Elkaisar.Config.ArenaChallangeLvlReqExp[Number(Arena[0]["lvl"] + 1)]) {
+                        Elkaisar.DB.Update("lvl = lvl + 1", "arena_player_challange", "id_player = ?", [This.Battel.Battel.id_player]);
 
-            if (Arena[0]["exp"] >= Elkaisar.Config.ArenaChallangeLvlReqExp[Number(Arena[0]["lvl"]) + 1]) {
-                Elkaisar.DB.Update("lvl = lvl + 1", "arena_player_challange", "id_player = ?", [This.Battel.Battel.id_player]);
-                Elkaisar.Base.broadcast(JSON.stringify({
-                    classPath: "ServerAnnounce.ArenachallangeLvlUp",
-                    Player: This.Battel.Players[This.Battel.Battel.id_player].Player,
-                    ArenaData: Arena[0]
-                }));
-            };
-        } else if(Elkaisar.Lib.LWorldUnit.isChallangeFieldTeam(Unit.ut)){
-            
-            const PlayerTeam = await Elkaisar.DB.ASelectFrom("id_team", "team_member", "id_player = ?", [This.Battel.Battel["id_player"]]);
-            if(!PlayerTeam.length)
-                return ;
-            var Team = await Elkaisar.DB.ASelectFrom("name AS TeamName", "team", "id_team = ?", [PlayerTeam[0].id_team]);
-            const Res = await Elkaisar.DB.AQueryExc(
-                    `UPDATE arena_team_challange AS a1 JOIN arena_team_challange AS a2 ON( a1.id_team = ? AND a2.id_team = ? )
-                            SET a1.rank = a2.rank, a2.rank = a1.rank WHERE a2.rank > a1.rank;`,
-                    [This.Battel.Battel["id_player_def"], PlayerTeam[0].id_team]);
+                        Elkaisar.Base.broadcast(JSON.stringify({
+                            classPath: "ServerAnnounce.ArenachallangeLvlUp",
+                            Player: This.Battel.Players[This.Battel.Battel.id_player].Player,
+                            ArenaData: Arena[0]
+                        }));
+                    }
+                    ;
+                });
+            });
 
-            Elkaisar.DB.Update("win = win + 1, exp = exp + 3", "arena_team_challange", "id_team = ?", [PlayerTeam[0].id_team]);
-            Arena = await Elkaisar.DB.ASelectFrom("exp, lvl, rank", "arena_team_challange", "id_team = ?", [PlayerTeam[0].id_team]);
 
-            if (Arena[0]["rank"] == 1 && Res.affectedRows > 0)
-                Elkaisar.Base.broadcast(JSON.stringify({
-                    classPath: "ServerAnnounce.KingOfArenaTeamChallange",
-                    Team: Team[0]
-                }));
-
-            if (Arena[0]["lvl"] >= 15)
-                return;
-
-            if (Arena[0]["exp"] >= Elkaisar.Config.ArenaTeamChallangeLvlReqExp[Number(Arena[0]["lvl"]) + 1]) {
-                Elkaisar.DB.Update("lvl = lvl + 1", "arena_team_challange", "id_team = ?", [PlayerTeam[0].id_team]);
-                Elkaisar.Base.broadcast(JSON.stringify({
-                    classPath: "ServerAnnounce.ArenachallangeTeamLvlUp",
-                    Team: Team[0],
-                    ArenaData: Arena[0]
-                }));
-            };
-            
-        } else if(Elkaisar.Lib.LWorldUnit.isChallangeFieldGuild(Unit.ut)){
-            
-            const PlayerGuild = await Elkaisar.DB.ASelectFrom("id_guild", "guild_member", "id_player = ?", [This.Battel.Battel["id_player"]]);
-            if(!PlayerGuild.length)
-                return ;
-            var Guild = await Elkaisar.DB.ASelectFrom("guild.name AS GuildName", "guild", "id_guild = ?", [PlayerGuild[0].id_guild]);
-            const Res = await Elkaisar.DB.AQueryExc(
-                    `UPDATE arena_guild_challange AS a1 JOIN arena_guild_challange AS a2 ON( a1.id_guild = ? AND a2.id_guild = ? )
-                            SET a1.rank = a2.rank, a2.rank = a1.rank WHERE a2.rank > a1.rank;`,
-                    [This.Battel.Battel["id_player_def"], PlayerGuild[0].id_guild]);
-
-            Elkaisar.DB.Update("win = win + 1, exp = exp + 3", "arena_guild_challange", "id_guild = ?", [PlayerGuild[0].id_guild]);
-            Arena = await Elkaisar.DB.ASelectFrom("exp, lvl, rank", "arena_guild_challange", "id_guild = ?", [PlayerGuild[0].id_guild]);
-
-            if (Arena[0]["rank"] == 1 && Res.affectedRows > 0)
-                Elkaisar.Base.broadcast(JSON.stringify({
-                    classPath: "ServerAnnounce.KingOfArenaGuildChallange",
-                    Guild: Guild[0]
-                }));
-
-            if (Arena[0]["lvl"] >= 15)
-                return;
-
-            if (Arena[0]["exp"] >= Elkaisar.Config.ArenaGuildChallangeLvlReqExp[Number(Arena[0]["lvl"]) + 1]) {
-                Elkaisar.DB.Update("lvl = lvl + 1", "arena_guild_challange", "id_guild = ?", [PlayerGuild[0].id_guild]);
-                Elkaisar.Base.broadcast(JSON.stringify({
-                    classPath: "ServerAnnounce.ArenachallangeGuildLvlUp",
-                    Guild: Guild[0],
-                    ArenaData: Arena[0]
-                }));
-            };
-            
         }
-
-
-
-
     }
 
     async afterWin(callBack) {
@@ -306,7 +246,7 @@ class LAfterFight {
                 return;
 
             Elkaisar.DB.Insert(
-                    `id_hero = ${OneHero.idHero}, x_from  = ${Unit.x}, y_from = ${Unit.y},
+                `id_hero = ${OneHero.idHero}, x_from  = ${Unit.x}, y_from = ${Unit.y},
                      task = ${This.Battel.Battel.task}, x_to = ${OneHero.x_coord} , y_to = ${OneHero.y_coord},
                      time_back = ${RT} , id_player = ${OneHero["id_player"]}`, "hero_back", []);
 
@@ -334,10 +274,12 @@ class LAfterFight {
                     return;
                 if (Player.side === Elkaisar.Config.BATTEL_SIDE_DEF)
                     return;
-                if (Player.idPlayer === This.Battel.Battel.id_player) {
+                if (Player.idPlayer === This.Battel.Battel.id_player){
                     await Prize.givePrize(Player);
                     This.BattelReport.addPrize(Player);
-                } else if (Elkaisar.Lib.LWorldUnit.isSharablePrize(Unit.ut)) {
+                }
+                    
+                else if (Elkaisar.Lib.LWorldUnit.isSharablePrize(Unit.ut)){
                     await Prize.givePrize(Player);
                     This.BattelReport.addPrize(Player);
                 }
@@ -371,14 +313,14 @@ class LAfterFight {
                 return;
             if (Player.side === Elkaisar.Config.BATTEL_SIDE_DEF)
                 return;
-            if (Player.idPlayer === This.Battel.Battel.id_player) {
-                await Prize.givePrize(Player);
+            if (Player.idPlayer === This.Battel.Battel.id_player){
+                await Prize.givePrize(Player)
                 This.BattelReport.addPrize(Player);
-            } else if (Elkaisar.Lib.LWorldUnit.isSharablePrize(Unit.ut)) {
+            } else if (Elkaisar.Lib.LWorldUnit.isSharablePrize(Unit.ut)){
                 await Prize.givePrize(Player);
                 This.BattelReport.addPrize(Player);
             }
-
+                
         });
 
 
@@ -402,10 +344,10 @@ class LAfterFight {
                 return;
             if (Player.side === Elkaisar.Config.BATTEL_SIDE_DEF)
                 return;
-            if (Player.idPlayer === This.Battel.Battel.id_player) {
+            if (Player.idPlayer === This.Battel.Battel.id_player){
                 await Prize.givePrize(Player);
                 This.BattelReport.addPrize(Player);
-            } else if (Elkaisar.Lib.LWorldUnit.isSharablePrize(Unit.ut)) {
+            } else if (Elkaisar.Lib.LWorldUnit.isSharablePrize(Unit.ut)){
                 await Prize.givePrize(Player);
                 This.BattelReport.addPrize(Player);
             }
@@ -428,7 +370,7 @@ class LAfterFight {
                     return;
 
                 Elkaisar.DB.Insert(
-                        `id_hero = ${Hero.idHero}, x_from  = ${Battel.Battel.x_coord}, y_from = ${Battel.Battel.y_coord},
+                    `id_hero = ${Hero.idHero}, x_from  = ${Battel.Battel.x_coord}, y_from = ${Battel.Battel.y_coord},
                      task = ${This.Battel.Battel.task}, x_to = ${Hero.x_coord} , y_to = ${Hero.y_coord},
                      time_back = ${TimeBack} , id_player = ${Hero["id_player"]}`, "hero_back", []);
             });
@@ -490,21 +432,21 @@ class LAfterFight {
             "EnemyName": "بطل النظام",
             "WinPrize": Attacker.ItemPrize,
             "honor": Attacker.Honor,
-            "WorldUnit": {x: Unit.x, y: Unit.y, l: Unit.l - 1, ut: Unit.ut, t: Unit.t}
+            "WorldUnit": { x: Unit.x, y: Unit.y, l: Unit.l - 1, ut: Unit.ut, t: Unit.t }
         });
     }
 
     announceGuildWin() {
         var This = this;
         Elkaisar.DB.SelectFrom(
-                "guild_member.id_guild, guild_member.id_player, guild.slog_top, guild.slog_cnt, guild.slog_btm, guild.name AS GuildName, player.name AS PlayerName",
-                "guild_member JOIN guild ON guild.id_guild = guild_member.id_guild JOIN player ON player.id_player = guild_member.id_player",
-                "guild_member.id_player = ?", [This.Battel.Battel.id_player], function (PlayerGuild) {
-            Elkaisar.WsLib.ServerAnnounce.BattelGuildWin(null, {
-                Guild: PlayerGuild[0],
-                Battel: This.Battel.Battel
+            "guild_member.id_guild, guild_member.id_player, guild.slog_top, guild.slog_cnt, guild.slog_btm, guild.name AS GuildName, player.name AS PlayerName",
+            "guild_member JOIN guild ON guild.id_guild = guild_member.id_guild JOIN player ON player.id_player = guild_member.id_player",
+            "guild_member.id_player = ?", [This.Battel.Battel.id_player], function (PlayerGuild) {
+                Elkaisar.WsLib.ServerAnnounce.BattelGuildWin(null, {
+                    Guild: PlayerGuild[0],
+                    Battel: This.Battel.Battel
+                });
             });
-        });
 
 
     }

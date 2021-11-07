@@ -32,7 +32,7 @@ exports.start = async function (con, msgObj) {
     const attackTask    = Elkaisar.Base.validateId(msgObj["attackTask"]);
     const Hero          = await Elkaisar.DB.ASelectFrom("hero.in_city, city.x, city.y, hero.power, hero.id_city, hero.id_hero, hero.id_player", "hero JOIN city ON city.id_city = hero.id_city", "hero.id_hero = ? AND hero.id_player = ?", [idHero, idPlayer]);
     const Unit          = Elkaisar.World.getUnit(xCoord, yCoord);
-    const UnitData      = Elkaisar.World.WorldUnitData[Unit.ut];
+    const UnitData      = Elkaisar.World.WorldUnitData[Unit.ut]
     const powerNeeded   = UnitData.reqFitness;
     const LHArmy        = new Elkaisar.Lib.LHeroArmy();
     

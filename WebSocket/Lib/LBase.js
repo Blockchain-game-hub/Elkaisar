@@ -233,7 +233,7 @@ Elkaisar.Base.tryToHack = function(){};
 
 Elkaisar.Base.rand = function (min, max){
   
-    return Math.floor((Math.random() * (max - min)) + min);
+    return Math.floor((Math.random() * max) + min);
     
 };
 
@@ -255,9 +255,4 @@ Elkaisar.Base.playerWinPrize = function (idPlayer, Title, PrizeList){
     Elkaisar.Base.sendMsgToPlayer(idPlayer, JSON.stringify({
         classPath: "Base.PrizeSent"
     }));
-};
-
-
-Elkaisar.Base.TryToHack = function (){
-    
 };
