@@ -1,0 +1,857 @@
+1635400727053
+World City Length Is 1562
+1635400727690
+HerosLen is 285253
+TypeError: Cannot read property 'attack' of undefined
+    at /home/elkaisar/WebSocket/Lib/LPlayer.js:198:69
+    at Query.<anonymous> (/home/elkaisar/WebSocket/Lib/LBase.js:9:17)
+    at Query.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Query.js:149:8)
+    at Query.EofPacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Query.js:133:8)
+    at Protocol._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:43:10)
+uncaughtException
+TypeError: Cannot read property 'attack' of undefined
+    at /home/elkaisar/WebSocket/Lib/LPlayer.js:198:69
+    at Query.<anonymous> (/home/elkaisar/WebSocket/Lib/LBase.js:9:17)
+    at Query.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Query._callback (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:488:16)
+    at Query.Sequence.end (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Query._handleFinalResultPacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Query.js:149:8)
+    at Query.EofPacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Query.js:133:8)
+    at Protocol._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:43:10)
+uncaughtException
+1635408000202
+1635408000776
+World City Length Is 1563
+World City Length Is 1563
+1635422400254
+1635422400813
+World City Length Is 1563
+World City Length Is 1563
+Error: ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'field list'
+    at Query.Sequence._packetToError (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:369:20)
+    at addChunk (node:internal/streams/readable:313:12)
+    --------------------
+    at Pool.query (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:199:23)
+    at /home/elkaisar/WebSocket/Lib/LBase.js:129:24
+    at new Promise (<anonymous>)
+    at Object.Elkaisar.DB.AUpdate (/home/elkaisar/WebSocket/Lib/LBase.js:128:12)
+    at AItemUse.useCoin (/home/elkaisar/WebSocket/api/AItemUse.js:398:21)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:94:5)
+    at async Object.Elkaisar.Base.HandleReq (/home/elkaisar/WebSocket/server.js:156:34)
+    at async IncomingMessage.<anonymous> (/home/elkaisar/WebSocket/server.js:186:26) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'NaN' in 'field list'",
+  sqlState: '42S22',
+  index: 0,
+  sql: 'UPDATE player_stat SET coin = NaN WHERE id_player = 9900'
+}
+unhandledRejection
+1635426000102
+1635426000106
+1635426000397
+1635426001102
+1635426001401
+1635426001730
+1635429600220
+1635429600720
+1635429600826
+1635429601343
+1635433200204
+1635433200743
+World City Length Is 1563
+World City Length Is 1563
+World City Length Is 1563
+World City Length Is 1563
+World City Length Is 1563
+World City Length Is 1563
+1635436800228
+1635436800770
+World City Length Is 1564
+World City Length Is 1564
+World City Length Is 1565
+World City Length Is 1565
+World City Length Is 1565
+World City Length Is 1566
+World City Length Is 1566
+World City Length Is 1566
+World City Length Is 1566
+World City Length Is 1566
+World City Length Is 1566
+1635451200174
+1635451200722
+World City Length Is 1566
+World City Length Is 1566
+World City Length Is 1566
+World City Length Is 1566
+World City Length Is 1566
+World City Length Is 1566
+World City Length Is 1566
+World City Length Is 1566
+World City Length Is 1566
+World City Length Is 1566
+Error: ER_LOCK_DEADLOCK: Deadlock found when trying to get lock; try restarting transaction
+    at Query.Sequence._packetToError (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:369:20)
+    at addChunk (node:internal/streams/readable:313:12)
+    --------------------
+    at Protocol._enqueue (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/elkaisar/WebSocket/Lib/LBase.js:56:20
+    at Ping.onOperationComplete (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Ping._callback (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:488:16)
+    at Ping.Sequence.end (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.Sequence.OkPacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:433:10) {
+  code: 'ER_LOCK_DEADLOCK',
+  errno: 1213,
+  sqlMessage: 'Deadlock found when trying to get lock; try restarting transaction',
+  sqlState: '40001',
+  index: 0,
+  sql: 'DELETE FROM battel_member WHERE id_battel = 8379'
+}
+uncaughtException
+World City Length Is 1567
+World City Length Is 1567
+World City Length Is 1567
+World City Length Is 1567
+World City Length Is 1567
+World City Length Is 1567
+World City Length Is 1567
+World City Length Is 1567
+World City Length Is 1567
+1635465600293
+1635465600935
+1635472800215
+1635472800729
+World City Length Is 1568
+1635480000224
+1635480000810
+World City Length Is 1569
+World City Length Is 1569
+1635494400215
+1635494400746
+World City Length Is 1570
+World City Length Is 1570
+World City Length Is 1571
+World City Length Is 1571
+World City Length Is 1571
+World City Length Is 1571
+World City Length Is 1572
+World City Length Is 1572
+World City Length Is 1572
+World City Length Is 1572
+World City Length Is 1572
+1635508800259
+1635508800783
+1635512400085
+1635512400715
+1635512400717
+1635512401113
+1635512401223
+1635512401758
+1635516000172
+1635516000645
+1635516000747
+1635516001261
+[ '', 'api', 'AHeroArmy', 'transArmyFromCityToHero' ] [Object: null prototype] {
+  server: '3',
+  idPlayerV: '9887',
+  idHero: '9886006',
+  amount: '30000',
+  idCity: '98863',
+  ArmyPlace: 'f_2',
+  ArmyType: 'army_a',
+  token: '444006-306382-283602-694425-704376',
+  idPlayer: '9887'
+}
+1635519600178
+1635519600728
+1635523200177
+1635523200715
+World City Length Is 1573
+World City Length Is 1573
+World City Length Is 1574
+World City Length Is 1575
+World City Length Is 1576
+World City Length Is 1577
+World City Length Is 1578
+World City Length Is 1578
+[ '', 'api', 'AWorld', 'getWorldCity' ] [Object: null prototype] {
+  server: '3',
+  idPlayerV: '9969',
+  token: '104050-604667-906649-933059-839028',
+  idPlayer: '9969'
+}
+1635537600216
+1635537600765
+1635552000436
+1635552001101
+[ '', 'api', 'AHeroArmy', 'clearHeroArmy' ] [Object: null prototype] {
+  server: '3',
+  idPlayerV: '9902',
+  idHero: '9901008',
+  token: '971740-722273-487143-517706-223859'
+}
+1635559200214
+1635559200737
+1635566400241
+1635566400788
+false
+{
+  unitType: '5',
+  unitLvl: '5',
+  amountMin: '1',
+  amountMax: '1',
+  winRate: '150',
+  Item: 'luxury_4',
+  isWin: true,
+  isLose: false,
+  isSp: false,
+  isPlunder: false,
+  MoreTypes: '',
+  MoreLvls: ''
+}
+sadsad
+1635580800229
+1635580800784
+false
+{
+  unitType: '55',
+  unitLvl: '6',
+  amountMin: '1',
+  amountMax: '1',
+  winRate: '120',
+  Item: 'luxury_5',
+  isWin: true,
+  isLose: false,
+  isSp: false,
+  isPlunder: false,
+  MoreTypes: '',
+  MoreLvls: ''
+}
+sadsad
+false
+{
+  unitType: '54',
+  unitLvl: '5',
+  amountMin: '1',
+  amountMax: '1',
+  winRate: '110',
+  Item: 'luxury_4',
+  isWin: true,
+  isLose: false,
+  isSp: false,
+  isPlunder: false,
+  MoreTypes: '',
+  MoreLvls: ''
+}
+sadsad
+false
+{
+  unitType: '36',
+  unitLvl: '7',
+  amountMin: '1',
+  amountMax: '1',
+  winRate: '150',
+  Item: 'luxury_6',
+  isWin: true,
+  isLose: false,
+  isSp: false,
+  isPlunder: false,
+  MoreTypes: '',
+  MoreLvls: ''
+}
+sadsad
+false
+{
+  unitType: '46',
+  unitLvl: '7',
+  amountMin: '1',
+  amountMax: '1',
+  winRate: '150',
+  Item: 'luxury_6',
+  isWin: true,
+  isLose: false,
+  isSp: false,
+  isPlunder: false,
+  MoreTypes: '',
+  MoreLvls: ''
+}
+sadsad
+1635595200219
+1635595200779
+World City Length Is 1579
+World City Length Is 1579
+1635598800114
+1635598800356
+1635598800357
+1635598800691
+1635598801557
+1635598801671
+1635602400220
+1635602400686
+1635602400794
+1635602401294
+1635606000228
+1635606000773
+1635609600192
+1635609600739
+World City Length Is 1580
+1635624000214
+1635624000738
+World City Length Is 1581
+World City Length Is 1582
+[ '', 'api', 'AWorld', 'getWorldCity' ] [Object: null prototype] {
+  server: '3',
+  idPlayerV: '9817',
+  token: '983164-294084-167790-298442-952762',
+  idPlayer: '9817'
+}
+1635638400465
+1635638401140
+1635642000206
+1635642000770
+World City Length Is 1583
+World City Length Is 1583
+1635645600206
+1635645600718
+1635652800219
+1635652800758
+false
+{
+  unitType: '105',
+  unitLvl: '1',
+  amountMin: '1',
+  amountMax: '1',
+  winRate: '1000',
+  Item: 'repel_medal',
+  isWin: true,
+  isLose: false,
+  isSp: false,
+  isPlunder: false,
+  MoreTypes: '',
+  MoreLvls: ''
+}
+sadsad
+false
+{
+  unitType: '105',
+  unitLvl: '2',
+  amountMin: '1',
+  amountMax: '1',
+  winRate: '1000',
+  Item: 'repel_medal',
+  isWin: true,
+  isLose: false,
+  isSp: false,
+  isPlunder: false,
+  MoreTypes: '',
+  MoreLvls: ''
+}
+sadsad
+false
+{
+  unitType: '105',
+  unitLvl: '3',
+  amountMin: '1',
+  amountMax: '1',
+  winRate: '1000',
+  Item: 'repel_medal',
+  isWin: true,
+  isLose: false,
+  isSp: false,
+  isPlunder: false,
+  MoreTypes: '',
+  MoreLvls: ''
+}
+sadsad
+false
+{
+  unitType: '105',
+  unitLvl: '4',
+  amountMin: '1',
+  amountMax: '1',
+  winRate: '1000',
+  Item: 'repel_medal',
+  isWin: true,
+  isLose: false,
+  isSp: false,
+  isPlunder: false,
+  MoreTypes: '',
+  MoreLvls: ''
+}
+sadsad
+1635667200190
+1635667200735
+[ '', 'api', 'AWorld', 'getWorldCity' ] [Object: null prototype] {
+  server: '3',
+  idPlayerV: '10490',
+  token: '920268-361035-988730-154283-197721',
+  idPlayer: '10490'
+}
+World City Length Is 1583
+[ '', 'api', 'ATeam', 'getPlayerTeam' ] [Object: null prototype] {
+  server: '3',
+  idPlayerV: '9902',
+  token: '506139-909143-761844-609328-802165'
+}
+1635681600240
+1635681600794
+1635685200100
+1635685200334
+1635685200334
+1635685200653
+1635685201588
+1635685201691
+World City Length Is 1584
+World City Length Is 1584
+1635688800178
+1635688800737
+1635692400219
+1635692400751
+World City Length Is 1584
+World City Length Is 1584
+World City Length Is 1584
+1635696000211
+1635696000706
+1635696000826
+1635696001319
+World City Length Is 1584
+World City Length Is 1584
+World City Length Is 1584
+World City Length Is 1584
+World City Length Is 1584
+World City Length Is 1585
+World City Length Is 1585
+World City Length Is 1585
+World City Length Is 1586
+1635710400203
+1635710400749
+World City Length Is 1586
+World City Length Is 1586
+World City Length Is 1587
+World City Length Is 1588
+World City Length Is 1588
+World City Length Is 1588
+World City Length Is 1588
+1635724800171
+1635724800710
+1635724800711
+1635724800878
+1635724801342
+1635724801972
+1635724802068
+1635724802604
+World City Length Is 1589
+1635732000183
+1635732000725
+1635739200195
+1635739200725
+World City Length Is 1590
+World City Length Is 1591
+World City Length Is 1592
+World City Length Is 1593
+World City Length Is 1594
+World City Length Is 1595
+World City Length Is 1596
+World City Length Is 1597
+World City Length Is 1598
+World City Length Is 1599
+World City Length Is 1600
+World City Length Is 1601
+World City Length Is 1602
+World City Length Is 1603
+World City Length Is 1604
+World City Length Is 1605
+World City Length Is 1606
+World City Length Is 1607
+World City Length Is 1608
+World City Length Is 1609
+World City Length Is 1610
+World City Length Is 1611
+World City Length Is 1612
+World City Length Is 1613
+World City Length Is 1614
+World City Length Is 1615
+World City Length Is 1616
+World City Length Is 1617
+World City Length Is 1618
+World City Length Is 1619
+World City Length Is 1620
+World City Length Is 1620
+World City Length Is 1620
+World City Length Is 1620
+World City Length Is 1620
+World City Length Is 1620
+World City Length Is 1620
+World City Length Is 1620
+1635753600229
+1635753600782
+1635768000252
+1635768000803
+1635771600118
+1635771600124
+1635771600370
+1635771600895
+1635771601180
+1635771601687
+World City Length Is 1620
+World City Length Is 1620
+1635775200154
+1635775200718
+World City Length Is 1621
+World City Length Is 1621
+1635778800158
+1635778800690
+World City Length Is 1622
+1635782400251
+1635782400724
+1635782400820
+1635782401375
+1635787800200
+1635787800217
+1635787800877
+1635787800878
+1635787800878
+1635787800878
+1635787801231
+1635787801389
+1635787803045
+1635787803142
+1635787803247
+1635787803361
+1635793200126
+1635793200572
+1635793200572
+1635793200572
+1635793200684
+1635793201154
+1635793201155
+1635793202116
+1635793202230
+1635793202335
+1635793203232
+1635793203338
+1635796800179
+1635796800744
+World City Length Is 1623
+World City Length Is 1623
+World City Length Is 1623
+World City Length Is 1623
+1635811200192
+1635811200197
+1635811201001
+1635811201002
+1635811201304
+1635811201418
+1635811202361
+1635811202461
+World City Length Is 1624
+World City Length Is 1625
+World City Length Is 1626
+World City Length Is 1627
+World City Length Is 1628
+World City Length Is 1629
+World City Length Is 1629
+World City Length Is 1630
+World City Length Is 1631
+World City Length Is 1632
+World City Length Is 1633
+World City Length Is 1634
+World City Length Is 1634
+1635818400211
+1635818400741
+1635825600200
+1635825600734
+[ '', 'api', 'AHeroArmy', 'transArmyFromHeroToCity' ] [Object: null prototype] {
+  server: '3',
+  idPlayerV: '9902',
+  amount: '10000',
+  idHero: '9901134',
+  idCity: '99014',
+  ArmyPlace: 'f_3',
+  token: '724761-845965-453666-867150-31083',
+  idPlayer: '9902'
+}
+[ '', 'api', 'ABattel', 'joinBattel' ] [Object: null prototype] {
+  server: '3',
+  idPlayerV: '9902',
+  idBattel: '18185',
+  idHero: '9901141',
+  side: '1',
+  token: '826927-834657-749461-399806-3367'
+}
+1635840000156
+1635840000685
+World City Length Is 1635
+World City Length Is 1635
+World City Length Is 1636
+World City Length Is 1636
+World City Length Is 1636
+1635854400258
+1635854400803
+1635858000123
+1635858000137
+1635858000360
+1635858000667
+1635858001573
+1635858001689
+1635861600187
+1635861600720
+1635865200217
+1635865200751
+1635868800200
+1635868800660
+1635868800768
+1635868801300
+World City Length Is 1637
+World City Length Is 1637
+World City Length Is 1638
+World City Length Is 1638
+World City Length Is 1638
+World City Length Is 1638
+World City Length Is 1639
+World City Length Is 1640
+World City Length Is 1641
+World City Length Is 1642
+World City Length Is 1643
+World City Length Is 1644
+World City Length Is 1645
+World City Length Is 1646
+World City Length Is 1647
+World City Length Is 1648
+World City Length Is 1649
+World City Length Is 1650
+World City Length Is 1651
+World City Length Is 1652
+World City Length Is 1653
+World City Length Is 1654
+World City Length Is 1655
+World City Length Is 1656
+World City Length Is 1657
+World City Length Is 1658
+World City Length Is 1659
+World City Length Is 1660
+World City Length Is 1661
+World City Length Is 1662
+World City Length Is 1663
+World City Length Is 1664
+World City Length Is 1664
+1635883200230
+1635883200751
+World City Length Is 1664
+World City Length Is 1665
+World City Length Is 1665
+World City Length Is 1666
+World City Length Is 1666
+World City Length Is 1666
+World City Length Is 1666
+World City Length Is 1666
+World City Length Is 1666
+1635897600387
+1635897601000
+World City Length Is 1666
+World City Length Is 1666
+World City Length Is 1666
+World City Length Is 1666
+World City Length Is 1666
+World City Length Is 1666
+World City Length Is 1667
+World City Length Is 1667
+World City Length Is 1668
+World City Length Is 1669
+World City Length Is 1670
+World City Length Is 1671
+World City Length Is 1672
+World City Length Is 1673
+World City Length Is 1674
+World City Length Is 1675
+World City Length Is 1676
+World City Length Is 1677
+World City Length Is 1678
+World City Length Is 1679
+World City Length Is 1680
+World City Length Is 1681
+World City Length Is 1682
+World City Length Is 1683
+World City Length Is 1684
+World City Length Is 1685
+World City Length Is 1686
+World City Length Is 1687
+World City Length Is 1688
+World City Length Is 1689
+World City Length Is 1690
+World City Length Is 1691
+World City Length Is 1692
+World City Length Is 1693
+World City Length Is 1694
+World City Length Is 1695
+World City Length Is 1696
+World City Length Is 1697
+World City Length Is 1698
+World City Length Is 1699
+World City Length Is 1700
+World City Length Is 1701
+World City Length Is 1702
+World City Length Is 1703
+World City Length Is 1704
+World City Length Is 1705
+World City Length Is 1706
+World City Length Is 1707
+World City Length Is 1708
+World City Length Is 1708
+1635904800183
+1635904800709
+World City Length Is 1708
+1635912000223
+1635912000766
+World City Length Is 1709
+World City Length Is 1710
+World City Length Is 1711
+World City Length Is 1712
+World City Length Is 1713
+World City Length Is 1714
+World City Length Is 1715
+World City Length Is 1716
+World City Length Is 1717
+World City Length Is 1718
+World City Length Is 1719
+World City Length Is 1720
+World City Length Is 1721
+World City Length Is 1722
+World City Length Is 1723
+World City Length Is 1724
+World City Length Is 1725
+World City Length Is 1726
+World City Length Is 1727
+World City Length Is 1728
+World City Length Is 1729
+World City Length Is 1730
+1635926400193
+1635926400742
+World City Length Is 1731
+World City Length Is 1731
+World City Length Is 1732
+World City Length Is 1733
+World City Length Is 1734
+World City Length Is 1735
+World City Length Is 1736
+World City Length Is 1737
+World City Length Is 1738
+World City Length Is 1739
+World City Length Is 1740
+World City Length Is 1741
+World City Length Is 1742
+World City Length Is 1742
+World City Length Is 1743
+World City Length Is 1744
+World City Length Is 1745
+World City Length Is 1746
+World City Length Is 1747
+World City Length Is 1748
+World City Length Is 1749
+World City Length Is 1750
+World City Length Is 1751
+World City Length Is 1752
+World City Length Is 1753
+World City Length Is 1754
+World City Length Is 1755
+World City Length Is 1756
+World City Length Is 1757
+World City Length Is 1758
+World City Length Is 1759
+World City Length Is 1760
+World City Length Is 1761
+World City Length Is 1761
+1635940800246
+1635940800762
+1635944400147
+1635944400158
+1635944400370
+1635944400693
+1635944401377
+1635944401676
+1635948000176
+1635948000711
+1635951600199
+1635951600775
+1635955200250
+1635955200698
+1635955200834
+1635955201370
+World City Length Is 1761
+World City Length Is 1761
+World City Length Is 1761
+1635969600186
+1635969600731
+World City Length Is 1762
+World City Length Is 1763
+World City Length Is 1763
+World City Length Is 1764
+World City Length Is 1764
+World City Length Is 1765
+World City Length Is 1765
+1635984000411
+1635984001011
+World City Length Is 1765
+World City Length Is 1765
+World City Length Is 1765
+World City Length Is 1765
+Error: ER_LOCK_DEADLOCK: Deadlock found when trying to get lock; try restarting transaction
+    at Query.Sequence._packetToError (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:369:20)
+    at addChunk (node:internal/streams/readable:313:12)
+    --------------------
+    at Protocol._enqueue (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/elkaisar/WebSocket/Lib/LBase.js:56:20
+    at Ping.onOperationComplete (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Ping._callback (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:488:16)
+    at Ping.Sequence.end (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.Sequence.OkPacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:433:10) {
+  code: 'ER_LOCK_DEADLOCK',
+  errno: 1213,
+  sqlMessage: 'Deadlock found when trying to get lock; try restarting transaction',
+  sqlState: '40001',
+  index: 0,
+  sql: 'DELETE FROM battel_member WHERE id_battel = 11774'
+}
+uncaughtException
+1635991200180
+1635991200709

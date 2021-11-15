@@ -1,9 +1,13 @@
 
 
-Elkaisar.Cron.schedule(`${Math.floor(Math.random() * 59)} 7 * * *`, function () {
+Elkaisar.Cron.schedule(`${Math.floor(Math.random() * 59)} 7 * * *`, async  function () {
     Elkaisar.DB.QueryExc(`SET @r=0; UPDATE arena_player_challange SET rank= @r:= (@r+1) ORDER BY rank ASC;`);
     Elkaisar.DB.QueryExc(`SET @r=0; UPDATE arena_team_challange SET rank= @r:= (@r+1) ORDER BY rank ASC;`);
     Elkaisar.DB.QueryExc(`SET @r=0; UPDATE arena_guild_challange SET rank= @r:= (@r+1) ORDER BY rank ASC;`);
+    
+    
+    const Teams = Elkaisar.DB.ASelectFrom("id_team", "team", function )
+    
 });
 
 

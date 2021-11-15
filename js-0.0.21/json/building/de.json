@@ -1,0 +1,135 @@
+{
+    "0": {
+        "name": "Wohnhaus",
+        "func": "{1} von Stufe {0} kann {2} Menschen aufnehmen.",
+        "functionDesc": "Wohnhäuser bieten der Bevölkerung in der Stadt ein Heim und bieten mehr Menschen an, sich hier niederzulassen.",
+        "desc": "Ressourcenproduktion, Steuereinnahmen und andere wichtige Dinge, hängen von den Häusern ab. Hohe Einwohnerzahlen sind das Ziel jedes guten Führers.",
+        "id": "building.house"
+    },
+    "1": {
+        "name": "Wohnhaus",
+        "func": "{1} von Stufe {0} kann {2} Menschen aufnehmen.",
+        "functionDesc": "Wohnhäuser bieten der Bevölkerung in der Stadt ein Heim und bieten mehr Menschen an, sich hier niederzulassen.",
+        "desc": "Ressourcenproduktion, Steuereinnahmen und andere wichtige Dinge, hängen von den Häusern ab. Hohe Einwohnerzahlen sind das Ziel jedes guten Führers.",
+        "id": "building.house"
+    },
+    "2": {
+        "name": "Lager",
+        "func": "{1} von Stufe {0} kann Gesamtsumme der Ressourcen von {2} aufnehmen.",
+        "functionDesc": "Das Lager ist die zentrale Sammelstelle, um die Ressourcen zu Lagern. Ein Lager schützt im Falle eines Raubzug 30 % der berechneten Obergrenze. Du darfst mehrere Lager in deiner Stadt bauen.",
+        "desc": "Ein Lager bietet Schutz bei Kriegen und Hungersnöten. Einfallende Gegner können ein Teil des Lagers nicht finden und gehen leer aus.",
+        "id": "building.warehouse"
+    },
+    "3": {
+        "name": "Kaserne",
+        "func": "{1} von Stufe {0} reduziert die Trainingszeit der Truppe um {2}%. {3} Truppen sind zum Warten auf Training erlaubt.",
+        "functionDesc": "In der Kaserne werden verschiedene Arten von Soldaten ausgebildet.",
+        "desc": "Die Kaserne ist das wichtigste Gebäude in der Stadt und kann vielfältige Truppen ausbilden. Nach der Marius-Reform sind die Soldaten professionelle Militärs. Alle Kasernen der römischen Legion sind nach strengen und einheitlichen Standards entworfen und errichtet, so wie dessen Training. Deswegen ist es egal, wo die römische Legion sich befindet.",
+        "id": "building.barrack"
+    },
+    "4": {
+        "name": "Pferdstall",
+        "func": "{1} von Stufe {0} reduziert die Trainingszeit der Truppe um {2}%. {3} Training sind in der Warteschlange erlaubt.",
+        "functionDesc": "Der Pferdstall ist ein Ort, wo die Vorhuten und Reiter für die Truppe ausgebildet werden. Je hochwertiger der Pferdstall ist, desto schneller ist die Trainingsgeschwindigkeit.",
+        "desc": "Im Pferdestall werden die, für die Ausbildung notwendigen, Pferde gezüchtet und gemäß der Marius-Reform ausgebildet.",
+        "id": "building.stable"
+    },
+    "5": {
+        "name": "Werkstatt",
+        "func": "{1} von Stufe {0} reduziert die Trainingszeit der Truppe um {2}%. {3} Truppen sind zum Warten auf Training erlaubt.",
+        "functionDesc": "In der Werkstatt werden Ballisten und Katapulte hergestellt.",
+        "desc": "Ein Zimmermann war besonders wichtig in Kriegen in der römischen Zeit. Vielfältige Kriegsausrüstungen wurden von diesen geschickten Menschen innerhalb kurzer Zeit fertiggestellt und bildeten die scharfe Schlagkraft in der römischen Legion.",
+        "id": "building.workshop"
+    },
+    "6": {
+        "name": "Kolosseum",
+        "func": "{1} von Stufe {0} wird {2} Helden haben. Alle {3} Minuten wird ein Held aktualisiert, die Stufe vom Helden 1~{4}.",
+        "functionDesc": "Im Kolosseum werden Helden rekrutiert, trainiert und ausgebildet. Je höher die Stufe deines Kolosseums ist, desto größer ist die Wahrscheinlichkeit, dass Helden der hohen Stufe dort auftauchen.",
+        "desc": "Auf dem Kolosseum können kleine Gladiatorenkämpfe zur Unterhaltung aller Römer aufgeführt werden. Gladiatorenkampf ist der wichtigste Teil des Lebens von den Römern. Am Tag der Gladiatorenkämpfe gerät jeder Römer dahin und alle Probleme werden in himmelweite Ferne geworfen! Wenn ein reicher Mann zählt und alle einlädt, die Gladiatorenkämpfe kostenlos zu genießen, um die Unterstützung vom Volk zu gewinnen, macht es das Volk glücklicher. Das Kolosseum verstärkt auch immer die nationale Überlegenheit der Römer: Selbst die zum Tode Verurteilten und Sklaven können tapfer sterben.",
+        "id": "building.amphitheatre"
+    },
+    "7": {
+        "name": "Poststation",
+        "func": "Die Transportobergrenze einer Ressource in jeder Nachschublinie von {1} von Stufe {0} beläuft sich auf {2} eine Stunde.",
+        "functionDesc": "In der Poststation kannst du Nachschublinien zu den eigenen Städten ziehen.",
+        "desc": "Poststation spielt eine wichtige Rolle in der römischen Gesellschaft. Unter den sehr primitiven Kommunikationsmitteln übernimmt die Poststation die Aufgabe, verschiedene politische, wirtschaftliche, kulturelle und militärische Informationen zu vermitteln. Bis zu einem gewissen Grad ist die Poststation ein Teil der Logistik und auch Netz-Übertragung und –Transport.",
+        "id": "building.dak"
+    },
+    "8": {
+        "name": "Universität",
+        "func": "{1} von Stufe {0} reduziert die Forschungszeit um {2}%, die höchste Stufe der Technologien ist {3}",
+        "functionDesc": "In der Universität können Forschungen betrieben werden die Technologien fördern. Je höher die Stufe der Universität umso mehr kann geforscht werden",
+        "desc": "Universität ist eine Trainings- und Bildungseinrichtung. Vor dem Machtantritt kann die römische herrschende Schicht hier Grundbildung und -Training der Verwaltung erhalten. Der Lehrgang hier umfasst alle praktische Fertigkeiten von Philosophie zu Agrar-, -, Industrie-, Handels-Technologie und Unternehmensführung. Hier können viele erzogene und hochqualifizierte Menschen ausgebildet werden.",
+        "id": "building.academy"
+    },
+    "9": {
+        "name": "Institut",
+        "func": "{1} von Stufe {0} reduziert die Forschungszeit um {2}%, die höchste Stufe der Technologie ist {0}",
+        "functionDesc": "Im Institut werden verschiedene militärische Technologien studiert, die für Truppenverwaltung, Aufklärung, Kriegführung und Logistik hilfreich sind. Je höher die Stufe des Instituts ist, desto schneller ist die technische Forschung. Ein Institut darf gleichzeitig nur eine Technologie studieren. Institute in verschiedenen Städten können verschiedene Technologien studieren. Andere Städte können die technischen Ergebnisse gemeinsam genießen. Aber die Wirkungsstufe der Technologie ist von der Stufe der Universität beschränkt.",
+        "desc": "Das Institut ist eine für intellektuelle Begabung faszinierende Forschungseinrichtung. Diese Meister wollen herzlich den Helden ihre Kenntnis lehren und wissen, dass man Großartigkeit in Denken und Kraft finden kann. Es ist das beste Krieg-Ausbildungszentrum für die besten Eliten. Die hier trainierten Menschen werden die Essenz von menschlicher Weisheit lernen, einschließlich Kunst des Krieges und Truppenregulierung.",
+        "id": "building.militaryInstitute"
+    },
+    "10": {
+        "name": "Tempel",
+        "func": "Geschwindigkeit um {0}% erhöhen",
+        "functionDesc": "Der Tempel ist ein Zeichengebäude für die römische Kultur und Religion. Indem man sich vor dem Hauptgott niederwirft, erhält man besondere Boni von diesem Gott. Eine Stadt darf nur einen Tempel mit einem Hauptgott besitzen. Im Tempel kann man durch Opferung und Gebet Requisiten vom Gott erhalten oder das Volk beschwichtigen. Man kann auch im Namen von Religion an den Zivilisten die knappen Güter und Materialien erheben.",
+        "desc": "<b>Jupiter Tempel:</b><br/> Dieser prächtige Tempel ist Jupiter gewidmet. Er ist der Göttervater und zuständig für Blitz, Donner und Luft. <br/><b>Juno Tempel</b><br/> Dieser Tempel ist Juno gewidmet, der Königin des Himmels. Sie ist die Frau und Schwester von Jupiter. Sie ist die Beschützerin der Heirat, der Frauen und die Göttin des Krieges.<br/><b>Minerva Tempel:</b><br/>Minerva war eine jungfräuliche Göttin der Poesi, Medizin, Weisheit, Handel und und unter anderem der Magie. Es wird gesagt, das wenn eine Eule erscheint, Minerva höchstpersönlich vorbei schaut.",
+        "id": "building.temple"
+    },
+    "11": {
+        "name": "Platz",
+        "func": "{1} von Stufe {0} dürfen gleichzeitig {2} Truppen schicken.",
+        "functionDesc": "Der Platz ist der Ort, wo die Truppen warten, zugewiesen werden und einen Feldzug machen. Auf dem Platz kann man eine Parade veranstalten, Taktiken festsetzen und auch sich zur Verwundeten-Kaserne begeben. Je höher die Stufe des Platzes ist, desto mehr Helden können gleichzeitig einen Feldzug machen.",
+        "desc": "Hier werden die Truppen gesammelt.",
+        "id": "building.trainningFeild"
+    },
+    "12": {
+        "name": "Amtssitz",
+        "func": "{1} von Stufe {0} verkürzt die Bauzeit des Gebäudes um {2}% und kann {3} Wildnisse besitzen. Die Speicherungsobergrenze der Kupfermünzen ist {4} und {5}% davon wird vor plünderung geschützt.",
+        "functionDesc": "Die Amtssitz ist das Zentrum der Stadtverwaltung. Hier kann man  Bau und Entwicklung der Stadt organisieren und Befehle wie Steuerharmonisierung geben. Je höher die Stufe der Amtssitz ist, desto schneller wird die Erschließung und aufwertung von Gebäuden. Gleichzeitig kann man höhere Speicherungsobergrenze der Kupfermünzen erhalten und auch mehr Prozente von Kupfermünzen vor Eroberung schützen. Beim Erreichen die Stufe 4, 8, 10 kann man durch Verbreitung mehr Stadtbebauungsfläche erhalten.",
+        "desc": "Die Amtssitz ist ein unerlässliches Symbol für Macht und Reichtum von Rom. Das Ziel von Ausmaß und Luxus der Gebäude ist, es auffällig zu machen. Menschen, die unter dessen Licht leben, zweifeln nicht an deren Herrschaft. Die Beamten darin sind für Steuereinnahmen, Förderung des Stadtbaus und Verwaltung aller römischen Angelegenheiten verantwortlich. Die Amtssitz lässt alle Bereiche der Stadt Entwicklung haben, einschließlich Religion, Militär, Wirtschaft u.s.w.",
+        "id": "building.townHall"
+    },
+    "13": {
+        "name": "Stadtmauer",
+        "func": "{1} von Stufe {0} hat Befestigungsraum von {2}, Haltbarkeitsgrad {3}.",
+        "functionDesc": "Die um die Stadt gebaute Stadtmauer ist die Abschirmung zum Schutz der Stadt. Innerhalb der Stadtmauer können vielfältige Befestigungsanlagen gebaut werden. Je höher die Stufe der Stadtmauer ist, desto stärkere Schutzkraft kann sie bieten und mehr Befestigungsanlagen können gebaut werden.",
+        "desc": "Die Stadtmauer ist fest und hat  auch stabile Wachtürme. Sogar die organisierte Feinde können Stadtmauer nicht so leicht durchbrechen. Erst mit Hilfe von speziellen Angriffswaffen können sie es gelingen durchzukommen. Durch Aufwertung der Stadtmauer können Städte länger im Krieg aushalten. Auch wenn der Baupreis dieser Stadtmauer sehr hoch ist, ist es notwendig  für eine berühmte oder reiche Stadt eine Stadtmauer zu besitzen. Für die Herrscher kann diese sogar ein Denkmal werden.",
+        "id": "building.wall"
+    },
+    "14": {
+        "name": "Markt",
+        "func": "{1} von Stufe {0} erlaubt gleichzeitig {2} Karawanen und {3} Handel.",
+        "functionDesc": "Am Markt wird reger Handel getrieben. Die Einen bieten Ressourcen an und die anderen bieten das Geld für diese. Hier kannst du schnell reich werden oder auch die benötigten Ressourcen zum Ausbau deiner Stadt erhalten.",
+        "desc": "Wenn der Handel sich entwickelt, entwickelt sich auch der Markt. Der Markt ist ein Treffpunkt und auch ein Handelszentrum. Solange der Preis richtig ist, kann fast alles hier eingekauft werden. In diesem fleißigen Markt kann alles gekauft und verkauft werden, sogar jemandes Geheimnisse oder sein Leben! Natürlich muss der Handel Steuer zahlen.",
+        "id": "building.market"
+    },
+    "15": {
+        "name": "Sägewerk",
+        "func": "{1} von Stufe {0} bildet jedes Mal {2} Holzfäller aus und reduziert die Ausbildungszeit pro Arbeitsplatz um {3} Sekunden.",
+        "functionDesc": "Es wird Holz im Sägewerk produkziert. Mehr Holzfäller auszubilden kann die Produktion von Holz erhöhen. Es wird viel Holz gebraucht für das Bauen, Forschen bzw.Erzeugen von Waffen. Je höher die Stufe deines Sägewerks ist, desto mehr Holzfäller können gleichzeitig ausgebildet werden.",
+        "desc": "Die Waldressourcen in der alten Zeit waren grenzenlos. Die Zivilisten, die als Holzfäller arbeiteten, mussten sich keine Sorge um Lebensunterhalt machen. Das Ausbau oder die Errichtung von Städten wurde immer durch Rücktritt von Natur ermöglicht.",
+        "id": "building.sawmill"
+    },
+    "16": {
+        "name": "Ackerland",
+        "func": "{1} von Stufe {0} bildet jedes Mal {2} Bauern aus und reduziert die Ausbildungszeit pro Arbeitsplatz um {3} Sekunden.",
+        "functionDesc": "Es wird Getreide im Ackerland produziert. Mehr Bauer auszubilden kann die Produktion von Getreiden erhöhen. Es wird viel Getreide gebraucht für das Bauen, Forschen bzw. Erstellen der Truppen. Je höher die Stufe deines Ackerlandes ist, desto mehr Bauer können gleichzeitig ausgebildet werden.",
+        "desc": "Ernte- und Erde-Verwaltungstechnik erfordern professionellere Bauern, so dass die Ressourcen des Ackerlandes nicht so schnell verbraucht werden. Hohe Produktivität führt ebenfalls zum Wachstum der Bevölkerung.",
+        "id": "building.farm"
+    },
+    "17": {
+        "name": "Bergwerk",
+        "func": "{1} von Stufe {0} bildet jedes Mal {2} Bergarbeiter aus und reduziert die Ausbildungszeit pro Arbeitsplatz um {3} Sekunden.",
+        "functionDesc": "Es wird Eisen im Bergwerk produkziert. Mehr Bergarbeiter auszubilden kann die Produktion von Eisen erhöhen. Es wird viel Eisen gebraucht für das Bauen, Forschen bzw. Erstellen der Truppen. Je höher die Stufe deines Bergwerks ist, desto mehr Bergarbeiter können gleichzeitig ausgebildet werden.",
+        "desc": "Bergwerk ist das notwendige Gebäude um die Ressourcen der Stadt auszugraben. Geschickte Bergarbeiter können die Gefährlichkeit der Baugrube reduzieren.",
+        "id": "building.ironMine"
+    },
+    "18": {
+        "name": "Steinbruch",
+        "func": "{1} von Stufe {0} bildert jedes Mal {2} Steinmetze aus und reduziert die Ausbildungszeit pro Arbeitsplatz um {3} Sekunden.",
+        "functionDesc": "Es wird Steine im Steinbruch produkziert. Mehr Steinmetzen auszubilden kann die Produktion von Steinen erhöhen. Es wird viel Steine gebraucht für das Bauen, Forschen bzw.Erzeugen von Katapulten. Je höher die Stufe deines Steinbruchs ist, desto mehr Steinmetzen können gleichzeitig ausgebildet werden.",
+        "desc": "In der Zeit ohne Sprengstoff war die Arbeit, Steine zu sammeln, immer hart und gefährlich. Die römischen Steinmetzen haben trotz schlechter Voraussetzungen wunderschöne Kunstwerke daraus geschafft.",
+        "id": "building.quarry"
+    }
+}

@@ -360,7 +360,7 @@ Elkaisar.Helper.CloseArenaChallangeTeam = async function () {
     const PrizeList = await Elkaisar.DB.ASelectFrom("*", "world_unit_prize_sp", "unitType = ?", [Elkaisar.Config.WUT_CHALLAGE_FIELD_TEAM]);
     const PlayerTeam = await Elkaisar.DB.ASelectFrom("DISTINCT id_player", "arena_team_challange_hero", "id_team = ?", [Team[0].id_team]);
     
-    
+
     
     PlayerTeam.forEach(function (Player) {
         var List = ``;
@@ -378,7 +378,6 @@ Elkaisar.Helper.CloseArenaChallangeTeam = async function () {
                     </li>`;
             }
         });
-
         Elkaisar.DB.Insert(
                 `id_to = ${Player.id_player}, head = 'تقرير استلام جوائز ميدان تحدى الفريق', body=?, time_stamp = ${Math.floor(Date.now() / 1000)}`, "msg_diff",
                 [`<div id="matrial-box-gift" style="border: none; background: none"><ul class="matrial-list">${List}</ul></div>`]);
@@ -441,6 +440,7 @@ Elkaisar.Cron.schedule("59 19 * * *", function () {
     Elkaisar.Helper.CloseArenaChallangeTeam();
     Elkaisar.Helper.CloseArenaChallangeGuild();
 });
+
 
 
 

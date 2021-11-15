@@ -1,0 +1,24 @@
+[25-Mar-2021 11:13:42 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'elkaisar_s_1' in /home/elkaisar/public_html/app/config.php:25
+Stack trace:
+#0 /home/elkaisar/public_html/app/config.php(25): PDO->__construct('mysql:host=loca...', 'elkaisar_game', 'MyWifeSoma1231')
+#1 /home/elkaisar/public_html/app/Page/Support/PGetBuildArmy.php(10): DbConnect(1)
+#2 {main}
+  thrown in /home/elkaisar/public_html/app/config.php on line 25
+[31-Mar-2021 19:13:40 UTC] PHP Warning:  PDO::prepare(): SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected in /home/elkaisar/public_html/app/config.php on line 99
+[31-Mar-2021 19:13:40 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on boolean in /home/elkaisar/public_html/app/config.php:100
+Stack trace:
+#0 /home/elkaisar/public_html/app/Page/Support/PHeroBack.php(13): updateTable('in_city = 1', 'hero', 'in_city = 0')
+#1 {main}
+  thrown in /home/elkaisar/public_html/app/config.php on line 100
+[07-May-2021 05:40:54 UTC] PHP Warning:  PDO::prepare(): SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected in /home/elkaisar/public_html/app/config.php on line 99
+[07-May-2021 05:40:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on boolean in /home/elkaisar/public_html/app/config.php:100
+Stack trace:
+#0 /home/elkaisar/public_html/app/Page/Support/PHeroBack.php(13): updateTable('in_city = 1', 'hero', 'in_city = 0')
+#1 {main}
+  thrown in /home/elkaisar/public_html/app/config.php on line 100
+[07-May-2021 23:57:04 UTC] PHP Warning:  PDO::prepare(): SQLSTATE[3D000]: Invalid catalog name: 1046 No database selected in /home/elkaisar/public_html/app/config.php on line 99
+[07-May-2021 23:57:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on boolean in /home/elkaisar/public_html/app/config.php:100
+Stack trace:
+#0 /home/elkaisar/public_html/app/Page/Support/PHeroBack.php(13): updateTable('in_city = 1', 'hero', 'in_city = 0')
+#1 {main}
+  thrown in /home/elkaisar/public_html/app/config.php on line 100

@@ -1,0 +1,538 @@
+1635400727053
+World City Length Is 3331
+1635400727701
+HerosLen is 285253
+1635408000200
+1635408000744
+Error: ER_LOCK_DEADLOCK: Deadlock found when trying to get lock; try restarting transaction
+    at Query.Sequence._packetToError (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:369:20)
+    at addChunk (node:internal/streams/readable:313:12)
+    --------------------
+    at Protocol._enqueue (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/elkaisar/WebSocket/Lib/LBase.js:56:20
+    at Ping.onOperationComplete (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Ping._callback (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:488:16)
+    at Ping.Sequence.end (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.Sequence.OkPacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:433:10) {
+  code: 'ER_LOCK_DEADLOCK',
+  errno: 1213,
+  sqlMessage: 'Deadlock found when trying to get lock; try restarting transaction',
+  sqlState: '40001',
+  index: 0,
+  sql: 'DELETE FROM battel_member WHERE id_battel = 406'
+}
+uncaughtException
+1635422400258
+1635422400817
+1635426000079
+1635426000637
+1635426000638
+1635426000638
+1635426001532
+1635426001644
+1635429600203
+1635429600676
+1635429600776
+1635429601316
+[ '', 'api', 'ABattel', 'joinBattel' ] [Object: null prototype] {
+  server: '2',
+  idPlayerV: '3607',
+  idBattel: '722',
+  idHero: '3606117',
+  side: '1',
+  token: '76779-779979-364919-235567-235235'
+}
+[ '', 'api', 'ABattel', 'joinBattel' ] [Object: null prototype] {
+  server: '2',
+  idPlayerV: '3607',
+  idBattel: '722',
+  idHero: '3606157',
+  side: '1',
+  token: '5323-485555-414055-228496-498428'
+}
+1635433200203
+1635433200764
+1635436800209
+1635436800750
+1635451200171
+1635451200706
+1635465600360
+1635465601005
+1635472800218
+1635472800743
+1635480000224
+1635480000746
+1635494400218
+1635494400752
+World City Length Is 3331
+World City Length Is 3331
+1635508800095
+1635508800547
+1635508800649
+1635508801140
+1635512400080
+1635512400091
+1635512400662
+1635512401049
+1635512401150
+1635512401686
+1635516000165
+1635516000644
+1635516000743
+1635516001237
+1635519600182
+1635519600729
+1635523200174
+1635523200720
+1635537600218
+1635537600775
+1635552000379
+1635552000985
+1635559200215
+1635559200778
+1635566400241
+1635566400804
+1635580800226
+1635580800818
+1635595200215
+1635595200777
+1635598800088
+1635598800092
+1635598800914
+1635598801008
+1635598801104
+1635598801602
+1635602400216
+1635602400707
+1635602400801
+1635602401315
+1635606000222
+1635606000756
+1635609600197
+1635609600731
+World City Length Is 3331
+World City Length Is 3331
+World City Length Is 3331
+World City Length Is 3331
+World City Length Is 3331
+1635624000220
+1635624000784
+1635638400501
+1635638401156
+1635642000209
+1635642000798
+1635645600193
+1635645600739
+1635652800232
+1635652800789
+1635667200207
+1635667200747
+World City Length Is 3331
+1635681600244
+1635681600789
+Error: ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'field list'
+    at Query.Sequence._packetToError (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:369:20)
+    at addChunk (node:internal/streams/readable:313:12)
+    --------------------
+    at Pool.query (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:199:23)
+    at /home/elkaisar/WebSocket/Lib/LBase.js:129:24
+    at new Promise (<anonymous>)
+    at Object.Elkaisar.DB.AUpdate (/home/elkaisar/WebSocket/Lib/LBase.js:128:12)
+    at AItemUse.useCoin (/home/elkaisar/WebSocket/api/AItemUse.js:398:21)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:94:5)
+    at async Object.Elkaisar.Base.HandleReq (/home/elkaisar/WebSocket/server.js:156:34)
+    at async IncomingMessage.<anonymous> (/home/elkaisar/WebSocket/server.js:186:26) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'NaN' in 'field list'",
+  sqlState: '42S22',
+  index: 0,
+  sql: 'UPDATE player_stat SET coin = NaN WHERE id_player = 3363'
+}
+unhandledRejection
+1635685200099
+1635685200328
+1635685200522
+1635685200634
+1635685201329
+1635685201657
+Error: ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'field list'
+    at Query.Sequence._packetToError (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:369:20)
+    at addChunk (node:internal/streams/readable:313:12)
+    --------------------
+    at Pool.query (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:199:23)
+    at /home/elkaisar/WebSocket/Lib/LBase.js:129:24
+    at new Promise (<anonymous>)
+    at Object.Elkaisar.DB.AUpdate (/home/elkaisar/WebSocket/Lib/LBase.js:128:12)
+    at AItemUse.useCoin (/home/elkaisar/WebSocket/api/AItemUse.js:398:21)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:94:5)
+    at async Object.Elkaisar.Base.HandleReq (/home/elkaisar/WebSocket/server.js:156:34)
+    at async IncomingMessage.<anonymous> (/home/elkaisar/WebSocket/server.js:186:26) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'NaN' in 'field list'",
+  sqlState: '42S22',
+  index: 0,
+  sql: 'UPDATE player_stat SET coin = NaN WHERE id_player = 6589'
+}
+unhandledRejection
+1635688800199
+1635688800736
+1635692400216
+1635692400741
+1635696000181
+1635696000746
+1635696000747
+1635696001264
+World City Length Is 3332
+World City Length Is 3333
+1635710400200
+1635710400830
+World City Length Is 3333
+1635724800162
+1635724800162
+1635724801249
+1635724801371
+1635724801479
+1635724801482
+1635724802049
+1635724802584
+1635732000183
+1635732000710
+1635739200196
+1635739200745
+1635753600218
+1635753600761
+1635768000123
+1635768000548
+1635768000650
+1635768001155
+1635771600090
+1635771600099
+1635771600314
+1635771600666
+1635771601349
+1635771601661
+1635775200166
+1635775200767
+Error: ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'field list'
+    at Query.Sequence._packetToError (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:369:20)
+    at addChunk (node:internal/streams/readable:313:12)
+    --------------------
+    at Pool.query (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:199:23)
+    at /home/elkaisar/WebSocket/Lib/LBase.js:129:24
+    at new Promise (<anonymous>)
+    at Object.Elkaisar.DB.AUpdate (/home/elkaisar/WebSocket/Lib/LBase.js:128:12)
+    at AItemUse.useCoin (/home/elkaisar/WebSocket/api/AItemUse.js:398:21)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:94:5)
+    at async Object.Elkaisar.Base.HandleReq (/home/elkaisar/WebSocket/server.js:156:34)
+    at async IncomingMessage.<anonymous> (/home/elkaisar/WebSocket/server.js:186:26) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'NaN' in 'field list'",
+  sqlState: '42S22',
+  index: 0,
+  sql: 'UPDATE player_stat SET coin = NaN WHERE id_player = 6589'
+}
+unhandledRejection
+Error: ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'field list'
+    at Query.Sequence._packetToError (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:369:20)
+    at addChunk (node:internal/streams/readable:313:12)
+    --------------------
+    at Pool.query (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:199:23)
+    at /home/elkaisar/WebSocket/Lib/LBase.js:129:24
+    at new Promise (<anonymous>)
+    at Object.Elkaisar.DB.AUpdate (/home/elkaisar/WebSocket/Lib/LBase.js:128:12)
+    at AItemUse.useCoin (/home/elkaisar/WebSocket/api/AItemUse.js:398:21)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:94:5)
+    at async Object.Elkaisar.Base.HandleReq (/home/elkaisar/WebSocket/server.js:156:34)
+    at async IncomingMessage.<anonymous> (/home/elkaisar/WebSocket/server.js:186:26) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'NaN' in 'field list'",
+  sqlState: '42S22',
+  index: 0,
+  sql: 'UPDATE player_stat SET coin = NaN WHERE id_player = 3363'
+}
+unhandledRejection
+1635778800153
+1635778800682
+Error: ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'field list'
+    at Query.Sequence._packetToError (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:369:20)
+    at addChunk (node:internal/streams/readable:313:12)
+    --------------------
+    at Pool.query (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:199:23)
+    at /home/elkaisar/WebSocket/Lib/LBase.js:129:24
+    at new Promise (<anonymous>)
+    at Object.Elkaisar.DB.AUpdate (/home/elkaisar/WebSocket/Lib/LBase.js:128:12)
+    at AItemUse.useCoin (/home/elkaisar/WebSocket/api/AItemUse.js:398:21)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:94:5)
+    at async Object.Elkaisar.Base.HandleReq (/home/elkaisar/WebSocket/server.js:156:34)
+    at async IncomingMessage.<anonymous> (/home/elkaisar/WebSocket/server.js:186:26) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'NaN' in 'field list'",
+  sqlState: '42S22',
+  index: 0,
+  sql: 'UPDATE player_stat SET coin = NaN WHERE id_player = 7047'
+}
+unhandledRejection
+1635782400263
+1635782400738
+1635782400835
+1635782401371
+1635787800133
+1635787800717
+1635787800732
+1635787800732
+1635787800732
+1635787800733
+1635787800733
+1635787802346
+1635787803017
+1635787803136
+1635787803244
+1635787803363
+1635793200156
+1635793200157
+1635793200780
+1635793200780
+1635793201093
+1635793201230
+1635793201611
+1635793202042
+1635793202164
+1635793202291
+1635793202777
+1635793203271
+World City Length Is 3333
+World City Length Is 3333
+World City Length Is 3333
+World City Length Is 3333
+World City Length Is 3333
+World City Length Is 3333
+World City Length Is 3333
+World City Length Is 3333
+World City Length Is 3333
+World City Length Is 3333
+World City Length Is 3333
+1635796800158
+1635796800685
+World City Length Is 3333
+World City Length Is 3333
+World City Length Is 3333
+World City Length Is 3333
+World City Length Is 3333
+World City Length Is 3333
+World City Length Is 3333
+World City Length Is 3333
+World City Length Is 3333
+World City Length Is 3333
+World City Length Is 3333
+World City Length Is 3333
+1635811200169
+1635811200493
+1635811200494
+1635811200742
+1635811200859
+1635811201993
+1635811202123
+1635811202446
+1635818400226
+1635818400803
+World City Length Is 3333
+World City Length Is 3333
+World City Length Is 3333
+World City Length Is 3333
+World City Length Is 3333
+World City Length Is 3333
+World City Length Is 3333
+World City Length Is 3333
+World City Length Is 3333
+World City Length Is 3333
+World City Length Is 3333
+World City Length Is 3333
+World City Length Is 3333
+World City Length Is 3333
+World City Length Is 3333
+World City Length Is 3333
+World City Length Is 3333
+World City Length Is 3333
+1635825600200
+1635825600737
+1635840000143
+1635840000683
+World City Length Is 3333
+World City Length Is 3333
+World City Length Is 3333
+World City Length Is 3333
+1635854400106
+1635854400107
+1635854400774
+1635854401062
+1635854401161
+1635854401657
+1635858000103
+1635858000320
+1635858000545
+1635858000644
+1635858001567
+1635858001690
+1635861600200
+1635861600743
+1635865200207
+1635865200750
+Error: ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'field list'
+    at Query.Sequence._packetToError (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:369:20)
+    at addChunk (node:internal/streams/readable:313:12)
+    --------------------
+    at Pool.query (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:199:23)
+    at /home/elkaisar/WebSocket/Lib/LBase.js:129:24
+    at new Promise (<anonymous>)
+    at Object.Elkaisar.DB.AUpdate (/home/elkaisar/WebSocket/Lib/LBase.js:128:12)
+    at AItemUse.useCoin (/home/elkaisar/WebSocket/api/AItemUse.js:398:21)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:94:5)
+    at async Object.Elkaisar.Base.HandleReq (/home/elkaisar/WebSocket/server.js:156:34)
+    at async IncomingMessage.<anonymous> (/home/elkaisar/WebSocket/server.js:186:26) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'NaN' in 'field list'",
+  sqlState: '42S22',
+  index: 0,
+  sql: 'UPDATE player_stat SET coin = NaN WHERE id_player = 6837'
+}
+unhandledRejection
+1635868800172
+1635868800656
+1635868800757
+1635868801247
+1635883200223
+1635883200767
+1635897600529
+1635897601109
+1635904800181
+1635904800740
+1635912000215
+1635912000742
+1635926400210
+1635926400810
+World City Length Is 3334
+World City Length Is 3334
+1635940800248
+1635940800792
+Error: ER_BAD_FIELD_ERROR: Unknown column 'NaN' in 'field list'
+    at Query.Sequence._packetToError (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:369:20)
+    at addChunk (node:internal/streams/readable:313:12)
+    --------------------
+    at Pool.query (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:199:23)
+    at /home/elkaisar/WebSocket/Lib/LBase.js:129:24
+    at new Promise (<anonymous>)
+    at Object.Elkaisar.DB.AUpdate (/home/elkaisar/WebSocket/Lib/LBase.js:128:12)
+    at AItemUse.useCoin (/home/elkaisar/WebSocket/api/AItemUse.js:398:21)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:94:5)
+    at async Object.Elkaisar.Base.HandleReq (/home/elkaisar/WebSocket/server.js:156:34)
+    at async IncomingMessage.<anonymous> (/home/elkaisar/WebSocket/server.js:186:26) {
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlMessage: "Unknown column 'NaN' in 'field list'",
+  sqlState: '42S22',
+  index: 0,
+  sql: 'UPDATE player_stat SET coin = NaN WHERE id_player = 7046'
+}
+unhandledRejection
+1635944400096
+1635944400100
+1635944400539
+1635944401024
+1635944401124
+1635944401629
+1635948000169
+1635948000701
+World City Length Is 3334
+1635951600202
+1635951600745
+1635955200213
+1635955200684
+1635955200808
+1635955201309
+1635969600198
+1635969600756
+1635984000408
+1635984001041
+1635991200202
+1635991200749

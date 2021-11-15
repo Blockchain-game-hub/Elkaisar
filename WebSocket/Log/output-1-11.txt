@@ -1,0 +1,982 @@
+1636020119621
+Error: listen EADDRINUSE: address already in use :::8081
+    at Server.setupListenHandle [as _listen2] (node:net:1311:16)
+    at listenInCluster (node:net:1359:12)
+    at Server.listen (node:net:1446:7)
+    at Object.<anonymous> (/home/elkaisar/WebSocket/server.js:201:8)
+    at Module._compile (node:internal/modules/cjs/loader:1092:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1121:10)
+    at Module.load (node:internal/modules/cjs/loader:972:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:813:14)
+    at Module.require (node:internal/modules/cjs/loader:996:19)
+    at require (node:internal/modules/cjs/helpers:92:18) {
+  code: 'EADDRINUSE',
+  errno: -98,
+  syscall: 'listen',
+  address: '::',
+  port: 8081
+}
+uncaughtException
+World City Length Is 1555
+1636020120212
+HerosLen is 285253
+1636027200295
+1636027201022
+1636030800143
+1636030801013
+1636030801027
+1636030801290
+1636030801634
+1636030802230
+1636034400414
+1636034401088
+1636038000190
+1636038000896
+1636041600224
+1636041600691
+1636041600849
+1636041601536
+1636056000150
+1636056000855
+1636070400485
+1636070401171
+1636077600391
+1636077600965
+1636084800238
+1636084800940
+1636099200254
+1636099200924
+1636113600277
+1636113600903
+1636117200113
+1636117201010
+1636117201023
+1636117201023
+1636117202094
+1636117202198
+1636120800452
+1636120801063
+1636124400199
+1636124400897
+1636128000166
+1636128000668
+1636128000842
+1636128001484
+1636142400207
+1636142400893
+1636156800433
+1636156801096
+1636164000374
+1636164001024
+1636171200197
+1636171200847
+Error: ER_LOCK_DEADLOCK: Deadlock found when trying to get lock; try restarting transaction
+    at Query.Sequence._packetToError (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:47:14)
+    at Query.ErrorPacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Query.js:79:18)
+    at Protocol._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:433:10)
+    at Parser.write (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:43:10)
+    at Protocol.write (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:38:16)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:88:28)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:369:20)
+    at addChunk (node:internal/streams/readable:313:12)
+    --------------------
+    at Protocol._enqueue (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/elkaisar/WebSocket/Lib/LBase.js:100:20
+    at Ping.onOperationComplete (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Ping._callback (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:488:16)
+    at Ping.Sequence.end (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.Sequence.OkPacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:433:10) {
+  code: 'ER_LOCK_DEADLOCK',
+  errno: 1213,
+  sqlMessage: 'Deadlock found when trying to get lock; try restarting transaction',
+  sqlState: '40001',
+  index: 0,
+  sql: 'UPDATE hero JOIN world_unit_garrison ON world_unit_garrison.id_hero = hero.id_hero SET hero.in_city = 2'
+}
+uncaughtException
+1636185600218
+1636185600896
+1636200000322
+1636200001001
+1636203600148
+1636203600469
+1636203600895
+1636203601388
+1636203601545
+1636203602152
+1636207200418
+1636207201048
+1636210800188
+1636210800828
+1636214400217
+1636214400777
+1636214400935
+1636214401572
+1636228800219
+1636228800918
+1636243200438
+1636243201222
+1636250400415
+1636250401083
+1636257600243
+1636257600933
+1636272000160
+1636272000831
+1636286400288
+1636286401031
+1636290000144
+1636290000851
+1636290000857
+1636290001135
+1636290001511
+1636290002033
+1636293600183
+1636293600848
+1636297200208
+1636297200932
+1636300800230
+1636300800756
+1636300800908
+1636300801537
+1636315200179
+1636315200939
+1636329600234
+1636329600251
+1636329601400
+1636329601567
+1636329602037
+1636329602594
+1636329602730
+1636329603511
+1636336800190
+1636336800846
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:381:22)
+    at endReadableNT (node:internal/streams/readable:1307:12)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)
+    --------------------
+    at Protocol._enqueue (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/elkaisar/WebSocket/Lib/LBase.js:5:20
+    at Ping.onOperationComplete (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Ping._callback (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:488:16)
+    at Ping.Sequence.end (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.Sequence.OkPacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:433:10) {
+  fatal: true,
+  code: 'PROTOCOL_CONNECTION_LOST'
+}
+uncaughtException
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:381:22)
+    at endReadableNT (node:internal/streams/readable:1307:12)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)
+    --------------------
+    at Protocol._enqueue (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/elkaisar/WebSocket/Lib/LBase.js:5:20
+    at Ping.onOperationComplete (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Ping._callback (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:488:16)
+    at Ping.Sequence.end (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.Sequence.OkPacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:433:10) {
+  fatal: true,
+  code: 'PROTOCOL_CONNECTION_LOST'
+}
+uncaughtException
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:381:22)
+    at endReadableNT (node:internal/streams/readable:1307:12)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)
+    --------------------
+    at Protocol._enqueue (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/elkaisar/WebSocket/Lib/LBase.js:5:20
+    at Ping.onOperationComplete (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Ping._callback (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:488:16)
+    at Ping.Sequence.end (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.Sequence.OkPacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:433:10) {
+  fatal: true,
+  code: 'PROTOCOL_CONNECTION_LOST'
+}
+uncaughtException
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:381:22)
+    at endReadableNT (node:internal/streams/readable:1307:12)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)
+    --------------------
+    at Protocol._enqueue (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/elkaisar/WebSocket/Lib/LBase.js:5:20
+    at Ping.onOperationComplete (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Ping._callback (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:488:16)
+    at Ping.Sequence.end (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.Sequence.OkPacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:433:10) {
+  fatal: true,
+  code: 'PROTOCOL_CONNECTION_LOST'
+}
+uncaughtException
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:381:22)
+    at endReadableNT (node:internal/streams/readable:1307:12)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)
+    --------------------
+    at Protocol._enqueue (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/elkaisar/WebSocket/Lib/LBase.js:5:20
+    at Ping.onOperationComplete (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Ping._callback (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:488:16)
+    at Ping.Sequence.end (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.Sequence.OkPacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:433:10) {
+  fatal: true,
+  code: 'PROTOCOL_CONNECTION_LOST'
+}
+uncaughtException
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:381:22)
+    at endReadableNT (node:internal/streams/readable:1307:12)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)
+    --------------------
+    at Protocol._enqueue (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/elkaisar/WebSocket/Lib/LBase.js:5:20
+    at Ping.onOperationComplete (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Ping._callback (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:488:16)
+    at Ping.Sequence.end (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.Sequence.OkPacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:433:10) {
+  fatal: true,
+  code: 'PROTOCOL_CONNECTION_LOST'
+}
+uncaughtException
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:381:22)
+    at endReadableNT (node:internal/streams/readable:1307:12)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)
+    --------------------
+    at Protocol._enqueue (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/elkaisar/WebSocket/Lib/LBase.js:5:20
+    at Ping.onOperationComplete (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Ping._callback (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:488:16)
+    at Ping.Sequence.end (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.Sequence.OkPacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:433:10) {
+  fatal: true,
+  code: 'PROTOCOL_CONNECTION_LOST'
+}
+uncaughtException
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:381:22)
+    at endReadableNT (node:internal/streams/readable:1307:12)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)
+    --------------------
+    at Pool.query (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:199:23)
+    at /home/elkaisar/WebSocket/Lib/LBase.js:115:24
+    at new Promise (<anonymous>)
+    at Object.Elkaisar.DB.ASelectFrom (/home/elkaisar/WebSocket/Lib/LBase.js:114:12)
+    at Timeout._onTimeout (/home/elkaisar/WebSocket/modules/loops/SpyEnd.js:123:40)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7) {
+  fatal: true,
+  code: 'PROTOCOL_CONNECTION_LOST'
+}
+unhandledRejection
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:381:22)
+    at endReadableNT (node:internal/streams/readable:1307:12)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)
+    --------------------
+    at Protocol._enqueue (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/elkaisar/WebSocket/Lib/LBase.js:5:20
+    at Ping.onOperationComplete (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Ping._callback (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:488:16)
+    at Ping.Sequence.end (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.Sequence.OkPacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:433:10) {
+  fatal: true,
+  code: 'PROTOCOL_CONNECTION_LOST'
+}
+uncaughtException
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:381:22)
+    at endReadableNT (node:internal/streams/readable:1307:12)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)
+    --------------------
+    at Protocol._enqueue (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/elkaisar/WebSocket/Lib/LBase.js:5:20
+    at Ping.onOperationComplete (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Ping._callback (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:488:16)
+    at Ping.Sequence.end (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.Sequence.OkPacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:433:10) {
+  fatal: true,
+  code: 'PROTOCOL_CONNECTION_LOST'
+}
+uncaughtException
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:381:22)
+    at endReadableNT (node:internal/streams/readable:1307:12)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)
+    --------------------
+    at Protocol._enqueue (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/elkaisar/WebSocket/Lib/LBase.js:5:20
+    at Ping.onOperationComplete (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Ping._callback (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:488:16)
+    at Ping.Sequence.end (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.Sequence.OkPacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:433:10) {
+  fatal: true,
+  code: 'PROTOCOL_CONNECTION_LOST'
+}
+uncaughtException
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:381:22)
+    at endReadableNT (node:internal/streams/readable:1307:12)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)
+    --------------------
+    at Protocol._enqueue (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/elkaisar/WebSocket/Lib/LBase.js:5:20
+    at Ping.onOperationComplete (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Ping._callback (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:488:16)
+    at Ping.Sequence.end (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.Sequence.OkPacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:433:10) {
+  fatal: true,
+  code: 'PROTOCOL_CONNECTION_LOST'
+}
+uncaughtException
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:381:22)
+    at endReadableNT (node:internal/streams/readable:1307:12)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)
+    --------------------
+    at Protocol._enqueue (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/elkaisar/WebSocket/Lib/LBase.js:5:20
+    at Ping.onOperationComplete (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Ping._callback (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:488:16)
+    at Ping.Sequence.end (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.Sequence.OkPacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:433:10) {
+  fatal: true,
+  code: 'PROTOCOL_CONNECTION_LOST'
+}
+uncaughtException
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:381:22)
+    at endReadableNT (node:internal/streams/readable:1307:12)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)
+    --------------------
+    at Protocol._enqueue (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/elkaisar/WebSocket/Lib/LBase.js:5:20
+    at Ping.onOperationComplete (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Ping._callback (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:488:16)
+    at Ping.Sequence.end (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.Sequence.OkPacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:433:10) {
+  fatal: true,
+  code: 'PROTOCOL_CONNECTION_LOST'
+}
+uncaughtException
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:381:22)
+    at endReadableNT (node:internal/streams/readable:1307:12)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)
+    --------------------
+    at Protocol._enqueue (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at PoolConnection.query (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:198:25)
+    at /home/elkaisar/WebSocket/Lib/LBase.js:5:20
+    at Ping.onOperationComplete (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:110:5)
+    at Ping.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Ping._callback (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:488:16)
+    at Ping.Sequence.end (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:83:24)
+    at Ping.Sequence.OkPacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/sequences/Sequence.js:92:8)
+    at Protocol._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:291:23)
+    at Parser._parsePacket (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Parser.js:433:10) {
+  fatal: true,
+  code: 'PROTOCOL_CONNECTION_LOST'
+}
+uncaughtException
+Error: Connection lost: The server closed the connection.
+    at Protocol.end (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:112:13)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:94:28)
+    at Socket.<anonymous> (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:526:10)
+    at Socket.emit (node:events:381:22)
+    at endReadableNT (node:internal/streams/readable:1307:12)
+    at processTicksAndRejections (node:internal/process/task_queues:81:21)
+    --------------------
+    at Pool.query (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:199:23)
+    at /home/elkaisar/WebSocket/Lib/LBase.js:115:24
+    at new Promise (<anonymous>)
+    at Object.Elkaisar.DB.ASelectFrom (/home/elkaisar/WebSocket/Lib/LBase.js:114:12)
+    at Timeout._onTimeout (/home/elkaisar/WebSocket/modules/loops/SpyEnd.js:123:40)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7) {
+  fatal: true,
+  code: 'PROTOCOL_CONNECTION_LOST'
+}
+unhandledRejection
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1138:16)
+    --------------------
+    at Protocol._enqueue (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:48:16)
+    at Object.Elkaisar.DB.SelectFrom (/home/elkaisar/WebSocket/Lib/LBase.js:2:20)
+    at Timeout._onTimeout (/home/elkaisar/WebSocket/modules/loops/TaskBuilding.js:43:17)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+uncaughtException
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1138:16)
+    --------------------
+    at Protocol._enqueue (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:48:16)
+    at Object.Elkaisar.DB.SelectFrom (/home/elkaisar/WebSocket/Lib/LBase.js:2:20)
+    at Timeout._onTimeout (/home/elkaisar/WebSocket/modules/loops/TaskArmy.js:33:17)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+uncaughtException
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1138:16)
+    --------------------
+    at Protocol._enqueue (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:48:16)
+    at Object.Elkaisar.DB.SelectFrom (/home/elkaisar/WebSocket/Lib/LBase.js:2:20)
+    at Timeout._onTimeout (/home/elkaisar/WebSocket/modules/loops/TaskJop.js:10:17)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+uncaughtException
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1138:16)
+    --------------------
+    at Protocol._enqueue (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:48:16)
+    at Object.Elkaisar.DB.SelectFrom (/home/elkaisar/WebSocket/Lib/LBase.js:2:20)
+    at Timeout._onTimeout (/home/elkaisar/WebSocket/modules/loops/TaskStudy.js:4:17)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+uncaughtException
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1138:16)
+    --------------------
+    at Protocol._enqueue (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:48:16)
+    at Object.Elkaisar.DB.SelectFrom (/home/elkaisar/WebSocket/Lib/LBase.js:2:20)
+    at Timeout._onTimeout (/home/elkaisar/WebSocket/modules/loops/HeroBack.js:116:17)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+uncaughtException
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1138:16)
+    --------------------
+    at Protocol._enqueue (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:48:16)
+    at Object.Elkaisar.DB.SelectFrom (/home/elkaisar/WebSocket/Lib/LBase.js:2:20)
+    at Timeout._onTimeout (/home/elkaisar/WebSocket/modules/loops/MarketTransport.js:17:17)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+uncaughtException
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1138:16)
+    --------------------
+    at Protocol._enqueue (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:48:16)
+    at Object.Elkaisar.DB.SelectFrom (/home/elkaisar/WebSocket/Lib/LBase.js:2:20)
+    at Timeout._onTimeout (/home/elkaisar/WebSocket/modules/loops/marketBuyTransport.js:11:17)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+uncaughtException
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1138:16)
+    --------------------
+    at Protocol._enqueue (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:202:8)
+    at /home/elkaisar/WebSocket/Lib/LBase.js:115:24
+    at new Promise (<anonymous>)
+    at Object.Elkaisar.DB.ASelectFrom (/home/elkaisar/WebSocket/Lib/LBase.js:114:12)
+    at Timeout._onTimeout (/home/elkaisar/WebSocket/modules/loops/SpyEnd.js:123:40)
+    at listOnTimeout (node:internal/timers:557:17) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+unhandledRejection
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1138:16)
+    --------------------
+    at Protocol._enqueue (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:48:16)
+    at Object.Elkaisar.DB.SelectFrom (/home/elkaisar/WebSocket/Lib/LBase.js:2:20)
+    at Timeout._onTimeout (/home/elkaisar/WebSocket/modules/loops/TaskBuilding.js:43:17)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+uncaughtException
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1138:16)
+    --------------------
+    at Protocol._enqueue (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:48:16)
+    at Object.Elkaisar.DB.SelectFrom (/home/elkaisar/WebSocket/Lib/LBase.js:2:20)
+    at Timeout._onTimeout (/home/elkaisar/WebSocket/modules/loops/TaskArmy.js:33:17)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+uncaughtException
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1138:16)
+    --------------------
+    at Protocol._enqueue (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:48:16)
+    at Object.Elkaisar.DB.SelectFrom (/home/elkaisar/WebSocket/Lib/LBase.js:2:20)
+    at Timeout._onTimeout (/home/elkaisar/WebSocket/modules/loops/TaskJop.js:10:17)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+uncaughtException
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1138:16)
+    --------------------
+    at Protocol._enqueue (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:48:16)
+    at Object.Elkaisar.DB.SelectFrom (/home/elkaisar/WebSocket/Lib/LBase.js:2:20)
+    at Timeout._onTimeout (/home/elkaisar/WebSocket/modules/loops/TaskStudy.js:4:17)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+uncaughtException
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1138:16)
+    --------------------
+    at Protocol._enqueue (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:48:16)
+    at Object.Elkaisar.DB.SelectFrom (/home/elkaisar/WebSocket/Lib/LBase.js:2:20)
+    at Timeout._onTimeout (/home/elkaisar/WebSocket/modules/loops/HeroBack.js:116:17)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+uncaughtException
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1138:16)
+    --------------------
+    at Protocol._enqueue (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:48:16)
+    at Object.Elkaisar.DB.SelectFrom (/home/elkaisar/WebSocket/Lib/LBase.js:2:20)
+    at Timeout._onTimeout (/home/elkaisar/WebSocket/modules/loops/MarketTransport.js:17:17)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+uncaughtException
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1138:16)
+    --------------------
+    at Protocol._enqueue (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:48:16)
+    at Object.Elkaisar.DB.SelectFrom (/home/elkaisar/WebSocket/Lib/LBase.js:2:20)
+    at Timeout._onTimeout (/home/elkaisar/WebSocket/modules/loops/marketBuyTransport.js:11:17)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+uncaughtException
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1138:16)
+    --------------------
+    at Protocol._enqueue (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:202:8)
+    at /home/elkaisar/WebSocket/Lib/LBase.js:115:24
+    at new Promise (<anonymous>)
+    at Object.Elkaisar.DB.ASelectFrom (/home/elkaisar/WebSocket/Lib/LBase.js:114:12)
+    at Timeout._onTimeout (/home/elkaisar/WebSocket/modules/loops/SpyEnd.js:123:40)
+    at listOnTimeout (node:internal/timers:557:17) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+unhandledRejection
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1138:16)
+    --------------------
+    at Protocol._enqueue (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:48:16)
+    at Object.Elkaisar.DB.SelectFrom (/home/elkaisar/WebSocket/Lib/LBase.js:2:20)
+    at Timeout._onTimeout (/home/elkaisar/WebSocket/modules/loops/TaskBuilding.js:43:17)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+uncaughtException
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1138:16)
+    --------------------
+    at Protocol._enqueue (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:48:16)
+    at Object.Elkaisar.DB.SelectFrom (/home/elkaisar/WebSocket/Lib/LBase.js:2:20)
+    at Timeout._onTimeout (/home/elkaisar/WebSocket/modules/loops/TaskArmy.js:33:17)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+uncaughtException
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1138:16)
+    --------------------
+    at Protocol._enqueue (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:48:16)
+    at Object.Elkaisar.DB.SelectFrom (/home/elkaisar/WebSocket/Lib/LBase.js:2:20)
+    at Timeout._onTimeout (/home/elkaisar/WebSocket/modules/loops/TaskJop.js:10:17)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+uncaughtException
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1138:16)
+    --------------------
+    at Protocol._enqueue (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:48:16)
+    at Object.Elkaisar.DB.SelectFrom (/home/elkaisar/WebSocket/Lib/LBase.js:2:20)
+    at Timeout._onTimeout (/home/elkaisar/WebSocket/modules/loops/TaskStudy.js:4:17)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+uncaughtException
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1138:16)
+    --------------------
+    at Protocol._enqueue (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:48:16)
+    at Object.Elkaisar.DB.SelectFrom (/home/elkaisar/WebSocket/Lib/LBase.js:2:20)
+    at Timeout._onTimeout (/home/elkaisar/WebSocket/modules/loops/HeroBack.js:116:17)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+uncaughtException
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1138:16)
+    --------------------
+    at Protocol._enqueue (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:48:16)
+    at Object.Elkaisar.DB.SelectFrom (/home/elkaisar/WebSocket/Lib/LBase.js:2:20)
+    at Timeout._onTimeout (/home/elkaisar/WebSocket/modules/loops/MarketTransport.js:17:17)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+uncaughtException
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1138:16)
+    --------------------
+    at Protocol._enqueue (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:48:16)
+    at Object.Elkaisar.DB.SelectFrom (/home/elkaisar/WebSocket/Lib/LBase.js:2:20)
+    at Timeout._onTimeout (/home/elkaisar/WebSocket/modules/loops/marketBuyTransport.js:11:17)
+    at listOnTimeout (node:internal/timers:557:17)
+    at processTimers (node:internal/timers:500:7) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+uncaughtException
+Error: connect ECONNREFUSED 127.0.0.1:3306
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1138:16)
+    --------------------
+    at Protocol._enqueue (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:144:48)
+    at Protocol.handshake (/home/elkaisar/WebSocket/node_modules/mysql/lib/protocol/Protocol.js:51:23)
+    at PoolConnection.connect (/home/elkaisar/WebSocket/node_modules/mysql/lib/Connection.js:116:18)
+    at Pool.getConnection (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:48:16)
+    at Pool.query (/home/elkaisar/WebSocket/node_modules/mysql/lib/Pool.js:202:8)
+    at /home/elkaisar/WebSocket/Lib/LBase.js:115:24
+    at new Promise (<anonymous>)
+    at Object.Elkaisar.DB.ASelectFrom (/home/elkaisar/WebSocket/Lib/LBase.js:114:12)
+    at Timeout._onTimeout (/home/elkaisar/WebSocket/modules/loops/SpyEnd.js:123:40)
+    at listOnTimeout (node:internal/timers:557:17) {
+  errno: -111,
+  code: 'ECONNREFUSED',
+  syscall: 'connect',
+  address: '127.0.0.1',
+  port: 3306,
+  fatal: true
+}
+unhandledRejection
+1636344000201
+1636344000856
+1636358400189
+1636358400869
+1636372800338
+1636372801019
+1636376400127
+1636376400659
+1636376400852
+1636376401131
+1636376401481
+1636376402110
+1636380000392
+1636380001046
+1636383600172
+1636383600897

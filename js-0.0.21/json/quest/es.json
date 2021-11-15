@@ -1,0 +1,1059 @@
+{
+    "cottage_1": {
+        "ar_title": "Erigir Cabañas",
+        "header": "Haz clic en un Terreno Libre, luego en Erigir, y escoge Cabañas. <img src=\"img/Erect Cottages.jpg\"></img>",
+        "desc": "Las cabañas albergan ciudadanos. Construye cabañas para poder tener más ciudadanos que te ayuden en tus trabajos de construcción."
+    },
+    "cottage_2": {
+        "ar_title": "Mejorar Cabañas",
+        "header": "En tu ciudad, haz clic en Cabañas Nivel 1, y clic en \"Mejorar\". Si el botón de Mejora está en gris, quiere decir que aún te faltan ciertos requisitos para Mejorar. <img src=\"img/Upgrade Cottages.jpg\"></img>",
+        "desc": "Las cabañas albergan ciudadanos. Construye y mejora Cabañas para aumentar la Capacidad de Población y conseguir que la Población Inactiva ocupe los puestos disponibles entre los Trabajadores Requeridos para campos de recursos (Granja, Aserradero, Cantera y Mina de Acero). Mejora tus Cabañas hasta nivel 2 para atraer más residentes a tu ciudad."
+    },
+    "cottage_3": {
+        "ar_title": "Mejorar Cabañas",
+        "header": "Escoge Cabañas en tu ciudad y Mejóralas hasta Nivel 3.",
+        "desc": "Las cabañas protegen a los ciudadanos. Construye y mejora Cabañas para aumentar la Capacidad de Población y lograr que la Población Inactiva ocupe las posiciones disponibles entre los Trabajadores Requeridos para campos de recursos (Granja, Aserradero, Cantera y Mina de Acero). mejora tus Cabañas hasta nivel 3 para atraer más residentes a tu ciudad."
+    },
+    "cottage_4": {
+        "ar_title": "Mejorar Cabañas",
+        "header": "Escoge Cabañas en tu ciudad y mejóralas a Nivel 4.",
+        "desc": "Las cabañas albergan ciudadanos. Construye y mejora Cabañas para aumentar la Capacidad de Población y conseguir que la Población Inactiva ocupe los puestos disponibles entre los Trabajadores Requeridos para campos de recursos (Granja, Aserradero, Cantera y Mina de Acero). Mejora tus Cabañas hasta nivel 4 para atraer más residentes a tu ciudad."
+    },
+    "cottage_5": {
+        "ar_title": "Mejorar Cabañas",
+        "header": "Escoge Cabañas en tu ciudad y Mejóralas hasta Nivel 5.",
+        "desc": "Las cabañas protegen a los ciudadanos. Construye y mejora Cabañas para aumentar la Capacidad de Población y lograr que la Población Inactiva ocupe las posiciones disponibles entre los Trabajadores Requeridos para campos de recursos (Granja, Aserradero, Cantera y Mina de Acero). mejora tus Cabañas hasta nivel 5 para atraer más residentes a tu ciudad."
+    },
+    "cottage_6": {
+        "ar_title": "Mejorar Cabañas",
+        "header": "Escoge Cabañas en tu ciudad y Mejóralas hasta Nivel 6.",
+        "desc": "Las cabañas protegen a los ciudadanos. Construye y mejora Cabañas para aumentar la Capacidad de Población y lograr que la Población Inactiva ocupe las posiciones disponibles entre los Trabajadores Requeridos para campos de recursos (Granja, Aserradero, Cantera y Mina de Acero). mejora tus Cabañas hasta nivel 6 para atraer más residentes a tu ciudad."
+    },
+    "cottage_7": {
+        "ar_title": "Mejorar Cabañas",
+        "header": "Escoge Cabañas en tu ciudad y Mejóralas hasta Nivel 7.",
+        "desc": "Las cabañas protegen a los ciudadanos. Construye y mejora Cabañas para aumentar la Capacidad de Población y lograr que la Población Inactiva ocupe las posiciones disponibles entre los Trabajadores Requeridos para campos de recursos (Granja, Aserradero, Cantera y Mina de Acero). mejora tus Cabañas hasta nivel 7 para atraer más residentes a tu ciudad."
+    },
+    "cottage_8": {
+        "ar_title": "Mejorar Cabañas",
+        "header": "Escoge Cabañas en tu ciudad y mejóralas a Nivel 8.",
+        "desc": "Las cabañas albergan ciudadanos. Construye y mejora Cabañas para aumentar la Capacidad de Población y conseguir que la Población Inactiva ocupe los puestos disponibles entre los Trabajadores Requeridos para campos de recursos (Granja, Aserradero, Cantera y Mina de Acero). Mejora tus Cabañas hasta nivel 8 para atraer más residentes a tu ciudad."
+    },
+    "cottage_9": {
+        "ar_title": "Mejorar Cabañas",
+        "header": "Escoge Cabañas en tu ciudad y Mejóralas hasta Nivel 9.",
+        "desc": "Las cabañas protegen a los ciudadanos. Construye y mejora Cabañas para aumentar la Capacidad de Población y lograr que la Población Inactiva ocupe las posiciones disponibles entre los Trabajadores Requeridos para campos de recursos (Granja, Aserradero, Cantera y Mina de Acero). mejora tus Cabañas hasta nivel 9 para atraer más residentes a tu ciudad."
+    },
+    "cottage_10": {
+        "ar_title": "Mejorar Cabañas",
+        "header": "Escoge Cabañas en tu ciudad y mejóralas a Nivel 10.",
+        "desc": "Las cabañas albergan ciudadanos. Construye y mejora Cabañas para aumentar la Capacidad de Población y conseguir que la Población Inactiva ocupe los puestos disponibles entre los Trabajadores Requeridos para campos de recursos (Granja, Aserradero, Cantera y Mina de Acero). Mejora tus Cabañas hasta nivel 10 para atraer más residentes a tu ciudad."
+    },
+    "store_1": {
+        "ar_title": "Erigir Depósito",
+        "header": "Clic en Terreno libre, luego en Erigir, debajo del Depósito. Si cumples los requisitos para Erigir el botón estará activo; en caso contrario, estará en gris.<img src=\"img/Erect Warehouse.jpg\"></img>",
+        "desc": "Tu ciudad está en auge y recibe muchos recursos. Incrementa tu Capacidad de Almacenamiento de Depósito para proteger tus recursos contra campañas de Pillaje."
+    },
+    "store_2": {
+        "ar_title": "Mejorar Depósito",
+        "header": "En tu ciudad, haz clic en \"Depósito\" Nivel 1, luego en \"Mejorar\". Si cumples los requisitos para Mejorar el botón estará activo; en caso contrario, estará en gris.<img src=\"img/Upgrade Warehouse.jpg\"></img>",
+        "desc": "Has concluido tu Depósito, pero es obvio que no será suficiente. Mejora tu Depósito de modo que puedas almacenar todos los recursos producidos en los campos. El Depósito protege tus recursos contra campañas de Pillaje."
+    },
+    "store_3": {
+        "ar_title": "Mejorar Depósito",
+        "header": "En tu ciudad, haz clic en \"Depósito\", y Mejorar hasta nivel 3.",
+        "desc": "Has concluido tu Depósito, pero es obvio que no será suficiente. Mejora tu Depósito de modo que puedas almacenar todos los recursos producidos en los campos. El Depósito protege tus recursos contra campañas de Pillaje."
+    },
+    "store_4": {
+        "ar_title": "Mejorar Depósito",
+        "header": "En tu ciudad, selecciona \"Depósito\" y mejóralo a Nivel 4.",
+        "desc": "Has concluido tu Depósito, pero es obvio que no será suficiente. Mejora tu Depósito de modo que puedas almacenar todos los recursos producidos en los campos. El Depósito protege tus recursos contra campañas de Pillaje."
+    },
+    "store_5": {
+        "ar_title": "Mejorar Depósito",
+        "header": "En tu ciudad, selecciona \"Depósito\", luego Mejorar hasta Nivel 5.",
+        "desc": "Has concluido tu Depósito, pero es obvio que no será suficiente. Mejora tu Depósito de modo que puedas almacenar todos los recursos producidos en los campos. El Depósito protege tus recursos contra campañas de Pillaje."
+    },
+    "store_6": {
+        "ar_title": "Mejorar Depósito",
+        "header": "En tu ciudad, selecciona \"Depósito\", luego Mejorar hasta Nivel 6.",
+        "desc": "Has concluido tu Depósito, pero es obvio que no será suficiente. Mejora tu Depósito de modo que puedas almacenar todos los recursos producidos en los campos. El Depósito protege tus recursos contra campañas de Pillaje."
+    },
+    "store_7": {
+        "ar_title": "Mejorar Depósito",
+        "header": "En tu ciudad, selecciona \"Depósito\", luego Mejorar hasta Nivel 7.",
+        "desc": "Has concluido tu Depósito, pero es obvio que no será suficiente. Mejora tu Depósito de modo que puedas almacenar todos los recursos producidos en los campos. El Depósito protege tus recursos contra campañas de Pillaje."
+    },
+    "store_8": {
+        "ar_title": "Mejorar Depósito",
+        "header": "En tu ciudad, selecciona \"Depósito\" y mejóralo a Nivel 8.",
+        "desc": "Has concluido tu Depósito, pero es obvio que no será suficiente. Mejora tu Depósito de modo que puedas almacenar todos los recursos producidos en los campos. El Depósito protege tus recursos contra campañas de Pillaje."
+    },
+    "store_9": {
+        "ar_title": "Mejorar Depósito",
+        "header": "En tu ciudad, selecciona \"Depósito\", luego Mejorar hasta Nivel 9.",
+        "desc": "Has concluido tu Depósito, pero es obvio que no será suficiente. Mejora tu Depósito de modo que puedas almacenar todos los recursos producidos en los campos. El Depósito protege tus recursos contra campañas de Pillaje."
+    },
+    "store_10": {
+        "ar_title": "Mejorar Depósito",
+        "header": "En tu ciudad, selecciona \"Depósito\" y mejóralo a Nivel 10.",
+        "desc": "Has concluido tu Depósito, pero es obvio que no será suficiente. Mejora tu Depósito de modo que puedas almacenar todos los recursos producidos en los campos. El Depósito protege tus recursos contra campañas de Pillaje."
+    },
+    "palace_2": {
+        "ar_title": "Mejorar Rectorado",
+        "header": "Haz clic en \"Rectorado\", luego en \"Mejorar\". Si cumples los requisitos para Mejorar, el botón estará activo; en caso contrario, estará en gris.<img src=\"img/Upgrade Rectorate.jpg\"></img>",
+        "desc": "¡Tu ciudad florece! ¡Ave! Puedes progresar aún más si mejoras tu Rectorado ahora mismo. Te será permitido construir más edificios y a mayor velocidad. Podrás expandir tu ciudad y recibir 4 Terrenos libres más, sobre los cuales podrás construir más edificios, cuando tu nivel de Rectorado alcance los Niveles 4, 8 y 10."
+    },
+    "palace_3": {
+        "ar_title": "Mejorar Rectorado",
+        "header": "Haz clic en \"Rectorado\", luego en \"Mejorar\". Si cumples los requisitos para Mejorar el botón estará activo, en caso contrario, estará en gris.",
+        "desc": "¡Tu ciudad está en auge! ¡Ave! Puedes progresar aún más si mejoras tu Rectorado ahora mismo. Te será permitido construir más edificios y a mayor velocidad. Podrás expandir tu ciudad y recibir 4 terrenos libres más, sobre los cuales podrás construir más edificios, cuando tu nivel de Rectorado llegue a los Niveles 4, 8 y 10."
+    },
+    "palace_4": {
+        "ar_title": "Mejorar Rectorado",
+        "header": "Haz clic en \"Rectorado\", luego en \"Mejorar\". Si cumples los requisitos para Mejorar, el botón estará activo; en caso contrario, estará en gris.",
+        "desc": "¡Tu ciudad florece! ¡Ave! Puedes progresar aún más si mejoras tu Rectorado ahora mismo. Te será permitido construir más edificios y a mayor velocidad. Podrás expandir tu ciudad y recibir 4 Terrenos libres más, sobre los cuales podrás construir más edificios, cuando tu nivel de Rectorado alcance los Niveles 4, 8 y 10."
+    },
+    "palace_5": {
+        "ar_title": "Mejorar Rectorado",
+        "header": "Haz clic en \"Rectorado\", luego en \"Mejorar\". Si cumples los requisitos para Mejorar el botón estará activo, en caso contrario, estará en gris.",
+        "desc": "¡Tu ciudad está en auge! ¡Ave! Puedes progresar aún más si mejoras tu Rectorado ahora mismo. Te será permitido construir más edificios y a mayor velocidad. Podrás expandir tu ciudad y recibir 4 terrenos libres más, sobre los cuales podrás construir más edificios, cuando tu nivel de Rectorado llegue a los Niveles 4, 8 y 10."
+    },
+    "palace_6": {
+        "ar_title": "Mejorar Rectorado",
+        "header": "Haz clic en \"Rectorado\", luego en \"Mejorar\". Si cumples los requisitos para Mejorar el botón estará activo, en caso contrario, estará en gris.",
+        "desc": "¡Tu ciudad está en auge! ¡Ave! Puedes progresar aún más si mejoras tu Rectorado ahora mismo. Te será permitido construir más edificios y a mayor velocidad. Podrás expandir tu ciudad y recibir 4 terrenos libres más, sobre los cuales podrás construir más edificios, cuando tu nivel de Rectorado llegue a los Niveles 4, 8 y 10."
+    },
+    "palace_7": {
+        "ar_title": "Mejorar Rectorado",
+        "header": "Haz clic en \"Rectorado\", luego en \"Mejorar\". Si cumples los requisitos para Mejorar el botón estará activo, en caso contrario, estará en gris.",
+        "desc": "¡Tu ciudad está en auge! ¡Ave! Puedes progresar aún más si mejoras tu Rectorado ahora mismo. Te será permitido construir más edificios y a mayor velocidad. Podrás expandir tu ciudad y recibir 4 terrenos libres más, sobre los cuales podrás construir más edificios, cuando tu nivel de Rectorado llegue a los Niveles 4, 8 y 10."
+    },
+    "palace_8": {
+        "ar_title": "Mejorar Rectorado",
+        "header": "Haz clic en \"Rectorado\", luego en \"Mejorar\". Si cumples los requisitos para Mejorar, el botón estará activo; en caso contrario, estará en gris.",
+        "desc": "¡Tu ciudad florece! ¡Ave! Puedes progresar aún más si mejoras tu Rectorado ahora mismo. Te será permitido construir más edificios y a mayor velocidad. Podrás expandir tu ciudad y recibir 4 Terrenos libres más, sobre los cuales podrás construir más edificios, cuando tu nivel de Rectorado alcance los Niveles 4, 8 y 10."
+    },
+    "palace_9": {
+        "ar_title": "Mejorar Rectorado",
+        "header": "Haz clic en \"Rectorado\", luego en \"Mejorar\". Si cumples los requisitos para Mejorar el botón estará activo; en caso contrario, estará en gris.",
+        "desc": "¡Tu ciudad está en auge! ¡Ave! Puedes progresar aún más si mejoras tu Rectorado ahora mismo. Te será permitido construir más edificios y a mayor velocidad. Podrás expandir tu ciudad y recibir 4 terrenos libres más, sobre los cuales podrás construir más edificios, cuando tu nivel de Rectorado llegue a los Niveles 4, 8 y 10."
+    },
+    "palace_10": {
+        "ar_title": "Mejorar Rectorado",
+        "header": "Haz clic en \"Rectorado\", luego en \"Mejorar\". Si cumples los requisitos para Mejorar, el botón estará activo; en caso contrario, estará en gris.",
+        "desc": "¡Tu ciudad florece! ¡Ave! Puedes progresar aún más si mejoras tu Rectorado ahora mismo. Te será permitido construir más edificios y a mayor velocidad. Podrás expandir tu ciudad y recibir 4 Terrenos libres más, sobre los cuales podrás construir más edificios, cuando tu nivel de Rectorado alcance los Niveles 4, 8 y 10."
+    },
+    "pop_1": {
+        "ar_title": "Completar Infraestructura",
+        "header": "Erige y mejora Cabañas hasta que la Capacidad de Población alcance 500.",
+        "desc": "¡Tu administración interna está mejorando y no estaría mal que recibieses ayuda de los ciudadanos más leales!"
+    },
+    "pop_2": {
+        "ar_title": "Completar Infraestructura",
+        "header": "Erige y mejora Cabañas hasta que la Capacidad de Población alcance 5000.",
+        "desc": "¡Tu administración interna es asombrosa y no estaría mal que recibas ayuda de los ciudadanos más leales!"
+    },
+    "pop_3": {
+        "ar_title": "Completar Infraestructura",
+        "header": "Erige y mejora Cabañas hasta que la Capacidad de Población alcance 50000.",
+        "desc": "¡Tu ciudad está en auge. Necesitarás más edificios y recursos para que más gente se mude a tus ciudades. Cuando tu Capacidad de Población llegue a 50000, tu ciudad será una metrópolis!"
+    },
+    "pop_4": {
+        "ar_title": "Completar Infraestructura",
+        "header": "Erige y mejora Cabañas hasta que la Capacidad de Población alcance 50000.",
+        "desc": "¡Tu ciudad está en auge. Necesitarás más edificios y recursos para que más gente se mude a tus ciudades. Cuando tu Capacidad de Población llegue a 50000, tu ciudad será una metrópolis!"
+    },
+    "jop_1": {
+        "ar_title": "Erigir Cabañas",
+        "header": "Haz clic en un Terreno Libre, luego en Erigir, y escoge Cabañas. <img src=\"img/Erect Cottages.jpg\"></img>",
+        "desc": "Las cabañas albergan ciudadanos. Construye cabañas para poder tener más ciudadanos que te ayuden en tus trabajos de construcción."
+    },
+    "jop_2": {
+        "ar_title": "Administración de Empleos",
+        "header": "En tu ciudad, elige campos de recursos (Granja, Aserradero, Cantera y Mina de Acero) y crea 50 Tareas por cada uno de ellos.",
+        "desc": "Has construido varias infraestructuras pero algunos de tus ciudadanos todavía se hallan inactivos. Es obvio que deberías poner a trabajar más población inactiva. Mejora la Tasa de Ocupación de Objetivo Laboral (TOOL) en \"Desempeño de Producción\" del Rectorado. Crea más tareas en los campos de recursos (Granja, Aserradero, Cantera y Mina de Acero)."
+    },
+    "farm_2": {
+        "ar_title": "Mejorar Granjas",
+        "header": "En tu ciudad, haz clic en \"Granja\" y mejórala a Nivel 2.  <img src=\"img/Upgrade Farms.jpg\"></img>",
+        "desc": "Tu Ciudad se expande. Todos necesitan alimento. Las Cosechas son indispensables en cada aspecto de la vida social. Mientras más alto sea el nivel de tu Granja, más rápido obtendrás tus Cosechas y más Tareas Agrícolas podrás crear, eso sí, una sola vez, con cada pedido."
+    },
+    "wood_2": {
+        "ar_title": "Mejorar Aserradero",
+        "header": "En tu ciudad, haz clic en \"Aserradero\" y mejóralo a Nivel 2. <img src=\"img/Upgrade Sawmill.jpg\"></img>",
+        "desc": "La Madera es un elemento esencial para construcciones de todo tipo, así como para usos militares. Mientras más alto sea el nivel de tu Aserradero, más cantidad de Madera obtendrás."
+    },
+    "uni_1": {
+        "ar_title": "Erigir Universidad",
+        "header": "Clica en Terreno libre, luego en Erigir, bajo Universidad. Si cumples los requisitos para Erigir, el botón estará activo; en caso contrario, estará en gris.<img src=\"img/Erect University.jpg\"></img>",
+        "desc": "La Universidad desarrolla tecnologías que aceleran las construcciones. Mientras más alto el nivel de Universidad, más alto será el nivel de las tecnologías que podrás estudiar y más rápido podrás concluirlas."
+    },
+    "uni_2": {
+        "ar_title": "Mejorar Universidad",
+        "header": "En tu ciudad, clica en \"Universidad\", luego en \"Mejorar\".  Si cumples los requisitos para Mejorar el botón estará activo, en caso contrario, estará en gris.",
+        "desc": "La Universidad desarrolla tecnologías que aceleran las construcciones. Mientras más alto el nivel de Universidad, más alto será el nivel de las tecnologías que podrás estudiar y más rápido podrás concluirlas."
+    },
+    "uni_3": {
+        "ar_title": "Mejorar Universidad",
+        "header": "En tu ciudad, clica en \"Universidad\", luego Mejorar hasta nivel 3.",
+        "desc": "La Universidad desarrolla tecnologías que aceleran las construcciones. Mientras más alto sea el nivel de la Universidad, más alto será el nivel de las tecnologías que podrás estudiar y más rápido podrás concluirlas."
+    },
+    "uni_4": {
+        "ar_title": "Mejorar Universidad",
+        "header": "En tu ciudad, clica en \"Universidad\", luego Mejorar hasta Nivel 4",
+        "desc": "La Universidad desarrolla tecnologías que aceleran las construcciones. Mientras más alto el nivel de Universidad, más alto será el nivel de las tecnologías que podrás estudiar y más rápido podrás concluirlas."
+    },
+    "uni_5": {
+        "ar_title": "Mejorar Universidad",
+        "header": "En tu ciudad, clica en \"Universidad\", luego Mejorar hasta nivel 5.",
+        "desc": "La Universidad desarrolla tecnologías que aceleran las construcciones. Mientras más alto sea el nivel de la Universidad, más alto será el nivel de las tecnologías que podrás estudiar y más rápido podrás concluirlas."
+    },
+    "uni_6": {
+        "ar_title": "Mejorar Universidad",
+        "header": "En tu ciudad, clica en \"Universidad\", luego Mejorar hasta nivel 6.",
+        "desc": "La Universidad desarrolla tecnologías que aceleran las construcciones. Mientras más alto sea el nivel de la Universidad, más alto será el nivel de las tecnologías que podrás estudiar y más rápido podrás concluirlas."
+    },
+    "uni_7": {
+        "ar_title": "Mejorar Universidad",
+        "header": "En tu ciudad, clica en \"Universidad\", luego Mejorar hasta nivel 7.",
+        "desc": "La Universidad desarrolla tecnologías que aceleran las construcciones. Mientras más alto sea el nivel de la Universidad, más alto será el nivel de las tecnologías que podrás estudiar y más rápido podrás concluirlas."
+    },
+    "uni_8": {
+        "ar_title": "Mejorar Universidad",
+        "header": "En tu ciudad, clic en \"Universidad\", luego Mejorar hasta Nivel 8.",
+        "desc": "La Universidad desarrolla tecnologías que aceleran las construcciones. Mientras más alto el nivel de Universidad, más alto será el nivel de las tecnologías que podrás estudiar y más rápido podrás concluirlas."
+    },
+    "uni_9": {
+        "ar_title": "Mejorar Universidad",
+        "header": "En tu ciudad, clica en \"Universidad\", luego Mejorar hasta nivel 9.",
+        "desc": "La Universidad desarrolla tecnologías que aceleran las construcciones. Mientras más alto sea el nivel de la Universidad, más alto será el nivel de las tecnologías que podrás estudiar y más rápido podrás concluirlas."
+    },
+    "uni_10": {
+        "ar_title": "Mejorar Universidad",
+        "header": "En tu ciudad, clica en \"Universidad\", luego Mejorar hasta Nivel 10.",
+        "desc": "La Universidad desarrolla tecnologías que aceleran las construcciones. Mientras más alto el nivel de Universidad, más alto será el nivel de las tecnologías que podrás estudiar y más rápido podrás concluirlas."
+    },
+    "acad_1": {
+        "ar_title": "Erigir Academia",
+        "header": "Clica en un terreno libre, luego clica en Erigir, bajo \"Academia\". Si cumples los requisitos para Erigir el botón estará activo, en caso contrario, estará en gris.<img src=\"img/Erect Academy.jpg\"></img>",
+        "desc": "Una Academia se especializa en el desarrollo de tecnología para usos militares. Mientras más alto sea el nivel de la Academia, más alto será el nivel de las tecnologías que podrás estudiar y más rápido las concluirás."
+    },
+    "acad_2": {
+        "ar_title": "Mejorar Academia",
+        "header": "En tu ciudad, clica en Academia Nivel 1, luego clica en \"Mejorar\". Si el botón está gris significa que aún te falta cumplir ciertos requisitos para Mejorar.",
+        "desc": "Una Academia se especializa en el desarrollo de tecnología para usos militares. Mientras más alto sea el nivel de la Academia, más alto será el nivel de las tecnologías que podrás estudiar y más rápido las concluirás."
+    },
+    "acad_3": {
+        "ar_title": "Mejorar Academia",
+        "header": "En tu ciudad, clica en Academia, luego Mejorar hasta nivel 3.",
+        "desc": "Una Academia se especializa en el desarrollo de tecnología para usos militares. Mientras más alto sea el nivel de la Academia, más alto será el nivel de tecnologías que podrás estudiar y más rápido las concluirás."
+    },
+    "acad_4": {
+        "ar_title": "Mejorar Academia",
+        "header": "En tu ciudad, clica en Academia y Mejora hasta Nivel 4.",
+        "desc": "Una Academia se especializa en el desarrollo de tecnología para usos militares. Mientras más alto sea el nivel de la Academia, más alto será el nivel de las tecnologías que podrás estudiar y más rápido las concluirás."
+    },
+    "acad_5": {
+        "ar_title": "Mejorar Academia",
+        "header": "En tu ciudad, clica en Academia, luego Mejorar hasta nivel 5.",
+        "desc": "Una Academia se especializa en el desarrollo de tecnología para usos militares. Mientras más alto sea el nivel de la Academia, más alto será el nivel de tecnologías que podrás estudiar y más rápido las concluirás."
+    },
+    "acad_6": {
+        "ar_title": "Mejorar Academia",
+        "header": "En tu ciudad, clica en Academia, luego Mejorar hasta nivel 6.",
+        "desc": "Una Academia se especializa en el desarrollo de tecnología para usos militares. Mientras más alto sea el nivel de la Academia, más alto será el nivel de tecnologías que podrás estudiar y más rápido las concluirás."
+    },
+    "acad_7": {
+        "ar_title": "Mejorar Academia",
+        "header": "En tu ciudad, clica en Academia, luego Mejorar hasta nivel 7.",
+        "desc": "Una Academia se especializa en el desarrollo de tecnología para usos militares. Mientras más alto sea el nivel de la Academia, más alto será el nivel de tecnologías que podrás estudiar y más rápido las concluirás."
+    },
+    "acad_8": {
+        "ar_title": "Mejorar Academia",
+        "header": "En tu ciudad, clica en Academia y Mejora hasta Nivel 8.",
+        "desc": "Una Academia se especializa en el desarrollo de tecnología para usos militares. Mientras más alto sea el nivel de la Academia, más alto será el nivel de las tecnologías que podrás estudiar y más rápido las concluirás."
+    },
+    "acad_9": {
+        "ar_title": "Mejorar Academia",
+        "header": "En tu ciudad, clica en Academia, luego Mejorar hasta nivel 9.",
+        "desc": "Una Academia se especializa en el desarrollo de tecnología para usos militares. Mientras más alto sea el nivel de la Academia, más alto será el nivel de tecnologías que podrás estudiar y más rápido las concluirás."
+    },
+    "acad_10": {
+        "ar_title": "Mejorar Academia",
+        "header": "En tu ciudad, clica en Academia y Mejora hasta Nivel 10.",
+        "desc": "Una Academia se especializa en el desarrollo de tecnología para usos militares. Mientras más alto sea el nivel de la Academia, más alto será el nivel de las tecnologías que podrás estudiar y más rápido las concluirás."
+    },
+    "wall_1": {
+        "ar_title": "Erigir Muro",
+        "header": "Clica en Muro Nivel 0, luego en Erigir, bajo \"Muro\". Si cumples los requisitos para Erigir el botón estará activo, en caso contrario, estará en gris.<img src=\"img/Erect Wall.jpg\"></img>",
+        "desc": "Tienes casi todo, menos un Muro en la Ciudad. Se requiere gran cantidad de Piedra para erigir un Muro, así que trabaja mucho para poder crear más Tareas Gemológicas. Podrás levantar toda clase de fortificaciones a lo largo de tu Muro, para protegerte de invasiones."
+    },
+    "wall_2": {
+        "ar_title": "Fortificar Muro",
+        "header": "En tu ciudad, clica en Muro Nivel 1, luego \"Mejorar\". Si cumples los requisitos para Mejorar el botón estará activo, en caso contrario, estará en gris.",
+        "desc": "La capacidad de protección militar de los Muros es tremenda. Además de estimular la Defensa de las tropas que se hallen en la ciudad, actúan como barrera contra invasores. Mientras más alto sea el nivel de tu Muro, más poderosos serán tus mecanismos de defensa."
+    },
+    "wall_3": {
+        "ar_title": "Fortificar Muro",
+        "header": "En tu ciudad, clica en Muro, y luego en Mejorar hasta nivel 3.",
+        "desc": "La capacidad de protección militar de los Muros es tremenda. Además de estimular la Defensa de las tropas que se hallen en la ciudad, actúa como barrera contra invasores. Mientras más alto sea el nivel de tu Muro, más poderosos serán tus mecanismos de defensa."
+    },
+    "wall_4": {
+        "ar_title": "Fortificar Muro",
+        "header": "En tu ciudad, clica en Muro, luego en Mejorar hasta nivel 4.",
+        "desc": "La capacidad de protección militar de los Muros es tremenda. Además de estimular la Defensa de las tropas que se hallen en la ciudad, actúan como barrera contra invasores. Mientras más alto sea el nivel de tu Muro, más poderosos serán tus mecanismos de defensa."
+    },
+    "wall_5": {
+        "ar_title": "Fortificar Muro",
+        "header": "En tu ciudad, clica en Muro, y luego en Mejorar hasta nivel 5.",
+        "desc": "La capacidad de protección militar de los Muros es tremenda. Además de estimular la Defensa de las tropas que se hallen en la ciudad, actúa como barrera contra invasores. Mientras más alto sea el nivel de tu Muro, más poderosos serán tus mecanismos de defensa."
+    },
+    "wall_6": {
+        "ar_title": "Fortificar Muro",
+        "header": "En tu ciudad, clica en Muro, y luego en Mejorar hasta nivel 6.",
+        "desc": "La capacidad de protección militar de los Muros es tremenda. Además de estimular la Defensa de las tropas que se hallen en la ciudad, actúa como barrera contra invasores. Mientras más alto sea el nivel de tu Muro, más poderosos serán tus mecanismos de defensa."
+    },
+    "wall_7": {
+        "ar_title": "Fortificar Muro",
+        "header": "En tu ciudad, clica en Muro, y luego en Mejorar hasta nivel 7.",
+        "desc": "La capacidad de protección militar de los Muros es tremenda. Además de estimular la Defensa de las tropas que se hallen en la ciudad, actúa como barrera contra invasores. Mientras más alto sea el nivel de tu Muro, más poderosos serán tus mecanismos de defensa."
+    },
+    "wall_8": {
+        "ar_title": "Fortificar Muro",
+        "header": "En tu ciudad, clica en Muro, luego en Mejorar hasta nivel 8.",
+        "desc": "La capacidad de protección militar de los Muros es tremenda. Además de estimular la Defensa de las tropas que se hallen en la ciudad, actúan como barrera contra invasores. Mientras más alto sea el nivel de tu Muro, más poderosos serán tus mecanismos de defensa."
+    },
+    "wall_9": {
+        "ar_title": "Fortificar Muro",
+        "header": "En tu ciudad, clica en Muro, y luego en Mejorar hasta nivel 9.",
+        "desc": "La capacidad de protección militar de los Muros es tremenda. Además de estimular la Defensa de las tropas que se hallen en la ciudad, actúa como barrera contra invasores. Mientras más alto sea el nivel de tu Muro, más poderosos serán tus mecanismos de defensa."
+    },
+    "wall_10": {
+        "ar_title": "Fortificar Muro",
+        "header": "En tu ciudad, clica en Muro, luego en Mejorar hasta nivel 10.",
+        "desc": "La capacidad de protección militar de los Muros es tremenda. Además de estimular la Defensa de las tropas que se hallen en la ciudad, actúan como barrera contra invasores. Mientras más alto sea el nivel de tu Muro, más poderosos serán tus mecanismos de defensa."
+    },
+    "theat_1": {
+        "ar_title": "Erigir Anfiteatro",
+        "header": "Clica en un terreno libre y luego clic Erigir, bajo Anfiteatro.  Si cumples los requisitos para Erigir el botón estará activo, en caso contrario, estará en gris.<img src=\"img/Erect Amphitheatre.jpg\"></img>",
+        "desc": "El verdadero talento es escaso y la ayuda de héroes capaces es incalculable. Erige un Anfiteatro para atraer héroes y reclutarlos. Mientras más alto sea el nivel del Anfiteatro, más alto será el nivel de los héroes que lleguen a tu ciudad."
+    },
+    "theat_2": {
+        "ar_title": "Mejorar Anfiteatro",
+        "header": "En tu ciudad, clica en el \"Anfiteatro\" de Nivel 2, luego clica en \"Mejorar\".",
+        "desc": "Mejora tu Anfiteatro para aumentar posibilidades de encontrar talentos extraordinarios. Como recompensa, entrega regalos valiosos que aumentarán su Lealtad. Mientras más alto sea el nivel de Anfiteatro, será el nivel de los héroes que lleguen a tu ciudad."
+    },
+    "theat_3": {
+        "ar_title": "Mejorar Anfiteatro",
+        "header": "En tu ciudad, clica en el \"Anfiteatro\" de Nivel 3, luego clica en \"Mejorar\".",
+        "desc": "Mejora tu Anfiteatro para aumentar posibilidades de encontrar talentos extraordinarios. Como recompensa, entrega regalos valiosos que aumentarán su Lealtad. Mientras más alto sea el nivel de Anfiteatro, será el nivel de los héroes que lleguen a tu ciudad."
+    },
+    "theat_4": {
+        "ar_title": "Mejorar Anfiteatro",
+        "header": "En tu ciudad, clica en el \"Anfiteatro\" de Nivel 3, luego clica en \"Mejorar\".",
+        "desc": "Mejora tu Anfiteatro para aumentar posibilidades de encontrar talentos extraordinarios. Como recompensa, entrega regalos valiosos que aumentarán su Lealtad. Mientras más alto sea el nivel de Anfiteatro, será el nivel de los héroes que lleguen a tu ciudad."
+    },
+    "theat_5": {
+        "ar_title": "Mejorar Anfiteatro",
+        "header": "En tu ciudad, clica en el \"Anfiteatro\" de Nivel 4, luego clica en \"Mejorar\".",
+        "desc": "Mejora tu Anfiteatro para aumentar posibilidades de encontrar talentos extraordinarios. Como recompensa, entrega regalos valiosos que aumentarán su Lealtad. Mientras más alto sea el nivel de Anfiteatro, será el nivel de los héroes que lleguen a tu ciudad."
+    },
+    "theat_6": {
+        "ar_title": "Mejorar Anfiteatro",
+        "header": "En tu ciudad, clica en el \"Anfiteatro\" de Nivel 5, luego clica en \"Mejorar\".",
+        "desc": "Mejora tu Anfiteatro para aumentar posibilidades de encontrar talentos extraordinarios. Como recompensa, entrega regalos valiosos que aumentarán su Lealtad. Mientras más alto sea el nivel de Anfiteatro, será el nivel de los héroes que lleguen a tu ciudad."
+    },
+    "theat_7": {
+        "ar_title": "Mejorar Anfiteatro",
+        "header": "En tu ciudad, clica en el \"Anfiteatro\" de Nivel 6, luego clica en \"Mejorar\".",
+        "desc": "Mejora tu Anfiteatro para aumentar posibilidades de encontrar talentos extraordinarios. Como recompensa, entrega regalos valiosos que aumentarán su Lealtad. Mientras más alto sea el nivel de Anfiteatro, será el nivel de los héroes que lleguen a tu ciudad."
+    },
+    "theat_8": {
+        "ar_title": "Mejorar Anfiteatro",
+        "header": "En tu ciudad, clica en el \"Anfiteatro\" de Nivel 7, luego clica en \"Mejorar\".",
+        "desc": "Mejora tu Anfiteatro para aumentar posibilidades de encontrar talentos extraordinarios. Como recompensa, entrega regalos valiosos que aumentarán su Lealtad. Mientras más alto sea el nivel de Anfiteatro, será el nivel de los héroes que lleguen a tu ciudad."
+    },
+    "theat_9": {
+        "ar_title": "Mejorar Anfiteatro",
+        "header": "En tu ciudad, clica en el \"Anfiteatro\" de Nivel 8, luego clica en \"Mejorar\".",
+        "desc": "Mejora tu Anfiteatro para aumentar posibilidades de encontrar talentos extraordinarios. Como recompensa, entrega regalos valiosos que aumentarán su Lealtad. Mientras más alto sea el nivel de Anfiteatro, será el nivel de los héroes que lleguen a tu ciudad."
+    },
+    "theat_10": {
+        "ar_title": "Mejorar Anfiteatro",
+        "header": "En tu ciudad, clica en el \"Anfiteatro\" de Nivel 9, luego clica en \"Mejorar\".",
+        "desc": "Mejora tu Anfiteatro para aumentar posibilidades de encontrar talentos extraordinarios. Como recompensa, entrega regalos valiosos que aumentarán su Lealtad. Mientras más alto sea el nivel de Anfiteatro, será el nivel de los héroes que lleguen a tu ciudad."
+    },
+    "worship_1": {
+        "ar_title": "Erigir Templo",
+        "header": "Clic en un Terreno libre, luego en Erigir en Templo. Si los requisitos para Erigir han sido satisfechos, el botón estará activo; en caso contrario, estará en gris.<img src=\"img/Erect Temple.jpg\"></img>",
+        "desc": "En la religión romana, los templos son lugares a los que asistes para adorar a tu dios, recibir mejoras especiales y recolectar recursos. Una Crítica de Pacificación puede incrementar la Lealtad de los ciudadanos."
+    },
+    "worship_2": {
+        "ar_title": "Mejorar Templo",
+        "header": "En tu ciudad, clic en \"Templo\", luego en \"Mejorar\", si los requisitos para Mejorar han sido satisfechos, el botón estará activo; en caso contrario, estará en gris.",
+        "desc": "El Templo es un icono de la religión romana en el que puedes pacificar a tus ciudadanos y recolectar sus recursos. Diferentes dioses y diosas estimulan diferentes áreas productivas. Mientras más alto sea el nivel de tu Templo, más grande será el estímulo de producción que recibas."
+    },
+    "worship_3": {
+        "ar_title": "Mejorar Templo",
+        "header": "En tu ciudad, selecciona Templo y Mejorar hasta Nivel 3.",
+        "desc": "El Templo es un icono de la religión romana. Diferentes dioses y diosas estimulan diferentes áreas productivas. Mientras más alto sea el nivel de tu Templo, más grande será el estímulo de producción que recibas."
+    },
+    "worship_4": {
+        "ar_title": "Mejorar Templo",
+        "header": "En tu ciudad, selecciona Templo y mejóralo a Nivel 4.",
+        "desc": "El Templo es un icono de la religión romana. Diferentes dioses y diosas estimulan diferentes áreas productivas. Mientras más alto sea el nivel de tu Templo, más grande será el estímulo de producción que recibas."
+    },
+    "worship_5": {
+        "ar_title": "Mejorar Templo",
+        "header": "En tu ciudad, selecciona Templo y Mejorar hasta Nivel 5.",
+        "desc": "El Templo es un icono de la religión romana. Diferentes dioses y diosas estimulan diferentes áreas productivas. Mientras más alto sea el nivel de tu Templo, más grande será el estímulo de producción que recibas."
+    },
+    "worship_6": {
+        "ar_title": "Mejorar Templo",
+        "header": "En tu ciudad, selecciona Templo y Mejorar hasta Nivel 6.",
+        "desc": "El Templo es un icono de la religión romana. Diferentes dioses y diosas estimulan diferentes áreas productivas. Mientras más alto sea el nivel de tu Templo, más grande será el estímulo de producción que recibas."
+    },
+    "worship_7": {
+        "ar_title": "Mejorar Templo",
+        "header": "En tu ciudad, selecciona Templo y Mejorar hasta Nivel 7.",
+        "desc": "El Templo es un icono de la religión romana. Diferentes dioses y diosas estimulan diferentes áreas productivas. Mientras más alto sea el nivel de tu Templo, más grande será el estímulo de producción que recibas."
+    },
+    "worship_8": {
+        "ar_title": "Mejorar Templo",
+        "header": "En tu ciudad, selecciona Templo y mejóralo a Nivel 8.",
+        "desc": "El Templo es un icono de la religión romana. Diferentes dioses y diosas estimulan diferentes áreas productivas. Mientras más alto sea el nivel de tu Templo, más grande será el estímulo de producción que recibas."
+    },
+    "worship_9": {
+        "ar_title": "Mejorar Templo",
+        "header": "En tu ciudad, selecciona Templo y Mejorar hasta Nivel 9.",
+        "desc": "El Templo es un icono de la religión romana. Diferentes dioses y diosas estimulan diferentes áreas productivas. Mientras más alto sea el nivel de tu Templo, más grande será el estímulo de producción que recibas."
+    },
+    "worship_10": {
+        "ar_title": "Mejorar Templo",
+        "header": "En tu ciudad, selecciona Templo y mejóralo a Nivel 10.",
+        "desc": "El Templo es un icono de la religión romana. Diferentes dioses y diosas estimulan diferentes áreas productivas. Mientras más alto sea el nivel de tu Templo, más grande será el estímulo de producción que recibas."
+    },
+    "barracks_1": {
+        "ar_title": "Erigir Barracas",
+        "header": "Clica en terreno libre, luego en Erigir, bajo \"Barracas\". Si cumples los requisitos para Erigir el botón estará activo, en caso contrario, estará en gris.<img src=\"img/Erect Barrack.jpg\"></img>",
+        "desc": "En las Barracas se entrenan Hastatus, Sagitarios y Príncipes. Algunas clases de infantería deben tener Barracas de alto nivel para sus entrenamientos. Puedes erigir más de una Barraca en tu ciudad. El descarte de infanterías es ejecutado también en las Barracas."
+    },
+    "barracks_2": {
+        "ar_title": "Mejorar Barracas",
+        "header": "En tu ciudad, clica en terreno libre, luego en Barracas Nivel 1. Si cumples los requisitos para Mejorar, el botón estará activo, en caso contrario, estará en gris.",
+        "desc": "En las Barracas se entrenan Hastatus, Sagitarios y Príncipes. Algunas clases de infantería deben tener Barracas de alto nivel para sus entrenamientos. Puedes erigir más de una Barraca en tu ciudad. El descarte de infanterías es ejecutado también en las Barracas."
+    },
+    "barracks_3": {
+        "ar_title": "Mejorar Barracas",
+        "desc": "En las Barracas se entrenan Hastatus, Sagitarios y Príncipes. Algunas clases de infantería deben tener Barracas de alto nivel para sus entrenamientos. Puedes erigir más de una Barraca en tu ciudad. El descarte de infanterías es ejecutado también en las Barracas.",
+        "header": "En tu ciudad,selecciona Barraca y luego Mejorar hasta nivel 3."
+    },
+    "barracks_4": {
+        "ar_title": "Mejorar Barracas",
+        "desc": "En las Barracas se entrenan Hastatus, Sagitarios y Príncipes. Algunas clases de infantería deben tener Barracas de alto nivel para sus entrenamientos. Puedes erigir más de una Barraca en tu ciudad. El descarte de infanterías es ejecutado también en las Barracas.",
+        "header": "En tu ciudad, selecciona Barraca y Mejorar hasta nivel 4."
+    },
+    "barracks_5": {
+        "ar_title": "Mejorar Barracas",
+        "desc": "En las Barracas se entrenan Hastatus, Sagitarios y Príncipes. Algunas clases de infantería deben tener Barracas de alto nivel para sus entrenamientos. Puedes erigir más de una Barraca en tu ciudad. El descarte de infanterías es ejecutado también en las Barracas.",
+        "header": "En tu ciudad,selecciona Barraca y luego Mejorar hasta nivel 5."
+    },
+    "barracks_6": {
+        "ar_title": "Mejorar Barracas",
+        "desc": "En las Barracas se entrenan Hastatus, Sagitarios y Príncipes. Algunas clases de infantería deben tener Barracas de alto nivel para sus entrenamientos. Puedes erigir más de una Barraca en tu ciudad. El descarte de infanterías es ejecutado también en las Barracas.",
+        "header": "En tu ciudad,selecciona Barraca y luego Mejorar hasta nivel 6."
+    },
+    "barracks_7": {
+        "ar_title": "Mejorar Barracas",
+        "desc": "En las Barracas se entrenan Hastatus, Sagitarios y Príncipes. Algunas clases de infantería deben tener Barracas de alto nivel para sus entrenamientos. Puedes erigir más de una Barraca en tu ciudad. El descarte de infanterías es ejecutado también en las Barracas.",
+        "header": "En tu ciudad,selecciona Barraca y luego Mejorar hasta nivel 7."
+    },
+    "barracks_8": {
+        "ar_title": "Mejorar Barracas",
+        "desc": "En las Barracas se entrenan Hastatus, Sagitarios y Príncipes. Algunas clases de infantería deben tener Barracas de alto nivel para sus entrenamientos. Puedes erigir más de una Barraca en tu ciudad. El descarte de infanterías es ejecutado también en las Barracas.",
+        "header": "En tu ciudad, selecciona Barraca y Mejorar hasta nivel 8."
+    },
+    "barracks_9": {
+        "ar_title": "Mejorar Barracas",
+        "header": "En tu ciudad,selecciona Barraca y luego Mejorar hasta nivel 9.",
+        "desc": "En las Barracas se entrenan Hastatus, Sagitarios y Príncipes. Algunas clases de infantería deben tener Barracas de alto nivel para sus entrenamientos. Puedes erigir más de una Barraca en tu ciudad. El descarte de infanterías es ejecutado también en las Barracas."
+    },
+    "barracks_10": {
+        "ar_title": "Mejorar Barracas",
+        "header": "En tu ciudad, selecciona Barraca y Mejorar hasta nivel 10.",
+        "desc": "En las Barracas se entrenan Hastatus, Sagitarios y Príncipes. Algunas clases de infantería deben tener Barracas de alto nivel para sus entrenamientos. Puedes erigir más de una Barraca en tu ciudad. El descarte de infanterías es ejecutado también en las Barracas."
+    },
+    "stabl_1": {
+        "ar_title": "Erigir Establo",
+        "header": "Clica en un terreno libre, luego en Erigir, bajo \"Establos\". Si cumples los requisitos para Erigir el botón estará activo, en caso contrario, estará en gris.<img src=\"img/Erect Stable.jpg\"></img>",
+        "desc": "En los Establos se entrena la caballería: Rastreadores y Equites. Mientras más alto sea el nivel, más rápido concluirán los entrenamientos. Puedes erigir más de un Establo en tu ciudad. El descarte de infantes de caballería es también ejecutado en los Establos."
+    },
+    "stabl_2": {
+        "ar_title": "Mejorar Establo",
+        "header": "En tu ciudad, clica en \"Establo\" Nivel 1, luego en \"Mejorar\". Si cumples los requisitos para Mejorar el botón estará activo, en caso contrario, estará en gris.",
+        "desc": "En los Establos se entrenan Rastreadores y Equites. Mientras más alto sea el nivel, más rápido concluirán los entrenamientos y más larga podrá ser la lista de espera permitida."
+    },
+    "stabl_3": {
+        "ar_title": "Mejorar Establo",
+        "header": "En tu ciudad, clica en \"Establo\" y luego Mejorar a nivel 3.",
+        "desc": "En los Establos se entrenan Rastreadores y Equites. Mientras más alto sea el nivel, más rápido concluyen los entrenamientos y más larga podrá ser la lista de espera permitida."
+    },
+    "stabl_4": {
+        "ar_title": "Mejorar Establo",
+        "header": "En tu ciudad, clica en \"Establo\" Nivel 1 y Mejorar hasta nivel 4.",
+        "desc": "En los Establos se entrenan Rastreadores y Equites. Mientras más alto sea el nivel, más rápido concluirán los entrenamientos y más larga podrá ser la lista de espera permitida."
+    },
+    "stabl_5": {
+        "ar_title": "Mejorar Establo",
+        "header": "En tu ciudad, clica en \"Establo\" y luego Mejorar a nivel 5.",
+        "desc": "En los Establos se entrenan Rastreadores y Equites. Mientras más alto sea el nivel, más rápido concluyen los entrenamientos y más larga podrá ser la lista de espera permitida."
+    },
+    "stabl_6": {
+        "ar_title": "Mejorar Establo",
+        "header": "En tu ciudad, clica en \"Establo\" y luego Mejorar a nivel 6.",
+        "desc": "En los Establos se entrenan Rastreadores y Equites. Mientras más alto sea el nivel, más rápido concluyen los entrenamientos y más larga podrá ser la lista de espera permitida."
+    },
+    "stabl_7": {
+        "ar_title": "Mejorar Establo",
+        "header": "En tu ciudad, clica en \"Establo\" y luego Mejorar a nivel 7.",
+        "desc": "En los Establos se entrenan Rastreadores y Equites. Mientras más alto sea el nivel, más rápido concluyen los entrenamientos y más larga podrá ser la lista de espera permitida."
+    },
+    "stabl_8": {
+        "ar_title": "Mejorar Establo",
+        "header": "En tu ciudad, clica en \"Establo\" Nivel 1 y Mejorar hasta nivel 8.",
+        "desc": "En los Establos se entrenan Rastreadores y Equites. Mientras más alto sea el nivel, más rápido concluirán los entrenamientos y más larga podrá ser la lista de espera permitida."
+    },
+    "stabl_9": {
+        "ar_title": "Mejorar Establo",
+        "header": "En tu ciudad, clica en \"Establo\" y luego Mejorar a nivel 9.",
+        "desc": "En los Establos se entrenan Rastreadores y Equites. Mientras más alto sea el nivel, más rápido concluyen los entrenamientos y más larga podrá ser la lista de espera permitida."
+    },
+    "stabl_10": {
+        "ar_title": "Mejorar Establo",
+        "header": "En tu ciudad, clica en \"Establo\" Nivel 1 y Mejorar hasta nivel 10.",
+        "desc": "En los Establos se entrenan Rastreadores y Equites. Mientras más alto sea el nivel, más rápido concluirán los entrenamientos y más larga podrá ser la lista de espera permitida."
+    },
+    "workshop_1": {
+        "ar_title": "Erigir Taller",
+        "header": "Clica en un terreno libre, luego en Erigir, bajo \"Talleres\". Si cumples los requisitos para Erigir el botón estará activo, en caso contrario, estará en gris.<img src=\"img/Erect Workshop.jpg\"></img>",
+        "desc": "En los talleres se elaboran máquinas de asedio: Ballistas y Catapultas. Mientras más alto sea el nivel, más rápido serán construidas las máquinas. Estas se procesan una vez por pedido. Puedes erigir más de un Taller en cada ciudad. El descarte de máquinas de asedio es ejecutado también en los Talleres."
+    },
+    "workshop_2": {
+        "ar_title": "Mejorar Taller",
+        "header": "En tu ciudad, clica en \"Taller\" Nivel 1, luego en \"Mejorar\". Si cumples los requisitos para Mejorar el botón estará activo, en caso contrario, estará en gris.",
+        "desc": "En los talleres se elaboran máquinas de asedio: Ballistas y Catapultas. Mientras más alto sea el nivel, más rápido serán construidas las máquinas y más larga podrá ser la lista de espera permitida."
+    },
+    "workshop_3": {
+        "ar_title": "Mejorar Taller",
+        "desc": "En los talleres se elaboran máquinas de asedio: Ballistas y Catapultas. Mientras más alto sea el nivel, más rápido serán construidas las máquinas y más larga podrá ser la lista de espera permitida.",
+        "header": "En tu ciudad, clica en \"Taller\" y luego Mejorar a nivel 3."
+    },
+    "workshop_4": {
+        "ar_title": "Mejorar Taller",
+        "desc": "En los talleres se elaboran máquinas de asedio: Ballistas y Catapultas. Mientras más alto sea el nivel, más rápido serán construidas las máquinas y más larga podrá ser la lista de espera permitida.",
+        "header": "En tu ciudad, elige \"Taller\" y Mejorar hasta nivel 4."
+    },
+    "workshop_5": {
+        "ar_title": "Mejorar Taller",
+        "header": "En tu ciudad, clica en \"Taller\" y luego Mejorar a nivel 5.",
+        "desc": "En los talleres se elaboran máquinas de asedio: Ballistas y Catapultas. Mientras más alto sea el nivel, más rápido serán construidas las máquinas y más larga podrá ser la lista de espera permitida."
+    },
+    "workshop_6": {
+        "ar_title": "Mejorar Taller",
+        "header": "En tu ciudad, clica en \"Taller\" y luego Mejorar a nivel 6.",
+        "desc": "En los talleres se elaboran máquinas de asedio: Ballistas y Catapultas. Mientras más alto sea el nivel, más rápido serán construidas las máquinas y más larga podrá ser la lista de espera permitida."
+    },
+    "workshop_7": {
+        "ar_title": "Mejorar Taller",
+        "header": "En tu ciudad, clica en \"Taller\" y luego Mejorar a nivel 7.",
+        "desc": "En los talleres se elaboran máquinas de asedio: Ballistas y Catapultas. Mientras más alto sea el nivel, más rápido serán construidas las máquinas y más larga podrá ser la lista de espera permitida."
+    },
+    "workshop_8": {
+        "ar_title": "Mejorar Taller",
+        "header": "En tu ciudad, elige \"Taller\" y Mejorar hasta nivel 8.",
+        "desc": "En los talleres se elaboran máquinas de asedio: Ballistas y Catapultas. Mientras más alto sea el nivel, más rápido serán construidas las máquinas y más larga podrá ser la lista de espera permitida."
+    },
+    "workshop_9": {
+        "ar_title": "Mejorar Taller",
+        "header": "En tu ciudad, clica en \"Taller\" y luego Mejorar a nivel 9.",
+        "desc": "En los talleres se elaboran máquinas de asedio: Ballistas y Catapultas. Mientras más alto sea el nivel, más rápido serán construidas las máquinas y más larga podrá ser la lista de espera permitida."
+    },
+    "workshop_10": {
+        "ar_title": "Mejorar Taller",
+        "header": "En tu ciudad, elige \"Taller\" y Mejorar hasta nivel 10.",
+        "desc": "En los talleres se elaboran máquinas de asedio: Ballistas y Catapultas. Mientras más alto sea el nivel, más rápido serán construidas las máquinas y más larga podrá ser la lista de espera permitida."
+    },
+    "prom_1": {
+        "ar_title": "Edil",
+        "header": "Te será otorgada una promoción cuando satisfagas el requisito de Sestercios y artículos de lujo. Los Sestercios y artículos de lujo serán deducidos al momento de aceptar las recompensas de la Tarea.",
+        "desc": "Tanto los miembros de la Curia como todos los otros niveles de la sociedad romana están muy satisfechos con tu forma de administrar la ciudad. Cuando tengas suficiente Prestigio se te ascenderá a un rango noble más alto. Con cada promoción de rango deberás gastar Sestercios y artículos de lujo para organizar un gran banquete de celebración."
+    },
+    "prom_2": {
+        "ar_title": "Censor",
+        "header": "Te será otorgada una promoción cuando satisfagas el requisito de Sestercios y artículos de lujo. Los Sestercios y artículos de lujo serán deducidos al momento de aceptar las recompensas de la Tarea.",
+        "desc": "Tanto los miembros de la Curia como todos los otros niveles de la sociedad romana están muy satisfechos con tu forma de administrar la ciudad. Cuando tengas suficiente Prestigio se te ascenderá a un rango noble más alto. Con cada promoción de rango deberás gastar Sestercios y artículos de lujo para organizar un gran banquete de celebración."
+    },
+    "prom_3": {
+        "ar_title": "Quaestor",
+        "header": "Te será otorgada una promoción cuando satisfagas el requisito de Sestercios y artículos de lujo. Los Sestercios y artículos de lujo serán deducidos al momento de aceptar las recompensas de la Tarea.",
+        "desc": "Tanto los miembros de la Curia como todos los otros niveles de la sociedad romana están muy satisfechos con tu forma de administrar la ciudad. Cuando tengas suficiente Prestigio se te ascenderá a un rango noble más alto. Con cada promoción de rango deberás gastar Sestercios y artículos de lujo para organizar un gran banquete de celebración."
+    },
+    "prom_4": {
+        "ar_title": "Tribuno",
+        "header": "Te será otorgada una promoción cuando satisfagas el requisito de Sestercios y artículos de lujo. Los Sestercios y artículos de lujo serán deducidos al momento de aceptar las recompensas de la Tarea.",
+        "desc": "Tanto los miembros de la Curia como todos los otros niveles de la sociedad romana están muy satisfechos con tu forma de administrar la ciudad. Cuando tengas suficiente Prestigio se te ascenderá a un rango noble más alto. Con cada promoción de rango deberás gastar Sestercios y artículos de lujo para organizar un gran banquete de celebración."
+    },
+    "prom_5": {
+        "ar_title": "Procurador",
+        "header": "Te será otorgada una promoción cuando satisfagas el requisito de Sestercios y artículos de lujo. Los Sestercios y artículos de lujo serán deducidos al momento de aceptar las recompensas de la Tarea.",
+        "desc": "Tanto los miembros de la Curia como todos los otros niveles de la sociedad romana están muy satisfechos con tu forma de administrar la ciudad. Cuando tengas suficiente Prestigio se te ascenderá a un rango noble más alto. Con cada promoción de rango deberás gastar Sestercios y artículos de lujo para organizar un gran banquete de celebración."
+    },
+    "prom_6": {
+        "ar_title": "Pretor",
+        "header": "Te será otorgada una promoción cuando satisfagas el requisito de Sestercios y artículos de lujo. Los Sestercios y artículos de lujo serán deducidos al momento de aceptar las recompensas de la Tarea.",
+        "desc": "Tanto los miembros de la Curia como todos los otros niveles de la sociedad romana están muy satisfechos con tu forma de administrar la ciudad. Cuando tengas suficiente Prestigio se te ascenderá a un rango noble más alto. Con cada promoción de rango deberás gastar Sestercios y artículos de lujo para organizar un gran banquete de celebración."
+    },
+    "prom_7": {
+        "ar_title": "Delegado",
+        "header": "Te será otorgada una promoción cuando satisfagas el requisito de Sestercios y artículos de lujo. Los Sestercios y artículos de lujo serán deducidos al momento de aceptar las recompensas de la Tarea.",
+        "desc": "Tanto los miembros de la Curia como todos los otros niveles de la sociedad romana están muy satisfechos con tu forma de administrar la ciudad. Cuando tengas suficiente Prestigio se te ascenderá a un rango noble más alto. Con cada promoción de rango deberás gastar Sestercios y artículos de lujo para organizar un gran banquete de celebración."
+    },
+    "prom_8": {
+        "ar_title": "Dictador",
+        "header": "Te será otorgada una promoción cuando satisfagas el requisito de Sestercios y artículos de lujo. Los Sestercios y artículos de lujo serán deducidos al momento de aceptar las recompensas de la Tarea.",
+        "desc": "Tanto los miembros de la Curia como todos los otros niveles de la sociedad romana están muy satisfechos con tu forma de administrar la ciudad. Cuando tengas suficiente Prestigio se te ascenderá a un rango noble más alto. Con cada promoción de rango deberás gastar Sestercios y artículos de lujo para organizar un gran banquete de celebración."
+    },
+    "prom_9": {
+        "ar_title": "Jefe 5ta Legión",
+        "header": "Te será otorgada una promoción cuando satisfagas el requisito de Sestercios y artículos de lujo. Los Sestercios y artículos de lujo serán deducidos al momento de aceptar las recompensas de la Tarea.",
+        "desc": "Tanto los miembros de la Curia como todos los otros niveles de la sociedad romana están muy satisfechos con tu forma de administrar la ciudad. Cuando tengas suficiente Prestigio se te ascenderá a un rango noble más alto. Con cada promoción de rango deberás gastar Sestercios y artículos de lujo para organizar un gran banquete de celebración."
+    },
+    "prom_10": {
+        "ar_title": "Jefe de la 4ta Legión",
+        "header": "La promoción te será otorgada cuando hayas satisfecho los requisitos de nivel de Rectorado, Prestigio, Sestercios, mejora de artículos regulares y de lujo. Los Sestercios Requeridos y los artículos de lujo te serán deducidos cuando aceptes las recompensas de la Tarea.",
+        "desc": "Tu manera de administrar la ciudad complace por igual a la Curia como a los diversos estratos de la sociedad. Serás promovido a Rango Noble cuando tengas suficiente Prestigio. Para celebrar la promoción de rango, debes entregar cierta suma de Sestercios y artículos de lujo para organizar un banquete por todo lo alto."
+    },
+    "prom_11": {
+        "ar_title": "Jefe de la 3ra Legión",
+        "header": "La promoción te será otorgada cuando hayas satisfecho los requisitos de nivel de Rectorado, Prestigio, Sestercios, mejora de artículos regulares y de lujo. Los Sestercios Requeridos y los artículos de lujo te serán deducidos cuando aceptes las recompensas de la Tarea.",
+        "desc": "Tu manera de administrar la ciudad complace por igual a la Curia como a los diversos estratos de la sociedad. Serás promovido a Rango Noble cuando tengas suficiente Prestigio. Para celebrar la promoción de rango, debes entregar cierta suma de Sestercios y artículos de lujo para organizar un banquete por todo lo alto."
+    },
+    "prom_12": {
+        "ar_title": "Jefe de la 2da Legión",
+        "header": "La promoción te será otorgada cuando hayas satisfecho los requisitos de nivel de Rectorado, Prestigio, Sestercios, mejora de artículos regulares y de lujo. Los Sestercios Requeridos y los artículos de lujo te serán deducidos cuando aceptes las recompensas de la Tarea.",
+        "desc": "Tu manera de administrar la ciudad complace por igual a la Curia como a los diversos estratos de la sociedad. Serás promovido a Rango Noble cuando tengas suficiente Prestigio. Para celebrar la promoción de rango, debes entregar cierta suma de Sestercios y artículos de lujo para organizar un banquete por todo lo alto."
+    },
+    "prom_13": {
+        "ar_title": "Jefe de la 1ra Legión",
+        "header": "La promoción te será otorgada cuando hayas satisfecho los requisitos de nivel de Rectorado, Prestigio, Sestercios, mejora de artículos regulares y de lujo. Los Sestercios Requeridos y los artículos de lujo te serán deducidos cuando aceptes las recompensas de la Tarea.",
+        "desc": "Tu manera de administrar la ciudad complace por igual a la Curia como a los diversos estratos de la sociedad. Serás promovido a Rango Noble cuando tengas suficiente Prestigio. Para celebrar la promoción de rango, debes entregar cierta suma de Sestercios y artículos de lujo para organizar un banquete por todo lo alto."
+    },
+    "prom_14": {
+        "ar_title": "Mayor General",
+        "header": "La promoción te será otorgada cuando hayas satisfecho los requisitos de nivel de Rectorado, Prestigio, Sestercios, mejora de artículos regulares y de lujo. Los Sestercios Requeridos y los artículos de lujo te serán deducidos cuando aceptes las recompensas de la Tarea.",
+        "desc": "Tu manera de administrar la ciudad complace por igual a la Curia como a los diversos estratos de la sociedad. Serás promovido a Rango Noble cuando tengas suficiente Prestigio. Para celebrar la promoción de rango, debes entregar cierta suma de Sestercios y artículos de lujo para organizar un banquete por todo lo alto."
+    },
+    "prom_15": {
+        "ar_title": "Teniente General",
+        "header": "La promoción te será otorgada cuando hayas satisfecho los requisitos de nivel de Rectorado, Prestigio, Sestercios, mejora de artículos regulares y de lujo. Los Sestercios Requeridos y los artículos de lujo te serán deducidos cuando aceptes las recompensas de la Tarea.",
+        "desc": "Tu manera de administrar la ciudad complace por igual a la Curia como a los diversos estratos de la sociedad. Serás promovido a Rango Noble cuando tengas suficiente Prestigio. Para celebrar la promoción de rango, debes entregar cierta suma de Sestercios y artículos de lujo para organizar un banquete por todo lo alto."
+    },
+    "prom_16": {
+        "ar_title": "General de 3ra Clase",
+        "header": "La promoción te será otorgada cuando hayas satisfecho los requisitos de nivel de Rectorado, Prestigio, Sestercios, mejora de artículos regulares y de lujo. Los Sestercios Requeridos y los artículos de lujo te serán deducidos cuando aceptes las recompensas de la Tarea.",
+        "desc": "Tu manera de administrar la ciudad complace por igual a la Curia como a los diversos estratos de la sociedad. Serás promovido a Rango Noble cuando tengas suficiente Prestigio. Para celebrar la promoción de rango, debes entregar cierta suma de Sestercios y artículos de lujo para organizar un banquete por todo lo alto."
+    },
+    "prom_17": {
+        "ar_title": "General de 2da Clase",
+        "header": "La promoción te será otorgada cuando hayas satisfecho los requisitos de nivel de Rectorado, Prestigio, Sestercios, mejora de artículos regulares y de lujo. Los Sestercios Requeridos y los artículos de lujo te serán deducidos cuando aceptes las recompensas de la Tarea.",
+        "desc": "Tu manera de administrar la ciudad complace por igual a la Curia como a los diversos estratos de la sociedad. Serás promovido a Rango Noble cuando tengas suficiente Prestigio. Para celebrar la promoción de rango, debes entregar cierta suma de Sestercios y artículos de lujo para organizar un banquete por todo lo alto."
+    },
+    "prom_18": {
+        "ar_title": "General de 1ra Clase",
+        "header": "La promoción te será otorgada cuando hayas satisfecho los requisitos de nivel de Rectorado, Prestigio, Sestercios, mejora de artículos regulares y de lujo. Los Sestercios Requeridos y los artículos de lujo te serán deducidos cuando aceptes las recompensas de la Tarea.",
+        "desc": "Tu manera de administrar la ciudad complace por igual a la Curia como a los diversos estratos de la sociedad. Serás promovido a Rango Noble cuando tengas suficiente Prestigio. Para celebrar la promoción de rango, debes entregar cierta suma de Sestercios y artículos de lujo para organizar un banquete por todo lo alto."
+    },
+    "prom_19": {
+        "ar_title": "Mariscal",
+        "header": "La promoción te será otorgada cuando hayas satisfecho los requisitos de nivel de Rectorado, Prestigio, Sestercios, mejora de artículos regulares y de lujo. Los Sestercios Requeridos y los artículos de lujo te serán deducidos cuando aceptes las recompensas de la Tarea.",
+        "desc": "Tu manera de administrar la ciudad complace por igual a la Curia como a los diversos estratos de la sociedad. Serás promovido a Rango Noble cuando tengas suficiente Prestigio. Para celebrar la promoción de rango, debes entregar cierta suma de Sestercios y artículos de lujo para organizar un banquete por todo lo alto."
+    },
+    "prom_20": {
+        "ar_title": "9° Senador",
+        "header": "La promoción te será otorgada cuando hayas satisfecho los requisitos de nivel de Rectorado, Prestigio, Sestercios, mejora de artículos regulares y de lujo. Los Sestercios Requeridos y los artículos de lujo te serán deducidos cuando aceptes las recompensas de la Tarea.",
+        "desc": "Tu manera de administrar la ciudad complace por igual a la Curia como a los diversos estratos de la sociedad. Serás promovido a Rango Noble cuando tengas suficiente Prestigio. Para celebrar la promoción de rango, debes entregar cierta suma de Sestercios y artículos de lujo para organizar un banquete por todo lo alto."
+    },
+    "prom_21": {
+        "ar_title": "8° Senador",
+        "header": "La promoción te será otorgada cuando hayas satisfecho los requisitos de nivel de Rectorado, Prestigio, Sestercios, mejora de artículos regulares y de lujo. Los Sestercios Requeridos y los artículos de lujo te serán deducidos cuando aceptes las recompensas de la Tarea.",
+        "desc": "Tu manera de administrar la ciudad complace por igual a la Curia como a los diversos estratos de la sociedad. Serás promovido a Rango Noble cuando tengas suficiente Prestigio. Para celebrar la promoción de rango, debes entregar cierta suma de Sestercios y artículos de lujo para organizar un banquete por todo lo alto."
+    },
+    "prom_22": {
+        "ar_title": "7° Senador",
+        "header": "La promoción te será otorgada cuando hayas satisfecho los requisitos de nivel de Rectorado, Prestigio, Sestercios, mejora de artículos regulares y de lujo. Los Sestercios Requeridos y los artículos de lujo te serán deducidos cuando aceptes las recompensas de la Tarea.",
+        "desc": "Tu manera de administrar la ciudad complace por igual a la Curia como a los diversos estratos de la sociedad. Serás promovido a Rango Noble cuando tengas suficiente Prestigio. Para celebrar la promoción de rango, debes entregar cierta suma de Sestercios y artículos de lujo para organizar un banquete por todo lo alto."
+    },
+    "prom_23": {
+        "ar_title": "6° Senador",
+        "header": "La promoción te será otorgada cuando hayas satisfecho los requisitos de nivel de Rectorado, Prestigio, Sestercios, mejora de artículos regulares y de lujo. Los Sestercios Requeridos y los artículos de lujo te serán deducidos cuando aceptes las recompensas de la Tarea.",
+        "desc": "Tu manera de administrar la ciudad complace por igual a la Curia como a los diversos estratos de la sociedad. Serás promovido a Rango Noble cuando tengas suficiente Prestigio. Para celebrar la promoción de rango, debes entregar cierta suma de Sestercios y artículos de lujo para organizar un banquete por todo lo alto."
+    },
+    "prom_24": {
+        "ar_title": "5° Senador",
+        "header": "La promoción te será otorgada cuando hayas satisfecho los requisitos de nivel de Rectorado, Prestigio, Sestercios, mejora de artículos regulares y de lujo. Los Sestercios Requeridos y los artículos de lujo te serán deducidos cuando aceptes las recompensas de la Tarea.",
+        "desc": "Tu manera de administrar la ciudad complace por igual a la Curia como a los diversos estratos de la sociedad. Serás promovido a Rango Noble cuando tengas suficiente Prestigio. Para celebrar la promoción de rango, debes entregar cierta suma de Sestercios y artículos de lujo para organizar un banquete por todo lo alto."
+    },
+    "prom_25": {
+        "ar_title": "4° Senador",
+        "header": "La promoción te será otorgada cuando hayas satisfecho los requisitos de nivel de Rectorado, Prestigio, Sestercios, mejora de artículos regulares y de lujo. Los Sestercios Requeridos y los artículos de lujo te serán deducidos cuando aceptes las recompensas de la Tarea.",
+        "desc": "Tu manera de administrar la ciudad complace por igual a la Curia como a los diversos estratos de la sociedad. Serás promovido a Rango Noble cuando tengas suficiente Prestigio. Para celebrar la promoción de rango, debes entregar cierta suma de Sestercios y artículos de lujo para organizar un banquete por todo lo alto."
+    },
+    "prom_26": {
+        "ar_title": "3er Senador",
+        "header": "La promoción te será otorgada cuando hayas satisfecho los requisitos de nivel de Rectorado, Prestigio, Sestercios, mejora de artículos regulares y de lujo. Los Sestercios Requeridos y los artículos de lujo te serán deducidos cuando aceptes las recompensas de la Tarea.",
+        "desc": "Tu manera de administrar la ciudad complace por igual a la Curia como a los diversos estratos de la sociedad. Serás promovido a Rango Noble cuando tengas suficiente Prestigio. Para celebrar la promoción de rango, debes entregar cierta suma de Sestercios y artículos de lujo para organizar un banquete por todo lo alto."
+    },
+    "prom_27": {
+        "ar_title": "2° Senador",
+        "header": "La promoción te será otorgada cuando hayas satisfecho los requisitos de nivel de Rectorado, Prestigio, Sestercios, mejora de artículos regulares y de lujo. Los Sestercios Requeridos y los artículos de lujo te serán deducidos cuando aceptes las recompensas de la Tarea.",
+        "desc": "Tu manera de administrar la ciudad complace por igual a la Curia como a los diversos estratos de la sociedad. Serás promovido a Rango Noble cuando tengas suficiente Prestigio. Para celebrar la promoción de rango, debes entregar cierta suma de Sestercios y artículos de lujo para organizar un banquete por todo lo alto."
+    },
+    "prom_28": {
+        "ar_title": "1er Senador",
+        "header": "La promoción te será otorgada cuando hayas satisfecho los requisitos de nivel de Rectorado, Prestigio, Sestercios, mejora de artículos regulares y de lujo. Los Sestercios Requeridos y los artículos de lujo te serán deducidos cuando aceptes las recompensas de la Tarea.",
+        "desc": "Tu manera de administrar la ciudad complace por igual a la Curia como a los diversos estratos de la sociedad. Serás promovido a Rango Noble cuando tengas suficiente Prestigio. Para celebrar la promoción de rango, debes entregar cierta suma de Sestercios y artículos de lujo para organizar un banquete por todo lo alto."
+    },
+    "prom_29": {
+        "ar_title": "César",
+        "header": "La promoción te será otorgada cuando hayas satisfecho los requisitos de nivel de Rectorado, Prestigio, Sestercios, mejora de artículos regulares y de lujo. Los Sestercios Requeridos y los artículos de lujo te serán deducidos cuando aceptes las recompensas de la Tarea.",
+        "desc": "Tu manera de administrar la ciudad complace por igual a la Curia como a los diversos estratos de la sociedad. Serás promovido a Rango Noble cuando tengas suficiente Prestigio. Para celebrar la promoción de rango, debes entregar cierta suma de Sestercios y artículos de lujo para organizar un banquete por todo lo alto."
+    },
+    "lucky": {
+        "DB_name": "lucky",
+        "ar_title": "Cabra Zodiacal Diaria Gratuita",
+        "header": "Cada día, al iniciar sesión, el jugador recibe una Cabra del Zodiaco gratis. Juega todos los días para poder seguir cobrando tu Cabra del Zodiaco.",
+        "desc": "Una Cabra del Zodiaco es un artículo necesario para la Ceremonia del Zodiaco. Al ofrendar una Cabra del Zodiaco a tu dios recibirás grandes recompensas. Buena suerte y que te diviertas durante tu Ceremonia del Zodiaco."
+    },
+    "t_map": {
+        "DB_name": "t_map",
+        "ar_title": "Recolectar Mapa del tesoro",
+        "header": "Consigue un Mapa del Tesoro cada día que inicies sesión",
+        "desc": "Gentes de las regiones vecinas se congregan a comerciar en las grandes ciudades. Cuando viajan, los mercaderes hablan con todo el mundo, y les encanta cotillear. Por esos cotilleos se puede conocer nueva información y leyendas sobre mapas de tesoros: dónde y cómo hallarlos, quién los tiene, etc. El Señor de la Ciudad aprovechará toda oportunidad y enviará siervos de confianza a investigar la validez de esas habladurías."
+    },
+    "repel_trumpet": {
+        "DB_name": "repel_trumpet",
+        "ar_title": "Toma Muestra de Cuerno de Represión",
+        "header": "La República Romana está siendo atacada por el Temerario Rompecráneos mientras los Señores están sumidos en combate contra las fuerzas rebeldes. Por tanto, no hay tropas suficientes para mantener la paz en las ciudades. En estos momentos, la riqueza de los plebeyos está a merced de ladrones, bandidos ambulantes y pandilleros, quienes se han mantenido al margen de la ley de la República durante mucho tiempo.  Destruyen y matan todo lo que encuentran a su paso. El pueblo sufre demasiado. Se regocijan quemando casas, para obligar a la gente a dejar sus refugios y así poder asesinarles. La paz de la sociedad se ha vuelto muy inestable. Los ciudadanos romanos añoran una vida sin sobresaltos y esperan a un salvador que ponga fin a los crímenes y restituya el orden previo.",
+        "desc": "Cada día, al iniciar sesión, te serán otorgadas gratuitamente Muestras de Cuerno de Represión. Usa éstas o Cuernos de Represión para lanzar guerras contra los Vándalos de Cartago y Revuelta de Cartago (puntos rosas) en el mapa de mundo. Por la defensa contra las Revueltas de Cartago te serán otorgados artículos nuevos."
+    },
+    "copper_medal": {
+        "DB_name": "copper_medal",
+        "ar_title": "Adquirir Medalla de Cobre",
+        "header": "Obtienes 5 Medallas de Cobre",
+        "desc": "El consumo de Medalla de Cobre causa efectividad en la educación de los héroes para mejorar su capacidad de combate."
+    },
+    "exp_map": {
+        "DB_name": "exp_map",
+        "ar_title": "Canjear por Trama de Vitruvio",
+        "header": "Canjea 10 Mapas del Tesoro por 1 trama de Vitruvio.",
+        "desc": "Cuando hayas recolectado suficientes Mapas del Tesoro, querrás tenerlos todos. Pero tal vez carezcas de tiempo para ir a visitar esos lugares en persona. Resulta que no hay garantías de que esos mapas te traigan riqueza y prosperidad. ¿Por qué no te deshaces de ellos? De vez en cuando, algunos mercaderes desearán canjear contigo 10 Mapas del Tesoro. A cambio, recibirás 1 Trama de Vitruvio."
+    },
+    "army_s_1": {
+        "DB_name": "army_s_1",
+        "ar_title": "Sofocar Rebelión",
+        "header": "Canjea 5 Aglets Rebeldes Grises por un Paquete Gris.",
+        "desc": "El Senado otorga un Paquete Gris al señor que le haya ayudado a sofocar la rebelión."
+    },
+    "army_s_3": {
+        "DB_name": "army_s_3",
+        "ar_title": "Canjear Paquete de Cautivos Pequeño",
+        "header": "Canjea 20 Aglets Rebeldes Grises por 3 Paquetes de Cautivos Pequeños",
+        "desc": "Derrota a los rebeldes en una zona salvaje de niveles entre 1 y 3. Los campesinos te envían un Aglet Rebelde Gris como muestra de agradecimiento. Lleva el aglet a los senadores. Ellos autorizarán que haya más fuerzas militares a tu disposición"
+    },
+    "army_m_1": {
+        "DB_name": "army_m_1",
+        "ar_title": "Tareas II",
+        "header": "Ayuda: En cada Round, solo el Rango 1 consigue la Medalla del Rey",
+        "desc": "Solo el rey de la Arena puede conseguir la recompensa. Al finalizar la Tarea podrás conseguir 50.000 de Prestigio y 50.000 de Honor"
+    },
+    "army_m_3": {
+        "DB_name": "army_m_3",
+        "ar_title": "Canje de  Pase CSG Negro",
+        "header": "Canjea 20 Aglets Rebeldes Amarillos por 2 Pases Negros CSG",
+        "desc": "El Senado emite Pases Negros para Coliseo de Simulación de Guerra (CSG) al señor que pueda ser elegido para participar ella. Puedes canjear 20 Aglets Rebeldes Amarillos por 2 Pases Negros CSG, como medida para asegurar tu participación en una simulación de guerra."
+    },
+    "army_l_1": {
+        "DB_name": "army_l_1",
+        "ar_title": "Tareas III",
+        "header": "Ayuda: En cada Round, solo el Rango 1 consigue la Medalla del Rey",
+        "desc": "Solo el rey de la Arena puede conseguir la recompensa. Al finalizar la Tarea podrás conseguir 100.000 de Prestigio y 100.000 de Honor"
+    },
+    "army_l_3": {
+        "DB_name": "army_l_3",
+        "ar_title": "Canjear Paquete Grande de Cautivos",
+        "header": "Canjea 20 Aglets Rebeldes Púrpuras por 3 Paquetes Grandes de Cautivos",
+        "desc": "Derrota a los rebeldes en una zona salvaje de niveles entre 8 y 10. Los campesinos te envían un Aglet Rebelde Púrpura como muestra de agradecimiento. Lleva el aglet a los senadores. Ellos autorizarán que haya más fuerzas militares a tu disposición"
+    },
+    "m1_x20": {
+        "DB_name": "m1_x20",
+        "ar_title": "Canje de  Pase CSG Negro",
+        "header": "Canjea 20 Aglets Rebeldes Grises por 1 Pase Negro CSG",
+        "desc": "El Senado emite Pases Negros para el Coliseo de Simulación de Guerra (CSG) al señor que pueda ser elegido para participar en ella. Puedes canjear 20 Aglets Rebeldes Grises por 1 Pase Negro, como medida para asegurar tu participación en una simulación de guerra."
+    },
+    "m2_x20": {
+        "DB_name": "m2_x20",
+        "ar_title": "Canje de  Pase CSG Negro",
+        "header": "Canjea 20 Aglets Rebeldes Amarillos por 2 Pases Negros CSG",
+        "desc": "El Senado emite Pases Negros para Coliseo de Simulación de Guerra (CSG) al señor que pueda ser elegido para participar ella. Puedes canjear 20 Aglets Rebeldes Amarillos por 2 Pases Negros CSG, como medida para asegurar tu participación en una simulación de guerra."
+    },
+    "m3_x20": {
+        "DB_name": "m3_x20",
+        "ar_title": "Canje de  Pase CSG Negro",
+        "header": "Canjea 20 Aglets Rebeldes Púrpuras por 5 Pases Negros CSG",
+        "desc": "El Senado emite Pases Negros para Coliseo de Simulación de Guerra (CSG) al señor que pueda ser elegido para participar ella. Puedes canjear 20 Aglets Rebeldes Púrpuras por 5 Pases Negros CSG, como medida para asegurar tu participación en una simulación de guerra."
+    },
+    "mr_x10": {
+        "DB_name": "mr_x10",
+        "ar_title": "Canje de  Pase CSG Negro",
+        "header": "Canjea 10 Pases Rojos CSG por 5 Pases Negros CSG",
+        "desc": "El Senado emite Pases Negros para Coliseo de Simulación de Guerra (CSG) al señor que pueda ser elegido para participar ella. Puedes canjear 10 Pases Rojos por 5 Pases Negros CSG, como medida para asegurar tu participación en una simulación de guerra."
+    },
+    "mr_x2": {
+        "DB_name": "mr_x2",
+        "ar_title": "Premios de Simulación de Guerra: Carne",
+        "header": "Canjea 2 Pases Rojos CSG por 1 Carne.",
+        "desc": "El Senado provee un banquete al Señor que les entregue 2 Pases Rojos CSG"
+    },
+    "mr_x4": {
+        "DB_name": "mr_x4",
+        "ar_title": "Premios de Guerra de Simulación: Tropas",
+        "header": "Canjea 4 Pases Rojos CSG por 1 Paquete Grande de Cautivos.",
+        "desc": "El Senado entrega tropas al Señor que les entregue 4 Pases Rojos CSG"
+    },
+    "mr_x300": {
+        "DB_name": "mr_x300",
+        "ar_title": "Premios de Simulación de Guerra: Héroe",
+        "header": "Canjea 300 Pases Rojos CSG por un héroe con 8 POT.",
+        "desc": "El Senado asigna a un Héroe al Señor que les entregue 300 Pases Rojos CSG"
+    },
+    "mb_x1": {
+        "DB_name": "mb_x1",
+        "ar_title": "Adquirir Pase Negro de Coliseo de Simulación de Guerra (CSG)",
+        "header": "Adquirir Pase Negro de Coliseo de Simulación de Guerra (CSG)",
+        "desc": "El Senado busca señores de rango noble para participar activamente en Simulación de Guerra, resistiendo las ofensivas rebeldes."
+    },
+    "pres_20k": {
+        "DB_name": "pres_20k",
+        "ar_title": "Canjear Emblema(s) por Prestigio",
+        "header": "Cuando tu Rango Noble y la cantidad de Emblemas recolectados satisfagan los requisitos, podrás hacer canjes por la Recompensa de la Tarea. Ten en cuenta que los Emblemas canjeados te serán restados una vez hayas aceptado la recompensa.",
+        "desc": "Las fuerzas rebeldes se expanden por las áreas vecinas rápidamente, cometiendo toda clase de crímenes. Para proteger a la República, el Señor debería eliminar a estos rebeldes. Los señores pueden participar en guerras contra las ciudades rebeldes consumiendo un Pase CSG Negro. Cuando hayas recolectado suficientes Emblemas, recibirás una gran recompensa. Te serán otorgados 20.000 de Prestigio al completar esta Tarea."
+    },
+    "pres_80k": {
+        "DB_name": "pres_80k",
+        "ar_title": "Canjear Emblema(s) por Prestigio",
+        "header": "Cuando tu Rango Noble y la cantidad de Emblemas recolectados satisfagan los requisitos, podrás hacer canjes por la Recompensa de la Tarea. Ten en cuenta que los Emblemas canjeados te serán restados una vez hayas aceptado la recompensa.",
+        "desc": "Las fuerzas rebeldes se expanden por las áreas vecinas rápidamente, cometiendo toda clase de crímenes. Para proteger a la República, el Señor debería eliminar a estos rebeldes. Los señores pueden participar en guerras contra las ciudades rebeldes consumiendo un Pase CSG Negro. Cuando hayas recolectado suficientes Emblemas, recibirás una gran recompensa. Te serán otorgados 80.000 de Prestigio al completar esta Tarea."
+    },
+    "union_era": {
+        "DB_name": "union_era",
+        "ar_title": "Canjear Emblema(s) por Artículos",
+        "header": "Cuando tu Rango Noble y la cantidad de Emblemas recolectados satisfagan los requisitos, podrás hacer canjes por la Recompensa de la Tarea. Ten en cuenta que los Emblemas canjeados te serán restados una vez hayas aceptado la recompensa.",
+        "desc": "Las fuerzas rebeldes se expanden por las áreas vecinas rápidamente, cometiendo toda clase de crímenes. Para proteger a la República, el Señor debería eliminar a estos rebeldes. Los señores pueden participar en guerras contra las ciudades rebeldes consumiendo un Pase CSG Negro. Cuando hayas recolectado suficientes Emblemas, recibirás una gran recompensa. Te será otorgado 1 Pacto de Unión de Liga al completar esta Tarea."
+    },
+    "free_help": {
+        "DB_name": "freedom_help",
+        "ar_title": "Canjear Emblema(s) por Artículos",
+        "header": "Cuando tu Rango Noble y la cantidad de Emblemas recolectados satisfagan los requisitos, podrás hacer canjes por la Recompensa de la Tarea. Ten en cuenta que los Emblemas canjeados te serán restados una vez hayas aceptado la recompensa.",
+        "desc": "Las fuerzas rebeldes se expanden por las áreas vecinas rápidamente, cometiendo toda clase de crímenes. Para proteger a la República, el Señor debería eliminar a estos rebeldes. Los señores pueden participar en guerras contra las ciudades rebeldes consumiendo un Pase CSG Negro. Cuando hayas recolectado suficientes Emblemas, recibirás una gran recompensa. Te será otorgada 1 Libertad Divina al completar esta Tarea."
+    },
+    "motiv_60": {
+        "DB_name": "motiv_60",
+        "ar_title": "Reparación",
+        "header": "Clica en \"Universidad\" y estudia \"Reparación\".",
+        "desc": "Unos trabajos de reparación inmediatos y a tiempo mantienen tus fortificaciones activas y en buen estado. Además, la Reparación estimula la Tasa de Restauración de tus fortificaciones, de ese modo hay mayor porcentaje de rescate cuando son destruidas."
+    },
+    "helper_chng": {
+        "DB_name": "help_house_chng",
+        "ar_title": "Reparación",
+        "header": "Clica en \"Universidad\" y estudia \"Reparación\".",
+        "desc": "Unos trabajos de reparación inmediatos y a tiempo mantienen tus fortificaciones activas y en buen estado. Además, la Reparación estimula la Tasa de Restauración de tus fortificaciones, de ese modo hay mayor porcentaje de rescate cuando son destruidas."
+    },
+    "pres_5k": {
+        "DB_name": "pres_5k",
+        "ar_title": "Canjear por 5,000 de Prestigio",
+        "header": "Canjea 2 Pases Rojos CSG por 1 Emblema de Macedonia por 5,000 de Prestigio",
+        "desc": "Recompensas para los más valientes y brillantes."
+    },
+    "pres_50k": {
+        "DB_name": "pres_50k",
+        "ar_title": "Emblemas de Prestigio por 50,000 de Prestigio",
+        "header": "Canjea 2 Emblemas de Prestigio por 50,000 de Prestigio.",
+        "desc": "Recompensas para los más valientes y brillantes."
+    },
+    "pres_100k": {
+        "DB_name": "pres_100k",
+        "ar_title": "Emblemas de Prestigio por 100,000 de Prestigio",
+        "header": "Canjea 4 Emblemas de Prestigio por 100,000 de Prestigio.",
+        "desc": "Recompensas para los más valientes y brillantes."
+    },
+    "pres_400k": {
+        "DB_name": "pres_400k",
+        "ar_title": "Emblemas de Prestigio por 400,000 de Prestigio",
+        "header": "Canjea 16 Emblemas de Prestigio por 400,000 de Prestigio.",
+        "desc": "Recompensas para los más valientes y brillantes."
+    },
+    "pres_500k": {
+        "DB_name": "pres_500k",
+        "ar_title": "Emblemas de Prestigio por 400,000 de Prestigio",
+        "header": "Canjea 16 Emblemas de Prestigio por 400,000 de Prestigio.",
+        "desc": "Recompensas para los más valientes y brillantes."
+    },
+    "loy_boot": {
+        "DB_name": "loy_boot",
+        "ar_title": "Canjea Emblema(s) por Zapatos Leales",
+        "header": "Zapatos Leales: HP+4, Ofensiva +1, Defensa +1.",
+        "desc": "Para prevenir la expensión de los Rebeldes, el Senado envía Equipo Leal como recompensa por éxito en batalla. Consiguiendo suficientes Emblemas, podrás conseguir recompensas por Tareas. Tras completas esta tarea, conseguirás Espada Leal."
+    },
+    "loy_shield": {
+        "DB_name": "loy_shield",
+        "ar_title": "Canjea Emblema(s) por Escudo Leal",
+        "header": "Escudo Leal: HP+18, Defensa +2.",
+        "desc": "Para prevenir la expensión de los Rebeldes, el Senado envía Equipo Leal como recompensa por éxito en batalla. Consiguiendo suficientes Emblemas, podrás conseguir recompensas por Tareas. Tras completas esta tarea, conseguirás Espada Leal."
+    },
+    "loy_helmet": {
+        "DB_name": "loy_helmet",
+        "ar_title": "Canjear Emblema(s) por Casco Glorioso",
+        "header": "Casco Glorioso: HP +13, Daño+1, Defensa +1.",
+        "desc": "Para prevenir la expensión de los Rebeldes, el Senado envía Equipo Leal como recompensa por éxito en batalla. Consiguiendo suficientes Emblemas, podrás conseguir recompensas por Tareas. Tras completas esta tarea, conseguirás Espada Leal."
+    },
+    "loy_armor": {
+        "DB_name": "loy_armor",
+        "ar_title": "Canjea Emblema(s) por Armadura Leal",
+        "header": "Armadura Leal: HP +10, Daño+1 Defensa +1.",
+        "desc": "Para prevenir la expensión de los Rebeldes, el Senado envía Equipo Leal como recompensa por éxito en batalla. Consiguiendo suficientes Emblemas, podrás conseguir recompensas por Tareas. Tras completas esta tarea, conseguirás Espada Leal."
+    },
+    "loy_sword": {
+        "DB_name": "loy_sword",
+        "ar_title": "Canjea Emblema(s) por Espada Leal",
+        "header": "Espada Lead: Daño +3, Ofensiva+4, Técnica: lluvia de flechas.",
+        "desc": "Para prevenir la expensión de los Rebeldes, el Senado envía Equipo Leal como recompensa por éxito en batalla. Consiguiendo suficientes Emblemas, podrás conseguir recompensas por Tareas. Tras completas esta tarea, conseguirás Espada Leal."
+    },
+    "lion_boot": {
+        "DB_name": "lion_boot",
+        "ar_title": "Canjea Emblemas y Tinte por Botas León",
+        "header": "Botas León: Daño+4 Ofensiva +4, Defensa +4.",
+        "desc": "León te regala un par de botas por traerle sus emblemas perdidos."
+    },
+    "lion_shield": {
+        "DB_name": "lion_shield",
+        "ar_title": "Canjea Emblemas y especias por Escudo León",
+        "header": "Escudo León: HP+48 Ofensiva +16.",
+        "desc": "León te regala un escudo por traerle sus emblemas perdidos."
+    },
+    "lion_helmet": {
+        "DB_name": "lion_helmet",
+        "ar_title": "Canjea Emblemas y Vino por Casco León",
+        "header": "Casco León: HP+48 Daño+4 Ofensiva +8.",
+        "desc": "León te regala un casco por traerle sus emblemas perdidos."
+    },
+    "lion_armor": {
+        "DB_name": "lion_armor",
+        "ar_title": "Canjea Emblemas y Lana por Armadura León",
+        "header": "Armadura León HP+32 Defensa+12 Técnica: Testudo.",
+        "desc": "León te regala una armadura traerle sus emblemas perdidos."
+    },
+    "lion_sword": {
+        "DB_name": "lion_sword",
+        "ar_title": "Canjea Emblemas y Seda por Espada León",
+        "header": "Espada León: Daño+16 Ofensiva +32.",
+        "desc": "León te regala una espada por traerle sus emblemas perdidos."
+    },
+    "fearless_boot": {
+        "ar_title": "Canjea Emblemas y Pieles por Botas Sin Miedo",
+        "header": "Botas Sin Miedo: Daño +8, Ofensiva +8 Defensa +8.",
+        "desc": "Si luchas duro contra los rebeldes, el Imperio te recompensará con una pieza de Equipo Sin Miedo por proteger el Imperio Romano."
+    },
+    "fearless_shield": {
+        "DB_name": "lion_shield",
+        "ar_title": "Canjea Emblemas y Pieles por Escudo Sin Miedo",
+        "header": "Escudo Sin Miedo: HP+90 Defemsa +30.",
+        "desc": "Si luchas duro contra los rebeldes, el Imperio te recompensará con una pieza de Equipo Sin Miedo por proteger el Imperio Romano."
+    },
+    "fearless_helmet": {
+        "DB_name": "lion_helmet",
+        "ar_title": "Canjea Emblema(s) e Incienso por Escudo Sin Miedo",
+        "header": "Casco Sin Miedo: HP+60 Daño+5 Ofensiva +10.",
+        "desc": "Si luchas duro contra los rebeldes, el Imperio te recompensará con una pieza de Equipo Sin Miedo por proteger el Imperio Romano."
+    },
+    "fearless_armor": {
+        "DB_name": "lion_armor",
+        "ar_title": "Canjea Emblemas y Marfil por Armadura Sin Miedo",
+        "header": "Armadura Sin Miedo: HP+60 Defensa +20 Técnica: Testudo.",
+        "desc": "Si luchas duro contra los rebeldes, el Imperio te recompensará con una pieza de Equipo Sin Miedo por proteger el Imperio Romano."
+    },
+    "fearless_sword": {
+        "DB_name": "lion_sword",
+        "ar_title": "Canjea Emblemas y Diamantes por Espada Sin Miedo",
+        "header": "Espada Sin Miedo: Daño+30 Ofensiva +60.",
+        "desc": "Si luchas duro contra los rebeldes, el Imperio te recompensará con una pieza de Equipo Sin Miedo por proteger el Imperio Romano."
+    },
+    "mili_boot": {
+        "ar_title": "Canjea por Botas Implacables",
+        "header": "Botas Implacables: Ofensiva +18 Daño+10.",
+        "desc": "Forjado por Vulcano, este Equipo pertenece solo a los más poderosos Señores y les dan poder para luchar contra los más fuertes."
+    },
+    "mili_shield": {
+        "DB_name": "lion_shield",
+        "ar_title": "Canjea por Escudo Implacable",
+        "header": "Escudo Implacable HP+25 Defensa +40.",
+        "desc": "Forjado por Vulcano, este Equipo pertenece solo a los más poderosos Señores y les dan poder para luchar contra los más fuertes."
+    },
+    "mili_helmet": {
+        "DB_name": "lion_helmet",
+        "ar_title": "Canjea por Casco Implacable",
+        "header": "Casco Implacable: Defensa +24 Ofensiva +26.",
+        "desc": "Forjado por Vulcano, este Equipo pertenece solo a los más poderosos Señores y les dan poder para luchar contra los más fuertes."
+    },
+    "mili_armor": {
+        "DB_name": "lion_armor",
+        "ar_title": "Canjea por Armadura Implacable",
+        "header": "Armadura Implacable HP+125 Defensa+10.",
+        "desc": "Forjado por Vulcano, este Equipo pertenece solo a los más poderosos Señores y les dan poder para luchar contra los más fuertes."
+    },
+    "mili_sword": {
+        "DB_name": "lion_sword",
+        "ar_title": "Canjea por Espada Implacable",
+        "header": "Espada Implacable: Daño+50.",
+        "desc": "Forjado por Vulcano, este Equipo pertenece solo a los más poderosos Señores y les dan poder para luchar contra los más fuertes."
+    },
+    "bright_boot": {
+        "ar_title": "Canjear por Botas Brillantes",
+        "header": "Botas Brillantes: Ofensiva +20, Daño+15.",
+        "desc": "El Senado le da el Equipo a los mejores Señores como símbolo de su estatus"
+    },
+    "bright_shield": {
+        "DB_name": "lion_shield",
+        "ar_title": "Canjear por Escudo Brillante",
+        "header": "Escudo Brillante: HP+95, Defensa+40.",
+        "desc": "El Senado le da el Equipo a los mejores Señores como símbolo de su estatus"
+    },
+    "bright_helmet": {
+        "DB_name": "lion_helmet",
+        "ar_title": "Canjear por Casco Brillante",
+        "header": "Casco Brillante: HP+80, Ofensiva +20, Técnica: Lluvia de Flechas.",
+        "desc": "El Senado le da el Equipo a los mejores Señores como símbolo de su estatus"
+    },
+    "bright_armor": {
+        "DB_name": "lion_armor",
+        "ar_title": "Canjear por Armadura Brillante",
+        "header": "Armadura Brillante: HP +80, Defensa +30, Técnica: Testudo.",
+        "desc": "El Senado le da el Equipo a los mejores Señores como símbolo de su estatus"
+    },
+    "bright_sword": {
+        "DB_name": "lion_sword",
+        "ar_title": "Canjear por Lanza Brillante",
+        "header": "Lanza Brillante: Ofensiva +65, Daño +35.",
+        "desc": "El Senado le da el Equipo a los mejores Señores como símbolo de su estatus"
+    }
+}
