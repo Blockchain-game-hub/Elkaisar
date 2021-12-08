@@ -189,7 +189,7 @@ class LFightRound {
         
         var unDefSol   = Math.ceil(CellAttack["unit"] * CellAttack.attack / CellDefence.def);
         var DeadUnits  = Math.ceil(CellAttack["unit"] * CellAttack["dam"] / CellDefence.vit);
-        var totalDead = Math.min(unDefSol, DeadUnits)*OneSolDamage;
+        var totalDead = Math.min(unDefSol, DeadUnits) * OneSolDamage;
 
         /* this condetion will check  if the two cells have not fight done*/
 

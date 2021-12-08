@@ -193,7 +193,11 @@ class ABattel
             return [ "state" => "error_2" ];
         if($PlayerGuild[0]["rank"] < GUILD_R_DEPUTY_2)
             return [ "state" => "error_3" ];
-        if(!LItem::useItem("bronze_horn"))
+        if(LWorldUnit::isRepelCastleS($Unit["ut"]) && !LItem::useItem("bronze_horn"))
+            return [ "state" => "error_4" ];
+        if(LWorldUnit::isRepelCastleM($Unit["ut"]) && !LItem::useItem("silver_horn"))
+            return [ "state" => "error_4" ];
+        if(LWorldUnit::isRepelCastleH($Unit["ut"]) && !LItem::useItem("gold_horn"))
             return [ "state" => "error_4" ];
         
         $Pram = [];

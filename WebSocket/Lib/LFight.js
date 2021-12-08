@@ -120,11 +120,11 @@ class LFight
                 Cell["troopsKilled"] = 0;
                 Cell["troopsKills"] = 0;
 
-                Cell["unit"] = Math.max(0, (Cell["unit"] - Cell["dead_unit"]));
-                Cell["dead_unit"] = 0;
-                Cell["honor"] = 0;
-                Cell["points"] = 0;
-                Cell["armyType"] = Cell["unit"] > 0 ? Cell["armyType"] : 0;
+                Cell["unit"]        = Math.max(0, (Cell["unit"] - Cell["dead_unit"]));
+                Cell["dead_unit"]   = 0;
+                Cell["honor"]       = 0;
+                Cell["points"]      = 0;
+                Cell["armyType"]    = Cell["unit"] > 0 ? Cell["armyType"] : 0;
 
             }
             

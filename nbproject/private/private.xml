@@ -3,11 +3,9 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/xampp/htdocs/Elkaisar/WebSocket/ApiLib/AlTeam.js</file>
-            <file>file:/C:/xampp/htdocs/Elkaisar/WebSocket/Lib/LServerSchadular.js</file>
-            <file>file:/C:/xampp/htdocs/Elkaisar/WebSocket/CPanal/CPWorld.js</file>
+            <file>file:/C:/xampp/htdocs/Elkaisar/api/ABattel.php</file>
             <file>file:/C:/xampp/htdocs/Elkaisar/WebSocket/Support/SWorldCity.js</file>
-            <file>file:/C:/xampp/htdocs/Elkaisar/WebSocket/modules/lib/serverAnnounce.js</file>
+            <file>file:/C:/xampp/htdocs/Elkaisar/js/json/ItemLang/ar.json</file>
         </group>
     </open-files>
 </project-private>
